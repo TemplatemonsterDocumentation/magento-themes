@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Magento Documentation</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/flexslider.css"  media="screen">
+  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+   <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery-migrate-1.1.0.js"></script>
+  <script src="js/prettify.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/bootstrap-affix.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+  
+  <script>    
+    $(document).ready(function() {  
+      $('.flexslider').flexslider({
+        animation: "fade",      
+        slideshow: false,     
+        slideshowSpeed: 7000,
+        animationDuration: 0,
+        prevText: "",
+        nextText: "",
+        controlNav: true,
+      })      
+      
+  // hide #back-top first
+  $("#back-top").hide();
+  
+  // fade in #back-top
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $('#back-top').fadeIn();
+      } else {
+        $('#back-top').fadeOut();
+      }
+    });
+
+    // scroll body to 0px on click
+    $('#back-top a').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 400);
+      return false;
+    });
+  });
+
+
+// prettyphoto init
+        $("a[data-gal^='prettyPhoto']").prettyPhoto({
+          animationSpeed:'slow',
+          theme:'facebook',
+          slideshow:false,
+          autoplay_slideshow: false,
+          show_title: true,
+          overlay_gallery: false
+        }).append('<span></span>').hover(
+          function(){
+            $(this).find('>img').stop().animate({opacity:.5})
+          },
+          function(){
+            $(this).find('>img').stop().animate({opacity:1})
+          }
+        );    
+
+// slide-down-box-------------------------------  
+      var idArray = [],
+          click_scroll = false;
+      $("#nav a").each(function(index){
+        idArray[index]=$(this).attr("href");
+      });
+      
+      $('ul.list li a').prepend('<i class="icon-sample"></i>');
+      $('li:first-child', "#nav").addClass('first');
+      $('li:last-child', "#nav").addClass('last');
+
+      $("#affect_all").toggle(
+        function(){
+          $("#nav>li").not(".act_item").addClass("open_item").find("dd").stop(true).slideDown(200);
+          $(this).find('.expand').hide();
+          $(this).find('.close').show();
+        },
+        function(){
+          $("#nav>li").not(".act_item").removeClass("open_item").find("dd").stop(true).slideUp(200);
+          $(this).find('.expand').show();
+          $(this).find('.close').hide();
+        }
+      );
+      $(".slide-down dt i").click(function(){
+        $(this).parents("li").toggleClass("open_item").find('dd').slideToggle(300);
+        return false;
+      });
+      $(".slide-down a").click(function(){
+        click_scroll = true;
+        $(window).scrollTo($(this).attr("href"), 800, function(){
+          click_scroll = false;
+          change_menu_item();
+        });
+        return false;
+      });
+      $(window).scroll(change_menu_item).trigger("scroll");
+      function change_menu_item(){
+        if(!click_scroll){
+          $(".current").removeClass("current");
+          $(".act_item").removeClass("act_item");
+          $(".open_item").removeClass("open_item");
+          for(var i=0, lenghtArray = idArray.length; i<lenghtArray; i++){
+            if($(idArray[i]).offset().top-$(window).scrollTop()<=(($(window).height()/2)-100) && $(idArray[i]).offset().top-$(window).scrollTop()>=0 || $(window).scrollTop()+(($(window).height()/2)-100)>$(idArray[i]).offset().top && $(idArray[i]).offset().top+$(idArray[i]).height()>$(window).scrollTop()+(($(window).height()/2))){
+              $("a[href="+idArray[i]+"]").parent("li").addClass("current");
+              $("a[href="+idArray[i]+"]").parents("li").addClass("act_item open_item");
+            }
+          }
+          $(".act_item").find("dd").slideDown(200);
+          $("li", '#nav').not(".act_item").find("dd").stop().slideUp(200);
+        }
+      }
+      /*Language switcher*/
+
+      $('#lang_icon').toggle(function(){
+        $('#lang_icon > i').find('i').removeClass('icon-angle-down').addClass('icon-angle-up');
+        $('#lang_list').slideDown(200);
+      }, function(){
+        $('#lang_list').slideUp(200);
+        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+      })
+
+      $('#lang_list li').click(function(){
+        $('#lang_list').slideUp(200);
+        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+      })
+      $(document).click(function() { 
+        $('#lang_list').slideUp(200);
+        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+       }); 
+      $('#lang_icon').click(function(e){ 
+          e.stopPropagation(); 
+      });
+
+    })  
+    !function ($) {
+      $(function(){ 
+        var $window = $(window)   
+        // make code pretty
+        window.prettyPrint && prettyPrint()
+        // side bar
+        $('#nav_container').affix({
+          offset: {
+            top: 80   
+          }
+        })
+      })
+    }(window.jQuery)  
+  </script>    
+
+    <!--[if lt IE 8]>
+      <div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>  
+
+<!-- header
+================================================== -->
+<header class="header">
+  <div class="container">
+  <div class="row">
+  <article class="span4"><a class="brand" href="http://templatemonster.com" target="_blank"></a></article>
+ <article class="span6">
+ <h1><img alt="" src="img/magento_logo.png"> Документация&nbsp;Magento</h1>
+  </article>   
+  <article class="span2">
+    <div class="languages pull-right">
+      <!-- <span class="lang_label">Language: </span> --><div id="lang_icon"><b>Ru</b><i class="icon-angle-down"></i></div>
+      <ul id="lang_list">
+        <li><a href="Documentation (Installation and Editing).html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <li class="active"><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
+      </ul>
+    </div>
+  </article>   
+  </div>    
+  </div>
+</header>
+<div id="content"> 
+<div class="bg-content-top">
+<div class="container">
+
+<!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3"> 
+
+        <div id="nav_container">
+          <a href="javascript:;" id="affect_all">
+            <span class="expand">
+              <i class="icon-angle-down"></i>
+            </span>            
+            <span class="close">
+              <i class="icon-angle-up"></i>
+            </span>
+          </a>
+            <div class="clearfix"></div>    
+                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
+                  <li class="nav-item item1">
+                    <dl class="slide-down">
+                       <dt><a href="#introduction" class="icon-info-sign">Введение</a></dt>  
+                       <dd></dd>                       
+                     </dl> 
+                  </li>    
+                  <li class="nav-item item1">
+                    <dl class="slide-down">
+                       <dt><a href="#preparations" class="icon-check">Подготовка</a></dt>  
+                       <dd></dd>                       
+                     </dl> 
+                  </li>           
+                  <li class="nav-item item2">
+                    <dl class="slide-down">
+                       <dt><a href="#engine_installation" class="icon-cog">Установка движка</a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#server_requirements">Требования к серверу</a></li>
+                            <li><a href="#downloading">Загрузка</a></li>
+                            <li><a href="#extracting_files">Извлечение файлов</a></li>
+                            <li><a href="#upl_files">Загрузка файлов Magento</a></li>
+                            <li><a href="#ps_engine_install">Установка движка Magento</a></li>
+                            
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li>
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#theme_installation" class="icon-cog">Установка шаблона Magento</a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                              <li><a href="#themeinstaller">Ручная настройка шаблона</a></li>
+                              <li><a href="#general_customization">Общие настройки</a></li>
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#conclusion" class="icon-question-sign">Выводы</a></dt>
+                         <dd></dd>
+                     </dl> 
+                  </li>
+                </ul>
+            </div>
+    </div> 
+
+      
+<div class="span9">
+
+<!-- box-content
+================================================== -->
+<div class="box-content">
+<!-- block-started
+================================================== -->
+<section class="block-started"  id="introduction">
+  <h2><i class="icon-info-sign"></i> Введение <small><i>Что вы найдете в этом документе и как это можно использовать</i></small></h2>
+  <p>Благодарим вас за покупку шаблона Magento. Это документ состоит из нескольких частей и продемонстрирует вам вес процесс создания с нуля и администрирования магазина Magento. Мы сделали все возможное, что бы эта инструкция была предельно понятной и простой в использовании. </p>
+  
+  <div id="magento_ecommerce_desc">
+    <h4>Что такое Magento Commerce?</h4>
+    <p>Magento это многофункциональная платформа для электронной коммерции с открытым исходным кодом. Она предоставляет гибкие возможности и полный контроль внешнего вида, содержимого и функциональности интернет-магазинов. Интуитивная административная панель Magento обеспечивает замечательные возможности для маркетинговых мероприятий, поисковой оптимизации и управления каталогом для полного соответствия сайта уникальным бизнес-процессам каждого магазина. Созданная для обеспечения масштабируемости и при поддержке сети Varien, Magento предлагает универсальное комплексное решение для электронной коммерции. <a href="http://www.magentocommerce.com/download" target="_blank">Подробнее</a></p>
+  </div>
+
+  <div id="magento_theme_desc">
+    <h4>Что такое шаблон Magento</h4>
+    <p>Magento шаблон это готовый дизайн для вашего магазина на основе Magento. Другими словами, вы можете легко изменить внешний вид вашего магазина, просто установив новый шаблон. Не смотря на вся простоту, наши шаблоны Magento поставляются со всеми необходимыми исходными файлами, которые вы можете редактировать или дополнять так, как вам это нужно.</p>
+  </div>
+
+  <div id="file_structure">
+    <h4>Структура файлов</h4>
+    <p>Архив шаблона, который вы скачали, состоит из нескольких папок. Давайте разберемся, что в них находится:</p>
+    <ul class="files_structure">
+      <li class="folder"><i class="icon-folder-open"></i> <b>documentation</b><small class="muted"> - содержит файлы с документацией</small>
+        <ul>
+          <li class="file"><i class="icon-file"></i> Documentation (Installation and Editing).html<small class="muted"> - Основной файл документации. В нем вы можете выбрать интересующий вас язык, к примеру, русский.</small></li>
+        </ul>
+      </li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>screenshots</b><small class="muted"> - содержит скриншоты шаблона. Не для рабочего сайта</small></li>
+      <li class="folder"><i class="icon-folder-open"></i> <b>sources</b><small class="muted"> - содержит исходные файлы шаблона</small>
+        <ul>
+          <li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> - исходные файлы для Adobe Photoshop (.psd)</small></li>
+          <li class="folder"><i class="icon-folder-close"></i> demo<small class="muted"> - содержит дополнительные страницы и пользовательские блоки, входящие в шаблон</small></li>
+          <li class="folder"><i class="icon-folder-open"></i> sample_data<small class="muted"> - содержит демо данные для шаблона Magento</small>
+            <ul>
+              <li class="folder"><i class="icon-folder-close"></i> media<small class="muted"> - содержит файлы и папки, которые необходимо загрузить в корневую папку используемой установки Magento</small></li>
+              <li class="file"><i class="icon-file"></i> dump.sql.gz<small class="muted"> - резервная копия базы данных. Содержит демонстрационные данные шаблона. </small></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>theme###</b><small class="muted"> - содержит файлы и папки шаблона Magento, которые необходимо загрузить в корневую папку используемой установки Magento</small></li>
+      <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - содержит ссылки, по которым могут быть загружены нестандартные шрифты используемые в шаблоне</small></li>
+      <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - содержит инструкции по распаковке исходных файлов</small></li>
+    </ul>
+  </div>
+</section>
+<section class="block-templates" id="preparations">  
+  <h2><i class="icon-check"></i> Подготовка</h2>
+  <p>Движку Magento требуется подключение к базе данных для хранения информации. Перед тем, как приступать к установке Magento убедитесь, что вы создали базу даных MySQL. Это можно сделать через панель управления вашим хостингом или панель phpMyAdmin.</p>
+  <p>Посмотрите подробную инструкцию <a target="blank"  href="http://info.template-help.com/help/ru/how-create-database.html">как создать базу даных MySQL database</a>. При возникновении любых сложностей свяжитесь с вашим хостером и попросите о помощи. </p>
+  <p>При создании базы данных вы получите такие данные: название базы данных, имя пользователя, пароль и адрес сервера баз данных. Сохраните эти данные, так как они понадобятся вам при установке Magento. </p>
+</section>
+
+<section class="block-templates" id="engine_installation">  
+  <h2><i class="icon-cog"></i> Установка движка Magento</h2>
+
+  
+  <article id="server_requirements">
+  <h3>1. Требования к серверу</h3>
+  <p>Убедитесь, что ваш хостинг соответствует требованиям Magento:</p>
+  <ol>
+    <li><b>Система:</b> Unix, Linux или Windows. Unix рекомендуется.</li>
+    <li><b>Web сервер:</b> Сервер Apache 1.3 или выше, Microsoft's IIS 6.0 или выше, и nginx 1.0 или выше.</li>	
+    <li><b>PHP 5.2<b style="color:#ff0000">*</b></b> или выше.</li>
+    <li><b>MySQL 5.0</b> или выше.</li>
+    <li>Минимум 32 Mb доступной оперативной памяти (рекомендуется 64 Mb, или чем больше, тем лучше). </li>
+  </ol>
+  <div class="box-info"><span> Magento может работать с PHP начиная с версии 5.1, но версии до 5.2 содержали ошибки, которые могут помешать нормальной работе некоторых функций (к примеру, работе с временными зонами).</span></div>
+  </article>
+    
+
+  <article id="downloading">
+    <h3>2. Загрузка</h3>
+    <p>Для установки Magento вам нужно загрузить архив с официального сайта <a target="blank"  href="http://www.magentocommerce.com/download">www.magentocommerce.com/download</a></p>
+  <p>в разделе Download укажите имя и e-mail и нажмите кнопку <b>'Скачать'</b>. </p>
+  <div class="box-info"><span>Убедитесь, что вы скачиваете версию Magento которая совместима с вашим шаблоном. Все версии Magento доступны на <a href="http://sourceforge.net/projects/prestashop/files/prestashop%20v1/">SourceForge</a></span></div>
+
+  </article>
+
+  
+  <article id="extracting_files">
+    <h3>3. Извлечение файлов</h3>
+    <p>После окончания загрузки вам потребуется распаковать файлы архива Magento.</p>
+  <p>Вы можете сделать это с помощью менеджера архивов, к примеру: <b>WinZip(PC)</b>, <b>StuffitExpander(MAC)</b> etc.</p>
+  <p>Посмотрите инструкции по извлечению архивов с помощью <a href="http://info.template-help.com/help/ru/extract-archived-files-windows-os.html">WinZip(PC)</a> и <a href="http://info.template-help.com/help/ru/extract-archived-files-mac-os.html">StuffitExpander(MAC)</a>.</p>
+  <div class="box-info"><span>Внимание: если в панели управления хостингом есть кнопка <b>'Extract'</b> (распаковать/извлечь) вы можете использовать ее ля распаковки архива прямо на сервере (сам архив вам понадобится загрузить на хостинг). </span></div>
+  </article>
+  <article id="upl_files">
+    <h3>4. Загрузка файлов Magento</h3>
+    <p>В том случае, если вы распаковали архив локально (на своем компьютере) вам потребуется загрузить файлы на хостинг.</p>
+  <p>Вы можете использовать Файловый менеджер панели управления вашим хостингом или воспользоваться одним из FTP приложений. К примеру: FileZilla, TotalCommander, CureFTP и т.д.</p>
+  <p>Посмотрите подробную видео инструкцию <a href="http://info.template-help.com/help/ru/how-upload-files-server-2.html">Как загрузить файлы на сервер </a> и <a href="http://info.template-help.com/help/ru/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">Как загрузить файлы с помощью cPanel (WebHost менеджер, WHM)</a>.</p>
+  </article>
+  <article id="ps_engine_install">
+    <h3>5. Установка движка Magento</h3>
+      <p>После окончания загрузки файлов можно приступать к установке Magento. Откройте ваш браузер и в адресной строке браузера напишите<b>'domain name/path to your Magento directory'</b>. Вы должны увидеть экран приветствия. Следуйте инструкциям для установки Magento. </p>
+    <div class="box-error"><span>Внимание: файл dump.sql.gz должен быть импортирован в чистую базу данных ПЕРЕД установкой Magento.</span></div>
+    <p>Архив шаблона Magento содержит файл с демонстрационными данными (dump.sql или dump.gz). Этот файл находится в папке <b>/sources/sample_data</b> вашего шаблона. Этот файл позволяет вам установить демонстрационные данные, что бы ваш сайт после установки шаблона выглядел так же, как на Демо версии шаблона.</p>
+
+    <p>Для установки файла с дампом выполните следующие действия:</p>
+    <ol>
+        <li>Зайдите в средство управления базами данных (PhpMyAdmin). Вы можете получить к нему доступ через контрольную панель вашего хостинга.</li>
+        <li>Создайте новую базу данных.</li>
+        <li>Выберите ту базу данных, которую планируете использовать для Magento CMS.</li>
+        <li>Выберите "IMPORT" и нажмите кнопку "Browse"</li>
+        <li>Перейдите в папку "/sources/sample_data" вашего шаблона и выберите файл dump.sql.gz</li>
+        <li>Нажмите кнопку "GO".</li>
+    </ol>
+
+    <div class="box-error"><span>Не используйте файл dump.sql.gz если у вас есть уже работающий магазин. Импорт файла dump.sql.gz удалит все уже добавленные туда товары. Если вы не хотите устанавливать демонстрационные данные, то устанавливайте Magento на пустую базу данных. Пропустите этап установки демонстрационных данных в этой инструкции. </span></div>	
+    <h3>Установка шаблона Magento</h3>
+    <p>Следующий этап процесса установки - добавление шаблона. Шаблон должен быть установлен в любом случае, вне зависимости от того устанавливаете вы демонстрационные данные или нет</p>
+    <ol>
+        <li>Для начала откройте архив с шаблоном и перейдите в папку theme###.</li>
+        <li>Загрузите содержимое папки theme### в папку установки Magento (загрузите папки "app", "skin" и другие). Эти папки содержат файлы темы. Они никак не скажутся на ваших файлах созданных ранее.</li>
+        <li>Если вы импортировали файл dump.sql.gz и собираетесь использовать демонстрационные данные, то вам нужно будет загрузить изображения товаров. Загрузите папку "media" из папки sources/sample_data в папку установки Magento.</li>
+        <li>Если вы не импортировали файл dump.sql.gz то вам не нужно загружать папку "media".</li>
+    </ol>
+
+    <h4>Шаг 1: Installation Assistant</h4>
+      <p>Прочтите, пожалуйста, лицензионное соглашение и поставьте галочку подтверждающую ваше с ним согласие. </p>
+    
+    <h4>Шаг 2: Installation Assistant (Локализация)</h4>
+      <p>Выберите локаль, временную зону и валюту по умолчанию. Выбор локали определит язык панели управления вашим магазином. Если вы хотите изменить язык страниц магазина Magento, то вам потребуется загрузить и установить соответствующие локали дополнительно. Все настройки могут быть изменены позже через панель управления Magento. </p>
+      <img class="presta_scr1" src="img/how-to-install-1.jpg" alt="" />
+    <h4>Шаг 3: Настройка</h4>
+      <p>Тут вам необходимо указать даные для доступа к базе данных и некоторые базовые настройки.
+    <b>Database Connection</b> – укажите адрес сервера, название базы, имя пользователя и пароль. Свяжитесь с вашим хостером, если у вас нет необходимых данных. </p>
+    <p>Убедитесь, что вы создали базу для установки Magento. Так же убедитесь, что она пустая и в ней нет никаких таблиц.
+<b>Web access options</b> и <b>Session Storage Options</b> – оставьте эти разделы без изменений, если не уверены в том, что делаете. Настройки по умолчанию подходят в большинстве случаев.</p>
+    <img class="presta_scr1" src="img/how-to-install-3.jpg" alt="" />
+    <p>Если все правильно, нажмите кнопку '<b>Continue</b>'.</p>
+
+    <h4>Шаг 4: Create Admin Account</h4>
+    <p>Тут вам нужно указать личные данные владельца магазина или администратора. </p>
+    <img class="presta_scr1" src="img/how-to-install-4.jpg" alt="" />
+    <p>Когда данные будут введены, нажмите кнопку <b>'Continue'</b>.</p>
+
+    <h4>Шаг 5: You are All Set</h4>
+    <p>Это завершающий этап установки. Скопируйте зашифрованный ключ и сохраните его в надежном месте. Вы можете использовать кнопки в правом нижнем углу для перехода в панель управления магазином или на страницы самого магазина. </p>
+    <img class="presta_scr1" src="img/how-to-install-5.jpg" alt="" />
+  </article>
+
+</section>
+<section class="block-templates" id="theme_installation">
+  <h2><i class="icon-cog"></i> Установка шаблона Magento на функционирующий сайт</h2>
+    <article id="themeinstaller">
+      <h3>1. Ручная настройка шаблона.</h3>
+      <p>В первую очередь убедитесь, установленная версия Magento совместима с выбранным вами шаблоном. Если вы используете устаревшую версию Magento, то обновите ее. Не забудьте создать резервную копию файлов магазина и базы данных. Инструкции по обновлению Magento доступны на сайте <a target="blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a>.</p>
+      <p>Если движок Magento соответствует требованиям шаблона, то можно приступать к установке. </p>
+    <ol>
+      <li>Откройте архив шаблона и перейдите в папку <b>theme###</b>.</li>
+      <li>Загрузите папку <b>theme###</b> в корень установки Magento  (загрузите "<b>app</b>", "<b>skin</b>" и остальные папки). Эти папки содержат файлы шаблона. Они не повлияют на уже существующие файлы.</li>
+    </ol>
+        <h4 id="template_installation_themeinstallator2">1. Настройка шаблона.</h4>
+    <p>Ручная настройка шаблона. </p>
+    <ol>
+      <li>Активируйте новый шаблон</li>
+        <ul>
+          <li>Откройте панель управления Magento и выберите в верхнем меню <b>System > Design</b></li>
+          <li>Нажмите кнопку "<b>Add Design Change</b>"</li>
+          <li>В поле "<b>Custom Design</b>" выберите название шаблона (к примеру, theme###)</li>
+          <li>Нажмите кнопку "<b>Save</b>" для сохранения внесенных изменений</li>
+        </ul>
+        <li>Переиндексация данных </li>
+          <ul>
+              <li>Откройте панель управления Magento и выберите в верхнем меню <b>System > Index Management</b></li>
+              <li>Выберите поле "<b>Select All</b>" в верхнем левом углу</li>
+              <li>Справа в поле "<b>Actions</b>" выберите "<b>Reindex Data</b>"</li>
+              <li>Нажмите кнопку "<b>Submit</b>"</li>
+              <li>Сохраняйте терпение. Эта операция может потребовать некоторое время.</li>
+          </ul>
+    </ol>
+    <h4 id="template_installation_themeinstallator3">2. Настройка логотипа.</h4>
+    <p>Следуйте этой инструкции для решения проблем с логотипом.</p>
+    <ol> 
+      <li>Откройте панель управления Magento и выберите в верхнем меню  <b>System > Configuration</b></li>
+      <li>Перейдите на вкладку "<b>Design</b>"</li>
+      <li>В разделе "<b>Header</b>" отредактируйте значение поля "<b>Logo Image Src</b>". Измените его с "<b>gif</b>" на "<b>png</b>"</li>
+      <li>Нажмите кнопку "Save Config"</li>
+    </ol>
+    <h4 id="template_installation_themeinstallator4">3. Настройка страниц</h4>
+    <p>Главная страница шаблона может содержать следующие элементы: банеры, слайдер, галерею, flash анимацию и т.д. Для добавления этих блоков в магазин следуйте следующей инструкции.</p>
+    <div class="box-notification"><span>Мы рекомендуем отключить WYSIWYG редактор. Для того, что бы сделать это в верхнем меню панели управления выберите <strong>System &gt; Configuration</strong>. Откройте раздел "<strong>Content Management</strong>" и в окне <strong>WYSIWYG Options</strong> переключите "<strong>Enable WYSIWYG Editor</strong>" на "<strong>Disabled Completely</strong>".</span></div>
+    <ol> 
+        <li>В верхнем меню выберите — <b>CMS > Pages</b>. Страницы Home page, About Us и Customer Service уже должны быть доступны, так что вам не потребуется их добавлять. Вам потребуется только обновить HTML и XML содержимое страниц.</li>
+        <li>В случае, если вам нужна новая страница, нажмите кнопку "<b>Add New Page</b>" в правом верхнем углу.</li>
+        <li>Откройте страницу и выберите вкладку <b>Content</b>. Она содержит HTML код страницы. Вы можете взять необходимый код из соответствующего исходного файла. Список исходных файлов вы можете найти в таблице ниже. Скопируйте код из исходного файла и вставьте его в раздел content.</li>
+       <li>когда закончите с кодом, перейдите на вкладку "<b>Design</b>". Она содержит XML код страницы. XML код должен быть скопирован так же, как и HTML из исходного файла. вставьте новый код в раздел "<b>Layout Update XML</b>".</li>
+       <li>Не забудьте выбрать необходимую настройку "<b>Layout</b>".</li>
+    </ol>
+    <p>При любых сложностях обратитесь к подробной инструкции <a target="blank" href="http://info.template-help.com/help/ru/magento-how-to-install-sample-content-pages-manually.html">Как установить страницы демо-контента вручную</a>.</p>
+    <table class="table table-bordered">
+      <tr>
+          <th>#</th>
+          <th>Page Name</th>                      
+          <th>Page HTML (Вкладка Content)</th>
+          <th>Page XML (Вкладка Design)</th>
+          <th>Макет</th>
+      </tr>
+      <tr>
+          <td>1.</td>
+          <td>Home Page</td>                        
+          <td>sources\demo\pages\home_page.phtml</td>
+          <td>sources\demo\pages\home_page.xml</td>
+          <td>1 колонка</td>                         
+      </tr>
+      <tr>
+          <td>2.</td>
+          <td>About  Us</td>                        
+          <td>sources\demo\pages\about_us.phtml</td>
+          <td>Отсутствует</td>
+          <td>1 колонка</td>                         
+      </tr>
+      <tr>
+          <td>3.</td>
+          <td>Customer Service</td>                        
+          <td>sources\demo\pages\customer_service.phtml</td>
+          <td>Отсутствует</td>
+          <td>1 колонка</td>                         
+      </tr>
+      <tr>
+          <td>4.</td>
+          <td>Privacy Policy</td>                        
+          <td>sources\demo\pages\privacy_policy.phtml</td>
+          <td>Отсутствует</td>
+          <td>1 колонка</td>                         
+      </tr>
+  </table>
+
+  <div class="box-info"><span>По соображениям безопасности вам следует удалить папку <b>/install/</b> и переименовать папку <b>/admin/</b> на вашем хостинге.</span></div>
+
+    <h4 id="template_installation_themeinstallator4">4. Настройка статических блоков</h4>
+    <p>После настройки страниц нужно настроить статические блоки. Процесс очень похож - вам нужно скопировать код из исходных файлов. </p>
+    <ol> 
+        <li>В верхнем меню выберите — <b>CMS > Static Blocks</b>.</li>
+        <li>Нажмите кнопку "Add New block" в правом верхнем углу для добавления нового блока.</li>
+        <li>Укажите имя блока и идентификатор. Вы можете найти необходимые данные в таблице ниже.</li>
+        <li>Откройте исходные файлы блоков и скопируйте оттуда HTML код в раздел content.</li>
+    </ol>
+    <p>
+      <img class="presta_scr2" src="img/how-to-install-6.jpg" alt="" />
+    </p>
+    <div class="box-info"><span>Внимание: Некоторые шаблоны не содержат статических блоков, так что таблица может быть пустой. </span></div>
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Название блока</th>
+            <th>Заголовок блока</th>
+            <th>Идентификатор</th>
+            <th>Содержимое</th>                
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Footer List</td>
+            <td>Footer List</td>
+            <td>footer_list</td>
+            <td>sources\demo\static_blocks\footer_list.phtml</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Custom tab</td>
+            <td>Custom tab</td>
+            <td>custom_tab</td>
+            <td>sources\demo\static_blocks\custom_tab.phtml</td>
+        </tr>
+       <tr>
+            <td>3.</td>
+            <td>contact_block</td>
+            <td>contact_block</td>
+            <td>contact_block</td>
+            <td>sources\demo\static_blocks\contact_block.phtml</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Map contents</td>
+            <td>Map content</td>
+            <td>map_content</td>
+            <td>sources\demo\static_blocks\map_content.phtml</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Footer info</td>
+            <td>Footer info</td>
+            <td>footer_info</td>
+            <td>sources\demo\static_blocks\footer_info.phtml</td>
+        </tr>
+    </table>
+    <div class="box-info"><span>Исходные файлы для статических блоков находятся в папке "<b>sources\demo\static_blocks\</b>" архива шаблона. </span></div>
+    <p>После окончания настроек страниц и статических блоков ваш магазин готов к работе.</p>  
+    </article>
+    <article id="general_customization">
+      <h3>2. Общие настройки</h3>
+      <div class="box-notification"><span>При редактировании страниц и статических блоков мы рекомендуем отключать WYSIWYG редактор. Для этого в верхнем меню панели управления выберите <strong>System &gt; Configuration</strong>. Откройте раздел "<strong>Content Management</strong>" и в окне <strong>WYSIWYG Options</strong> поменяйте значение "<strong>Enable WYSIWYG Editor</strong>" на "<strong>Disabled Completely</strong>".</span></div>
+
+        <h4 id="template_installation_clear1">1. Как редактировать страницы</h4>
+        <ol>
+          <li>
+            <p>В верхнем меню выберите — <b>CMS > Pages</b>. Тут находятся все страницы магазина. Откройте любую из них для того, что бы получить доступ к содержимому.</p>
+            <p>
+              <img class="presta_scr2" src="img/how-to-install-7.jpg" alt="" />
+            </p>
+          </li>
+          <li>В левой колонке выберите вкладку Content. Она содержит HTML код страницы. Вы можете его отредактировать. </li>
+          <li>Перейдите на вкладку "<b>Design</b>" для получения доступа к XML содержимому. XML код позволяет вам встроить статические блоки Magento и виджеты на страницу.</li>
+        </ol>
+
+        <h4 id="template_installation_clear2">2. Как редактировать статические блоки</h4>
+        <p>В верхнем меню выберите — <b>CMS > Static Blocks</b>.</p>
+        <img class="presta_scr2" src="img/how-to-install-8.jpg" alt="" />
+        <p>откройте любой из статических блоков. Вы видите его HTML содержимое. Посмотрите блок банеров. Используя HTML код вы можете легко отредактировать банера, ссылки и т.д.</p> 
+        <img class="presta_scr2" src="img/how-to-install-9.jpg" alt="" />
+
+
+        <h4 id="template_installation_clear3">3. Как настроить модуль Currency</h4>
+        <ol>
+            <li>Откройте панель управления Magento</li>
+            <li>В верхнем меню выберите <b>System > Configuration</b></li>
+            <li>Перейдите на вкладку General и выберите <b>Currency Setup</b></li>
+            <li>В <b>Currency Options</b> нажав кнопку CTRL выберите валюты, которые должны быть доступны в вашем магазине. Когда выберете все необходимые, нажмите кнопку <b>Save Config</b> для сохранения изменений.</li>
+            <li>Перейдите в <b>System > Manage Currency Rates</b> в верхнем меню.</li>
+            <li>Установите необходимый курс валют или настройте импорт. Нажмите кнопку <b>Save Currency Rates</b> для сохранения изменений.</li>
+        </ol>
+
+        <h4 id="template_installation_sample2">4. Как редактировать модуль Polls</h4>
+        <p>В верхнем меню выберите CMS > Polls</p>
+        <p>
+          <img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" />
+        </p>
+        
+    </article>
+</section>
+<section class="block-templates" id="conclusion">
+  <h2><i class="icon-question-sign"></i> Выводы</h2>
+  <p>Движок Magento это замечательное решение для вашего онлайн магазина. Он из коробки содержит все модули необходимые для организации эффективных продаж. Открытый исходный код предоставляет вам огромные возможности для создания интернет-магазинов. За счет сложности структуры этого движка, вам потребуется некоторое время, что бы освоить все его возможности. Вам потребуется узнать гораздо больше, чем включает эта инструкция. </p>
+  <p>Что бы стать настоящим профессионалом Magento вам потребуются следующие ресурсы:</p>
+    <h4 id="useful_resources">Полезные ресурсы</h4>
+    <ul>
+        <li><a target="blank" href="http://www.magentocommerce.com/support/magento-user-guide-book">The Official Magento User Guide</a></li>
+        <li><a target="blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a></li>
+        <li><a target="blank" href="http://www.magentocommerce.com/knowledge-base">Knowledge Base</a></li>
+        <li><a target="blank" href="http://www.magentocommerce.com/boards/">Magento Forum</a></li>
+        <li><a target="blank" href="http://www.siteground.com/tutorials/magento/">Siteground Magento tutorials</a></li>
+        <li><a target="blank" href="http://info.template-help.com/help/magento-quick-start-guide.html">Template-help Magento tutorials</a></li>
+    </ul>
+</section>
+</div>
+</div>
+</div>
+
+  </div>
+  </div>
+  </div>
+   <!-- Footer
+    ================================================== -->
+    <footer>
+      <div class="container">        
+       Magento Documentation<br>
+      © 2013 Template Monster
+      </div>
+    </footer>
+
+  <div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
+  </div>
+    
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+
+<script type="text/javascript"> 
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-2787305-5']); 
+  _gaq.push(['_trackPageview']); 
+
+  (function() { 
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })(); 
+</script>
+    
+</body> 
+
+</html>
