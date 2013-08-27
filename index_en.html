@@ -6,157 +6,14 @@
   <link rel="stylesheet" href="css/bootstrap.css" media="screen">
   <link rel="stylesheet" href="css/responsive.css" media="screen">
   <link rel="stylesheet" href="css/style.css" media="screen">
-  <link rel="stylesheet" href="css/flexslider.css"  media="screen">
   <link rel="stylesheet" href="css/prettify.css"  media="screen">
-   <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
   <script src="js/jquery.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/jquery-migrate-1.1.0.js"></script>
   <script src="js/prettify.js"></script>
-  <script src="js/jquery.flexslider.js"></script>
   <script src="js/bootstrap-affix.js"></script>
-  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-  
-  <script>    
-    $(document).ready(function() {	
-  		$('.flexslider').flexslider({
-  		  animation: "fade",      
-  		  slideshow: false,     
-  		  slideshowSpeed: 7000,
-  		  animationDuration: 0,
-  		  prevText: "",
-  		  nextText: "",
-  		  controlNav: true,
-  		}) 			
-			
-  // hide #back-top first
-  $("#back-top").hide();
-  
-  // fade in #back-top
-  $(function () {
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
-        $('#back-top').fadeIn();
-      } else {
-        $('#back-top').fadeOut();
-      }
-    });
-
-    // scroll body to 0px on click
-    $('#back-top a').click(function () {
-      $('body,html').animate({
-        scrollTop: 0
-      }, 400);
-      return false;
-    });
-  });
-
-
-// prettyphoto init
-        $("a[data-gal^='prettyPhoto']").prettyPhoto({
-          animationSpeed:'slow',
-          theme:'facebook',
-          slideshow:false,
-          autoplay_slideshow: false,
-          show_title: true,
-          overlay_gallery: false
-        }).append('<span></span>').hover(
-          function(){
-            $(this).find('>img').stop().animate({opacity:.5})
-          },
-          function(){
-            $(this).find('>img').stop().animate({opacity:1})
-          }
-        );		
-
-// slide-down-box-------------------------------  
-      var idArray = [],
-          click_scroll = false;
-      $("#nav a").each(function(index){
-        idArray[index]=$(this).attr("href");
-      });
-      
-      $('ul.list li a').prepend('<i class="icon-sample"></i>');
-      $('li:first-child', "#nav").addClass('first');
-      $('li:last-child', "#nav").addClass('last');
-
-      $("#affect_all").toggle(
-        function(){
-          $("#nav>li").not(".act_item").addClass("open_item").find("dd").stop(true).slideDown(200);
-          $(this).find('.expand').hide();
-          $(this).find('.close').show();
-        },
-        function(){
-          $("#nav>li").not(".act_item").removeClass("open_item").find("dd").stop(true).slideUp(200);
-          $(this).find('.expand').show();
-          $(this).find('.close').hide();
-        }
-      );
-      $(".slide-down dt i").click(function(){
-        $(this).parents("li").toggleClass("open_item").find('dd').slideToggle(300);
-        return false;
-      });
-      $(".slide-down a").click(function(){
-        click_scroll = true;
-        $(window).scrollTo($(this).attr("href"), 800, function(){
-          click_scroll = false;
-          change_menu_item();
-        });
-        return false;
-      });
-      $(window).scroll(change_menu_item).trigger("scroll");
-      function change_menu_item(){
-        if(!click_scroll){
-          $(".current").removeClass("current");
-          $(".act_item").removeClass("act_item");
-          $(".open_item").removeClass("open_item");
-          for(var i=0, lenghtArray = idArray.length; i<lenghtArray; i++){
-            if($(idArray[i]).offset().top-$(window).scrollTop()<=(($(window).height()/2)-100) && $(idArray[i]).offset().top-$(window).scrollTop()>=0 || $(window).scrollTop()+(($(window).height()/2)-100)>$(idArray[i]).offset().top && $(idArray[i]).offset().top+$(idArray[i]).height()>$(window).scrollTop()+(($(window).height()/2))){
-              $("a[href="+idArray[i]+"]").parent("li").addClass("current");
-              $("a[href="+idArray[i]+"]").parents("li").addClass("act_item open_item");
-            }
-          }
-          $(".act_item").find("dd").slideDown(200);
-          $("li", '#nav').not(".act_item").find("dd").stop().slideUp(200);
-        }
-      }
-      /*Language switcher*/
-
-      $('#lang_icon').toggle(function(){
-        $('#lang_icon > i').find('i').removeClass('icon-angle-down').addClass('icon-angle-up');
-        $('#lang_list').slideDown(200);
-      }, function(){
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-      })
-
-      $('#lang_list li').click(function(){
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-      })
-      $(document).click(function() { 
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-       }); 
-      $('#lang_icon').click(function(e){ 
-          e.stopPropagation(); 
-      });
-
-    })  
-    !function ($) {
-      $(function(){	
-        var $window = $(window)		
-        // make code pretty
-        window.prettyPrint && prettyPrint()
-        // side bar
-        $('#nav_container').affix({
-          offset: {
-            top: 80		
-          }
-        })
-      })
-    }(window.jQuery)  
-  </script>    
+ 
+  <script src="js/script.js"></script>
 
     <!--[if lt IE 8]>
   		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
@@ -173,15 +30,18 @@
 <header class="header">
   <div class="container">
   <div class="row">
-  <article class="span4"><a class="brand" href="http://templatemonster.com" target="_blank"></a></article>
+  <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
  <article class="span6">
  <h1><img alt="" src="img/magento_logo.png"> Magento&nbsp;Documentation</h1>
   </article>   
   <article class="span2">
     <div class="languages pull-right">
-      <!-- <span class="lang_label">Language: </span> --><div id="lang_icon"><b>En</b><i class="icon-angle-down"></i></div>
+      <div id="lang_icon"><b>En</b><i class="icon-angle-down"></i></div>
       <ul id="lang_list">
-        <li class="active"><a href="Documentation (Installation and Editing).html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <li class="active"><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <!--li><a href="index_fr.html"><span>Français </span><img src="img/flags/fr.jpg" height="14" width="22" alt="fr"></a></li-->
+        <!--li><a href="index_es.html"><span>Español </span><img src="img/flags/es.jpg" height="14" width="22" alt="es"></a></li-->
+        <!--li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.jpg" height="14" width="22" alt="de"></a></li-->
         <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
       </ul>
     </div>
@@ -336,7 +196,7 @@
     <h3>2. Downloading</h3>
     <p>To install Magento you need to download Magento engine package from the official website at <a target="blank"  href="http://www.magentocommerce.com/download">www.magentocommerce.com/download</a></p>
 	<p>Into the Download box input your name and e-mail and click <b>'Download'</b> button. </p>
-	<div class="box-info"><span>Please make sure your version of Magento engine matches the template requirements. All versions of Magento are available at <a href="http://www.magentocommerce.com/download">SourceForge</a></span></div>
+	<div class="box-info"><span>Please make sure your version of Magento engine matches the template requirements. All versions of Magento are available at <a href="http://www.magentocommerce.com/download" target="_blank">SourceForge</a></span></div>
 
   </article>
 
@@ -345,14 +205,14 @@
     <h3>3. Extracting Files</h3>
     <p>When you are done with the download you need to extract the files from the Magento engine package.</p>
 	<p>This can be done with any archive manager like <b>WinZip(PC)</b>, <b>StuffitExpander(MAC)</b> etc.</p>
-	<p>Please check the following tutorials on how to extract files from the archives with <a href="http://info.template-help.com/help/extract-archived-files-windows-os.html">WinZip(PC)</a> and <a href="http://info.template-help.com/help/extract-archived-files-mac-os.html">StuffitExpander(MAC)</a>.</p>
+	<p>Please check the following tutorials on how to extract files from the archives with <a href="/help/extract-archived-files-windows-os.html" target="_blank">WinZip(PC)</a> and <a href="/help/extract-archived-files-mac-os.html" target="_blank">StuffitExpander(MAC)</a>.</p>
 	<div class="box-info"><span>Please note: if your hosting control panel has the option to <b>'Extract'</b> files you can use it and extract the files directly on your server after upload. </span></div>
   </article>
   <article id="upl_files">
     <h3>4. Uploading Magento engine files</h3>
     <p>In case you extracted the files locally on your computer you need to upload them to your hosting server.</p>
 	<p>This can be done using the hosting control panel File Manager or with some third party FTP Manager applications like FileZilla, TotalCommander, CureFTP etc.</p>
-	<p>You can check the detailed video tutorial on <a href="http://info.template-help.com/help/how-upload-files-server-2.html">how to upload files to server using FTP manager</a> and <a href="http://info.template-help.com/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">how to upload files to a server using cPanel (WebHost Manager, WHM)</a>.</p>
+	<p>You can check the detailed video tutorial on <a href="/help/how-upload-files-server-2.html" target="_blank">how to upload files to server using FTP manager</a> and <a href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">how to upload files to a server using cPanel (WebHost Manager, WHM)</a>.</p>
   </article>
   <article id="ps_engine_install">
     <h3>5. Magento engine installation</h3>
@@ -621,7 +481,7 @@ All options can be easily changed later using the Magento admin panel. </p>
     <footer>
       <div class="container">        
        Magento Documentation<br>
-      © 2013 Template Monster
+      © 2013 <span id="copyright">Template Monster</span>
       </div>
     </footer>
 
