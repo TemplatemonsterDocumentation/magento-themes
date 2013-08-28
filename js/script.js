@@ -103,4 +103,9 @@ $(document).ready(function() {
           }
         })
       })
-    }(window.jQuery)  
+
+    /*Language switcher*/
+    if ($(location).attr('href').indexOf("http://info.template-help.com")+1) {
+      $('#copyright').text('Template-Help.com');
+    }
+    }(window.jQuery)
