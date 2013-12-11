@@ -3,10 +3,11 @@
 <head>
   <title>Magento Documentation</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="css/responsive.css" media="screen">
-  <link rel="stylesheet" href="css/style.css" media="screen">
-  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+  <link rel="stylesheet" href="css/responsive.css" media="screen" />
+  <link rel="stylesheet" href="css/style.css" media="screen" />
+  <link rel="stylesheet" href="css/prettify.css"  media="screen" />
+  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/master/index_en.html" />
   <script src="js/jquery.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/jquery-migrate-1.1.0.js"></script>
@@ -105,6 +106,18 @@
                        </ul> 
                    </dd>
                  </dl> 
+              </li>
+              <li class="nav-item item3">
+                <dl class="slide-down">
+                   <dt><a href="#extension_configuration" class="icon-cog">Extensions Configuration</a> <i class="icon-sample"></i></dt>
+                     <dd>
+                       <ul class="list">          
+                          <li><a href="#livechat">Olark live chat</a></li>
+                          <li><a href="#cloudzoom">Cloud Zoom</a></li>
+                          <li><a href="#addthis">Add This</a></li>
+                       </ul> 
+                   </dd>
+                 </dl> 
               </li> 
               <li class="nav-item item3">
                 <dl class="slide-down">
@@ -142,11 +155,6 @@
     <h4>Files structure</h4>
     <p>The theme package you have downloaded consists of several folders. Let's see what each folder contains :</p>
     <ul class="files_structure">
-      <li class="folder"><i class="icon-folder-open"></i> <b>documentation</b><small class="muted"> - contains documentation files.</small>
-        <ul>
-          <li class="file"><i class="icon-file"></i> Documentation (Installation and Editing).html<small class="muted"> - the main documentation file. You are right here :)</small></li>
-        </ul>
-      </li>
       <li class="folder"><i class="icon-folder-close"></i> <b>screenshots</b><small class="muted"> - contains the theme screenshots. Not for production</small></li>
       <li class="folder"><i class="icon-folder-open"></i> <b>sources</b><small class="muted"> - contains the theme source files</small>
         <ul>
@@ -279,14 +287,15 @@ All the options can be easily changed later using the Magento admin panel. </p>
         <h4 id="template_installation_themeinstallator2">1. Template configuration</h4>
 		<p>This step is used to configure the template manually. </p>
     <ol>
-      <li>Activate new theme</li>
+      <li>Activate new theme
         <ul>
           <li>Open the Magento admin panel and in the top menu select <b>System > Design</b>.</li>
           <li>Click the "<b>Add Design Change</b>" button.</li>
           <li>In the "<b>Custom Design</b>" field select the theme name (in this case theme###).</li>
           <li>Click the "<b>Save</b>" button to confirm the changes.</li>
         </ul>
-        <li>Reindex data </li>
+		</li>
+        <li>Reindex data
           <ul>
               <li>Open the Magento admin panel and in the top menu select <b>System > Index Management</b>.</li>
               <li>Check the "<b>Select All</b>" box in the top left corner.</li>
@@ -294,6 +303,7 @@ All the options can be easily changed later using the Magento admin panel. </p>
               <li>Click the "<b>Submit</b>" button.</li>
               <li>Please be patient, this may take a while.</li>
           </ul>
+		  </li>
     </ol>
     <h4 id="template_installation_themeinstallator3">2. Logo configuration.</h4>
     <p>Please follow this step if you have issues with the logo image.</p>
@@ -354,7 +364,7 @@ All the options can be easily changed later using the Magento admin panel. </p>
 
   <div class="box-info"><span>For security reasons you need to delete the <b>/install/</b> directory and rename the <b>/admin/</b> directory on your hosting server.</span></div>
 
-    <h4 id="template_installation_themeinstallator4">4. Static blocks configuration</h4>
+    <h4 id="template_installation_themeinstallator5">4. Static blocks configuration</h4>
     <p>When you are done configuring pages you need to configure the static blocks. The procedure is similar - you need to copy the code from the source files. </p>
     <ol> 
         <li>From the top menu select <b>CMS > Static Blocks</b>.</li>
@@ -452,6 +462,30 @@ All the options can be easily changed later using the Magento admin panel. </p>
           <img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" />
         </p>
         
+    </article>
+</section>
+<section class="block-templates" id="extension_configuration">
+  <h2><i class="icon-cog"></i> Extensions configuration</h2>
+    <article id="livechat">
+      <h3>1. Olark Live Chat</h3>
+      <p>To set up a live chat like the one on the Live Demo, you'll need to register on the official Web site <a target="blank" href="http://www.olark.com/?r=ad8fbsj2">Olark registration</a>. After you provide all the data required, you'll get a code to add through your admin panel.</p>
+      <p>
+        <img class="presta_scr2" src="img/how-to-install-12.jpg" alt="" />
+      </p>
+    </article>
+    <article id="cloudzoom">
+      <h3>2. Cloud Zoom</h3>
+      <p>The Cloud Image Zoom settings allow to change the pop-up picture dimensions and to set the image's original size.</p>
+       <p>
+        <img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" />
+      </p>
+    </article>
+    <article id="addthis">
+      <h3>3. Add This</h3>
+      <p>The Sharing Tool settings let you choose how the icons are displayed. The recommended settings are shown in the picture.</p>
+       <p>
+        <img class="presta_scr2" src="img/add_this.jpg" alt="" />
+      </p>
     </article>
 </section>
 <section class="block-templates" id="conclusion">
