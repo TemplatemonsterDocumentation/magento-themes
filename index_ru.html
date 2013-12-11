@@ -3,10 +3,11 @@
 <head>
   <title>Документация Magento</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="css/responsive.css" media="screen">
-  <link rel="stylesheet" href="css/style.css" media="screen">
-  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+  <link rel="stylesheet" href="css/responsive.css" media="screen" />
+  <link rel="stylesheet" href="css/style.css" media="screen" />
+  <link rel="stylesheet" href="css/prettify.css"  media="screen" />
+  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/master/index_en.html" />
   <script src="js/jquery.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/jquery-migrate-1.1.0.js"></script>
@@ -109,6 +110,18 @@
                   </li> 
                   <li class="nav-item item3">
                     <dl class="slide-down">
+                       <dt><a href="#extension_configuration" class="icon-cog">Настройка расширений</a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                              <li><a href="#livechat">Olark live chat</a></li>
+                              <li><a href="#cloudzoom">Cloud Zoom</a></li>
+                              <li><a href="#addthis">Add This</a></li>
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
                        <dt><a href="#conclusion" class="icon-question-sign">Выводы</a></dt>
                          <dd></dd>
                      </dl> 
@@ -143,11 +156,6 @@
     <h4>Структура файлов</h4>
     <p>Архив шаблона, который вы скачали, состоит из нескольких папок. Давайте разберемся, что в них находится:</p>
     <ul class="files_structure">
-      <li class="folder"><i class="icon-folder-open"></i> <b>documentation</b><small class="muted"> - содержит файлы с документацией</small>
-        <ul>
-          <li class="file"><i class="icon-file"></i> Documentation (Installation and Editing).html<small class="muted"> - Основной файл документации. В нем вы можете выбрать интересующий вас язык, к примеру, русский. Вы сейчас находитесь в нем.</small></li>
-        </ul>
-      </li>
       <li class="folder"><i class="icon-folder-close"></i> <b>screenshots</b><small class="muted"> - содержит скриншоты шаблона. Не для рабочего сайта</small></li>
       <li class="folder"><i class="icon-folder-open"></i> <b>sources</b><small class="muted"> - содержит исходные файлы шаблона</small>
         <ul>
@@ -278,14 +286,15 @@
         <h4 id="template_installation_themeinstallator2">1. Настройка шаблона</h4>
     <p>Ручная настройка шаблона </p>
     <ol>
-      <li>Активируйте новый шаблон</li>
+      <li>Активируйте новый шаблон
         <ul>
           <li>Откройте панель управления Magento и выберите в верхнем меню <b>System > Design</b>.</li>
           <li>Нажмите кнопку "<b>Add Design Change</b>".</li>
           <li>В поле "<b>Custom Design</b>" выберите название шаблона (к примеру, theme###).</li>
           <li>Нажмите кнопку "<b>Save</b>" для сохранения внесенных изменений.</li>
         </ul>
-        <li>Переиндексация данных </li>
+		</li>
+        <li>Переиндексация данных 
           <ul>
               <li>Откройте панель управления Magento и выберите в верхнем меню <b>System > Index Management</b>.</li>
               <li>Выберите поле "<b>Select All</b>" в верхнем левом углу.</li>
@@ -293,6 +302,7 @@
               <li>Нажмите кнопку "<b>Submit</b>".</li>
               <li>Сохраняйте терпение. Эта операция может потребовать некоторое время.</li>
           </ul>
+		  </li>
     </ol>
     <h4 id="template_installation_themeinstallator3">2. Настройка логотипа.</h4>
     <p>Следуйте этой инструкции для решения проблем с логотипом.</p>
@@ -353,7 +363,7 @@
 
   <div class="box-info"><span>По соображениям безопасности вам следует удалить папку <b>/install/</b> и переименовать папку <b>/admin/</b> на вашем хостинге.</span></div>
 
-    <h4 id="template_installation_themeinstallator4">4. Настройка статических блоков</h4>
+    <h4 id="template_installation_themeinstallator5">4. Настройка статических блоков</h4>
     <p>После настройки страниц нужно настроить статические блоки. Процесс очень похож - вам нужно скопировать код из исходных файлов. </p>
     <ol> 
         <li>В верхнем меню выберите <b>CMS > Static Blocks</b>.</li>
@@ -451,6 +461,30 @@
           <img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" />
         </p>
         
+    </article>
+</section>
+<section class="block-templates" id="extension_configuration">
+  <h2><i class="icon-cog"></i> Настройка расширений</h2>
+    <article id="livechat">
+      <h3>1. Olark Live Chat</h3>
+      <p>Для настройки такого онлайн чата, как на Live Demo необходимо пройти регистрацию на официальном сайте <a target="blank" href="http://www.olark.com/?r=ad8fbsj2">Olark registration</a>. Заполнив все данные вам будет предоставлен код, который нужно вставить через админ-панель.</p>
+      <p>
+        <img class="presta_scr2" src="img/how-to-install-12.jpg" alt="" />
+      </p>
+    </article>
+    <article id="cloudzoom">
+      <h3>2. Cloud Zoom</h3>
+      <p>Настройки Cloud Image Zoom дают возможность изменить размеры всплывающей картинки и задать оригинальный размер картинки.</p>
+       <p>
+        <img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" />
+      </p>
+    </article>
+    <article id="addthis">
+      <h3>3. Add This</h3>
+      <p>Настройки Sharing Tool дают возможность выбрать вид вывода иконок, рекомендуемый показан на скрине.</p>
+       <p>
+        <img class="presta_scr2" src="img/add_this.jpg" alt="" />
+      </p>
     </article>
 </section>
 <section class="block-templates" id="conclusion">
