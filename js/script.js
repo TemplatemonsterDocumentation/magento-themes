@@ -109,3 +109,5 @@ $(document).ready(function() {
       $('#copyright').text('Template-Help.com');
     }
     }(window.jQuery)
+
+    

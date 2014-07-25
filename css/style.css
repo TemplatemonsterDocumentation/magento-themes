@@ -187,6 +187,7 @@ header .brand {
   width: 274px;
   height: 48px;
   display: block;
+  background-size: contain;
 }
 /*------ content ------- */
 #content {
