@@ -123,6 +123,19 @@
 							</dd>
 						</dl>
 					</li>
+					<li class="nav-item item6">
+						<dl class="slide-down">
+							<dt><a href="#additional_extension_configuration" class="icon-magnet">Additional Extensions Configuration</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
+									<li><a href="#mega-menu">Mega Menu</a></li>
+									<li><a href="#revolution-slider">Revolution Slider</a></li>
+									<li><a href="#background-video">Background Video</a></li>
+									<li><a href="#lazy-load">Lazy Load</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
 					<li class="nav-item item7">
 						<dl class="slide-down">
 							<dt><a href="#conclusion" class="icon-question-sign">Conclusion </a></dt>
@@ -454,7 +467,6 @@
 			<p><img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" /></p>
 		</article>
 	</section>
-
 	<section class="block-templates" id="extension_configuration">
 		<h2 class="item5"><i class="icon-cogs"></i> Extensions configuration</h2>
 		<article id="livechat">
@@ -483,6 +495,34 @@
 				<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Creare EU Cookie Law Banner</a></li>
 				<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Implied Consent</a></li>
 			</ul>
+		</article>
+	</section>
+	<section class="block-templates" id="additional_extension_configuration">
+		<h2 class="item6"><i class="icon-magnet"></i>Additional Extensions configuration</h2>
+		<article id="mega-menu">
+			<h4>5. Mega Menu</h4>
+			Для Мега Меню мы используем экстеншн <a href="http://www.mage-world.com/magento-mega-menu-extension.html">Mega Menu by MageWorld</a>. 
+			Инструкция по установке модуля от производителя: <a href="http://www.mage-world.com/wiki/index.php?title=MegaMenu-installation-upgrading">Инструкция.</a>
+			Инструкция по Настройке модуля от производителя: <a href="http://www.mage-world.com/wiki/index.php?title=MegaMenu-user-guide">Инструкция.</a>
+		</article>
+		<article id="revolution-slider">
+			<h4>6. Revolution Slider</h4>
+			Для Revolution Slider мы используем экстеншн <a href="http://cmsideas.net/magento-revolution-slider.html">Revolution Slider by CMS Ideas</a>. Помимо экстеншна вам нужно купить скрипт <a href="http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380?ref=themepunch">Revolution Slider.</a>
+			<a href="http://cmsideas.net/documentation/magentoextension/magentorevolutionslider/index.html#!/user_manual">Инструкция от производителя.</a>
+		</article>
+		<article id="background-video">
+			<h4>7. Background Video</h4>
+			Static blocks configuration
+			video_block	video_block	video_block	sources\demo\static_blocks\video_block.phtml
+			<pre>&lt;video class="parallax_media" width="100%" height="100%" autoplay loop poster="{{skin url=''}}images/parallax/curtsurfing.jpg"&gt;
+				&lt;source src="{{skin url=''}}images/parallax/video_1.mp4" type="video/mp4"&gt;
+				&lt;source src="{{skin url=''}}images/parallax/video_1.webdm" type="video/webm"&gt;
+				&lt;source src="{{skin url=''}}images/parallax/video_1.ogv" type="video/ogg"&gt;
+			&lt;/video&gt;</pre>
+		</article>
+		<article id="lazy-load">
+			<h4>8. Lazy Load</h4>
+
 		</article>
 	</section>
 	<section class="block-templates" id="conclusion">
