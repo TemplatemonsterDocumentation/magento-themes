@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magento Documentation</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
+	<link rel="stylesheet" href="css/responsive.css" media="screen">
+	<link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
+	<link rel="stylesheet" href="css/prettify.css"  media="screen">
+	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
+	<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/wordpress-themes/master/index_en.html"/>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery-migrate-1.1.0.js"></script>
+	<script src="js/prettify.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/bootstrap-affix.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+	<link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="google-code-prettify/prettify.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+
+	<!--[if lt IE 8]>
+		<div style='text-align:center'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
+		</div>  
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<!-- header
+================================================== -->
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
+			<article class="span6">
+				<h1><img alt="" src="img/magento_logo.png"> Magento&nbsp;Documentation</h1>
+			</article>
+			<article class="span2">
+				<div id="languages" class="select-menu pull-right">
+					<div class="select-menu_icon"><b>En</b><i class="icon-angle-down"></i></div>
+					<ul class="select-menu_list">
+					</ul>
+				</div>
+			</article>
+		</div>
+	</div>
+</header>
+<div id="content"> 
+<div class="bg-content-top">
+<div class="container">
+
+<!-- Docs nav
+================================================== -->
+	<div class="row">
+		<div class="span3">
+
+			<div id="nav_container">
+				<a href="javascript:;" id="affect_all">
+					<span class="expand">
+						<i class="icon-angle-down"></i>
+					</span>
+					<span class="close">
+						<i class="icon-angle-up"></i>
+					</span>
+				</a>
+				<div class="clearfix"></div>
+				<ul class="nav nav-list bs-docs-sidenav" id="nav">
+					<li class="nav-item item1">
+						<dl class="slide-down">
+							<dt><a href="#introduction" class="icon-info-sign">Introduction</a></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li class="nav-item item2">
+						<dl class="slide-down">
+							<dt><a href="#preparations" class="icon-check">Preparations</a></dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li class="nav-item item4">
+						<dl class="slide-down">
+							<dt><a href="#complete_install" class="icon-dropbox">Complete installation</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
+									<li><a href="#creating-database">Creating a database</a></li>
+									<li><a href="#import-database">Sample Data import</a></li>
+									<li><a href="#downloading">Downloading the engine from the official website</a></li>
+									<li><a href="#extracting_files">Extracting files</a></li>
+									<li><a href="#upl_files">Uploading Magento files</a></li>
+									<li><a href="#upl_theme_files">Uploading theme files</a></li>
+									<li><a href="#ps_engine_install">Magento engine installation</a></li>
+								</ul> 
+							</dd>
+						</dl> 
+					</li>
+					<li class="nav-item item5">
+						<dl class="slide-down">
+							<dt><a href="#theme_installation" class="icon-cog">Theme installation</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
+									<li><a href="#template_settings">Template configuration</a></li>
+									<li><a href="#logo_settings">Logo configuration</a></li>
+									<li><a href="#pages_setting">Pages configuration</a></li>
+									<li><a href="#static_block_settings">Static blocks configuration</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li class="nav-item item6">
+						<dl class="slide-down">
+							<dt><a href="#extension_configuration" class="icon-cogs">Extensions configuration</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
+									<li><a href="#currency_settings">Currency module configuration</a></li>
+									<li><a href="#polls_settings">Polls module configuration</a></li>
+									<li><a href="#livechat">Olark live chat</a></li>
+									<li><a href="#cloudzoom">Cloud Zoom</a></li>
+									<li><a href="#addthis">Add This</a></li>
+									<li><a href="#cookie-policy">Cookies policy</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li class="nav-item item7">
+						<dl class="slide-down">
+							<dt><a href="#conclusion" class="icon-question-sign">Conclusion</a></dt>
+							<dd></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+<div class="span9">
+
+<!-- box-content
+================================================== -->
+<div class="box-content">
+<!-- block-started
+================================================== -->
+	<section class="block-started"  id="introduction">
+		<h2 class="item1"><i class="icon-info-sign"></i> Introduction <small><i>What can be found in this package and what it can be used for</i></small></h2>
+		<p>Thank you for purchasing a Magento template. This documentation consists of several parts and shows the entire process of how to set up and administer a Magento store from scratch. We did our best to make this manual as clear and easy to follow as possible. </p>
+
+		<div id="magento_ecommerce_desc">
+		<h4>What is Magento Commerce?</h4>
+		<p>Magento is a feature-rich eCommerce platform built with open-source technology. It provides flexibility and control over the look, content and functionality of the eCommerce store. Magento’s intuitive administration interface features powerful marketing, search engine optimization and catalog-management tools to give merchants the power to create sites that are tailored to their unique business needs. Designed to be completely scalable and backed by Varien's support network, Magento offers companies the ultimate eCommerce solution. <a href="http://www.magentocommerce.com/download" target="_blank">More information</a></p>
+		</div>
+
+		<div id="magento_theme_desc">
+		<h4>What is a Magento theme?</h4>
+		<p>Magento theme is a complete design for your online store based on Magento engine. In other words, you can easily change your Magento shop appearance by installing a new theme in a few easy steps. With all of its simplicity a Magento theme is provided with all the necessary source files that you can edit or extend the way you need.</p>
+		</div>
+
+		<div id="file_structure">
+			<h4>Files structure</h4>
+			<p>The theme package you have downloaded consists of several folders.  Let's see what each folder contains:</p>
+			<ul class="files_structure">
+				<li class="folder"><i class="icon-folder-close"></i> <b>Documentation</b><small class="muted"> - contains documentation files.</small>
+					<ul>
+						<li class="file"><i class="icon-file"></i> documentation.html<small class="muted"> - a main documentation file you are reading at the moment.</small></li>
+					</ul>
+				</li>
+				<li class="folder"><i class="icon-folder-close"></i> <b>screenshots</b><small class="muted"> - contains the theme screenshots. Not for production.</small></li>
+				<li class="folder"><i class="icon-folder-open"></i> <b>sources</b><small class="muted"> - contains the theme source files.</small>
+					<ul>
+						<li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> - contains the theme Adobe Photoshop source files (.psd).</small></li>
+						<li class="folder"><i class="icon-folder-close"></i> demo<small class="muted"> - contains additional pages and custom blocks provided with the theme.</small></li>
+						<li class="folder"><i class="icon-folder-open"></i> sample_data<small class="muted"> - contains Magento theme sample data files.</small>
+							<ul>
+								<li class="folder"><i class="icon-folder-close"></i> media<small class="muted"> - contains files and directories that should be uploaded to the root directory of your Magento installation.</small></li>
+								<li class="file"><i class="icon-file"></i> dump.sql.gz<small class="muted"> -  the database backup file. Contains the theme sample content. </small></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="folder"><i class="icon-folder-close"></i> <b>theme###</b><small class="muted"> - contains Magento theme files and directories that should be uploaded to the root directory of your Magento installation.</small></li>
+				<li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - contains the links where the template custom fonts can be downloaded.</small></li>
+				<li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - contains instructions on how to extract source files.</small></li>
+			</ul>
+		</div>
+		<p>&nbsp;</p>
+		<div class="row-fluid">
+			<div class="span6 text-center img-paraloid">
+				<h3><a href="#complete_install" class="scrollTo">Complete installation</a></h3>
+				<p>You can use this method if you do not have a Magento store and want to install it from scratch. You'll have Magento Commerce engine, Magento theme, sample data and all the required extensions installed.</p>
+				<p>&nbsp;</p>
+			</div>
+			<div class="span6 text-center img-paraloid">
+				<h3><a href="#theme_installation" class="scrollTo">Theme installation</a></h3>
+				<p>You can use this method if you do have a Magento store and want to change its appearance by installing a new theme. You'll have a Magento theme and all the required extensions installed.</p>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+		<p>&nbsp;</p>
+	</section>
+	<section class="block-templates" id="preparations">
+		<h2 class="item2"><i class="icon-check"></i> Preparations</h2>
+		<p>Before you proceed to set up your Magento store, please make sure you are fully prepared. Please complete the following preparation steps::</p>
+		<h4>Editing software</h4>
+		<p>To feel comfortable working with Magento template, we recommend downloading all the applications required. You can see the list of required software on the template preview page. </br>
+		The requirements may vary for different templates, for most templates they are the following:</p>
+		<ol>
+			<li>First, you need to use WinZip 9+ (Windows) and Stuffit Expander 10+ (Mac) to extract the password protected sources_#########.zip archive. </li>
+			<li>You may also need the Adobe Photoshop application. It is used to edit .PSD source files, and it is necessary if you want to edit template design graphics and images.</li>
+			<li>To edit template source code files, you need some code editor like Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>
+			<li>To upload files to the hosting server you may need an FTP Manager like Total Commander, FileZilla, CuteFTP, etc.</li>
+		</ol>
+		<h4>Hosting</h4>
+		<p>As Magento Commerce is a PHP/MySQL based application, you need to prepare a hosting environment to run Magento.</p>
+		<p>If you have live hosting, please make sure it matches <a href="http://magento.com/resources/system-requirements" target="_blank"> Magento requirements </a> and is ready to be used for Magento store.</p>
+		<p>Otherwise, you can run Magento locally on your computer using the local server. To create a local hosting server please use the localhost applications such as <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> etc. Any of those can be easily installed as any other program and used to run Magento. </p>
+		<p>Please check the following tutorials on how to configure the local development environment:</p>
+		<ul class="list-2">
+			<li><i class="icon-play-circle "></i><a href="/help/ru/how-to-install-appserv-web-development-environment.html" target="_blank">How to install AppServ web development environment</a></li>
+			<li><i class="icon-play-circle "></i><a href="/help/ru/how-to-install-wamp-web-development-environment.html" target="_blank">How to install WAMP web development environment</a></li>
+			<li><i class="icon-play-circle "></i><a href="/help/ru/how-to-install-xamp-web-development-environment.html" target="_blank">How to install XAMP web development environment</a></li>
+		</ul>
+	</section>
+
+	<!-- Complete Magento Installation -->
+	<section class="block-templates" id="complete_install">
+		<h2 class="item4"><i class="icon-dropbox"></i> Complete installation</h2>
+		<p>The complete installation method can be used if you want to set up a Magento store using a sample content. We assume that you have completed all the <a href="#preparations">preparation steps</a>.</p>
+		<p>Th installation process consists of 3 stages:</p>
+		<ol class="list">
+			<li>Creating a database.</li>
+			<li>Uploading all the required files to the server.</li>
+			<li>Installing a Magento Commerce engine together with the template you have purchased.</li>
+		</ol>
+		<p>Let's get started!</p>
+
+		<!-- Creating database -->
+
+		<article id="creating-database">
+			<h4>1. Creating a database</h4>
+			<p>First, you need to prepare a new database for your Magento store. You can create the new database using the database management tool from your hosting control panel (<i>usually PhpMyAdmin</i>).</p>
+			<p>The following data will be received while creating a database: database name, database username, password and you server name. You need to save this data as you will need it for further Magento installation. </p>
+
+			<p>With the phpMyAdmin tool you will be able to create a new database in 3 simple steps(check the slides below): </p>
+
+			<ol class="list">
+				<li>Click the Database button from the top navigation menu to access the database listing.</li>
+				<li>Input the database name into the "Create new database" field.</li>
+				<li>Click the Create button on the right side.</li>
+			</ol>
+
+			<p>Your database can be seen in the database listing now. Click on its name to get access to the database:</p>
+
+			<p>&nbsp;</p>
+
+			<div class="flexslider clearfix img-polaroid">
+				<ul class="slides">
+					<li>
+						<img src="img/database-create-1.jpg" alt="" />
+						<div class="flex-caption">
+							<p>1. Open the "Database" tab, you will see the list of databases.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/database-create-2.jpg" alt="" />
+						<div class="flex-caption">
+							<p>2. Input your database name <br>
+							3. Click "Create" button</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/database-create-3.jpg" alt="" />
+						<div class="flex-caption">
+							<p>4. Your database has appeared in the list.  In order to enter the database, click on its name in the list.</p>
+						</div>
+					</li> 
+				</ul>
+			</div>
+
+			<p>&nbsp;</p>
+
+			<p>You can also check the detailed video tutorial on <i class="icon-film"> </i><a href="/help/how-to-create-a-database.html" target="_blank"> How to create a database</a></p>
+
+			<div class="box-info"><span>If you have any issues with creating a database, please contact your hosting provider for help and assistance.</span></div>
+		</article>
+
+		<!-- Import sample content database -->
+
+		<article id="import-database">
+			<h4>2. Sample data import</h4>
+			<p>Magento template package contains the sample data file (dump.sql or dump.gz). This file is located under the <b>/sources/sample_data</b> folder of your template. It allows you to load sample data, so that your website looks exactly like our demo template.</p>
+			<div class="box-error"><span>Do not import dump.sql.gz if you already have the data on your site. By importing dump.sql.gz all the products will be erased from your store. If you do not want to install sample data, use clean database while installing Magento. Skip the sample data installation step. </span></div>	
+			<p>In order to install the dump file, follow the steps below:</p>
+			<ol>
+				<li>Log into PhpMyAdmin and the select the database that you will use for Magento Commerce (It was created by you with the help of the steps provided earlier).</li>
+				<li>Navigate to <b>"Import"</b> tab and click <b>"Browse"</b> button.</li>
+				<li>Find the <i>"/sources/sample_data"</i> folder of your template and select the <b>dump.sql.gz.</b>file.</li>
+				<li>Click. <b>"GO"</b>. The import process can take a few minutes.</li>
+			</ol>
+
+			<p>&nbsp;</p>
+			<div class="flexslider clearfix img-polaroid">
+				<ul class="slides">
+					<li>
+						<img src="img/import-dump1.png" alt="" />
+						<div class="flex-caption">
+							<p>1. Select the database that you will use for Magento Commerce. <br>
+							2. Select "IMPORT". <br>
+							3. Click  "Browse" button.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/import-dump2.png" alt="" />
+						<div class="flex-caption">
+							<p>4. Navigate to the "/sources/sample_data" folder of your template package and select dump.sql.gz file.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/import-dump3.png" alt="" />
+						<div class="flex-caption">
+							<p>5. Click "GO".</p>
+						</div>
+					</li> 
+				</ul>
+			</div>
+			<p>&nbsp;</p>
+		</article>
+		<article id="downloading">
+			<h4>3. Downloading the engine from the official website</h4>
+			<p>In order to install Magento, you need to download the archive file from the official website <a target="_blank"  href="http://www.magentocommerce.com/download">www.magentocommerce.com/download</a>.</p>
+			<p>Select the archive type from the drop-down menu and click <b>Download</b>. It is necessary to register the account on Magento website in order to download the engine.</p>
+			<div class="box-info"><span>Make sure to download the compatible with our template version of Magento engine.  You can find all available Magento versions <a href="http://www.magentocommerce.com/download" target="_blank">at the same page</a>, in the Release Archives tab.</span></div>
+		</article>
+		<article id="extracting_files">
+			<h4>4. Extracting files</h4>
+			<p>When you are done with the download, you'll need to extract the files from the Magento engine package.</p>
+			<p>This can be done with any archive manager like <b>WinZip(PC)</b>, <b>StuffitExpander(MAC)</b>, etc.</p>
+			<p>Please check the following tutorials on how to extract files from the archives with <a href="/help/ru/extract-archived-files-windows-os.html" target="_blank">WinZip(PC)</a> and <a href="/help/ru/extract-archived-files-mac-os.html" target="_blank">StuffitExpander(MAC)</a>.</p>
+			<div class="box-info"><span>Please note: if your hosting control panel has the option to <b>'Extract'</b> files,  you can use it and extract the files directly on your server after the upload. It will speed up the process of files uploading. </span></div>
+		</article>
+		<article id="upl_files">
+			<h4>5. Uploading Magento engine files</h4>
+			<p>In case you extracted the files locally on your computer, you need to upload them to your hosting server.</p>
+			<p>This can be done using the hosting control panel File Manager or with any FTP Manager applications like: FileZilla, TotalCommander, CureFTP, etc.</p>
+			<p>You can check the detailed video tutorial on <a href="/help/ru/how-upload-files-server-2.html" target="_blank"><i class="icon-play-circle "></i> How to upload files to a server using an FTP manager</a> and  <a href="/help/ru/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank"><i class="icon-play-circle "></i> How to upload files to a server using cPanel (WebHost Manager, WHM)</a>.</p>
+		</article>
+		<article id="upl_theme_files">
+			<h4>6. Uploading theme files</h4>
+			<p>The next step of the setup procedure is the template installation. The template should be installed in any case, whether you use sample data or not.</p>
+			<ol>
+				<li>First of all, open the template package and go to the <b>theme###</b>folder.</li>
+				<li>Upload <b>theme###</b> folder contents to the Magento installation directory (upload <i>"app"</i>, <i>"skin"</i> and other folders). These folders contain the theme files. They will not affect your existing files.</li>
+				<li>If you have imported the <b>dump.sql.gz</b> file and are going to use the template sample data, you need to upload the product images. Upload the <i>"media"</i>  folder from the template <i>sources/sample_data</i> directory to the Magento installation root directory.</li>
+				<li>If you didn't install the dump.sql.gz file, there is no need to upload the <i>"media"</i> folder.</li>
+			</ol>
+		</article>
+		<article id="ps_engine_install">
+			<h4>7. Magento engine installation</h4>
+			<p>When you are done with uploading files, you can start with Magento engine installation.  Open your browser and in the address bar type your <b>'domain name/path to your Magento directory'</b>. You should see the welcome screen. Please follow the instructions below to install Magento. </p>
+			<div class="box-error"><span>Please note: the <b>dump.sql.gz</b> file should be imported into the clear database BEFORE you install Magento.</span></div>
+			<h5>Step 1: Installation Assistant</h5>
+			<p>Please read the license agreement and click the "I agree to the above terms and conditions" checkbox if you agree with the terms.  </p>
+
+			<h5>Step 2: Installation Assistant (Localization)</h5>
+			<p>Select the Locale, Time Zone and default currency. The Locale option defines your Magento store backend language. If you want to change the frontend language, you need to download and install Magento frontend locales. All the options can be easily changed later using the Magento admin panel. </p>
+			<img class="presta_scr1" src="img/how-to-install-1.jpg" alt="" />
+
+			<h5>Step 3: Configuration</h5>
+			<p>Here you need to input the store database details and some initial settings.
+			<b>Database Connection</b> – input the database host name, user name, password and name. Contact your hosting provider if you don't have the necessary details. </p>
+			<p>Make sure you have a database created for the Magento installation. And also make sure it is clear, without any tables.
+			<b>Web access options</b> and <b>Session Storage Options</b> – please leave the options without any changes if you are not sure. The default settings usually work fine.</p>
+			<img class="presta_scr1" src="img/how-to-install-3.jpg" alt="" />
+			<p>If everything is correct, please click '<b>Continue</b>' button.</p>
+
+			<h5>Step 4: Create Admin Account</h5>
+			<p>Here you need to input personal details for the store owner and administrator.  </p>
+			<img class="presta_scr1" src="img/how-to-install-4.jpg" alt="" />
+			<p>When you are done, click <b>'Continue'</b> button.</p>
+
+			<h5>Step 5: You are All Set</h5>
+			<p>This is the final step of installation. Copy the generated encryption key and keep it safe. You can use the buttons in the bottom right corner to view the store front end and the admin panel. </p>
+			<img class="presta_scr1" src="img/how-to-install-5.jpg" alt="" />
+		</article>
+
+	</section>
+	<section class="block-templates" id="theme_installation">
+		<h2 class="item5"><i class="icon-cog"></i> Magento template installation</h2>
+		<article id="themeinstaller">
+			<p>First of all, please make sure your Magento installation version meets the template requirements. If you are using an outdated version of Magento, you need to upgrade it. Don't forget to back up the files and the database. Magento upgrade instructions are available at the <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a> website.</p>
+			<p>If your Magento engine meets the template requirements, you can start the template installation.  </p>
+			<ol>
+				<li>Open the template package and go to the <b>theme###</b> folder.</li>
+				<li>Upload <b>theme###</b> folder contents to the Magento installation directory (upload  "<b>app</b>", "<b>skin</b>" and other folders). These folders contain the theme files. They will not affect your existing files.</li>
+			</ol>
+		</article>
+		<article id="template_settings">
+			<h4>1. Template configuration</h4>
+			<p>We are going to review template configuration options based on the example. It is configured the same way as our Live Demo template, without affecting products data.</p>
+			<h5>Activate the new template</h5>
+			<ol>
+				<li>Open Magento admin panel and navigate to <b>System > Design</b> in the top menu.</li>
+				<li>Click the "<b>Add Design Change</b>" button.</li>
+				<li>In the "<b>Custom Design</b>" field, select the theme name (for example, theme###).</li>
+				<li>Click  "<b>Save</b>"  button to confirm the changes.</li>
+			</ol>
+			<div class="flexslider clearfix img-polaroid">
+				<ul class="slides">
+					<li>
+						<img src="img/Theme-set1.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+					<li>
+						<img src="img/Theme-set2.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+					<li>
+						<img src="img/Theme-set3.png" alt="" />
+						<div class="flex-caption"></div>
+					</li> 
+				</ul>
+			</div>
+			<p>&nbsp;</p>
+			<h5>Reindex data</h5>
+			<ol>
+				<li>Open the Magento admin panel and in the top menu select <b>System > Index Management</b>.</li>
+				<li>Check the "<b>Select All</b>" box in the top left corner.</li>
+				<li>In the "<b>Actions</b>" field select "<b>Reindex Data</b>".</li>
+				<li>Click "<b>Submit</b>" button.</li>
+				<li>Please be patient, this may take a while.</li>
+			</ol>
+			<div class="flexslider clearfix img-polaroid">
+				<ul class="slides">
+					<li>
+						<img src="img/Theme-set4.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+					<li>
+						<img src="img/Theme-set5.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+				</ul>
+			</div>
+			<p>&nbsp;</p>
+			<h5>Disable cache </h5>
+			<p>In order to make the changes appear on your website with no delay, you need to disable cache. It prevents additional cache clearing actions after every change you make. You can enable it when you are done with store editing.</p>
+			<ol>
+				<li>Open Magento admin panel and navigate to <b>System > Cache Management</b> in the top menu.</li>
+				<li>In the top left corner click "<b>Select All</b>".</li>
+				<li>On the right side, in the "<b>Actions</b>" field select "<b>Disable</b>".</li>
+				<li>Click "<b>Submit</b>" button.</li>
+			</ol>
+			<div class="flexslider clearfix img-polaroid">
+				<ul class="slides">
+					<li>
+						<img src="img/Theme-set8.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+					<li>
+						<img src="img/Theme-set8.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+				</ul>
+			</div>
+			<p>&nbsp;</p>
+		</article>
+		<article id="logo_settings">
+			<h4>2. Logo configuration.</h4>
+			<p>Please follow these steps when setting up logo image included into the theme package (you can view it on the Live Demo page).</p>
+			<ol> 
+				<li>Open the Magento admin panel and select <b>System > Configuration</b> in the top menu .</li>
+				<li>Select the "<b>Design</b>" tab.</li>
+				<li>In the "<b>Header</b>" section, edit the "<b>Logo Image Src</b>" field value. Change it from "<b>gif</b>" to "<b>png</b>".</li>
+				<li>Click <b>"Save Config"</b> button.</li>
+			</ol>
+			<p>In order to install your company logo, you need to upload the logo image file into the <b>/images</b> folder of your Magento theme.</p>
+			<div class="flexslider clearfix img-polaroid">
+				<ul class="slides">
+					<li>
+						<img src="img/Theme-set6.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+					<li>
+						<img src="img/Theme-set7.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+				</ul>
+			</div>
+			<p>&nbsp;</p>
+		</article>
+		<article id="pages_setting">
+			<h4>3. Pages configuration</h4>
+			<p>In order to make your template look exactly like our Live Demo, you need to set up store pages in a specific way. We provide all the files with the pages source code. You need to add them into Magento admin panel as per the instructions below using the settings table. Settings table is located on the <b>Technical details</b> page on the template preview page. The documentation file contains the link to this page:</p>
+			<ul class="files_structure">
+				<li class="folder"><i class="icon-folder-close"></i> <b>Documentation</b>
+					<ul>
+						<li class="file"><i class="icon-file"></i> documentation.html</li>
+					</ul>
+				</li>
+			</ul>
+			<p>Settings table example:</p>
+			<table class="table table-bordered">
+				<tr>
+					<th>#</th>
+					<th>Page Name</th>
+					<th>Page HTML (Content tab)</th>
+					<th>Page XML (Design tab)</th>
+					<th>Layout</th>
+				</tr>
+				<tr>
+					<td>1.</td>
+					<td>Home Page</td>
+					<td>sources\demo\pages\home_page.phtml</td>
+					<td>sources\demo\pages\home_page.xml</td>
+					<td>1 column</td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>About  Us</td>
+					<td>sources\demo\pages\about_us.phtml</td>
+					<td>NA</td>
+					<td>1 column</td>
+				</tr>
+				<tr>
+					<td>3.</td>
+					<td>Customer Service</td>
+					<td>sources\demo\pages\customer_service.phtml</td>
+					<td>NA</td>
+					<td>1 column</td>
+				</tr>
+				<tr>
+					<td>4.</td>
+					<td>Privacy Policy</td>
+					<td>sources\demo\pages\privacy_policy.phtml</td>
+					<td>NA</td>
+					<td>1 column</td>
+				</tr>
+			</table>
+			<p>The main template page will be affected the most. It usually contains the following elements: banners, slider, gallery, etc.</p>
+			<div class="box-notification"><span>We recommend that you disable the WYSIWYG editor. To do this, from the admin top menu select  <strong>System &gt; Configuration</strong>. Open the "<strong>Content Management</strong>" section and in the <strong>WYSIWYG Options</strong> window set "<strong>Enable WYSIWYG Editor</strong>" option to "<strong>Disabled Completely</strong>".</span></br>
+			<img src="img/pages_setting1.png" alt="" /></div>
+			<div class="box-notification"><span>In case you have already made the changes to your pages code and would like to add our code without affecting your changes, it is recommended to contact professional technicians or prepare a backup before making changes.</span></div>
+			<ol>
+				<li>From the top menu select <b>CMS > Pages</b>. Here you can find all the store pages. <b>Home page</b>, <b>About Us</b> and <b>Customer Service</b> should already be available, so you don't need to add them. You only need to update the pages HTML and XML content. Open any of them in order to get the access to the content.</li>
+				<li>Open the page and select the <b>Content</b> tab. It contains the HTML code of the page. You can take the page HTML code from the appropriate source file. You can see the list of source files included in the "Template Settings" section on your templates preview page. Copy the code from the source file and paste it to the <b>content</b> area.</li>
+				<li>When you are done with the HTML code, switch to  <b>"Design"</b> tab. It contains the page XML code. XML code allows you to add Magento static blocks and widgets to the page. The XML code should be copied the same way as the HTML from the source file. Copy the XML code to the "<b>Layout Update XML</b>" area.</li>
+				<li>Don't forget to select the valid "<b>Layout</b>" option.</li>
+				<li>In case you need to add a new page, click the <b>"Add New Page"</b> button in the top right corner.</li>
+			</ol>
+			<div class="flexslider clearfix img-polaroid">
+				<ul class="slides">
+					<li>
+						<img src="img/pages_setting2.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+					<li>
+						<img src="img/pages_setting3.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+					<li>
+						<img src="img/pages_setting4.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+				</ul>
+			</div>
+			<p>&nbsp;</p>
+			<p>In case you have any difficulties, please check the detailed tutorial on <a target="_blank" href="/help/ru/magento-how-to-install-sample-content-pages-manually.html">How to configure pages manually</a>.</p>
+		</article>
+		<article id="static_block_settings">
+			<h4>4. Static blocks configuration</h4>
+			<p>When you are done configuring the pages, you need to configure the static blocks. The procedure is similar: you need to copy the code from the source files and paste it to the corresponding fields in the Magento admin panel. You need to use a similar table but for the static blocks.</p>
+			<ol> 
+				<li>From the top menu select <b>CMS > Static Blocks</b>.</li>
+				<li>Click the "Add New block" button in the right corner to add a new block.</li>
+				<li>Input the block name and identifier. You can get the block details from the table at the templates Live Demo page (check the Pages Configuration part).</li>
+				<li>Open the block source file and copy the HTML code into the content area.</li>
+			</ol>
+			<div class="flexslider clearfix img-polaroid">
+				<ul class="slides">
+					<li>
+						<img src="img/pages_setting5.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+					<li>
+						<img src="img/pages_setting6.png" alt="" />
+						<div class="flex-caption"></div>
+					</li>
+				</ul>
+			</div>
+			<p>&nbsp;</p>
+			<div class="box-info"><span>Please note: some of the templates do not contain any static blocks, so the table can be empty. </span></div>
+			<div class="box-info"><span>The source files with the static blocks code are stored in the "<b>sources\demo\static_blocks\</b>" directory of the template package. </span></div>
+			<p>When you are done configuring store pages and blocks, your store is ready to go.</p>
+		</article>
+	</section>
+
+	<section class="block-templates" id="extension_configuration">
+		<h2 class="item6"><i class="icon-cogs"></i> Extensions configuration</h2>
+		<article id="currency_settings">
+			<h4>1. Currency module</h4>
+			<ol>
+				<li>Open the Magento admin panel.</li>
+				<li>From the top menu select <b>System > Configuration</b>.</li>
+				<li>Then click General and select the <b>Currency Setup</b> tab.</li>
+				<li>In the <b>Currency Options</b>, holding the CTRL key select the allowed currencies that can be used to display prices in your Magento store. When you are done, click the <b>Save Config</b> button to save your changes.</li>
+				<li>Navigate to <b>System > Manage Currency Rates</b> in the top menu.</li>
+				<li>Set the required currency rate values or use the Import Service. Click the <b>Save Currency Rates</b> button to save your changes.</li>
+			</ol>
+		</article>
+		<article id="polls_settings">
+			<h4>2. Polls module</h4>
+			<p>From the top menu select <b>CMS > Polls</b>.</p>
+			<p><img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" /></p>
+		</article>
+		<article id="livechat">
+			<h4>3. Olark Live Chat</h4>
+			<p>To set up a live chat like the one on the Live Demo, you'll need to register on the official Web site <a target="_blank" href="http://www.olark.com/?r=ad8fbsj2">Olark registration</a>. After you provide all the data required, you'll get a code to add through your admin panel.</p>
+			<p><img class="presta_scr2" src="img/how-to-install-12.jpg" alt="" /></p>
+		</article>
+		<article id="cloudzoom">
+			<h4>4. Cloud Zoom</h4>
+			<p>The Cloud Image Zoom settings allow to change the pop-up picture dimensions and to set the image original size.</p>
+			<p><img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" /></p>
+		</article>
+		<article id="addthis">
+			<h4>5. Add This</h4>
+			<p>The Sharing Tool settings allows you to choose how the icons are displayed. The recommended settings are shown in the picture.</p>
+			<p><img class="presta_scr2" src="img/add_this.jpg" alt="" /></p>
+		</article>
+		<article id="cookie-policy">
+			<h4>6. Cookies Policy</h4> 
+			<p>Cookies are small text files which websites place on visitors’ computers. They’re typically used to identify the particular visitors and provide them with a better experience. Cookies presents a crucial part of many website functions which we take for granted. </p> 
+			<p>For instance, it’s usually cookies which allow online shops to remember what items you have in your shopping cart. They’re also used to keep you logged into a website or to provide valuable usage statistics and information to website owners.</p> 
+			<p>If you run a website, it almost certainly uses cookies. Their most likely function is to monitor visitor numbers and behaviours through tools like Google Analytics. They may also be used to display relevant adverts to visitors. Cookies also power key parts of your online shopping system..</p> 
+			<p>26th May 2012 - The ICO released a change to the Cookie policy. Starting from that moment "implied consent" is allowed as long as you make it clear where your privacy/cookie policy is.</p> 
+			<p>Following the Cookie Law conditions, you should add appropriate modules to your website that will display a warning message about the cookies used on your website. We can recommend the following ones:</p> 
+			<ul class="list">
+				<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Creare EU Cookie Law Banner </a></li> 
+				<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Implied Consent</a></li>
+			</ul>
+		</article>
+	</section>
+	<section class="block-templates" id="conclusion">
+		<h2 class="item7"><i class="icon-question-sign"></i> Conclusion</h2>
+		<p>Magento engine is a great solution for your online store. The default engine package contains all the modules necessary for successful sales. Open source allows you to offer really outstanding merchant possibilities for your customers. However, due to the quite complex engine structure advanced usage of Magento will require a lot of time and aspiration. You'll need much more than this manual. </p>
+		<p>The following resources will help you to become a true Magento professional:</p>
+		<h4 id="useful_resources">Useful resources</h4>
+		<ul>
+			<li><a target="_blank" href="http://www.magentocommerce.com/support/magento-user-guide-book">The Official Magento User Guide</a></li>
+			<li><a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a></li>
+			<li><a target="_blank" href="http://www.magentocommerce.com/knowledge-base">Knowledge Base</a></li>
+			<li><a target="_blank" href="http://www.magentocommerce.com/boards/">Magento Forum</a></li>
+			<li><a target="_blank" href="/help/ru/ecommerce/magento/magento-tutorials/">Magento tutorials</a></li>
+		</ul>
+	</section>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<!-- Footer
+================================================== -->
+	<footer>
+		<div class="container">
+			Magento Documentation<br>
+			&copy; <span id="copyright-year"></span> <span id="copyright">Template Monster</span>
+		</div>
+	</footer>
+
+<div id="back-top">
+	<a href="#"><i class="icon-double-angle-up"></i></a>
+</div>
+
+<div class="modal_bg"></div>
+<div class="modal">
+	<div class="modal-header">
+		<span class="modal_remove pull-right"><i class="icon-remove"></i></span>
+		<h3>Choose language</h3>
+	</div>
+	<div class="modal-body">
+		<ul id="modal_languages" class="nav nav-list bs-docs-sidenav"></ul>
+	</div>
+</div>
+
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-2787305-5']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+</body>
+
+</html>
