@@ -666,6 +666,17 @@
 				<li><a href="http://support.template-help.com/index.php?/Tickets/Submit"  target="_blank">Тикет-система</a></li>
 			</ul>
 		</div>
+		<div id="google_services">
+			<h4>Загрузка данных с серверов Google</h4> 
+			<p>В некоторых странах существуют проблемы с подключением к серверам Google. Это может привести к загрузке шрифтов Google Fonts с Google CDN. Для решения проблемы следуйте инструкциям: </p>
+			<ol> 
+				<li>Откройте файл app\design\frontend\default\theme***\template\page\html\head.phtml</li> 
+				<li>Найдите строку: <br> 
+				<pre>&lt;link href='//fonts.googleapis.com/css?family=[---your_web_font_name_here---]' rel='stylesheet' type='text/css' /></pre></li> 
+				<li>Замените её на следующую: <br> 
+				<pre>&lt;link href='//fonts.useso.com/css?family=[---your_web_font_name_here---]' rel='stylesheet' type='text/css' /></pre></li> 
+			</ol>
+		</div>
 	</section>
 </div>
 </div>

@@ -664,6 +664,18 @@
 				<li><a href="http://support.template-help.com/index.php?/Tickets/Submit"  target="_blank">Help ticket system</a></li>
 			</ul>
 		</div>
+		<div id="google_services">
+			<h4>Loading data from Google servers</h4> 
+			<p>Some countries have issues connecting to Google servers. This can cause issues loading Google Fonts from Google CDN. To resolve these issues please do the following: </p> 
+			<h5>Can't load Google Fonts:</h5> 
+			<ol> 
+				<li>Open app\design\frontend\default\theme***\template\page\html\head.phtml</li> 
+				<li>Locate the line: <br> 
+				<pre>&lt;link href='//fonts.googleapis.com/css?family=[---your_web_font_name_here---]' rel='stylesheet' type='text/css' /></pre></li> 
+				<li>Replace it with the following: <br> 
+				<pre>&lt;link href='//fonts.useso.com/css?family=[---your_web_font_name_here---]' rel='stylesheet' type='text/css' /></pre></li> 
+			</ol>
+		</div>
 	</section>
 </div>
 </div>
