@@ -49,15 +49,15 @@ console.log(doc_language);
 	    */
 	    var languages = [ 
 	        ['en', 'English', true], 
-	        ['ru', 'Русский', true], 
-	        ['ua', 'Українська', true]
-	      /*['de', 'Deutsch', true], 
+			['de', 'Deutsch', true], 
 	        ['it', 'Italiano', true], 
 	        ['fr', 'Français', true],
-	        ['pl', 'Polski', true], 
+	        ['es', 'Español', true], 
 	        ['pt', 'Português', true], 
 	        ['tr', 'Türk', false], 
-	        ['es', 'Español', true], */
+	        ['ua', 'Українська', true],
+	        ['ru', 'Русский', true], 
+	        /*['pl', 'Polski', true], */
 	    ];
 
 	    for (var i = 0; i <= languages.length - 1; i++) {
