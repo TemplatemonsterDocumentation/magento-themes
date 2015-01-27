@@ -802,6 +802,16 @@ footer {
 .flex-control-nav li {
   text-indent: -1000px;
 }
+.olark {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+.olark .slides li {
+  padding-bottom: 40px;
+}
+.olark strong {
+  color: #fda23c;
+}
 .margbot {
   margin-bottom: 30px;
 }
