@@ -203,7 +203,7 @@ header {
   padding: 14px 0 17px;
 }
 header h1 {
-  margin: 2px 0 0 67px;
+  margin: 10px 0 0 67px;
 }
 header h1 a {
   color: #3a3a3a;
@@ -212,7 +212,7 @@ header .brand {
   text-indent: -1000px;
   background: url(/help/wp-content/logo.png) no-repeat 0 0;
   width: 375px;
-  height: 55px;
+  height: 68px;
   display: block;
 }
 /*------ content ------- */
