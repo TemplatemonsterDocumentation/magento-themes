@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic);
 /*Core variables and mixins*/
 .clearfix {
   *zoom: 1;
@@ -228,6 +228,19 @@ header .brand {
 }
 #content ul {
   list-style: none;
+}
+.options-table {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.options-table td {
+  vertical-align: top;
+  padding: 0 5px 0 2px;
+  border-bottom: 1px solid #ccc;
+}
+.options-table .col-1 {
+  width: 160px;
+  text-align: right;
 }
 /*------ bs-docs-sidenav ------- */
 #nav_container {

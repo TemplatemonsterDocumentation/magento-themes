@@ -49,7 +49,7 @@ console.log(doc_language);
 	    */
 	    var languages = [ 
 	        ['en', 'English', true], 
-			['de', 'Deutsch', true], 
+					['de', 'Deutsch', true], 
 	        ['it', 'Italiano', true], 
 	        ['fr', 'Français', true],
 	        ['es', 'Español', true], 
@@ -57,7 +57,7 @@ console.log(doc_language);
 	        ['tr', 'Türk', true], 
 	        ['ua', 'Українська', true],
 	        ['ru', 'Русский', true], 
-	        /*['pl', 'Polski', true], */
+	        ['pl', 'Polski', true], 
 	    ];
 
 	    for (var i = 0; i <= languages.length - 1; i++) {
@@ -137,7 +137,7 @@ $(document).ready(function() {
 	languages_list('#modal_languages');
 
 	//Modal languages
-	modal_languages();
+	// modal_languages();
 
 	$('.flexslider').flexslider({
 		animation: "fade",			
