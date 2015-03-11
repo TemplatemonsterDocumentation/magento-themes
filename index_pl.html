@@ -132,6 +132,12 @@
 									<li><a href="#cloudzoom">Cloud Zoom</a></li>
 									<li><a href="#addthis">Dodaj to</a></li>
 									<li><a href="#cookie-policy">Polityka plików cookie</a></li>
+									<li><a href="#googlemap">Mapy Google</a></li>
+									<li><a href="#facebooklikebox">Moduł Facebook like box</a></li>
+									<li><a href="#instagram">Moduł Instagram</a></li>
+									<li><a href="#twitter">Moduł Twitter</a></li>
+									<li><a href="#newsletter">Moduł Newsletter popup</a></li>
+									<li><a href="#specialpricecountdown">Moduł Special price countdown</a></li>
 								</ul>
 							</dd>
 						</dl>
@@ -705,6 +711,307 @@
 				<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Implied Consent</a></li>
 			</ul>
 		</article>
+		<article id="googlemap">
+			<h4>7. Mapy Google</h4>
+			<p>Ten moduł pozwala na osadzenie mapy Google na Twojej stronie Magento. Domyślnie moduł oferuje dwie mapy: mapę na stronie kontaktowej oraz mapę w stopce innych stron.</p>						
+			<p>Obie mapy można skonfigurować za pomocą panelu administracyjnego Magento w sekcji <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/googlemap.jpg"  alt="">
+						<div class="flex-caption">
+							<p><strong>Ustawienia osadzonej Mapy</strong> blok, który oznacza wyświetlanie mapy w stopce wszystkich stron oprócz strony kontaktowej.<br>
+							 <strong>Ustawienia Mapy na stronie kontaktowej</strong> blok, który oznacza wyświetlanie mapy bezpośrednio na stronie kontaktowej.</p>							
+						</div>
+					</li>
+					<li>
+						<img src="img/googlemap-1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>Obie sekcje mają takie same możliwości konfigurowania wyglądu mapy.</p>
+						</div>
+					</li>				
+				</ul>
+			</div>			
+			<p>Moduł posiada następujące opcje:</p>
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>API key -</strong></td>
+					<td>Google Api Key jest niezbędne do poprawnego działania mapy. Możesz otrzymać i aktywować Google Api Key klikając <a href="https://code.google.com/apis/console/" target="_blank">link</a></td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Coordinates -</strong></td>
+					<td>dane dotyczące lokalizacji będą pokazywane w centrum wyświetlanej mapy. Możesz uzyskać te dane przy użyciu strony internetowej <a href="http://maps.google.com/" target="_blank">Mapy Google</a> lub <a href="http://www.mapcoordinates.net/" target="_blank" rel="nofollow">używając</a></td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Sensor -</strong></td>
+					<td>włączanie i wyłączanie geolokalizacji.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Zoom -</strong></td>
+					<td>wartość rozszerzenia (nie powinna przekraczać 8).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map Type -</strong></td>
+					<td>rodzaj wyświetlanej mapy (mapa drogowa, satelitarna, hybrydowa, itp.).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map width -</strong></td>
+					<td>szerokość mapy.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map height -</strong></td>
+					<td>wysokość mapy.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Styles -</strong></td>
+					<td>wyświetla style mapy. Aby zmienić wygląd mapy, skorzystaj ze stylów znajdujących się na stronie internetowej <a href="https://snazzymaps.com/" target="_blank" rel="nofollow">snazzymaps</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Disable UI -</strong></td>
+					<td>ukrywa elementy, które kontrolują mapę.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Scrollwheel -</strong></td>
+					<td>wyłącza opcję przewijania myszką.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Draggable -</strong></td>
+					<td>pozwala przesuwać mapę za pomocą lewego przycisku myszki lub używając palców dla urządzeń dotykowych (z czujnikiem).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Add marker -</strong></td>
+					<td>pozwala dodać marker do mapy.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker coordinates -</strong></td>
+					<td>ustawia współrzędne markera.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker title -</strong></td>
+					<td>tekst, który będzie wyświetlany w dymku, gdy skierujesz wskaźnik myszki na niego.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker image -</strong></td>
+					<td>ścieżka do obrazu markera, jeśli chcesz zastąpić go domyślnym. Obraz zostanie zapisany w folderze instalacji Twojego Magento <strong>skin/frontend/default/themeXXX/images/</strong>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Infowindow -</strong></td>
+					<td>dodatkowe informacje, które będą wyświetlane po kliknięciu markera.</td>
+				</tr>
+			</table>
+		</article>
+		<article id="facebooklikebox">
+			<h4>8. Moduł Facebook like box</h4>
+			<p>Ten moduł pozwala na wyświetlenie Facebook like box w Twoim sklepie Magento.</p>						
+			<p>Możesz go skonfigurować za pomocą panelu administracyjnego Magento w sekcji <strong>System > Configuration > Templatemonster > Facebook</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/facebook-2.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Moduł posiada następujące opcje:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>App ID -</strong></td>
+					<td>identyfikator konta na Facebook'u. Aby korzystać z Facebook like box, należy zarejestrować Twoje konto. W celu uzyskania dalszych instrukcji możesz użyć linka <a href="https://developers.facebook.com/" target="_blank"></a></td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Page/User Name -</strong></td>
+					<td>strona Facebook'a / nazwa użytkownika. Np.: "TemplateMonster", "TemplateHelp", "FacebookDevelopers" (bez cudzysłowów).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Color Scheme -</strong></td>
+					<td>kolor skin. Może być jasny lub ciemny.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Faces -</strong></td>
+					<td>pozwala ukryć lub wyświetlić zdjęcie użytkownika, który polubił stronę.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Header -</strong></td>
+					<td>pozwala na włączenie/wyłączenie nagłówka modułu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Border -</strong></td>
+					<td>pozwala na włączenie/wyłączenie ramki wokół obszaru modułu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Posts -</strong></td>
+					<td>pozwala na włączenie/wyłączenie najnowszych postów na stronie.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Height -</strong></td>
+					<td>wysokość obszaru modułu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Width -</strong></td>
+					<td>szerokość obszaru modułu.</td>
+				</tr>				
+			</table>
+			<p>Moduł jest wyświetlany domyślnie w lewej kolumnie. Jednak są trzy opcje wyświetlania: <strong>left</strong>, <strong>right</strong> oraz <strong>footer</strong>. <br>
+				Aby zmienić położenie bloku, należy otworzyć plik <strong>tm_facebook.xml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/layout</strong> Twojej instalacji.
+			</p>
+			Plik ten zawiera trzy <strong><em>reference</em></strong> do bloków o parametrach <strong>name="left"</strong> (name="right", name="footer").
+			<pre class="prettyprint linenums">
+&lt;reference name="left"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_left" as="tm_facebook_like_left" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt;
+&lt;!-- &lt;reference name="right"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_right" as="tm_facebook_like_right" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt; --&gt;
+&lt;!-- &lt;reference name="footer"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_footer" as="tm_facebook_like_footer" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt; --&gt;</pre>
+			<p>Dwa bloki są przekonwertowane na komentarz w tym pliku. A jeden blok z <strong>name="left"</strong> nie jest przekonwertowany. Wyświetla moduł w lewej kolumnie. <br>
+				Jeśli chcesz wyświetlić moduł w stopce, należy postępować zgodnie z poniższymi instrukcjami:
+			</p>
+			<ul>
+				<li>1. Uncomment lines of code for <strong>name="footer"</strong> block (the last one in the example of the code above) and comment out the block <strong>name="left"</strong> (the first one in the example of the code above).</li>
+				<li>2. Otwórz plik <strong>footer.phtml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+				<li>3. Wklej następujący kod do wskazanego miejsca:
+					<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
+				</li>
+			</ul>
+			<p>Blok Facebook'a wyświetli się teraz w stopce.</p>
+		</article>
+		<article id="instagram">
+			<h4>9. Moduł Instagram</h4>
+			<p>Moduł Instagram pozwala wyświetlić galerię Instagram w Twoim sklepie.<br>
+			Ten moduł pozwala wyświetlić dwa rodzaje galerii: galerię użytkownika oraz galerię tagu.</p>						
+			<p>Wszystkie opcje konfiguracji są dostępne w panelu administracyjnym w sekcji <strong>System > Configuration > Templatemonster > Instagram</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/instagram.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Moduł posiada następujące opcje:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>Client ID -</strong></td>
+					<td>Identyfikator aplikacji Instagram. Aby otrzymać identyfikator, należy zarejestrować Twoją aplikację korzystając z poniższego linka <a href="http://instagram.com/developer/" target="_blank"></a></td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Username -</strong></td>
+					<td>nazwa użytkownika Instagram, którego galerię chcesz wyświetlić.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Sample tag -</strong></td>
+					<td>tagi używane do wyświetlania obrazów.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Product tag -</strong></td>
+					<td>jest stosowany do wyszukiwania podobnych obrazów, których początek tagu składa się z wybranych parametrów. Np.: <strong>#storetitleproductname</strong>, <strong>#productsku</strong>, <strong>#storetitleproductsku</strong>, itp.</td>
+				</tr>				
+			</table>			
+		</article>
+		<article id="twitter">
+			<h4>10. Moduł Twitter</h4>
+			<p>Moduł Twitter pozwala wyświetlić kanał (feed) tweetów w Twoim sklepie.</p>						
+			<p>Wszystkie opcje konfiguracji są dostępne w panelu administracyjnym w sekcji <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/twitter-1.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Moduł posiada następujące opcje:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>Widget ID -</strong></td>
+					<td>Identyfikator widgetu Twitter'a. Identyfikator możesz otrzymać po rejestracji Twojego widgetu w ustawieniach <a href="https://twitter.com/settings/widgets/new" target="_blank">account</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Account name -</strong></td>
+					<td>nazwa użytkownika konta Twitter, którego kanał (feed) chcesz wyświetlić.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Color Scheme -</strong></td>
+					<td>kolor skin widgetu. Może być jasny lub ciemny.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Layout enhancements -</strong></td>
+					<td>pozwala częściowo ukryć elementy formatowania widgetu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Tweet limit -</strong></td>
+					<td>ilość tweetów wyświetlanych w kanale.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Link color -</strong></td>
+					<td>pozwala na zmianę koloru linków w kanale.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Border color -</strong></td>
+					<td>pozwala na zmianę koloru obramowania w kanale.</td>
+				</tr>			
+				<tr>
+					<td class="col-1"><strong>Height -</strong></td>
+					<td>wysokość okna widgetu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Width -</strong></td>
+					<td>szerokość okna widgetu.</td>
+				</tr>
+			</table>
+			<p>Moduł jest wyświetlany domyślnie w lewej kolumnie. Jednak są trzy opcje wyświetlania: <strong>left</strong>, <strong>right</strong> oraz <strong>footer</strong>. <br>
+				Aby zmienić położenie bloku, należy otworzyć plik <strong>tm_twitter.xml</strong> zlokalizowany w folderze <strong>/app/design/frontend/default/themeXXX/layout</strong> Twojej instalacji.
+			</p>
+			Plik ten zawiera trzy <strong><em>reference</em></strong> do bloków o parametrach <strong>name="left"</strong> (name="right", name="footer").
+			<pre class="prettyprint linenums">
+&lt;reference name="left"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt;
+&lt;!-- &lt;reference name="footer"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt;
+&lt;reference name="right"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt; --&gt;</pre>
+			<p>Dwa bloki są przekonwertowane na komentarz w tym pliku. A jeden blok z <strong>name="left"</strong> nie jest przekonwertowany. Wyświetla moduł w lewej kolumnie. <br>
+				Jeśli chcesz wyświetlić moduł w stopce, należy postępować zgodnie z poniższymi instrukcjami:
+			</p>
+			<ul>
+				<li>1. Uncomment lines of code for <strong>name="footer"</strong> block (the last one in the example of the code above) and comment out the <strong>name="left"</strong> block (the first one in the example of code above).</li>
+				<li>2. Otwórz plik <strong>footer.phtml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+				<li>3. Wklej następujący kod do wskazanego miejsca:
+					<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>	
+				</li>
+			</ul>
+			<p>Blok Twitter'a wyświetli się teraz w stopce.</p>
+		</article>
+		<article id="newsletter">
+			<h4>11. Moduł Newsletter popup</h4>
+			<p>Moduł ten pozwala na wyświetlenie wyskakującego bloku z formularzem subskrypcji newslettera.</p>			
+			<p> Możesz włączyć/wyłączyć moduł za pomocą panela administracyjnego Magento w sekcji <strong>System > Configuration > Templatemonster > NewsletterPopup</strong>.</p>
+			<p><img src="img/newsletter.jpg" height="880" width="1208" alt=""></p>
+			<p>Aby edytować wygląd okna, należy edytować plik motywu <strong>style.css</strong>. Jeśli chcesz dodać kilka elementów użytkownika do wyskakującego bloku, należy edytować plik <strong>newsletterpopup.phtml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/template/tm/newsletterpopup</strong>.<p>
+		</article>
+		<article id="specialpricecountdown">
+			<h4>12. Motyw Special price countdown</h4>
+			<p>Moduł ten pozwala wyświetlić licznik, który wskazuje czas wygaśnięcia zniżki dla produktów specjalnych.</p>			
+			<p>Możesz włączyć/wyłączyć moduł poprzez panel administracyjny Magento, w sekcji <strong>System > Configuration > Templatemonster > Special Price Countdown</strong>.</p>
+			<p><img src="img/countdown.jpg" height="747" width="1262" alt=""></p>
+			<p>Aby edytować wygląd licznika, należy edytować plik <strong>flipclock.css (flipclock.less)</strong> zlokalizowany w folderze <strong>skin/frontend/default/themeXXX/css/tm/specialpricecountdown</strong>.<p>
+		</article>
+
+
+
+
 	</section>
 	<section class="block-templates" id="conclusion">
 		<h2 class="item7"><i class="icon-question-sign"></i> Podsumowanie</h2>
