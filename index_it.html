@@ -45,7 +45,7 @@
 			</article>
 			<article class="span2">
 				<div id="languages" class="select-menu pull-right">
-					<div class="select-menu_icon"><b>En</b><i class="icon-angle-down"></i></div>
+					<div class="select-menu_icon"><b>It</b><i class="icon-angle-down"></i></div>
 					<ul class="select-menu_list">
 					</ul>
 				</div>
@@ -123,15 +123,20 @@
 					</li>
 					<li class="nav-item item6">
 						<dl class="slide-down">
-							<dt><a href="#extension_configuration" class="icon-cogs">Configurazione Estensioni</a> <i class="icon-sample"></i></dt>
+							<dt><a href="#extension_configuration" class="icon-cogs">Настройка нативных расширений</a> <i class="icon-sample"></i></dt>
 							<dd>
 								<ul class="list">
 									<li><a href="#currency_settings">Configurazione Modulo Valute</a></li>
 									<li><a href="#polls_settings">Configurazione Modulo Sondaggi</a></li>
-									<li><a href="#livechat">Chat Live Olark</a></li>
-									<li><a href="#cloudzoom">Cloud Zoom</a></li>
-									<li><a href="#addthis">Aggiungi</a></li>
-									<li><a href="#cookie-policy">Informativa sui Cookies</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li class="nav-item item7">
+						<dl class="slide-down">
+							<dt><a href="#tm_extension_configuration" class="icon-cogs">Настройка расширений TM</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
 									<li><a href="#googlemap">Google Map</a></li>
 									<li><a href="#facebooklikebox">Casella Facebook Mi Piace</a></li>
 									<li><a href="#instagram">Modulo Instagram</a></li>
@@ -141,8 +146,21 @@
 								</ul>
 							</dd>
 						</dl>
+					</li>					
+					<li class="nav-item item8">
+						<dl class="slide-down">
+							<dt><a href="#third_extension_configuration" class="icon-cogs">Настройка других расширений</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">									
+									<li><a href="#livechat">Chat Live Olark</a></li>
+									<li><a href="#cloudzoom">Cloud Zoom</a></li>
+									<li><a href="#addthis">Aggiungi</a></li>
+									<li><a href="#cookie-policy">Informativa sui Cookies</a></li>
+								</ul>
+							</dd>
+						</dl>
 					</li>
-					<li class="nav-item item7">
+					<li class="nav-item item9">
 						<dl class="slide-down">
 							<dt><a href="#conclusion" class="icon-question-sign">Conclusioni</a></dt>
 							<dd></dd>
@@ -518,44 +536,7 @@
 					</ul>
 				</li>
 			</ul>
-			<p>Esempio di tabella della impostazioni:</p>
-			<table class="table table-bordered">
-				<tr>
-					<th>#</th>
-					<th>Nome Pagina</th>
-					<th>HTML Pagina (Scheda Contents)</th>
-					<th>XML Pagina (Scheda Design)</th>
-					<th>Layout</th>
-				</tr>
-				<tr>
-					<td>1.</td>
-					<td>Home Page</td>
-					<td>sources\demo\pages\home_page.phtml</td>
-					<td>sources\demo\pages\home_page.xml</td>
-					<td>1 colonna</td>
-				</tr>
-				<tr>
-					<td>2.</td>
-					<td>About  Us</td>
-					<td>sources\demo\pages\about_us.phtml</td>
-					<td>NA</td>
-					<td>1 colonna</td>
-				</tr>
-				<tr>
-					<td>3.</td>
-					<td>Customer Service</td>
-					<td>sources\demo\pages\customer_service.phtml</td>
-					<td>NA</td>
-					<td>1 colonna</td>
-				</tr>
-				<tr>
-					<td>4.</td>
-					<td>Privacy Policy</td>
-					<td>sources\demo\pages\privacy_policy.phtml</td>
-					<td>NA</td>
-					<td>1 colonna</td>
-				</tr>
-			</table>
+			
 			<p>La pagina template principale è quella maggiormente interessata. Contiene solitamente i seguenti elementi: banner, slider, galleria, ecc.</p>
 			<div class="box-notification"><span>Consigliamo di disabilitare l'editor WYSIWYG. Per farlo, dal menù admin in alto, seleziona  <strong>System &gt; Configuration</strong>. Apri la sezione "<strong>Content Management</strong>" e nelle finestra delle opzioni <strong>WYSIWYG Options</strong> imposta l'opzione "<strong>Enable WYSIWYG Editor</strong>" su "<strong>Disabled Completely</strong>".</span><br />
 			<img src="img/pages_setting1.png" alt="" /></div>
@@ -615,7 +596,7 @@
 	</section>
 
 	<section class="block-templates" id="extension_configuration">
-		<h2 class="item6"><i class="icon-cogs"></i> Configurazione Estensioni</h2>
+		<h2 class="item6"><i class="icon-cogs"></i> Настройка нативных расширений</h2>
 		<article id="currency_settings">
 			<h4>1. Modulo Valute</h4>
 			<ol>
@@ -632,89 +613,11 @@
 			<p>Dal menù in alto, seleziona <b>CMS > Polls</b>.</p>
 			<p><img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" /></p>
 		</article>
-		<article id="livechat">
-			<h4>3. Olark Live Chat</h4>
-			<p>Per utilizzare la funzione di chat online integrata al template, devi aprire un account sul <a href="https://www.olark.com/signup/create_new_account" target="blank_">sito</a> ufficiale, compilando tutti i campi necessari per poi ricevere il codice <strong>Olark Site-ID</strong>.</p>
-			<div class="box-info"><span>Hai la possibilità di ottenere un pacchetto di prova di 6 mesi, il 'bronze package', cliccando su questo <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">link</a> e inserendo tutti i dati per l'iscrizione.</span></div>
-			Per configurare la chat online, segui questa procedura:
-			<div class="flexslider clearfix img-polaroid olark">
-				<ul class="slides">
-					<li>
-						<img src="img/img1.jpg"  alt="">
-						<div class="flex-caption">
-							<p>1. Apri il pannello admin di Magento. Naviga sul menù CMS e clicca su di esso. Dal menù a discesa vai sull'elemento <strong>Widgets</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img2.jpg"  alt="">
-						<div class="flex-caption">
-							<p>2. Una volta aperta la nuova pagina, clicca sul pulsante <strong>Add new widget instance</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img3.jpg"  alt="">
-						<div class="flex-caption">
-							<p>3. Sul menù a discesa <strong>Type</strong> seleziona Olark Live Chat, nel menù <strong>Design Package/Theme</strong> seleziona la skin del tuo negozio, da usare anche per la chat. Clicca su <strong>Continue</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img4.jpg"  alt="">
-						<div class="flex-caption">
-							<p>4. Ora devi configurare il display della chat online. Prima di tutto, nel campo <strong>Widget Instance Title</strong>, digita il nome del widget, che sarà visualizzato nel pannello admin. Nel campo <strong>Assign to Store Views</strong> devi selezionare la vista store ("store view"), che visualizzerà la  chat. Nel blocco <strong>Layout Updates</strong> clicca sul pulsante <strong>Add Layout Update</strong>. Nel campo <strong>Display On</strong> devi selezionare <strong>All pages</strong>. Per il campo <strong>Block Reference</strong> seleziona la <strong>Main Content Area</strong>.</p>		
-						</div>
-					</li>
-					<li>
-						<img src="img/img5.jpg"  alt="">
-						<div class="flex-caption">
-							<p>5. Segui il link <strong>Widget Options</strong> nella barra laterale di sinistra. Sulla destra vedrai il campo da compilare con <strong>Olark Site-ID</strong>. 
-							Una volta compilato l'<strong>Olark Site-ID</strong>, clicca su <strong>Save</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img6.jpg"  alt="">
-						<div class="flex-caption">
-							<p>6. Nella nuova finestra, naviga sull'elemento menù <strong>System -> Cache Management</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img7.jpg"  alt="">
-						<div class="flex-caption">
-							<p>7. Nel blocco <strong>Cache Storage Management</strong> seleziona gli elementi <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Assicurati che nel campo <strong>Actions</strong> l'elemento <strong>Refresh</strong> sia selezionato, e poi clicca <strong>Submit</strong>.</p>
-						</div>
-					</li>
-				</ul>
-			</div>			
-			<p><strong>Fatto!</strong> Ora puoi visitare il tuo sito e vedere il widget per la chat online.</p>
-			<p>Puoi anche dare un'occhiata a queste altre istruzioni:</p>
-			<ul class="square-list">
-				<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Inizia a lavorare con Olark <i class="icon-external-link"></i></a></li>
-				<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Manuale Utente Olark<i class="icon-external-link"></i></a></li>
-			</ul>
-		</article>
-		<article id="cloudzoom">
-			<h4>4. Cloud Zoom</h4>
-			<p>Le impostazioni Cloud Image Zoom ti permettono di modificare le dimensioni dell'immagine di pop-up e di impostare le dimensioni originali dell'immagine.</p>
-			<p><img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" /></p>
-		</article>
-		<article id="addthis">
-			<h4>5. Aggiungi</h4>
-			<p>Le impostazioni di Sharing Tool ti permettono di determinare in che modo le icone debbano essere visualizzate. Le impostazioni consigliate sono quelle che vedete nell'immagine.</p>
-			<p><img class="presta_scr2" src="img/add_this.jpg" alt="" /></p>
-		</article>
-		<article id="cookie-policy">
-			<h4>6. Informativa sui Cookie</h4> 
-			<p>I cookie sono dei piccoli file di testo che un sito web crea sul computer di un visitatore. Vengono utilizzati tipicamente per identificare quello specifico visitatore allo scopo di fornirgli un'esperienza di navigazione migliore. I Cookie sono un elemento importantissimo per il corretto funzionamento di tante funzioni dei siti web che tutti ormai diamo per scontate. </p> 
-			<p>Ad esempio, sono solitamente proprio i cookie che permettono ai negozi online di ricordare quali articoli hai messo nel tuo carrello. Sono usati anche per tenere attivo il tuo login sul sito, o per dare ai gestori del sito informazioni statistiche importanti.</p> 
-			<p>Se gestisci un sito web, esso quasi sicuramente usa i cookie. La loro funzione più probabile è quella di monitorare il numero dei visitatori e i loro comportamenti, servendosi di strumenti come Google Analytics. Possono essere usati anche per mostrare agli utenti delle pubblicità il più possibile rilevanti, oppure - per chi vende prodotti - per far funzionare alcuni tra gli elementi più importanti del sistema di compravendita del tuo negozio online.</p> 
-			<p>26 maggio 2012 - La ICO ha pubblicato una modifica all'applicazione della regolamentazione: "il consenso implicito" è ora consentito purché sia ben chiaro dove si trovano le tue informative su cookie e privacy.</p> 
-			<p>Per aderire alle direttive della legge sui Cookie, dovrai aggiungere moduli appropriati sul tuo sito. Il modulo mostrerà un messaggio di avviso riguardo l'utilizzo dei cookie sul tuo sito web. Puoi usare questi:</p> 
-			<ul class="list">
-				<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Creare EU Cookie Law Banner </a></li> 
-				<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Implied Consent</a></li>
-			</ul>
-		</article>
+	</section>
+	<section class="block-templates" id="tm_extension_configuration">
+		<h2 class="item7"><i class="icon-cogs"></i> Настройка расширений ТМ</h2>		
 		<article id="googlemap">
-			<h4>7. Google Map</h4>
+			<h4>1. Google Map</h4>
 			<p>Questo modulo di permette di incorporare le mappe di Google suo tuo sito Magento. Di default, il modulo ti dà due mappe: la mappa sulla pagina dei contatti e la mappa a pié pagina sulle altre pagine.</p>						
 			<p>Entrambe le mappe possono essere configurate attraverso il pannello di amministrazione (Admin Panel) di Magento, andando alla sezione <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
 			<div class="flexslider clearfix img-polaroid olark">
@@ -804,7 +707,7 @@
 			</table>
 		</article>
 		<article id="facebooklikebox">
-			<h4>8. Casella Facebook Mi Piace</h4>
+			<h4>2. Casella Facebook Mi Piace</h4>
 			<p>Questo modulo ti permette di inserire una casella Facebook per dare un Mi Piace al tuo negozio  Magento.</p>						
 			<p>Puoi configurarlo andando sul pannello di amministrazione Magento (Admin Panel) alla sezione  <strong>System > Configuration > Templatemonster > Facebook</strong>.</p>
 			<div class="flexslider clearfix img-polaroid olark">
@@ -883,7 +786,7 @@
 			<p>Adesso il blocco Facebook verrà situato a pié pagina.</p>
 		</article>
 		<article id="instagram">
-			<h4>9. Modulo Instagram</h4>
+			<h4>3. Modulo Instagram</h4>
 			<p>Il modulo Instagram ti permette di inserire una galleria Instagram nel tuo negozio.<br>
 			Il modulo ti permette di inserire due tipi di galleria: galleria utente e galleria tag.</p>						
 			<p>Tutte le configurazioni sono disponibili nel pannello di amministrazione (Admin Panel), nella sezione <strong>System > Configuration > Templatemonster > Instagram</strong>.</p>
@@ -918,7 +821,7 @@
 			</table>			
 		</article>
 		<article id="twitter">
-			<h4>10. Modulo Twitter</h4>
+			<h4>4. Modulo Twitter</h4>
 			<p>Il modulo Twitter ti permette di inserire dei tweet sul tuo negozio.</p>						
 			<p>Tutte le configurazioni sono disponibili nel pannello di amministrazione (Admin Panel), nella sezione <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
 			<div class="flexslider clearfix img-polaroid olark">
@@ -997,23 +900,102 @@
 			<p>Adesso il blocco Twitter verrà situato a pié pagina.</p>
 		</article>
 		<article id="newsletter">
-			<h4>11. Pop-up Newsletter</h4>
+			<h4>5. Pop-up Newsletter</h4>
 			<p>Il modulo ti permette di inserire un blocco pop-up con il modulo di iscrizione alla newsletter.</p>			
 			<p> È possibile abilitare/disabilitare il modulo dal pannello di amministrazione Magento (Admin Panel), alla sezione <strong>System > Configuration > Templatemonster > NewsletterPopup</strong>.</p>
 			<p><img src="img/newsletter.jpg" height="880" width="1208" alt=""></p>
 			<p>Per modificare l'aspetto della finestra, è necessario modificare il file <strong>style.css</strong> del tema. Se vuoi aggiungere diversi elementi utente al blocco pop-up, dovrai modificare il file <strong>newsletterpopup.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/tm/newsletterpopup</strong>.<p>
 		</article>
 		<article id="specialpricecountdown">
-			<h4>12. Conto alla rovescia prezzo speciale</h4>
+			<h4>6. Conto alla rovescia prezzo speciale</h4>
 			<p>Questo modulo ti permette di inserire un conto alla rovescia per la scadenza di offerte speciali su determinati prodotti.</p>			
 			<p>È possibile abilitare/disabilitare il modulo dal pannello di amministrazione Magento (Admin Panel), alla sezione <strong>System > Configuration > Templatemonster > Special Price Countdown</strong>.</p>
 			<p><img src="img/countdown.jpg" height="747" width="1262" alt=""></p>
 			<p>Se vuoi modificare l'aspetto del conto alla rovescia, devi modificare il file <strong>flipclock.css (flipclock.less)</strong> situato nella cartella <strong>skin/frontend/default/themeXXX/css/tm/specialpricecountdown</strong>.<p>
 		</article>
-
-
-
-
+	</section>
+	<section class="block-templates" id="third_extension_configuration">
+		<article id="livechat">
+			<h4>1. Olark Live Chat</h4>
+			<p>Per utilizzare la funzione di chat online integrata al template, devi aprire un account sul <a href="https://www.olark.com/signup/create_new_account" target="blank_">sito</a> ufficiale, compilando tutti i campi necessari per poi ricevere il codice <strong>Olark Site-ID</strong>.</p>
+			<div class="box-info"><span>Hai la possibilità di ottenere un pacchetto di prova di 6 mesi, il 'bronze package', cliccando su questo <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">link</a> e inserendo tutti i dati per l'iscrizione.</span></div>
+			Per configurare la chat online, segui questa procedura:
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/img1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>1. Apri il pannello admin di Magento. Naviga sul menù CMS e clicca su di esso. Dal menù a discesa vai sull'elemento <strong>Widgets</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img2.jpg"  alt="">
+						<div class="flex-caption">
+							<p>2. Una volta aperta la nuova pagina, clicca sul pulsante <strong>Add new widget instance</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img3.jpg"  alt="">
+						<div class="flex-caption">
+							<p>3. Sul menù a discesa <strong>Type</strong> seleziona Olark Live Chat, nel menù <strong>Design Package/Theme</strong> seleziona la skin del tuo negozio, da usare anche per la chat. Clicca su <strong>Continue</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img4.jpg"  alt="">
+						<div class="flex-caption">
+							<p>4. Ora devi configurare il display della chat online. Prima di tutto, nel campo <strong>Widget Instance Title</strong>, digita il nome del widget, che sarà visualizzato nel pannello admin. Nel campo <strong>Assign to Store Views</strong> devi selezionare la vista store ("store view"), che visualizzerà la  chat. Nel blocco <strong>Layout Updates</strong> clicca sul pulsante <strong>Add Layout Update</strong>. Nel campo <strong>Display On</strong> devi selezionare <strong>All pages</strong>. Per il campo <strong>Block Reference</strong> seleziona la <strong>Main Content Area</strong>.</p>		
+						</div>
+					</li>
+					<li>
+						<img src="img/img5.jpg"  alt="">
+						<div class="flex-caption">
+							<p>5. Segui il link <strong>Widget Options</strong> nella barra laterale di sinistra. Sulla destra vedrai il campo da compilare con <strong>Olark Site-ID</strong>. 
+							Una volta compilato l'<strong>Olark Site-ID</strong>, clicca su <strong>Save</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img6.jpg"  alt="">
+						<div class="flex-caption">
+							<p>6. Nella nuova finestra, naviga sull'elemento menù <strong>System -> Cache Management</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img7.jpg"  alt="">
+						<div class="flex-caption">
+							<p>7. Nel blocco <strong>Cache Storage Management</strong> seleziona gli elementi <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Assicurati che nel campo <strong>Actions</strong> l'elemento <strong>Refresh</strong> sia selezionato, e poi clicca <strong>Submit</strong>.</p>
+						</div>
+					</li>
+				</ul>
+			</div>			
+			<p><strong>Fatto!</strong> Ora puoi visitare il tuo sito e vedere il widget per la chat online.</p>
+			<p>Puoi anche dare un'occhiata a queste altre istruzioni:</p>
+			<ul class="square-list">
+				<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Inizia a lavorare con Olark <i class="icon-external-link"></i></a></li>
+				<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Manuale Utente Olark<i class="icon-external-link"></i></a></li>
+			</ul>
+		</article>
+		<article id="cloudzoom">
+			<h4>2. Cloud Zoom</h4>
+			<p>Le impostazioni Cloud Image Zoom ti permettono di modificare le dimensioni dell'immagine di pop-up e di impostare le dimensioni originali dell'immagine.</p>
+			<p><img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" /></p>
+		</article>
+		<article id="addthis">
+			<h4>3. Aggiungi</h4>
+			<p>Le impostazioni di Sharing Tool ti permettono di determinare in che modo le icone debbano essere visualizzate. Le impostazioni consigliate sono quelle che vedete nell'immagine.</p>
+			<p><img class="presta_scr2" src="img/add_this.jpg" alt="" /></p>
+		</article>
+		<article id="cookie-policy">
+			<h4>4. Informativa sui Cookie</h4> 
+			<p>I cookie sono dei piccoli file di testo che un sito web crea sul computer di un visitatore. Vengono utilizzati tipicamente per identificare quello specifico visitatore allo scopo di fornirgli un'esperienza di navigazione migliore. I Cookie sono un elemento importantissimo per il corretto funzionamento di tante funzioni dei siti web che tutti ormai diamo per scontate. </p> 
+			<p>Ad esempio, sono solitamente proprio i cookie che permettono ai negozi online di ricordare quali articoli hai messo nel tuo carrello. Sono usati anche per tenere attivo il tuo login sul sito, o per dare ai gestori del sito informazioni statistiche importanti.</p> 
+			<p>Se gestisci un sito web, esso quasi sicuramente usa i cookie. La loro funzione più probabile è quella di monitorare il numero dei visitatori e i loro comportamenti, servendosi di strumenti come Google Analytics. Possono essere usati anche per mostrare agli utenti delle pubblicità il più possibile rilevanti, oppure - per chi vende prodotti - per far funzionare alcuni tra gli elementi più importanti del sistema di compravendita del tuo negozio online.</p> 
+			<p>26 maggio 2012 - La ICO ha pubblicato una modifica all'applicazione della regolamentazione: "il consenso implicito" è ora consentito purché sia ben chiaro dove si trovano le tue informative su cookie e privacy.</p> 
+			<p>Per aderire alle direttive della legge sui Cookie, dovrai aggiungere moduli appropriati sul tuo sito. Il modulo mostrerà un messaggio di avviso riguardo l'utilizzo dei cookie sul tuo sito web. Puoi usare questi:</p> 
+			<ul class="list">
+				<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Creare EU Cookie Law Banner </a></li> 
+				<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Implied Consent</a></li>
+			</ul>
+		</article>
 	</section>
 	<section class="block-templates" id="conclusion">
 		<h2 class="item7"><i class="icon-question-sign"></i> Conclusioni</h2>

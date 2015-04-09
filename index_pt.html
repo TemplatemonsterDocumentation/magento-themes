@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Documentação do Magento<</title>
+	<title>Documentação do Magento</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" href="css/responsive.css" media="screen">
@@ -123,15 +123,20 @@
 					</li>
 					<li class="nav-item item6">
 						<dl class="slide-down">
-							<dt><a href="#extension_configuration" class="icon-cogs">Configurar extensões</a> <i class="icon-sample"></i></dt>
+							<dt><a href="#extension_configuration" class="icon-cogs">Настройка нативных расширений</a> <i class="icon-sample"></i></dt>
 							<dd>
 								<ul class="list">
 									<li><a href="#currency_settings">Configurar módulo de moedas</a></li>
 									<li><a href="#polls_settings">Configurar módulo de pesquisas de opinião</a></li>
-									<li><a href="#livechat">Chat Olark em tempo real</a></li>
-									<li><a href="#cloudzoom">Cloud Zoom</a></li>
-									<li><a href="#addthis">Add This</a></li>
-									<li><a href="#cookie-policy">Política de cookies</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li class="nav-item item7">
+						<dl class="slide-down">
+							<dt><a href="#tm_extension_configuration" class="icon-cogs">Настройка расширений TM</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
 									<li><a href="#googlemap">Google Map</a></li>
 									<li><a href="#facebooklikebox">Caixa de Curtidas do Facebook</a></li>
 									<li><a href="#instagram">Módulo do Instagram</a></li>
@@ -141,8 +146,21 @@
 								</ul>
 							</dd>
 						</dl>
+					</li>					
+					<li class="nav-item item8">
+						<dl class="slide-down">
+							<dt><a href="#third_extension_configuration" class="icon-cogs">Настройка других расширений</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">									
+									<li><a href="#livechat">Chat Olark em tempo real</a></li>
+									<li><a href="#cloudzoom">Cloud Zoom</a></li>
+									<li><a href="#addthis">Add This</a></li>
+									<li><a href="#cookie-policy">Política de cookies</a></li>
+								</ul>
+							</dd>
+						</dl>
 					</li>
-					<li class="nav-item item7">
+					<li class="nav-item item9">
 						<dl class="slide-down">
 							<dt><a href="#conclusion" class="icon-question-sign">Conclusão</a></dt>
 							<dd></dd>
@@ -543,44 +561,7 @@
 					</ul>
 				</li>
 			</ul>
-			<p>Exemplo de tabela de configurações:</p>
-			<table class="table table-bordered">
-				<tr>
-					<th>#</th>
-					<th>Page Name - Nome da página</th>
-					<th>Page HTML (aba Content)</th>
-					<th>Page XML (aba Design)</th>
-					<th>Layout</th>
-				</tr>
-				<tr>
-					<td>1.</td>
-					<td>Home Page - Página principal</td>
-					<td>sources\demo\pages\home_page.phtml</td>
-					<td>sources\demo\pages\home_page.xml</td>
-					<td>1 column - 1 coluna</td>
-				</tr>
-				<tr>
-					<td>2.</td>
-					<td>About  Us - Sobre nós</td>
-					<td>sources\demo\pages\about_us.phtml</td>
-					<td>NA</td>
-					<td>1 column - 1 coluna</td>
-				</tr>
-				<tr>
-					<td>3.</td>
-					<td>Customer Service - Atendimento (SAC)</td>
-					<td>sources\demo\pages\customer_service.phtml</td>
-					<td>NA</td>
-					<td>1 column - 1 coluna</td>
-				</tr>
-				<tr>
-					<td>4.</td>
-					<td>Privacy Policy - Política de Privacidade</td>
-					<td>sources\demo\pages\privacy_policy.phtml</td>
-					<td>NA</td>
-					<td>1 column - 1 coluna</td>
-				</tr>
-			</table>
+			
 			<p>A página principal do template é a que mais será afetada. Em geral ela contém os seguintes elementos: banners, slider, galeria, etc.</p>
 			<div class="box-notification"><span>Nós recomendamos que você desabilite o editor WYSIWYG. Para fazer isso, navegue para  <strong>System &gt; Configuration</strong>. Abra a seção "<strong>Content Management</strong>" e na janela <strong>WYSIWYG Options</strong> troque a opção "<strong>Enable WYSIWYG Editor</strong>" para "<strong>Disabled Completely</strong>".</span><br>
 			<img src="img/pages_setting1.png" alt="" /></div>
@@ -640,7 +621,7 @@
 	</section>
 
 	<section class="block-templates" id="extension_configuration">
-		<h2 class="item6"><i class="icon-cogs"></i> Configurar extensões</h2>
+		<h2 class="item6"><i class="icon-cogs"></i> Настройка нативных расширений</h2>
 		<article id="currency_settings">
 			<h4>1. Módulo de moeda</h4>
 			<ol>
@@ -657,89 +638,11 @@
 			<p>Do menu superior, vá para <b>CMS > Polls</b>.</p>
 			<p><img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" /></p>
 		</article>
-		<article id="livechat">
-			<h4>3. Olark Live Chat</h4>
-			<p>Para ativar o bate-papo instantâneo como existe na versão de demonstração, você vai precisar se registrar no site oficial do <a target="_blank" href="http://www.olark.com/?r=ad8fbsj2">Olark</a>. Depois de terminar seu cadastro, você receberá um código para adicionar no painel administrativo (<strong>Olark Site-ID</strong>).</p>
-			<div class="box-info"><span>Você tem direito ao período de testes de 6 meses no pacote bronze. Entre <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">neste link</a>, e preencha as informações no cadastro..</span></div>
-			Para configurar o bate-papo, siga estes passos:
-			<div class="flexslider clearfix img-polaroid olark">
-				<ul class="slides">
-					<li>
-						<img src="img/img1.jpg"  alt="">
-						<div class="flex-caption">
-							<p>1. Abra o painel administrativo. Navegue para o item do menu CMS. Na caixa de seleção, escolha <strong>Widgets</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img2.jpg"  alt="">
-						<div class="flex-caption">
-							<p>2. Ao abrir a nova página, clique no botão <strong>Adicionar novo widget (Add new widget instance)</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img3.jpg"  alt="">
-						<div class="flex-caption">
-							<p>3. Na caixa de seleção <strong>Tipo (Type)</strong> escolha o bate-paop ao vivo Olark (Olark Live Chat), no menu <strong>Pacote de Estilos/Tema (Design Package/Theme)</strong> escolha a aparência de sua loja que deve mostrar o bate-papo. Clique no botão <strong>Continuar (Continue)</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img4.jpg"  alt="">
-						<div class="flex-caption">
-							<p>4. Agora você precisa configurar a aparência do seu bate-papo. Em primeiro lugar, no campo <strong>Título do Widget (Widget Instance Title)</strong> escreva o nome da sala de bate-papo, que será mostrada no painel administrativo. No campo <strong>Especificar Páginas da Loja (Assign to Store Views)</strong> você precisa escolher a visualização da loja que vai mostrar janela de bate-papo. No bloco <strong>Atualizações de Layout (Layout Updates)</strong> clique no botão <strong>Adicionar Layout (Add Layout Update)</strong>. No campo <strong>Mostrar em (Display On)</strong> você deve escolher todas as páginas <strong>(All pages)</strong>. No campo <strong>Referência de Bloco (Block Reference)</strong> escolha <strong>Conteúdo Principal (Main Content Area)</strong>.</p>		
-						</div>
-					</li>
-					<li>
-						<img src="img/img5.jpg"  alt="">
-						<div class="flex-caption">
-							<p>5. Siga o link para <strong>Opções de Widget (Widget Options)</strong> na barra lateral. À direita você verá um campo, que você deve preencher com o número <strong>Olark Site-ID</strong>. 
-							Assim que preencher este campo, clique em <strong>Salvar (Save)</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img6.jpg"  alt="">
-						<div class="flex-caption">
-							<p>6. Na nova janela, navegue para <strong>Sistema (System) -> Gerenciar Cache (Cache Management)</strong>.</p>
-						</div>
-					</li>
-					<li>
-						<img src="img/img7.jpg"  alt="">
-						<div class="flex-caption">
-							<p>7. No bloco <strong>Gerenciamento de Cache (Cache Storage Management)</strong> marque as opções <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Certifique-se de que no campo <strong>Ação (Actions)</strong> a opção <strong>Atualizar (Refresh)</strong> esteja marcada, e clique em <strong>Enviar (Submit)</strong>.</p>
-						</div>
-					</li>
-				</ul>
-			</div>			
-			<p><strong>Tudo pronto!</strong> Agora você pode visitar seu site e ver o widget de bate-papo online.</p>
-			<p>Você também pode ler as seguintes instruções:</p>
-			<ul class="square-list">
-				<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Start work with Olark <i class="icon-external-link"></i></a></li>
-				<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Olark User Manual <i class="icon-external-link"></i></a></li>
-			</ul>
-		</article>
-		<article id="cloudzoom">
-			<h4>4. Cloud Zoom</h4>
-			<p>Ao configurar o Cloud Image Zoom, você pode mudar o tamanho das imagens pop-up e das originais.</p>
-			<p><img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" /></p>
-		</article>
-		<article id="addthis">
-			<h4>5. Add This</h4>
-			<p>A configuração dessa ferramenta de compartilhamento permite que você escolha como os ícones são mostrados. As configrações recomendads estão na imagem abaixo.</p>
-			<p><img class="presta_scr2" src="img/add_this.jpg" alt="" /></p>
-		</article>
-		<article id="cookie-policy">
-			<h4>6. Política de Cookies</h4> 
-			<p>Cookies são pequenos arquivos de texto que sites colocam no computador dos visitantes. Geralmente servem para identificar um visitante e prover uma experiência melhor. Cookies são uma parte crucial de muitas funções em sites que costumamos tomar como triviais.</p> 
-			<p>Por exemplo, em geral usamos cookies para que as lojas online lembrem o que adicionamos ao carrinho de compras. Também são usados para mantê-lo logado em um site ou manter estatísticas de uso e informações para os donos do site.</p> 
-			<p>Se você tem um site, quase certeza que usa cookies. Provavelmente para monitorar o número e o comportamento dos seus visitantes através do Google Analytics, por exemplo. Também podem ser usados para mostrar anúncios relevantes para visitantes. Cookies também empoderam partes chave do seu sistema de compras online.</p> 
-			<p>26 de Maio de 2012 - A ICO lançou uma mudança na política de Cookies. Iniciou-se daquele momento em diante permitiu-se um "consentimento tácito" em relação ao uso de cookies, se você mantiver às claras onde encontrar suas políticas de privacidade/cookies. </p> 
-			<p>Seguindo as condições da Cookie Law, você deve manter módulos em seu site para mostrar mensagens aos seus usuários sobre o uso de Cookies no seu site. Nós recomendamos os seguintes:</p> 
-			<ul class="list">
-				<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Creare EU Cookie Law Banner </a></li> 
-				<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Implied Consent</a></li>
-			</ul>
-		</article>
+	</section>
+	<section class="block-templates" id="tm_extension_configuration">
+		<h2 class="item7"><i class="icon-cogs"></i> Настройка расширений ТМ</h2>
 		<article id="googlemap">
-			<h4>7. Google Map</h4>
+			<h4>1. Google Map</h4>
 			<p>Esse módulo permite que você inclua um mapa do Google Maps no seu site Magento. Por padrão, este módulo provém dois mapas: o mapa na página de contatos e o mapa no rodapé de outras páginas.</p>						
 			<p>Ambos podem ser configurados através do Painel Administrativo do Magento em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Google Map</strong>.</p>
 			<div class="flexslider clearfix img-polaroid olark">
@@ -829,7 +732,7 @@
 			</table>
 		</article>
 		<article id="facebooklikebox">
-			<h4>8. Caixa de Curtidas do Facebook (Facebook like box)</h4>
+			<h4>2. Caixa de Curtidas do Facebook (Facebook like box)</h4>
 			<p>Este módulo permite mostrar uma caixa de curtidas no Facebook em sua loja do Magento.</p>						
 			<p>Você pode configurar através do Painel Administrativo do Magento em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Facebook</strong>.</p>
 			<div class="flexslider clearfix img-polaroid olark">
@@ -910,7 +813,7 @@
 			<p>Agora o bloco do Facebook será mostrado no rodapé.</p>
 		</article>
 		<article id="instagram">
-			<h4>9. Módulo do Instagram</h4>
+			<h4>3. Módulo do Instagram</h4>
 			<p>O módulo do Instagram permite que você mostre uma galeria do Instagram na sua loja.<br>
 			Este módulo permite mostrar dois tipos de galeria: galeria de usuário e galeria de etiquetas (tags).</p>						
 			<p>Todas as opções de configuração estão disponíveis no painel administrativo em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Instagram</strong>.</p>
@@ -945,7 +848,7 @@
 			</table>			
 		</article>
 		<article id="twitter">
-			<h4>10. Módulo do Twitter</h4>
+			<h4>4. Módulo do Twitter</h4>
 			<p>O módulo do Twitter te permite mostrar twitadas na sua loja.</p>						
 			<p>Todas as configurações disponíveis estão no painel em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Twitter</strong>.</p>
 			<div class="flexslider clearfix img-polaroid olark">
@@ -1025,24 +928,104 @@
 			
 		</article>
 		<article id="newsletter">
-			<h4>11. Newsletter popup</h4>
+			<h4>5. Newsletter popup</h4>
 			<p>Este módulo permite mostrar um bloco de pop-up com o forumlário de inscrição na sua lista e emails (newsletter).</p>			
 			<p> Você pode ativar/desativar o módulo através do Painel Administrativo do Magento em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > NewsletterPopup</strong>.</p>
 			<p><img src="img/newsletter.jpg" height="880" width="1208" alt=""></p>
 			<p>Para editar a aparência da janela, você precisa editar o arquivo <strong>style.css</strong> ddo tema. Se você precisar incluir diversos elementos do usuário no bloco de pop-up, você vai precisar editar o arquivo <strong>newsletterpopup.phtml</strong> encontrado na pasta <strong>app/design/frontend/default/themeXXX/template/tm/newsletterpopup</strong>.<p>
 		</article>
 		<article id="specialpricecountdown">
-			<h4>12. Contador de descontos (Special price countdown)</h4>
+			<h4>6. Contador de descontos (Special price countdown)</h4>
 			<p>Este módulo permite mostrar um contador de expiração para produtos especiais.</p>			
 			<p>Ative/desative este módulo através do Painel Administrativo do Magento, em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Special Price Countdown</strong>.</p>
 			<p><img src="img/countdown.jpg" height="747" width="1262" alt=""></p>
 			<p>Para mudar a aparência do contador, você precisa editar o arquivo <strong>flipclock.css (flipclock.less)</strong> encontrado na pasta <strong>skin/frontend/default/themeXXX/css/tm/specialpricecountdown</strong>.<p>
 		</article>
-
-
-
-
 	</section>
+	<section class="block-templates" id="third_extension_configuration">
+		<h2 class="item8"><i class="icon-cogs"></i> Настройка других расширений</h2>
+		<article id="livechat">
+			<h4>1. Chat Olark em tempo real</h4>
+			<p>Para ativar o bate-papo instantâneo como existe na versão de demonstração, você vai precisar se registrar no site oficial do <a target="_blank" href="http://www.olark.com/?r=ad8fbsj2">Olark</a>. Depois de terminar seu cadastro, você receberá um código para adicionar no painel administrativo (<strong>Olark Site-ID</strong>).</p>
+			<div class="box-info"><span>Você tem direito ao período de testes de 6 meses no pacote bronze. Entre <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">neste link</a>, e preencha as informações no cadastro..</span></div>
+			Para configurar o bate-papo, siga estes passos:
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/img1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>1. Abra o painel administrativo. Navegue para o item do menu CMS. Na caixa de seleção, escolha <strong>Widgets</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img2.jpg"  alt="">
+						<div class="flex-caption">
+							<p>2. Ao abrir a nova página, clique no botão <strong>Adicionar novo widget (Add new widget instance)</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img3.jpg"  alt="">
+						<div class="flex-caption">
+							<p>3. Na caixa de seleção <strong>Tipo (Type)</strong> escolha o bate-paop ao vivo Olark (Olark Live Chat), no menu <strong>Pacote de Estilos/Tema (Design Package/Theme)</strong> escolha a aparência de sua loja que deve mostrar o bate-papo. Clique no botão <strong>Continuar (Continue)</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img4.jpg"  alt="">
+						<div class="flex-caption">
+							<p>4. Agora você precisa configurar a aparência do seu bate-papo. Em primeiro lugar, no campo <strong>Título do Widget (Widget Instance Title)</strong> escreva o nome da sala de bate-papo, que será mostrada no painel administrativo. No campo <strong>Especificar Páginas da Loja (Assign to Store Views)</strong> você precisa escolher a visualização da loja que vai mostrar janela de bate-papo. No bloco <strong>Atualizações de Layout (Layout Updates)</strong> clique no botão <strong>Adicionar Layout (Add Layout Update)</strong>. No campo <strong>Mostrar em (Display On)</strong> você deve escolher todas as páginas <strong>(All pages)</strong>. No campo <strong>Referência de Bloco (Block Reference)</strong> escolha <strong>Conteúdo Principal (Main Content Area)</strong>.</p>		
+						</div>
+					</li>
+					<li>
+						<img src="img/img5.jpg"  alt="">
+						<div class="flex-caption">
+							<p>5. Siga o link para <strong>Opções de Widget (Widget Options)</strong> na barra lateral. À direita você verá um campo, que você deve preencher com o número <strong>Olark Site-ID</strong>. 
+							Assim que preencher este campo, clique em <strong>Salvar (Save)</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img6.jpg"  alt="">
+						<div class="flex-caption">
+							<p>6. Na nova janela, navegue para <strong>Sistema (System) -> Gerenciar Cache (Cache Management)</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img7.jpg"  alt="">
+						<div class="flex-caption">
+							<p>7. No bloco <strong>Gerenciamento de Cache (Cache Storage Management)</strong> marque as opções <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Certifique-se de que no campo <strong>Ação (Actions)</strong> a opção <strong>Atualizar (Refresh)</strong> esteja marcada, e clique em <strong>Enviar (Submit)</strong>.</p>
+						</div>
+					</li>
+				</ul>
+			</div>			
+			<p><strong>Tudo pronto!</strong> Agora você pode visitar seu site e ver o widget de bate-papo online.</p>
+			<p>Você também pode ler as seguintes instruções:</p>
+			<ul class="square-list">
+				<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Start work with Olark <i class="icon-external-link"></i></a></li>
+				<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Olark User Manual <i class="icon-external-link"></i></a></li>
+			</ul>
+		</article>
+		<article id="cloudzoom">
+			<h4>2. Cloud Zoom</h4>
+			<p>Ao configurar o Cloud Image Zoom, você pode mudar o tamanho das imagens pop-up e das originais.</p>
+			<p><img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" /></p>
+		</article>
+		<article id="addthis">
+			<h4>3. Add This</h4>
+			<p>A configuração dessa ferramenta de compartilhamento permite que você escolha como os ícones são mostrados. As configrações recomendads estão na imagem abaixo.</p>
+			<p><img class="presta_scr2" src="img/add_this.jpg" alt="" /></p>
+		</article>
+		<article id="cookie-policy">
+			<h4>4. Política de Cookies</h4> 
+			<p>Cookies são pequenos arquivos de texto que sites colocam no computador dos visitantes. Geralmente servem para identificar um visitante e prover uma experiência melhor. Cookies são uma parte crucial de muitas funções em sites que costumamos tomar como triviais.</p> 
+			<p>Por exemplo, em geral usamos cookies para que as lojas online lembrem o que adicionamos ao carrinho de compras. Também são usados para mantê-lo logado em um site ou manter estatísticas de uso e informações para os donos do site.</p> 
+			<p>Se você tem um site, quase certeza que usa cookies. Provavelmente para monitorar o número e o comportamento dos seus visitantes através do Google Analytics, por exemplo. Também podem ser usados para mostrar anúncios relevantes para visitantes. Cookies também empoderam partes chave do seu sistema de compras online.</p> 
+			<p>26 de Maio de 2012 - A ICO lançou uma mudança na política de Cookies. Iniciou-se daquele momento em diante permitiu-se um "consentimento tácito" em relação ao uso de cookies, se você mantiver às claras onde encontrar suas políticas de privacidade/cookies. </p> 
+			<p>Seguindo as condições da Cookie Law, você deve manter módulos em seu site para mostrar mensagens aos seus usuários sobre o uso de Cookies no seu site. Nós recomendamos os seguintes:</p> 
+			<ul class="list">
+				<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Creare EU Cookie Law Banner </a></li> 
+				<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Implied Consent</a></li>
+			</ul>
+		</article>
+	</section>		
 	<section class="block-templates" id="conclusion">
 		<h2 class="item7"><i class="icon-question-sign"></i> Conclusão</h2>
 		<p>O Magento é uma grande solução para sua loja online. O pacote padrão contém todos os módulos necessários para ter sucesso em suas vendas. Tecnologias Open source permitem que você ofereça possibilidades incríveis de mercadiorias para seus clientes. No entanto, por conta da estrutura complexa, o uso avançado do Magento requer bastante tempo para absorção. Você precisará de mais do que esse manual. </p>
