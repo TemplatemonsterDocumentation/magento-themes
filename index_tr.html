@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
 	<link rel="stylesheet" href="css/prettify.css"  media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
-	<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/masterindex_tr.html"/>
+	<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v1-1/index_tr.html"/>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.scrollTo.js"></script>
 	<script src="js/jquery-migrate-1.1.0.js"></script>
@@ -50,10 +50,10 @@
 					</ul>
 				</div>
 				<div id="versions" class="select-menu pull-right">
-	        <div class="select-menu_icon"><b>v1-0</b><i class="icon-angle-down"></i></div>
+	        <div class="select-menu_icon"><b>v1-1</b><i class="icon-angle-down"></i></div>
 	        <ul class="select-menu_list">
-	          <li class="active"><a href="/help/quick-start-guide/magento-themes/v1-0/index_tr.html"><span>v1-0</span></a></li>
-	          <li><a href="/help/quick-start-guide/magento-themes/v1-1/index_tr.html"><span>v1-1</span></a></li>
+	          <li><a href="/help/quick-start-guide/magento-themes/v1-0/index_tr.html"><span>v1-0</span></a></li>
+	          <li class="active"><a href="/help/quick-start-guide/magento-themes/v1-1/index_tr.html"><span>v1-1</span></a></li>
 	        </ul>
 	      </div>
 			</article>
@@ -123,11 +123,35 @@
 					</li>
 					<li class="nav-item item6">
 						<dl class="slide-down">
-							<dt><a href="#uzantı_configuration" class="icon-cogs">Uzantı ayarları</a> <i class="icon-sample"></i></dt>
+							<dt><a href="#uzantı_configuration" class="icon-cogs">Настройка нативных расширений</a> <i class="icon-sample"></i></dt>
 							<dd>
 								<ul class="list">
 									<li><a href="#currency_settings">Para birimi ayarları</a></li>
 									<li><a href="#polls_settings">Anket ayarları</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li class="nav-item item7">
+						<dl class="slide-down">
+							<dt><a href="#tm_extension_configuration" class="icon-cogs">Настройка расширений TM</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
+									<li><a href="#googlemap">Google Map</a></li>
+									<li><a href="#facebooklikebox">Facebook like box</a></li>
+									<li><a href="#instagram">Instagram modülü</a></li>
+									<li><a href="#twitter">Twitter modülü</a></li>
+									<li><a href="#newsletter">Newsletter popup</a></li>
+									<li><a href="#specialpricecountdown">Special price countdown</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>					
+					<li class="nav-item item8">
+						<dl class="slide-down">
+							<dt><a href="#third_extension_configuration" class="icon-cogs">Настройка других расширений</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">									
 									<li><a href="#livechat">Olark canlı chat</a></li>
 									<li><a href="#cloudzoom">Cloud Zoom</a></li>
 									<li><a href="#addthis">Add This</a></li>
@@ -136,7 +160,7 @@
 							</dd>
 						</dl>
 					</li>
-					<li class="nav-item item7">
+					<li class="nav-item item9">
 						<dl class="slide-down">
 							<dt><a href="#conclusion" class="icon-question-sign">Sonuç</a></dt>
 							<dd></dd>
@@ -510,44 +534,7 @@
 					</ul>
 				</li>
 			</ul>
-			<p>Tablo ayarlama örneği:</p>
-			<table class="table table-bordered">
-				<tr>
-					<th>#</th>
-					<th>Sayfa Adı</th>
-					<th>Sayfa HTML (İçerik sekmesi)</th>
-					<th>Page XML (Tasarım sekmesi)</th>
-					<th>Görüntü</th>
-				</tr>
-				<tr>
-					<td>1.</td>
-					<td>Anasayfa</td>
-					<td>sources\demo\pages\home_page.phtml</td>
-					<td>sources\demo\pages\home_page.xml</td>
-					<td>1 sütun</td>
-				</tr>
-				<tr>
-					<td>2.</td>
-					<td>Hakkımızda</td>
-					<td>sources\demo\pages\about_us.phtml</td>
-					<td>NA</td>
-					<td>1 sütun</td>
-				</tr>
-				<tr>
-					<td>3.</td>
-					<td>Müşteri Hizmetleri</td>
-					<td>sources\demo\pages\customer_service.phtml</td>
-					<td>NA</td>
-					<td>1 sütun</td>
-				</tr>
-				<tr>
-					<td>4.</td>
-					<td>Gizlilik Politikası</td>
-					<td>sources\demo\pages\privacy_policy.phtml</td>
-					<td>NA</td>
-					<td>1 sütun</td>
-				</tr>
-			</table>
+			
 			<p>Bu ana şablon sayfası etkin olacaktır. İçeriğinde: bannerlar, kayan yazılar, galeri, vs. bulunmaktadır.</p>
 			<div class="box-notification"><span>WYSIWYG editörü pasifleştirmenizi öneririz. Bunun için, yönetici panelindeki üst menüden  <strong>System &gt; Configuration</strong> (Sistem/Ayarlar) bölümüne girin. Buradan "<strong>İçerik Yöneticisi</strong>" ni seçin ve <strong>WYSIWYG Ayarları</strong> penceresinden "<strong>WYSIWYG Editörü Etkinleştir</strong>" seçeneğini "<strong>Tamamen Pasifleştir </strong>" olarak değiştirin.</span><br />
 			<img src="img/pages_setting1.png" alt="" /></div>
@@ -607,7 +594,7 @@
 	</section>
 
 	<section class="block-şablons" id="uzantı_configuration">
-		<h2 class="item6"><i class="icon-cogs"></i> Uzantı ayarları</h2>
+		<h2 class="item6"><i class="icon-cogs"></i> Настройка нативных расширений</h2>
 		<article id="currency_settings">
 			<h4>1. Para kuru modülü</h4>
 			<ol>
@@ -624,23 +611,382 @@
 			<p>Üst menüden <b>CMS > Anketler</b> bölümüne girin.</p>
 			<p><img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" /></p>
 		</article>
+	</section>
+
+	<section class="block-templates" id="tm_extension_configuration">
+		<h2 class="item7"><i class="icon-cogs"></i> Настройка расширений ТМ</h2>
+		<article id="googlemap">
+			<h4>1. Google Map</h4>
+			<p>Bu moodül sayesinde Magento sitenize bir Google harita ekleyebilirsiniz. Modül size temel olarak iki harita sunar: iletiþim sayfasýnda bir harita ve diðer sayfalarýn al kýsmýnda bir harita.</p>						
+			<p>Tüm haritalar Magento Yönetici Paneli'ndeki <strong>System > Configuration > Templatemonster > Google Map</strong> kýsmýndan düzenlenebilir.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/googlemap.jpg"  alt="">
+						<div class="flex-caption">
+							<p><strong>Embed Map Settings</strong> iletiþim sayfasý dýþýnda, diðer sayfalarýn altý kýsmýnda yer alan haritanýn görüntü ayarlarýný düzenleyebileceðiniz bölüm.<br>
+							 <strong>Contacts Map Settings</strong> iletiþim sayfasýndaki haritanýn görüntü ayarlarýný düzenleyebileceðiniz bölüm.</p>							
+						</div>
+					</li>
+					<li>
+						<img src="img/googlemap-1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>Her iki bölümdeki görüntü ayarlarý ayný seçeneklerden oluþmaktadýr.</p>
+						</div>
+					</li>				
+				</ul>
+			</div>			
+			<p>Modül seçenekleri þu þekildedir:</p>
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>API key -</strong></td>
+					<td>Google Api Key, haritanýn doðru þekilde çalýþmasý için gereklidir. Bu anahtar kodunu <a href="https://code.google.com/apis/console/" target="_blank">adresinden</a> alýp etkinleþtirebilirsiniz.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Coordinates -</strong></td>
+					<td>görüntülenen haritadaki lokasyon bilgisidir. Bu bilgiyi <a href="http://maps.google.com/" target="_blank">Google Maps</a> web sitesinden veya <a href="http://www.mapcoordinates.net/" target="_blank" rel="nofollow">adresinden alabilirsiniz</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Sensor -</strong></td>
+					<td>coðrafi konumu aç ve kapat.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Zoom -</strong></td>
+					<td>geniþletme deðeri (en fazla 8).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map Type -</strong></td>
+					<td>haritanýn türü (yol haritasý, uydu, karýþýk vs.).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map width -</strong></td>
+					<td>haritanýn eni.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map height -</strong></td>
+					<td>haritanýn uzunluðu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Styles -</strong></td>
+					<td>haritanýn stili. Haritanýn görüntüsünü deðiþtirmek için <a href="https://snazzymaps.com/" target="_blank" rel="nofollow">snazzymaps</a> sitesindeki stilleri kullanabilirsiniz.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Disable UI -</strong></td>
+					<td>haritaya ait olan kontrol öðelerini sakla.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Scrollwheel -</strong></td>
+					<td>fare kaydýrma seçeneðini kapat.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Draggable -</strong></td>
+					<td>haritayý, farenin sol tuþunu kullanarak veya parmakla dokunarak hareket ettirmenizi saðlar.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Add marker -</strong></td>
+					<td>haritaya bir iþaret koymanýzý saðlar.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker coordinates -</strong></td>
+					<td>iþaretin koordinatlarýný ayarla.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker title -</strong></td>
+					<td>araç bilgisinin üzerine gelince gözükecek olan kýsa yazý.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker image -</strong></td>
+					<td>iþaret görseli için yol. Eðer temel görseli deðiþtirmek isterseniz, Magento'nuzun <strong>skin/frontend/default/themeXXX/images/</strong> klasöründe yer alýr.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Infowindow -</strong></td>
+					<td>iþarete týklanýnca gösterilecek olan ekstra bilgi.</td>
+				</tr>
+			</table>
+		</article>
+		<article id="facebooklikebox">
+			<h4>2. Facebook like box</h4>
+			<p>Bu modül sayesinde Magento maðazanýzda bir Facebook beðeni kutusu gösterebilirsiniz.</p>						
+			<p>Genel ayarlar için Magento Yönetici Paneli'ndeki <strong>System > Configuration > Templatemonster > Facebook</strong> kýsmýný kullanýnýz.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/facebook-2.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Modül seçenekleri þu þekildedir:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>App ID -</strong></td>
+					<td>Facebook hesabýnýza ait olan özel kimlik. Facebook Like box kullanabilmek için, kayýtlý bir hesabýnýz bulunmasý gerekir. Detaylý bilgi için <a href="https://developers.facebook.com/" target="_blank">açýklama</a> adresini kullanabilirsiniz.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Page/User Name -</strong></td>
+					<td>Facebook sayfasý/kullanýcýadý. Örn: 'TemplateMonster', 'TemplateHelp', 'FacebookDevelopers' (týrnak iþareti olmadan).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Color Scheme -</strong></td>
+					<td>görünüm rengi. Açýk veya koyu olabilir.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Faces -</strong></td>
+					<td>sayfayý beðenen kiþilerin fotoðraflarýný gösterebilir veya saklayabilirsiniz.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Header -</strong></td>
+					<td>modül baþlýðýný göster/gösterme.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Border -</strong></td>
+					<td>modül alanýnýn etrafýndaki çerçeveyi göster/gösterme.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Posts -</strong></td>
+					<td>sayfadaki güncel yazýlarý göster/gösterme.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Height -</strong></td>
+					<td>modül alanýnýn uzunluðu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Width -</strong></td>
+					<td>modül alanýnýn geniþliði.</td>
+				</tr>				
+			</table>
+			<p>Temel olarak modül, sol sütunda yer alýr. Fakat üç adet görüntüleme seçeneði bulunmaktadýr: <strong>sol</strong>, <strong>sað</strong> ve <strong>alt</strong>. <br>
+				Kutunun konumunu deðiþtirmek için, <strong>app/design/frontend/default/themeXXX/layout</strong> klasöründe yer alan <strong>tm_facebook.xml</strong> dosyasýný düzenlemelisiniz.
+			</p>
+			Bu dosyada <strong>name="left"</strong> (name="right", name="footer") parametreleriyle üç ayrý <strong><em>reference</em></strong> özelliðine ait kutu bulunur.
+			<pre class="prettyprint linenums">
+&lt;reference name="left"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_left" as="tm_facebook_like_left" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt;
+&lt;!-- &lt;reference name="right"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_right" as="tm_facebook_like_right" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt; --&gt;
+&lt;!-- &lt;reference name="footer"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_footer" as="tm_facebook_like_footer" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt; --&gt;</pre>
+			<p>Buradaki iki kutu aktif deðil. Sadece <strong>name="left"</strong> olan etkin durumda. Ve bu sayede modül sol sütunda gösteriliyor. <br>
+				Eðer modülü altta göstermek isterseniz, yapmanýz gerekenler:
+			</p>
+			<ul>
+				<li>1. Öncelikle <strong>name="footer"</strong> yazan satýrý, baþýndaki ok ünlem ve tireleri kaldýrarak etkinleþtirin ve onlarý <strong>name="left"</strong> satýrýnýn baþýna koyun.</li>
+				<li>2. Daha sonra <strong>app/design/frontend/default/themeXXX/template/page/html</strong> klasöründeki <strong>footer.phtml</strong> isimli dosyayý açýn.</li>
+				<li>3. Gereken yere bu kodu yapýþtýrýn:
+					<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
+				</li>
+			</ul>
+			<p>Artýk Facebook kutusu alt kýsýmda gösterilecek.</p>
+		</article>
+		<article id="instagram">
+			<h4>3. Instagram modülü</h4>
+			<p>Instagram modülü sayesinde, maðazanýzda Instagram galerinizi gösterebilirsiniz.<br>
+			Bu modülde iki tür galeri görüntülenebilir: kullanýcý galerisi ve etiket galerisi.</p>						
+			<p>Tüm ayarlar yönetici panelindeki <strong>System > Configuration > Templatemonster > Instagram</strong> kýsmýndan yapýlabilir.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/instagram.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Modül seçenekleri þu þekildedir:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>Client ID -</strong></td>
+					<td>Instagram uygulamasý için özgün kimlik. Kimliðe sahip olmak için uygulamanýzý, <a href="http://instagram.com/developer/" target="_blank">bu adresten</a> kayýt ettirmeniz gerekir.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Username -</strong></td>
+					<td>Albümünü göstermek istediðiniz Instagram kullanýcý adý.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Sample tag -</strong></td>
+					<td>gösterilecek görsellere ait olan etiketler.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Product tag -</strong></td>
+					<td>baþýnda diyez iþareti olmak þartýyla <strong>#storetitleproductname</strong>, <strong>#productsku</strong>, <strong>#storetitleproductsku</strong> gibi etiketlerle, benzer görseller göstermek için kullanýlýr.</td>
+				</tr>				
+			</table>			
+		</article>
+		<article id="twitter">
+			<h4>4. Twitter modülü</h4>
+			<p>Twitter modülü, maðazanýzda günceler tweetlerinizi göstermenizi saðlar.</p>						
+			<p>Tüm ayarlarý yönetici panelindeki <strong>System > Configuration > Templatemonster > Twitter</strong> kýsmýndan yapabilirsiniz.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/twitter-1.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Modül seçenekleri þu þekildedir:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>Widget ID -</strong></td>
+					<td>Twitter bileþeni için özgün kimlik. Bu kimliði, bileþeninizi <a href="https://twitter.com/settings/widgets/new" target="_blank">kaydettirdikten</a> sonra hesabýnýzýn ayarlar kýsmýndan alabilirsiniz.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Account name -</strong></td>
+					<td>Tweetlerinin görüntülenmesini istediðiniz Twitter hesap ismi.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Color Scheme -</strong></td>
+					<td>bileþenin rengi. Açýk veya koyu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Layout enhancements -</strong></td>
+					<td>bileþen biçimlendirme öðelerinin kýsmen saklanmasýný saðlar.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Tweet limit -</strong></td>
+					<td>gösterilecek olan en fazla tweet sayýsý.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Link color -</strong></td>
+					<td>tweetlerdeki baðlantý adreslerinin rengi..</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Border color -</strong></td>
+					<td>kutunun çerçeve rengi.</td>
+				</tr>			
+				<tr>
+					<td class="col-1"><strong>Height -</strong></td>
+					<td>bileþen penceresinin uzunluðu.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Width -</strong></td>
+					<td>bileþen penceresinin eni.</td>
+				</tr>
+			</table>
+			<p>Bu kutu, temel olarak sol sütunda gösterilir. Fakat üç adet görüntüleme seçeneði bulunmaktadýr: <strong>sol</strong>, <strong>sað</strong> ve <strong>alt</strong>. <br>
+				Kutunun konumunu deðiþtirmek için, <strong>app/design/frontend/default/themeXXX/layout</strong> klasöründe yer alan <strong>tm_twitter.xml</strong> dosyasýný düzenlemelisiniz.
+			</p>
+			Bu dosyada <strong>name="left"</strong> (name="right", name="footer") parametreleriyle üç ayrý <strong><em>reference</em></strong> özelliðine ait kutu bulunur.
+			<pre class="prettyprint linenums">
+&lt;reference name="left"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt;
+&lt;!-- &lt;reference name="footer"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt;
+&lt;reference name="right"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt; --&gt;</pre>
+			<p>Buradaki iki kutu aktif deðil. Sadece <strong>name="left"</strong> olan etkin durumda. Ve bu sayede modül sol sütunda gösteriliyor. <br>
+				Eðer modülü altta göstermek isterseniz, yapmanýz gerekenler:
+			</p>
+			<ul>
+
+                  <li>1. Öncelikle <strong>name="footer"</strong> yazan satýrý, baþýndaki ok ünlem ve tireleri kaldýrarak etkinleþtirin ve onlarý <strong>name="left"</strong> satýrýnýn baþýna koyun.</li>
+				<li>2. Daha sonra <strong>app/design/frontend/default/themeXXX/template/page/html</strong> klasöründeki <strong>footer.phtml</strong> isimli dosyayý açýn.</li>
+				<li>3. Gereken yere bu kodu yapýþtýrýn:
+				<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>
+				</li>
+			</ul>
+			<p>Twitter kutusu artýk alt kýsýmda gösterilecektir.</p>
+		</article>
+		<article id="newsletter">
+			<h4>5. Newsletter popup</h4>
+			<p>Bu modül sayesinde haber bültenine abonelik formu, bir açýlýr kutu ile gösterilir.</p>			
+			<p>Modülü Magento Yönetici panelindeki <strong>System > Configuration > Templatemonster > NewsletterPopup</strong> alanýndan etkinleþtirebilir veya pasifleþtirebilirsiniz.</p>
+			<p><img src="img/newsletter.jpg" height="880" width="1208" alt=""></p>
+			<p>Pencerenin görüntüsünü deðiþtirmek için temanýn <strong>style.css</strong> dosyasýný düzenlemelisiniz. Ve eðer bu kutuya farklý öðeler eklemek isterseniz <strong>app/design/frontend/default/themeXXX/template/tm/newsletterpopup</strong> klasöründeki <strong>newsletterpopup.phtml</strong> dosyasýný düzenlemelisiniz.<p>
+		</article>
+		<article id="specialpricecountdown">
+			<h4>6. Special price countdown</h4>
+			<p>Bu modül, özel bir ürün için indirim süresi koymanýzý ve kalan süreyi göstermenizi saðlar.</p>			
+			<p>Bu modülü Magento Yönetici Panelineki <strong>System > Configuration > Templatemonster > Special Price Countdown</strong> kýsmýndan açýp kapatabilirsiniz.</p>
+			<p><img src="img/countdown.jpg" height="747" width="1262" alt=""></p>
+			<p>Sayacýn görüntüsünü deðiþtirmek için <strong>skin/frontend/default/themeXXX/css/tm/specialpricecountdown</strong> klasöründeki <strong>flipclock.css (flipclock.less)</strong> dosyasýný deðiþtirmelisiniz.<p>
+		</article>		
+	</section>
+	<section class="block-templates" id="third_extension_configuration">
+		<h2 class="item8"><i class="icon-cogs"></i> Настройка других расширений</h2>
 		<article id="livechat">
-			<h4>3. Olark Live Chat</h4>
-			<p>Demodaki gibi bir canlı sohbet kurmak için, resmi sitedeki <a target="_blank" href="http://www.olark.com/?r=ad8fbsj2">Olark kayıt</a> bölümünden kayıt yaptırmanız gerekiyor. Gerekli bilgileri verdikten sonra, yönetici panelinize eklemek üzere bir kod alacaksınız.</p>
-			<p><img class="presta_scr2" src="img/how-to-install-12.jpg" alt="" /></p>
+			<h4>1. Olark Live Chat</h4>
+			<p>Þablondaki on-line destek özelliðini kullanabilmek için öncelikle <a href="https://www.olark.com/signup/create_new_account" target="blank_">resmi site</a> den kayýt olmalýsýnýz. Gerekli alanlarý doldurduktan sonra bir adet özgün <strong>Olark Site-ID</strong> ye sahip olacaksýnýz.</p>
+			<div class="box-info"><span>Dilerseniz bronz paketin 6 aylýk deneme sürüne de sahip olabilirsiniz. Bunun için <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">bu adresteki</a> alanlarý doldurmanýz gerekir.</span></div>
+			Online chat ayarlarýný yapmak için:
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/img1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>1. Magento yönetici panelini açýn. CMS (Ýçerik Yöneticisi) menüye týklayýn, açýlýr listeden <strong>Widgets</strong> (Bileþenler) e týklayýn.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img2.jpg"  alt="">
+						<div class="flex-caption">
+							<p>2. Açýlan yeni sayfadan <strong>Yeni bileþen ekle</strong> kýsmýna týklayýn.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img3.jpg"  alt="">
+						<div class="flex-caption">
+							<p>3. Açýlýr pencereden <strong>(Type)</strong> Olark Live Chat seçin, menüden <strong>Design Package/Theme</strong> kýsmýndan maðaza tasarýmýnýzý seçin. Son olarak <strong>Continue</strong> kýsmýna týklayýn.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img4.jpg"  alt="">
+						<div class="flex-caption">
+							<p>4. Artýk online chat için görsel düzenlemelere geçebilirsiniz. Ýlk önce <strong>Widget Instance Title</strong> alanýna, yönetici panelde gözükecek olan bileþenin adýný yazýn. <strong>Assign to Store Views</strong> alanýna maðazanýn görünüþünü seçin, ki chat de öyle görünsün. <strong>Layout Updates</strong> kutusundan <strong>Add Layout Update</strong> yazýsýna týklayýn. <strong>Display On</strong> alanýndaki <strong>All pages</strong> seçili olmalýdýr. <strong>Block Reference</strong> bölümünde <strong>Main Content Area</strong> seçin.</p>		
+						</div>
+					</li>
+					<li>
+						<img src="img/img5.jpg"  alt="">
+						<div class="flex-caption">
+							<p>5. Menülerin olduðu kýsýndan <strong>Widget Options</strong >a girin. Sað tarafta <strong>Olark Site-ID</strong> nizi yazmanýz gereken bir bölüm göreceksiniz. 
+							<strong>Olark Site-ID</strong> nizi yazdýktan sonra <strong>Save</strong> e týklayýp kaydedin.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img6.jpg"  alt="">
+						<div class="flex-caption">
+							<p>6. Yeni bir pencereden kaþe yönetimi yani <strong>System -> Cache Management</strong> alanýna girin.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img7.jpg"  alt="">
+						<div class="flex-caption">
+							<p>7. <strong>Cache Storage Management</strong> kutusundaki <strong>Layouts</strong> ve <strong>Blocks HTML output</strong> unsurlarýný seçin. <strong>Actions</strong> alanýndaki <strong>Refresh</strong>in seçili olduðuna emin olun ve <strong>Submit</strong> e týklayýp kaydedin.</p>
+						</div>
+					</li>
+				</ul>
+			</div>			
+			<p><strong>Bu kadar!</strong> Artýk online chat bileþenini sitenizde görüntüleyebilirsiniz.</p>
+			<p>Dilerseniz þu rehberlere de bakabilirsiniz:</p>
+			<ul class="square-list">
+				<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Start work with Olark <i class="icon-external-link"></i></a></li>
+				<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Olark User Manual <i class="icon-external-link"></i></a></li>
+			</ul>
 		</article>
 		<article id="cloudzoom">
-			<h4>4. Cloud Zoom</h4>
+			<h4>2. Cloud Zoom</h4>
 			<p>Cloud Image Zoom ayarları pop-up olarak açılan resmin orijinal görsel boyutunu ve ölçülerini değiştirmenizi sağlar.</p>
 			<p><img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" /></p>
 		</article>
 		<article id="addthis">
-			<h4>5. Add This</h4>
+			<h4>3. Add This</h4>
 			<p>Sharing Tool (Paylaşım Aracı) ayarları, ikonların nasıl görüneceğini düzenlemenizi sağlar. Tavsiye edilen ayarlar resimdeki gibidir.</p>
 			<p><img class="presta_scr2" src="img/add_this.jpg" alt="" /></p>
 		</article>
 		<article id="cookie-policy">
-			<h4>6. Çerez Politikası</h4> 
+			<h4>4. Çerez Politikası</h4> 
 			<p>Çerezler, siteler tarafından ziyaretçilerin bilgisayarına yerleştirilen küçük yazı dosyalarıdır. Ziyaretçileri tanımlamak ve onlara daha iyi hizmet verebilmek için kullanılır. Çerezler, şüphesiz ki sitelerin işlevsellikleri adına çok önemli bir yere sahiptirler.</p> 
 			<p>Mesela, sanal mağazalarda çerezler sayesinde sepete ürün eklenebilir. Ayrıca sitede tanımlı kişi olarak dolaşmanızı veya site yöneticilerine kullanım istatistikleri gibi değerli bilgiler sağlarlar. </p> 
 			<p>Eğer bir website yönetiyorsanız, mutlaka çerez kullanıyorsunuzdur. Çerezlerin en önemli işlevleri, ziyaretçi sayısını izlemek ve Google Analytics gibi araçlarla ziyaretçi davranışlarını takip etmekdir. Ziyaretçilere, ilgilerini çekebilecek reklamlar göstermek için de kullanılır. Çerezler aynı zamanda, sanal mağaza sisteminiz için vazgeçilmezlerdir.</p> 

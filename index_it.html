@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
 	<link rel="stylesheet" href="css/prettify.css"  media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
-	<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/master/index_it.html"/>
+	<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v1-1/index_it.html"/>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.scrollTo.js"></script>
 	<script src="js/jquery-migrate-1.1.0.js"></script>
@@ -45,15 +45,15 @@
 			</article>
 			<article class="span2">
 				<div id="languages" class="select-menu pull-right">
-					<div class="select-menu_icon"><b>En</b><i class="icon-angle-down"></i></div>
+					<div class="select-menu_icon"><b>It</b><i class="icon-angle-down"></i></div>
 					<ul class="select-menu_list">
 					</ul>
 				</div>
 				<div id="versions" class="select-menu pull-right">
-	        <div class="select-menu_icon"><b>v1-0</b><i class="icon-angle-down"></i></div>
+	        <div class="select-menu_icon"><b>v1-1</b><i class="icon-angle-down"></i></div>
 	        <ul class="select-menu_list">
-	          <li class="active"><a href="/help/quick-start-guide/magento-themes/v1-0/index_it.html"><span>v1-0</span></a></li>
-	          <li><a href="/help/quick-start-guide/magento-themes/v1-1/index_it.html"><span>v1-1</span></a></li>
+	          <li><a href="/help/quick-start-guide/magento-themes/v1-0/index_it.html"><span>v1-0</span></a></li>
+	          <li class="active"><a href="/help/quick-start-guide/magento-themes/v1-1/index_it.html"><span>v1-1</span></a></li>
 	        </ul>
 	      </div>
 			</article>
@@ -123,11 +123,35 @@
 					</li>
 					<li class="nav-item item6">
 						<dl class="slide-down">
-							<dt><a href="#extension_configuration" class="icon-cogs">Configurazione Estensioni</a> <i class="icon-sample"></i></dt>
+							<dt><a href="#extension_configuration" class="icon-cogs">Настройка нативных расширений</a> <i class="icon-sample"></i></dt>
 							<dd>
 								<ul class="list">
 									<li><a href="#currency_settings">Configurazione Modulo Valute</a></li>
 									<li><a href="#polls_settings">Configurazione Modulo Sondaggi</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li class="nav-item item7">
+						<dl class="slide-down">
+							<dt><a href="#tm_extension_configuration" class="icon-cogs">Настройка расширений TM</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
+									<li><a href="#googlemap">Google Map</a></li>
+									<li><a href="#facebooklikebox">Casella Facebook Mi Piace</a></li>
+									<li><a href="#instagram">Modulo Instagram</a></li>
+									<li><a href="#twitter">Modulo Twitter</a></li>
+									<li><a href="#newsletter">Pop-up Newsletter</a></li>
+									<li><a href="#specialpricecountdown">Conto alla rovescia prezzo speciale</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>					
+					<li class="nav-item item8">
+						<dl class="slide-down">
+							<dt><a href="#third_extension_configuration" class="icon-cogs">Настройка других расширений</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">									
 									<li><a href="#livechat">Chat Live Olark</a></li>
 									<li><a href="#cloudzoom">Cloud Zoom</a></li>
 									<li><a href="#addthis">Aggiungi</a></li>
@@ -136,7 +160,7 @@
 							</dd>
 						</dl>
 					</li>
-					<li class="nav-item item7">
+					<li class="nav-item item9">
 						<dl class="slide-down">
 							<dt><a href="#conclusion" class="icon-question-sign">Conclusioni</a></dt>
 							<dd></dd>
@@ -512,44 +536,7 @@
 					</ul>
 				</li>
 			</ul>
-			<p>Esempio di tabella della impostazioni:</p>
-			<table class="table table-bordered">
-				<tr>
-					<th>#</th>
-					<th>Nome Pagina</th>
-					<th>HTML Pagina (Scheda Contents)</th>
-					<th>XML Pagina (Scheda Design)</th>
-					<th>Layout</th>
-				</tr>
-				<tr>
-					<td>1.</td>
-					<td>Home Page</td>
-					<td>sources\demo\pages\home_page.phtml</td>
-					<td>sources\demo\pages\home_page.xml</td>
-					<td>1 colonna</td>
-				</tr>
-				<tr>
-					<td>2.</td>
-					<td>About  Us</td>
-					<td>sources\demo\pages\about_us.phtml</td>
-					<td>NA</td>
-					<td>1 colonna</td>
-				</tr>
-				<tr>
-					<td>3.</td>
-					<td>Customer Service</td>
-					<td>sources\demo\pages\customer_service.phtml</td>
-					<td>NA</td>
-					<td>1 colonna</td>
-				</tr>
-				<tr>
-					<td>4.</td>
-					<td>Privacy Policy</td>
-					<td>sources\demo\pages\privacy_policy.phtml</td>
-					<td>NA</td>
-					<td>1 colonna</td>
-				</tr>
-			</table>
+			
 			<p>La pagina template principale è quella maggiormente interessata. Contiene solitamente i seguenti elementi: banner, slider, galleria, ecc.</p>
 			<div class="box-notification"><span>Consigliamo di disabilitare l'editor WYSIWYG. Per farlo, dal menù admin in alto, seleziona  <strong>System &gt; Configuration</strong>. Apri la sezione "<strong>Content Management</strong>" e nelle finestra delle opzioni <strong>WYSIWYG Options</strong> imposta l'opzione "<strong>Enable WYSIWYG Editor</strong>" su "<strong>Disabled Completely</strong>".</span><br />
 			<img src="img/pages_setting1.png" alt="" /></div>
@@ -609,7 +596,7 @@
 	</section>
 
 	<section class="block-templates" id="extension_configuration">
-		<h2 class="item6"><i class="icon-cogs"></i> Configurazione Estensioni</h2>
+		<h2 class="item6"><i class="icon-cogs"></i> Настройка нативных расширений</h2>
 		<article id="currency_settings">
 			<h4>1. Modulo Valute</h4>
 			<ol>
@@ -626,23 +613,379 @@
 			<p>Dal menù in alto, seleziona <b>CMS > Polls</b>.</p>
 			<p><img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" /></p>
 		</article>
+	</section>
+	<section class="block-templates" id="tm_extension_configuration">
+		<h2 class="item7"><i class="icon-cogs"></i> Настройка расширений ТМ</h2>		
+		<article id="googlemap">
+			<h4>1. Google Map</h4>
+			<p>Questo modulo di permette di incorporare le mappe di Google suo tuo sito Magento. Di default, il modulo ti dà due mappe: la mappa sulla pagina dei contatti e la mappa a pié pagina sulle altre pagine.</p>						
+			<p>Entrambe le mappe possono essere configurate attraverso il pannello di amministrazione (Admin Panel) di Magento, andando alla sezione <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/googlemap.jpg"  alt="">
+						<div class="flex-caption">
+							<p>Il blocco impostazioni <strong>Embed Map Settings</strong> è per la visualizzazione della mappa a pié pagina di tutte le pagine, tranne la pagina dei contatti.<br>
+							 Il blocco impostazioni <strong>Contacts Map Settings</strong> è per la visualizzazione della mappa direttamente sulla pagina dei contatti.</p>							
+						</div>
+					</li>
+					<li>
+						<img src="img/googlemap-1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>Entrambe le sezioni contengono le stesse opzioni per configurare l'aspetto della mappa.</p>
+						</div>
+					</li>				
+				</ul>
+			</div>			
+			<p>Il modulo ha le seguenti opzioni:</p>
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>API key -</strong></td>
+					<td>l'Api Key di Google è necessario per il corretto funzionamento della mappa. Puoi ottenerlo e attivarlo cliccando su questo <a href="https://code.google.com/apis/console/" target="_blank">link</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Coordinate -</strong></td>
+					<td>i dati delle località da mostrare al centro della mappa visualizzata sul sito. Puoi ottenere questi dati della località usando il sito <a href="http://maps.google.com/" target="_blank">Google Maps</a> o <a href="http://www.mapcoordinates.net/" target="_blank" rel="nofollow">anche questo</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Sensor -</strong></td>
+					<td>attivare e disattivare la geolocalizzazione.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Zoom -</strong></td>
+					<td>valore di ingrandimento (non deve superare il valore 8).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map Type -</strong></td>
+					<td>tipo di mappa da visualizzare (mappa stradale, satellite, ibrida, ecc.).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map width -</strong></td>
+					<td>larghezza della mappa.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map height -</strong></td>
+					<td>altezza della mappa.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Styles -</strong></td>
+					<td>stile di visualizzazione della mappa. Per cambiare l'aspetto della mappa, puoi utilizzare gli stili che trovi sul sito <a href="https://snazzymaps.com/" target="_blank" rel="nofollow">snazzymaps</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Disable UI -</strong></td>
+					<td>nasconde gli elementi che controllano la mappa.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Scrollwheel -</strong></td>
+					<td>disabilita la funzione della rotella del mouse.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Draggable -</strong></td>
+					<td>abilita la possibilità di spostare la mappa utilizzando il pulsante sinistro del mouse o utilizzando le dita, su dispositivi con touch screen.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Add marker -</strong></td>
+					<td>permette di aggiungere dei puntatori alla mappa.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker coordinates -</strong></td>
+					<td>imposta le coordinate del puntatore.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker title -</strong></td>
+					<td>testo da visualizzare quando si punta il mouse sopra il puntatore.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker image -</strong></td>
+					<td>percorso verso l'immagine del puntatore, nel caso tu voglia sostituire l'immagine predefinita. L'immagine viene salvata nella cartella <strong>skin/frontend/default/themeXXX/images/</strong> della tua cartella di installazione Magento.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Infowindow -</strong></td>
+					<td>informazioni aggiuntive da visualizzare quando si clicca sul puntatore.</td>
+				</tr>
+			</table>
+		</article>
+		<article id="facebooklikebox">
+			<h4>2. Casella Facebook Mi Piace</h4>
+			<p>Questo modulo ti permette di inserire una casella Facebook per dare un Mi Piace al tuo negozio  Magento.</p>						
+			<p>Puoi configurarlo andando sul pannello di amministrazione Magento (Admin Panel) alla sezione  <strong>System > Configuration > Templatemonster > Facebook</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/facebook-2.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Il modulo ha le seguenti opzioni:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>App ID -</strong></td>
+					<td>l'identificativo del tuo account Facebook. Per utilizzare la casella Mi Piace è necessario registrare il proprio account Facebook. Per ulteriori istruzioni, seguire questo <a href="https://developers.facebook.com/" target="_blank">link</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Page/User Name -</strong></td>
+					<td>Pagina/nome utente Facebook. Ad es.: 'TemplateMonster', 'TemplateHelp', 'FacebookDevelopers' (senza virgolette).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Color Scheme -</strong></td>
+					<td>colore della skin. Può essere scura o chiara.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Faces -</strong></td>
+					<td>ti permette di nascondere o visualizzare le foto degli utenti che hanno dato un Mi Piace alla tua pagina.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Header -</strong></td>
+					<td>ti permette di abilitare/disabilitare l'intestazione del modulo.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Border -</strong></td>
+					<td>ti permette di abilitare/disabilitare la cornice intorno al modulo.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Show Posts -</strong></td>
+					<td>ti permette di abilitare/disabilitare i post recenti sulla pagina.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Height -</strong></td>
+					<td>altezza dell'area del modulo.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Width -</strong></td>
+					<td>larghezza dell'area del modulo.</td>
+				</tr>				
+			</table>
+			<p>Di default, il modulo verrà situato nella colonna a sinistra. Ma è possibile optare per tre possibilità: <strong>sinistra</strong>, <strong>destra</strong> e <strong>pié pagina</strong>. <br>
+				Per cambiare la posizione del blocco, devi aprire il file <strong>tm_facebook.xml</strong> che si trova nella cartella <strong>app/design/frontend/default/themeXXX/layout</strong> della tua installazione.
+			</p>
+			Questo file include tre blocchi di <strong><em>reference</em></strong> con parametri <strong>name="left"</strong> (name="right", name="footer").
+			<pre class="prettyprint linenums">
+&lt;reference name="left"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_left" as="tm_facebook_like_left" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt;
+&lt;!-- &lt;reference name="right"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_right" as="tm_facebook_like_right" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt; --&gt;
+&lt;!-- &lt;reference name="footer"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_footer" as="tm_facebook_like_footer" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt; --&gt;</pre>
+			<p>Due blocchi in questo file sono commentati (Commented out). E solo un blocco con <strong>name="left"</strong> non è commentato, il quale posiziona il blocco nella colonna di sinistra. <br>
+				Se vuoi posizionare il modulo a pié pagina, segui queste istruzioni:
+			</p>
+			<ul>
+				<li>1. Togli il commento (uncomment) alle stringhe di codice del blocco <strong>name="footer"</strong>  (l'ultimo, nell'esempio di codice qui sopra) e commenta (comment out) il blocco <strong>name="left"</strong> (il primo, nell'esempio di codice qui sopra).</li>
+				<li>2. Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+				<li>3. Incolla il seguente codice nella corretta posizione:
+					<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
+				</li>
+			</ul>
+			<p>Adesso il blocco Facebook verrà situato a pié pagina.</p>
+		</article>
+		<article id="instagram">
+			<h4>3. Modulo Instagram</h4>
+			<p>Il modulo Instagram ti permette di inserire una galleria Instagram nel tuo negozio.<br>
+			Il modulo ti permette di inserire due tipi di galleria: galleria utente e galleria tag.</p>						
+			<p>Tutte le configurazioni sono disponibili nel pannello di amministrazione (Admin Panel), nella sezione <strong>System > Configuration > Templatemonster > Instagram</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/instagram.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Il modulo ha le seguenti opzioni:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>Client ID -</strong></td>
+					<td>Identificativo dell'app Instagram. Per ottenere l'identificativo è necessario registrare la propria app seguendo questo link <a href="http://instagram.com/developer/" target="_blank"></a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Username -</strong></td>
+					<td>Nome utente Instagram di cui vuoi visualizzare la galleria.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Sample tag -</strong></td>
+					<td>tag utilizzati per visualizzare le immagini.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Product tag -</strong></td>
+					<td>è utilizzato per trovare immagini simili, dove l'inizio del tag indica i parametri selezionati, ad es. E. g.: <strong>#storetitleproductname</strong>, <strong>#productsku</strong>, <strong>#storetitleproductsku</strong>, ecc.</td>
+				</tr>				
+			</table>			
+		</article>
+		<article id="twitter">
+			<h4>4. Modulo Twitter</h4>
+			<p>Il modulo Twitter ti permette di inserire dei tweet sul tuo negozio.</p>						
+			<p>Tutte le configurazioni sono disponibili nel pannello di amministrazione (Admin Panel), nella sezione <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/twitter-1.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Il modulo ha le seguenti opzioni:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>Widget ID -</strong></td>
+					<td>identificativo del widget Twitter. L'identificativo può essere ottenuto dopo aver effettuato la registrazione dell' <a href="https://twitter.com/settings/widgets/new" target="_blank">account</a> del proprio widget nelle impostazioni.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Account name -</strong></td>
+					<td>nome utente dell'account Twitter i cui tweet desideri inserire.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Color Scheme -</strong></td>
+					<td>colore della skin del widget. Può essere scura o chiara.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Layout enhancements -</strong></td>
+					<td>permette di nascondere parzialmente elementi della formattazione del widget.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Tweet limit -</strong></td>
+					<td>quantità di tweet da visualizzare nel blocco.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Link color -</strong></td>
+					<td>permette di cambiare i colori dei link nei tweet.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Border color -</strong></td>
+					<td>permette di cambiare il colore del bordo del blocco.</td>
+				</tr>			
+				<tr>
+					<td class="col-1"><strong>Height -</strong></td>
+					<td>altezza della finestra del widget.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Width -</strong></td>
+					<td>larghezza della finestra del widget.</td>
+				</tr>
+			</table>
+			<p>Di default, il blocco viene posizionato nella colonna di sinistra. Ma ci sono tre possibilità in tutto: <strong>sinistra</strong>, <strong>destra</strong> e <strong>a pié pagina</strong>. <br>
+				Per cambiare il posizionamento del blocco, devi aprire il file <strong>tm_twitter.xml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/layout</strong> all'interno della tua installazione.
+			</p>
+			Questo file include tre blocchi di <strong><em>reference</em></strong> con parametri <strong>name="left"</strong> (name="right", name="footer").
+			<pre class="prettyprint linenums">
+&lt;reference name="left"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt;
+&lt;!-- &lt;reference name="footer"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt;
+&lt;reference name="right"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt; --&gt;</pre>
+			<p>Due blocchi sono commentati (commented out) in questo file. E solo un blocco con <strong>name="left"</strong> non è commentato, il quale posizione il blocco nella colonna di sinistra. <br>
+				Se vuoi inserire il modulo a pié pagine, segui queste istruzioni:
+			</p>
+			<ul>
+				<li>1. Togli il commento (uncomment) alle stringhe di codice del blocco <strong>name="footer"</strong> (l'ultimo, nell'esempio di codice qui sopra) e commenta (comment out) il blocco <strong>name="left"</strong> (il primo, nell'esempio di codice qui sopra).</li>
+				<li>2. Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+				<li>3. Incolla il seguente codice nella corretta posizione::
+					<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>	
+				</li>
+			</ul>
+			<p>Adesso il blocco Twitter verrà situato a pié pagina.</p>
+		</article>
+		<article id="newsletter">
+			<h4>5. Pop-up Newsletter</h4>
+			<p>Il modulo ti permette di inserire un blocco pop-up con il modulo di iscrizione alla newsletter.</p>			
+			<p> È possibile abilitare/disabilitare il modulo dal pannello di amministrazione Magento (Admin Panel), alla sezione <strong>System > Configuration > Templatemonster > NewsletterPopup</strong>.</p>
+			<p><img src="img/newsletter.jpg" height="880" width="1208" alt=""></p>
+			<p>Per modificare l'aspetto della finestra, è necessario modificare il file <strong>style.css</strong> del tema. Se vuoi aggiungere diversi elementi utente al blocco pop-up, dovrai modificare il file <strong>newsletterpopup.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/tm/newsletterpopup</strong>.<p>
+		</article>
+		<article id="specialpricecountdown">
+			<h4>6. Conto alla rovescia prezzo speciale</h4>
+			<p>Questo modulo ti permette di inserire un conto alla rovescia per la scadenza di offerte speciali su determinati prodotti.</p>			
+			<p>È possibile abilitare/disabilitare il modulo dal pannello di amministrazione Magento (Admin Panel), alla sezione <strong>System > Configuration > Templatemonster > Special Price Countdown</strong>.</p>
+			<p><img src="img/countdown.jpg" height="747" width="1262" alt=""></p>
+			<p>Se vuoi modificare l'aspetto del conto alla rovescia, devi modificare il file <strong>flipclock.css (flipclock.less)</strong> situato nella cartella <strong>skin/frontend/default/themeXXX/css/tm/specialpricecountdown</strong>.<p>
+		</article>
+	</section>
+	<section class="block-templates" id="third_extension_configuration">
 		<article id="livechat">
-			<h4>3. Olark Live Chat</h4>
-			<p>Per impostare una chat dal vivo come quella della Demo, dovrai iscriverti al sito web ufficiale di <a target="_blank" href="http://www.olark.com/?r=ad8fbsj2">Olark</a>. Dopo aver fornito tutti i dati necessari, otterrai il codice da aggiungere attraverso il pannello di amministrazione.</p>
-			<p><img class="presta_scr2" src="img/how-to-install-12.jpg" alt="" /></p>
+			<h4>1. Olark Live Chat</h4>
+			<p>Per utilizzare la funzione di chat online integrata al template, devi aprire un account sul <a href="https://www.olark.com/signup/create_new_account" target="blank_">sito</a> ufficiale, compilando tutti i campi necessari per poi ricevere il codice <strong>Olark Site-ID</strong>.</p>
+			<div class="box-info"><span>Hai la possibilità di ottenere un pacchetto di prova di 6 mesi, il 'bronze package', cliccando su questo <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">link</a> e inserendo tutti i dati per l'iscrizione.</span></div>
+			Per configurare la chat online, segui questa procedura:
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/img1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>1. Apri il pannello admin di Magento. Naviga sul menù CMS e clicca su di esso. Dal menù a discesa vai sull'elemento <strong>Widgets</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img2.jpg"  alt="">
+						<div class="flex-caption">
+							<p>2. Una volta aperta la nuova pagina, clicca sul pulsante <strong>Add new widget instance</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img3.jpg"  alt="">
+						<div class="flex-caption">
+							<p>3. Sul menù a discesa <strong>Type</strong> seleziona Olark Live Chat, nel menù <strong>Design Package/Theme</strong> seleziona la skin del tuo negozio, da usare anche per la chat. Clicca su <strong>Continue</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img4.jpg"  alt="">
+						<div class="flex-caption">
+							<p>4. Ora devi configurare il display della chat online. Prima di tutto, nel campo <strong>Widget Instance Title</strong>, digita il nome del widget, che sarà visualizzato nel pannello admin. Nel campo <strong>Assign to Store Views</strong> devi selezionare la vista store ("store view"), che visualizzerà la  chat. Nel blocco <strong>Layout Updates</strong> clicca sul pulsante <strong>Add Layout Update</strong>. Nel campo <strong>Display On</strong> devi selezionare <strong>All pages</strong>. Per il campo <strong>Block Reference</strong> seleziona la <strong>Main Content Area</strong>.</p>		
+						</div>
+					</li>
+					<li>
+						<img src="img/img5.jpg"  alt="">
+						<div class="flex-caption">
+							<p>5. Segui il link <strong>Widget Options</strong> nella barra laterale di sinistra. Sulla destra vedrai il campo da compilare con <strong>Olark Site-ID</strong>. 
+							Una volta compilato l'<strong>Olark Site-ID</strong>, clicca su <strong>Save</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img6.jpg"  alt="">
+						<div class="flex-caption">
+							<p>6. Nella nuova finestra, naviga sull'elemento menù <strong>System -> Cache Management</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img7.jpg"  alt="">
+						<div class="flex-caption">
+							<p>7. Nel blocco <strong>Cache Storage Management</strong> seleziona gli elementi <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Assicurati che nel campo <strong>Actions</strong> l'elemento <strong>Refresh</strong> sia selezionato, e poi clicca <strong>Submit</strong>.</p>
+						</div>
+					</li>
+				</ul>
+			</div>			
+			<p><strong>Fatto!</strong> Ora puoi visitare il tuo sito e vedere il widget per la chat online.</p>
+			<p>Puoi anche dare un'occhiata a queste altre istruzioni:</p>
+			<ul class="square-list">
+				<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Inizia a lavorare con Olark <i class="icon-external-link"></i></a></li>
+				<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Manuale Utente Olark<i class="icon-external-link"></i></a></li>
+			</ul>
 		</article>
 		<article id="cloudzoom">
-			<h4>4. Cloud Zoom</h4>
+			<h4>2. Cloud Zoom</h4>
 			<p>Le impostazioni Cloud Image Zoom ti permettono di modificare le dimensioni dell'immagine di pop-up e di impostare le dimensioni originali dell'immagine.</p>
 			<p><img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" /></p>
 		</article>
 		<article id="addthis">
-			<h4>5. Aggiungi</h4>
+			<h4>3. Aggiungi</h4>
 			<p>Le impostazioni di Sharing Tool ti permettono di determinare in che modo le icone debbano essere visualizzate. Le impostazioni consigliate sono quelle che vedete nell'immagine.</p>
 			<p><img class="presta_scr2" src="img/add_this.jpg" alt="" /></p>
 		</article>
 		<article id="cookie-policy">
-			<h4>6. Informativa sui Cookie</h4> 
+			<h4>4. Informativa sui Cookie</h4> 
 			<p>I cookie sono dei piccoli file di testo che un sito web crea sul computer di un visitatore. Vengono utilizzati tipicamente per identificare quello specifico visitatore allo scopo di fornirgli un'esperienza di navigazione migliore. I Cookie sono un elemento importantissimo per il corretto funzionamento di tante funzioni dei siti web che tutti ormai diamo per scontate. </p> 
 			<p>Ad esempio, sono solitamente proprio i cookie che permettono ai negozi online di ricordare quali articoli hai messo nel tuo carrello. Sono usati anche per tenere attivo il tuo login sul sito, o per dare ai gestori del sito informazioni statistiche importanti.</p> 
 			<p>Se gestisci un sito web, esso quasi sicuramente usa i cookie. La loro funzione più probabile è quella di monitorare il numero dei visitatori e i loro comportamenti, servendosi di strumenti come Google Analytics. Possono essere usati anche per mostrare agli utenti delle pubblicità il più possibile rilevanti, oppure - per chi vende prodotti - per far funzionare alcuni tra gli elementi più importanti del sistema di compravendita del tuo negozio online.</p> 

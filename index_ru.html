@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
 	<link rel="stylesheet" href="css/prettify.css"  media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
-	<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/master/index_ru.html"/>
+	<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v1-1/index_ru.html"/>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.scrollTo.js"></script>
 	<script src="js/jquery-migrate-1.1.0.js"></script>
@@ -50,10 +50,10 @@
 					</ul>
 				</div>
 				<div id="versions" class="select-menu pull-right">
-	        <div class="select-menu_icon"><b>v1-0</b><i class="icon-angle-down"></i></div>
+	        <div class="select-menu_icon"><b>v1-1</b><i class="icon-angle-down"></i></div>
 	        <ul class="select-menu_list">
-	          <li class="active"><a href="/help/quick-start-guide/magento-themes/v1-0/index_ru.html"><span>v1-0</span></a></li>
-	          <li><a href="/help/quick-start-guide/magento-themes/v1-1/index_ru.html"><span>v1-1</span></a></li>
+	          <li><a href="/help/quick-start-guide/magento-themes/v1-0/index_ru.html"><span>v1-0</span></a></li>
+	          <li class="active"><a href="/help/quick-start-guide/magento-themes/v1-1/index_ru.html"><span>v1-1</span></a></li>
 	        </ul>
 	      </div>
 			</article>
@@ -123,20 +123,49 @@
 					</li>
 					<li class="nav-item item6">
 						<dl class="slide-down">
-							<dt><a href="#extension_configuration" class="icon-cogs">Настройка расширений</a> <i class="icon-sample"></i></dt>
+							<dt><a href="#extension_configuration" class="icon-cogs">Настройка стандартных расширений</a> <i class="icon-sample"></i></dt>
 							<dd>
 								<ul class="list">
 									<li><a href="#currency_settings">Модуль валют</a></li>
 									<li><a href="#polls_settings">Модуль Polls</a></li>
-									<li><a href="#livechat">Olark live chat</a></li>
-									<li><a href="#cloudzoom">Cloud Zoom</a></li>
-									<li><a href="#addthis">Add This</a></li>
-									<li><a href="#cookie-policy">Политика в отношении куки</a></li>
 								</ul>
 							</dd>
 						</dl>
 					</li>
 					<li class="nav-item item7">
+						<dl class="slide-down">
+							<dt><a href="#tm_extension_configuration" class="icon-cogs">Настройка расширений TM</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">
+									<li><a href="#googlemap">Google Map</a></li>
+									<li><a href="#facebooklikebox">Facebook like box</a></li>
+									<li><a href="#instagram">Instagram module</a></li>
+									<li><a href="#twitter">Twitter module</a></li>
+									<li><a href="#newsletter">Newsletter popup</a></li>
+									<li><a href="#specialpricecountdown">Special price countdown</a></li>
+									<li><a href="#productthumbnailsgallery">Product list gallery</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li class="nav-item item8">
+						<dl class="slide-down">
+							<dt><a href="#third_extension_configuration" class="icon-cogs">Настройка сторонних расширений</a> <i class="icon-sample"></i></dt>
+							<dd>
+								<ul class="list">									
+									<li><a href="#livechat">Olark live chat</a></li>
+									<li><a href="#cloudzoom">Cloud Zoom</a></li>
+									<li><a href="#addthis">Add This</a></li>
+									<li><a href="#blog">Блог</a></li>
+									<li><a href="#megamenu">Мега меню</a></li>
+									<li><a href="#paralaxx">Паралакс</a></li>
+									<li><a href="#videobg">Видео на фоне</a></li>
+									<li><a href="#cookie-policy">Политика в отношении куки</a></li>	
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li class="nav-item item9">
 						<dl class="slide-down">
 							<dt><a href="#conclusion" class="icon-question-sign">Выводы</a></dt>
 							<dd></dd>
@@ -195,6 +224,12 @@
 				<li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - содержит инструкции по распаковке исходных файлов.</small></li>
 			</ul>
 		</div>
+		<div id="validation">
+        <h4>Validation</h4>
+        <div class="box-notification">
+        <span>Both HTML markup and CSS styles used in our templates are semantically correct and valid. However some W3C errors still can take place. Making code 100% W3C valid eliminates the usage of modern website technologies as CSS3 features and HTML5 markup. Our goal is to deliver rich user experience with high quality templates and sometimes we have to break some rules.</span>
+      </div>
+    </div>
 		<p>&nbsp;</p>
 		<div class="row-fluid">
 			<div class="span6 text-center img-paraloid">
@@ -512,44 +547,7 @@
 					</ul>
 				</li>
 			</ul>
-			<p>Пример таблицы настроек:</p>
-			<table class="table table-bordered">
-				<tr>
-					<th>#</th>
-					<th>Page Name</th>
-					<th>Page HTML (Вкладка Content)</th>
-					<th>Page XML (Вкладка Design)</th>
-					<th>Макет</th>
-				</tr>
-				<tr>
-					<td>1.</td>
-					<td>Home Page</td>
-					<td>sources\demo\pages\home_page.phtml</td>
-					<td>sources\demo\pages\home_page.xml</td>
-					<td>1 колонка</td>
-				</tr>
-				<tr>
-					<td>2.</td>
-					<td>About  Us</td>
-					<td>sources\demo\pages\about_us.phtml</td>
-					<td>Отсутствует</td>
-					<td>1 колонка</td>
-				</tr>
-				<tr>
-					<td>3.</td>
-					<td>Customer Service</td>
-					<td>sources\demo\pages\customer_service.phtml</td>
-					<td>Отсутствует</td>
-					<td>1 колонка</td>
-				</tr>
-				<tr>
-					<td>4.</td>
-					<td>Privacy Policy</td>
-					<td>sources\demo\pages\privacy_policy.phtml</td>
-					<td>Отсутствует</td>
-					<td>1 колонка</td>
-				</tr>
-			</table>
+			
 			<p>Больше всего изменения затронут главную страницу шаблона, которая может содержать следующие элементы: баннеры, слайдер, галерею и т.д.</p>
 			<div class="box-notification"><span>Мы рекомендуем отключить WYSIWYG редактор. Для того, чтобы сделать это, в верхнем меню панели управления, выберите <strong>System &gt; Configuration</strong>. Откройте раздел "<strong>Content Management</strong>" и в окне <strong>WYSIWYG Options</strong> переключите "<strong>Enable WYSIWYG Editor</strong>" на "<strong>Disabled Completely</strong>".</span></br>
 			<img src="img/pages_setting1.png" alt="" /></div>
@@ -609,7 +607,7 @@
 	</section>
 
 	<section class="block-templates" id="extension_configuration">
-		<h2 class="item6"><i class="icon-cogs"></i> Настройка расширений</h2>
+		<h2 class="item6"><i class="icon-cogs"></i> Настройка стандартных расширений</h2>
 		<article id="currency_settings">
 			<h4>1. Модуль валют</h4>
 			<ol>
@@ -626,23 +624,554 @@
 			<p>В верхнем меню выберите <b>CMS > Polls</b>.</p>
 			<p><img class="presta_scr2" src="img/how-to-install-10.jpg" alt="" /></p>
 		</article>
-		<article id="livechat">
-			<h4>3. Olark Live Chat</h4>
-			<p>Для настройки такого онлайн чата, как на Live Demo необходимо пройти регистрацию на официальном сайте <a target="_blank" href="http://www.olark.com/?r=ad8fbsj2">Olark registration</a>. Заполнив все данные вам будет предоставлен код, который нужно вставить через админ-панель.</p>
-			<p><img class="presta_scr2" src="img/how-to-install-12.jpg" alt="" /></p>
+	</section>
+	<section class="block-templates" id="tm_extension_configuration">
+		<h2 class="item7"><i class="icon-cogs"></i> Настройка расширений ТМ</h2>
+		<article id="googlemap">
+			<h4>1. Google Map</h4>
+			<p>Данный модуль позволяет вам вставить Google карту на вашем сайте Magento. По умолчанию, модуль предоставляет две карты: для страницы контактов и карту, которая отображается в футере других страниц.</p>						
+			<p>Обе карты можно настроить в админ панели Magento: <strong>System > Configuration > Templatemonster > Google Map</strong> секция.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/googlemap.jpg"  alt="">
+						<div class="flex-caption">
+							<p>Блок <strong>Embed Map Settings</strong> отвечает за вывод карты в футере всех страниц, кроме страницы контактов.<br>
+							Блок <strong>Contacts Map Settings</strong> отвечает за вывод карты непосредственно на странице контактов.</p>							
+						</div>
+					</li>
+					<li>
+						<img src="img/googlemap-1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>Обе секции имеют одни и те же опции для настройки внешнего вида карты.</p>
+						</div>
+					</li>				
+				</ul>
+			</div>			
+			<p>Рассмотрим опции модуля:</p>
+			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>API key -</strong></td>
+					<td>Google Api Key необходим для корректной работы карты. Вы можете получить и активировать его, перейдя по следующей <a href="https://code.google.com/apis/console/" target="_blank">ссылке</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Coordinates -</strong></td>
+					<td>координаты местоположения, которое будет находиться по центру отображаемой карты. Эти координаты вы можете получить через сервис <a href="http://maps.google.com/" target="_blank">Google Maps</a> или же на следующем <a href="http://www.mapcoordinates.net/" target="_blank" rel="nofollow">сайте</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Sensor -</strong></td>
+					<td>включение/отключение геолокации.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Zoom -</strong></td>
+					<td>значение увеличения карты (не должно превышать 8).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map Type -</strong></td>
+					<td>тип отображаемой карты (roadmap, satelite, hybrid, и т.д.).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map width -</strong></td>
+					<td>ширина карты.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Map height -</strong></td>
+					<td>высота карты.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Styles -</strong></td>
+					<td>стиль отображения карты. Для изменения внешнего вида карты, используйте стили с сайта <a href="https://snazzymaps.com/" target="_blank" rel="nofollow">snazzymaps</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Disable UI -</strong></td>
+					<td>скрывает элементы управления картой.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Scrollwheel -</strong></td>
+					<td>отключает скролинг колесиком мышки.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Draggable -</strong></td>
+					<td>включает возможность передвигать карту, зажав левую кнопку мышки или пальцами на touch (сенсорных) устройствах.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Add marker -</strong></td>
+					<td>добавляет маркер (указатель) на карту.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker coordinates -</strong></td>
+					<td>устанавливает координаты маркера.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker title -</strong></td>
+					<td>текст, который будет отображаться в тултипе, появляющемся при наведении на маркер.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Marker image -</strong></td>
+					<td>путь к картинке маркера, если вы хотите заменить стандартную. Картинка должна находиться в папке <strong>skin/frontend/default/themeXXX/images/</strong> вашей установки Magento.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Infowindow -</strong></td>
+					<td>дополнительная информация, которая будет отображаться при клике на маркер.</td>
+				</tr>
+			</table>
 		</article>
+		<article id="facebooklikebox">
+			<h4>2. Facebook like box</h4>
+				<p>Данный модуль позволяет выводить Facebook like box в вашем Magento магазине.</p>						
+				<p>Настроить его мы можете в админ панели Magento, в секции <strong>System > Configuration > Templatemonster > Facebook</strong>.</p>
+				<div class="flexslider clearfix img-polaroid olark">
+					<ul class="slides">
+						<li>
+							<img src="img/facebook-2.jpg"  alt="">
+							<div class="flex-caption">
+								
+							</div>
+						</li>		
+					</ul>
+				</div>			
+				<p>Рассмотрим опции модуля:</p>			
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+					<tr>
+						<td class="col-1"><strong>App ID -</strong></td>
+						<td>идентификатор вашего приложения в Facebook. Для использования Facebook Like box, вам необходимо зарегистрировать ваше приложение. Как это сделать вы можете узнать, перейдя по следующей <a href="https://developers.facebook.com/" target="_blank">ссылке</a>.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Page/User Name -</strong></td>
+						<td>имя пользователя или страницы в Facebook. К примеру: 'TemplateMonster', 'TemplateHelp', 'FacebookDevelopers' (без кавычек).</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Color Scheme -</strong></td>
+						<td>цветовая схема. Может быть светлая или тёмная.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Show Faces -</strong></td>
+						<td>позволяет скрывать или отображать фото профиля людей, которые лайкнули страницу.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Show Header -</strong></td>
+						<td>позволяет отключить отображение хедера в плагине.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Show Border -</strong></td>
+						<td>позволяет отключить отображение рамки вокруг области плагина.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Show Posts -</strong></td>
+						<td>позволяет включить отображение последних постов на странице.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Height -</strong></td>
+						<td>высота области плагина</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Width -</strong></td>
+						<td>ширина области плагина.</td>
+					</tr>				
+				</table>
+				<p>По умолчанию, блок плагина выводится в левой колонке. Но существует три варианта вывода: <strong>слева</strong>, <strong>справа</strong> и в <strong>футере</strong>. <br>
+					Для изменения позиции вывода блока необходимо открыть файл <strong>tm_facebook.xml</strong>, который находится в папке <strong>app/design/frontend/default/themeXXX/layout</strong> вашей установки.
+				</p>
+				В этом файле есть три блока <strong><em>reference</em></strong> с параметром <strong>name="left"</strong> (name="right", name="footer").
+				<pre class="prettyprint linenums">
+&lt;reference name="left"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_left" as="tm_facebook_like_left" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt;
+&lt;!-- &lt;reference name="right"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_right" as="tm_facebook_like_right" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt; --&gt;
+&lt;!-- &lt;reference name="footer"&gt;
+	&lt;block type="core/template" name="tm_facebook_like_footer" as="tm_facebook_like_footer" template="tm/facebook/facebook_like.phtml"/&gt;
+&lt;/reference&gt; --&gt;</pre>
+			<p>В этом файле закомментировано два блока. И лишь один блок с <strong>name="left"</strong> не закомментирован. Он и отвечает за вывод плагина в левой колонке. <br>
+					Если же вам необходимо вывести плагин, к примеру, в футере, вам необходимо:
+			</p>
+			<ul>
+				<li>1. Удалить комментирование блока с <strong>name="footer"</strong> (последний в примере кода выше) и закомментировать блок с <strong>name="left"</strong> (первый в примере кода выше).</li>
+				<li>2. Открыть файл <strong>footer.phtml</strong>, который находится в папке <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+				<li>3. Вставить в нужное вам место следующий код:
+					<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
+				</li>
+			</ul>
+			<p>Теперь Facebook блок будет отображаться в футере.</p>
+		</article>
+		<article id="instagram">
+			<h4>3. Instagram module</h4>
+			<p>Instagram модуль позволяет отобразить Instagram галерею в вашем магазине.<br>
+			Данный модуль позволяет отображать два типа галереи: галерея пользователя и галерея по тегу.</p>						
+			<p>Все опции управления доступны в админ панели, в секции <strong>System > Configuration > Templatemonster > Instagram</strong>.</p>
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/instagram.jpg"  alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>		
+				</ul>
+			</div>			
+			<p>Рассмотрим опции модуля:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>Client ID -</strong></td>
+					<td>идентификатор Instagram приложения. Чтобы получить данный идентификатор, вы должны зарегистрировать ваше приложение по следующему <a href="http://instagram.com/developer/" target="_blank">адресу</a>.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Username -</strong></td>
+					<td>имя пользователя в Instagram, чью галерею вы хотите отобразить.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Sample tag -</strong></td>
+					<td>теги, по которым будут выводиться картинки.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Product tag -</strong></td>
+					<td>используется для поиска похожих картинок, где начало тега состоит из набора выбранных параметров. К примеру, <strong>#storetitleproductname</strong>, <strong>#productsku</strong>, <strong>#storetitleproductsku</strong> и т.д.</td>
+				</tr>				
+			</table>			
+		</article>
+		<article id="twitter">
+			<h4>4. Twitter module</h4>
+				<p>Twitter модуль позволяет отобразить ленту твитов в вашем магазине.</p>						
+				<p>Все опции управления доступны в админ панели, в секции <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
+				<div class="flexslider clearfix img-polaroid olark">
+					<ul class="slides">
+						<li>
+							<img src="img/twitter-1.jpg"  alt="">
+							<div class="flex-caption">
+								
+							</div>
+						</li>		
+					</ul>
+				</div>			
+				<p>Рассмотрим опции модуля:</p>			
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+					<tr>
+						<td class="col-1"><strong>Widget ID -</strong></td>
+						<td>идентификатор Twitter виджета. Данный идентификатор можно получить, зарегистрировав ваш виджет в <a href="https://twitter.com/settings/widgets/new" target="_blank">настройках</a> аккаунта.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Account name -</strong></td>
+						<td>название Twitter аккаунта пользователя, чью ленту вы хотите отобразить.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Color Scheme -</strong></td>
+						<td>цветовая схема виджета. Может быть светлой или тёмной.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Layout enhancements -</strong></td>
+						<td>данная опция позволяет скрывать часть элементов разметки виджета.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Tweet limit -</strong></td>
+						<td>количество отображаемых твиттов в ленте.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Link color -</strong></td>
+						<td>позволяет изменить цвет ссылок в ленте.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Border color -</strong></td>
+						<td>позволяет изменяет цвет границ в ленте.</td>
+					</tr>			
+					<tr>
+						<td class="col-1"><strong>Height -</strong></td>
+						<td>высота окна виджета.</td>
+					</tr>
+					<tr>
+						<td class="col-1"><strong>Width -</strong></td>
+						<td>ширина окна виджета.</td>
+					</tr>
+				</table>
+				<p>По умолчанию, блок плагина выводится в левой колонке. Но существует три варианта вывода: <strong>слева</strong>, <strong>справа</strong> и в <strong>футере</strong>. <br>
+					Для изменения позиции вывода блока необходимо открыть файл <strong>tm_twitter.xml</strong>, который находится в папке <strong>/app/design/frontend/default/themeXXX/layout</strong> вашей установки.
+				</p>
+				В этом файле есть три блока <strong><em>reference</em></strong> с параметром <strong>name="left"</strong> (name="right", name="footer").
+				<pre class="prettyprint linenums">
+&lt;reference name="left"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt;
+&lt;!-- &lt;reference name="footer"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt;
+&lt;reference name="right"&gt;
+	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
+&lt;/reference&gt; --&gt;</pre>
+			<p>В этом файле закомментировано два блока. И лишь один блок с <strong>name="left"</strong> не закомментирован. Он и отвечает за вывод плагина в левой колонке. <br>
+				Если же вам необходимо вывести плагин, к примеру, в футере, вам необходимо:
+			</p>
+			<ul>
+				<li>1. Удалить комментирование блока с <strong>name="footer"</strong>  (последний в примере кода выше) и закомментировать блок с <strong>name="left"</strong> (первый в примере кода выше).</li>
+				<li>2. Открыть файл <strong>footer.phtml</strong>, который находится в папке <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+				<li>3. Вставить, в нужное вам место, следующий код:
+					<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>	
+				</li>
+			</ul>
+			<p>Теперь Twitter блок будет отображаться в футере.</p>
+		</article>
+		<article id="newsletter">
+			<h4>5. Newsletter popup</h4>
+			<p>Данный модуль позволяет выводить всплывающий блок с формой подписки на email-рассылку.</p>			
+			<p>Включить/отключить данный модуль можно в админ панели Magento, в секции <strong>System > Configuration > Templatemonster > NewsletterPopup</strong>.</p>
+			<p><img src="img/newsletter.jpg" height="880" width="1208" alt=""></p>
+			<p>Для редактирования внешнего вида окна, необходимо использовать файл <strong>style.css</strong> вашей темы. Если вам нужно добавить несколько пользовательских элементов во всплывающий блок, вам необходимо редактировать файл <strong>newsletterpopup.phtml</strong>, который находится в папке <strong>app/design/frontend/default/themeXXX/template/tm/newsletterpopup</strong>.<p>
+		</article>
+		<article id="specialpricecountdown">
+			<h4>6. Special price countdown</h4>
+			<p>Данный модуль позволяет выводить таймер окончания действия скидки на специальный продукт.</p>			
+			<p>Включить/отключить данный модуль можно в админ панели Magento, в секции <strong>System > Configuration > Templatemonster > Special Price Countdown</strong>.</p>
+			<p><img src="img/countdown.jpg" height="747" width="1262" alt=""></p>
+			<p>Для редактирования внешнего вида таймера, необходимо использовать файл <strong>flipclock.css (flipclock.less)</strong>, который находится в папке <strong>skin/frontend/default/themeXXX/css/tm/specialpricecountdown</strong>.<p>
+		</article>
+		<article id="productthumbnailsgallery">
+			<h4>7. Product list gallery</h4>
+			<p>Модуль позволяет выводить миниатюры изображений продукта рядом с главной картинкой продукта. В дефолтной теме миниатюры выводяться под главной картинкой продукта. Но в наших темах, вывод данных миниатюр, реализован согласно псд.</p>
+			<p>Включить/отключить данный модуль можно в админ панели Magento, в секции <strong>System > Configuration > Templatemonster > Product List Gallery</strong>.</p>
+			<p><img src="img/productgallery.jpg" height="747" width="1262" alt=""></p>
+			<p>Модуль содержит 4 секции:<strong>List View</strong>, <strong>Grid View</strong>, <strong>Homepage List View</strong>, <strong>Homepage Grid View</strong>. </p>
+			<p>В секциях <strong>Homepage List View</strong> и <strong>Homepage Grid View</strong> настраивается вывод галереи на главной странице магазина. Другие две секции настраивают вывод галереи на страницах категории. </p>
+			<p>Все секции содержат одинаковые настройки:</p>			
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>Enable/Disable -</strong></td>
+					<td>включить/отключить модуль.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Image width -</strong></td>
+					<td>ширина главной картинки продукта. </td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Image height -</strong></td>
+					<td>высота главной картинки продукта. </td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Thumbnail width -</strong></td>
+					<td>ширина миниатюры.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>Thumbnail height -</strong></td>
+					<td>высота миниатюры.</td>
+				</tr>
+			</table>
+			<p>Обратите внимание! Максимальная ширина картинки будет равна ширине колонки в которой она находится. </p>
+		</article>
+	</section>
+	<section class="block-templates" id="third_extension_configuration">
+		<h2 class="item8"><i class="icon-cogs"></i> Настройка сторонних расширений</h2>
+		<article id="livechat">
+			<h4>1. Olark Live Chat</h4>
+			<p>Для использования онлайн чата в шаблоне вам необходимо зарегистрироваться на официальном <a href="https://www.olark.com/signup/create_new_account" target="_blank">сайте</a>, ввести все необходимые данные и получить код <strong>Olark Site-ID</strong>.</p>
+			<div class="box-info"><span>Вы также можете получить пробный бесплатный 6-месячный бронзовый пакет. Для этого перейдите по <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="_blank">ссылке</a> и внесите свои регистрационные данные.</span></div>
+			Чтобы настроить онлайн чат, вам необходимо сделать несколько шагов:
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/img1.jpg"  alt="">
+						<div class="flex-caption">
+							<p>1. Перейдите в админ панель Magento. Кликните пункт меню CMS и в выпадающем меню перейдите к пункту <strong>Widgets</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img2.jpg"  alt="">
+						<div class="flex-caption">
+							<p>2. На новой странице нажмите на кнопку <strong>Add new widget instance</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img3.jpg"  alt="">
+						<div class="flex-caption">
+							<p>3. В выпадающем меню <strong>Type</strong> выберите пункт Olark Live Chat, в меню <strong>Design Package/Theme</strong> выберите скин вашего магазина, на котором должен отображаться чат. Нажмите на кнопку <strong>Continue</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img4.jpg"  alt="">
+						<div class="flex-caption">
+							<p>4. Теперь нам нужно настроить отображение онлайн чата. Для начала, в поле <strong>Widget Instance Title</strong> впишите название виджета, которое будет отображаться в админ панели. В поле <strong>Assign to Store Views</strong> вы выбираете представления магазина, для которых будет отображаться ваш чат. В блоке <strong>Layout Updates</strong> нажмите на кнопку <strong>Add Layout Update</strong>. В поле <strong>Display On</strong> вам необходимо выбрать <strong>All pages</strong>. Для поля <strong>Block Reference</strong> выберите значение <strong>Main Content Area</strong>.</p>		
+						</div>
+					</li>
+					<li>
+						<img src="img/img5.jpg"  alt="">
+						<div class="flex-caption">
+							<p>5. Перейдите по ссылке <strong>Widget Options</strong> в левом сайдбаре. Справа у вас будет поле, в которое требуется ввести <strong>Olark Site-ID</strong>. 
+							После внесения вашего <strong>Olark Site-ID</strong> нажмите на кнопку <strong>Save</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img6.jpg"  alt="">
+						<div class="flex-caption">
+							<p>6. В новом окне перейдите на пункт меню <strong>System -> Cache Management</strong>.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/img7.jpg"  alt="">
+						<div class="flex-caption">
+							<p>7. В блоке <strong>Cache Storage Management</strong> выделите пункты <strong>Layouts</strong> и <strong>Blocks HTML output</strong>. Убедитесь, что в поле <strong>Actions</strong> выбран пункт <strong>Refresh</strong>, и нажмите <strong>Submit</strong>.</p>
+						</div>
+					</li>
+				</ul>
+			</div>			
+			<p><strong>Всё сделано!</strong> Теперь вы можете перейти на ваш сайт и увидеть виджет онлайн чата.</p>
+			<p>Вы также можете ознакомиться со следующими инструкциями:</p>
+			<ul class="square-list">
+				<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Начиная работать с Olark <i class="icon-external-link"></i></a></li>
+				<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Руководство Olark <i class="icon-external-link"></i></a></li>
+			</ul>
+
+		</article>
+
 		<article id="cloudzoom">
-			<h4>4. Cloud Zoom</h4>
+			<h4>2. Cloud Zoom</h4>
 			<p>Настройки Cloud Image Zoom дают возможность изменить размеры всплывающей картинки и задать оригинальный размер картинки.</p>
 			<p><img class="presta_scr2" src="img/cloud_zoom.jpg" alt="" /></p>
 		</article>
 		<article id="addthis">
-			<h4>5. Add This</h4>
+			<h4>3. Add This</h4>
 			<p>Настройки Sharing Tool дают возможность выбрать вид вывода иконок, рекомендуемый показан на скрине.</p>
 			<p><img class="presta_scr2" src="img/add_this.jpg" alt="" /></p>
 		</article>
+
+		<article id="blog">
+			<h4>4. Blog</h4>
+			Вы имеете возможность добавить блог на Ваш сайт. Настройки блога находятся в меню <strong>Blog > Settings</strong>, или <strong>System > Configuration > AHEADWORKS EXTENSIONS > Blog</strong>.						
+			<div class="flexslider clearfix img-polaroid olark">
+				<ul class="slides">
+					<li>
+						<img src="img/blog-1.jpg" height="918" width="998" alt="">
+						<div class="flex-caption">
+							
+						</div>
+					</li>
+					<li>
+						<img src="img/blog-3.jpg" height="918" width="998" alt="">
+						<div class="flex-caption">
+							<p>На первой вкладке, <strong>Blog > Settings</strong>, находятся основные настройки блога.</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/blog-2.jpg" height="918" width="998" alt="">
+						<div class="flex-caption">
+							<p>Остальные вкладки позволяют настроить: вид записей, вывод даты, вывод комментариев, включение капчи и ленты новостей.</p>
+						</div>
+					</li>
+				</ul>
+			</div>			
+		</article>
+
+		<article id="megamenu">
+			<h4>5. Mega menu</h4>
+			<p>Данный модуль заменяет стандартное меню на меню, в котором можно настроить отображение подкатегорий до двух уровней вложенности, добавлять статические блоки в выпадающее меню, добавлять бэйджи (Labels), выводить продукты и т.п.</p>
+			<p><strong>MegaMenu</strong> включено в шаблонах по умолчанию, но включить или выключить его можно в меню <strong>System > Configuration > CMSMART MEGAMENU > Mega Menu</strong>.</p>
+			
+			<p><img src="img/mega-1.jpg"  width="1181" alt=""></p>
+			<p>1. Настроить отображение каждого выпадающего меню можно на странице настройки категории, которую вы можете найти в <strong>Catalog > Manage Categories</strong>.</p>
+			<p><img src="img/mega-2.jpg"  width="1044"  alt=""></p>
+			
+			<p>2. Чтобы добавить статик блок в выпадающее меню, вам необходимо добавить статик блок в <strong>CMS > Static Blocks</strong> и только после этого добавить его в меню.</p>
+			<p><img src="img/mega-3.jpg" width="1141"   alt=""></p>
+			
+			<p>3. В модуле есть возможность добавить бэйдж для любой категории.</p>
+			<p><img src="img/mega-5.jpg" width="691" alt=""></p>			
+			
+			<p>Сделать это вы можете в меню категорий <strong>Catalog > Manage Categories</strong>.</p>
+			<p><img src="img/mega-4.jpg" width="1100"   alt=""></p>
+			
+			<p>4. Чтобы изменить количество колонок в подкатегориях 
+				<img src="img/mega-7.jpg" width="1083" alt="">
+			вам необходимо изменить значение (которое соответствует количеству колонок) Level column Count в меню <strong>Catalog > Manage Categories</strong>.</p>
+			<p><img src="img/mega-6.jpg" width="958"  alt=""></p>		
+		</article>
+
+
+		<article id="paralaxx">
+			<h4>6. Параллакс</h4>
+			Настройка параллакса блока осуществляется посредством добавления части кода в <strong>*.phtml</strong> файлы вашего шаблона.<br>
+			<p>Чтобы добавить параллакс-эффект  на определённый блок контента, необходимо:</p>
+			<p>1. Добавить любой класс для блока с параллакс эффектом (к примеру, <strong>parallax</strong>) и добавить атрибут <strong>data-source-url="{{skin url='images/your_images.jpg'}}"</strong>.</p>
+			<p>2. Добавить изображение в папку с изображениями <strong>skin\frontend\default\themeXXX\images\</strong>.</p>
+			<p>3. Добавить стили в файл <strong>skin\frontend\default\themeXXX\css\style.css</strong>:
+				<pre class="prettyprint linenums">
+.parallax {
+	background-image: url(../images/parallax-img.jpg);
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 3500px;
+	left: 50%;
+	margin-left: -1750px;
+	}
+</pre>
+			</p>
+			<p>4. Добавить в файл <strong>skin\frontend\default\themeXXX\js\scripts.js</strong> следующий код:
+				<pre class="prettyprint linenums">
+jQuery(window).load(function(){
+	var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEmobile|Windows Phone|WPDesktop/i.test(navigator.userAgent);
+	if(!isMobile) {  
+	    if(jQuery(".parallax").length){  jQuery(".parallax").cherryFixedParallax({  invert: true, 
+	    		offset: 300 
+	    }); 
+	  }; 		
+	};	
+});
+</pre>
+			</p>
+			<p>
+				Значение <strong>invert: true</strong> выбирает направление параллакс эффекта, а <strong>offset: 300</strong> его интенсивность.
+			</p>
+		</article>
+
+
+		<article id="videobg">
+			<h4>7. Фоновое видео</h4>
+			Для реализации фонового видео нужно использовать плагин <a href="https://github.com/pupunzi/jquery.mb.YTPlayer/wiki" target="_blank">jquery.mb.YTPlayer</a>, который позволяет отображать YouTube видео. <br>
+			<p>Видео можно добавить с помощью статического блока, подключив файл скрипта <strong>jquery.mb.YTPlayer.js</strong> и добавив соответствующий набор атрибутов для элемента, в котором это видео будет отображаться.</p>
+			<p><img src="img/video.jpg" height="918" width="998" alt=""></p>
+			Выделим основные параметры для атрибута <strong>data-property</strong>:
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="options-table">
+				<tr>
+					<td class="col-1"><strong>videoURL -</strong></td>
+					<td>ссылка на видео, которое вы хотите отобразить как фоновое.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>quality -</strong></td>
+					<td>качество отображаемого видео (‘default’ или “small”, “medium”, “large”, “hd720”, “hd1080”, “highres”).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>containment -</strong></td>
+					<td>по умолчанию, “self” используется для указания блока, который будет содержать видео, если инициализировать его в скрипте.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>opacity -</strong></td>
+					<td> регулирует прозрачность видео значениями от 0 до 1.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>loop -</strong></td>
+					<td>включает/отключает повтор видео (true/false).</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>showControls -</strong></td>
+					<td>включает отображение элементов управления.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>mute -</strong></td>
+					<td>отключение звука.</td>
+				</tr>			
+				<tr>
+					<td class="col-1"><strong>startAt -</strong></td>
+					<td>устанавливает секунду, с которой начнёт проигрываться видео.</td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>stopAt -</strong></td>
+					<td>устанавливает секунду, на которой видео будет заканчиваться. </td>
+				</tr>
+				<tr>
+					<td class="col-1"><strong>autoplay -</strong></td>
+					<td>включает автоматическое проигрывание видео.</td>
+				</tr>
+			</table>
+		</article>
 		<article id="cookie-policy">
-			<h4>6. Политика в отношении куки</h4> 
+			<h4>8. Политика в отношении куки</h4> 
 			<p>Куки - это маленькие текстовые файлы, которые вебсайты размещают на компьютерах посетителей. Обычно они используются для идентификации клиента и облегчают пользование сайтом. Куки являются неотъемлемой частью многих функций вебсайтов, к которым мы давно привыкли. </p> 
 			<p>Например, с помощью куки интернет магазины "запоминают", какие продукты вы добавили в корзину. Куки также позволяют пользователям оставаться "в системе" на сайте, а владельцам сайтов получать важную информацию и статистику о посетителях.</p> 
 			<p>Если вы имеете вебсайт, он скорее всего использует куки. Их самое распространенное применение - отслеживать количество и поведение посетителей, используя такие инструменты как Google Analytics. Куки могут использовать для отображения актуальных для посетителя объявлений. Они также позволяют функционировать основным инструментам интернет магазинов.</p> 
@@ -654,6 +1183,8 @@
 			</ul>
 		</article>
 	</section>
+
+
 	<section class="block-templates" id="conclusion">
 		<h2 class="item7"><i class="icon-question-sign"></i> Выводы</h2>
 		<p>Движок Magento - это замечательное решение для вашего онлайн магазина. Он по умолчанию содержит все модули необходимые для организации эффективных продаж. Открытый исходный код предоставляет вам огромные возможности для создания интернет-магазинов. Но из-за сложности структуры этого движка вам потребуется некоторое время, чтобы освоить все его возможности. Вам понадобится узнать гораздо больше, чем включает эта инструкция. </p>
