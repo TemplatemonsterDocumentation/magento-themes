@@ -100,10 +100,11 @@
 								<ul class="list">
 									<li><a href="#creating-database">Criar um banco de dados</a></li>
 									<li><a href="#import-database">Importar dados de teste</a></li>
-									<li><a href="#downloading">Baixar o programa do site oficial</a></li>
+									<li><a href="#uploading">Fazendo upload e descompactando</a></li>
+									<!-- li><a href="#downloading">Baixar o programa do site oficial</a></li>
 									<li><a href="#extracting_files">Extrair arquivos</a></li>
 									<li><a href="#upl_files">Subir arquivos do Magento</a></li>
-									<li><a href="#upl_theme_files">Subir arquivos do tema</a></li>
+									<li><a href="#upl_theme_files">Subir arquivos do tema</a></li -->
 									<li><a href="#ps_engine_install">Instalar o Magento</a></li>
 								</ul> 
 							</dd>
@@ -215,8 +216,9 @@
 						</li>
 					</ul>
 				</li>
-				<li class="folder"><i class="icon-folder-close"></i> <b>theme###</b><small class="muted"> - contém os arquivos do tema do magento e diretórios que deveriam ser enviados para o diretório raiz de sua instalação do Magento.
-				</small></li>
+				<li class="folder"><i class="icon-folder-close"></i> <b>theme###</b><small class="muted"> - contém os arquivos do tema do magento e diretórios que deveriam ser enviados para o diretório raiz de sua instalação do Magento.</small></li>
+				<li class="file"><i class="icon-file"></i> <b>fullpackage.zip</b><small class="muted"> - contém pacote de instalação completa do Magento com arquivos do mecanismo, tema e conteúdo de amostra (imagens de amostra)</small></li>
+        <li class="file"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - arquivo usado para extrair arquivos do fullpackage.zip ao enviar para o servidor de hospedagem.</small></li>
 				<li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - contém os links de onde as fontes personalizadas do template podem ser baixadas.</small></li>
 				<li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - contém instruções de como extrair o código fonte.</small></li>
 			</ul>
@@ -385,7 +387,31 @@
 			</div>
 			<p>&nbsp;</p>
 		</article>
-		<article id="downloading">
+		<!-- Uploading files -->
+	  <article id="uploading">
+	    <h4>3. Fazendo upload e descompactando</h4>
+	    <p class="">Para começar a mexer com o Magento você precisa enviar os arquivos ao seu servidor de hospedagem. Isso pode ser feito usando o gerenciador de sua hospedagem ou algum gerenciador terceirizado de FTP.</p>
+	                
+	      <ol>
+	        <li>Selecione os arquivos 'unzip.php' e 'fullpackage.zip' e os envie ao seu servidor(
+	          <i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">Como enviar arquivos ao servidor.</a>
+	          )</li>
+	        <li>Digite o caminho para o arquivo 'unzip.php' no seu servidor (<i class="muted">http://seu_domínio/unzip.php</i>) no seu <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">navegador</abbr>.</li>
+	        <li>Você deve ver a seguinte tela:</li>
+	      </ol>
+	                
+	      <figure class="img-paraloid"><img src="img/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
+	      <p class="muted text-center">Img 1. Unzip.php tela inicial.</p>
+	                
+	      <ol start="5">
+	        <li>No campo suspenso 'Escolha seu arquivo zip' (em Inglês, 'Choose your zip file') por favor selecione o arquivo enviado fullpackage.zip.</li>
+	        <li>No campo 'Descompactar para' (em Inglês, 'Unzip to') especifique o diretório pra onde você quer extrair os arquivos.</li>
+	        <li>Clique no botão &quot;Descompactar&quot; (em Inglês, 'Unzip') para confirmar.</li>
+	      </ol>
+	                
+	      <div class="box-info"><span>Por favor, certifique-se de colocar as permissões corretas para o diretório onde você está planejando em extrair os arquivos. As permissões devem ser CHMOD 755 ou 777, depende da configuração do seu servidor.</span></div>
+	  </article>
+		<!-- article id="downloading">
 			<h4>3. Baixar o programa do site oficial</h4>
 			<p>Para instalar o Magento, você precisa baixar o arquivo no site oficial <a target="_blank"  href="http://www.magentocommerce.com/download">www.magentocommerce.com/download</a>.</p>
 			<p>Escolhe o tipo de arquivo no menu drop-down e clique em <b>Download</b>. Você vai precisar se registrar no site para baixar o Magento.</p>
@@ -413,9 +439,9 @@
 				<li>Se você á importou o arquivo <b>dump.sql.gz</b> você também precisa enviar as imagens dos produtos. Envie o diretório <i>"media"</i> dentro de <i>sources/sample_data</i> para a pasta raíz do Magento.</li>
 				<li>Se você não instalar o arquivo dump.sql.gz file, não precisa enviar a pasta <i>"media"</i>.</li>
 			</ol>
-		</article>
+		</article -->
 		<article id="ps_engine_install">
-			<h4>7. Instalar o Magento</h4>
+			<h4>4. Instalar o Magento</h4>
 			<p>Quando terminar de subir os arquivos, você pode começar a Instalar o Magento. Abra seu navegador e digite seu <b>'domínio/caminho para o diretório do Magento'</b>. Você deve ver a tela de Boas vindas. Siga as instruções abaixo para instalar o Magento. </p>
 			<div class="box-error"><span>Perceba: o arquivo <b>dump.sql.gz</b> deve ser importado para o banco ANTES de instalar o Magento.</span></div>
 			<h5>Step 1: Assistente de Instalação</h5>

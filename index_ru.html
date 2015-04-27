@@ -100,10 +100,11 @@
 								<ul class="list">
 									<li><a href="#creating-database">Создание базы данных</a></li>
 									<li><a href="#import-database">Импортирование демонстрационных данных</a></li>
-									<li><a href="#downloading">Загрузка движка с официального сайта</a></li>
+									<li><a href="#uploading">Загрузка и разархивация</a></li>
+									<!-- li><a href="#downloading">Загрузка движка с официального сайта</a></li>
 									<li><a href="#extracting_files">Извлечение файлов</a></li>
 									<li><a href="#upl_files">Загрузка файлов Magento</a></li>
-									<li><a href="#upl_theme_files">Копирование файлов темы</a></li>
+									<li><a href="#upl_theme_files">Копирование файлов темы</a></li -->
 									<li><a href="#ps_engine_install">Установка Magento</a></li>
 								</ul> 
 							</dd>
@@ -221,6 +222,8 @@
 					</ul>
 				</li>
 				<li class="folder"><i class="icon-folder-close"></i> <b>theme###</b><small class="muted"> - содержит файлы и папки шаблона Magento, которые необходимо загрузить в корневую папку используемой установки Magento</small></li>
+				<li class="file"><i class="icon-file"></i> <b>fullpackage.zip</b><small class="muted"> - представляет собой комплект для полной установки Magento с файлами движка, темы и демо-данными (образцы изображений)</small></li>
+				<li class="file"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - файл, используемый для разархивации fullpackage.zip после загрузки на хостинг сервер</small></li>
 				<li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - содержит ссылки, по которым могут быть загружены нестандартные шрифты, используемые в шаблоне</small></li>
 				<li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - содержит инструкции по распаковке исходных файлов.</small></li>
 			</ul>
@@ -354,9 +357,9 @@
 					<li>
 						<img src="img/import-dump1.png" alt="" />
 						<div class="flex-caption">
-							<p>1. Выберите ту базу данных, которую планируете использовать для Magento CMS</p>
-							<p>2. Выберите "IMPORT" </p>
-							<p>3. нажмите кнопку "Browse"</p>
+							<p>1. Выберите ту базу данных, которую планируете использовать для Magento CMS<br>
+							2. Выберите "IMPORT"<br>
+							3. нажмите кнопку "Browse"</p>
 						</div>
 					</li>
 					<li>
@@ -375,7 +378,29 @@
 			</div>
 			<p>&nbsp;</p>
 		</article>
-		<article id="downloading">
+		<!-- Uploading files -->
+	  <article id="uploading">
+	    <h4>3. Загрузка и разархивация</h4>
+	    <p class="">Для начала работы с Magento, требуется загрузить файлы на хостинг сервер. Это можно сделать при помощи файлового менеджера хостинга или альтернативного FTP менеджера.</p>	                
+	      <ol>
+	        <li>Выделите файлы 'unzip.php' и 'fullpackage.zip' и загрузите на сервер (
+	          <i class="icon-film"> </i><a href="/help/how-upload-files-server-2.html" target="_blank"> Как загрузить файлы на сервер.</a>
+	          )</li>
+	        <li>Введите путь к файлу  'unzip.php' на сервере(<i class="muted">http://your_domain_name/unzip.php</i>) в адресной строке браузера<abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc."></abbr>.</li>
+	        <li>Должно появиться следующее окно:</li>
+	      </ol>	                
+	      <figure class="img-paraloid"><img src="img/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
+	      <p class="muted text-center">Рис 1. Стартовый экран скрипта Unzip.php.</p>
+	                
+	      <ol start="5">
+	        <li>В поле 'Choose your zip file (Выберите файл zip)' выберите загруженный файл fullpackage.zip.</li>
+	        <li>В поле 'Unzip to (Распаковать в)' укажите директорию, куда нужно распаковать файлы.</li>
+	        <li>Нажмите кнопку 'Unzip (Распаковать)', чтобы распаковать файлы.</li>
+	      </ol>
+	                
+	      <div class="box-info"><span>Задайте правильные разрешения на папку, куда нужно разархивировать файлы. Разрешения должны быть  CHMOD 755 или 777 в зависимости от конфигурации сервера. </span></div>
+	  </article>
+		<!-- article id="downloading">
 			<h4>3. Загрузка движка с официального сайта</h4>
 			<p>Для установки Magento вам нужно загрузить архив с официального сайта <a target="_blank"  href="http://www.magentocommerce.com/download">www.magentocommerce.com/download</a>.</p>
 			<p>Из выпадающего меню выберите тип архива и нажмите кнопку <b>Download</b>. Для скачивания вам придётся зарегистрироваться на сайте Magento.</p>
@@ -403,9 +428,9 @@
 				<li>Если вы импортировали файл <b>dump.sql.gz</b> и собираетесь использовать демонстрационные данные, то вам нужно будет загрузить изображения товаров. Загрузите папку <i>"media"</i> из папки <i>sources/sample_data</i> в папку установки Magento.</li>
 				<li>Если вы не импортировали файл dump.sql.gz, то вам не нужно загружать папку <i>"media"</i>.</li>
 			</ol>
-		</article>
+		</article -->
 		<article id="ps_engine_install">
-			<h4>7. Установка Magento</h4>
+			<h4>4. Установка Magento</h4>
 			<p>После окончания загрузки файлов можно приступать к установке Magento. Откройте ваш браузер и в адресной строке браузера напишите<b>'доменное имя/путь к вашей папке Magento'</b>. Вы должны увидеть экран приветствия. Следуйте инструкциям ниже для установки Magento. </p>
 			<div class="box-error"><span>Внимание: файл <b>dump.sql.gz</b> должен быть импортирован в чистую базу данных ПЕРЕД установкой Magento.</span></div>
 			<h5>Шаг 1: Installation Assistant</h5>

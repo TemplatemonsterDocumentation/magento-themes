@@ -100,10 +100,11 @@
 								<ul class="list">
 									<li><a href="#creating-database">Tworzenie bazy danych</a></li>
 									<li><a href="#import-database">Import przykładowych danych</a></li>
-									<li><a href="#downloading">Pobieranie silnika z oficjalnej strony internetowej</a></li>
+									<li><a href="#uploading">Przesyłanie i rozpakowanie</a></li>
+									<!--li><a href="#downloading">Pobieranie silnika z oficjalnej strony internetowej</a></li>
 									<li><a href="#extracting_files">Rozpakowanie plików</a></li>
 									<li><a href="#upl_files">Przesyłanie plików Magento</a></li>
-									<li><a href="#upl_theme_files">Przesyłanie plików motywu</a></li>
+									<li><a href="#upl_theme_files">Przesyłanie plików motywu</a></li -->
 									<li><a href="#ps_engine_install">Instalacja silnika Magento</a></li>
 								</ul> 
 							</dd>
@@ -216,6 +217,8 @@
 					</ul>
 				</li>
 				<li class="folder"><i class="icon-folder-close"></i> <b>theme###</b><small class="muted"> -  zawiera pliki i katalogi motywu Magento, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.</small></li>
+				<li class="file"><i class="icon-file"></i> <b>fullpackage.zip</b><small class="muted"> - zawiera kompletny pakiet instalacyjnjy Magento z plikami silnika, motywem oraz przykładową treścią (przykładowe obrazy)</small></li>
+        <li class="file"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - plik używany do rozpakowania plików z fullpackage.zip, gdy zostanie przesłany do serwera hostingowego</small></li>
 				<li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - zawiera linki, pod którymi można pobrać szablony niestandardowych czcionek .</small></li>
 				<li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - zawiera instrukcje, jak wyodrębnić pliki źródłowe.</small></li>
 			</ul>
@@ -361,7 +364,31 @@
 			</div>
 			<p>&nbsp;</p>
 		</article>
-		<article id="downloading">
+		<!-- Uploading files -->
+	  <article id="uploading">
+	    <h4>3. Przesyłanie i rozpakowanie</h4>
+	    <p class="">Aby zacząć pracę z Magento, musisz przesłać pliki do swojego serwera hostingowego. Można tego dokonać przy użyciu menadżera plików w hostingu lub osobnego FTP managera.</p>
+	                
+	      <ol>
+	        <li>Wybierz 'unzip.php' oraz 'fullpackage.zip' i prześlij je do swojego serwera(
+	          <i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">Jak przesłać pliki do serwera.</a>
+	          )</li>
+	        <li>Podaj scieżkę do pliku 'unzip.php' na Twoim serwerze (<i class="muted">http://your_domain_name/unzip.php</i>) w <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">przeglądarce</abbr>.</li>
+	        <li>Powinieneś zobaczyć następujący widok:</li>
+	      </ol>
+	                
+	      <figure class="img-paraloid"><img src="img/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
+	      <p class="muted text-center">Img 1. Unzip.php początkowy widok.</p>
+	                
+	      <ol start="5">
+	        <li>W oknie 'Wybierz plik zip' (ang. Choose your zip file) wybierz przesłany plik fullpackage.zip.</li>
+	        <li>W 'Wypakuj do' (ang. Unzip to) wybierz folder, do którego chcesz wypakować pliki.</li>
+	        <li>Kliknij 'Wypakuj' (ang. Unzip), aby kontynuować.</li>
+	      </ol>
+	                
+	      <div class="box-info"><span>Upewnij się, że ustaliłeś odpowiednie uprawnienia w folderze, do którego wypakowujesz pliki. Uprawnienia powinny być CHMOD 755 lub 777, w zależności od ustawień serwera. </span></div>
+	  </article>
+		<!-- article id="downloading">
 			<h4>3. Pobieranie silnika z oficjalnej strony</h4>
 			<p>Aby zainstalować Magento, musisz pobrać plik archiwum z oficjalnej strony <a target="_blank"  href="http://www.magentocommerce.com/download">www.magentocommerce.com/download</a>.</p>
 			<p>Wybierz typ archiwum z rozwijanego menu i kliknij <b>Download</b>. Koniecznym jest zarejestrowanie konta na stronie Magento, aby pobrać silnik.</p>
@@ -389,9 +416,9 @@
 				<li>Jeżeli importowałeś pliki<b>dump.sql.gz</b> i zamierzasz używać przykładowych danych szablonu, musisz przesłać zdjęcia produktów. Prześlij folder <i>"media"</i> z katalogu szablonu <i>sources/sample_data</i> do katalogu głównego instalacji Magento.</li>
 				<li>Jeśli nie zainstalowałeś plików dump.sql.gz, nie ma potrzeby, aby przesyłać folder <i>"media"</i>.</li>
 			</ol>
-		</article>
+		</article -->
 		<article id="ps_engine_install">
-			<h4>7. Instalacja silnika Magento</h4>
+			<h4>4. Instalacja silnika Magento</h4>
 			<p>Kiedy zakończysz przesyłanie plików, można rozpocząć instalację silnika Magento. Otwórz przeglądarkę i w pasku adresu wpisz Twoją <b>'Nazwę domeny / ścieżkę do katalogu Magento'</b>. Powinieneś zobaczyć ekran powitalny. Prosimy postępować zgodnie z poniższymi instrukcjami, aby zainstalować Magento. </p>
 			<div class="box-error"><span>Uwaga: pliki <b>dump.sql.gz</b> powinny być importowane do czystej bazy danych ZANIM zainstalujesz Magento.</span></div>
 			<h5>Krok 1: Asystent instalacji</h5>
