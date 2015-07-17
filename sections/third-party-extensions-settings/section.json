@@ -1,0 +1,131 @@
+{
+	"id":"third-party-extensions-settings",
+	"translations":
+	{
+		"en":"Third party extensions settings",
+		"ru":"Настройка сторонних расширений",
+		"tr":"Üçüncü parti Eklenti Ayarları",
+		"de":"Einstellung der Erweiterungen von Drittanbietern",
+		"es":"Ajustes de Extensiones de Terceros",
+		"fr":"Paramètres des Extensions Tierces",
+		"it":"Impostazioni estensioni esterne",
+		"pl":"Ustawienia Rozszerzeń Zewnętrznych Dostawców",
+		"pt":"Third-party Extensions Settings"
+
+	},
+	"articles":
+	[		
+		{
+			"id":"olark-live-chat",
+			"translations":{
+				"en":"Olark Live Chat",
+				"ru":"Olark Live Chat",
+				"tr":"Olark canlı chat",
+				"de":"Olark Live Chat",
+				"es":"Chat en Vivo de Olark",
+				"fr":"Chat en Ligne Olark",
+				"it":"Olark Live Chat",
+				"pl":"Olark czat na żywo",
+				"pt":"Chat Olark em tempo real"
+			}
+		},		
+		{
+			"id":"cloud-zoom",
+			"translations":{
+				"en":"Cloud Zoom",
+				"ru":"Cloud Zoom",
+				"tr":"Cloud Zoom",
+				"de":"Cloud Zoom",
+				"es":"Cloud Zoom",
+				"fr":"Cloud Zoom",
+				"it":"Cloud Zoom",
+				"pl":"Cloud Zoom",
+				"pt":"Cloud Zoom"
+			}
+		},		
+		{
+			"id":"add-this",
+			"translations":{
+				"en":"Add This",
+				"ru":"Add This",
+				"tr":"Add This",
+				"de":"Add This",
+				"es":"Compartir",
+				"fr":"Add This",
+				"it":"Aggiungi",
+				"pl":"Dodaj to",
+				"pt":"Add This"
+			}
+		},		
+		{
+			"id":"blog",
+			"translations":{
+				"en":"Blog",
+				"ru":"Блог",
+				"tr":"Blog",
+				"de":"Blog",
+				"es":"Blog",
+				"fr":"Blog",
+				"it":"Blog",
+				"pl":"Blog",
+				"pt":"Blog"
+			}
+		},		
+		{
+			"id":"mega-menu",
+			"translations":{
+				"en":"Mega menu",
+				"ru":"Мега меню",
+				"tr":"Mega menü",
+				"de":"Mega menu",
+				"es":"Mega menu",
+				"fr":"Mega Menu",
+				"it":"Mega menu",
+				"pl":"Mega menu",
+				"pt":"Mega menu"
+			}
+		},		
+		{
+			"id":"parallax",
+			"translations":{
+				"en":"Parallax",
+				"ru":"Параллакс",
+				"tr":"Parallax",
+				"de":"Parallax",
+				"es":"Parallax",
+				"fr":"Parallax",
+				"it":"Parallasse",
+				"pl":"Parallax",
+				"pt":"Parallax"
+			}
+		},		
+		{
+			"id":"background-video",
+			"translations":{
+				"en":"Background Video",
+				"ru":"Фоновое видео",
+				"tr":"Background Video",
+				"de":"Hintergrundvideo",
+				"es":"Background Video",
+				"fr":"Vidéo de fond",
+				"it":"Video su sfondo",
+				"pl":"Video w Tle",
+				"pt":"Background Video"
+			}
+		},		
+		{
+			"id":"cookies-policy",
+			"translations":{
+				"en":"Cookies Policy",
+				"ru":"Политика в отношении куки",
+				"tr":"Çerez ilkeleri",
+				"de":"Cookie-Politik",
+				"es":"Pol&iacute;tica de cookies",
+				"fr":"Politique de Cookies",
+				"it":"Informativa sui Cookie",
+				"pl":"Polityka Cookies",
+				"pt":"Política de Cookies"
+			}
+		}		
+	]
+}

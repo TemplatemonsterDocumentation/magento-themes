@@ -1,0 +1,46 @@
+{
+	"id":"standard-extensions-settings",
+	"translations":
+	{
+		"en":"Standard Extensions Settings",
+		"ru":"Настройка стандартных расширений",
+		"tr":"Standart Eklenti Ayarları",
+		"de":"Einstellung der Standarderweiterungen",
+		"es":"Ajustes de Extensiones Estándar",
+		"fr":"Paramètres des Extensions Standards",
+		"it":"Impostazioni standard delle estensioni",
+		"pl":"Standardowe Ustawienia Rozszerzeń",
+		"pt":"Standard Extensions Settings"
+	},
+	"articles":
+	[		
+		{
+			"id":"currency-module",
+			"translations":{
+				"en":"Currency module",
+				"ru":"Модуль валют",
+				"tr":"Para birimi ayarları",
+				"de":"Währungsmodul",
+				"es":"M&oacute;dulo de divisas",
+				"fr":"Module de Devises",
+				"it":"Modulo Valute",
+				"pl":"Moduł waluty",
+				"pt":"Módulo de moeda"
+			}
+		},		
+		{
+			"id":"polls-module",
+			"translations":{
+				"en":"Polls module",
+				"ru":"Модуль Polls",
+				"tr":"Anket ayarları",
+				"de":"Modul Polls",
+				"es":"M&oacute;dulo de encuestas",
+				"fr":"Module de Sondages",
+				"it":"Modulo Sondaggi (Polls)",
+				"pl":"Moduł ankiety",
+				"pt":"Módulo de pesquisa de opinião"
+			}
+		}		
+	]
+}
