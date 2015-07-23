@@ -1,6 +1,6 @@
 <h3>Sabit blok ayarları</h3>
 <p>Sayfa ayarlarınızı yaptıktan sonra sabit blokları düzenlemelisiniz. Prosedür benzer: kaynak dosyalardan kodu kopyalayıp, yönetici panelinden gerekli alanlara yapıştırmalısınız. Sabit bloklar için de benzer bir tablo kullanmalısınız.</p>
-<ol> 
+<ol class="index-list"> 
 	<li>Üst menüden <b>CMS > Sabit Bloklar</b> ı seçin. (İçerik Yöneticisinden)</li>
 	<li>Sağ köşeden "Yeni Blok ekle" düğmesine basın.</li>
 	<li>Blok ismini ve özelliğini girin. Bu detayları şablonun Demo sayfasından görüntüleyebilirsiniz. (Sayfa Ayarları bölümüne bakın).</li>
@@ -14,7 +14,7 @@
 
 <p>Kutularýmýzda nasýl sabit içerik gösterebiliriz?</p>
 
-<ol> 
+<ol class="index-list"> 
 	<li>Üst menüden <b>Yönetici Paneli > Bileþenler</b> kýsmýna girin.</li>
 	<li>Sað üst kýsýmdan <strong>Yeni Bileþen Ekle </strong> düðmesine basýnýz.
 		<figure class="img-polaroid"><img src="img/magento/widget-1.jpg" alt="" /></figure>

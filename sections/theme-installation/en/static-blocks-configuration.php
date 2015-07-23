@@ -1,6 +1,6 @@
 <h3>Static blocks configuration</h3>
 <p>When you are done configuring the pages, you need to configure the static blocks. The procedure is similar: you need to copy the code from the source files and paste it to the corresponding fields in the Magento admin panel. You need to use a similar table but for the static blocks.</p>
-<ol> 
+<ol class="index-list"> 
 	<li>From the top menu select <b>CMS > Static Blocks</b>.</li>
 	<li>Click the "Add New block" button in the right corner to add a new block.</li>
 	<li>Input the block name and identifier. You can get the block details from the table at the templates Live Demo page (check the Pages Configuration part).</li>
@@ -14,7 +14,7 @@
 
 <p>How to display our blocks with static content?</p>
 
-<ol> 
+<ol class="index-list"> 
 	<li>Go to <b>CMS > Widgets</b> in top menu.</li>
 	<li>Click the <strong>Add New Widget Instance </strong> button in the top right to add the widget.
 		<figure class="img-polaroid"><img src="img/magento/widget-1.jpg" alt="" /></figure>

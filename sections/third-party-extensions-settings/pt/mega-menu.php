@@ -2,7 +2,7 @@
 <p>Este módulo substitui o menu padrão por um menu que permite configurar dois níveis de subcategorias, incluir blocos estáticos ao menu, incluir etiquetas, mostrar produtos, etc.</p>
 <strong>MegaMenu</strong> é incluído no template por padrão, você pode ativar/desativar este módulo em <strong>System > Configuration > CMSMART MEGAMENU > Mega Menu</strong>.
 
-<ol class="list-1">
+<ol class="index-list">
 	<li>A aparência de cada menu pode ser configurada na página de definições da categoria, localizada em <strong>Catalog > Manage Categories</strong>.
 		<figure class="img-polaroid"><img src="img/magento/mega-1.jpg" alt="" /></figure>		
 		<figure class="img-polaroid"><img src="img/magento/mega-2.jpg" alt="" /></figure>

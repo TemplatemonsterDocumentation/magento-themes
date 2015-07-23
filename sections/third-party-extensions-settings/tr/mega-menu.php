@@ -2,7 +2,7 @@
 <p>Bu modül, iki aşamalı alt kategorilerin ayarlanmasını sağlayan menüyü temsil eder. Buradan, açılır menüye sabit kutular ve seviyeler ekleyebilir, ürünlerin nasıl görüntüleneceğini ayarlayabilirsiniz.</p>
 <strong>MegaMenu</strong> şablonun içinde hali hazırda yer almaktadır. Açıp kapatmak için <strong>Sistem > Ayarlar > CMSMART MEGAMENU > Mega Menu</strong> kısmına girebilirsiniz.
 
-<ol class="list-1">
+<ol class="index-list">
 	<li>Tüm açılan menüleri <strong>Katalog > Kategorileri Düzenle</strong> kısmında yer alan, kategori ayar sayfasından düzenleyebilirsiniz.
 		<figure class="img-polaroid"><img src="img/magento/mega-1.jpg" alt="" /></figure>
 		

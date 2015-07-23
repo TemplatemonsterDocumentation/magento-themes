@@ -1,6 +1,6 @@
 <h3>Configurar logotipo</h3>
 <p>Siga os passos abaixo para definir sua imagem de logotipo, inclusa no pacote do tema. (você pode vê-lo na página de demonstração).</p>
-<ol> 
+<ol class="index-list"> 
 	<li>Abra o painel do Magento e navegue para <b>System > Configuration</b>.</li>
 	<li>Clique na aba "<b>Design</b>".</li>
 	<li>Na seção "<b>Header</b>", altere o campo "<b>Logo Image Src</b>". Mude de "<b>gif</b>" para "<b>png</b>".</li>

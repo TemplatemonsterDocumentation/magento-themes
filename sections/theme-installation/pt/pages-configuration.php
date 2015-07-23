@@ -11,7 +11,7 @@
 <div class="alert alert-warning"><span>Nós recomendamos que você desabilite o editor WYSIWYG. Para fazer isso, navegue para  <strong>System &gt; Configuration</strong>. Abra a seção "<strong>Content Management</strong>" e na janela <strong>WYSIWYG Options</strong> troque a opção "<strong>Enable WYSIWYG Editor</strong>" para "<strong>Disabled Completely</strong>".</span></br>
 <figure class="img-polaroid"><img src="img/magento/pages_setting1.png" alt="" /></figure></div>
 <p class="alert alert-warning"><span>Se você já tiver feito mudanças nos códigos das suas páginas e preferir adicionar nosso código sem afetar suas mudanças, recomendamos entrar em contato com profissionais da área ou faça um backup antes de alterar.</span></p>
-<ol>
+<ol class="index-list">
 	<li>No menu do topo, selecione <b>CMS > Pages</b>. Aqui você pode encontrar todas as páginas da loja. <b>Home page (a página inicial)</b>, <b>About Us (sobre nós)</b> e <b>Customer Service (SAC)</b> já devem estar habilitadas, então você não precisa adicioná-las. Você só precisa atualizar o HTML e XML delas. Abra qualquer uma delas para acessar o conteúdo.</li>
 	<li>Abra a página e clique na aba <b>Content</b>. Ela contém o código HTML da página. Você pode pegar o código HTML do arquivo fonte apropriado. VOcê pode ver a lista de arquivos fonte incluídos na seção "Template Settings" da página de visualização do template. Copie o código do arquivo e cole na área <b>content</b>.</li>
 	<li>Quando terminar de mexer no código HTML, mude para a aba <b>"Design"</b>. Nela, você encontrará código XML. Esse código permite que você adicione blocos estátios do Magento e widgets na página. O código XML deve ser copiado da mesma maneira que o HTML. Copie o código na área "<b>Layout Update XML</b>".</li>

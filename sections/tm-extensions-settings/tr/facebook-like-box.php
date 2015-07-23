@@ -1,6 +1,6 @@
 <h3>Facebook like box</h3>
-<p>Bu modül sayesinde Magento maðazanýzda bir Facebook beðeni kutusu gösterebilirsiniz.</p>						
-Genel ayarlar için Magento Yönetici Paneli'ndeki <strong>System > Configuration > Templatemonster > Facebook</strong> kýsmýný kullanýnýz.
+<p>Bu modül sayesinde Magento maðazanýzda bir Facebook beðeni kutusu gösterebilirsiniz.			<br>			
+Genel ayarlar için Magento Yönetici Paneli'ndeki <strong>System > Configuration > Templatemonster > Facebook</strong> kýsmýný kullanýnýz.</p>
 <figure class="img-polaroid"><img src="img/magento/facebook-2.jpg" alt="" /></figure>
 <p>Modül seçenekleri þu þekildedir:</p>			
 <table class="options-table">
@@ -40,7 +40,7 @@ Genel ayarlar için Magento Yönetici Paneli'ndeki <strong>System > Configuratio
 		<td>modül alanýnýn geniþliði.</td>
 	</tr>				
 </table>
-Temel olarak modül, sol sütunda yer alýr. Fakat üç adet görüntüleme seçeneði bulunmaktadýr: <strong>sol</strong>, <strong>sað</strong> ve <strong>alt</strong>. Kutunun konumunu deðiþtirmek için, <strong>app/design/frontend/default/themeXXX/layout</strong> klasöründe yer alan <strong>tm_facebook.xml</strong> dosyasýný düzenlemelisiniz.
+<p>Temel olarak modül, sol sütunda yer alýr. Fakat üç adet görüntüleme seçeneði bulunmaktadýr: <strong>sol</strong>, <strong>sað</strong> ve <strong>alt</strong>. Kutunun konumunu deðiþtirmek için, <strong>app/design/frontend/default/themeXXX/layout</strong> klasöründe yer alan <strong>tm_facebook.xml</strong> dosyasýný düzenlemelisiniz.</p>
 
 Bu dosyada <strong>name="left"</strong> (name="right", name="footer") parametreleriyle üç ayrý <strong><em>reference</em></strong> özelliðine ait kutu bulunur.
 <pre class="prettyprint linenums">
@@ -55,7 +55,7 @@ Bu dosyada <strong>name="left"</strong> (name="right", name="footer") parametrel
 &lt;/reference&gt; --&gt;</pre>
 <p>Buradaki iki kutu aktif deðil. Sadece <strong>name="left"</strong> olan etkin durumda. Ve bu sayede modül sol sütunda gösteriliyor. <br>	Eðer modülü altta göstermek isterseniz, yapmanýz gerekenler:
 </p>
-<ol>
+<ol class="index-list">
 	<li>Öncelikle <strong>name="footer"</strong> yazan satýrý, baþýndaki ok ünlem ve tireleri kaldýrarak etkinleþtirin ve onlarý <strong>name="left"</strong> satýrýnýn baþýna koyun.</li>
 	<li>Daha sonra <strong>app/design/frontend/default/themeXXX/template/page/html</strong> klasöründeki <strong>footer.phtml</strong> isimli dosyayý açýn.</li>
 	<li>Gereken yere bu kodu yapýþtýrýn:

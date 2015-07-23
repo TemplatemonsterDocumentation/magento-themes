@@ -1,6 +1,6 @@
 <h3>Moduł Facebook like box</h3>
-<p>Ten moduł pozwala na wyświetlenie Facebook like box w Twoim sklepie Magento.</p>								
-Możesz go skonfigurować za pomocą panelu administracyjnego Magento w sekcji <strong>System > Configuration > Templatemonster > Facebook</strong>.
+<p>Ten moduł pozwala na wyświetlenie Facebook like box w Twoim sklepie Magento.		<br>					
+Możesz go skonfigurować za pomocą panelu administracyjnego Magento w sekcji <strong>System > Configuration > Templatemonster > Facebook</strong>.</p>	
 <figure class="img-polaroid"><img src="img/magento/facebook-2.jpg" alt="" /></figure>
 <p>Moduł posiada następujące opcje:</p>			
 <table class="options-table">
@@ -40,8 +40,8 @@ Możesz go skonfigurować za pomocą panelu administracyjnego Magento w sekcji <
 		<td>szerokość obszaru modułu.</td>
 	</tr>				
 </table>
-Moduł jest wyświetlany domyślnie w lewej kolumnie. Jednak są trzy opcje wyświetlania: <strong>left</strong>, <strong>right</strong> oraz <strong>footer</strong>.
-	Aby zmienić położenie bloku, należy otworzyć plik <strong>tm_facebook.xml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/layout</strong> Twojej instalacji.
+<p>Moduł jest wyświetlany domyślnie w lewej kolumnie. Jednak są trzy opcje wyświetlania: <strong>left</strong>, <strong>right</strong> oraz <strong>footer</strong>. <br>
+	Aby zmienić położenie bloku, należy otworzyć plik <strong>tm_facebook.xml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/layout</strong> Twojej instalacji.</p>
 
 Plik ten zawiera trzy <strong><em>reference</em></strong> do bloków o parametrach <strong>name="left"</strong> (name="right", name="footer").
 <pre class="prettyprint linenums">
@@ -57,7 +57,7 @@ Plik ten zawiera trzy <strong><em>reference</em></strong> do bloków o parametra
 <p>Dwa bloki są przekonwertowane na komentarz w tym pliku. A jeden blok z <strong>name="left"</strong> nie jest przekonwertowany. Wyświetla moduł w lewej kolumnie. <br>
 				Jeśli chcesz wyświetlić moduł w stopce, należy postępować zgodnie z poniższymi instrukcjami:
 </p>
-<ol>
+<ol class="index-list">
 	<li>Uncomment lines of code for <strong>name="footer"</strong> block (the last one in the example of the code above) and comment out the block <strong>name="left"</strong> (the first one in the example of the code above).</li>
 	<li>Otwórz plik <strong>footer.phtml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
 	<li>Wklej następujący kod do wskazanego miejsca:

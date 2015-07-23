@@ -1,6 +1,5 @@
 <h3>Module Twitter</h3>
-	<p>Le module Twitter permet d'afficher les tweets en votre boutique.</p>						
-	<p>Toutes les options de configuration sont disponibles via le panneau d'administration de Magento dans la section <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
+	<p>Le module Twitter permet d'afficher les tweets en votre boutique. <br>Toutes les options de configuration sont disponibles via le panneau d'administration de Magento dans la section <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
 	<figure class="img-polaroid"><img src="img/magento/twitter-1.jpg" alt="" /></figure>					
 	<p>Le module dispose des options suivantes:</p>			
 	<table  class="options-table">
@@ -50,8 +49,8 @@
 			<td>la largeur de la fenêtre du widget.</td>
 		</tr>
 	</table>
-	Par défaut, le module est affiché dans la colonne de gauche. Mais il y a trois options d'affichage: <strong>gauche</strong>, <strong>droite</strong> et <strong>le pied de page</strong>. <br>
-	Pour changer la position du bloc, vous devez ouvrir le fichier <strong>tm_twitter.xml</strong> situé dans le dossier <strong>app/design/frontend/default/themeXXX/layout</strong> de votre installation.<br>
+	<p>Par défaut, le module est affiché dans la colonne de gauche. Mais il y a trois options d'affichage: <strong>gauche</strong>, <strong>droite</strong> et <strong>le pied de page</strong>. <br>
+	Pour changer la position du bloc, vous devez ouvrir le fichier <strong>tm_twitter.xml</strong> situé dans le dossier <strong>app/design/frontend/default/themeXXX/layout</strong> de votre installation.</p>
 	Ce fichier comprend trois blocs de <strong><em>reference</em></strong> avec les paramètres <strong>name="left"</strong> (name="right", name="footer").
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -63,10 +62,10 @@
 &lt;reference name="right"&gt;
 	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
 &lt;/reference&gt; --&gt;</pre>
-Les deux blocs sont commentés dans ce fichier. Et un seul bloc avec <strong>name="left"</strong> n'est pas commenté. Il affiche le module dans la colonne de gauche.<br>
-Si vous avez besoin d'afficher le module dans le pied de page, vous devez suivre ces instructions:
+<p>Les deux blocs sont commentés dans ce fichier. Et un seul bloc avec <strong>name="left"</strong> n'est pas commenté. Il affiche le module dans la colonne de gauche.<br>
+Si vous avez besoin d'afficher le module dans le pied de page, vous devez suivre ces instructions:</p>
 
-<ol>
+<ol class="index-list">
 	<li>Décommentez les lignes de code pour le bloc <strong>name="footer"</strong> (le dernier dans l'exemple du code ci-dessus) et commentez le bloc <strong>name="left"</strong> (le premier dans l'exemple de code ci-dessus).</li>
 	<li>Ouvrez le fichier <strong>footer.phtml</strong> situé dans le dossier <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
 	<li>Collez le code suivant à l'endroit nécessaire:

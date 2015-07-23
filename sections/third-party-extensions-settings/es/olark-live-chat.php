@@ -2,7 +2,7 @@
 <p>Es necesario registrarse en el <a href="https://www.olark.com/signup/create_new_account" target="blank_">sitio web</a> oficial para utilizar el chat en l&iacute;nea integrado en la plantilla, indique toda la informaci&oacute;n necesaria para recibir el c&oacute;digo <strong>Olark Site-ID</strong>.</p>
 <div class="alert alert-info"><span>Puede obtener el paquete bronce de 6 meses de prueba totalmente gratis. Para ello vaya al siguiente <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">enlace</a>, indique sus datos para completar el registro.</span></div>
 Para configurar el chat en l&iacute;nea, necesita realizar los siguientes pasos:
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Abra el panel de administraci&oacute;n de Magento. Haga clic en el elemento de men&uacute; CMS, en el men&uacute; desplegable vaya a <strong>Widgets</strong>.
 		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
@@ -35,7 +35,7 @@ Para configurar el chat en l&iacute;nea, necesita realizar los siguientes pasos:
 </ol>						
 <p><strong>&iexcl;Ha Terminado!</strong> Ahora puede visitar su sitio web y ver el widget del chat.</p>
 <p>Tambi&eacute;n puedes echar un vistazo a las siguientes instrucciones:</p>
-<ul>
+<ul class="marked-list">
 	<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Empezar a trabajar con Olark <i class="icon-external-link"></i></a></li>
 	<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Manual del Usuario de Olark <i class="icon-external-link"></i></a></li>
 </ul>		

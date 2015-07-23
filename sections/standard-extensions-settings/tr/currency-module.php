@@ -1,6 +1,6 @@
 		
 <h3>Para kuru modülü</h3>
-<ol>
+<ol class="index-list">
 	<li>Magento yönetici panelini açın.</li>
 	<li>Üst menüden <b>Sistem > Ayarlar</b> bölümüne girin.</li>
 	<li>Ardından Genel bölümüne girin ve <b>Kur Ayarları</b> sekmedine tıklayın.</li>

@@ -2,7 +2,7 @@
 <p>El módulo sustituye el menú estándar por el menú que permite configurar la visualización en dos niveles de subcategorías, añadir bloques estáticos para el menú desplegable, añadir etiquetas, visualización de productos, etc.</p>
 <strong>MegaMenu</strong> está incluido en la plantilla por defecto, se puede activar/desactivar en <strong>System > Configuration > CMSMART MEGAMENU > Mega Menu</strong>.
 
-<ol class="list-1">
+<ol class="index-list">
 	<li>La visualización de cada menú desplegable se puede configurar en la página de configuración de las categorías, que se encuentra en <strong>Catalog > Manage Categories</strong>.
 		<figure class="img-polaroid"><img src="img/magento/mega-1.jpg" alt="" /></figure>
 		

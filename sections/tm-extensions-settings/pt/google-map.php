@@ -1,8 +1,7 @@
 <h3>Google Map</h3>
-<p>Esse módulo permite que você inclua um mapa do Google Maps no seu site Magento. Por padrão, este módulo provém dois mapas: o mapa na página de contatos e o mapa no rodapé de outras páginas.</p>						
-<p>Ambos podem ser configurados através do Painel Administrativo do Magento em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Google Map</strong>.</p>
+<p>Esse módulo permite que você inclua um mapa do Google Maps no seu site Magento. Por padrão, este módulo provém dois mapas: o mapa na página de contatos e o mapa no rodapé de outras páginas. <br>Ambos podem ser configurados através do Painel Administrativo do Magento em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Google Map</strong>.</p>
 
-<ol>
+<ol class="index-list">
 	<li>
 		<strong>Embed Map Settings</strong>: este bloco exibe os mapas em todas as páginas, com exceção da página de contatos.
 	</li>

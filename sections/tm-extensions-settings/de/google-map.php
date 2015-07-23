@@ -1,8 +1,7 @@
 <h3>Google Map</h3>
-<p>Das jeweilige Modul ermöglicht Ihnen die Google Karte in Ihre Magento Webseite einzufügen. Standardmäßig enthält das Modul zwei Karten: die erste ist für die Kontaktseite und die zweite wird im Footer auf anderen Seiten angezeigt.</p>						
-<p>Die beiden Karten können im Control Panel Magento eingestellt werden: <strong>System > Configuration > Templatemonster > Google Map</strong> Sektion.</p>
+<p>Das jeweilige Modul ermöglicht Ihnen die Google Karte in Ihre Magento Webseite einzufügen. Standardmäßig enthält das Modul zwei Karten: die erste ist für die Kontaktseite und die zweite wird im Footer auf anderen Seiten angezeigt. <br>Die beiden Karten können im Control Panel Magento eingestellt werden: <strong>System > Configuration > Templatemonster > Google Map</strong> Sektion.</p>
 
-<ol>
+<ol class="index-list">
 	<li>
 		Der Block <strong>Embed Map Settings</strong> zeigt die Karte im Footer auf allen Seiten außer der Kontaktseite an.
 	</li>

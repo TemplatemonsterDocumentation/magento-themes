@@ -5,7 +5,7 @@
 
 <p>Anhand phpMyAdmin ist es möglich, die Datenbank in 3 einfachen Schritten zu erstellen: (schauen Sie die folgenden Dias an)</p>
 
-<ol class="list">
+<ol class="index-list">
 	<li>Klicken Sie den Button Database (Datenbank ) in dem oberen Navigationsmenü, um zur Liste der Datenbanken zu gelangen</li>
 	<li>Geben Sie den Namen der Datenbank ins Feld "Create new database (Neue Datenbank erstellen)" ein</li>
 	<li>Drücken Sie auf den Button rechts Create (Erstellen)</li>
@@ -22,5 +22,5 @@
 
 <p>Sie können auch das ausführliche Video-Tutorial nutzen <i class="icon-film"> </i><a href="/help/de/how-to-create-a-database.html" target="_blank">Wie erstellt man die Datenbank</a></p>
 
-<div class="box-info"><span>Wenn Sie Schwierigkeiten beim Erstellen der Datenbank haben, sollen Sie sich den Kontakt mit dem Hosting-Anbieter aufnehmen.</span></div>
+<div class="alert alert-danger"><span>Wenn Sie Schwierigkeiten beim Erstellen der Datenbank haben, sollen Sie sich den Kontakt mit dem Hosting-Anbieter aufnehmen.</span></div>
 		

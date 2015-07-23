@@ -2,7 +2,7 @@
 <p>Для использования онлайн чата в шаблоне вам необходимо зарегистрироваться на официальном <a href="https://www.olark.com/signup/create_new_account" target="blank_">сайте</a> , ввести все необходимые данные и получить код <strong>Olark Site-ID</strong>.</p>
 <div class="alert alert-info"><span>Вы также можете получить пробный бесплатный 6-месячный бронзовый пакет. Для этого перейдите по <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="_blank">ссылке</a> и внесите свои регистрационные данные.</span></div>
 Чтобы настроить онлайн чат, вам необходимо сделать несколько шагов:
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Перейдите в админ панель Magento. Кликните пункт меню CMS и в выпадающем меню перейдите к пункту <strong>Widgets</strong>.
 		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
@@ -34,7 +34,7 @@
 </ol>						
 <p><strong>Всё сделано!</strong> Теперь вы можете перейти на ваш сайт и увидеть виджет онлайн чата.</p>
 <p>Вы также можете ознакомиться со следующими инструкциями:</p>
-<ul>
+<ul class="marked-list">
 	<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Начиная работать с Olark <i class="icon-external-link"></i></a></li>
 	<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Руководство Olark <i class="icon-external-link"></i></a></li>
 </ul>		

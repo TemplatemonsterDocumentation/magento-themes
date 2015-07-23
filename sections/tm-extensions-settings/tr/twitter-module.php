@@ -50,8 +50,8 @@
 			<td>bileþen penceresinin eni.</td>
 		</tr>
 	</table>
-	Bu kutu, temel olarak sol sütunda gösterilir. Fakat üç adet görüntüleme seçeneði bulunmaktadýr: <strong>sol</strong>, <strong>sað</strong> ve <strong>alt</strong>. <br>
-				Kutunun konumunu deðiþtirmek için, <strong>app/design/frontend/default/themeXXX/layout</strong> klasöründe yer alan <strong>tm_twitter.xml</strong> dosyasýný düzenlemelisiniz.<br>
+	<p>Bu kutu, temel olarak sol sütunda gösterilir. Fakat üç adet görüntüleme seçeneði bulunmaktadýr: <strong>sol</strong>, <strong>sað</strong> ve <strong>alt</strong>. <br>
+				Kutunun konumunu deðiþtirmek için, <strong>app/design/frontend/default/themeXXX/layout</strong> klasöründe yer alan <strong>tm_twitter.xml</strong> dosyasýný düzenlemelisiniz.</p>
 	Bu dosyada <strong>name="left"</strong> (name="right", name="footer") parametreleriyle üç ayrý <strong><em>reference</em></strong> özelliðine ait kutu bulunur.
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -63,10 +63,10 @@
 &lt;reference name="right"&gt;
 	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
 &lt;/reference&gt; --&gt;</pre>
-Buradaki iki kutu aktif deðil. Sadece <strong>name="left"</strong> olan etkin durumda. Ve bu sayede modül sol sütunda gösteriliyor. <br>
+<p>Buradaki iki kutu aktif deðil. Sadece <strong>name="left"</strong> olan etkin durumda. Ve bu sayede modül sol sütunda gösteriliyor. </p>
 				Eðer modülü altta göstermek isterseniz, yapmanýz gerekenler:
 
-<ol>
+<ol class="index-list">
 	<li>Öncelikle <strong>name="footer"</strong> yazan satýrý, baþýndaki ok ünlem ve tireleri kaldýrarak etkinleþtirin ve onlarý <strong>name="left"</strong> satýrýnýn baþýna koyun.</li>
 	<li>Daha sonra <strong>app/design/frontend/default/themeXXX/template/page/html</strong> klasöründeki <strong>footer.phtml</strong> isimli dosyayý açýn.</li>
 	<li>Gereken yere bu kodu yapýþtýrýn:

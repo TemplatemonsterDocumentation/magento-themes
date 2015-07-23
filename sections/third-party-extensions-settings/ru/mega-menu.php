@@ -2,7 +2,7 @@
 <p>Данный модуль заменяет стандартное меню на меню, в котором можно настроить отображение подкатегорий до двух уровней вложенности, добавлять статические блоки в выпадающее меню, добавлять бэйджи (Labels), выводить продукты и т.п.</p>
 <strong>MegaMenu</strong> включено в шаблонах по умолчанию, но включить или выключить его можно в меню <strong>System > Configuration > CMSMART MEGAMENU > Mega Menu</strong>.
 
-<ol class="list-1">
+<ol class="index-list">
 	<li>Настроить отображение каждого выпадающего меню можно на странице настройки категории, которую вы можете найти в <strong>Catalog > Manage Categories</strong>.
 		<figure class="img-polaroid"><img src="img/magento/mega-1.jpg" alt="" /></figure>		
 		<figure class="img-polaroid"><img src="img/magento/mega-2.jpg" alt="" /></figure>

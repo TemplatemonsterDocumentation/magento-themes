@@ -50,9 +50,9 @@
 			<td>largura da janela do widget.</td>
 		</tr>
 	</table>
-	Por padrão, o módulo é mostrado na coluna esquerda. Mas você tem três opções de estilo: <strong>esquerda</strong>, <strong>direita</strong> e <strong>rodapé</strong>. <br>
-				Para mudar a posição do bloco, você deve abrir o arquivo <strong>tm_twitter.xml</strong> localizado em <strong>app/design/frontend/default/themeXXX/layout</strong>.
-	<br>
+	<p>Por padrão, o módulo é mostrado na coluna esquerda. Mas você tem três opções de estilo: <strong>esquerda</strong>, <strong>direita</strong> e <strong>rodapé</strong>. <br>
+				Para mudar a posição do bloco, você deve abrir o arquivo <strong>tm_twitter.xml</strong> localizado em <strong>app/design/frontend/default/themeXXX/layout</strong>.</p>
+	
 			Esse arquivo inclui três blocos de <strong><em>reference</em></strong> com os parâmetros <strong>name="left"</strong> (name="right", name="footer").
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -64,10 +64,10 @@
 &lt;reference name="right"&gt;
 	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
 &lt;/reference&gt; --&gt;</pre>
-Dois blocos estão comentados neste arquivo. O único bloco não comentado é o que tem o parâmetro <strong>name="left"</strong>. Ele faz o módulo ser mostrado na clouna direita. <br>
+<p>Dois blocos estão comentados neste arquivo. O único bloco não comentado é o que tem o parâmetro <strong>name="left"</strong>. Ele faz o módulo ser mostrado na clouna direita. </p>
 				Se você precisar mostrar o módulo no rodapé, você precisa seguir essas instruções:
 
-<ol>
+<ol class="index-list">
 	<li>Descomente as linhas de código do bloco com <strong>name="footer"</strong> (o último do exemplo acima) e comente o bloco <strong>name="left"</strong> (o primeiro bloco de código de exemplo acima).</li>
 	<li>Abra o arquivo <strong>footer.phtml</strong> localizado em <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
 	<li>Cole o seguinte código no lugar desejado:

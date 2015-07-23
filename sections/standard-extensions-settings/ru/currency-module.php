@@ -1,5 +1,5 @@
 <h3>Модуль валют</h3>
-<ol>
+<ol class="index-list">
 	<li>Откройте панель управления Magento.</li>
 	<li>В верхнем меню выберите <b>System > Configuration</b>.</li>
 	<li>Перейдите на вкладку General и выберите <b>Currency Setup</b>.</li>

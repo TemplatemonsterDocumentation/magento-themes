@@ -1,8 +1,8 @@
 <h3>Olark czat na żywo</h3>
 <p>Musisz zarejestrować się na oficjalnej stronie <a href="https://www.olark.com/signup/create_new_account" target="blank_">.</a> W celu wykorzystania wbudowanego w szablon czata on-line należy wypełnić wszystkie wymagane informacje i uzyskać kod <strong>Olark Site-ID</strong>.</p>
-<div class="alert alert-info"><span>Możesz uzyskać bezpłatną próbną wersję 6-miesięcznego pakietu brązowego. Aby uzyskać pakiet, kliknij link <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_"></a>, wypełnij swoimi danymi rejestracyjnymi.</span></div>
+<div class="alert alert-info"><span>Możesz uzyskać bezpłatną próbną wersję 6-miesięcznego pakietu brązowego. Aby uzyskać pakiet, kliknij  <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">link</a>, wypełnij swoimi danymi rejestracyjnymi.</span></div>
 Aby skonfigurować czat on-line, wykonaj następujące kroki:
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Otwórz panel administracyjny Magento. Przejdź do menu CMS i kliknij go, w menu rozwijanym przejdź do pozycji <strong>Widgets</strong>.
 		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
@@ -35,7 +35,7 @@ Aby skonfigurować czat on-line, wykonaj następujące kroki:
 </ol>						
 <p><strong>Wszystko gotowe!</strong> Teraz możesz odwiedzić Twoją stronę internetową i zobaczyć widget dla czatu on-line.</p>
 <p>Możesz również zajrzeć na następujące instrukcje:</p>
-<ul>
+<ul class="marked-list">
 	<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Rozpocznij pracę z Olark <i class="icon-external-link"></i></a></li>
 	<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Instrukcja Obsługi Olark <i class="icon-external-link"></i></a></li>
 </ul>		

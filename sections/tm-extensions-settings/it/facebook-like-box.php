@@ -1,6 +1,6 @@
 <h3>Casella Facebook Mi Piace</h3>
-<p>Questo modulo ti permette di inserire una casella Facebook per dare un Mi Piace al tuo negozio  Magento.</p>						
-Puoi configurarlo andando sul pannello di amministrazione Magento (Admin Panel) alla sezione  <strong>System > Configuration > Templatemonster > Facebook</strong>.
+<p>Questo modulo ti permette di inserire una casella Facebook per dare un Mi Piace al tuo negozio  Magento. <br>						
+Puoi configurarlo andando sul pannello di amministrazione Magento (Admin Panel) alla sezione  <strong>System > Configuration > Templatemonster > Facebook</strong>.</p>
 <figure class="img-polaroid"><img src="img/magento/facebook-2.jpg" alt="" /></figure>
 <p>Il modulo ha le seguenti opzioni:</p>			
 <table class="options-table">
@@ -40,8 +40,8 @@ Puoi configurarlo andando sul pannello di amministrazione Magento (Admin Panel) 
 		<td>larghezza dell'area del modulo.</td>
 	</tr>				
 </table>
-Di default, il modulo verrà situato nella colonna a sinistra. Ma è possibile optare per tre possibilità: <strong>sinistra</strong>, <strong>destra</strong> e <strong>pié pagina</strong>. <br>
-Per cambiare la posizione del blocco, devi aprire il file <strong>tm_facebook.xml</strong> che si trova nella cartella <strong>app/design/frontend/default/themeXXX/layout</strong> della tua installazione.
+<p>Di default, il modulo verrà situato nella colonna a sinistra. Ma è possibile optare per tre possibilità: <strong>sinistra</strong>, <strong>destra</strong> e <strong>pié pagina</strong>. <br>
+Per cambiare la posizione del blocco, devi aprire il file <strong>tm_facebook.xml</strong> che si trova nella cartella <strong>app/design/frontend/default/themeXXX/layout</strong> della tua installazione.</p>
 
 Questo file include tre blocchi di <strong><em>reference</em></strong> con parametri <strong>name="left"</strong> (name="right", name="footer").
 <pre class="prettyprint linenums">
@@ -57,10 +57,10 @@ Questo file include tre blocchi di <strong><em>reference</em></strong> con param
 <p>Due blocchi in questo file sono commentati (Commented out). E solo un blocco con <strong>name="left"</strong> non è commentato, il quale posiziona il blocco nella colonna di sinistra. <br>
 Se vuoi posizionare il modulo a pié pagina, segui queste istruzioni:
 </p>
-<ol>
-	<li>1. Togli il commento (uncomment) alle stringhe di codice del blocco <strong>name="footer"</strong>  (l'ultimo, nell'esempio di codice qui sopra) e commenta (comment out) il blocco <strong>name="left"</strong> (il primo, nell'esempio di codice qui sopra).</li>
-	<li>2. Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
-	<li>3. Incolla il seguente codice nella corretta posizione:
+<ol class="index-list">
+	<li>Togli il commento (uncomment) alle stringhe di codice del blocco <strong>name="footer"</strong>  (l'ultimo, nell'esempio di codice qui sopra) e commenta (comment out) il blocco <strong>name="left"</strong> (il primo, nell'esempio di codice qui sopra).</li>
+	<li>Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+	<li>Incolla il seguente codice nella corretta posizione:
 		<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
 	</li>
 </ol>

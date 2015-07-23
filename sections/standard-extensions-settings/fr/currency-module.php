@@ -1,6 +1,6 @@
 		
 <h3>Module de Devises</h3>
-<ol>
+<ol class="index-list">
 	<li>Ouvrez le panneau d'administration de Magento.</li>
 	<li>Dans le menu du haut, sélectionnez <b>System > Configuration</b>.</li>
 	<li>Puis cliquez sur General et sélectionnez l'onglet <b>Currency Setup</b>.</li>

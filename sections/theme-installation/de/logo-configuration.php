@@ -1,6 +1,6 @@
 <h3>Einstellung des Logos.</h3>
 <p>Folgen Sie dieser Anleitung, um das Logo, das zum Thema gehört, zu installieren (es kann man auf der Seite Live Demo sehen).</p>
-<ol> 
+<ol class="index-list"> 
 	<li>Öffnen Sie das Control Panel Magento und wählen Sie in dem oberen Menü  <b>System > Configuration</b>.</li>
 	<li>Öffnen Sie den Tab "<b>Design</b>".</li>
 	<li>Im Bereich "<b>Header</b>" bearbeiten Sie den Wert des Feldes "<b>Logo Image Src</b>". Ersetzen Sie "<b>gif</b>" durch "<b>png</b>".</li>

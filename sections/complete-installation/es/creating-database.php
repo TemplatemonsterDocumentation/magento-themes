@@ -5,7 +5,7 @@
 
 <p>Con la herramienta phpMyAdmin usted ser&aacute; capaz de crear una nueva base de datos en 3 sencillos pasos (vea las siguientes diapositivas): </p>
 
-<ol class="list">
+<ol class="index-list">
 	<li>Haga clic en el bot&oacute;n Database en el men&uacute; de navegaci&oacute;n superior para acceder a la lista de bases de datos.</li>
 	<li>Introduzca el nombre de la base de datos en el campo "Create new database".</li>
 	<li>Haga clic en el bot&oacute;n Create en el lado derecho.</li>
@@ -22,5 +22,5 @@
 
 <p>Tambi&eacute;n puede ver el video tutorial detallado sobre <i class="icon-film"> </i><a href="/help/how-to-create-a-database.html" target="_blank"> C&oacute;mo crear una base de datos</a></p>
 
-<div class="box-info"><span>Si usted tiene alg&uacute;n problema con la creaci&oacute;n de una base de datos, por favor p&oacute;ngase en contacto con su proveedor de hosting para obtener ayuda y asistencia.</span></div>
+<div class="alert alert-warning"><span>Si usted tiene alg&uacute;n problema con la creaci&oacute;n de una base de datos, por favor p&oacute;ngase en contacto con su proveedor de hosting para obtener ayuda y asistencia.</span></div>
 		

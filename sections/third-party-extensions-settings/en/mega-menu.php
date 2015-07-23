@@ -2,7 +2,7 @@
 <p>Given module substitutes standard menu for the menu which allows to configure the display of two level subcategories, add static blocks to dropdown menu, add labels, display products, etc.</p>
 <strong>MegaMenu</strong> is included into template by default, you can enable/disable it in <strong>System > Configuration > CMSMART MEGAMENU > Mega Menu</strong>.
 
-<ol class="list-1">
+<ol class="index-list">
 	<li>Display of each dropdown menu can be configured on the category settings page, which is located in <strong>Catalog > Manage Categories</strong>.
 		<figure class="img-polaroid"><img src="img/magento/mega-1.jpg" alt="" /></figure>		
 		<figure class="img-polaroid"><img src="img/magento/mega-2.jpg" alt="" /></figure>

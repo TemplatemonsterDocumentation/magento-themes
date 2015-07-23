@@ -2,7 +2,7 @@
 <p>Le module donné substitue le menu standard au menu qui permet de configurer l'affichage des deux sous-catégories à ce niveau, d'ajouter des blocs statiques au menu déroulant, d'ajouter des étiquettes, d'afficher les produits, etc.</p>
 <strong>MegaMenu</strong> est inclus en modèle par défaut, vous pouvez activer / désactiver dans <strong>System > Configuration > CMSMART MEGAMENU > Mega Menu</strong>.
 
-<ol class="list-1">
+<ol class="index-list">
 	<li>L'affichage de chaque menu déroulant peut être configuré sur la page de paramètres d'une catégorie, qui est situé dans <strong>Catalog > Manage Categories</strong>.
 		<figure class="img-polaroid"><img src="img/magento/mega-1.jpg" alt="" /></figure>
 		

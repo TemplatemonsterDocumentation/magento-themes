@@ -1,7 +1,7 @@
 <h3>Parallasse</h3>
 Il blocco parallasse può essere impostato aggiungendo la parte di codice sul file <strong>*.phtml</strong> del tuo template.<br>
 <p>Per aggiungere l'effetto parallasse in determinati blocchi di contenuti è necessario:</p>
-<ol>
+<ol class="index-list">
 	<li>
 		Aggiungere una classe per il blocco effetto parallasse (ad es., <strong>parallasse</strong>) e aggiungere l'attributo <strong>data-source-url="{{skin url='images/your_images.jpg'}}"</strong>.
 	</li>

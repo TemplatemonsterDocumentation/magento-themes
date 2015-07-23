@@ -1,6 +1,6 @@
 		
 <h3>Modulo Valute</h3>
-<ol>
+<ol class="index-list">
 	<li>Apri il pannello di amministrazione Magento.</li>
 	<li>Dal menù in alto, seleziona <b>System > Configuration</b>.</li>
 	<li>Poi clicca su General e seleziona la scheda <b>Currency Setup</b>.</li>

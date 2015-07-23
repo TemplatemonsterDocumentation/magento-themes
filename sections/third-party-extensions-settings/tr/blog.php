@@ -1,6 +1,6 @@
 <h3>Blog</h3>			
 Sitenize bir blog ekleyebilirsiniz.
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Blog ayarları <strong>Blog > Ayarlar</strong>, veya <strong>Sistem > Ayarlar > AHEADWORKS EXTENSIONS > Blog</strong> kısmında yer alır.
 		<figure class="img-polaroid"><img src="img/magento/blog-1.jpg" alt="" /></figure>

@@ -1,8 +1,7 @@
 <h3>Google Map</h3>
-<p>Este m&oacute;dulo le permite insertar un mapa de Google en su sitio web de Magento. Por defecto, el m&oacute;dulo viene con dos mapas: el mapa de la p&aacute;gina de contacto y el mapa del pie de p&aacute;gina para el resto de p&aacute;ginas.</p>						
-<p>Ambos mapas pueden configurarse en el Panel de Administraci&oacute;n de Magento en la secci&oacute;n <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
+<p>Este m&oacute;dulo le permite insertar un mapa de Google en su sitio web de Magento. Por defecto, el m&oacute;dulo viene con dos mapas: el mapa de la p&aacute;gina de contacto y el mapa del pie de p&aacute;gina para el resto de p&aacute;ginas. <br>Ambos mapas pueden configurarse en el Panel de Administraci&oacute;n de Magento en la secci&oacute;n <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
 
-<ol>
+<ol class="index-list">
 	<li>
 		<strong>Embed Map Settings</strong> muestra el mapa en el pie de p&aacute;gina de todas las p&aacute;ginas excepto en la p&aacute;gina de contacto.
 	</li>

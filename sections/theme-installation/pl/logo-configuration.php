@@ -1,6 +1,6 @@
 <h3>Konfiguracja Loga</h3>
 <p>Proszę wykonać następujące kroki przy tworzeniu obrazka loga dołączonego do pakietu motywu (można go obejrzeć na stronie Live Demo).</p>
-<ol> 
+<ol class="index-list"> 
 	<li>Otwórz panel administratora Magento i wybierz <b>System > Configuration</b> w górnym menu .</li>
 	<li>Wybierz zakładkę "<b>Design</b>".</li>
 	<li>W sekcji "<b>Header</b>", zmień wartość pola "<b>Logo Image Src</b>". Zmień go z "<b>gif</b>" na "<b>png</b>".</li>

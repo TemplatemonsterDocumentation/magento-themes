@@ -1,6 +1,6 @@
 <h3>Logo ayarları.</h3>
 <p>Bu adımları, tema paketinde bulunan logo görselini ayarlarken uygulayın. (Demo sayfamızda görebilirsiniz).</p>
-<ol> 
+<ol class="index-list"> 
 	<li>Magento yönetici paneline girin ve üst menüden <b>System > Configuration</b> (Sistem/Ayarlar) a tıklayın.</li>
 	<li>Buradan "<b>Tasarım</b>" sekmesini seçin.</li>
 	<li>Buradaki "<b>Üst kısım</b>" bölümünden, "<b>Logo Image Src</b>" değerini değiştirin. Bunu "<b>gif</b>" den "<b>png</b>" ye değiştirebilirsniz.</li>

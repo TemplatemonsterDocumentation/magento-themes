@@ -2,7 +2,7 @@
 <p>Um Live Chat in der Vorlage nutzen zu können, sollen Sie sich auf auf der offiziellen <a href="https://www.olark.com/signup/create_new_account" target="blank_">Webseite</a> registrieren, alle notwendigen Daten eingeben und den Code <strong>Olark Site-ID</strong> erhalten.</p>
 <div class="alert alert-info"><span>Sie können auch ein kostenloses Bronzepaket, das 6 Monate gültig ist, erhalten. Dazu sollen Sie dem Link <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">folgen</a> und Ihre Registrierungsdaten eingeben.</span></div>
 Um Live Chat einzustellen, führen Sie die folgenden Schritte aus:
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Loggen Sie sich ins Control Panel Magento ein. Klicken Sie auf den Menüpunkt CMS und in dem DropDownMenü öffnen Sie den Punkt <strong>Widgets</strong>.
 		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
@@ -35,7 +35,7 @@ Um Live Chat einzustellen, führen Sie die folgenden Schritte aus:
 </ol>						
 <p><strong>Alles ist fertig!</strong> Jetzt können Sie Ihre Webseite öffnen und das Widget des Live Chats sehen.</p>
 <p>Sie können auch die folgenden Anleitungen nutzen:</p>
-<ul>
+<ul class="marked-list">
 	<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Arbeit mit Olark <i class="icon-external-link"></i></a></li>
 	<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Olark Anleitung <i class="icon-external-link"></i></a></li>
 </ul>		

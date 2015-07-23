@@ -1,6 +1,6 @@
 <h3>Blog</h3>			
 Hai la possibilità di aggiungere un blog al tuo sito web.
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Le impostazioni per il blog si trovano su <strong>Blog > Settings</strong>, oppure su <strong>System > Configuration > AHEADWORKS EXTENSIONS > Blog</strong>.
 		<figure class="img-polaroid"><img src="img/magento/blog-1.jpg" alt="" /></figure>

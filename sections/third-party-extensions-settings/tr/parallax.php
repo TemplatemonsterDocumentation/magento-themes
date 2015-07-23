@@ -1,7 +1,7 @@
 <h3>Parallax</h3>
 Şablonunuzdaki <strong>*.phtml</strong> dosyalarına kod ekleyerek Parallax kutusu oluşturabilirsiniz.
 Belli bir içerik kutusuna parallax-efekti eklemek için:
-<ol>
+<ol class="index-list">
 	<li>
 		Herhangi bir parallax-efekti için (örn, <strong>parallax</strong>) ve özellik <strong>data-source-url="{{skin url='images/your_images.jpg'}}"</strong>.
 	</li>

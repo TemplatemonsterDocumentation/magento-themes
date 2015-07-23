@@ -1,6 +1,6 @@
 <h3>Configurar bloco estático</h3>
 <p>Quando terminar de configurar as páginas, você vai precisar configurar os "static blocks" (blocos estáticos). O procedimento é parecido: você precisa copiar o código fonte e colar nos campos correspondentes do painel administrativo do Magento. Você vai precisar de uma tabela parecida, mas para blocos estáticos.</p>
-<ol> 
+<ol class="index-list"> 
 	<li>Do menu superior, escolha <b>CMS > Static Blocks</b>.</li>
 	<li>Clique em "Add New block" no canto direito para criar um novo bloco.</li>
 	<li>Escreva o nome e identificador do bloco. Você pode ver detalhes do bloco na tabela da página de demonstração do template (veja na parte de configurações da página).</li>
@@ -14,7 +14,7 @@
 
 <p>Como exibir nossos blocos com conteúdo estático?</p>
 
-<ol> 
+<ol class="index-list"> 
 	<li>Vá para <b>CMS > Widgets</b> no menu superior.</li>
 	<li>Clique no botão <strong>Add New Widget Instance </strong>, localizado no topo direito para incluir o widget.
 		<figure class="img-polaroid"><img src="img/magento/widget-1.jpg" alt="" /></figure>

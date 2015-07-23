@@ -2,7 +2,7 @@
 <p>Þablondaki on-line destek özelliðini kullanabilmek için öncelikle <a href="https://www.olark.com/signup/create_new_account" target="blank_">resmi site</a> den kayýt olmalýsýnýz. Gerekli alanlarý doldurduktan sonra bir adet özgün <strong>Olark Site-ID</strong> ye sahip olacaksýnýz.</p>
 <div class="alert alert-info"><span>Dilerseniz bronz paketin 6 aylýk deneme sürüne de sahip olabilirsiniz. Bunun için <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">bu adresteki</a> alanlarý doldurmanýz gerekir.</span></div>
 Online chat ayarlarýný yapmak için:
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Magento yönetici panelini açýn. CMS (Ýçerik Yöneticisi) menüye týklayýn, açýlýr listeden <strong>Widgets</strong> (Bileþenler) e týklayýn.
 		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
@@ -34,7 +34,7 @@ Online chat ayarlarýný yapmak için:
 </ol>						
 <p><strong>Bu kadar!</strong> Artýk online chat bileþenini sitenizde görüntüleyebilirsiniz.</p>
 <p>Dilerseniz þu rehberlere de bakabilirsiniz:</p>
-<ul>
+<ul class="marked-list">
 	<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Start work with Olark <i class="icon-external-link"></i></a></li>
 	<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Olark User Manual <i class="icon-external-link"></i></a></li>
 </ul>		

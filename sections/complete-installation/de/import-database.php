@@ -3,7 +3,7 @@
 <p>Das Archiv der Magento Vorlage enthält die Datei mit den Demodaten (dump.sql oder dump.gz). Diese Datei befindet sich im Ordner <b>/sources/sample_data</b> Ihrer Vorlage. Sie ermöglicht Ihnen die Demodaten zu installieren, damit Ihre Webseite nach der Installation der Vorlage genauso wie die Demoversion der Vorlage aussehen kann.</p>
 <p class="alert alert-danger"><span>Nutzen Sie die Datei <b>dump.sql.gz</b> nicht, wenn Sie einen existierenden Online-Shop schon haben. Wenn Sie die Datei <b>dump.sql.gz</b> importieren, werden dann alle hinzugefügten Produkte gelöscht. Wenn Sie die Demodaten nicht installieren möchten, installieren Sie dann Magento auf eine leere Datenbank. Überspringen Sie dann den Installationsschritt der Damodaten in dieser Anleitung </span></p>	
 <p>Um die Dump-Datei zu installieren, führen Sie die folgenden Aktionen durch:</p>
-<ol>
+<ol class="index-list">
 	<li>Im Control Panel der Datenbank (PhpMyAdmin) wählen Sie die Datenbank, die Sie für die Installation Magento Commerce (Sie wurde erstellt, weil Sie die Aktionen in dem Schritt vorher ausgeführt haben) nutzen möchten.</li>
 	<li>Gehen Sie zum Tab <b>"Import"</b> und drücken Sie den Button <b>"Browse"</b>.</li>
 	<li>Gehen Sie in den Ordner <i>"/sources/sample_data"</i> Ihrer Vorlage und wählen Sie die Datei <b>dump.sql.gz.</b></li>

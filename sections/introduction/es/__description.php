@@ -1,47 +1,126 @@
 <h2 class="item1">Introducci&oacute;n</h2>
-<p class="intro">
+<p>
     Gracias por la compra de la plantilla de Magento. Esta documentaci&oacute;n consta de varias partes y muestra todo el proceso de c&oacute;mo configurar y administrar una tienda de Magento desde cero. Hemos hecho todo lo posible para que este manual sea lo m&aacute;s claro y f&aacute;cil de seguir. 
 </p>
 
-<h3>&iquest;Qu&eacute; es Magento Commerce?</h3>
-<p>Magento es una plataforma de comercio electr&oacute;nico con potentes caracter&iacute;sticas y esta construido con tecnolog&iacute;a de c&oacute;digo abierto. Proporciona flexibilidad y control sobre la apariencia, el contenido y la funcionalidad de la tienda de comercio electr&oacute;nico. La interfaz de administraci&oacute;n de Magento es intuitiva y cuenta con poderosas herramientas de marketing, la optimizaci&oacute;n de los motores de b&uacute;squeda y las herramientas de gesti&oacute;n del cat&aacute;logo para dar los vendedores la posibilidad de crear sitios que se adaptan a sus necesidades empresariales. Esta dise&ntilde;ado para ser totalmente escalable y est&aacute; respaldado por la red de apoyo de Varien, Magento ofrece a las empresas la soluci&oacute;n de comercio electr&oacute;nico final. <a href="http://www.magentocommerce.com/download" target="_blank">M&aacute;s informaci&oacute;n</a></p>
+<article id="whatismagento">
+    <h3>&iquest;Qu&eacute; es Magento Commerce?</h3>
+    <p>Magento es una plataforma de comercio electr&oacute;nico con potentes caracter&iacute;sticas y esta construido con tecnolog&iacute;a de c&oacute;digo abierto. Proporciona flexibilidad y control sobre la apariencia, el contenido y la funcionalidad de la tienda de comercio electr&oacute;nico. La interfaz de administraci&oacute;n de Magento es intuitiva y cuenta con poderosas herramientas de marketing, la optimizaci&oacute;n de los motores de b&uacute;squeda y las herramientas de gesti&oacute;n del cat&aacute;logo para dar los vendedores la posibilidad de crear sitios que se adaptan a sus necesidades empresariales. Esta dise&ntilde;ado para ser totalmente escalable y est&aacute; respaldado por la red de apoyo de Varien, Magento ofrece a las empresas la soluci&oacute;n de comercio electr&oacute;nico final. <a href="http://www.magentocommerce.com/download" target="_blank">M&aacute;s informaci&oacute;n</a></p>
+</article>
 
-<h3>&iquest;Qu&eacute; es un tema de Magento?</h3>
-<p>Un tema de Magento es un dise&ntilde;o completo para su tienda en l&iacute;nea basado en el motor de Magento. En otras palabras, usted puede cambiar f&aacute;cilmente la apariencia de su tienda de Magento mediante la instalaci&oacute;n de un nuevo tema en unos pocos y sencillos pasos. Con toda su sencillez un tema Magento est&aacute; dotado de todos los archivos de origen necesarios que se pueden editar o ampliar de la forma que usted necesite.</p>
+<article id="whatismagentotheme">
+    <h3>&iquest;Qu&eacute; es un tema de Magento?</h3>
+    <p>Un tema de Magento es un dise&ntilde;o completo para su tienda en l&iacute;nea basado en el motor de Magento. En otras palabras, usted puede cambiar f&aacute;cilmente la apariencia de su tienda de Magento mediante la instalaci&oacute;n de un nuevo tema en unos pocos y sencillos pasos. Con toda su sencillez un tema Magento est&aacute; dotado de todos los archivos de origen necesarios que se pueden editar o ampliar de la forma que usted necesite.</p>
+</article>
 
 <article id="file_structure">
     <h4>Estructura de archivos</h4>
 
-    El paquete que ha descargado, se compone de varias carpetas. Vamos a ver lo que cada una de ellas contiene:
+    <p>El paquete que ha descargado, se compone de varias carpetas. Vamos a ver lo que cada una de ellas contiene:</p>
 
     <ul class="files_structure">
-        <li class="folder"><i class="fa fa-folder-open"></i><b>documentation</b>
-            <small class="muted"> - contiene los archivos de documentaci&oacute;n.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder-open"></i> <strong>documentation</strong></dt>
+                <dd> contiene los archivos de documentaci&oacute;n.</dd>
+            </dl>
             <ul>
-                <li class="file"><i class="fa fa-file"></i> documentation.html<small class="muted"> - el archivo principal de la documentaci&oacute;n, usted lo est&aacute; leyendo en este momento.</small></li>
-            </ul>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
+                        <dd>
+                            el archivo principal de la documentaci&oacute;n, usted lo est&aacute; leyendo en este momento.
+                        </dd>
+                    </dl>
+                </li>
+            </ul>            
         </li>
-        <li class="folder"><i class="fa fa-folder"></i><b>screenshots</b>
-            <small class="muted"> - contiene capturas de pantalla del tema. No es para producci&oacute;n.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
+                <dd> contiene capturas de pantalla del tema. No es para producci&oacute;n.</dd>
+            </dl>            
         </li>
-        <li class="folder"><i class="fa fa-folder-open"></i><b>sources</b>
-            <small class="muted"> - contiene los archivos fuente del tema.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                <dd> contiene los archivos fuente del tema.</dd>
+            </dl>
             <ul>
-                <li class="folder"><i class="fa fa-folder"></i> psd<small class="muted"> - contiene los archivos de c&oacute;digo fuente de Adobe Photoshop del tema (.psd).</small></li>
-                <li class="folder"><i class="fa fa-folder"></i> demo<small class="muted"> - contiene p&aacute;ginas adicionales y bloques personalizados proporcionados con el tema.</small></li>
-                <li class="folder"><i class="fa fa-folder-open"></i> sample_data<small class="muted"> - contiene los archivos de datos de ejemplo del tema de Magento.</small>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
+                        <dd>
+                           contiene los archivos de c&oacute;digo fuente de Adobe Photoshop del tema (.psd).
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                        <dd>
+                            contiene p&aacute;ginas adicionales y bloques personalizados proporcionados con el tema.
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                        <dd>
+                           contiene los archivos de datos de ejemplo del tema de Magento.
+                        </dd>
+                    </dl>
                     <ul>
-                        <li class="folder"><i class="fa fa-folder"></i> media<small class="muted"> - contiene los archivos y directorios que deben ser cargados en el directorio ra&iacute;z de su instalaci&oacute;n de Magento.</small></li>
-                        <li class="file"><i class="fa fa-file"></i> dump.sql.gz<small class="muted"> -  el archivo de copia de seguridad de la base de datos. Contiene el contenido de los datos de ejemplo del tema. </small></li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dd>
+                                    contiene los archivos y directorios que deben ser cargados en el directorio ra&iacute;z de su instalaci&oacute;n de Magento.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dd>
+                                   el archivo de copia de seguridad de la base de datos. Contiene el contenido de los datos de ejemplo del tema.
+                                </dd>
+                            </dl>
+                        </li>
                     </ul>
                 </li>
             </ul>
         </li>
-        <li class="folder"><i class="fa fa-folder"></i> <b>theme###</b><small class="muted"> - contiene los archivos de tema de Magento y directorios que se deben cargar en el directorio ra&iacute;z de su instalaci&oacute;n de Magento.</small></li>
-        <li class="file"><i class="fa fa-file"></i> <b>fullpackage.zip</b><small class="muted"> - contiene el paquete completo de instalación de Magento con los ficheros del motor, del tema y el contenido de muestra.</small></li>
-        <li class="file"><i class="fa fa-file"></i> <b>unzip.php</b><small class="muted"> - el fichero que es utilizado para la extracción de ficheros de fullpackage.zip si ha sido subido al servidor de hosting.</small></li>
-        <li class="file"><i class="fa fa-file"></i> fonts_info.txt<small class="muted"> - contiene los enlaces en los que los tipos de letra personalizados de la plantilla pueden descargarse.</small></li>
-        <li class="file"><i class="fa fa-file"></i> info.txt<small class="muted"> - contiene instrucciones sobre c&oacute;mo extraer los archivos de c&oacute;digo fuente.</small></li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                <dd> contiene los archivos de tema de Magento y directorios que se deben cargar en el directorio ra&iacute;z de su instalaci&oacute;n de Magento.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                <dd> contiene el paquete completo de instalación de Magento con los ficheros del motor, del tema y el contenido de muestra.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                <dd> el fichero que es utilizado para la extracción de ficheros de fullpackage.zip si ha sido subido al servidor de hosting.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
+                <dd> contiene los enlaces en los que los tipos de letra personalizados de la plantilla pueden descargarse.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
+                <dd> contiene instrucciones sobre c&oacute;mo extraer los archivos de c&oacute;digo fuente.</dd>
+            </dl>            
+        </li>
     </ul>
 </article>
 <article id="validation">
@@ -59,7 +138,7 @@
 
     <p>Para sentirse c&oacute;modo trabajando con la plantilla de Magento, le recomendamos la descarga de todas las aplicaciones necesarias. Usted puede ver la lista de software necesario en la p&aacute;gina vista previa de plantilla. <br />
     Los requisitos pueden variar para diferentes plantillas, para la mayor&iacute;a de las plantillas son los siguientes:</p>
-    <ol>
+    <ol class="index-list">
     <li>En primer lugar, es necesario utilizar WinZip 9+ (Windows) y Stuffit Expander 10+ (Mac) para extraer el archivo sources_#########.zip  protegido por contrase&ntilde;a</li>
         <li>Usted tambi&eacute;n puede necesitar la aplicaci&oacute;n Adobe Photoshop. Se utiliza para editar los archivos de c&oacute;digo fuente .PSD, es necesario si desea editar los gr&aacute;ficos e im&aacute;genes del dise&ntilde;o de la plantilla.</li>
         <li>Para editar los archivos de c&oacute;digo fuente de la plantilla, necesitar&aacute; alg&uacute;n editor de texto como Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>

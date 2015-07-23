@@ -2,7 +2,7 @@
 <p>Ten moduł zamienia standardowe menu, co pozwala na konfigurowanie wyświetlania dwóch poziomów podkategorii, dodawanie statycznych bloków do menu rozwijanego, dodawania etykiet, wyświetlania produktów, itp.</p>
 <strong>MegaMenu</strong> jest zawarte w szablonie domyślnie, możesz je włączyć/wyłączyć w <strong>System > Configuration > CMSMART MEGAMENU > Mega Menu</strong>.
 
-<ol class="list-1">
+<ol class="index-list">
 	<li>Sposób wyswietlania każdego rozwijanego menu może być konfigurowane na stronie ustawień kategorii, znajdujących się w <strong>Catalog > Manage Categories</strong>.
 		<figure class="img-polaroid"><img src="img/magento/mega-1.jpg" alt="" /></figure>
 		

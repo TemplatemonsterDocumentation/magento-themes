@@ -1,8 +1,7 @@
 <h3>Mapy Google</h3>
-<p>Ten moduł pozwala na osadzenie mapy Google na Twojej stronie Magento. Domyślnie moduł oferuje dwie mapy: mapę na stronie kontaktowej oraz mapę w stopce innych stron.</p>						
-<p>Obie mapy można skonfigurować za pomocą panelu administracyjnego Magento w sekcji <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
+<p>Ten moduł pozwala na osadzenie mapy Google na Twojej stronie Magento. Domyślnie moduł oferuje dwie mapy: mapę na stronie kontaktowej oraz mapę w stopce innych stron. <br>Obie mapy można skonfigurować za pomocą panelu administracyjnego Magento w sekcji <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
 
-<ol>
+<ol class="index-list">
 	<li>
 		<strong>Ustawienia osadzonej Mapy</strong> blok, który oznacza wyświetlanie mapy w stopce wszystkich stron oprócz strony kontaktowej.
 	</li>

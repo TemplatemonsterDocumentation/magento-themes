@@ -4,7 +4,7 @@
 <p>Si ejecuta un sitio web, es casi seguro que utiliza cookies. Su funci&oacute;n m&aacute;s probable es controlar el n&uacute;mero de visitantes y comportamientos mediante herramientas como Google Analytics. Tambi&eacute;n pueden usarse para mostrar anuncios relevantes a los visitantes. Las cookies tambi&eacute;n son partes fundamentales de su sistema de compras en l&iacute;nea.</p> 
 <p>El 26 de mayo 2012 - El ICO lanz&oacute; un cambio en la pol&iacute;tica de cookies. A partir de ese momento "el consentimiento impl&iacute;cito" est&aacute; permitido, siempre y cuando quede claro d&oacute;nde se encuentra su pol&iacute;tica de privacidad/cookies.</p> 
 <p>Siguiendo las condiciones de la Ley de cookies, debe a&ntilde;adir m&oacute;dulos adecuados a su sitio web que mostrar&aacute;n un mensaje de advertencia acerca de las cookies utilizadas. Podemos recomendar los siguientes:</p> 
-<ul class="list">
+<ul class="marked-list">
 	<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Creare EU Cookie Law Banner </a></li> 
 	<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Consentimiento impl&iacute;cito</a></li>
 </ul>

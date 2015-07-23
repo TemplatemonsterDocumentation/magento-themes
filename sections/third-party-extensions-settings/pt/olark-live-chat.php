@@ -2,7 +2,7 @@
 <p>Para ativar o bate-papo instantâneo como existe na versão de demonstração, você vai precisar se registrar no site oficial do <a target="_blank" href="http://www.olark.com/?r=ad8fbsj2">Olark</a>. Depois de terminar seu cadastro, você receberá um código para adicionar no painel administrativo (<strong>Olark Site-ID</strong>).</p>
 <div class="alert alert-info"><span>Você tem direito ao período de testes de 6 meses no pacote bronze. Entre <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">neste link</a>, e preencha as informações no cadastro.</span></div>
 Para configurar o bate-papo, siga estes passos:
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Abra o painel administrativo. Navegue para o item do menu CMS. Na caixa de seleção, escolha <strong>Widgets</strong>.
 		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
@@ -35,7 +35,7 @@ Para configurar o bate-papo, siga estes passos:
 </ol>						
 <p><strong>Tudo pronto!</strong> Agora você pode visitar seu site e ver o widget de bate-papo online.</p>
 <p>Você também pode ler as seguintes instruções:</p>
-<ul>
+<ul class="marked-list">
 	<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Start work with Olark <i class="icon-external-link"></i></a></li>
 	<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Olark User Manual <i class="icon-external-link"></i></a></li>
 </ul>		

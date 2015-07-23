@@ -1,6 +1,6 @@
 <h3>Configurazione Logo</h3>
 <p>Segui questa procedura quando vuoi impostare l'immagine del logo inclusa nel pacchetto del tema (puoi vederlo sulla pagina Live Demo).</p>
-<ol> 
+<ol class="index-list"> 
 	<li>Apri il pannello di amministrazione di Magento e vai su <b>System > Configuration</b> nel menù in alto.</li>
 	<li>Seleziona la scheda "<b>Design</b>".</li>
 	<li>Nella sezione "<b>Header</b>", modifica il valore nel campo "<b>Logo Image Src</b>", cambiandolo da "<b>gif</b>" a "<b>png</b>".</li>

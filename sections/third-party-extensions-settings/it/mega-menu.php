@@ -2,7 +2,7 @@
 <p>Questo modulo sostituisce il menù standard con un menù che permette di configurare la visualizzazione di sottocategorie a due livelli, aggiungere blocchi statici al menù a discesa, aggiungere etichette, visualizzare prodotti, ecc.</p>
 <strong>MegaMenu</strong> è incluso di default nel template, ed è possibile disabilitarlo o abilitarlo andando su <strong>System > Configuration > CMSMART MEGAMENU > Mega Menu</strong>.
 
-<ol class="list-1">
+<ol class="index-list">
 	<li>La visualizzazione di ogni menù a discesa può essere configurata sulla pagina delle impostazioni di categoria, che si trova in <strong>Catalog > Manage Categories</strong>.
 		<figure class="img-polaroid"><img src="img/magento/mega-1.jpg" alt="" /></figure>
 		

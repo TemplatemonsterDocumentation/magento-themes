@@ -1,6 +1,6 @@
 		
 <h3>M&oacute;dulo de divisas</h3>
-<ol>
+<ol class="index-list">
 	<li>Abra el panel de administraci&oacute;n de Magento.</li>
 	<li>En el men&uacute; superior, seleccione <b>System > Configuration</b>.</li>
 	<li>A continuaci&oacute;n, haga clic en General y seleccione la pesta&ntilde;a <b>Currency Setup</b>.</li>

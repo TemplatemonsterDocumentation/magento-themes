@@ -1,7 +1,7 @@
 		
 <h3>Instalacja silnika Magento</h3>
 <p>Kiedy zakończysz przesyłanie plików, można rozpocząć instalację silnika Magento. Otwórz przeglądarkę i w pasku adresu wpisz Twoją <b>'Nazwę domeny / ścieżkę do katalogu Magento'</b>. Powinieneś zobaczyć ekran powitalny. Prosimy postępować zgodnie z poniższymi instrukcjami, aby zainstalować Magento. </p>
-<div class="alert alert-warning"><span>Uwaga: pliki <b>dump.sql.gz</b> powinny być importowane do czystej bazy danych ZANIM zainstalujesz Magento.</span></div>
+<div class="alert alert-danger"><span>Uwaga: pliki <b>dump.sql.gz</b> powinny być importowane do czystej bazy danych ZANIM zainstalujesz Magento.</span></div>
 
 <h4>Krok 1: Asystent instalacji</h4>
 <p>Proszę przeczytaj umowę licencyjną i kliknij przycisk pola wyboru "Zgadzam się z powyższymi warunkami", jeśli zgadzasz się z warunkami. </p>

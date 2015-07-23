@@ -1,6 +1,6 @@
 <h3>Parallax</h3>
 Parallax można ustawić, dodając kod do plików <strong>*.phtml</strong> w Twoim szablonie. Aby dodać efekt parallax do bloku musisz:
-<ol>
+<ol class="index-list">
 	<li>Aby dodać jakąś klasę do bloku z efektem parallax (e.g., <strong>parallax</strong>) i dodać atrybut <strong>data-source-url="{{skin url='images/your_images.jpg'}}"</strong>.</li>
 	<li>Aby dodać obraz do folderu z obrazami <strong>skin\frontend\default\themeXXX\images\</strong>.</li>
 	<li>Aby dodać style do pliku <strong>skin\frontend\default\themeXXX\css\style.css</strong>:

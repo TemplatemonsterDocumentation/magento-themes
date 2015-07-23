@@ -1,6 +1,5 @@
 <h3>Moduł Twitter</h3>
-	<p>Moduł Twitter pozwala wyświetlić kanał (feed) tweetów w Twoim sklepie.</p>						
-			<p>Wszystkie opcje konfiguracji są dostępne w panelu administracyjnym w sekcji <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
+	<p>Moduł Twitter pozwala wyświetlić kanał (feed) tweetów w Twoim sklepie. <br>Wszystkie opcje konfiguracji są dostępne w panelu administracyjnym w sekcji <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
 	<figure class="img-polaroid"><img src="img/magento/twitter-1.jpg" alt="" /></figure>					
 	<p>Moduł posiada następujące opcje:</p>			
 	<table  class="options-table">
@@ -50,8 +49,8 @@
 			<td>szerokość okna widgetu.</td>
 		</tr>
 	</table>
-	Moduł jest wyświetlany domyślnie w lewej kolumnie. Jednak są trzy opcje wyświetlania: <strong>left</strong>, <strong>right</strong> oraz <strong>footer</strong>. <br>
-				Aby zmienić położenie bloku, należy otworzyć plik <strong>tm_twitter.xml</strong> zlokalizowany w folderze <strong>/app/design/frontend/default/themeXXX/layout</strong> Twojej instalacji.<br>
+	<p>Moduł jest wyświetlany domyślnie w lewej kolumnie. Jednak są trzy opcje wyświetlania: <strong>left</strong>, <strong>right</strong> oraz <strong>footer</strong>. <br>
+				Aby zmienić położenie bloku, należy otworzyć plik <strong>tm_twitter.xml</strong> zlokalizowany w folderze <strong>/app/design/frontend/default/themeXXX/layout</strong> Twojej instalacji.</p>
 	Plik ten zawiera trzy <strong><em>reference</em></strong> do bloków o parametrach <strong>name="left"</strong> (name="right", name="footer").
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -63,10 +62,10 @@
 &lt;reference name="right"&gt;
 	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
 &lt;/reference&gt; --&gt;</pre>
-Dwa bloki są przekonwertowane na komentarz w tym pliku. A jeden blok z <strong>name="left"</strong> nie jest przekonwertowany. Wyświetla moduł w lewej kolumnie. <br>
-				Jeśli chcesz wyświetlić moduł w stopce, należy postępować zgodnie z poniższymi instrukcjami:
+<p>Dwa bloki są przekonwertowane na komentarz w tym pliku. A jeden blok z <strong>name="left"</strong> nie jest przekonwertowany. Wyświetla moduł w lewej kolumnie.
+				Jeśli chcesz wyświetlić moduł w stopce, należy postępować zgodnie z poniższymi instrukcjami:</p>
 
-<ol>
+<ol class="index-list">
 	<li>Uncomment lines of code for <strong>name="footer"</strong> block (the last one in the example of the code above) and comment out the <strong>name="left"</strong> block (the first one in the example of code above).</li>
 	<li>Otwórz plik <strong>footer.phtml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
 	<li>Wklej następujący kod do wskazanego miejsca:

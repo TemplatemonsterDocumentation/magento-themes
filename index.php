@@ -5,27 +5,19 @@ include_once 'functions.php';
 if (!isset($sections)) {
     $sections = getSections();
 }
-
-// Get body class
-$body_class = 'scheme-0';
-foreach ($sections as $key => $section) {
-    if ($section == $section_param) {
-        $body_class = 'scheme-' . $key % 9;
-    }
-}
-
 ?>
 
 <!DOCTYPE html>
+<html>
 <head>
     <title><?php echo $doc_title; ?></title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
+    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v2-0/"/>
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/grid.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
-    <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.mCustomScrollbar.css">
     <link href='//fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $path; ?>/css/prettify.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
@@ -46,7 +38,7 @@ foreach ($sections as $key => $section) {
 
     <script src='<?php echo $path; ?>/js/device.min.js'></script>
 </head>
-<body class="<?php echo $body_class; ?>" data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
+<body  data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo">
@@ -58,7 +50,7 @@ foreach ($sections as $key => $section) {
                     <option data-href="/help/quick-start-guide/magento-themes/v1-0/index_en.html">Version v1-0</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v1-1/index_en.html">Version v1-1</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v1-2/index_en.html">Version v1-2</option>
-                    <option data-href="#" selected>Version v2-0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v2-0/index_en.html" selected>Version v2-0</option>
                 </select>
             </div>
             <div class="select select-lang">
@@ -132,6 +124,7 @@ foreach ($sections as $key => $section) {
 <script src="<?php echo $path; ?>/js/prettify.js"></script>
 <script src="<?php echo $path; ?>/js/jquery.fancybox.js"></script>
 <script src="<?php echo $path; ?>/js/jquery.ui.totop.js"></script>
+<script src="<?php echo $path; ?>/js/owl.carousel.min.js"></script>
 
 <script>
     /* Section Class

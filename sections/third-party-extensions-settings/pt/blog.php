@@ -1,6 +1,6 @@
 <h3>Blog</h3>			
 <p>Essa é a oportunidade de incluir um Blog no seu site.</p>
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Definições do blog podem ser encontradas em <strong>Blog > Settings</strong>, ou em <strong>System > Configuration > AHEADWORKS EXTENSIONS > Blog</strong>.
 		<figure class="img-polaroid"><img src="img/magento/blog-1.jpg" alt="" /></figure>

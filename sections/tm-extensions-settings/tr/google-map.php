@@ -1,8 +1,7 @@
 <h3>Google Map</h3>
-<p>Bu moodül sayesinde Magento sitenize bir Google harita ekleyebilirsiniz. Modül size temel olarak iki harita sunar: iletiþim sayfasýnda bir harita ve diðer sayfalarýn al kýsmýnda bir harita.</p>						
-<p>Tüm haritalar Magento Yönetici Paneli'ndeki <strong>System > Configuration > Templatemonster > Google Map</strong> kýsmýndan düzenlenebilir.</p>
+<p>Bu moodül sayesinde Magento sitenize bir Google harita ekleyebilirsiniz. Modül size temel olarak iki harita sunar: iletiþim sayfasýnda bir harita ve diðer sayfalarýn al kýsmýnda bir harita. <br>Tüm haritalar Magento Yönetici Paneli'ndeki <strong>System > Configuration > Templatemonster > Google Map</strong> kýsmýndan düzenlenebilir.</p>
 
-<ol>
+<ol class="index-list">
 	<li>
 		<strong>Embed Map Settings</strong> iletiþim sayfasý dýþýnda, diðer sayfalarýn altý kýsmýnda yer alan haritanýn görüntü ayarlarýný düzenleyebileceðiniz bölüm.
 	</li>

@@ -1,6 +1,6 @@
 		
 <h3>Moduł waluty</h3>
-<ol>
+<ol class="index-list">
 	<li>Otwórz panel administratora Magento.</li>
 	<li>Z górnego menu wybierz <b>System > Configuration</b>.</li>
 	<li>Następnie kliknij pozycję Ogólne i wybierz zakładkę <b>Currency Setup</b>.</li>

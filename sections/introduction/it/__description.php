@@ -1,47 +1,126 @@
 <h2 class="item1">Introduction</h2>
-<p class="intro">
+<p>
     Grazie per aver acquistato un template Magento. Questa documentazione è suddivisa in diverse parti e illustra l'intera procedura per installare e gestire uno store Magento a partire da zero. Abbiamo fatto del nostro meglio per rendere questo manuale il più chiaro possibile.
 </p>
 
-<h3>Cos'è Magento Commerce?</h3>
-<p>Magento è una piattaforma eCommerce ricca di funzioni basata su tecnologia open-source. La piattaforma offre la possibilità di gestire contenuti, aspetto e funzionalità del vostro negozio eCommerce con grande flessibilità e pieno controllo. L'interfaccia di amministrazione di Magento è intuitiva ma offre potenti strumenti di marketing, ottimizzazione di motori di ricerca, e gestione catalogo, dando al commerciante la possibilità di creare un sito che sia fatto su misura per i propri specifici modelli di business. Sviluppato per essere completamente scalabile e sostenuto dalla rete di supporto Varien, Magento offre a ogni compagnia la soluzione eCommerce definitiva. <a href="http://www.magentocommerce.com/download" target="_blank">Altre informazioni</a></p>
+<article id="whatismagento">
+    <h3>Cos'è Magento Commerce?</h3>
+    <p>Magento è una piattaforma eCommerce ricca di funzioni basata su tecnologia open-source. La piattaforma offre la possibilità di gestire contenuti, aspetto e funzionalità del vostro negozio eCommerce con grande flessibilità e pieno controllo. L'interfaccia di amministrazione di Magento è intuitiva ma offre potenti strumenti di marketing, ottimizzazione di motori di ricerca, e gestione catalogo, dando al commerciante la possibilità di creare un sito che sia fatto su misura per i propri specifici modelli di business. Sviluppato per essere completamente scalabile e sostenuto dalla rete di supporto Varien, Magento offre a ogni compagnia la soluzione eCommerce definitiva. <a href="http://www.magentocommerce.com/download" target="_blank">Altre informazioni</a></p>
+</article>
 
-<h3>Cos'è un tema Magento?</h3>
-<p>Un tema Magento è un progetto completo per il tuo store online, basato sul motore Magento. In altre parole, installando un nuovo tema, potrai facilmente modificare l'aspetto del tuo negozio con una semplice procedura. A renderlo ancora più semplice c'è il fatto che un tema Magento include tutti i file sorgente necessari, che tu potrai modificare o estendere secondo i tuoi bisogni.</p>
+<article id="whatismagentotheme">
+    <h3>Cos'è un tema Magento?</h3>
+    <p>Un tema Magento è un progetto completo per il tuo store online, basato sul motore Magento. In altre parole, installando un nuovo tema, potrai facilmente modificare l'aspetto del tuo negozio con una semplice procedura. A renderlo ancora più semplice c'è il fatto che un tema Magento include tutti i file sorgente necessari, che tu potrai modificare o estendere secondo i tuoi bisogni.</p>
+</article>
 
 <article id="file_structure">
     <h4>Struttura dei Files</h4>
 
-    Il pacchetto che hai scaricato si suddivide in diverse cartelle. Vediamo cosa ciascuna di esse contiene:
+    <p>Il pacchetto che hai scaricato si suddivide in diverse cartelle. Vediamo cosa ciascuna di esse contiene:</p>
 
     <ul class="files_structure">
-        <li class="folder"><i class="fa fa-folder-open"></i><b>documentation</b>
-            <small class="muted"> - contiene i file della documentazione.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder-open"></i> <strong>documentation</strong></dt>
+                <dd> contiene i file della documentazione.</dd>
+            </dl>
             <ul>
-                <li class="file"><i class="fa fa-file"></i> documentation.html<small class="muted"> - il file principale della documentazione. È il file che stai leggendo adesso.</small></li>
-            </ul>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
+                        <dd>
+                            il file principale della documentazione. È il file che stai leggendo adesso.
+                        </dd>
+                    </dl>
+                </li>
+            </ul>            
         </li>
-        <li class="folder"><i class="fa fa-folder"></i><b>screenshots</b>
-            <small class="muted"> - contiene alcune schermate del tema. Non da usare per la produzione.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
+                <dd> contiene alcune schermate del tema. Non da usare per la produzione.</dd>
+            </dl>            
         </li>
-        <li class="folder"><i class="fa fa-folder-open"></i><b>sources</b>
-            <small class="muted"> - contiene i file sorgente del template.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                <dd> contiene i file sorgente del template.</dd>
+            </dl>
             <ul>
-                <li class="folder"><i class="fa fa-folder"></i> psd<small class="muted"> - contiene i file sorgente del tema in formato Adobe Photoshop (.psd).</small></li>
-                <li class="folder"><i class="fa fa-folder"></i> demo<small class="muted"> - contiene pagine aggiuntive e blocchi custom  inclusi nel tema.</small></li>
-                <li class="folder"><i class="fa fa-folder-open"></i> sample_data<small class="muted"> - contiene file campione del tema Magento.</small>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
+                        <dd>
+                            contiene i file sorgente del tema in formato Adobe Photoshop (.psd).
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                        <dd>
+                            contiene pagine aggiuntive e blocchi custom  inclusi nel tema.
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                        <dd>
+                            contiene file campione del tema Magento.
+                        </dd>
+                    </dl>
                     <ul>
-                        <li class="folder"><i class="fa fa-folder"></i> media<small class="muted"> - contiene file e directory da caricare sulla directory root della tua installazione Magento.</small></li>
-                        <li class="file"><i class="fa fa-file"></i> dump.sql.gz<small class="muted"> -  i file di backup del database. Contiene i contenuti campione. </small></li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dd>
+                                    contiene file e directory da caricare sulla directory root della tua installazione Magento.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dd>
+                                    i file di backup del database. Contiene i contenuti campione.
+                                </dd>
+                            </dl>
+                        </li>
                     </ul>
                 </li>
             </ul>
         </li>
-        <li class="folder"><i class="fa fa-folder"></i> <b>theme###</b><small class="muted"> - contiene file e directory del tema da caricare sulla directory root della tua installazione Magento.</small></li>
-        <li class="file"><i class="fa fa-file"></i> <b>fullpackage.zip</b><small class="muted"> - contiene il pacchetto d’installazione completa Magento con i file engine, i temi ei esempi di contenuti (immagini campione)</small></li>
-        <li class="file"><i class="fa fa-file"></i> <b>unzip.php</b><small class="muted"> - estrae I file da fullpackage.zip quando caricati sul server di hosting</small></li>
-        <li class="file"><i class="fa fa-file"></i> fonts_info.txt<small class="muted"> - contiene i link da cui scaricare i font custom del template.</small></li>
-        <li class="file"><i class="fa fa-file"></i> info.txt<small class="muted"> - contiene istruzioni su come estrarre i file sorgente.</small></li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                <dd> contiene file e directory del tema da caricare sulla directory root della tua installazione Magento.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                <dd> contiene il pacchetto d’installazione completa Magento con i file engine, i temi ei esempi di contenuti (immagini campione).</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                <dd> estrae I file da fullpackage.zip quando caricati sul server di hosting.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
+                <dd> contiene i link da cui scaricare i font custom del template.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
+                <dd> contiene istruzioni su come estrarre i file sorgente.</dd>
+            </dl>            
+        </li>
     </ul>
 </article>
 <article id="validation">
@@ -58,7 +137,7 @@
     <h4>Software per l'Editing</h4>
 
     <p>Per lavorare in comodità sul template Magento, si consiglia di scaricare tutti i programmi necessari. Sulla pagina di anteprima del template è possibile trovare una lista di tutto il software necessario. </br> I requisiti possono variare da tema a tema, ma in genere sono i seguenti:</p>
-    <ol>
+    <ol class="index-list">
         <li>Prima di tutto sarà necessario WinZip 9+ (per Windows) o Stuffit Expander 10+ (per Mac), per estrarre l' archivio sources_#########.zip protetto da password. </li>
         <li>Potrebbe anche servirti l'applicazione Adobe Photoshop, da usare per modificare i file sorgente in formato .PSD source files, e se vuoi modificare grafica e immagini del template.</li>
         <li>Per modificare i file sorgente del template, avrai bisogno di un editor di codice, come Adobe Dreamweaver, Notepad++, Sublime Text, ecc.</li>

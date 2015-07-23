@@ -1,7 +1,7 @@
 		
 <h3>Installation de l'engine Magento</h3>
 <p>Une fois les fichiers mis en ligne, vous pouvez commencer l'installation de l'engine Magento. Ouvrez votre navigateur et dans la barre d'adresse entrez votre <b>'nom de domaine/chemin vers votre répertoire Magento'</b>. Vous devrez voir l'écran d'accueil. Suivez les instructions ci-dessous pour installer Magento. </p>
-<div class="alert alert-warning"><span>NB: le fichier <b>dump.sql.gz</b> doit être importé dans la base de données vide AVANT d'installer Magento.</span></div>
+<div class="alert alert-danger"><span>NB: le fichier <b>dump.sql.gz</b> doit être importé dans la base de données vide AVANT d'installer Magento.</span></div>
 <h4>Étape 1: Assistant d'Installation</h4>
 <p>Veuillez lire l'accord de licence et cocher "I agree to the above terms and conditions" si vous êtes d'accord avec les termes.  </p>
 

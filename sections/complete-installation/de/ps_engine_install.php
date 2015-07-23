@@ -1,7 +1,7 @@
 		
 <h3>Installation Magento</h3>
 <p>Nachdem Sie die Dateien hochgeladen haben, können Sie Magento installieren. Öffnen Sie Ihren Browser und in der Adresszeile des Browsers geben Sie<b>'Domainnamen/Weg zu Ihrem Ordner'</b> ein. Sie müssen den Willkommensbildschirm sehen. Folgen Sie den Anleitungen unten, um Magento zu installieren. </p>
-<div class="alert alert-warning"><span>Achtung: die Datei <b>dump.sql.gz</b> muss VOR der Magento Installation in die leere Datenbank importiert werden.</span></div>
+<div class="alert alert-danger"><span>Achtung: die Datei <b>dump.sql.gz</b> muss VOR der Magento Installation in die leere Datenbank importiert werden.</span></div>
 <h4>Schritt 1: Installation Assistant</h4>
 <p>Lesen Sie, bitte, die Lizenzvereinbarung durch und hacken Sie ab, dass Sie damit zustimmen.</p>
 

@@ -4,7 +4,7 @@
 <p>Si vous possédez un site web, il utilise à coup sûr des cookies. Leur rôle le plus courant est le suivi du nombre de visiteurs et les comportements avec des outils tels que Google Analytics. Ils servent également à afficher des publicités pertinentes aux utilisateurs. Les cookies améliorent également des éléments clés de votre système d'achat en ligne.</p> 
 <p>26 Mai 2012 - L'ICO a apporté un changement à la politique de cookies. Dès lors, le "consentement implicite" est permis tant que l'on présente clairement sa politique de vis privée/cookies.</p> 
 <p>Conformément à Loi sur les Cookies, vous devez ajouter les modules appropriés à votre site web, qui affichera un message d'avertissement sur les cookies utilisés sur votre site. Nous pouvons recommander les suivants:</p> 
-<ul class="list">
+<ul class="marked-list">
 	<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Creare EU Cookie Law Banner </a></li> 
 	<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Cookie Law Compliance - Implied Consent</a></li>
 </ul>

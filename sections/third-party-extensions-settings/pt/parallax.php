@@ -1,7 +1,7 @@
 <h3>Parallax</h3>
 Para este bloco ser definido, você deve adicionar um código nos arquivos <strong>*.phtml</strong> do seu template. Para inlcuir um efeito parallax para determinado bloco de conteúdo você precisará:
 
-<ol>
+<ol class="index-list">
 	<li>
 		Inlcuir uma classe para o bloco de efeito parallax (e.g., <strong>parallax</strong>) e inlcuir um atributo <strong>data-source-url="{{skin url='images/your_images.jpg'}}"</strong>.
 	</li>

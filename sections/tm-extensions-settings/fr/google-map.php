@@ -1,8 +1,8 @@
 <h3>Carte Google</h3>
-<p>Le module donné vous permet d'intégrer la carte Google à votre site Magento. Par défaut, le module vous propose deux cartes: la carte à la page de contact et la carte dans le pied d'autres pages.</p>						
-<p>Les deux cartes peuvent être configurées via le panneau d'administration de Magento dans la section <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
+<p>Le module donné vous permet d'intégrer la carte Google à votre site Magento. Par défaut, le module vous propose deux cartes: la carte à la page de contact et la carte dans le pied d'autres pages. <br>							
+Les deux cartes peuvent être configurées via le panneau d'administration de Magento dans la section <strong>System > Configuration > Templatemonster > Google Map</strong>.</p>
 
-<ol>
+<ol class="index-list">
 	<li>
 		Le bloc de <strong>Paramètres de la Carte Intégrée</strong> signifie l'affichage de la carte dans le pied de toutes les pages sauf la page de contact.
 	</li>

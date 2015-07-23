@@ -5,7 +5,7 @@
 
 <p>With the phpMyAdmin tool you will be able to create a new database in 3 simple steps(check the slides below): </p>
 
-<ol class="list">
+<ol class="index-list">
 	<li>Click the Database button from the top navigation menu to access the database listing.</li>
 	<li>Input the database name into the "Create new database" field.</li>
 	<li>Click the Create button on the right side.</li>
@@ -22,5 +22,5 @@
 
 <p>You can also check the detailed video tutorial on <i class="icon-film"> </i><a href="/help/how-to-create-a-database.html" target="_blank"> How to create a database</a></p>
 
-<div class="box-info"><span>If you have any issues with creating a database, please contact your hosting provider for help and assistance.</span></div>
+<div class="alert alert-info"><span>If you have any issues with creating a database, please contact your hosting provider for help and assistance.</span></div>
 		

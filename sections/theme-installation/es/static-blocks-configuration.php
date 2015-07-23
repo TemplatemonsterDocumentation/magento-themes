@@ -1,6 +1,6 @@
 <h3>Configuraci&oacute;n de bloques est&aacute;ticos</h3>
 <p>Cuando haya terminado de configurar las p&aacute;ginas, es necesario configurar los bloques est&aacute;ticos. El procedimiento es similar: hay que copiar el c&oacute;digo de los archivos de origen y pegarlo en los campos correspondientes en el panel de administraci&oacute;n de Magento. Es necesario utilizar una tabla similar pero para los bloques est&aacute;ticos.</p>
-<ol> 
+<ol class="index-list"> 
 	<li>En el men&uacute; superior, seleccione <b>CMS > Static Blocks</b>.</li>
 	<li>Haga clic en el bot&oacute;n <strong>"Add New block"</strong> en la esquina derecha para a&ntilde;adir un nuevo bloque.</li>
 	<li>Introduzca el nombre del bloque y un identificador. Usted puede conseguir los detalles de los bloques en la tabla de la plantilla de demostraci&oacute;n (consulte la parte de configuraci&oacute;n de p&aacute;ginas).</li>
@@ -14,7 +14,7 @@
 
 <p>¿Cómo mostrar nuestros bloques con el contenido estático?</p>
 
-<ol> 
+<ol class="index-list"> 
 	<li>Vaya a <b>CMS > Widgets</b> en el menú superior.</li>
 	<li>Haga clic en el botón <strong>Agregar nuevo widget </strong> en la parte superior derecha para agregar el widget.
 		<figure class="img-polaroid"><img src="img/magento/widget-1.jpg" alt="" /></figure>

@@ -1,6 +1,5 @@
 <h3>Modulo Twitter</h3>
-	<p>Il modulo Twitter ti permette di inserire dei tweet sul tuo negozio.</p>						
-	<p>Tutte le configurazioni sono disponibili nel pannello di amministrazione (Admin Panel), nella sezione <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
+	<p>Il modulo Twitter ti permette di inserire dei tweet sul tuo negozio. <br>Tutte le configurazioni sono disponibili nel pannello di amministrazione (Admin Panel), nella sezione <strong>System > Configuration > Templatemonster > Twitter</strong>.</p>
 	<figure class="img-polaroid"><img src="img/magento/twitter-1.jpg" alt="" /></figure>					
 	<p>Il modulo ha le seguenti opzioni:</p>			
 	<table  class="options-table">
@@ -50,8 +49,8 @@
 			<td>larghezza della finestra del widget.</td>
 		</tr>
 	</table>
-	Di default, il blocco viene posizionato nella colonna di sinistra. Ma ci sono tre possibilità in tutto: <strong>sinistra</strong>, <strong>destra</strong> e <strong>a pié pagina</strong>. <br>
-				Per cambiare il posizionamento del blocco, devi aprire il file <strong>tm_twitter.xml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/layout</strong> all'interno della tua installazione.<br>
+	<p>Di default, il blocco viene posizionato nella colonna di sinistra. Ma ci sono tre possibilità in tutto: <strong>sinistra</strong>, <strong>destra</strong> e <strong>a pié pagina</strong>. <br>
+				Per cambiare il posizionamento del blocco, devi aprire il file <strong>tm_twitter.xml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/layout</strong> all'interno della tua installazione.</p>
 	Questo file include tre blocchi di <strong><em>reference</em></strong> con parametri <strong>name="left"</strong> (name="right", name="footer").
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -63,13 +62,13 @@
 &lt;reference name="right"&gt;
 	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
 &lt;/reference&gt; --&gt;</pre>
-Due blocchi sono commentati (commented out) in questo file. E solo un blocco con <strong>name="left"</strong> non è commentato, il quale posizione il blocco nella colonna di sinistra. <br>
+<p>Due blocchi sono commentati (commented out) in questo file. E solo un blocco con <strong>name="left"</strong> non è commentato, il quale posizione il blocco nella colonna di sinistra. </p>
 				Se vuoi inserire il modulo a pié pagine, segui queste istruzioni:
 
-<ol>
-	<li>1. Togli il commento (uncomment) alle stringhe di codice del blocco <strong>name="footer"</strong> (l'ultimo, nell'esempio di codice qui sopra) e commenta (comment out) il blocco <strong>name="left"</strong> (il primo, nell'esempio di codice qui sopra).</li>
-	<li>2. Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
-	<li>3. Incolla il seguente codice nella corretta posizione::
+<ol class="index-list">
+	<li>Togli il commento (uncomment) alle stringhe di codice del blocco <strong>name="footer"</strong> (l'ultimo, nell'esempio di codice qui sopra) e commenta (comment out) il blocco <strong>name="left"</strong> (il primo, nell'esempio di codice qui sopra).</li>
+	<li>Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+	<li>Incolla il seguente codice nella corretta posizione::
 		<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>	
 	</li>
 </ol>

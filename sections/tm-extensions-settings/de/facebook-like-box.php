@@ -1,6 +1,6 @@
 <h3>Facebook like box</h3>
-<p>Das jeweilige Modul ermöglicht Facebook like box in Ihrem Magento Shop anzuzeigen.</p>						
-Sie können es im Control Panel Magento, in der Sektion <strong>System > Configuration > Templatemonster > Facebook</strong> einstellen.
+<p>Das jeweilige Modul ermöglicht Facebook like box in Ihrem Magento Shop anzuzeigen. <br>			
+Sie können es im Control Panel Magento, in der Sektion <strong>System > Configuration > Templatemonster > Facebook</strong> einstellen.</p>
 <figure class="img-polaroid"><img src="img/magento/facebook-2.jpg" alt="" /></figure>
 <p>Lassen Sie uns die Moduloptionen anschauen:</p>			
 <table class="options-table">
@@ -40,10 +40,11 @@ Sie können es im Control Panel Magento, in der Sektion <strong>System > Configu
 		<td>die Breite des Plugins-Bereiches.</td>
 	</tr>				
 </table>
-Standardmäßig wird der Block des Plugins in der linken Spalte angezeigt. Aber es gibt drei Varianten dazu: <strong>links</strong>, <strong>rechts</strong> und im <strong>Footer</strong>.
+<p>Standardmäßig wird der Block des Plugins in der linken Spalte angezeigt. Aber es gibt drei Varianten dazu: <strong>links</strong>, <strong>rechts</strong> und im <strong>Footer</strong>. <br> 
 	In order to change the position of the block, you need to open <strong>tm_facebook.xml</strong> file located in <strong>app/design/frontend/default/themeXXX/layout</strong> folder of your installation.
 
-Um die Blockposition zu ändern, sollen Sie die Datei <strong>tm_facebook.xml</strong> öffnen, die sich in dem Ordner <strong>app/design/frontend/default/themeXXX/layout</strong> Ihrer Installation befindet.
+Um die Blockposition zu ändern, sollen Sie die Datei <strong>tm_facebook.xml</strong> öffnen, die sich in dem Ordner <strong>app/design/frontend/default/themeXXX/layout</strong> Ihrer Installation befindet.</p>
+In dieser Datei gibt es drei Blöcke <strong><em>reference</em></strong> mit der Option <strong>name="left"</strong> (name="right", name="footer").
 <pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
 	&lt;block type="core/template" name="tm_facebook_like_left" as="tm_facebook_like_left" template="tm/facebook/facebook_like.phtml"/&gt;
@@ -54,10 +55,10 @@ Um die Blockposition zu ändern, sollen Sie die Datei <strong>tm_facebook.xml</s
 &lt;!-- &lt;reference name="footer"&gt;
 	&lt;block type="core/template" name="tm_facebook_like_footer" as="tm_facebook_like_footer" template="tm/facebook/facebook_like.phtml"/&gt;
 &lt;/reference&gt; --&gt;</pre>
-<p>In dieser Datei wurden zwei Blöcke kommentiert. Und nur ein von den Blöcken mit <strong>name="left"</strong> wurde nicht kommentiert. Er zeigt das Plugin in der linken Spalte an. <br>
+<p>In dieser Datei wurden zwei Blöcke kommentiert. Und nur ein von den Blöcken mit <strong>name="left"</strong> wurde nicht kommentiert. Er zeigt das Plugin in der linken Spalte an. 
 				Wenn Sie das Plugin, zum Beispiel im Footer, anzeigen möchten, machen Sie das Folgende:
 </p>
-<ol>
+<ol class="index-list">
 	<li>Löschen Sie die Block-Kommentierung mit <strong>name="footer"</strong> (das letzte in dem obigen Beispiel) und kommentieren Sie den Block mit <strong>name="left"</strong> (das erste in dem obigen Beispiel).</li>
 	<li>Öffnen Sie die Datei <strong>footer.phtml</strong>, die sich in dem Ordner <strong>app/design/frontend/default/themeXXX/template/page/html</strong> befinden.</li>
 	<li>Fügen Sie in die notwendige Stelle den folgenden Code ein:

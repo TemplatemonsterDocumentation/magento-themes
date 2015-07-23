@@ -11,7 +11,7 @@
 <div class="alert alert-warning"><span>Zalecamy wyłączenie edytora WYSIWYG. Aby to zrobić, z górnego menu administratora należy wybrać  <strong>System &gt; Configuration</strong>. Otwórz sekcję "<strong>Content Management</strong>" i w oknie <strong>WYSIWYG Options</strong> ustaw opcję z "<strong>Enable WYSIWYG Editor</strong>" na "<strong>Disabled Completely</strong>".</span></br>
 <figure class="img-polaroid"><img src="img/magento/pages_setting1.png" alt="" /></figure></div>
 <p class="alert alert-warning"><span>W przypadku, gdy już dokonałeś zmian w kodzie strony i chciałbyś dodać nasz kod bez wpływu na Twoje zmiany, zalecamy skontaktowanie się z profesjonalnym technikiem lub przygotowanie kopii zapasowej przed wprowadzeniem zmian.</span></p>
-<ol>
+<ol class="index-list">
 	<li>Z górnego menu wybierz <b>CMS > Pages</b>. Tutaj możesz znaleźć wszystkie strony sklepu. <b>Home page</b>, <b>About Us</b> oraz <b>Customer Service</b> powinny być już dostępne, więc nie trzeba ich dodawać. Wystarczy tylko zaktualizować strony HTML i zawartość XML. Otwórz każdy z nich w celu uzyskania dostępu do zawartości.</li>
 	<li>Otwórz stronę i wybierz zakładkę <b>Content</b>. Zawiera ona kod HTML strony. Możesz uzyskać kod strony HTML z odpowiedniego pliku źródłowego. Możesz zobaczyć listę plików źródłowych zawartych w sekcji "Ustawienia szablonu" na Twojej stronie podglądu szablonu. Skopiuj kod z pliku źródłowego i wklej go do pola <b>content</b>.</li>
 	<li>Kiedy skończysz z kodem HTML, przejdź do zakładki <b>"Design"</b>. Zawiera ona kod strony XML. XML pozwala na dodawanie statycznych bloków Magento i widgety na stronę. XML powinny być skopiowane w ten sam sposób jak HTML z pliku źródłowego. Skopiuj kod XML do obszaru "<b>Layout Update XML</b>".</li>

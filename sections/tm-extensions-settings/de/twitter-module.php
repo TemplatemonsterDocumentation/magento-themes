@@ -1,6 +1,5 @@
 <h3>Twitter module</h3>
-	<p>Twitter Modul ermöglicht Tweets in Ihrem Online-Shop anzuzeigen.</p>						
-	<p>Alle Steuerungsoptionen sind im Control Panel in der Sektion <strong>System > Configuration > Templatemonster > Twitter</strong> verfügbar.</p>
+	<p>Twitter Modul ermöglicht Tweets in Ihrem Online-Shop anzuzeigen. <br>Alle Steuerungsoptionen sind im Control Panel in der Sektion <strong>System > Configuration > Templatemonster > Twitter</strong> verfügbar.</p>
 	<figure class="img-polaroid"><img src="img/magento/twitter-1.jpg" alt="" /></figure>					
 	<p>Lassen Sie uns die Moduloptionen anschauen:</p>			
 	<table  class="options-table">
@@ -50,8 +49,8 @@
 			<td>die Breite des Widgetfensters.</td>
 		</tr>
 	</table>
-	Standardmäßig wird der Block des Plugins in der linken Spalte angezeigt. Aber es gibt drei Varianten dazu: <strong>links</strong>, <strong>rechts</strong> und im <strong>Footer</strong>. <br>
-		Um die Blockposition zu ändern, sollen Sie die Datei <strong>tm_twitter.xml</strong> öffnen, die sich in dem Ordner <strong>/app/design/frontend/default/themeXXX/layout</strong> Ihrer Installation befindet.<br>
+	<p>Standardmäßig wird der Block des Plugins in der linken Spalte angezeigt. Aber es gibt drei Varianten dazu: <strong>links</strong>, <strong>rechts</strong> und im <strong>Footer</strong>. <br>
+		Um die Blockposition zu ändern, sollen Sie die Datei <strong>tm_twitter.xml</strong> öffnen, die sich in dem Ordner <strong>/app/design/frontend/default/themeXXX/layout</strong> Ihrer Installation befindet.</p>
 	In dieser Datei gibt es drei Blöcke <strong><em>reference</em></strong> mit der Option <strong>name="left"</strong> (name="right", name="footer").
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -63,10 +62,10 @@
 &lt;reference name="right"&gt;
 	&lt;block type="core/template" name="tm_twitter_timeline" as="tm_twitter_timeline" template="tm/twitter/twitter_timeline.phtml"/&gt;
 &lt;/reference&gt; --&gt;</pre>
-In dieser Datei wurden zwei Blöcke kommentiert. Und nur ein von den Blöcken mit <strong>name="left"</strong> wurde nicht kommentiert. Er zeigt das Plugin in der linken Spalte an. <br>
+<p>In dieser Datei wurden zwei Blöcke kommentiert. Und nur ein von den Blöcken mit <strong>name="left"</strong> wurde nicht kommentiert. Er zeigt das Plugin in der linken Spalte an. </p>
 				Wenn Sie das Plugin, zum Beispiel im Footer, anzeigen möchten, machen Sie das Folgende:
 
-<ol>
+<ol class="index-list">
 	<li>Löschen Sie die Block-Kommentierung mit <strong>name="footer"</strong>  (das letzte in dem obigen Beispiel) und kommentieren Sie den Block mit <strong>name="left"</strong> (das erste in dem obigen Beispiel).</li>
 	<li>Öffnen Sie die Datei <strong>footer.phtml</strong>, die sich in dem Ordner <strong>app/design/frontend/default/themeXXX/template/page/html</strong> befindet.</li>
 	<li>Fügen Sie in die notwendige Stelle den folgenden Code ein:

@@ -1,6 +1,6 @@
 <h3>Bot&oacute;n Me Gusta de Facebook</h3>
-<p>Este m&oacute;dulo le permite mostrar el bot&oacute;n Me Gusta de Facebook en su tienda Magento.</p>						
-Se puede configurar en el Panel de Administraci&oacute;n de Magento en la secci&oacute;n <strong>System > Configuration > Templatemonster > Facebook</strong> section.
+<p>Este m&oacute;dulo le permite mostrar el bot&oacute;n Me Gusta de Facebook en su tienda Magento.	<br>				
+Se puede configurar en el Panel de Administraci&oacute;n de Magento en la secci&oacute;n <strong>System > Configuration > Templatemonster > Facebook</strong> section.</p>	
 <figure class="img-polaroid"><img src="img/magento/facebook-2.jpg" alt="" /></figure>
 <p>El m&oacute;dulo tiene las siguientes opciones:</p>			
 <table class="options-table">
@@ -40,8 +40,8 @@ Se puede configurar en el Panel de Administraci&oacute;n de Magento en la secci&
 		<td>el ancho del m&oacute;dulo.</td>
 	</tr>				
 </table>
-Por defecto, el m&oacute;dulo se muestra en la columna izquierda. Pero hay tres opciones de visualizaci&oacute;n: <strong>left</strong>, <strong>right</strong> y <strong>footer</strong>. <br>
-Para cambiar la posici&oacute;n del m&oacute;dulo, es necesario abrir el archivo <strong>tm_facebook.xml</strong> que se encuentra en la carpeta <strong>app/design/frontend/default/themeXXX/layout</strong> de su instalaci&oacute;n.
+<p>Por defecto, el m&oacute;dulo se muestra en la columna izquierda. Pero hay tres opciones de visualizaci&oacute;n: <strong>left</strong>, <strong>right</strong> y <strong>footer</strong>.
+Para cambiar la posici&oacute;n del m&oacute;dulo, es necesario abrir el archivo <strong>tm_facebook.xml</strong> que se encuentra en la carpeta <strong>app/design/frontend/default/themeXXX/layout</strong> de su instalaci&oacute;n.</p>
 
 Este archivo incluye tres bloques de <strong><em>reference</em></strong> con <strong>name="left"</strong> los par&aacute;metros necesarios (name="right", name="footer").
 <pre class="prettyprint linenums">
@@ -57,7 +57,7 @@ Este archivo incluye tres bloques de <strong><em>reference</em></strong> con <st
 <p>>Dos bloques est&aacute;n comentados en este archivo. Y s&oacute;lo un bloque con <strong>name="left"</strong> no esta comentado. Muestra el m&oacute;dulo en la columna de la izquierda. <br>
 Si usted necesita mostrar el m&oacute;dulo en el pie de p&aacute;gina, siga estas instrucciones:
 </p>
-<ol>
+<ol class="index-list">
 	<li>Descomente las l&iacute;neas de c&oacute;digo para el bloque <strong>name="footer"</strong> (el &uacute;ltimo en el ejemplo de c&oacute;digo de arriba) y comente el bloque <strong>name="left"</strong> (el primero en el ejemplo del c&oacute;digo de arriba).</li>
 	<li>Abra el archivo <strong>footer.phtml</strong> que se encuentra en la carpeta <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
 	<li>Pegue el c&oacute;digo siguiente en el lugar necesario:

@@ -1,6 +1,6 @@
 <h3>Blog</h3>			
 <p>There is an opportunity to add Blog to your website.</p>
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Blog settings can be found in <strong>Blog > Settings</strong>, or <strong>System > Configuration > AHEADWORKS EXTENSIONS > Blog</strong>.	
 		<figure class="img-polaroid"><img src="img/magento/blog-1.jpg" alt="" /></figure>

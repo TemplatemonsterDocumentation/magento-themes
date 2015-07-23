@@ -1,7 +1,7 @@
 		
 <h3>Instalaci&oacute;n del motor Magento</h3>
 <p>Cuando haya terminado con la carga de archivos, usted puede comenzar con la instalaci&oacute;n del motor Magento. Abra su navegador y en la barra de direcciones escriba su <b>'nombre del dominio/ruta de acceso al directorio de Magento'</b>. Usted debe ver la pantalla de bienvenida. Por favor, siga las siguientes instrucciones para instalar Magento. </p>
-<div class="alert alert-warning"><span>Tenga en cuenta: el archivo <b>dump.sql.gz</b> debe ser importado a una base de datos vacia ANTES de instalar Magento.</span></div>
+<div class="alert alert-danger"><span>Tenga en cuenta: el archivo <b>dump.sql.gz</b> debe ser importado a una base de datos vacia ANTES de instalar Magento.</span></div>
 <h4>Paso 1: Asistente de Instalaci&oacute;n</h4>
 <p>Por favor, lea el contrato de licencia y haga clic en la casilla "Estoy de acuerdo con los t&eacute;rminos y condiciones anteriores" si est&aacute; de acuerdo con los t&eacute;rminos.</p>
 

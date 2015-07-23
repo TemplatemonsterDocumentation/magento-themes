@@ -2,7 +2,7 @@
 <p>Vous devez vous inscrire sur le <a href="https://www.olark.com/signup/create_new_account" target="blank_">site officiel</a> afin de recourir au chat en ligne intégré dans le template, après avoir fourni toutes les informations requises, vous obtiendrez un code <strong>Olark Site-ID</strong>.</p>
 <div class="alert alert-info"><span>Vous pouvez obtenir un paquet de bronze d'essai gratuit de 6 mois. Pour l'obtenir suivez le <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">lien</a>, et remplissez vos données d'enregistrement.</span></div>
 Pour configurer le chat en ligne, vous devez effectuer les étapes suivantes:
-<ol class="list-1">
+<ol class="index-list">
 	<li>
 		Ouvrez le panneau d'administration de Magento. Naviguez vers CMS élément de menu et cliquez-le, dans le menu déroulant accédez à la rubrique <strong>Widgets</strong>.
 		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
@@ -35,7 +35,7 @@ Pour configurer le chat en ligne, vous devez effectuer les étapes suivantes:
 </ol>						
 <p><strong>Tout est fait!</strong> Maintenant, vous pouvez visiter votre site Web et voir le widget pour le chat en ligne.</p>
 <p>Vous pourriez également consulter les instructions suivantes:</p>
-<ul>
+<ul class="marked-list">
 	<li><a href="http://www.olark.com/customer/portal/articles/337453-getting-started-guide" target="_blank">Commencer à travailler avec Olark<i class="icon-external-link"></i></a></li>
 	<li><a href="https://www.olark.com/download/handbook-en-US.pdf?download" target="_blank">Manuel de l'utilisateur Olark <i class="icon-external-link"></i></a></li>
 </ul>		

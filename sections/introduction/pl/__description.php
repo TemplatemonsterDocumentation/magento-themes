@@ -1,47 +1,126 @@
 <h2 class="item1">Wstęp</h2>
-<p class="intro">
+<p>
     Dziękujemy za zakup szablonu Magento. Dokumentacja ta składa się z kilku części i pokazuje cały proces konfigurowania i administrowania sklepu Magento od podstaw. Zrobiliśmy co w naszej mocy, aby ta instrukcja obsługi była przejrzysta i łatwa w użytkowaniu, jak tylko to możliwe.
 </p>
 
-<h3>Czym jest Magento Commerce?</h3>
-<p>Magento to bogata platforma eCommerce zbudowana w technologii open-source. Zapewnia elastyczność i kontrolę nad wyglądem, zawartością i funkcjonalnością sklepu eCommerce. Intuicyjny interfejs administracji Magento dysponuje potężnym marketingiem, optymalizacją dla wyszukiwarek internetowych oraz narzędziami do zarządzania katalogiem, aby dać kupcom moc tworzenia witryn, które są dostosowane do ich indywidualnych potrzeb biznesowych. Zaprojektowany, aby być w pełni skalowalny i wspierany przez sieć wsparcia Varien, Magento oferuje przedsiębiorstwom najlepsze rozwiązanie e-commerce.<a href="http://www.magentocommerce.com/download" target="_blank"> Więcej informacji</a>.</p>
+<article id="whatismagento">
+    <h3>Czym jest Magento Commerce?</h3>
+    <p>Magento to bogata platforma eCommerce zbudowana w technologii open-source. Zapewnia elastyczność i kontrolę nad wyglądem, zawartością i funkcjonalnością sklepu eCommerce. Intuicyjny interfejs administracji Magento dysponuje potężnym marketingiem, optymalizacją dla wyszukiwarek internetowych oraz narzędziami do zarządzania katalogiem, aby dać kupcom moc tworzenia witryn, które są dostosowane do ich indywidualnych potrzeb biznesowych. Zaprojektowany, aby być w pełni skalowalny i wspierany przez sieć wsparcia Varien, Magento oferuje przedsiębiorstwom najlepsze rozwiązanie e-commerce.<a href="http://www.magentocommerce.com/download" target="_blank"> Więcej informacji</a>.</p>
+</article>
 
-<h3>Czym jest motyw Magento?</h3>
-<p>Motyw Magento jest kompletnym projektem sklepu internetowego w oparciu o silnik Magento. Innymi słowy, można łatwo zmienić wygląd sklepu Magento, instalując nowy motyw w kilku prostych krokach. Z całą prostotą, motyw Magento jest wyposażony we wszystkie niezbędne pliki źródłowe, które można edytować lub rozciągać w zależności od potrzeb.</p>
+<article id="whatismagentotheme">
+    <h3>Czym jest motyw Magento?</h3>
+    <p>Motyw Magento jest kompletnym projektem sklepu internetowego w oparciu o silnik Magento. Innymi słowy, można łatwo zmienić wygląd sklepu Magento, instalując nowy motyw w kilku prostych krokach. Z całą prostotą, motyw Magento jest wyposażony we wszystkie niezbędne pliki źródłowe, które można edytować lub rozciągać w zależności od potrzeb.</p>
+</article>
 
 <article id="file_structure">
     <h4>Struktura plików</h4>
 
-   Pakiet motywu, który został pobrany, składa się z kilku folderów. Zobaczmy, co każdy katalog zawiera:
+   <p>Pakiet motywu, który został pobrany, składa się z kilku folderów. Zobaczmy, co każdy katalog zawiera:</p>
 
     <ul class="files_structure">
-        <li class="folder"><i class="fa fa-folder-open"></i><b>documentation</b>
-            <small class="muted"> - zawiera pliki dokumentacji.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder-open"></i> <strong>documentation</strong></dt>
+                <dd> zawiera pliki dokumentacji.</dd>
+            </dl>
             <ul>
-                <li class="file"><i class="fa fa-file"></i> documentation.html<small class="muted"> - główny plik dokumentacji, który czytasz w tej chwili.</small></li>
-            </ul>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
+                        <dd>
+                            główny plik dokumentacji, który czytasz w tej chwili.
+                        </dd>
+                    </dl>
+                </li>
+            </ul>            
         </li>
-        <li class="folder"><i class="fa fa-folder"></i><b>screenshots</b>
-            <small class="muted"> - zawiera zrzuty ekranu motywu. Nie do celów produkcyjnych.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
+                <dd> zawiera zrzuty ekranu motywu. Nie do celów produkcyjnych.</dd>
+            </dl>            
         </li>
-        <li class="folder"><i class="fa fa-folder-open"></i><b>sources</b>
-            <small class="muted"> - zawiera pliki źródłowe motywu.</small>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                <dd> zawiera pliki źródłowe motywu.</dd>
+            </dl>
             <ul>
-                <li class="folder"><i class="fa fa-folder"></i> psd<small class="muted"> - zawiera pliki źródłowe Adobe Photoshop motywu(.psd).</small></li>
-                <li class="folder"><i class="fa fa-folder"></i> demo<small class="muted"> - zawiera dodatkowe strony i niestandardowe bloki do motywu.</small></li>
-                <li class="folder"><i class="fa fa-folder-open"></i> sample_data<small class="muted"> - zawiera przykładowe pliki danych motywu Magento.</small>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
+                        <dd>
+                            zawiera pliki źródłowe Adobe Photoshop motywu(.psd).
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                        <dd>
+                            zawiera dodatkowe strony i niestandardowe bloki do motywu.
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                        <dd>
+                            zawiera przykładowe pliki danych motywu Magento.
+                        </dd>
+                    </dl>
                     <ul>
-                        <li class="folder"><i class="fa fa-folder"></i> media<small class="muted"> - zawiera pliki i katalogi, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.</small></li>
-                        <li class="file"><i class="fa fa-file"></i> dump.sql.gz<small class="muted"> -  plik kopii zapasowej bazy danych. Zawiera przykładowy motyw. </small></li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dd>
+                                    zawiera pliki i katalogi, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dd>
+                                    plik kopii zapasowej bazy danych. Zawiera przykładowy motyw.
+                                </dd>
+                            </dl>
+                        </li>
                     </ul>
                 </li>
             </ul>
         </li>
-        <li class="folder"><i class="fa fa-folder"></i> <b>theme###</b><small class="muted"> - zawiera pliki i katalogi motywu Magento, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.</small></li>
-        <li class="file"><i class="fa fa-file"></i> <b>fullpackage.zip</b><small class="muted"> -  zawiera kompletny pakiet instalacyjnjy Magento z plikami silnika, motywem oraz przykładową treścią (przykładowe obrazy).</small></li>
-        <li class="file"><i class="fa fa-file"></i> <b>unzip.php</b><small class="muted"> - plik używany do rozpakowania plików z fullpackage.zip, gdy zostanie przesłany do serwera hostingowego.</small></li>
-        <li class="file"><i class="fa fa-file"></i> fonts_info.txt<small class="muted"> - zawiera linki, pod którymi można pobrać szablony niestandardowych czcionek.</small></li>
-        <li class="file"><i class="fa fa-file"></i> info.txt<small class="muted"> - zawiera instrukcje, jak wyodrębnić pliki źródłowe.</small></li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                <dd> zawiera pliki i katalogi motywu Magento, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                <dd> zawiera kompletny pakiet instalacyjnjy Magento z plikami silnika, motywem oraz przykładową treścią (przykładowe obrazy).</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                <dd> plik używany do rozpakowania plików z fullpackage.zip, gdy zostanie przesłany do serwera hostingowego.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
+                <dd> zawiera linki, pod którymi można pobrać szablony niestandardowych czcionek.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
+                <dd> zawiera instrukcje, jak wyodrębnić pliki źródłowe.</dd>
+            </dl>            
+        </li>
     </ul>
 </article>
 <article id="validation">
@@ -58,7 +137,7 @@
     <h4>Edycja oprogramowania</h4>
 
     <p> Aby czuć się komfortowo pracując z szablonem Magento, zalecamy pobranie wszystkich niezbędnych aplikacji. Możesz zobaczyć listę wymaganego oprogramowania na stronie podglądu szablonu.Wymagania mogą się różnić dla poszczególnych szablonów, dla większości szablonów są one następujące:</p>
-    <ol>
+    <ol class="index-list">
        <li>Po pierwsze, trzeba użyć programu WinZip 9+ (Windows) oraz Stuffit Expander 10+ (Mac), aby wyodrębnić chronione hasłem archiwum sources_#########.zip.</li>
         <li>Może być również konieczne zastosowanie programu Adobe Photoshop. Jest on używany do edycji plików źródłowych PSD, co jest konieczne, jeśli chcesz edytować szablon projektowania grafiki i obrazów.</li>
         <li>Aby edytować szablon plików z kodem źródłowym, niezbędny jest edytor kodów, np: Adobe Dreamweaver, Notepad ++, Sublime Text, itp.</li>

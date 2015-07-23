@@ -1,6 +1,6 @@
 <h3>Caixa de Curtidas do Facebook (Facebook like box)</h3>
-<p>Este módulo permite mostrar uma caixa de curtidas no Facebook em sua loja do Magento.</p>						
-Você pode configurar através do Painel Administrativo do Magento em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Facebook</strong>.
+<p>Este módulo permite mostrar uma caixa de curtidas no Facebook em sua loja do Magento.	<br>					
+Você pode configurar através do Painel Administrativo do Magento em <strong>Sistema (System) > Configurações (Configuration) > Templatemonster > Facebook</strong>.</p>
 <figure class="img-polaroid"><img src="img/magento/facebook-2.jpg" alt="" /></figure>
 <p>O módulo tem as seguintes opções:</p>			
 <table class="options-table">
@@ -40,8 +40,8 @@ Você pode configurar através do Painel Administrativo do Magento em <strong>Si
 		<td>a largura do módulo.</td>
 	</tr>				
 </table>
-Por padrão, o módulo é mostrado na coluna esquerda. Mas você tem três opções de estilo: <strong>esquerda</strong>, <strong>direita</strong> e <strong>rodapé</strong>.
-Para mudar a posição do bloco, você deve abrir o arquivo <strong>tm_facebook.xml</strong> localizado em <strong>app/design/frontend/default/themeXXX/layout</strong>.
+<p>Por padrão, o módulo é mostrado na coluna esquerda. Mas você tem três opções de estilo: <strong>esquerda</strong>, <strong>direita</strong> e <strong>rodapé</strong>. <br>
+Para mudar a posição do bloco, você deve abrir o arquivo <strong>tm_facebook.xml</strong> localizado em <strong>app/design/frontend/default/themeXXX/layout</strong>.</p>
 
 Esse arquivo inclui três blocos de <strong><em>reference</em></strong> com os parâmetros <strong>name="left"</strong> (name="right", name="footer").
 <pre class="prettyprint linenums">
@@ -57,7 +57,7 @@ Esse arquivo inclui três blocos de <strong><em>reference</em></strong> com os p
 <p>Dois blocos estão comentados neste arquivo. O único bloco não comentado é o que tem o parâmetro <strong>name="left"</strong>. Ele faz o módulo ser mostrado na clouna direita. <br>
 Se você precisar mostrar o módulo no rodapé, você precisa seguir essas instruções:
 </p>
-<ol>
+<ol class="index-list">
 	<li>Descomente as linhas de código do bloco com <strong>name="footer"</strong> (o último do exemplo acima) e comente o bloco <strong>name="left"</strong> (o primeiro bloco de código de exemplo acima).</li>
 	<li>Abra o arquivo <strong>footer.phtml</strong> localizado em <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
 	<li>Cole o seguinte código no lugar desejado:

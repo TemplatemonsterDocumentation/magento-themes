@@ -1,6 +1,6 @@
 <h3>Wie stellt man die statischen Blöcke ein</h3>
 <p>Nachdem Sie die Seiten eingestellt haben, ist es nötig die statischen Blöcke einzustellen. Dieser Prozess ist sehr ähnlich. Sie sollen den Code aus den Quelldateien kopieren und in die entsprechenden Felder des Control Panels einfügen. Sie sollen ähnliche Tabelle verwenden, aber nur für die statischen Blöcke.</p>
-<ol> 
+<ol class="index-list"> 
 	<li>In dem oberen Menü wählen Sie <b>CMS > Static Blocks</b></li>
 	<li>Drücken Sie den Button "Add New block" in der rechten oberen Ecke, um einen neuen Block hinzuzufügen.</li>
 	<li>Geben Sie den Namen des Blocks und die Kennzeichnung ein. Sie können die notwendigen Daten in der Einstellungentabelle der Vorlage (schauen Sie den Punkt der Seiteneinstellungen an) finden.</li>
@@ -14,7 +14,7 @@
 
 <p>Wie zeigt man unsere Blöcke mit dem statischen Inhalt?</p>
 
-<ol> 
+<ol class="index-list"> 
 	<li>In dem oberen Menü wählen Sie <b>CMS > Widgets (CMS > Widgets)</b></li>
 	<li>Drücken Sie in der oberen rechten Ecke auf den Button <strong>Add New Widget Instance (Eine neue Widget-Instanz hinzufügen)</strong>, um das Widget hinzuzufügen.
 		<figure class="img-polaroid"><img src="img/magento/widget-1.jpg" alt="" /></figure>

@@ -1,6 +1,6 @@
 		
 <h3>Módulo de moeda</h3>
-<ol>
+<ol class="index-list"s>
 	<li>Abra o admin do Magento.</li>
 	<li>No menu, escolha <b>System > Configuration</b>.</li>
 	<li>Então clique em General e depois na aba <b>Currency Setup</b>.</li>
