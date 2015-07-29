@@ -1,2 +1,2 @@
-# theme-documentation
+#Magento New Theme Documentation
 New Theme Documentation

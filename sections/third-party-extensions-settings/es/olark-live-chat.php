@@ -4,33 +4,25 @@
 Para configurar el chat en l&iacute;nea, necesita realizar los siguientes pasos:
 <ol class="index-list">
 	<li>
-		Abra el panel de administraci&oacute;n de Magento. Haga clic en el elemento de men&uacute; CMS, en el men&uacute; desplegable vaya a <strong>Widgets</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
-	</li>
-	<li>
-		Una vez que la nueva p&aacute;gina se haya abierto, haga clic en el bot&oacute;n <strong>A&ntilde;adir una nueva instancia del widget</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img2.jpg" alt="" /></figure>
+		Abra el panel de administraci&oacute;n de Magento. Haga clic en el elemento de men&uacute; CMS, en el men&uacute; desplegable vaya a <strong>Widgets</strong>. Una vez que la nueva p&aacute;gina se haya abierto, haga clic en el bot&oacute;n <strong>A&ntilde;adir una nueva instancia del widget</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-1.jpg" alt="" /></figure>
 	</li>
 	<li>
 		En el men&uacute; desplegable <strong>Tipo</strong> elija Chat en Vivo de Olark, en el men&uacute; <strong>Dise&ntilde;o/Tema</strong> elija la apariencia de su tienda para el chat. Haga clic en el bot&oacute;n <strong>Continuar</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-2.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Ahora tiene que configurar como se mostrar&aacute; el chat en l&iacute;nea. Como primer paso, en el campo <strong>T&iacute;tulo de la Instancia del Widget</strong> introducir el nombre del widget, que se mostrar&aacute; en el panel de administraci&oacute;n. En el campo <strong>Asignar a Vistas de la tienda</strong> es necesario seleccionar la vista de tienda que se mostrar&aacute; en el bloque del chat <strong>Actualizaci&oacute;n del Dise&ntilde;o</strong> haga clic en el bot&oacute;n <strong>A&ntilde;adir Actualizaci&oacute;n del Dise&ntilde;o</strong>. En el campo <strong>Mostrar En</strong> tiene que seleccionar <strong>Todas las P&aacute;ginas</strong>. Para el campo <strong>Referencias del Bloque</strong> elija <strong>&Aacute;rea principal del contenido</strong>.	
-		<figure class="img-polaroid"><img src="img/magento/img4.jpg" alt="" /></figure>
+		Ahora tiene que configurar como se mostrar&aacute; el chat en l&iacute;nea. Como primer paso, en el campo <strong>T&iacute;tulo de la Instancia del Widget</strong> introducir el nombre del widget, que se mostrar&aacute; en el panel de administraci&oacute;n. En el campo <strong>Asignar a Vistas de la tienda</strong> es necesario seleccionar la vista de tienda que se mostrar&aacute; en el bloque del chat <strong>Actualizaci&oacute;n del Dise&ntilde;o</strong> haga clic en el bot&oacute;n <strong>A&ntilde;adir Actualizaci&oacute;n del Dise&ntilde;o</strong>. En el campo <strong>Mostrar En</strong> tiene que seleccionar <strong>Todas las P&aacute;ginas</strong>. Para el campo <strong>Referencias del Bloque</strong> elija <strong>&Aacute;rea principal del contenido</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-3.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Vaya al enlace <strong>Opciones del Widget</strong> en la barra lateral izquierda. A la derecha ver&aacute;s el campo donde tienes que introducir el <strong>Olark Site-ID</strong>. 
 		Una vez que haya introducido el <strong>Olark Site-ID</strong>, haga clic en el bot&oacute;n<strong>Guardar</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img5.jpg" alt="" /></figure>		
+		<figure class="img-polaroid"><img src="img/magento/olark-4.jpg" alt="" /></figure>		
 	</li>
 	<li>
-		En la nueva ventana vaya al elemento de men&uacute; <strong>Sistema -> Administraci&oacute;n de Cach&eacute;</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img6.jpg" alt="" /></figure>
-	</li>
-	<li>
-		En el bloque <strong>Administraci&oacute;n de la cach&eacute; de almacenamiento</strong> active los elementos <strong>Distribuci&oacute;n</strong> y <strong>Bloques de salida HTML</strong>. Aseg&uacute;rese de que en el campo <strong>Acciones</strong> el elemento <strong>Actualizar</strong> est&aacute; seleccionado, luego, haga clic en <strong>Enviar</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img7.jpg" alt="" /></figure>
+		En la nueva ventana vaya al elemento de men&uacute; <strong>Sistema -> Administraci&oacute;n de Cach&eacute;</strong>. En el bloque <strong>Administraci&oacute;n de la cach&eacute; de almacenamiento</strong> active los elementos <strong>Distribuci&oacute;n</strong> y <strong>Bloques de salida HTML</strong>. Aseg&uacute;rese de que en el campo <strong>Acciones</strong> el elemento <strong>Actualizar</strong> est&aacute; seleccionado, luego, haga clic en <strong>Enviar</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-5.jpg" alt="" /></figure>
 	</li>
 </ol>						
 <p><strong>&iexcl;Ha Terminado!</strong> Ahora puede visitar su sitio web y ver el widget del chat.</p>

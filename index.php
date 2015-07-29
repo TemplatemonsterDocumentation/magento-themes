@@ -22,8 +22,7 @@ if (!isset($sections)) {
     <link rel="stylesheet" href="<?php echo $path; ?>/css/prettify.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
 
-    <script src="<?php echo $path; ?>/js/jquery.js"></script>
-    <script src="<?php echo $path; ?>/js/jquery-migrate-1.2.1.js"></script>
+    
 
     <!--[if lt IE 9]>
     <html class="lt-ie9">
@@ -118,7 +117,8 @@ if (!isset($sections)) {
     </div>
 </div>
 
-
+<script src="<?php echo $path; ?>/js/jquery.js"></script>
+<script src="<?php echo $path; ?>/js/jquery-migrate-1.2.1.js"></script>
 <script src="<?php echo $path; ?>/js/jquery.easing.1.3.js"></script>
 <script src="<?php echo $path; ?>/js/jquery.rd-navbar.js"></script>
 <script src="<?php echo $path; ?>/js/prettify.js"></script>

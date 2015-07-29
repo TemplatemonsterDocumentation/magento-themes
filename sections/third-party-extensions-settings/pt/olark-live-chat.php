@@ -4,33 +4,25 @@
 Para configurar o bate-papo, siga estes passos:
 <ol class="index-list">
 	<li>
-		Abra o painel administrativo. Navegue para o item do menu CMS. Na caixa de seleção, escolha <strong>Widgets</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
-	</li>
-	<li>
-		Ao abrir a nova página, clique no botão <strong>Adicionar novo widget (Add new widget instance)</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img2.jpg" alt="" /></figure>
+		Abra o painel administrativo. Navegue para o item do menu CMS. Na caixa de seleção, escolha <strong>Widgets</strong>. Ao abrir a nova página, clique no botão <strong>Adicionar novo widget (Add new widget instance)</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-1.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Na caixa de seleção <strong>Tipo (Type)</strong> escolha o bate-paop ao vivo Olark (Olark Live Chat), no menu <strong>Pacote de Estilos/Tema (Design Package/Theme)</strong> escolha a aparência de sua loja que deve mostrar o bate-papo. Clique no botão <strong>Continuar (Continue)</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Agora você precisa configurar a aparência do seu bate-papo. Em primeiro lugar, no campo <strong>Título do Widget (Widget Instance Title)</strong> escreva o nome da sala de bate-papo, que será mostrada no painel administrativo. No campo <strong>Especificar Páginas da Loja (Assign to Store Views)</strong> você precisa escolher a visualização da loja que vai mostrar janela de bate-papo. No bloco <strong>Atualizações de Layout (Layout Updates)</strong> clique no botão <strong>Adicionar Layout (Add Layout Update)</strong>. No campo <strong>Mostrar em (Display On)</strong> você deve escolher todas as páginas <strong>(All pages)</strong>. No campo <strong>Referência de Bloco (Block Reference)</strong> escolha <strong>Conteúdo Principal (Main Content Area)</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img4.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-3.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Siga o link para <strong>Opções de Widget (Widget Options)</strong> na barra lateral. À direita você verá um campo, que você deve preencher com o número <strong>Olark Site-ID</strong>. 
 							Assim que preencher este campo, clique em <strong>Salvar (Save)</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img5.jpg" alt="" /></figure>		
+		<figure class="img-polaroid"><img src="img/magento/olark-4.jpg" alt="" /></figure>		
 	</li>
 	<li>
-		Na nova janela, navegue para <strong>Sistema (System) -> Gerenciar Cache (Cache Management)</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img6.jpg" alt="" /></figure>
-	</li>
-	<li>
-		No bloco <strong>Gerenciamento de Cache (Cache Storage Management)</strong> marque as opções <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Certifique-se de que no campo <strong>Ação (Actions)</strong> a opção <strong>Atualizar (Refresh)</strong> esteja marcada, e clique em <strong>Enviar (Submit)</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img7.jpg" alt="" /></figure>
+		Na nova janela, navegue para <strong>Sistema (System) -> Gerenciar Cache (Cache Management)</strong>. No bloco <strong>Gerenciamento de Cache (Cache Storage Management)</strong> marque as opções <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Certifique-se de que no campo <strong>Ação (Actions)</strong> a opção <strong>Atualizar (Refresh)</strong> esteja marcada, e clique em <strong>Enviar (Submit)</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-5.jpg" alt="" /></figure>
 	</li>
 </ol>						
 <p><strong>Tudo pronto!</strong> Agora você pode visitar seu site e ver o widget de bate-papo online.</p>

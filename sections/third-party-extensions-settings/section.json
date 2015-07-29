@@ -28,21 +28,7 @@
 				"pl":"Olark czat na żywo",
 				"pt":"Chat Olark em tempo real"
 			}
-		},		
-		{
-			"id":"cloud-zoom",
-			"translations":{
-				"en":"Cloud Zoom",
-				"ru":"Cloud Zoom",
-				"tr":"Cloud Zoom",
-				"de":"Cloud Zoom",
-				"es":"Cloud Zoom",
-				"fr":"Cloud Zoom",
-				"it":"Cloud Zoom",
-				"pl":"Cloud Zoom",
-				"pt":"Cloud Zoom"
-			}
-		},		
+		},	
 		{
 			"id":"add-this",
 			"translations":{

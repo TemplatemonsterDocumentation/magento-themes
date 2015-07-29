@@ -2,32 +2,25 @@
 <p>Illustreremo la configurazione del template sulla base di questo esempio. È configurato allo stesso modo del nostro template Live Demo, senza influire sui dati dei prodotti.</p>
 <h4>Attiva il nuovo template</h4>
 <ol class="index-list">
-	<li>Apri il pannello di amministrazione di Magento e vai su <b>System > Design</b> nel menù in alto.</li>
-	<li>Clicca sul pulsante "<b>Add Design Change</b>".</li>
-	<li>Nel campo "<b>Custom Design</b>", seleziona il nome del tema (ad esempio, theme###).</li>
-	<li>Clicca su  "<b>Save</b>"  per confermare le modifiche.</li>
+	<li>Apri il pannello di amministrazione di Magento e vai su <strong>System > Design</strong> nel menù in alto.<figure class="img-polaroid"><img src="img/magento/Theme-set-1.jpg" alt="" /></figure></li>
+	<li>Clicca sul pulsante "<strong>Add Design Change</strong>".<figure class="img-polaroid"><img src="img/magento/Theme-set-2.jpg" alt="" /></figure></li>
+	<li>Nel campo "<strong>Custom Design</strong>", seleziona il nome del tema (ad esempio, theme###). Clicca su  "<strong>Save</strong>"  per confermare le modifiche.<figure class="img-polaroid"><img src="img/magento/Theme-set-3.jpg" alt="" /></figure></li>
 </ol>
-<figure class="img-polaroid"><img src="img/magento/Theme-set1.png" alt="" /></figure>
-<figure class="img-polaroid"><img src="img/magento/Theme-set2.png" alt="" /></figure>
-<figure class="img-polaroid"><img src="img/magento/Theme-set3.png" alt="" /></figure>
 
 <h4>Reindicizzazione dati</h4>
 <ol class="index-list">
-	<li>Apri il pannello di amministrazione di Magento e vai su  <b>System > Index Management</b>.</li>
-	<li>Seleziona la casella "<b>Select All</b>" all'angolo in alto a sinistra.</li>
-	<li>Nel campo "<b>Actions</b>", seleziona "<b>Reindex Data</b>".</li>
-	<li>Clicca su "<b>Submit</b>".</li>
+	<li>Apri il pannello di amministrazione di Magento e vai su  <strong>System > Index Management</strong>.<figure class="img-polaroid"><img src="img/magento/Theme-set-4.jpg" alt="" /></figure></li>
+	<li>Seleziona la casella "<strong>Select All</strong>" all'angolo in alto a sinistra.<figure class="img-polaroid"><img src="img/magento/Theme-set-5.jpg" alt="" /></figure></li>
+	<li>Nel campo "<strong>Actions</strong>", seleziona "<strong>Reindex Data</strong>".</li>
+	<li>Clicca su "<strong>Submit</strong>".</li>
 	<li>Sii paziente, l'operazione potrebbe richiedere qualche minuto.</li>
 </ol>
-<figure class="img-polaroid"><img src="img/magento/Theme-set4.png" alt="" /></figure>
-<figure class="img-polaroid"><img src="img/magento/Theme-set5.png" alt="" /></figure>
 
 <h4>Disabilita la cache</h4>
 <p>Per fare in modo che le modifiche appaiano sul tuo sito web senza ritardi è necessario disabilitare la  cache. In questo modo si evitano azioni ulteriori di pulitura della cache dopo ogni singola modifica apportata. Dopo aver concluso la fase di editing dello store, sarà possibile riabilitarla.</p>
 <ol class="index-list">
-	<li>Apri il pannello di amministrazione di Magento e vai su <b>System > Cache Management</b> nel menù in alto.</li>
-	<li>Nel menù in alto a sinistra, clicca su "<b>Select All</b>".</li>
-	<li>Sul lato destro, nel campo "<b>Actions</b>", seleziona "<b>Disable</b>".</li>
-	<li>Clicca su "<b>Submit</b>".</li>
+	<li>Apri il pannello di amministrazione di Magento e vai su <strong>System > Cache Management</strong> nel menù in alto.<figure class="img-polaroid"><img src="img/magento/Theme-set-6.jpg" alt="" /></figure></li>
+	<li>Nel menù in alto a sinistra, clicca su "<strong>Select All</strong>".<figure class="img-polaroid"><img src="img/magento/Theme-set-7.jpg" alt="" /></figure></li>
+	<li>Sul lato destro, nel campo "<strong>Actions</strong>", seleziona "<strong>Disable</strong>".</li>
+	<li>Clicca su "<strong>Submit</strong>".</li>
 </ol>
-<figure class="img-polaroid"><img src="img/magento/Theme-set8.png" alt="" /></figure>		

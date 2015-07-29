@@ -4,33 +4,25 @@
 Pour configurer le chat en ligne, vous devez effectuer les étapes suivantes:
 <ol class="index-list">
 	<li>
-		Ouvrez le panneau d'administration de Magento. Naviguez vers CMS élément de menu et cliquez-le, dans le menu déroulant accédez à la rubrique <strong>Widgets</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
-	</li>
-	<li>
-		Une fois la nouvelle page est ouverte, cliquez sur le bouton <strong>Add new widget instance</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img2.jpg" alt="" /></figure>
+		Ouvrez le panneau d'administration de Magento. Naviguez vers CMS élément de menu et cliquez-le, dans le menu déroulant accédez à la rubrique <strong>Widgets</strong>. Une fois la nouvelle page est ouverte, cliquez sur le bouton <strong>Add new widget instance</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-1.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Dans le menu déroulant <strong>Type</strong> sélectionnez le Chat en Ligne Olark , dans le menu <strong>Design Package/Theme</strong> sélectionnez la peau de votre boutique, qui devrait afficher le chat. Cliquez sur le bouton <strong>Continue</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Maintenant, vous devez configurer l'affichage du Chat en ligne. Comme une première étape, dans le domaine <strong>Widget Instance Title</strong> tapez le nom du widget, qui sera affiché dans le panneau d'administration. Dans le champ <strong>Assign to Store Views</strong> vous devez sélectionner la vue de la boutique, qui permet d'afficher le chat. Dans le bloc <strong>Layout Updates</strong> cliquez sur le bouton <strong>Add Layout Update</strong>. Dans le champ <strong>Display On</strong> il faut sélectionner <strong>All pages</strong>.  Pour le champ <strong>Block Reference</strong> sélectionnez <strong>Main Content Area</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img4.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-3.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Suivez le lien <strong>Widget Options</strong> dans le menu de gauche. À droite, vous verrez le champ qu'il faut remplir avec <strong>Olark Site-ID</strong>. 
 		Une fois que votre <strong>Olark Site-ID</strong> a été rempli, cliquez sur le bouton <strong>Save</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img5.jpg" alt="" /></figure>		
+		<figure class="img-polaroid"><img src="img/magento/olark-4.jpg" alt="" /></figure>		
 	</li>
 	<li>
-		Dans la nouvelle fenêtre qui apparaît, naviguez jusqu'à le point de menu <strong>System -> Cache Management</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img6.jpg" alt="" /></figure>
-	</li>
-	<li>
-		Dans le bloc <strong>Cache Storage Management</strong> vérifiez les éléments <strong>Layouts</strong> et <strong>Blocks HTML output</strong>. Assurez-vous que dans le champ <strong>Actions</strong> un élément <strong>Refresh</strong> est sélectionné, et cliquez sur <strong>Submit</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img7.jpg" alt="" /></figure>
+		Dans la nouvelle fenêtre qui apparaît, naviguez jusqu'à le point de menu <strong>System -> Cache Management</strong>. Dans le bloc <strong>Cache Storage Management</strong> vérifiez les éléments <strong>Layouts</strong> et <strong>Blocks HTML output</strong>. Assurez-vous que dans le champ <strong>Actions</strong> un élément <strong>Refresh</strong> est sélectionné, et cliquez sur <strong>Submit</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-5.jpg" alt="" /></figure>
 	</li>
 </ol>						
 <p><strong>Tout est fait!</strong> Maintenant, vous pouvez visiter votre site Web et voir le widget pour le chat en ligne.</p>

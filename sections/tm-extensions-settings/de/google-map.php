@@ -6,10 +6,10 @@
 		Der Block <strong>Embed Map Settings</strong> zeigt die Karte im Footer auf allen Seiten außer der Kontaktseite an.
 	</li>
 	<li>
-		Der Block <strong>Contacts Map Settings</strong> zeigt die Karte nur auf der Kontaktseite an.<figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		Der Block <strong>Contacts Map Settings</strong> zeigt die Karte nur auf der Kontaktseite an.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Die beiden Sektionen haben die gleichen Einstellungen für das Aussehen der Karte.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Die beiden Sektionen haben die gleichen Einstellungen für das Aussehen der Karte.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>Lassen Sie uns die Moduloptionen anschauen:</p>

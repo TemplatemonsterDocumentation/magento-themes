@@ -7,10 +7,10 @@
 		<strong>Embed Map Settings</strong> block stands for the display of the map in the footer of all pages except the contact page.
 	</li>
 	<li>
-		<strong>Contacts Map Settings</strong> block stands for the display of the map directly on the contact page.<figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		<strong>Contacts Map Settings</strong> block stands for the display of the map directly on the contact page.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Both sections have the same options for configuring the appearance of the map.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Both sections have the same options for configuring the appearance of the map.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>The module has the following options:</p>

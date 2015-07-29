@@ -7,10 +7,10 @@ Les deux cartes peuvent être configurées via le panneau d'administration de Ma
 		Le bloc de <strong>Paramètres de la Carte Intégrée</strong> signifie l'affichage de la carte dans le pied de toutes les pages sauf la page de contact.
 	</li>
 	<li>
-		Le bloc de <strong>Paramètres de la Carte de Contacts</strong> signifie l'affichage de la carte directement sur la page de contact.<figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		Le bloc de <strong>Paramètres de la Carte de Contacts</strong> signifie l'affichage de la carte directement sur la page de contact.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Ces deux sections ont les mêmes options pour configurer l'apparence de la carte.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Ces deux sections ont les mêmes options pour configurer l'apparence de la carte.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>Le module dispose des options suivantes:</p>

@@ -144,6 +144,7 @@
         <li>Для редактирования исходного кода файлов шаблона нужно использовать редактор кода, например Adobe Dreamweaver, Notepad++, Sublime Text и т.п.</li>
         <li>Чтобы загрузить файлы на хостинг сервер, потребуется  FTP менеджер, например Total Commander, FileZilla, CuteFTP и т.д.</li>
     </ol>
+    
     <h4>Хостинг</h4>
     <p>Поскольку Magento Commerce является приложением PHP/MySQL, необходимо подготовить  хостинг сервер.</p>
     <p>При наличии активного сервера, нужно проверить его на соответствие <a href="http://magento.com/resources/system-requirements" target="_blank"> требованиям Magento </a> и на готовность использовать интернет-магазины Magento.</p>

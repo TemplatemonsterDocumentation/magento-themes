@@ -144,6 +144,7 @@
         <li>Um die Quellcode der Vorlagendateien zu bearbeiten, sollen Sie den Code-Editor wie Adobe Dreamweaver, Notepad++, Sublime Text usw. nutzen.</li>
         <li>Um die Dateien auf den Hosting-Server hochzuladen, brauchen Sie  FTP Manager wie Total Commander, FileZilla, CuteFTP usw.</li>
     </ol>
+    
     <h4>Hosting</h4>
     <p>Magento Commerce ist PHP/MySQL Anwendung, deswegen sollen Sie den Hosting-Server vorbereiten.</p>
     <p>Wenn Sie einen aktiven Server haben, sollen Sie ihn dann prüfen, ob er <a href="http://magento.com/resources/system-requirements" target="_blank"> Magento Anforderungen entspricht </a> und den Online-Shop von Magento nutzen kann.</p>

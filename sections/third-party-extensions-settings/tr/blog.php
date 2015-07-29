@@ -7,10 +7,10 @@ Sitenize bir blog ekleyebilirsiniz.
 	</li>
 	<li>
 		İlk sekme olan <strong>Blog > Ayarlar</strong> kısmında temel blog ayarları yer alır.
-		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Diğer sekmelerde ise: kayıt türü, tarih, yorumların görünümü, güvenlik ve haber servisinin açılıp kapanması gibi ayarlar yer alır.
-		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
 	</li>				
 </ol>					

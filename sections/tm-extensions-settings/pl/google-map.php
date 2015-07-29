@@ -7,10 +7,10 @@
 	</li>
 	<li>
 		<strong>Ustawienia Mapy na stronie kontaktowej</strong> blok, który oznacza wyświetlanie mapy bezpośrednio na stronie kontaktowej.
-		<figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Obie sekcje mają takie same możliwości konfigurowania wyglądu mapy.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Obie sekcje mają takie same możliwości konfigurowania wyglądu mapy.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>Moduł posiada następujące opcje:</p>

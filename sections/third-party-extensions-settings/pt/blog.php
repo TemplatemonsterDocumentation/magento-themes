@@ -7,10 +7,10 @@
 	</li>
 	<li>
 		A primeira aba <strong>Blog > Settings</strong>, contém as definições básicas do blog.
-		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		As outras abas permitem configurar: tipo de gravação, visual da data, visual dos comentários, capthca e habilitação de feed de notícias.
-		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
 	</li>				
 </ol>					

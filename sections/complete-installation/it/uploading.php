@@ -5,9 +5,9 @@
             
 <ol class="index-list">
   <li>Selezionare i file <strong>'unzip.php'</strong> e <strong>'fullpackage.zip'</strong> e caricateli sul vostro server(
-    <i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">Come caricarei file sul server.</a>
+   <a href="/help/how-upload-files-server-2.html" target="_blank">Come caricarei file sul server.</a>
     )</li>
-  <li>Digitate il percorso del file <strong>'unzip.php'</strong> sul vostro server (<i class="muted">http://your_domain_name/unzip.php</i>) in your <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">nel browser.</abbr>.</li>
+  <li>Digitate il percorso del file <strong>'unzip.php'</strong> sul vostro server (http://your_domain_name/unzip.php) in your <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">nel browser.</abbr>.</li>
   <li>Dovreste visualizzare la seguente schermata:<figure class="img-polaroid"><img src="img/magento/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure></li>
   <li>Nella finestra <strong>'Choose your zip file'</strong> seleziona il file <strong>fullpackage.zip</strong> caricato.</li>
   <li>Nella casella <strong>'Unzip to'</strong> specifica la directory in cui volete estrarre i file.</li>

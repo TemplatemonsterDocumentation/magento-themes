@@ -7,10 +7,10 @@ Istnieje możliwość dodania Bloga do Twojej strony.
 	</li>
 	<li>
 		Pierwsza zakładka <strong>Blog > Settings</strong>, zawiera podstawowe ustawienia bloga.
-		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Reszta zakładek pozwala konfigurować: typ zapisu, wyświetlanie daty, wyświetlanie komentarzy, captcha oraz newsfeed.
-		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
 	</li>				
 </ol>					

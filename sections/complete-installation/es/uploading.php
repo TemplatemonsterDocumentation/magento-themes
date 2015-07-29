@@ -4,8 +4,8 @@
 <p>Para empezar a trabajar con Magento Usted necesita subir los ficheros a su servidor de hosting. Se puede hacerlo utilizando el administrador de ficheros de hosting o una aplicación FTP de terceros.</p>
             
 <ol class="index-list">
-  <li>Seleccione los ficheros <strong>'unzip.php'</strong> y <strong>'fullpackage.zip'</strong> y súbalos a su servidor (<i class="icon-film"> </i> <a href="/help/es/how-upload-files-server-2.html" target="_blank">¿Cómo se puede subir ficheros al servidor? </a>)</li>
-  <li>Escriba la ruta de acceso al fichero <strong>'unzip.php'</strong> en el servidor (<i class="muted">http://su_dominio/unzip.php</i>) en su navegador web.</li>
+  <li>Seleccione los ficheros <strong>'unzip.php'</strong> y <strong>'fullpackage.zip'</strong> y súbalos a su servidor ( <a href="/help/es/how-upload-files-server-2.html" target="_blank">¿Cómo se puede subir ficheros al servidor? </a>)</li>
+  <li>Escriba la ruta de acceso al fichero <strong>'unzip.php'</strong> en el servidor (http://su_dominio/unzip.php) en su navegador web.</li>
   <li>Usted va a obtener la siguiente pantalla:<figure class="img-polaroid"><img src="img/magento/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
 </li>
 

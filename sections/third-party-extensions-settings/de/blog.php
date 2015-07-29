@@ -7,10 +7,10 @@ Sie haben die Möglichkeit den Blog zu Ihrer Webseite hinzuzufügen.
 	</li>
 	<li>
 		In dem ersten Tab, <strong>Blog > Settings</strong>, befinden sich die Grundeinstellungen für den Blog.
-		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Andere Tabs ermöglichen die folgenden Funktion einzustellen: Beitragsansicht, Datumsanzeige, Anzeige von Kommentaren, Captcha und Nachrichten.
-		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
 	</li>				
 </ol>					

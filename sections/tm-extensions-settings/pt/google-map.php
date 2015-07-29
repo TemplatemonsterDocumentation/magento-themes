@@ -6,10 +6,10 @@
 		<strong>Embed Map Settings</strong>: este bloco exibe os mapas em todas as páginas, com exceção da página de contatos.
 	</li>
 	<li>
-		<strong>Contacts Map Settings</strong> este bloco exibe o mapa diretamente na página de contato.<figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		<strong>Contacts Map Settings</strong> este bloco exibe o mapa diretamente na página de contato.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Ambas seções têm as as mesmas opções para mudar a aparência do mapa.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Ambas seções têm as as mesmas opções para mudar a aparência do mapa.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>O módulo tem as seguintes opções:</p>

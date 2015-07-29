@@ -7,10 +7,10 @@
 	</li>
 	<li>
 		The first tab <strong>Blog > Settings</strong>, includes blog basic settings.
-		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		The rest of the tabs allow to configure: record type, date display, comments display, captcha and newsfeed enabling.
-		<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/blog-3.jpg" alt="" /></figure>
 	</li>				
 </ol>					

@@ -6,10 +6,10 @@
 		Блок <strong>Embed Map Settings</strong> отвечает за вывод карты в футере всех страниц, кроме страницы контактов.
 	</li>
 	<li>
-		Блок <strong>Contacts Map Settings</strong> отвечает за вывод карты непосредственно на странице контактов.<figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		Блок <strong>Contacts Map Settings</strong> отвечает за вывод карты непосредственно на странице контактов.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Обе секции имеют одни и те же опции для настройки внешнего вида карты.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Обе секции имеют одни и те же опции для настройки внешнего вида карты.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>Рассмотрим опции модуля:</p>

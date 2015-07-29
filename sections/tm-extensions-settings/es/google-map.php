@@ -6,10 +6,10 @@
 		<strong>Embed Map Settings</strong> muestra el mapa en el pie de p&aacute;gina de todas las p&aacute;ginas excepto en la p&aacute;gina de contacto.
 	</li>
 	<li>
-		<strong>Contacts Map Settings</strong> muestra el mapa directamente en la p&aacute;gina de contacto.<figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		<strong>Contacts Map Settings</strong> muestra el mapa directamente en la p&aacute;gina de contacto.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Ambas secciones tienen las mismas opciones de configuraci&oacute;n para la apariencia del mapa.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Ambas secciones tienen las mismas opciones de configuraci&oacute;n para la apariencia del mapa.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>El m&oacute;dulo tiene las siguientes opciones:</p>

@@ -6,10 +6,10 @@
 		<strong>Embed Map Settings</strong> iletiþim sayfasý dýþýnda, diðer sayfalarýn altý kýsmýnda yer alan haritanýn görüntü ayarlarýný düzenleyebileceðiniz bölüm.
 	</li>
 	<li>
-		<strong>Contacts Map Settings</strong> iletiþim sayfasýndaki haritanýn görüntü ayarlarýný düzenleyebileceðiniz bölüm.<figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		<strong>Contacts Map Settings</strong> iletiþim sayfasýndaki haritanýn görüntü ayarlarýný düzenleyebileceðiniz bölüm.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Her iki bölümdeki görüntü ayarlarý ayný seçeneklerden oluþmaktadýr.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Her iki bölümdeki görüntü ayarlarý ayný seçeneklerden oluþmaktadýr.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>Modül seçenekleri þu þekildedir:</p>

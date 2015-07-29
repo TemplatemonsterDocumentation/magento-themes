@@ -4,32 +4,24 @@
 Online chat ayarlarýný yapmak için:
 <ol class="index-list">
 	<li>
-		Magento yönetici panelini açýn. CMS (Ýçerik Yöneticisi) menüye týklayýn, açýlýr listeden <strong>Widgets</strong> (Bileþenler) e týklayýn.
-		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
-	</li>
-	<li>
-		Açýlan yeni sayfadan <strong>Yeni bileþen ekle</strong> kýsmýna týklayýn.
-		<figure class="img-polaroid"><img src="img/magento/img2.jpg" alt="" /></figure>
+		Magento yönetici panelini açýn. CMS (Ýçerik Yöneticisi) menüye týklayýn, açýlýr listeden <strong>Widgets</strong> (Bileþenler) e týklayýn. Açýlan yeni sayfadan <strong>Yeni bileþen ekle</strong> kýsmýna týklayýn.
+		<figure class="img-polaroid"><img src="img/magento/olark-1.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Açýlýr pencereden <strong>(Type)</strong> Olark Live Chat seçin, menüden <strong>Design Package/Theme</strong> kýsmýndan maðaza tasarýmýnýzý seçin. Son olarak <strong>Continue</strong> kýsmýna týklayýn.
-		<figure class="img-polaroid"><img src="img/magento/img3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Artýk online chat için görsel düzenlemelere geçebilirsiniz. Ýlk önce <strong>Widget Instance Title</strong> alanýna, yönetici panelde gözükecek olan bileþenin adýný yazýn. <strong>Assign to Store Views</strong> alanýna maðazanýn görünüþünü seçin, ki chat de öyle görünsün. <strong>Layout Updates</strong> kutusundan <strong>Add Layout Update</strong> yazýsýna týklayýn. <strong>Display On</strong> alanýndaki <strong>All pages</strong> seçili olmalýdýr. <strong>Block Reference</strong> bölümünde <strong>Main Content Area</strong> seçin.
-		<figure class="img-polaroid"><img src="img/magento/img4.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-3.jpg" alt="" /></figure>		
 	</li>
 	<li>
 		Menülerin olduðu kýsýndan <strong>Widget Options</strong >a girin. Sað tarafta <strong>Olark Site-ID</strong> nizi yazmanýz gereken bir bölüm göreceksiniz. <strong>Olark Site-ID</strong> nizi yazdýktan sonra <strong>Save</strong> e týklayýp kaydedin.
-		<figure class="img-polaroid"><img src="img/magento/img5.jpg" alt="" /></figure>		
+		<figure class="img-polaroid"><img src="img/magento/olark-4.jpg" alt="" /></figure>		
 	</li>
 	<li>
-		Yeni bir pencereden kaþe yönetimi yani <strong>System -> Cache Management</strong> alanýna girin.
-		<figure class="img-polaroid"><img src="img/magento/img6.jpg" alt="" /></figure>
-	</li>
-	<li>
-		<strong>Cache Storage Management</strong> kutusundaki <strong>Layouts</strong> ve <strong>Blocks HTML output</strong> unsurlarýný seçin. <strong>Actions</strong> alanýndaki <strong>Refresh</strong>in seçili olduðuna emin olun ve <strong>Submit</strong> e týklayýp kaydedin.
-		<figure class="img-polaroid"><img src="img/magento/img7.jpg" alt="" /></figure>
+		Yeni bir pencereden kaþe yönetimi yani <strong>System -> Cache Management</strong> alanýna girin. <strong>Cache Storage Management</strong> kutusundaki <strong>Layouts</strong> ve <strong>Blocks HTML output</strong> unsurlarýný seçin. <strong>Actions</strong> alanýndaki <strong>Refresh</strong>in seçili olduðuna emin olun ve <strong>Submit</strong> e týklayýp kaydedin.
+		<figure class="img-polaroid"><img src="img/magento/olark-5.jpg" alt="" /></figure>
 	</li>
 </ol>						
 <p><strong>Bu kadar!</strong> Artýk online chat bileþenini sitenizde görüntüleyebilirsiniz.</p>

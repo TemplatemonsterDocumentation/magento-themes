@@ -4,33 +4,25 @@
 Per configurare la chat online, segui questa procedura:
 <ol class="index-list">
 	<li>
-		Apri il pannello admin di Magento. Naviga sul menù CMS e clicca su di esso. Dal menù a discesa vai sull'elemento <strong>Widgets</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img1.jpg" alt="" /></figure>
-	</li>
-	<li>
-		Una volta aperta la nuova pagina, clicca sul pulsante <strong>Add new widget instance</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img2.jpg" alt="" /></figure>
+		Apri il pannello admin di Magento. Naviga sul menù CMS e clicca su di esso. Dal menù a discesa vai sull'elemento <strong>Widgets</strong>. Una volta aperta la nuova pagina, clicca sul pulsante <strong>Add new widget instance</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-1.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Sul menù a discesa <strong>Type</strong> seleziona Olark Live Chat, nel menù <strong>Design Package/Theme</strong> seleziona la skin del tuo negozio, da usare anche per la chat. Clicca su <strong>Continue</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img3.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-2.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Ora devi configurare il display della chat online. Prima di tutto, nel campo <strong>Widget Instance Title</strong>, digita il nome del widget, che sarà visualizzato nel pannello admin. Nel campo <strong>Assign to Store Views</strong> devi selezionare la vista store ("store view"), che visualizzerà la  chat. Nel blocco <strong>Layout Updates</strong> clicca sul pulsante <strong>Add Layout Update</strong>. Nel campo <strong>Display On</strong> devi selezionare <strong>All pages</strong>. Per il campo <strong>Block Reference</strong> seleziona la <strong>Main Content Area</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img4.jpg" alt="" /></figure>
+		<figure class="img-polaroid"><img src="img/magento/olark-3.jpg" alt="" /></figure>
 	</li>
 	<li>
 		Segui il link <strong>Widget Options</strong> nella barra laterale di sinistra. Sulla destra vedrai il campo da compilare con <strong>Olark Site-ID</strong>. 
 		Una volta compilato l'<strong>Olark Site-ID</strong>, clicca su <strong>Save</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img5.jpg" alt="" /></figure>		
+		<figure class="img-polaroid"><img src="img/magento/olark-4.jpg" alt="" /></figure>		
 	</li>
 	<li>
-		Nella nuova finestra, naviga sull'elemento menù <strong>System -> Cache Management</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img6.jpg" alt="" /></figure>
-	</li>
-	<li>
-		Nel blocco <strong>Cache Storage Management</strong> seleziona gli elementi <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Assicurati che nel campo <strong>Actions</strong> l'elemento <strong>Refresh</strong> sia selezionato, e poi clicca <strong>Submit</strong>.
-		<figure class="img-polaroid"><img src="img/magento/img7.jpg" alt="" /></figure>
+		Nella nuova finestra, naviga sull'elemento menù <strong>System -> Cache Management</strong>. Nel blocco <strong>Cache Storage Management</strong> seleziona gli elementi <strong>Layouts</strong> e <strong>Blocks HTML output</strong>. Assicurati che nel campo <strong>Actions</strong> l'elemento <strong>Refresh</strong> sia selezionato, e poi clicca <strong>Submit</strong>.
+		<figure class="img-polaroid"><img src="img/magento/olark-5.jpg" alt="" /></figure>
 	</li>
 </ol>						
 <p><strong>Fatto!</strong> Ora puoi visitare il tuo sito e vedere il widget per la chat online.</p>

@@ -143,6 +143,7 @@
         <li>Aby edytować szablon plików z kodem źródłowym, niezbędny jest edytor kodów, np: Adobe Dreamweaver, Notepad ++, Sublime Text, itp.</li>
         <li>Aby przesłać pliki do serwera, może być potrzebny: FTP Manager, Total Commander, FileZilla, CuteFTP, itp.</li>
     </ol>
+    
     <h4>Hosting</h4>
     <p>Jako że Magento Commerce bazuje na PHP/MySQL, musisz przygotować środowisko hostingowe, aby używać Magento.</p>
     <p>Jeśli masz tzw. live hosting, upewnij się, że pasuje do <a href="http://magento.com/resources/system-requirements" target="_blank"> wymagań Magento. </a> I jest gotowy do użycia dla sklepu Magento.</p>

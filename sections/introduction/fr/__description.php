@@ -143,6 +143,7 @@
         <li>Pour modifier les fichiers de code source du template, il vous faut un éditeur de code comme Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>
         <li>Pour uploader des fichiers sur le serveur d'hébergement, vous pouvez avoir besoin d'un Gestionnaire FTP comme Total Commander, FileZilla, CuteFTP, etc.</li>
     </ol>
+    
     <h4>Hébergement</h4>
     <p>Comme Magento Commerce est une application basée sur PHP/MySQL, vous devez préparer un environnement d'hébergement pour faire tourner Magento.</p>
     <p>Si vous avez un hébergeur, assurez-vous qu'il est conforme aux <a href="http://magento.com/resources/system-requirements" target="_blank"> besoins de Magento </a> et qu'il est prêt à être utilisé pour la boutique Magento.</p>

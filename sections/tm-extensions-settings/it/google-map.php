@@ -7,10 +7,10 @@
 	</li>
 	<li>
 		 Il blocco impostazioni <strong>Contacts Map Settings</strong> è per la visualizzazione della mappa direttamente sulla pagina dei contatti.
-		 <figure class="img-polaroid"><img src="img/magento/googlemap.jpg" alt="" /></figure>
+		 <figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Entrambe le sezioni contengono le stesse opzioni per configurare l'aspetto della mappa.<figure class="img-polaroid"><img src="img/magento/googlemap-1.jpg" alt="" /></figure>
+		Entrambe le sezioni contengono le stesse opzioni per configurare l'aspetto della mappa.<figure class="img-polaroid"><img src="img/magento/googlemap-2.jpg" alt="" /></figure>
 	</li>
 </ol>
 <p>Il modulo ha le seguenti opzioni:</p>

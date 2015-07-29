@@ -19,33 +19,108 @@
     <p>İndirmiş olduğunuz tema dosyasında bir kaç klasör bulunmaktadır. İçlerinde neler olduğuna şöyle bir bakalım:</p>
 
     <ul class="files_structure">
-        <li class="folder"><i class="fa fa-folder-open"></i><strong>documentation</strong>
-            - dökümantasyon dosyalarını kapsar.
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder-open"></i> <strong>documentation</strong></dt>
+                <dd> dökümantasyon dosyalarını kapsar.</dd>
+            </dl>
             <ul>
-                <li class="file"><i class="fa fa-file"></i> <strong>documentation.html</strong> - şu anda okumakta olduğunuz ana dökümantasyon dosyası.</li>
-            </ul>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
+                        <dd>
+                            şu anda okumakta olduğunuz ana dökümantasyon dosyası.
+                        </dd>
+                    </dl>
+                </li>
+            </ul>            
         </li>
-        <li class="folder"><i class="fa fa-folder"></i><strong>screenshots</strong>
-             - temaya ait olan görselleri içerir.
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
+                <dd> temaya ait olan görselleri içerir.</dd>
+            </dl>            
         </li>
-        <li class="folder"><i class="fa fa-folder-open"></i><strong>sources</strong>
-             - temanın kaynak dosyalarını içerir.
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                <dd> temanın kaynak dosyalarını içerir.</dd>
+            </dl>
             <ul>
-                <li class="folder"><i class="fa fa-folder"></i> <strong>psd</strong> - temanın (.psd) formatındaki Adobe Photoshop kaynak dosyalarını içerir.</li>
-                <li class="folder"><i class="fa fa-folder"></i> <strong>demo</strong> - temayla gelen ek sayfaları ve örnek kutuları içerir.</li>
-                <li class="folder"><i class="fa fa-folder-open"></i> <strong>sample_data</strong> - Magento temasının örnek veri dosyalarını içerir.
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
+                        <dd>
+                            temanın (.psd) formatındaki Adobe Photoshop kaynak dosyalarını içerir.
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                        <dd>
+                            temayla gelen ek sayfaları ve örnek kutuları içerir.
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                        <dd>
+                            Magento temasının örnek veri dosyalarını içerir.
+                        </dd>
+                    </dl>
                     <ul>
-                        <li class="folder"><i class="fa fa-folder"></i> <strong>media</strong> - Magento'yu kurduğunuz ana dizine yüklemeniz gereken dosya ve dizinleri içerir.</li>
-                        <li class="file"><i class="fa fa-file"></i> <strong>dump.sql.gz</strong> -  veritabanı yedek dosyası. Tema için örnek içerik içerir. </li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dd>
+                                     Magento'yu kurduğunuz ana dizine yüklemeniz gereken dosya ve dizinleri içerir.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dd>
+                                    veritabanı yedek dosyası. Tema için örnek içerik içerir.
+                                </dd>
+                            </dl>
+                        </li>
                     </ul>
                 </li>
             </ul>
         </li>
-        <li class="folder"><i class="fa fa-folder"></i> <strong>theme###</strong> - Magento'yu kurduğunuz ana dizine yüklemeniz gereken tema dosyaları ve dizinleri içerir.</li>
-        <li class="file"><i class="fa fa-file"></i> <strong>fullpackage.zip</strong> - içermektedir Tam Magento kurulum paketi motor dosyaları ile, tema ve örnek içeriği (örnek fotoğraflar).</li>
-        <li class="file"><i class="fa fa-file"></i> <strong>unzip.php</strong> - dosyaları ayıklayabilmek için kullanılan dosya fullpackage.zip hosting sunucusuna yüklendiği zaman.</li>
-        <li class="file"><i class="fa fa-file"></i> <strong>fonts_info.txt</strong> - şablonun özel fontlarını (yazı karakter türü) yükleyebileceğiniz bağlantı adreslerini içerir.</li>
-        <li class="file"><i class="fa fa-file"></i> <strong>info.txt</strong> - kaynak dosyaları nasıl çıkarmanız gerektiğini anlatan bilgiler içerir.</li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                <dd> Magento'yu kurduğunuz ana dizine yüklemeniz gereken tema dosyaları ve dizinleri içerir.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                <dd> içermektedir Tam Magento kurulum paketi motor dosyaları ile, tema ve örnek içeriği (örnek fotoğraflar).</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                <dd> dosyaları ayıklayabilmek için kullanılan dosya fullpackage.zip hosting sunucusuna yüklendiği zaman.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
+                <dd> şablonun özel fontlarını (yazı karakter türü) yükleyebileceğiniz bağlantı adreslerini içerir.</dd>
+            </dl>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
+                <dd> kaynak dosyaları nasıl çıkarmanız gerektiğini anlatan bilgiler içerir.</dd>
+            </dl>            
+        </li>        
     </ul>
 </article>
 <article id="validation">
@@ -68,6 +143,7 @@
         <li>Şablonun kaynak dosyalarını düzenlemek için; Adobe Dreamweaver, Notepad++, Sublime Text gibi bir kod editörüne ihtiyacınız var.</li>
         <li>Dosyaları hosting sunucusuna yüklemek için, Total Commander, FileZilla, CuteFTP gibi bir dosya aktarım programına ihtiyacınız var.</li>
     </ol>
+    
     <h4>Hosting (Site barındırma)</h4>
     <p>Magento Commerce, PHP/MySQL tabanlı bir uygulama olduğu için Magento'nun çalışabileceği bir barındırma sistemi kullanmanız gerekir.</p>
     <p>Eğer kullanmakta olduğunuz bir hosting servisi varsa,<a href="http://magento.com/resources/system-requirements" target="_blank"> Magento gereksinimleri </a> ni karşıladığına ve Magento mağazası için kullanıma hazır olduğuna emin olunuz.</p>

@@ -2,32 +2,25 @@
 <p>Będziemy przeglądać opcje konfiguracyjne szablonu w oparciu o przykład. Jest on skonfigurowany tak samo jak nasz Live Demo szablon, bez wpływu na rzeczywiste dane.</p>
 <h4>Aktywuj nowy szablon</h4>
 <ol class="index-list">
-	<li>Otwórz panel administratora i przejdź do <b>System > Design</b> w górnym menu.</li>
-	<li>Kliknij przycisk "<b>Add Design Change</b>".</li>
-	<li>W polu "<b>Custom Design</b>" wybierz nazwę szablonu (np: szablon###).</li>
-	<li>Kliknij przycisk "<b>Save</b>", aby zatwierdzić zmiany.</li>
+	<li>Otwórz panel administratora i przejdź do <strong>System > Design</strong> w górnym menu. <figure class="img-polaroid"><img src="img/magento/Theme-set-1.jpg" alt="" /></figure></li>
+	<li>Kliknij przycisk "<strong>Add Design Change</strong>". <figure class="img-polaroid"><img src="img/magento/Theme-set-2.jpg" alt="" /></figure></li>
+	<li>W polu "<strong>Custom Design</strong>" wybierz nazwę szablonu (np: szablon###). Kliknij przycisk "<strong>Save</strong>", aby zatwierdzić zmiany.<figure class="img-polaroid"><img src="img/magento/Theme-set-3.jpg" alt="" /></figure></li>
 </ol>
-<figure class="img-polaroid"><img src="img/magento/Theme-set1.png" alt="" /></figure>
-<figure class="img-polaroid"><img src="img/magento/Theme-set2.png" alt="" /></figure>
-<figure class="img-polaroid"><img src="img/magento/Theme-set3.png" alt="" /></figure>
 
 <h4>Dane "Reindex data"</h4>
 <ol class="index-list">
-	<li>Otwórz panel administratora Magento, następnie w górnym menu wybierz <b>System > Index Management</b>.</li>
-	<li>Zaznacz pole "<b>Select All</b>" w lewym górnym rogu.</li>
-	<li>W polu "<b>Actions</b>" wybierz "<b>Reindex Data</b>".</li>
-	<li>Kliknij przycisk "<b>Submit</b>".</li>
+	<li>Otwórz panel administratora Magento, następnie w górnym menu wybierz <strong>System > Index Management</strong>.<figure class="img-polaroid"><img src="img/magento/Theme-set-4.jpg" alt="" /></figure></li>
+	<li>Zaznacz pole "<strong>Select All</strong>" w lewym górnym rogu.<figure class="img-polaroid"><img src="img/magento/Theme-set-5.jpg" alt="" /></figure></li>
+	<li>W polu "<strong>Actions</strong>" wybierz "<strong>Reindex Data</strong>".</li>
+	<li>Kliknij przycisk "<strong>Submit</strong>".</li>
 	<li>Prosimy o cierpliwość, może to chwilę potrwać.</li>
 </ol>
-<figure class="img-polaroid"><img src="img/magento/Theme-set4.png" alt="" /></figure>
-<figure class="img-polaroid"><img src="img/magento/Theme-set5.png" alt="" /></figure>
 
 <h4>Wyłączanie cache </h4>
 <p>Aby zmiany pojawiły się na Twojej stronie internetowej, musisz wyłączyć cache. Zapobiega to dodatkowemu czyszczeniu cache po każdej zmianie dokonanej przez Ciebie. Możesz cache włączyć ponownie po skończeniu dokonywania zmian w Twoim sklepie.</p>
 <ol class="index-list">
-	<li>Otwórz panel administratora Magento i przejdź do <b>System > Cache Management</b> w górnym menu.</li>
-	<li>W lewym górnym rogu kliknij "<b>Select All</b>".</li>
-	<li>Po prawej stronie w polu "<b>Actions</b>" wybierz "<b>Disable</b>".</li>
-	<li>Kliknij przycisk "<b>Submit</b>".</li>
+	<li>Otwórz panel administratora Magento i przejdź do <strong>System > Cache Management</strong> w górnym menu.<figure class="img-polaroid"><img src="img/magento/Theme-set-6.jpg" alt="" /></figure></li>
+	<li>W lewym górnym rogu kliknij "<strong>Select All</strong>".<figure class="img-polaroid"><img src="img/magento/Theme-set-7.jpg" alt="" /></figure></li>
+	<li>Po prawej stronie w polu "<strong>Actions</strong>" wybierz "<strong>Disable</strong>".</li>
+	<li>Kliknij przycisk "<strong>Submit</strong>".</li>
 </ol>
-<figure class="img-polaroid"><img src="img/magento/Theme-set8.png" alt="" /></figure>		

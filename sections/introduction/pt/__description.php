@@ -144,6 +144,7 @@
         <li>Para editar arquivos de código fonte, você vai precisar de um editor de códigos como Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>
         <li>Para subir arquivos para o servidor de hospedagem você vai precisar de um gerenciador de FTP como Total Commander,  FileZilla, CuteFTP, etc.</li>
     </ol>
+    
     <h4>Hospedagem</h4>
     <p>O Magento Commerce é um programa desenvolvido com PHP/MySQL, você precisa preparar um ambiente de hospedagem para rodá-lo.</p>
     <p>Se você tem uma hospedagem que você administra, certifique-se de que ela está de acordo com os <a href="http://magento.com/resources/system-requirements" target="_blank">requisitos mínimos do Magento</a>.</p>
