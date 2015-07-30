@@ -15,10 +15,8 @@ if (!isset($sections)) {
     <meta name="format-detection" content="telephone=no"/>
     <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v2-0/"/>
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/grid.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
-    <link href='//fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $path; ?>/css/prettify.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
 
@@ -35,7 +33,6 @@ if (!isset($sections)) {
     <script src="/js/html5shiv.js"></script>
     <![endif]-->
 
-    <script src='<?php echo $path; ?>/js/device.min.js'></script>
 </head>
 <body  data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
 <div class="page-wrap">
@@ -120,12 +117,14 @@ if (!isset($sections)) {
 <script src="<?php echo $path; ?>/js/jquery.js"></script>
 <script src="<?php echo $path; ?>/js/jquery-migrate-1.2.1.js"></script>
 <script src="<?php echo $path; ?>/js/jquery.easing.1.3.js"></script>
+<script src='<?php echo $path; ?>/js/device.min.js'></script>
 <script src="<?php echo $path; ?>/js/jquery.rd-navbar.js"></script>
 <script src="<?php echo $path; ?>/js/prettify.js"></script>
 <script src="<?php echo $path; ?>/js/jquery.fancybox.js"></script>
 <script src="<?php echo $path; ?>/js/jquery.ui.totop.js"></script>
 <script src="<?php echo $path; ?>/js/owl.carousel.min.js"></script>
 
+<script src="<?php echo $path; ?>/js/script.js"></script>
 <script>
     /* Section Class
      ========================================================*/
@@ -150,7 +149,6 @@ if (!isset($sections)) {
 </script>
 
 
-<script src="<?php echo $path; ?>/js/script.js"></script>
 
 </body>
 </html>
