@@ -9,20 +9,20 @@
   line-height: 34px;
 
   &.alert-success {
-    border-color: #A5D6A7;
-    color: #A5D6A7;
+    border-color: #189479;
+    color: #189479;
   }
   &.alert-info {
-    border-color: #1D88DE;
-    color: #1D88DE;
+    border-color: #177196;
+    color: #177196;
   }
   &.alert-warning {
-    border-color: #FF9700;
-    color: #FF9700;
+    border-color: #FFB22D;
+    color: #FF9100;
   }
   &.alert-danger {
-    border-color: #B71C1C;
-    color: #B71C1C;
+    border-color: #ef3f23;
+    color: #ef3f23;
   }
 
   @media (max-width: 479px) {

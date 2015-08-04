@@ -303,7 +303,7 @@ h1 {
 h2 {
   font-size: 45px;
   line-height: 1.37;
-  color: $color-1;
+  color: $color-2;
   margin-top: 60px;
   margin-bottom: 20px;
 
@@ -313,7 +313,7 @@ h2 {
 }
 
 h3 {
-  color: $color-1;
+  color: $color-2;
   font-size: 34px;
   line-height: 1.47;
   margin-top: 60px;
@@ -380,7 +380,7 @@ article {
   }
 
   a {
-    color: $color-1;
+    color: $color-2;
 
     &:hover {
       text-decoration: underline;
