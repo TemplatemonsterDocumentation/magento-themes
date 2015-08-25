@@ -10,7 +10,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
 
 // Variables
 $product_name = "Magento";
-$product_desc = "Documentation";
+$product_desc = "Documentation v3-0";
 $doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';
