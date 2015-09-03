@@ -70,35 +70,7 @@
 				"pl":"Mega menu",
 				"pt":"Mega menu"
 			}
-		},		
-		{
-			"id":"parallax",
-			"translations":{
-				"en":"Parallax",
-				"ru":"Параллакс",
-				"tr":"Parallax",
-				"de":"Parallax",
-				"es":"Parallax",
-				"fr":"Parallax",
-				"it":"Parallasse",
-				"pl":"Parallax",
-				"pt":"Parallax"
-			}
-		},		
-		{
-			"id":"background-video",
-			"translations":{
-				"en":"Background Video",
-				"ru":"Фоновое видео",
-				"tr":"Background Video",
-				"de":"Hintergrundvideo",
-				"es":"Background Video",
-				"fr":"Vidéo de fond",
-				"it":"Video su sfondo",
-				"pl":"Video w Tle",
-				"pt":"Background Video"
-			}
-		},		
+		},	
 		{
 			"id":"cookies-policy",
 			"translations":{

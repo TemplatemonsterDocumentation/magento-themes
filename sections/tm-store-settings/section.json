@@ -1,0 +1,25 @@
+{
+	"id":"tm-store-settings",
+	"translations":
+	{
+		"ru":"Настройка темы Ketty",
+		"en":"Ketty theme configuration"
+	},
+	"articles":
+	[		
+		{
+			"id":"contacts-configuration",
+			"translations":{
+				"ru":"Настройка страницы контактов",
+				"en":"Contact page configuration"
+			}
+		},
+		{
+			"id":"about-configuration",
+			"translations":{
+				"ru":"Настройка страницы About",
+				"en":"About page configuration"
+			}
+		}
+	]
+}

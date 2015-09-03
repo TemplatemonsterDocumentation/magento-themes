@@ -14,6 +14,41 @@
     <p>Magento theme is a complete design for your online store based on Magento engine. In other words, you can easily change your Magento shop appearance by installing a new theme in a few easy steps. With all of its simplicity a Magento theme is provided with all the necessary source files that you can edit or extend the way you need.</p>
 </article>
 
+<article id="updatabletheme">
+    <h3>Ketty theme</h3>
+    <p>We are glad to present a new updated design and functionality of the premium theme. </p>
+    <h4>Changelog</h4>
+    <h6>Major Update:</h6>
+    <ul class="line-list">
+        <li>Released the theme package compatible with 1.9.2.1 Magento engine version;</li>
+        <li>Added configurable swatches product demo.</li>
+    </ul>
+    <h6>Other updates:</h6>
+    <ul class="line-list">
+        <li>Added the About Us page 2;</li>
+        <li>Added the Contact us page 2;</li>
+        <li>Added the Warranty page;</li>
+        <li>Added the Shipping &amp; Delivery page;</li>
+        <li>Added the 24/7 Support page;</li>
+        <li>Added the 404 page;</li>
+        <li>Aded the FAQ page;</li>
+        <li>Released the Ketty Newsletter template;</li>
+        <li>Added new subpages and product pages designs.</li>
+    </ul>
+    <p>The content of template package differs from our standard Magento templates so let us help you to deal with it. </p>
+    <p>The archive contains two folders :</p>
+    <ul class="marked-list">
+        <li><strong>magento_1.9x_v.1.0</strong></li>
+        <li><strong>magento_1.9x_v.2.0</strong></li>
+    </ul>
+    <p><strong>magento_1.9x_v.1.0</strong> folder contains the theme for Magento 1.9.1.0 version based on standard theme. This theme was available for purchase earlier.</p>
+    <p><strong>magento_1.9x_v.2.0</strong> folder contains updated theme for Magento 1.9.2.1 version based on RWD theme. This theme includes updated subpages design and Configurable swatches functionality.</p>
+    <div class="alert alert-warning">
+        <p>Old theme is not compatible with the new theme. Do not upload new theme over the old one.</p>
+    </div>
+    <p>To get more information on how to configure pages, check the following topics: <strong>Magento theme installation</strong> and <strong>Unique theme configuration</strong>.</p>
+</article>
+
 <article id="file_structure">
     <h4>Magento files structure</h4>
 
@@ -26,7 +61,7 @@
                 <dd> contains documentation files.</dd>
             </dl>
             <ul>
-                <li>
+                <li class="last-example">
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
@@ -44,71 +79,133 @@
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
-                <dd> contains the theme source files.</dd>
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.1.0</strong></dt>
+                <dd> contains old template version files based on <strong>base -> default</strong> Magento 1.9.x. theme.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
-                        <dd>
-                            contains the theme Adobe Photoshop source files (.psd).
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
-                        <dd>
-                            contains additional pages and custom blocks provided with the theme.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
-                        <dd>
-                            contains Magento theme sample data files.
-                        </dd>
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> contains the theme source files.</dd>
                     </dl>
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
                                 <dd>
-                                    contains files and directories that should be uploaded to the root directory of your Magento installation.
+                                    contains additional pages and custom blocks provided with the theme.
                                 </dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="last-example">
                             <dl class="inline-term">
-                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
                                 <dd>
-                                    the database backup file. Contains the theme sample content.
+                                    contains Magento theme sample data files.
                                 </dd>
                             </dl>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            contains files and directories that should be uploaded to the root directory of your Magento installation.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            the database backup file. Contains the theme sample content.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                </li>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> contains Magento theme files and directories that should be uploaded to the root directory of your Magento installation.</dd>
+                    </dl>            
+                </li>
+            </ul>            
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.2.0</strong></dt>
+                <dd> contains new template version files based on <strong>RWD -> default</strong>  Magento 1.9.x. theme.</dd>
+            </dl>
+            <ul>                
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>newsletter</strong></dt>
+                        <dd> contains files and folders of the newsletter template created specifically to fit this exact theme design.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> contains the theme source files.</dd>
+                    </dl>
+                    <ul>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                                <dd>
+                                    contains additional pages and custom blocks provided with the theme.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="last-example">
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                                <dd>
+                                    contains Magento theme sample data files.
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            contains files and directories that should be uploaded to the root directory of your Magento installation.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            the database backup file. Contains the theme sample content.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
-            </ul>
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
-                <dd> contains Magento theme files and directories that should be uploaded to the root directory of your Magento installation.</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
-                <dd> contains the complete Magento installation package with engine files, theme and sample content (sample images).</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> the file used to extract files from the fullpackage.zip when uploaded to the hosting server.</dd>
-            </dl>            
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> contains Magento theme files and directories that should be uploaded to the root directory of your Magento installation.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                        <dd> contains the complete Magento installation package with engine files, theme and sample content (sample images).</dd>
+                    </dl>            
+                </li>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                        <dd> the file used to extract files from the fullpackage.zip when uploaded to the hosting server.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
@@ -116,7 +213,7 @@
                 <dd> contains the links where the template custom fonts can be downloaded.</dd>
             </dl>            
         </li>
-        <li>
+        <li class="last-example">
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
                 <dd> contains instructions on how to extract source files.</dd>

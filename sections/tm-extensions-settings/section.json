@@ -27,49 +27,7 @@
 				"pl":"Mapy Google",
 				"pt":"Google Map"
 			}
-		},		
-		{
-			"id":"facebook-like-box",
-			"translations":{
-				"en":"Facebook like box",
-				"ru":"Facebook like box",
-				"tr":"Facebook like box",
-				"de":"Facebook like box",
-				"es":"Bot&oacute;n Me Gusta de Facebook",
-				"fr":"Like Box de Facebook",
-				"it":"Casella Facebook Mi Piace",
-				"pl":"Moduł Facebook like box",
-				"pt":"Caixa de Curtidas do Facebook"
-			}
-		},		
-		{
-			"id":"instagram-module",
-			"translations":{
-				"en":"Instagram module",
-				"ru":"Instagram module",
-				"tr":"Instagram modülü",
-				"de":"Instagram module",
-				"es":"M&oacute;dulo de Instagram",
-				"fr":"Module Instagram",
-				"it":"Modulo Instagram",
-				"pl":"Moduł Instagram",
-				"pt":"Módulo do Instagram"
-			}
-		},		
-		{
-			"id":"twitter-module",
-			"translations":{
-				"en":"Twitter module",
-				"ru":"Twitter module",
-				"tr":"Twitter modülü",
-				"de":"Twitter module",
-				"es":"M&oacute;dulo de Twitter",
-				"fr":"Module Twitter",
-				"it":"Modulo Twitter",
-				"pl":"Moduł Twitter",
-				"pt":"Módulo do Twitter"
-			}
-		},		
+		},
 		{
 			"id":"newsletter-popup",
 			"translations":{
@@ -83,21 +41,7 @@
 				"pl":"Moduł Newsletter popup",
 				"pt":"Newsletter popup"
 			}
-		},		
-		{
-			"id":"special-price-countdown",
-			"translations":{
-				"en":"Special price countdown",
-				"ru":"Special price countdown",
-				"tr":"Special price countdown",
-				"de":"Special price countdown",
-				"es":"Cuenta atr&aacute;s de precios especiales",
-				"fr":"Compte à Rebours du Prix Spécial",
-				"it":"Conto alla rovescia prezzo speciale",
-				"pl":"Motyw Special price countdown",
-				"pt":"Contador de descontos"
-			}
-		},		
+		},	
 		{
 			"id":"product-list-gallery",
 			"translations":{

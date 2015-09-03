@@ -468,9 +468,11 @@ b, strong {
 }
 
 .files_structure {
+	position: relative;
   li {
-    .fa {
-      margin-top: 3px;
+  	position: relative;
+  	padding-left: 20px;
+    .fa {      
       margin-right: 10px;
       color: lighten($color-1, 10%);
       font-size: 16px;
@@ -478,11 +480,41 @@ b, strong {
     ul {
       margin-left: 20px;
     }
+    &:before {
+	  	content: '';
+	    position: absolute;
+	    width: 1px;
+	    height: 100%;
+	    top: 11px;
+	    left: 0;
+	    background-color: #dfdfdf;
+	  }
+	  &:after {
+  		content: '';
+	    position: absolute;
+	    width: 14px;
+	    height: 1px;
+	    top: 11px;
+	    left: 0;
+	    background-color: #dfdfdf;
+  	}
+  	&.last-example:before {
+			display: none;
+  	}
+  	> li { 
+  		li:after {
+	  		width: 50px;
+	  		left: -40px;
+  		}
+  		li:before {
+				display: none;
+  		}
+  	} 		  
   }
 
   li:first-child, li{
-    margin-top: 10px;
-  }
+    padding-bottom: 10px;
+  }  
 }
 
 .inline-term{
@@ -504,6 +536,7 @@ b, strong {
       left: 5px;
       content: '–';
     }
+
   }
 }
 
@@ -558,6 +591,23 @@ b, strong {
 
     & + li { margin-top: 10px; }
   }
+}
+
+/*===============  Line List   ==================*/
+.line-list{ 
+  > li {
+    position: relative;
+    padding-left: 20px;
+    margin-left: 20px;
+    &:before{
+      content: '–';
+      position: absolute;
+      top: 0px;
+      left: 2px;
+    }
+  }
+
+  & + li { margin-top: 10px; }
 }
 
 /*==================== Search ====================*/
