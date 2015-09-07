@@ -1,0 +1,1 @@
+<h2 class="item1">Ajustes de Extensiones Estándar</h2>

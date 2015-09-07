@@ -1,0 +1,10 @@
+<h3>Cookie-Politik</h3> 
+<p>Cookies sind kleine Textdateien, die die Webseiten auf den Computern der Besucher platzieren. Gewöhnlich werden sie zur Kundenidentifikation benutzt und sie erleichtern auch die Benutzung der Webseite. Cookies sind ein fester Bestandteil der Funktionen der Webseite, die wir immer nutzen. </p> 
+<p>Zum Beispiel, mittels Cookie speichern Online-Shops diejenigen Produkte, die Sie in den Warenkorb hinzugefügt haben. Cookies ermöglichen auch den Benutzern "im System" auf der Webseite zu bleiben und den Inhabern der Webseite die wichtige Information und Statistik über die Besucher zu bekommen.</p> 
+<p>Wenn Sie die Webseite haben, wird Cookie höchstwahrscheinlich auf dieser Webseite benutzt. Cookie wird meistens benutzt, um die Menge und Verhalten der Besucher zu folgen (indem man Werkzeuge Google Analytics nutzt). Man nutzt Cookies, um die aktuellen Angebote für die Besucher anzuzeigen. Cookies werden auch benutzt, damit die Werkzeuge des Online-Shops funktionieren können.</p> 
+<p>Am 26. Mai 2012 ICO Organisation hat die Änderungen zu den Rechtsvorschriften über Cookies veröffentlicht. Seitdem "diese Vereinbarung" erlaubt wurde, müssen Sie unbedingt zeigen, wo auf der Webseite Ihre Datenschutzrichtlinie und Cookies sind.</p> 
+<p>Indem Sie allen Rechtsvorschriften der Cookies folgen, müssen Sie entsprechende Module auf Ihre Webseite hinzufügen, die die Warnung vor dem Cookie anzeigen werden (die auf der Webseite benutzt werden). Wie empfehlen die folgenden Module:</p> 
+<ul class="marked-list">
+	<li><a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/16691/" target="_blank">Erstellen Sie den Banner, der dem Cookie Gesetz entspricht </a></li> 
+	<li><a href="http://www.magentocommerce.com/magento-connect/eu-cookie-law-compliance-implied-consent.html" target="_blank">EU Gesetz über Cookie - eine stillschweigende Zustimmung</a></li>
+</ul>
