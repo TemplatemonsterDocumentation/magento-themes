@@ -1,5 +1,5 @@
 <h3>Blog</h3>			
-Istnieje możliwość dodania Bloga do Twojej strony.
+Istnieje możliwość dodania Bloga(<a href="http://ecommerce.aheadworks.com/?cmid=SVhUd01JTTdDZ1k9&afid=Y0ZHc2wwaWlRYkU9&ats=YnJLMTBpcnFJ­N2M9">AHEADWORKS EXTENSIONS</a>) do Twojej strony.
 <ol class="index-list">
 	<li>
 		Ustawienia Bloga można znaleźć w <strong>Blog > Settings</strong>, lub <strong>System > Configuration > AHEADWORKS EXTENSIONS > Blog</strong>.	

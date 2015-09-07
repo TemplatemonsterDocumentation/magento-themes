@@ -1,5 +1,5 @@
 <h3>Olark Live Chat</h3>
-<p>Þablondaki on-line destek özelliðini kullanabilmek için öncelikle <a href="https://www.olark.com/signup/create_new_account" target="blank_">resmi site</a> den kayýt olmalýsýnýz. Gerekli alanlarý doldurduktan sonra bir adet özgün <strong>Olark Site-ID</strong> ye sahip olacaksýnýz.</p>
+<p>Þablondaki on-line destek özelliðini kullanabilmek için öncelikle <a href="http://special.olark.com/cDqdW" target="blank_">resmi site</a> den kayýt olmalýsýnýz. Gerekli alanlarý doldurduktan sonra bir adet özgün <strong>Olark Site-ID</strong> ye sahip olacaksýnýz.</p>
 <div class="alert alert-info"><span>Dilerseniz bronz paketin 6 aylýk deneme sürüne de sahip olabilirsiniz. Bunun için <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">bu adresteki</a> alanlarý doldurmanýz gerekir.</span></div>
 Online chat ayarlarýný yapmak için:
 <ol class="index-list">

@@ -1,5 +1,5 @@
 <h3>Blog</h3>			
-<p>Essa é a oportunidade de incluir um Blog no seu site.</p>
+<p>Essa é a oportunidade de incluir um Blog(<a href="http://ecommerce.aheadworks.com/?cmid=SVhUd01JTTdDZ1k9&afid=Y0ZHc2wwaWlRYkU9&ats=YnJLMTBpcnFJ­N2M9">AHEADWORKS EXTENSIONS</a>) no seu site.</p>
 <ol class="index-list">
 	<li>
 		Definições do blog podem ser encontradas em <strong>Blog > Settings</strong>, ou em <strong>System > Configuration > AHEADWORKS EXTENSIONS > Blog</strong>.

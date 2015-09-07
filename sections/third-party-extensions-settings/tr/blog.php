@@ -1,5 +1,5 @@
 <h3>Blog</h3>			
-Sitenize bir blog ekleyebilirsiniz.
+Sitenize bir blog(<a href="http://ecommerce.aheadworks.com/?cmid=SVhUd01JTTdDZ1k9&afid=Y0ZHc2wwaWlRYkU9&ats=YnJLMTBpcnFJ­N2M9">AHEADWORKS EXTENSIONS</a>) ekleyebilirsiniz.
 <ol class="index-list">
 	<li>
 		Blog ayarları <strong>Blog > Ayarlar</strong>, veya <strong>Sistem > Ayarlar > AHEADWORKS EXTENSIONS > Blog</strong> kısmında yer alır.

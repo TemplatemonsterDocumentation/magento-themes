@@ -1,5 +1,5 @@
 <h3>Olark Live Chat</h3>
-<p>Per utilizzare la funzione di chat online integrata al template, devi aprire un account sul <a href="https://www.olark.com/signup/create_new_account" target="blank_">sito</a> ufficiale, compilando tutti i campi necessari per poi ricevere il codice <strong>Olark Site-ID</strong>.</p>
+<p>Per utilizzare la funzione di chat online integrata al template, devi aprire un account sul <a href="http://special.olark.com/cDqdW" target="blank_">sito</a> ufficiale, compilando tutti i campi necessari per poi ricevere il codice <strong>Olark Site-ID</strong>.</p>
 <div class="alert alert-info"><span>Hai la possibilità di ottenere un pacchetto di prova di 6 mesi, il 'bronze package', cliccando su questo <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">link</a> e inserendo tutti i dati per l'iscrizione.</span></div>
 Per configurare la chat online, segui questa procedura:
 <ol class="index-list">

@@ -1,5 +1,5 @@
 <h3>Blog</h3>			
-Sie haben die Möglichkeit den Blog zu Ihrer Webseite hinzuzufügen.
+Sie haben die Möglichkeit den Blog(<a href="http://ecommerce.aheadworks.com/?cmid=SVhUd01JTTdDZ1k9&afid=Y0ZHc2wwaWlRYkU9&ats=YnJLMTBpcnFJ­N2M9">AHEADWORKS EXTENSIONS</a>) zu Ihrer Webseite hinzuzufügen.
 <ol class="index-list">
 	<li>
 		Die Einstellungen für den Blog befinden sich im Menü <strong>Blog > Settings</strong>, oder <strong>System > Configuration > AHEADWORKS EXTENSIONS > Blog</strong>.

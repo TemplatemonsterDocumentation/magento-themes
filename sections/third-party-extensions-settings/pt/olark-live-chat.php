@@ -1,5 +1,5 @@
 <h3>Chat Olark em tempo real</h3>
-<p>Para ativar o bate-papo instantâneo como existe na versão de demonstração, você vai precisar se registrar no site oficial do <a target="_blank" href="http://www.olark.com/?r=ad8fbsj2">Olark</a>. Depois de terminar seu cadastro, você receberá um código para adicionar no painel administrativo (<strong>Olark Site-ID</strong>).</p>
+<p>Para ativar o bate-papo instantâneo como existe na versão de demonstração, você vai precisar se registrar no site oficial do <a target="_blank" href="http://special.olark.com/cDqdW">Olark</a>. Depois de terminar seu cadastro, você receberá um código para adicionar no painel administrativo (<strong>Olark Site-ID</strong>).</p>
 <div class="alert alert-info"><span>Você tem direito ao período de testes de 6 meses no pacote bronze. Entre <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">neste link</a>, e preencha as informações no cadastro.</span></div>
 Para configurar o bate-papo, siga estes passos:
 <ol class="index-list">

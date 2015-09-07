@@ -1,5 +1,5 @@
 <h3>Olark czat na żywo</h3>
-<p>Musisz zarejestrować się na oficjalnej stronie <a href="https://www.olark.com/signup/create_new_account" target="blank_">.</a> W celu wykorzystania wbudowanego w szablon czata on-line należy wypełnić wszystkie wymagane informacje i uzyskać kod <strong>Olark Site-ID</strong>.</p>
+<p>Musisz zarejestrować się na oficjalnej stronie <a href="http://special.olark.com/cDqdW" target="blank_">.</a> W celu wykorzystania wbudowanego w szablon czata on-line należy wypełnić wszystkie wymagane informacje i uzyskać kod <strong>Olark Site-ID</strong>.</p>
 <div class="alert alert-info"><span>Możesz uzyskać bezpłatną próbną wersję 6-miesięcznego pakietu brązowego. Aby uzyskać pakiet, kliknij  <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">link</a>, wypełnij swoimi danymi rejestracyjnymi.</span></div>
 Aby skonfigurować czat on-line, wykonaj następujące kroki:
 <ol class="index-list">

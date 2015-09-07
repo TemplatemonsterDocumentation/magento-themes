@@ -1,5 +1,5 @@
 <h3>Olark Live Chat</h3>
-<p>You need to register on official <a href="https://www.olark.com/signup/create_new_account" target="blank_">website</a> in order to use on-line chat built in the template, fill in all the required information and receive the code <strong>Olark Site-ID</strong>.</p>
+<p>You need to register on official <a href="http://special.olark.com/cDqdW" target="blank_">website</a> in order to use on-line chat built in the template, fill in all the required information and receive the code <strong>Olark Site-ID</strong>.</p>
 <div class="alert alert-info"><span>You can get a free trial 6-month bronze package. In order to get it follow the <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">link</a>, fill in your registration data.</span></div>
 In order to configure the on-line chat, you need to perform following steps:
 <ol class="index-list">

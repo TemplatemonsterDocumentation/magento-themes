@@ -1,5 +1,5 @@
 <h3>Blog</h3>			
-<p>There is an opportunity to add Blog to your website.</p>
+<p>There is an opportunity to add Blog(<a href="http://ecommerce.aheadworks.com/?cmid=SVhUd01JTTdDZ1k9&afid=Y0ZHc2wwaWlRYkU9&ats=YnJLMTBpcnFJ­N2M9">AHEADWORKS EXTENSIONS</a>) to your website.</p>
 <ol class="index-list">
 	<li>
 		Blog settings can be found in <strong>Blog > Settings</strong>, or <strong>System > Configuration > AHEADWORKS EXTENSIONS > Blog</strong>.	

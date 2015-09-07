@@ -1,5 +1,5 @@
 <h3>Olark Live Chat</h3>
-<p>Для использования онлайн чата в шаблоне вам необходимо зарегистрироваться на официальном <a href="https://www.olark.com/signup/create_new_account" target="blank_">сайте</a> , ввести все необходимые данные и получить код <strong>Olark Site-ID</strong>.</p>
+<p>Для использования онлайн чата в шаблоне вам необходимо зарегистрироваться на официальном <a href="http://special.olark.com/cDqdW" target="blank_">сайте</a> , ввести все необходимые данные и получить код <strong>Olark Site-ID</strong>.</p>
 <div class="alert alert-info"><span>Вы также можете получить пробный бесплатный 6-месячный бронзовый пакет. Для этого перейдите по <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="_blank">ссылке</a> и внесите свои регистрационные данные.</span></div>
 Чтобы настроить онлайн чат, вам необходимо сделать несколько шагов:
 <ol class="index-list">

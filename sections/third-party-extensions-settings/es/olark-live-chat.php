@@ -1,5 +1,5 @@
 <h3>Chat en Vivo de Olark</h3>
-<p>Es necesario registrarse en el <a href="https://www.olark.com/signup/create_new_account" target="blank_">sitio web</a> oficial para utilizar el chat en l&iacute;nea integrado en la plantilla, indique toda la informaci&oacute;n necesaria para recibir el c&oacute;digo <strong>Olark Site-ID</strong>.</p>
+<p>Es necesario registrarse en el <a href="http://special.olark.com/cDqdW" target="blank_">sitio web</a> oficial para utilizar el chat en l&iacute;nea integrado en la plantilla, indique toda la informaci&oacute;n necesaria para recibir el c&oacute;digo <strong>Olark Site-ID</strong>.</p>
 <div class="alert alert-info"><span>Puede obtener el paquete bronce de 6 meses de prueba totalmente gratis. Para ello vaya al siguiente <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">enlace</a>, indique sus datos para completar el registro.</span></div>
 Para configurar el chat en l&iacute;nea, necesita realizar los siguientes pasos:
 <ol class="index-list">

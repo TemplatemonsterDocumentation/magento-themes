@@ -1,5 +1,5 @@
 <h3>Olark Live Chat</h3>
-<p>Um Live Chat in der Vorlage nutzen zu können, sollen Sie sich auf auf der offiziellen <a href="https://www.olark.com/signup/create_new_account" target="blank_">Webseite</a> registrieren, alle notwendigen Daten eingeben und den Code <strong>Olark Site-ID</strong> erhalten.</p>
+<p>Um Live Chat in der Vorlage nutzen zu können, sollen Sie sich auf auf der offiziellen <a href="http://special.olark.com/cDqdW" target="blank_">Webseite</a> registrieren, alle notwendigen Daten eingeben und den Code <strong>Olark Site-ID</strong> erhalten.</p>
 <div class="alert alert-info"><span>Sie können auch ein kostenloses Bronzepaket, das 6 Monate gültig ist, erhalten. Dazu sollen Sie dem Link <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="blank_">folgen</a> und Ihre Registrierungsdaten eingeben.</span></div>
 Um Live Chat einzustellen, führen Sie die folgenden Schritte aus:
 <ol class="index-list">
