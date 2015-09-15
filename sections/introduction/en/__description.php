@@ -6,7 +6,7 @@
 
 <article id="whatismagento">
     <h3>What is Magento Commerce?</h3>
-    <p>Magento is a feature-rich eCommerce platform built with open-source technology. It provides flexibility and control over the look, content and functionality of the eCommerce store. Magento’s intuitive administration interface features powerful marketing, search engine optimization and catalog-management tools to give merchants the power to create sites that are tailored to their unique business needs. Designed to be completely scalable and backed by Varien's support network, Magento offers companies the ultimate eCommerce solution. <a href="http://www.magentocommerce.com/download" target="_blank">More information</a></p>
+    <p>Magento is a feature-rich eCommerce platform built with open-source technology. It provides flexibility and control over the look, content and functionality of the eCommerce store. Magento’s intuitive administration interface features powerful marketing, search engine optimization and catalog-management tools to give merchants the power to create sites that are tailored to their unique business needs. Designed to be completely scalable and backed by Varien's support network, Magento offers companies the ultimate eCommerce solution. <a href="http://www.magentocommerce.com/download" target="_blank">More information</a>.</p>
 </article>
 
 <article id="whatismagentotheme">
@@ -31,10 +31,20 @@
         <li>Added the Shipping &amp; Delivery page;</li>
         <li>Added the 24/7 Support page;</li>
         <li>Added the 404 page;</li>
-        <li>Aded the FAQ page;</li>
+        <li>Added the FAQ page;</li>
         <li>Released the Ketty Newsletter template;</li>
         <li>Added new subpages and product pages designs.</li>
     </ul>
+    <h6>Ketty v2.1(September 14, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 2;</li>
+        <li>Added the Blog layout 3;</li>
+        <li>Added the Special Price countdown;</li>
+        <li>Bug fixes.</li>
+    </ul>
+
     <p>The content of template package differs from our standard Magento templates so let us help you to deal with it. </p>
     <p>The archive contains two folders :</p>
     <ul class="marked-list">
@@ -46,7 +56,13 @@
     <div class="alert alert-warning">
         <p>Old theme is not compatible with the new theme. Do not upload new theme over the old one.</p>
     </div>
-    <p>To get more information on how to configure pages, check the following topics: <strong>Magento theme installation</strong> and <strong>Unique theme configuration</strong>.</p>
+    
+    <h4>Template update</h4>
+    <p>Each update includes separate database dump that contains main page settings, blog and category page settings.</p> 
+
+    <p>There will be no visual design changes if you don't perform dump re-import. However you will see <strong>TM Store Setting</strong> seciton in admin panel where you can partially configure layout appearance. All the other settings should be configured as per the instructions in <strong>Ketty Theme Configuration</strong> section.</p>
+
+    <p>To get more information on how to configure pages, check the following topics: <strong>Magento theme installation</strong> and <strong>Ketty theme configuration</strong>.</p>
 </article>
 
 <article id="file_structure">
@@ -175,11 +191,19 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
+                                        <dd>
+                                            database backup. Contains demo data only for the first template layout (update).
+                                        </dd>
+                                    </dl>
+                                </li>
                                 <li class="last-example">
                                     <dl class="inline-term">
-                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            the database backup file. Contains the theme sample content.
+                                            database backup. Contains demo data only for the second template layout (update).
                                         </dd>
                                     </dl>
                                 </li>

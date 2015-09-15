@@ -1,2 +1,2 @@
-#Magento New Theme Documentation
-New Theme Documentation
+#Ketty theme documentation	
+Ketty Theme Documentation

@@ -8,10 +8,24 @@
 	"articles":
 	[		
 		{
-			"id":"contacts-configuration",
+			"id":"home-page-configuration",
 			"translations":{
-				"ru":"Настройка страницы контактов",
-				"en":"Contact page configuration"
+				"ru":"Настройка домашней страницы",
+				"en":"Home page configuration"
+			}
+		},
+		{
+			"id":"blog-configuration",
+			"translations":{
+				"ru":"Настройка Блога",
+				"en":"Blog configuration"
+			}
+		},
+		{
+			"id":"category-listing-configuration",
+			"translations":{
+				"ru":"Настройка листинга категорий",
+				"en":"Category listing configuration"
 			}
 		},
 		{
@@ -20,6 +34,20 @@
 				"ru":"Настройка страницы About",
 				"en":"About page configuration"
 			}
-		}
+		},
+		{
+			"id":"contacts-configuration",
+			"translations":{
+				"ru":"Настройка страницы контактов",
+				"en":"Contact page configuration"
+			}
+		},
+		{
+			"id":"footer-configuration",
+			"translations":{
+				"ru":"Настройка футера",
+				"en":"Footer configuration"
+			}
+		}		
 	]
 }
