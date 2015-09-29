@@ -1,6 +1,6 @@
 <h3>Category listing settings</h3>
 
-<p>The template includes two product listing layouts on the category page.</p> In order to select the required one:
+<p>The template includes 3 product listing layouts on the category page.</p> In order to select the required one:
 <ol class="index-list"> 
     <li>
         In the top navigation menu go to <strong>System > Configuration</strong>. 

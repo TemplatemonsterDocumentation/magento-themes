@@ -13,10 +13,45 @@
     <p>Motyw Magento jest kompletnym projektem sklepu internetowego w oparciu o silnik Magento. Innymi słowy, można łatwo zmienić wygląd sklepu Magento, instalując nowy motyw w kilku prostych krokach. Z całą prostotą, motyw Magento jest wyposażony we wszystkie niezbędne pliki źródłowe, które można edytować lub rozciągać w zależności od potrzeb.</p>
 </article>
 
+<article id="updatabletheme">
+    <h3>Motyw Ketty)</h3>
+    <p>Mamy przyjemność zaprezentować nowe, zaktualizowane design i funkcje motywu Premium. </p>
+    <h4>Lista zmian</h4>
+    <h6>Główne aktualizacje:</h6>
+    <ul class="line-list">
+        <li>Wydano pakiet motywu zgodny z wersją silnika Magento 1.9.2.1;</li>
+        <li>Dodano konfigurowalne próbki demonstracji produktu.</li>
+    </ul>
+    <h6>Inne aktualizacje:</h6>
+    <ul class="line-list">
+        <li>Dodano drugą wersję strony "O nas";</li>
+        <li>Dodano drugą wersję strony "Kontakt";</li>
+        <li>Dodano stronę "Gwarancja";</li>
+        <li>Dodano stronę "Wysyłka i dostawa";</li>
+        <li>Dodano stronę "Pomoc 24/7";</li>
+        <li>Dodano stronę 404;</li>
+        <li>Dodano stronę FAQ;</li>
+        <li>Wydano szablon Newslettera Ketty;</li>
+        <li>Dodano nowe podstrony i projekty stron produktu.</li>
+    </ul>
+    <p>Zawartość tego pakietu szablonów różni się od naszych standardowych szablonów Magento, więc pozwól nam pomóc ci poradzić sobie z nim. </p>
+    <p>Archiwum obejmuje dwa foldery:</p>
+    <ul class="marked-list">
+        <li><strong>magento_1.9x_v.1.0</strong></li>
+        <li><strong>magento_1.9x_v.2.0</strong></li>
+    </ul>
+    <p>Folder <strong>magento_1.9x_v.1.0</strong> zawiera motyw do wersji Magento 1.9.1.0, oparty na standardowym motywie. Ten motyw był dostępny dla zakupu wcześniej.</p>
+    <p>Folder <strong>magento_1.9x_v.2.0</strong> zawiera motyw do wersji Magento 1.9.2.1, oparty na motywie RWD. Ten motyw zawiera zaktualiowany design podstron i próbki konfigurowalne.</p>
+    <div class="alert alert-warning">
+        <p>Stary motyw nie jest zgodny z nowym. Dlatego nie przesyłaj nowy motyw na stary.</p>
+    </div>
+    <p>Więcej informacji, dotyczących konfigurowania stron, można znaleźć w następujących rozdziałach: <strong>Instalacja motywu Magento</strong> i <strong>Konfiguracja unikalnego motywu</strong>.</p>
+</article>
+
 <article id="file_structure">
     <h4>Struktura plików</h4>
 
-   <p>Pakiet motywu, który został pobrany, składa się z kilku folderów. Zobaczmy, co każdy katalog zawiera:</p>
+    <p>Pakiet motywu, który został pobrany, składa się z kilku folderów. Zobaczmy, co każdy katalog zawiera:</p>
 
     <ul class="files_structure">
         <li>
@@ -25,7 +60,7 @@
                 <dd> zawiera pliki dokumentacji.</dd>
             </dl>
             <ul>
-                <li>
+                <li class="last-example">
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
@@ -43,71 +78,133 @@
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
-                <dd> zawiera pliki źródłowe motywu.</dd>
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.1.0</strong></dt>
+                <dd> zawiera pliki starej wersji szablonu, oparte na <strong>base -&gt; default</strong> Magento 1.9.x. theme.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
-                        <dd>
-                            zawiera pliki źródłowe Adobe Photoshop motywu(.psd).
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
-                        <dd>
-                            zawiera dodatkowe strony i niestandardowe bloki do motywu.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
-                        <dd>
-                            zawiera przykładowe pliki danych motywu Magento.
-                        </dd>
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> zawiera pliki źródłowe motywu.</dd>
                     </dl>
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
                                 <dd>
-                                    zawiera pliki i katalogi, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.
+                                    zawiera dodatkowe strony i niestandardowe bloki do motywu.
                                 </dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="last-example">
                             <dl class="inline-term">
-                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
                                 <dd>
-                                    plik kopii zapasowej bazy danych. Zawiera przykładowy motyw.
+                                    zawiera przykładowe pliki danych motywu Magento.
                                 </dd>
                             </dl>
-                        </li>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            zawiera pliki i katalogi, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            plik kopii zapasowej bazy danych. Zawiera przykładowy motyw.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
                     </ul>
                 </li>
-            </ul>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> zawiera pliki i katalogi motywu Magento, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
-                <dd> zawiera pliki i katalogi motywu Magento, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
-                <dd> zawiera kompletny pakiet instalacyjnjy Magento z plikami silnika, motywem oraz przykładową treścią (przykładowe obrazy).</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> plik używany do rozpakowania plików z fullpackage.zip, gdy zostanie przesłany do serwera hostingowego.</dd>
-            </dl>            
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.2.0</strong></dt>
+                 <dd> zawiera pliki nowej wersji szablonu, oparte na <strong>RWD -&gt; default</strong> Magento 1.9.x. theme.</dd>
+            </dl>
+            <ul>                
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>newsletter</strong></dt>
+                        <dd> zawiera pliki i foldery szablonu newslettera, specjalnie dopasowane do projektu tego motywu.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> zawiera pliki źródłowe motywu.</dd>
+                    </dl>
+                    <ul>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                                <dd>
+                                    zawiera dodatkowe strony i niestandardowe bloki do motywu.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="last-example">
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                                <dd>
+                                    zawiera przykładowe pliki danych motywu Magento.
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            zawiera pliki i katalogi, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            plik kopii zapasowej bazy danych. Zawiera przykładowy motyw.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> zawiera pliki i katalogi motywu Magento, które powinny być przesłane do głównego katalogu Twojej instalacji Magento.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                        <dd> zawiera kompletny pakiet instalacyjnjy Magento z plikami silnika, motywem oraz przykładową treścią (przykładowe obrazy).</dd>
+                    </dl>            
+                </li>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                        <dd> plik używany do rozpakowania plików z fullpackage.zip, gdy zostanie przesłany do serwera hostingowego.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
@@ -115,7 +212,7 @@
                 <dd> zawiera linki, pod którymi można pobrać szablony niestandardowych czcionek.</dd>
             </dl>            
         </li>
-        <li>
+        <li class="last-example">
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
                 <dd> zawiera instrukcje, jak wyodrębnić pliki źródłowe.</dd>

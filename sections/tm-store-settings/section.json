@@ -3,7 +3,14 @@
 	"translations":
 	{
 		"ru":"Настройка темы Ketty",
-		"en":"Ketty theme configuration"
+		"en":"Ketty theme configuration",
+		"tr":"Ketty tema ayarlarý",
+		"de":"Ketty Thema Konfiguration",
+		"es":"Configuración del tema Ketty",
+		"fr":"Configuration de thème Ketty",
+		"it":"Configurazione del tema Ketty",
+		"pl":"Konfiguracja motywu Ketty",
+		"pt":"Configuração do tema Ketty"
 	},
 	"articles":
 	[		
@@ -32,14 +39,28 @@
 			"id":"about-configuration",
 			"translations":{
 				"ru":"Настройка страницы About",
-				"en":"About page configuration"
+				"en":"About page configuration",
+				"tr":"Hakkýmýzda sayfasýnýn ayarlarý",
+				"de":"Konfiguration der 'Über uns' Seite",
+				"es":"Configuración de la página About",
+				"fr":"Configuration de la page About",
+				"it":"Configurazione della pagina Informazioni",
+				"pl":"Konfiguracja strony 'Informacje o stronie'",
+				"pt":"Sobre a configuração das páginas"
 			}
 		},
 		{
 			"id":"contacts-configuration",
 			"translations":{
 				"ru":"Настройка страницы контактов",
-				"en":"Contact page configuration"
+				"en":"Contact page configuration",
+				"tr":"Ýletiþim sayfasý ayarlarý",
+				"de":"Kontaktseite Konfiguration",
+				"es":"Configuración de Contact page",
+				"fr":"Configuration de la page Contact",
+				"it":"Configurazione della pagina Contatti",
+				"pl":"Konfiguracja strony 'Kontakt'",
+				"pt":"Configuração da página de contatos"
 			}
 		},
 		{

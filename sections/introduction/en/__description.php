@@ -44,6 +44,17 @@
         <li>Added the Special Price countdown;</li>
         <li>Bug fixes.</li>
     </ul>
+    <h6>Ketty v2.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
 
     <p>The content of template package differs from our standard Magento templates so let us help you to deal with it. </p>
     <p>The archive contains two folders :</p>

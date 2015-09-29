@@ -1,6 +1,6 @@
 <h3>Footer settings</h3>
 
-<p>You can choose one of the two available footer layouts</p>
+<p>You can choose one of the three available footer layouts</p>
 In order to switch it:
 <ol class="index-list"> 
     <li>

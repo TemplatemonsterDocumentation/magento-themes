@@ -5,7 +5,7 @@
 
 <article id="whatismagento">
     <h3>O que é o Magento Commerce?</h3>
-    <p>Magento é uma plataforma de eCommerce rica em recursos e desenvolvida com tecnologia open-source. Ela provém controle sobre o conteúdo, a aparência e a funcionalidade de sua loja de eCommerce. A interface intuitiva do Magento oferece ferramentas poderosas de marketing, busca, otimização de busca e gerenciamento de catá-logo para entregar ao comerciante o poder de criar sites de acordo com suas necessidades únicas. Desenhado para ser completamente escalonável e segurado pela rede de suporte Varien, o Magento oferece à empresas a solução de eCommerce definitiva. <a href="http://www.magentocommerce.com/download" target="_blank">Mais informações</a></p>
+    <p>Magento é uma plataforma de eCommerce rica em recursos e desenvolvida com tecnologia open-source. Ela provém controle sobre o conteúdo, a aparência e a funcionalidade de sua loja de eCommerce. A interface intuitiva do Magento oferece ferramentas poderosas de marketing, busca, otimização de busca e gerenciamento de catá-logo para entregar ao comerciante o poder de criar sites de acordo com suas necessidades únicas. Desenhado para ser completamente escalonável e segurado pela rede de suporte Varien, o Magento oferece à empresas a solução de eCommerce definitiva. <a href="http://www.magentocommerce.com/download" target="_blank">Mais informações</a>.</p>
 </article>
 
 <article id="whatismagentotheme">
@@ -13,10 +13,46 @@
     <p>Um tema de Magento é um o design da sua loja online contruindo em cima do Magento. Isso quer dizer que você pode facilmente alterar a aparência da sua loja instalando um novo tema em poucos passos simples. Para garantir toda essa simplicidade, um tema de Magento contém todos os arquivos necessários para você extender e alterar o quanto quise.</p>
 </article>
 
+<article id="updatabletheme">
+    <h3>Ketty theme</h3>
+    <p>Estamos felizes em apresentar o design e as funcionalidades novas e atualizadas desse tema premium. </p>
+    <h4>Changelog</h4>
+    <h6>Atualização principal:</h6>
+    <ul class="line-list">
+        <li>Lançado o pacote do tema compatível com a versão 1.9.2.1 do Magento;</li>
+        <li>Incluída a demonstração de swatches de produto configuráveis.</li>
+    </ul>
+    <h6>Other updates:</h6>
+    <ul class="line-list">
+        <li>Incluída a página About Us 2 (Sobre nós);</li>
+        <li>Incluída a página Contact us 2 (Contatos);</li>
+        <li>Incluída a página Warranty (Garantia);</li>
+        <li>Incluída a página de Shipping &amp; Delivery (Remessa e Entrega);</li>
+        <li>Incluída a página de suporte 24/7 (suporte 24h por dia);</li>
+        <li>Incluída a página de 404 (página de erro 404: não encontrado);</li>
+        <li>Incluída a página de FAQ (Perguntas Frequentes);</li>
+        <li>Lançado o template da newsletter Ketty;</li>
+        <li>Incluídos novos layouts para subpáginas e páginas de produto.</li>
+    </ul>
+    <p>O conteúdo dos pacotes de template diverge de nossos templates padrão para Magento, então permita-nos ajudá-lo com isso. </p>
+    <p>O arquivo contém duas pastas :</p>
+    <ul class="marked-list">
+        <li><strong>magento_1.9x_v.1.0</strong></li>
+        <li><strong>magento_1.9x_v.2.0</strong></li>
+    </ul>
+    <p>A pasta <strong>magento_1.9x_v.1.0</strong> contém o tema para a versão 1.9.1.0 do Magento version baseada no tema comum. Este tema estava disponível para compra anteriormente.</p>
+    <p>A pasta <strong>magento_1.9x_v.2.0</strong> contém o tema atualizado para a versão 1.9.2.1 do Magento, baseada no tema RWD. Este tema inclui subpáginas com design atualizado e swatches configuráveis.</p>
+    <div class="alert alert-warning">
+        <p>O tema antigo não é compatível com o tema novo. Não faça upload do novo tema por cima do antigo.</p>
+    </div>
+    <p>Para receber mais informações sobre como configurar as páginas, verifique os tópicos: <strong>Instalação do tema do Magento</strong> e <strong>Configuração de tema único</strong>.</p>
+</article>
+
+
 <article id="file_structure">
     <h4>Estrutura de arquivos</h4>
 
-    <p>O pacote do tema que você baixou consiste de diversos diretórios. Vejamos o que cada pasta contém:</p>
+   <p>O pacote do tema que você baixou consiste de diversos diretórios. Vejamos o que cada pasta contém:</p>
 
     <ul class="files_structure">
         <li>
@@ -25,7 +61,7 @@
                 <dd> contém os arquivos de documentação.</dd>
             </dl>
             <ul>
-                <li>
+                <li class="last-example">
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
@@ -43,79 +79,141 @@
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
-                <dd> contém os arquivos fonte do tema.</dd>
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.1.0</strong></dt>
+               <dd> contém a versão antiga dos arquivos do template em que foi baseada, o tema do Magento 1.9.x <strong>base -> default</strong>.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
-                        <dd>
-                            com os arquivos fonte do Adobe Photoshop usados na criação do tema (.psd).
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
-                        <dd>
-                            contém páginas e blocos adicionais que são providos junto com o tema.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
-                        <dd>
-                            contém os arquivos de dados de amostra do tema.
-                        </dd>
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> contém os arquivos fonte do tema.</dd>
                     </dl>
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
                                 <dd>
-                                    onde você encontra arquivos e diretórios que deveriam ser enviados para o diretorio raiz da instalação do Magento.
+                                    contém páginas e blocos adicionais que são providos junto com o tema.
                                 </dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="last-example">
                             <dl class="inline-term">
-                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
                                 <dd>
-                                    o arquivo de recuperação do banco de dados. Contém o conteúdo de amostra do tema.
+                                    contém os arquivos de dados de amostra do tema.
                                 </dd>
                             </dl>
-                        </li>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            onde você encontra arquivos e diretórios que deveriam ser enviados para o diretorio raiz da instalação do Magento.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            o arquivo de recuperação do banco de dados. Contém o conteúdo de amostra do tema.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
                     </ul>
                 </li>
-            </ul>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> contém os arquivos do tema do magento e diretórios que deveriam ser enviados para o diretório raiz de sua instalação do Magento.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
-                <dd> contém os arquivos do tema do magento e diretórios que deveriam ser enviados para o diretório raiz de sua instalação do Magento.</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
-                <dd> contém pacote de instalação completa do Magento com arquivos do mecanismo, tema e conteúdo de amostra (imagens de amostra).</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> arquivo usado para extrair arquivos do fullpackage.zip ao enviar para o servidor de hospedagem.</dd>
-            </dl>            
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.2.0</strong></dt>
+                <dd> contém uma versão nova do modelo baseado no tema do Magento 1.9.x <strong>RWD -> default</strong>.</dd>
+            </dl>
+            <ul>                
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>newsletter</strong></dt>
+                        <dd> contém os arquivos e pastas da newsletter criada especificamente para se adequar ao design deste tema.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> contém os arquivos fonte do tema.</dd>
+                    </dl>
+                    <ul>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                                <dd>
+                                    contém páginas e blocos adicionais que são providos junto com o tema.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="last-example">
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                                <dd>
+                                    contém os arquivos de dados de amostra do tema.
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            onde você encontra arquivos e diretórios que deveriam ser enviados para o diretorio raiz da instalação do Magento.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            o arquivo de recuperação do banco de dados. Contém o conteúdo de amostra do tema.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> contém os arquivos do tema do magento e diretórios que deveriam ser enviados para o diretório raiz de sua instalação do Magento.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                        <dd> contém pacote de instalação completa do Magento com arquivos do mecanismo, tema e conteúdo de amostra (imagens de amostra).</dd>
+                    </dl>            
+                </li>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                       <dd> arquivo usado para extrair arquivos do fullpackage.zip ao enviar para o servidor de hospedagem.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
-                <dd> contém os links de onde as fontes personalizadas do template podem ser baixadas.</dd>
+               <dd> contém os links de onde as fontes personalizadas do template podem ser baixadas.</dd>
             </dl>            
         </li>
-        <li>
+        <li class="last-example">
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
                 <dd> contém instruções de como extrair o código fonte.</dd>

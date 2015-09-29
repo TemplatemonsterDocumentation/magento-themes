@@ -1,6 +1,6 @@
 <h3>Blog configuration</h3>
 
-<p>There are three blog layouts available. In order to select one of them, follow the instructions below:</p>
+<p>There are 4 blog layouts available. In order to select one of them, follow the instructions below:</p>
 <ol class="index-list"> 
     <li>
         In the top navigation menu go to <strong>System > Configuration</strong>. 

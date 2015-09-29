@@ -44,6 +44,17 @@
         <li>Added the Special Price countdown;</li>
         <li>Bug fixes.</li>
     </ul>
+    <h6>Ketty v2.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
     <p>Содержимое архива шаблона отличается от наших стандартных шаблонов Magento, поэтому мы вам поможем разобраться с ним. </p>
     <p>Архив содержит две папки:</p>
     <ul class="marked-list">
@@ -201,7 +212,7 @@
                                     <dl class="inline-term">
                                         <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
                                         <dd>
-                                            резервная копия базы данных. Содержит демонстрационные данные только для первого леяута (обновления) шаблона.
+                                            резервная копия базы данных. Содержит демонстрационные данные только для первого обновления шаблона.
                                         </dd>
                                     </dl>
                                 </li>
@@ -209,7 +220,15 @@
                                     <dl class="inline-term">
                                         <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            резервная копия базы данных. Содержит демонстрационные данные только для второго леяута (обновления) шаблона.
+                                            резервная копия базы данных. Содержит демонстрационные данные только для второго обновления шаблона.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_3.sql.gz</strong></dt>
+                                        <dd>
+                                            резервная копия базы данных. Содержит демонстрационные данные только для третьего обновления шаблона.
                                         </dd>
                                     </dl>
                                 </li>

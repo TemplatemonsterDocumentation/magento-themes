@@ -13,6 +13,41 @@
     <p>Magento Vorlage ist fertiges Design für Ihren Online-Shop, der auf der Basis von Magento erstellt werden kann. Sie können leicht das Aussehen Ihres Online-Shops ändern, indem Sie nur neue Vorlage installieren. Alle Vorlagen von Magento enthalten alle notwendigen Quelldateien, die Sie nach Ihren Wünschen bearbeiten und hinzufügen können.</p>
 </article>
 
+<article id="updatabletheme">
+    <h3>Ketty Thema</h3>
+    <p>Wir freuen uns, ein neues Design und die aktualisierte Funktionalität des Premium-Thema zu präsentieren. </p>
+    <h4>Änderungsprotokoll</h4>
+    <h6>Hauptaktualisierung:</h6>
+    <ul class="line-list">
+        <li>das Thema-Paket, dass mit 1.9.2.1 Magento Modul-Version kompatibel ist wurde veröffentlicht ;</li>
+        <li>konfigurierbare Beispiele wurden hinzugefügt</li>
+    </ul>
+    <h6>Andere Aktualisierungen:</h6>
+    <ul class="line-list">
+        <li>About Us Seite 2 wurde hinzugefügt;</li>
+        <li>Contact us Seite 2 wurde hinzugefügt;</li>
+        <li>Warranty Seite wurde hinzugefügt;</li>
+        <li>Shipping &amp; Delivery Seite wurde hinzugefügt;</li>
+        <li>24/7 Support Seite wurde hinzugefügt;</li>
+        <li>404 Seite wurde hinzugefügt;</li>
+        <li>FAQ Seite wurde hinzugefügt;</li>
+        <li>Ketty Newsletter wurde hinzugefügt;</li>
+        <li>Neue Designs von Unterseiten und Produktseiten wurden hinzugefügt.</li>
+    </ul>
+    <p>Der Inhalt des Schablonenpakets unterscheidet sich von unseren Standard Magento Vorlagen, darum lassen Sie uns Ihnen helfen, damit zu arbeiten. </p>
+    <p>Das Archiv enthält zwei Ordner :</p>
+    <ul class="marked-list">
+        <li><strong>magento_1.9x_v.1.0</strong></li>
+        <li><strong>magento_1.9x_v.2.0</strong></li>
+    </ul>
+    <p><strong>magento_1.9x_v.1.0</strong> Ordner enthält das Thema für die Magento 1.9.1.0 Version auf der Basis vom Standard-Thema. Dieses Thema war früher zum Kauf erhältlich.</p>
+    <p><strong>magento_1.9x_v.2.0</strong> Ordner enthält das aktuellisierte Thema für die Magento 1.9.2.1 Version basierend auf dem RWD-Thema. Dieses Thema enthält aktualisiertes Design der Unterseiten und konfigurierbare Beispiele.</p>
+    <div class="alert alert-warning">
+        <p>Das alte Thema ist nicht mit dem neuen Themen kompatibel. Bitte laden Sie das neue Thema nicht über das alte hoch.</p>
+    </div>
+    <p>Für mehr Information zur Seiten Konfiguration , sehen Sie sich folgende Themen an: <strong>Magento theme installation</strong> und <strong>Unique theme configuration</strong>.</p>
+</article>
+
 <article id="file_structure">
     <h4>Struktur der Dateien</h4>
 
@@ -25,11 +60,11 @@
                 <dd> enthält die Dokumentationsdateien.</dd>
             </dl>
             <ul>
-                <li>
+                <li class="last-example">
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
-                            Hauptdokumentationsdatei. Sie lesen sie jetzt :)
+                           Hauptdokumentationsdatei. Sie lesen sie jetzt :)
                         </dd>
                     </dl>
                 </li>
@@ -43,71 +78,133 @@
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
-                <dd> enthält die Quelldateien der Vorlage.</dd>
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.1.0</strong></dt>
+                <dd> enthält Dateien von alten Vorlageversionen  basierend auf<strong> base -> default</strong> Magento 1.9.x. Thema.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
-                        <dd>
-                            Quelldateien für Adobe Photoshop (.psd).
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
-                        <dd>
-                            enthält zusätzliche Seiten und benutzerdefinierte Blöcke, die zur Vorlage gehören.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
-                        <dd>
-                            enthält die Demo-Daten für Magento Vorlage.
-                        </dd>
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> enthält die Quelldateien der Vorlage.</dd>
                     </dl>
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
                                 <dd>
-                                    enthält Dateien und Ordner, die in den Stammordner der benutzten Magento Installation hochgeladen werden müssen.
+                                    enthält zusätzliche Seiten und benutzerdefinierte Blöcke, die zur Vorlage gehören.
                                 </dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="last-example">
                             <dl class="inline-term">
-                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
                                 <dd>
-                                    Sicherheitskopie der Datenbank. Sie enthält die Demo-Daten der Vorlage.
+                                    enthält die Demo-Daten für Magento Vorlage.
                                 </dd>
                             </dl>
-                        </li>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            enthält Dateien und Ordner, die in den Stammordner der benutzten Magento Installation hochgeladen werden müssen.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            Sicherheitskopie der Datenbank. Sie enthält die Demo-Daten der Vorlage.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
                     </ul>
                 </li>
-            </ul>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> enthält die Dateien und Ordner der Magento Vorlage, die in den Stammordner der benutzten Magento Installation hochgeladen werden müssen.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
-                <dd> enthält die Dateien und Ordner der Magento Vorlage, die in den Stammordner der benutzten Magento Installation hochgeladen werden müssen.</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
-                <dd> hier gibt es das komplette Magento Installationspaket mit  Dateien von Engine, Theme und Beispielinhalte.</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> Datei zum Entpacken von Dateien aus fullpackage.zip, wenn man die auf dem Hosting Server hochladet.</dd>
-            </dl>            
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.2.0</strong></dt>
+                 <dd> enthält Dateien von neuen Vorlageversion  basierend auf <strong> RWD -> default </strong>  Magento 1.9.x. Thema.</dd>
+            </dl>
+            <ul>                
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>newsletter</strong></dt>
+                         <dd> enthält Dateien und Ordner der Newsletter-Vorlage, welche speziell entwickelt und an dieses Thema Design angepasst wurden.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> enthält die Quelldateien der Vorlage.</dd>
+                    </dl>
+                    <ul>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                                <dd>
+                                    enthält zusätzliche Seiten und benutzerdefinierte Blöcke, die zur Vorlage gehören.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="last-example">
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                                <dd>
+                                    enthält die Demo-Daten für Magento Vorlage.
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            enthält Dateien und Ordner, die in den Stammordner der benutzten Magento Installation hochgeladen werden müssen.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            Sicherheitskopie der Datenbank. Sie enthält die Demo-Daten der Vorlage.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> enthält die Dateien und Ordner der Magento Vorlage, die in den Stammordner der benutzten Magento Installation hochgeladen werden müssen.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                        <dd> hier gibt es das komplette Magento Installationspaket mit  Dateien von Engine, Theme und Beispielinhalte.</dd>
+                    </dl>            
+                </li>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                        <dd> Datei zum Entpacken von Dateien aus fullpackage.zip, wenn man die auf dem Hosting Server hochladet.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
@@ -115,7 +212,7 @@
                 <dd> enthält Links, mittels deren nicht Standardschriften hochgeladen werden können, die in der Vorlage benutzt werden.</dd>
             </dl>            
         </li>
-        <li>
+        <li class="last-example">
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
                 <dd> enthält die Anleitungen zum Entpacken der Quelldateien.</dd>

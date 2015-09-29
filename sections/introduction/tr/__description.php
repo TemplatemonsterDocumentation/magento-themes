@@ -13,6 +13,41 @@
     <p>Magento teması, kendine özgü bir online mağaza tasarımı sunmaktadır. Dilerseniz Magento mağazanızın görünüşünü, bir kaç kolay adımla, yeni bir tema kurarak tamamen değiştirebilirsiniz. Magento temasında tüm gerekli kaynak kodları bulunmaktadır. Yani bu temada kolaylıkla, dilediğiniz şekilde düzenleme veya geliştirme yapabilirsiniz.</p>
 </article>
 
+<article id="updatabletheme">
+    <h3>Ketty temasý</h3>
+    <p>Premium temasýna güncel bir tasarým ve özellik eklemiþ olmaktan mutluluk duyuyoruz. </p>
+    <h4>Deðiþiklikler</h4>
+    <h6>Önemli Güncelleme:</h6>
+    <ul class="line-list">
+        <li>Magento 1.9.2.1 versiyonuyla uyumlu olan tema paketini çýkarttýk;</li>
+        <li>Ayarlanabilir örnek ürün özelliði ekledik.</li>
+    </ul>
+    <h6>Diðer Güncellemeler:</h6>
+    <ul class="line-list">
+        <li>About Us page 2 sayfasýný ekledik;</li>
+        <li>Contact us page 2 sayfasýný ekledik;</li>
+        <li>Garanti sayfasýný ekledik;</li>
+        <li>Nakliye &amp; Teslimat sayfasýný ekledik;</li>
+        <li>24/7 Destek sayfasýný ekledik;</li>
+        <li>404 sayfasýný ekledik;</li>
+        <li>Sýk Sorulan Sorular sayfasýný ekledik;</li>
+        <li>Ketty Haber Bülteni þablonunu oluþturduk;</li>
+        <li>Yeni alt sayfa ve ürün sayfasý tasarýmlarý ekledik.</li>
+    </ul>
+    <p>Þablon paketinin içeriði, standart Magento þablonuna göre farklýlýk içermektedir. Bu yüzden size bu konuda destek vermek isteriz. </p>
+    <p>Arþivde iki klasör bulunmaktadýr :</p>
+    <ul class="marked-list">
+        <li><strong>magento_1.9x_v.1.0</strong></li>
+        <li><strong>magento_1.9x_v.2.0</strong></li>
+    </ul>
+    <p><strong>magento_1.9x_v.1.0</strong> klasörü, standart temaya dayanan Magento 1.9.1.0 klasörleri içermektedir. Bu tema daha önceki zamanlarda satýlmaktaydý.</p>
+    <p><strong>magento_1.9x_v.2.0</strong> klasörü, RWD temasýna dayanan güncellenmiþ Magento 1.9.2.1 temasýný içermektedir. Bu temada güncellenmiþ alt sayfa tasarýmý ve ayarlanabilir iþlevsellikler bulunmaktadýr.</p>
+    <div class="alert alert-warning">
+        <p>Eski tema yenisiyle uyumlu deðildir. Bu yüzden yeni temayý, eskisinin üzerine yüklemeyin.</p>
+    </div>
+    <p>Sayfa ayarlarý için daha fazla bilgiye <strong>Magento tema kurulumu</strong> ve <strong>Özgün tema ayarlarý</strong> bölümlerinden ulaþabilirsiniz.</p>
+</article>
+
 <article id="file_structure">
     <h4>Dosya yapısı</h4>
 
@@ -25,7 +60,7 @@
                 <dd> dökümantasyon dosyalarını kapsar.</dd>
             </dl>
             <ul>
-                <li>
+                <li class="last-example">
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
@@ -43,71 +78,133 @@
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
-                <dd> temanın kaynak dosyalarını içerir.</dd>
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.1.0</strong></dt>
+                <dd> Magento 1.9.x. <strong>base -> default</strong> temasýna dayanan eski þablon dosyalarýný içermektedir.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
-                        <dd>
-                            temanın (.psd) formatındaki Adobe Photoshop kaynak dosyalarını içerir.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
-                        <dd>
-                            temayla gelen ek sayfaları ve örnek kutuları içerir.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
-                        <dd>
-                            Magento temasının örnek veri dosyalarını içerir.
-                        </dd>
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> temanın kaynak dosyalarını içerir.</dd>
                     </dl>
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
                                 <dd>
-                                     Magento'yu kurduğunuz ana dizine yüklemeniz gereken dosya ve dizinleri içerir.
+                                    temayla gelen ek sayfaları ve örnek kutuları içerir.
                                 </dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="last-example">
                             <dl class="inline-term">
-                                <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
                                 <dd>
-                                    veritabanı yedek dosyası. Tema için örnek içerik içerir.
+                                    Magento temasının örnek veri dosyalarını içerir.
                                 </dd>
                             </dl>
-                        </li>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            Magento'yu kurduğunuz ana dizine yüklemeniz gereken dosya ve dizinleri içerir.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            veritabanı yedek dosyası. Tema için örnek içerik içerir.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
                     </ul>
                 </li>
-            </ul>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> Magento'yu kurduğunuz ana dizine yüklemeniz gereken tema dosyaları ve dizinleri içerir.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
-                <dd> Magento'yu kurduğunuz ana dizine yüklemeniz gereken tema dosyaları ve dizinleri içerir.</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
-                <dd> içermektedir Tam Magento kurulum paketi motor dosyaları ile, tema ve örnek içeriği (örnek fotoğraflar).</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> dosyaları ayıklayabilmek için kullanılan dosya fullpackage.zip hosting sunucusuna yüklendiği zaman.</dd>
-            </dl>            
+                <dt><i class="fa fa-folder"></i> <strong>magento_1.9x_v.2.0</strong></dt>
+                <dd> Magento 1.9.x. <strong>RWD -> default</strong> temasýna dayanan yeni þablon dosyalarýný içermektedir.</dd>
+            </dl>
+            <ul>                
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>newsletter</strong></dt>
+                         <dd> Bu tema; tasarýmýna tam olarak uyumlu þekilde oluþturulan, bülten þablonunun dosya ve klasörlerini içermektedir.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
+                        <dd> temanın kaynak dosyalarını içerir.</dd>
+                    </dl>
+                    <ul>
+                        <li>
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                                <dd>
+                                    temayla gelen ek sayfaları ve örnek kutuları içerir.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="last-example">
+                            <dl class="inline-term">
+                                <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                                <dd>
+                                    Magento temasının örnek veri dosyalarını içerir.
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                        <dd>
+                                            Magento'yu kurduğunuz ana dizine yüklemeniz gereken dosya ve dizinleri içerir.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dd>
+                                            veritabanı yedek dosyası. Tema için örnek içerik içerir.
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
+                        <dd> Magento'yu kurduğunuz ana dizine yüklemeniz gereken tema dosyaları ve dizinleri içerir.</dd>
+                    </dl>            
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
+                        <dd> içermektedir Tam Magento kurulum paketi motor dosyaları ile, tema ve örnek içeriği (örnek fotoğraflar).</dd>
+                    </dl>            
+                </li>
+                <li class="last-example">
+                    <dl class="inline-term">
+                        <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
+                        <dd> dosyaları ayıklayabilmek için kullanılan dosya fullpackage.zip hosting sunucusuna yüklendiği zaman.</dd>
+                    </dl>            
+                </li>
+            </ul>            
         </li>
         <li>
             <dl class="inline-term">
@@ -115,14 +212,15 @@
                 <dd> şablonun özel fontlarını (yazı karakter türü) yükleyebileceğiniz bağlantı adreslerini içerir.</dd>
             </dl>            
         </li>
-        <li>
+        <li class="last-example">
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
                 <dd> kaynak dosyaları nasıl çıkarmanız gerektiğini anlatan bilgiler içerir.</dd>
             </dl>            
-        </li>        
+        </li>
     </ul>
 </article>
+
 <article id="validation">
     <h3>Validation</h3>
     <div class="alert alert-warning">

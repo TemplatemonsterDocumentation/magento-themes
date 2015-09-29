@@ -1,6 +1,6 @@
 <h3>Настройка футера</h3>
 
-<p>Мы предлагаем вам два леяута футера для страницы.</p>
+<p>Мы предлагаем вам 3 леяута футера для страницы.</p>
 Чтобы изменить его:
 <ol class="index-list"> 
 	<li>
@@ -12,7 +12,7 @@
 		<figure class="img-polaroid"><img src="img/magento/footer-settings.jpg" alt="" /></figure>		
 	</li>
 	<li>
-		В разделе "<strong>Footer Layout</strong>" выберите "<strong>Layout 1</strong>" или "<strong>Layout 2</strong>" для изменения футера.
+		В разделе "<strong>Footer Layout</strong>" выберите "<strong>Layout X</strong>" для изменения футера.
 	</li>
 	<li>
 		Нажмите кнопку <strong>"Save Config"</strong>.
