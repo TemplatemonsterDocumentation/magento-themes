@@ -97,6 +97,20 @@
 				"pl":"Moduł Facebook like box",
 				"pt":"Caixa de Curtidas do Facebook"
 			}
+		},		
+		{
+			"id":"instagram-module",
+			"translations":{
+				"en":"Instagram module",
+				"ru":"Instagram module",
+				"tr":"Instagram modülü",
+				"de":"Instagram module",
+				"es":"M&oacute;dulo de Instagram",
+				"fr":"Module Instagram",
+				"it":"Modulo Instagram",
+				"pl":"Moduł Instagram",
+				"pt":"Módulo do Instagram"
+			}
 		}				
 	]
 }

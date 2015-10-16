@@ -34,6 +34,41 @@
         <li>Ketty Newsletter wurde hinzugefügt;</li>
         <li>Neue Designs von Unterseiten und Produktseiten wurden hinzugefügt.</li>
     </ul>
+
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 2;</li>
+        <li>Added the Blog layout 3;</li>
+        <li>Added the Special Price countdown;</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
+    </ul>
+
+
     <p>Der Inhalt des Schablonenpakets unterscheidet sich von unseren Standard Magento Vorlagen, darum lassen Sie uns Ihnen helfen, damit zu arbeiten. </p>
     <p>Das Archiv enthält zwei Ordner :</p>
     <ul class="marked-list">
@@ -45,6 +80,14 @@
     <div class="alert alert-warning">
         <p>Das alte Thema ist nicht mit dem neuen Themen kompatibel. Bitte laden Sie das neue Thema nicht über das alte hoch.</p>
     </div>
+    
+    <h4>Vorlagen-Update</h4>
+    <p>Jedes Update enthält einen eigenen Datenbank-Dump, der Hauptseiteneinstellungen, Blog- und Kategorieauflistung Seiteneinstellungen enthält</p> 
+
+    <p>Es werden keine visuellen Design-Änderungen passieren, wenn Sie nicht den Dump Re-Import durchführen. Allerdings erscheint eine neue <strong>TM Store Setting</strong> Sektion Ihrer Admin-Panel, wo man teilweise das Layout Aussehen konfigurieren kann. Alle anderen Einstellungen sollten gemäß den Anweisungen der <strong>Ketty Theme Configuration</strong> Sektion konfiguriert werden.</p>
+
+    
+
     <p>Für mehr Information zur Seiten Konfiguration , sehen Sie sich folgende Themen an: <strong>Magento theme installation</strong> und <strong>Unique theme configuration</strong>.</p>
 </article>
 
@@ -174,11 +217,19 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
+                                        <dd>
+                                            Datenbanksicherung. Enthält Demo-Daten nur für die erste Aktualisation der Vorlage .
+                                        </dd>
+                                    </dl>
+                                </li>
                                 <li class="last-example">
                                     <dl class="inline-term">
-                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            Sicherheitskopie der Datenbank. Sie enthält die Demo-Daten der Vorlage.
+                                            Datenbanksicherung. Enthält Demo-Daten nur für die zweite Aktualisation der Vorlage .
                                         </dd>
                                     </dl>
                                 </li>

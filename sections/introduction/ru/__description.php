@@ -35,7 +35,7 @@
         <li>Added new subpages and product pages designs.</li>
     </ul>
     
-    <h6>Ketty v2.1(September 14, 2015):</h6>
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
     <ul class="line-list">
         <li>Added the Home layout;</li>
         <li>Added the Listing layout;</li>
@@ -44,7 +44,8 @@
         <li>Added the Special Price countdown;</li>
         <li>Bug fixes.</li>
     </ul>
-    <h6>Ketty v2.2(September 30, 2015):</h6>
+
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
     <ul class="line-list">
         <li>Added the Home layout;</li>
         <li>Added the Listing layout;</li>
@@ -54,6 +55,17 @@
         <li>Added the Twitter module;</li>
         <li>Added the Background video (layout 2);</li>
         <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
     </ul>
     <p>Содержимое архива шаблона отличается от наших стандартных шаблонов Magento, поэтому мы вам поможем разобраться с ним. </p>
     <p>Архив содержит две папки:</p>
@@ -68,9 +80,9 @@
     </div>
     
     <h4>Обновления шаблона</h4>
-    <p>Для каждого обновления мы предоставляем отдельный дамп, который содержит настройки главной страницы, страницы блога и страницы листинга (категорий).</p> 
+    <p>Для каждого обновления мы предоставляем отдельный дамп, который содержит настройки главной страницы, страницы блога и страниц листинга (категорий).</p> 
 
-    <p>Без переустановки дампа вы не увидите изменений в дизайне. Но в админ-панеле у вас появятся новые секции в <strong>TM Store Setting</strong> в которых вы сможете, частично, настроить внешний вид леяута. Остальные настройки вам нужно сделать согласно инструкциям раздела <strong>Настройка темы Ketty</strong>.</p>
+    <p>Без переустановки дампа вы не увидите изменений в дизайне. Но в админ-панели у вас появятся новые секции в <strong>TM Store Setting</strong> разделе, в которых вы сможете частично настроить внешний вид темы. Остальные настройки вам нужно сделать согласно инструкциям раздела <strong>Настройка темы Ketty</strong>.</p>
 
     
 
@@ -229,6 +241,14 @@
                                         <dt><i class="fa fa-file"></i> <strong>dump_layout_3.sql.gz</strong></dt>
                                         <dd>
                                             резервная копия базы данных. Содержит демонстрационные данные только для третьего обновления шаблона.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_4.sql.gz</strong></dt>
+                                        <dd>
+                                            резервная копия базы данных. Содержит демонстрационные данные только для четвертого обновления шаблона.
                                         </dd>
                                     </dl>
                                 </li>

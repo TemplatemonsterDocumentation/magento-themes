@@ -41,7 +41,7 @@
 	</tr>				
 </table>
 <p>По умолчанию, блок плагина выводится в левой колонке. Но существует три варианта вывода: <strong>слева</strong>, <strong>справа</strong> и в <strong>футере</strong>. <br>
-Для изменения позиции вывода блока необходимо открыть файл <strong>tm_facebook.xml</strong>, который находится в папке <strong>app/design/frontend/default/themeXXX/layout</strong> вашей установки.</p>
+Для изменения позиции вывода блока необходимо открыть файл <strong>tm_facebook.xml</strong>, который находится в папке <strong>app/design/frontend/tm_themes/themeXXX/layout</strong> вашей установки.</p>
 
 В этом файле есть три блока <strong><em>reference</em></strong> с параметром <strong>name="left"</strong> (name="right", name="footer").
 <pre class="prettyprint linenums">
@@ -57,7 +57,7 @@
 <p>В этом файле закомментировано два блока. И лишь один блок с <strong>name="left"</strong> не закомментирован. Он и отвечает за вывод плагина в левой колонке. <br>Если же вам необходимо вывести плагин, к примеру, в футере, вам необходимо:</p>
 <ol class="index-list">
 	<li>Удалить комментирование блока с <strong>name="footer"</strong> (последний в примере кода выше) и закомментировать блок с <strong>name="left"</strong> (первый в примере кода выше).</li>
-	<li>Открыть файл <strong>footer.phtml</strong>, который находится в папке <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+	<li>Открыть файл <strong>footer.phtml</strong>, который находится в папке <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong>.</li>
 	<li>Вставить в нужное вам место следующий код:
 		<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
 	</li>

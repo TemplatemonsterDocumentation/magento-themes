@@ -51,7 +51,7 @@
 		</tr>
 	</table>
 	<p>Por padrão, o módulo é mostrado na coluna esquerda. Mas você tem três opções de estilo: <strong>esquerda</strong>, <strong>direita</strong> e <strong>rodapé</strong>. <br>
-				Para mudar a posição do bloco, você deve abrir o arquivo <strong>tm_twitter.xml</strong> localizado em <strong>app/design/frontend/default/themeXXX/layout</strong>.</p>
+				Para mudar a posição do bloco, você deve abrir o arquivo <strong>tm_twitter.xml</strong> localizado em <strong>app/design/frontend/tm_themes/themeXXX/layout</strong>.</p>
 	
 			Esse arquivo inclui três blocos de <strong><em>reference</em></strong> com os parâmetros <strong>name="left"</strong> (name="right", name="footer").
 	<pre class="prettyprint linenums">
@@ -69,7 +69,7 @@
 
 <ol class="index-list">
 	<li>Descomente as linhas de código do bloco com <strong>name="footer"</strong> (o último do exemplo acima) e comente o bloco <strong>name="left"</strong> (o primeiro bloco de código de exemplo acima).</li>
-	<li>Abra o arquivo <strong>footer.phtml</strong> localizado em <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+	<li>Abra o arquivo <strong>footer.phtml</strong> localizado em <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong>.</li>
 	<li>Cole o seguinte código no lugar desejado:
 <pre class="prettyprint linenums">	&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>	
 	</li>

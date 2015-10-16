@@ -34,6 +34,38 @@
         <li>Rilasciato il modello Ketty Newsletter;</li>
         <li>Aggiunta delle nuove pagine web e pagine prodotto con il design.</li>
     </ul>
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 2;</li>
+        <li>Added the Blog layout 3;</li>
+        <li>Added the Special Price countdown;</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
+    </ul>
     <p>Il nostro contenuto del pacchetto di modello standard si differenzia dai Modelli di Magento, quindi lasciateci che vi aiutiamo ad effrontare le dfifficolta. </p>
     <p>L'archivio contiene due cartelle :</p>
     <ul class="marked-list">
@@ -45,6 +77,14 @@
     <div class="alert alert-warning">
         <p>Vecchio tema non è compatibile con il nuovo tema. Non caricare nuovo tema su quello vecchio.</p>
     </div>
+
+    <h4>Aggiornamento Template</h4>
+    <p>Ogni aggiornamento include il dump del database separato che contiene le principali impostazioni della pagina, blog, liste delle categorie e le impostazioni della pagina</p> 
+
+    <p>Non ci saranno cambiamenti di visual design se non si esegue discarica effettuando la reimportazione. Tuttavia si vedrà nuova sezione nel <strong>TM Store Setting</strong> sezione del tuo pannello di amministrazione, dove è possibile configurare in parte l'aspetto di impaginazione. Tutte le altre impostazioni devono essere configurate secondo le istruzioni in <strong>Ketty Theme Configuration</strong> sezione.</p>
+
+
+
     <p>Per ottenere maggiori informazioni su come configurare le pagine, controlla i seguenti argomenti: <strong>Magento theme installation</strong> e <strong>Unique theme configuration</strong>.</p>
 </article>
 
@@ -174,11 +214,19 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
+                                        <dd>
+                                            database backup. Contiene i dati della demo solo per il primo aggiornamento del modello.
+                                        </dd>
+                                    </dl>
+                                </li>
                                 <li class="last-example">
                                     <dl class="inline-term">
-                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            i file di backup del database. Contiene i contenuti campione.
+                                            database backup. Contiene i dati della demo solo per il secondo aggiornamento del modello.
                                         </dd>
                                     </dl>
                                 </li>

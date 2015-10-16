@@ -51,7 +51,7 @@
 		</tr>
 	</table>
 	<p>By default, the block is displayed in the left column. But there are three display options: <strong>left</strong>, <strong>right</strong> and <strong>footer</strong>. <br>
-		In order to change the position of block, you need to open <strong>tm_twitter.xml</strong> file located in the <strong>/app/design/frontend/default/themeXXX/layout</strong> folder of your installation.</p>
+		In order to change the position of block, you need to open <strong>tm_twitter.xml</strong> file located in the <strong>/app/design/frontend/tm_themes/themeXXX/layout</strong> folder of your installation.</p>
 	This file includes three <strong><em>reference</em></strong> blocks with <strong>name="left"</strong> (name="right", name="footer") parameters.
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -68,7 +68,7 @@
 
 <ol class="index-list">
 	<li>Uncomment lines of code for <strong>name="footer"</strong> block (the last one in the example of the code above) and comment out the <strong>name="left"</strong> block (the first one in the example of code above).</li>
-	<li>Open <strong>footer.phtml</strong> file located in the <strong>app/design/frontend/default/themeXXX/template/page/html</strong> folder.</li>
+	<li>Open <strong>footer.phtml</strong> file located in the <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong> folder.</li>
 	<li>Paste the following code to the needed place:
 		<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>	
 	</li>

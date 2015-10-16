@@ -34,6 +34,38 @@
         <li>Publication de template Ketty Newsletter;</li>
         <li>Ajout des nouveaux designs des sous-pages et des pages de produits.</li>
     </ul>
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 2;</li>
+        <li>Added the Blog layout 3;</li>
+        <li>Added the Special Price countdown;</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
+    </ul>
     <p>Le contenu du paquet de modèle diffère de nos  modèles standards de Magento, laissez-nous vous aider à travailler avec elle. </p>
     <p>L'archive contient deux dossiers :</p>
     <ul class="marked-list">
@@ -45,6 +77,15 @@
     <div class="alert alert-warning">
         <p>L'ancien thème n'est pas compatible avec le nouveau thème. Ne chargez pas nouveau thème sur l'ancien.</p>
     </div>
+
+    <h4>Mise à jour du modèle</h4>
+    <p>Chaque mise à jour inclut dump de la base de données séparé qui contient les réglages de la page principale,les réglages de la page du blog et les réglages de la page avec la liste des catégories</p> 
+
+    <p>Si vous n'effectuez pas dump re-import il n'y aura aucune modification visuelle du design. Cependant, vous verrez la nouvelle section dans la section  <strong>TM Store Setting</strong> de votre panneau d'administration, où vous pouvez partiellement configurer l'apparence de la mise en page. Tous les autres paramètres doivent être configurés selon les instructions dans la section <strong>Ketty Theme Configuration</strong>.</p>
+
+
+
+
     <p>Pour obtenir plus d'information sur comment configurer les pages, consultez les rubriques suivantes: <strong>Installation de thème Magento</strong> et <strong>Configuration de thème unique</strong>.</p>
 </article>
 
@@ -174,11 +215,19 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
+                                        <dd>
+                                            sauvegarde de la base de données. Contient des données de démo seulement pour la première mise à jour du modèle.
+                                        </dd>
+                                    </dl>
+                                </li>
                                 <li class="last-example">
                                     <dl class="inline-term">
-                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            le fichier de sauvegarde de la base de données. Contient l'exemple de contenu du thème.
+                                            sauvegarde de la base de données. Contient des données de démo seulement pour la deuxième mise à jour du modèle.
                                         </dd>
                                     </dl>
                                 </li>

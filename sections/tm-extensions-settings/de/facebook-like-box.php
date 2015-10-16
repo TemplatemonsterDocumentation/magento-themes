@@ -41,9 +41,9 @@ Sie können es im Control Panel Magento, in der Sektion <strong>System > Configu
 	</tr>				
 </table>
 <p>Standardmäßig wird der Block des Plugins in der linken Spalte angezeigt. Aber es gibt drei Varianten dazu: <strong>links</strong>, <strong>rechts</strong> und im <strong>Footer</strong>. <br> 
-	In order to change the position of the block, you need to open <strong>tm_facebook.xml</strong> file located in <strong>app/design/frontend/default/themeXXX/layout</strong> folder of your installation.
+	In order to change the position of the block, you need to open <strong>tm_facebook.xml</strong> file located in <strong>app/design/frontend/tm_themes/themeXXX/layout</strong> folder of your installation.
 
-Um die Blockposition zu ändern, sollen Sie die Datei <strong>tm_facebook.xml</strong> öffnen, die sich in dem Ordner <strong>app/design/frontend/default/themeXXX/layout</strong> Ihrer Installation befindet.</p>
+Um die Blockposition zu ändern, sollen Sie die Datei <strong>tm_facebook.xml</strong> öffnen, die sich in dem Ordner <strong>app/design/frontend/tm_themes/themeXXX/layout</strong> Ihrer Installation befindet.</p>
 In dieser Datei gibt es drei Blöcke <strong><em>reference</em></strong> mit der Option <strong>name="left"</strong> (name="right", name="footer").
 <pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -60,7 +60,7 @@ In dieser Datei gibt es drei Blöcke <strong><em>reference</em></strong> mit der
 </p>
 <ol class="index-list">
 	<li>Löschen Sie die Block-Kommentierung mit <strong>name="footer"</strong> (das letzte in dem obigen Beispiel) und kommentieren Sie den Block mit <strong>name="left"</strong> (das erste in dem obigen Beispiel).</li>
-	<li>Öffnen Sie die Datei <strong>footer.phtml</strong>, die sich in dem Ordner <strong>app/design/frontend/default/themeXXX/template/page/html</strong> befinden.</li>
+	<li>Öffnen Sie die Datei <strong>footer.phtml</strong>, die sich in dem Ordner <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong> befinden.</li>
 	<li>Fügen Sie in die notwendige Stelle den folgenden Code ein:
 <pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
 	</li>

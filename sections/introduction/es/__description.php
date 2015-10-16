@@ -34,6 +34,39 @@
         <li>Lanzamiento de la plantilla Ketty Newsletter;</li>
         <li>Añadidas nuevas sub páginas y páginas de productos de diseños.</li>
     </ul>
+
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 2;</li>
+        <li>Added the Blog layout 3;</li>
+        <li>Added the Special Price countdown;</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
+    </ul>
     <p>El contenido del paquete de la plantilla se diferencia de nuestras plantillas estándares de Magento así que vamos a ayudarle a trabajar con ella. </p>
     <p>El archivo contiene dos carpetas :</p>
     <ul class="marked-list">
@@ -45,6 +78,14 @@
     <div class="alert alert-warning">
         <p>El tema viejo no es compatible con el tema nuevo. No suba el tema nuevo sobre el viejo.</p>
     </div>
+
+    <h4>Actualización de la Plantilla</h4>
+    <p>Cada actualización incluye dump de la base de datos independiente que contiene los ajustes de la página principal, ajustes del blog y listas de categorías. </p> 
+
+    <p>No habrá cambios en el diseño visual si no ha vuelto a re-importar el dump. Sin embargo, verá nueva sección en la <strong>TM Store Setting</strong> sección de su panel de administración, donde usted puede configurar parcialmente el diseño de apariencia. Todos los otros ajustes deben configurarse según las instrucciones en la sección <strong>Ketty Theme Configuration</strong> .</p>
+
+
+
     <p>Para obtener más información sobre cómo configurar páginas, comprueba los siguientes temas: <strong>Instalación del tema de Magento</strong> y <strong>Configuración del tema Único</strong>.</p>
 </article>
 
@@ -174,11 +215,19 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
+                                        <dd>
+                                            copia de seguridad de base de datos. Contiene datos de muestra sólo para la primera actualización de la plantilla.
+                                        </dd>
+                                    </dl>
+                                </li>
                                 <li class="last-example">
                                     <dl class="inline-term">
-                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            el archivo de copia de seguridad de la base de datos. Contiene el contenido de los datos de ejemplo del tema.
+                                            copia de seguridad de base de datos. Contiene datos de muestra sólo para la segunda actualización de la plantilla.
                                         </dd>
                                     </dl>
                                 </li>

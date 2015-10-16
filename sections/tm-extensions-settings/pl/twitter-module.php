@@ -50,7 +50,7 @@
 		</tr>
 	</table>
 	<p>Moduł jest wyświetlany domyślnie w lewej kolumnie. Jednak są trzy opcje wyświetlania: <strong>left</strong>, <strong>right</strong> oraz <strong>footer</strong>. <br>
-				Aby zmienić położenie bloku, należy otworzyć plik <strong>tm_twitter.xml</strong> zlokalizowany w folderze <strong>/app/design/frontend/default/themeXXX/layout</strong> Twojej instalacji.</p>
+				Aby zmienić położenie bloku, należy otworzyć plik <strong>tm_twitter.xml</strong> zlokalizowany w folderze <strong>/app/design/frontend/tm_themes/themeXXX/layout</strong> Twojej instalacji.</p>
 	Plik ten zawiera trzy <strong><em>reference</em></strong> do bloków o parametrach <strong>name="left"</strong> (name="right", name="footer").
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -67,7 +67,7 @@
 
 <ol class="index-list">
 	<li>Uncomment lines of code for <strong>name="footer"</strong> block (the last one in the example of the code above) and comment out the <strong>name="left"</strong> block (the first one in the example of code above).</li>
-	<li>Otwórz plik <strong>footer.phtml</strong> zlokalizowany w folderze <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+	<li>Otwórz plik <strong>footer.phtml</strong> zlokalizowany w folderze <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong>.</li>
 	<li>Wklej następujący kod do wskazanego miejsca:
 		<pre class="prettyprint linenums">	&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>	
 	</li>

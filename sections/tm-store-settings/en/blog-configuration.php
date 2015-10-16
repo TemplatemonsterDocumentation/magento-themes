@@ -7,7 +7,7 @@
         <figure class="img-polaroid"><img src="img/magento/Theme-set-8.jpg" alt="" /></figure>
     </li>
     <li>
-        Go to "<strong>TM Store Settings</strong>" tab. In the "<strong>Blog Layout</strong>" section select the layout you like.
+        Go to the "<strong>TM Store Settings</strong>" tab. In the "<strong>Blog Layout</strong>" section select the layout you like.
         <figure class="img-polaroid"><img src="img/magento/blog-settings.jpg" alt="" /></figure>        
     </li>
     <li>
@@ -15,4 +15,4 @@
     </li>
 </ol>
 
-<p>You can change layout by turning sidebar off/on in the module settings. Module settings can be found in <strong>Extensions settings -> Blog</strong>.</p>
+<p>You can change the layout by turning sidebar off/on in the module settings. Module settings can be found in <strong>Extensions settings -> Blog</strong>.</p>

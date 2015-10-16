@@ -1,13 +1,13 @@
 <h3>Category listing settings</h3>
 
-<p>The template includes 3 product listing layouts on the category page.</p> In order to select the required one:
+<p>The template includes 4 product listing layouts on the category page.</p> In order to select the required one:
 <ol class="index-list"> 
     <li>
         In the top navigation menu go to <strong>System > Configuration</strong>. 
         <figure class="img-polaroid"><img src="img/magento/Theme-set-8.jpg" alt="" /></figure>
     </li>
     <li>
-        Go to "<strong>TM Store Settings</strong>". In the "<strong>Product Listing Layout</strong>" section select the layout you like.
+        Go to the "<strong>TM Store Settings</strong>" tab. In the "<strong>Product Listing Layout</strong>" section select the layout you like.
         <figure class="img-polaroid"><img src="img/magento/category-settings.jpg" alt="" /></figure>        
     </li>
     <li>

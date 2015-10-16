@@ -41,7 +41,7 @@ Se puede configurar en el Panel de Administraci&oacute;n de Magento en la secci&
 	</tr>				
 </table>
 <p>Por defecto, el m&oacute;dulo se muestra en la columna izquierda. Pero hay tres opciones de visualizaci&oacute;n: <strong>left</strong>, <strong>right</strong> y <strong>footer</strong>.
-Para cambiar la posici&oacute;n del m&oacute;dulo, es necesario abrir el archivo <strong>tm_facebook.xml</strong> que se encuentra en la carpeta <strong>app/design/frontend/default/themeXXX/layout</strong> de su instalaci&oacute;n.</p>
+Para cambiar la posici&oacute;n del m&oacute;dulo, es necesario abrir el archivo <strong>tm_facebook.xml</strong> que se encuentra en la carpeta <strong>app/design/frontend/tm_themes/themeXXX/layout</strong> de su instalaci&oacute;n.</p>
 
 Este archivo incluye tres bloques de <strong><em>reference</em></strong> con <strong>name="left"</strong> los par&aacute;metros necesarios (name="right", name="footer").
 <pre class="prettyprint linenums">
@@ -59,7 +59,7 @@ Si usted necesita mostrar el m&oacute;dulo en el pie de p&aacute;gina, siga esta
 </p>
 <ol class="index-list">
 	<li>Descomente las l&iacute;neas de c&oacute;digo para el bloque <strong>name="footer"</strong> (el &uacute;ltimo en el ejemplo de c&oacute;digo de arriba) y comente el bloque <strong>name="left"</strong> (el primero en el ejemplo del c&oacute;digo de arriba).</li>
-	<li>Abra el archivo <strong>footer.phtml</strong> que se encuentra en la carpeta <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+	<li>Abra el archivo <strong>footer.phtml</strong> que se encuentra en la carpeta <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong>.</li>
 	<li>Pegue el c&oacute;digo siguiente en el lugar necesario:
 		<pre class="prettyprint linenums">	&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
 	</li>

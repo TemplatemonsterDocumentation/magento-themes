@@ -41,7 +41,7 @@ Puoi configurarlo andando sul pannello di amministrazione Magento (Admin Panel) 
 	</tr>				
 </table>
 <p>Di default, il modulo verrà situato nella colonna a sinistra. Ma è possibile optare per tre possibilità: <strong>sinistra</strong>, <strong>destra</strong> e <strong>pié pagina</strong>. <br>
-Per cambiare la posizione del blocco, devi aprire il file <strong>tm_facebook.xml</strong> che si trova nella cartella <strong>app/design/frontend/default/themeXXX/layout</strong> della tua installazione.</p>
+Per cambiare la posizione del blocco, devi aprire il file <strong>tm_facebook.xml</strong> che si trova nella cartella <strong>app/design/frontend/tm_themes/themeXXX/layout</strong> della tua installazione.</p>
 
 Questo file include tre blocchi di <strong><em>reference</em></strong> con parametri <strong>name="left"</strong> (name="right", name="footer").
 <pre class="prettyprint linenums">
@@ -59,7 +59,7 @@ Se vuoi posizionare il modulo a pié pagina, segui queste istruzioni:
 </p>
 <ol class="index-list">
 	<li>Togli il commento (uncomment) alle stringhe di codice del blocco <strong>name="footer"</strong>  (l'ultimo, nell'esempio di codice qui sopra) e commenta (comment out) il blocco <strong>name="left"</strong> (il primo, nell'esempio di codice qui sopra).</li>
-	<li>Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+	<li>Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong>.</li>
 	<li>Incolla il seguente codice nella corretta posizione:
 		<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
 	</li>

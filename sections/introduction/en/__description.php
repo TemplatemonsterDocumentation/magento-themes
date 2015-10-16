@@ -35,7 +35,7 @@
         <li>Released the Ketty Newsletter template;</li>
         <li>Added new subpages and product pages designs.</li>
     </ul>
-    <h6>Ketty v2.1(September 14, 2015):</h6>
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
     <ul class="line-list">
         <li>Added the Home layout;</li>
         <li>Added the Listing layout;</li>
@@ -44,7 +44,8 @@
         <li>Added the Special Price countdown;</li>
         <li>Bug fixes.</li>
     </ul>
-    <h6>Ketty v2.2(September 30, 2015):</h6>
+    
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
     <ul class="line-list">
         <li>Added the Home layout;</li>
         <li>Added the Listing layout;</li>
@@ -54,6 +55,17 @@
         <li>Added the Twitter module;</li>
         <li>Added the Background video (layout 2);</li>
         <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
     </ul>
 
     <p>The content of template package differs from our standard Magento templates so let us help you to deal with it. </p>
@@ -69,9 +81,9 @@
     </div>
     
     <h4>Template update</h4>
-    <p>Each update includes separate database dump that contains main page settings, blog and category page settings.</p> 
+    <p>Each update includes separate database dump that contains main page settings, blog and category listing page settings</p> 
 
-    <p>There will be no visual design changes if you don't perform dump re-import. However you will see <strong>TM Store Setting</strong> seciton in admin panel where you can partially configure layout appearance. All the other settings should be configured as per the instructions in <strong>Ketty Theme Configuration</strong> section.</p>
+    <p>There will be no visual design changes if you don't perform dump re-import. However you will see new section in the  <strong>TM Store Settings</strong> section of your admin panel, where you can partially configure layout appearance. All the other settings should be configured as per the instructions in <strong>Ketty Theme Configuration</strong> section.</p>
 
     <p>To get more information on how to configure pages, check the following topics: <strong>Magento theme installation</strong> and <strong>Ketty theme configuration</strong>.</p>
 </article>

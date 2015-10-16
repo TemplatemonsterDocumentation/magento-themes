@@ -18,21 +18,42 @@
 			"id":"home-page-configuration",
 			"translations":{
 				"ru":"Настройка домашней страницы",
-				"en":"Home page configuration"
+				"en":"Home page configuration",
+				"tr":"Anasayfa Düzenlemesi",
+				"de":"Hauptseitenkonfiguration",
+				"es":"Configuración de la página Principal",
+				"fr":"Configuration de la page d'accueil",
+				"it":"Home (Main) Page Configurazione",
+				"pl":"Konfiguracja strony domowej (głównej)",
+				"pt":"Configuração da página inicial/principal (Home/Main)"
 			}
 		},
 		{
 			"id":"blog-configuration",
 			"translations":{
 				"ru":"Настройка Блога",
-				"en":"Blog configuration"
+				"en":"Blog configuration",
+				"tr":"Blog ayarlarý",
+				"de":"Blog Konfiguration",
+				"es":"Configuración del blog",
+				"fr":"Configuration de blog",
+				"it":"Configurazioni Blog",
+				"pl":"Konfiguracja bloga",
+				"pt":"Configuração do Blog"
 			}
 		},
 		{
 			"id":"category-listing-configuration",
 			"translations":{
 				"ru":"Настройка листинга категорий",
-				"en":"Category listing configuration"
+				"en":"Category listing configuration",
+				"tr":"Kategori listesi ayarlarý",
+				"de":"Kategorienauflistung Einstellungen",
+				"es":"Ajustes de Categoría del listado",
+				"fr":"Paramètres de la liste des catégories",
+				"it":"Impostazioni categoria quotazione",
+				"pl":"Ustawienia listingu kategorii",
+				"pt":"Definições da listagem de categoriaCategory listing settings"
 			}
 		},
 		{
@@ -67,7 +88,14 @@
 			"id":"footer-configuration",
 			"translations":{
 				"ru":"Настройка футера",
-				"en":"Footer configuration"
+				"en":"Footer configuration",
+				"tr":"Alt Kýsým Ayarlarý",
+				"de":"Footer-Einstellungen",
+				"es":"Configuración de pie de página",
+				"fr":"Paramètres de pied de page",
+				"it":"Impostazioni Footer",
+				"pl":"Ustawienia stopki",
+				"pt":"Definições de Rodapé"
 			}
 		}		
 	]

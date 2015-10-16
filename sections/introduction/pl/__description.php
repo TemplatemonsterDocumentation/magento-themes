@@ -34,6 +34,38 @@
         <li>Wydano szablon Newslettera Ketty;</li>
         <li>Dodano nowe podstrony i projekty stron produktu.</li>
     </ul>
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 2;</li>
+        <li>Added the Blog layout 3;</li>
+        <li>Added the Special Price countdown;</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
+    </ul>
     <p>Zawartość tego pakietu szablonów różni się od naszych standardowych szablonów Magento, więc pozwól nam pomóc ci poradzić sobie z nim. </p>
     <p>Archiwum obejmuje dwa foldery:</p>
     <ul class="marked-list">
@@ -45,6 +77,13 @@
     <div class="alert alert-warning">
         <p>Stary motyw nie jest zgodny z nowym. Dlatego nie przesyłaj nowy motyw na stary.</p>
     </div>
+
+    <h4>Aktualizacja szablonu</h4>
+    <p>Każda aktualizacja zawiera osobny zrzut bazy danych, składający się z ustawień głównej strony oraz stron listingowych blogów i kategorii.</p> 
+
+    <p> W projekcie nie odbędzie żadnych wizualnych zmian, jeśli nie wykonać zrzutu ponownego importu. Jednak w sekcji <strong>TM Store Setting</strong> twojego panelu administracyjnego pojawi się nowa sekcja, gdzie można będzie częściowo skonfigurować wygląd układu. Wszystkie inne ustawienia powinny być skonfigurowane zgodnie z instrukcjami w sekcji <strong>Konfiguracja motywu Ketty</strong>.</p>
+
+
     <p>Więcej informacji, dotyczących konfigurowania stron, można znaleźć w następujących rozdziałach: <strong>Instalacja motywu Magento</strong> i <strong>Konfiguracja unikalnego motywu</strong>.</p>
 </article>
 
@@ -174,11 +213,19 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
+                                        <dd>
+                                            kopia zapasowa bazy danych. Zawiera przykładowe dane tylko dla pierwszej aktualizacji szablonu.
+                                        </dd>
+                                    </dl>
+                                </li>
                                 <li class="last-example">
                                     <dl class="inline-term">
-                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            plik kopii zapasowej bazy danych. Zawiera przykładowy motyw.
+                                            kopia zapasowa bazy danych. Zawiera przykładowe dane tylko dla drugiej aktualizacji szablonu.
                                         </dd>
                                     </dl>
                                 </li>

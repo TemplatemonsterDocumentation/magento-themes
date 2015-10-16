@@ -50,7 +50,7 @@
 		</tr>
 	</table>
 	<p>Di default, il blocco viene posizionato nella colonna di sinistra. Ma ci sono tre possibilità in tutto: <strong>sinistra</strong>, <strong>destra</strong> e <strong>a pié pagina</strong>. <br>
-				Per cambiare il posizionamento del blocco, devi aprire il file <strong>tm_twitter.xml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/layout</strong> all'interno della tua installazione.</p>
+				Per cambiare il posizionamento del blocco, devi aprire il file <strong>tm_twitter.xml</strong> situato nella cartella <strong>app/design/frontend/tm_themes/themeXXX/layout</strong> all'interno della tua installazione.</p>
 	Questo file include tre blocchi di <strong><em>reference</em></strong> con parametri <strong>name="left"</strong> (name="right", name="footer").
 	<pre class="prettyprint linenums">
 &lt;reference name="left"&gt;
@@ -67,7 +67,7 @@
 
 <ol class="index-list">
 	<li>Togli il commento (uncomment) alle stringhe di codice del blocco <strong>name="footer"</strong> (l'ultimo, nell'esempio di codice qui sopra) e commenta (comment out) il blocco <strong>name="left"</strong> (il primo, nell'esempio di codice qui sopra).</li>
-	<li>Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/default/themeXXX/template/page/html</strong>.</li>
+	<li>Apri il file <strong>footer.phtml</strong> situato nella cartella <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong>.</li>
 	<li>Incolla il seguente codice nella corretta posizione::
 		<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_twitter_timeline') ?&gt;</pre>	
 	</li>

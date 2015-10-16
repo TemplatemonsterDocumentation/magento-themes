@@ -34,6 +34,38 @@
         <li>Lançado o template da newsletter Ketty;</li>
         <li>Incluídos novos layouts para subpáginas e páginas de produto.</li>
     </ul>
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 2;</li>
+        <li>Added the Blog layout 3;</li>
+        <li>Added the Special Price countdown;</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
+    </ul>
     <p>O conteúdo dos pacotes de template diverge de nossos templates padrão para Magento, então permita-nos ajudá-lo com isso. </p>
     <p>O arquivo contém duas pastas :</p>
     <ul class="marked-list">
@@ -45,6 +77,13 @@
     <div class="alert alert-warning">
         <p>O tema antigo não é compatível com o tema novo. Não faça upload do novo tema por cima do antigo.</p>
     </div>
+
+    <h4>Atualização de Template</h4>
+    <p>Cada atualização de template inclui um dump do banco de dados separado que contém as configurações de página principal, blog e listagem de categorias.</p> 
+
+    <p>Não haverá mudanças no design visual se você não fizer uma reimportação do dump. No entanto, você verá uma nova seção a área <strong>TM Store Setting</strong> do seu painel adminstrativo, onde você pode configurar aparência do layout parcialmente. Todas as outras definições devem ser configuradas de acordo com as instruções da seção <strong>Ketty Theme Configuration</strong>.</p>
+
+
     <p>Para receber mais informações sobre como configurar as páginas, verifique os tópicos: <strong>Instalação do tema do Magento</strong> e <strong>Configuração de tema único</strong>.</p>
 </article>
 
@@ -175,11 +214,19 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
+                                        <dd>
+                                            backup do banco de dados. Contém dados de demonstração apenas para a primeira atualização do template.
+                                        </dd>
+                                    </dl>
+                                </li>
                                 <li class="last-example">
                                     <dl class="inline-term">
-                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            o arquivo de recuperação do banco de dados. Contém o conteúdo de amostra do tema.
+                                            backup do banco de dados. Contém dados de demonstração apenas para a segunda atualização do template.
                                         </dd>
                                     </dl>
                                 </li>

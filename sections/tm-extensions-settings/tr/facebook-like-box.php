@@ -40,7 +40,7 @@ Genel ayarlar için Magento Yönetici Paneli'ndeki <strong>System > Configuratio
 		<td>modül alanýnýn geniþliði.</td>
 	</tr>				
 </table>
-<p>Temel olarak modül, sol sütunda yer alýr. Fakat üç adet görüntüleme seçeneði bulunmaktadýr: <strong>sol</strong>, <strong>sað</strong> ve <strong>alt</strong>. Kutunun konumunu deðiþtirmek için, <strong>app/design/frontend/default/themeXXX/layout</strong> klasöründe yer alan <strong>tm_facebook.xml</strong> dosyasýný düzenlemelisiniz.</p>
+<p>Temel olarak modül, sol sütunda yer alýr. Fakat üç adet görüntüleme seçeneði bulunmaktadýr: <strong>sol</strong>, <strong>sað</strong> ve <strong>alt</strong>. Kutunun konumunu deðiþtirmek için, <strong>app/design/frontend/tm_themes/themeXXX/layout</strong> klasöründe yer alan <strong>tm_facebook.xml</strong> dosyasýný düzenlemelisiniz.</p>
 
 Bu dosyada <strong>name="left"</strong> (name="right", name="footer") parametreleriyle üç ayrý <strong><em>reference</em></strong> özelliðine ait kutu bulunur.
 <pre class="prettyprint linenums">
@@ -57,7 +57,7 @@ Bu dosyada <strong>name="left"</strong> (name="right", name="footer") parametrel
 </p>
 <ol class="index-list">
 	<li>Öncelikle <strong>name="footer"</strong> yazan satýrý, baþýndaki ok ünlem ve tireleri kaldýrarak etkinleþtirin ve onlarý <strong>name="left"</strong> satýrýnýn baþýna koyun.</li>
-	<li>Daha sonra <strong>app/design/frontend/default/themeXXX/template/page/html</strong> klasöründeki <strong>footer.phtml</strong> isimli dosyayý açýn.</li>
+	<li>Daha sonra <strong>app/design/frontend/tm_themes/themeXXX/template/page/html</strong> klasöründeki <strong>footer.phtml</strong> isimli dosyayý açýn.</li>
 	<li>Gereken yere bu kodu yapýþtýrýn:
 		<pre class="prettyprint linenums">&lt;?php echo $this-&gt;getChildHtml('tm_facebook_like_footer') ?&gt;</pre>	
 	</li>

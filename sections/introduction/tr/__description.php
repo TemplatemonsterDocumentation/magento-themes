@@ -34,6 +34,38 @@
         <li>Ketty Haber Bülteni þablonunu oluþturduk;</li>
         <li>Yeni alt sayfa ve ürün sayfasý tasarýmlarý ekledik.</li>
     </ul>
+    <h6>Ketty v2.0.1(September 14, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 2;</li>
+        <li>Added the Blog layout 3;</li>
+        <li>Added the Special Price countdown;</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.2(September 30, 2015):</h6>
+    <ul class="line-list">
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>
+        <li>Added the Blog layout 4;</li>        
+        <li>Added the Footer layout;</li>
+        <li>Added the Facebook module;</li>
+        <li>Added the Twitter module;</li>
+        <li>Added the Background video (layout 2);</li>
+        <li>Bug fixes.</li>
+    </ul>
+
+    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <ul class="line-list">        
+        <li>Added the Home layout;</li>
+        <li>Added the Listing layout;</li>       
+        <li>Added Products slider widget;</li>
+        <li>Added "change image on hover" functionality;</li>
+        <li>Added the Instagram feed;</li>
+        <li>Added the Google structured data optimization;</li>
+        <li>Added the admin panel logo upload functionality.</li>
+    </ul>
     <p>Þablon paketinin içeriði, standart Magento þablonuna göre farklýlýk içermektedir. Bu yüzden size bu konuda destek vermek isteriz. </p>
     <p>Arþivde iki klasör bulunmaktadýr :</p>
     <ul class="marked-list">
@@ -45,6 +77,13 @@
     <div class="alert alert-warning">
         <p>Eski tema yenisiyle uyumlu deðildir. Bu yüzden yeni temayý, eskisinin üzerine yüklemeyin.</p>
     </div>
+
+    <h4>Þablon Güncellemesi</h4>
+    <p>Her güncelleme; anasayfa, blok ve kategori listeleme sayfasý ayarlarý gibi, kendine ait veritabaný dökümü içerir.</p> 
+
+    <p>Dökümü yeniden içe aktarmazsanýz, hiçbir görsel tasarým deðilikliði olmaz. Sadece yönetici panelinizdeki <strong>TM Maðaza Ayarlarý</strong> bölümünde, görünüm üzerinde kýsmen deðiþiklik yapabileceðiniz bir alan görürsünüz. Diðer tüm ayarlar <strong>Ketty Tema Ayarlarý</strong> bölümündeki kýlavuza göre düzenlenmelidir.</p>
+
+
     <p>Sayfa ayarlarý için daha fazla bilgiye <strong>Magento tema kurulumu</strong> ve <strong>Özgün tema ayarlarý</strong> bölümlerinden ulaþabilirsiniz.</p>
 </article>
 
@@ -174,11 +213,19 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li>
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_1.sql.gz</strong></dt>
+                                        <dd>
+                                            veritabaný yedeklemesi. Sadece ilk þablon güncellemesi için yedek veri içerir.
+                                        </dd>
+                                    </dl>
+                                </li>
                                 <li class="last-example">
                                     <dl class="inline-term">
-                                        <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
-                                            veritabanı yedek dosyası. Tema için örnek içerik içerir.
+                                            veritabaný yedeklemesi. Sadece ikinci þablon güncellemesi için yedek veri içerir.
                                         </dd>
                                     </dl>
                                 </li>
