@@ -29,6 +29,27 @@
 			}
 		},
 		{
+			"id":"logo-configuration",
+			"translations":{
+				"ru":"Настройка логотипа",
+				"en":"Logo configuration"
+			}
+		},
+		{
+			"id":"product-slider-configuration",
+			"translations":{
+				"ru":"Настройка слайдера продуктов",
+				"en":"Product slider configuration"
+			}
+		},
+		{
+			"id":"image-on-hover",
+			"translations":{
+				"ru":"Смена картинки продукта при ховере",
+				"en":"Product image change on hover"
+			}
+		},
+		{
 			"id":"blog-configuration",
 			"translations":{
 				"ru":"Настройка Блога",

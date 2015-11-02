@@ -35,7 +35,7 @@
         <li>Released the Ketty Newsletter template;</li>
         <li>Added new subpages and product pages designs.</li>
     </ul>
-    <h6>Ketty v2.0.1(September 14, 2015):</h6>
+    <h6>Ketty v2.0.1 (September 14, 2015):</h6>
     <ul class="line-list">
         <li>Added the Home layout;</li>
         <li>Added the Listing layout;</li>
@@ -44,8 +44,8 @@
         <li>Added the Special Price countdown;</li>
         <li>Bug fixes.</li>
     </ul>
-    
-    <h6>Ketty v2.0.2(September 30, 2015):</h6>
+
+    <h6>Ketty v2.0.2 (September 30, 2015):</h6>
     <ul class="line-list">
         <li>Added the Home layout;</li>
         <li>Added the Listing layout;</li>
@@ -57,7 +57,7 @@
         <li>Bug fixes.</li>
     </ul>
 
-    <h6>Ketty v2.0.3(October 19, 2015):</h6>
+    <h6>Ketty v2.0.3 (October 19, 2015):</h6>
     <ul class="line-list">        
         <li>Added the Home layout;</li>
         <li>Added the Listing layout;</li>       
@@ -227,6 +227,22 @@
                                         <dt><i class="fa fa-file"></i> <strong>dump_layout_2.sql.gz</strong></dt>
                                         <dd>
                                             database backup. Contains demo data only for the second template layout (update).
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_3.sql.gz</strong></dt>
+                                        <dd>
+                                            Database backup. Includes demo data for the 3rd template's update only.
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_4.sql.gz</strong></dt>
+                                        <dd>
+                                            Database backup. Includes demo data for the 4th template's update only.
                                         </dd>
                                     </dl>
                                 </li>
