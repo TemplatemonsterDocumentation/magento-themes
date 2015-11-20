@@ -73,7 +73,7 @@
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>pub</strong></dt>
                                 <dd>
                                     contiene file e directory da caricare sulla directory root della tua installazione Magento.
                                 </dd>
@@ -146,7 +146,7 @@
     
     <h4>Hosting</h4>
     <p>Dal momento che Magento Commerce è un'applicazione basata su PHP/MySQL, sarà necessario preparare l'ambiente di hosting ad accogliere ed eseguire Magento.</p>
-    <p>Se hai un hosting live, assicurati che questo risponda ai <a href="http://magento.com/resources/system-requirements" target="_blank"> requisiti Magento </a> e che sia pronto all'uso per lo store Magento.</p>
+    <p>Se hai un hosting live, assicurati che questo risponda ai <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> requisiti Magento </a> e che sia pronto all'uso per lo store Magento.</p>
     <p>Altrimenti, è possibile eseguire Magento localmente sul tuo computer utilizzando il server locale. Per creare un server da hosting locale, si possono utilizzare applicazioni localhost come <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> ecc. Ognuna di queste applicazioni può essere facilmente installata ed essere utilizzata per eseguire Magento. </p>
     <p>Guarda le seguenti guide su come configurare l'ambiente di sviluppo locale:</p>
     <ul class="marked-list">

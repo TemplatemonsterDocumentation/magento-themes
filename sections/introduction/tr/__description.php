@@ -73,7 +73,7 @@
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>pub</strong></dt>
                                 <dd>
                                      Magento'yu kurduğunuz ana dizine yüklemeniz gereken dosya ve dizinleri içerir.
                                 </dd>
@@ -146,7 +146,7 @@
     
     <h4>Hosting (Site barındırma)</h4>
     <p>Magento Commerce, PHP/MySQL tabanlı bir uygulama olduğu için Magento'nun çalışabileceği bir barındırma sistemi kullanmanız gerekir.</p>
-    <p>Eğer kullanmakta olduğunuz bir hosting servisi varsa,<a href="http://magento.com/resources/system-requirements" target="_blank"> Magento gereksinimleri </a> ni karşıladığına ve Magento mağazası için kullanıma hazır olduğuna emin olunuz.</p>
+    <p>Eğer kullanmakta olduğunuz bir hosting servisi varsa,<a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> Magento gereksinimleri </a> ni karşıladığına ve Magento mağazası için kullanıma hazır olduğuna emin olunuz.</p>
     <p>Veya dilerseniz Magento'yu, kendi bilgisayarınızda kurulu olan bir lokal sunucu üzerinden de kullanabilirsiniz. Bunun için <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> gibi bir uygulamaya ihtiyacınız olacaktır. Bu uygulamalar kolaylıkla kurulabilir ve Magento'yu çalıştırmak için kullanılabilir.</p>
     <p>Lokal bir barındırma sunucusu kurmak için, aşağıdaki sayfaları inceleyebilirsiniz:</p>
     <ul class="marked-list">

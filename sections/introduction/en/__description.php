@@ -74,7 +74,7 @@
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>pub</strong></dt>
                                 <dd>
                                     contains files and directories that should be uploaded to the root directory of your Magento installation.
                                 </dd>
@@ -147,7 +147,7 @@
     
     <h4>Hosting</h4>
     <p>As Magento Commerce is a PHP/MySQL based application, you need to prepare a hosting environment to run Magento.</p>
-    <p>If you have live hosting, please make sure it matches <a href="http://magento.com/resources/system-requirements" target="_blank"> Magento requirements </a> and is ready to be used for Magento store.</p>
+    <p>If you have live hosting, please make sure it matches <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> Magento requirements </a> and is ready to be used for Magento store.</p>
     <p>Otherwise, you can run Magento locally on your computer using the local server. To create a local hosting server please use the localhost applications such as <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> etc. Any of those can be easily installed as any other program and used to run Magento. </p>
     <p>Please check the following tutorials on how to configure the local development environment:</p>
     <ul class="marked-list">

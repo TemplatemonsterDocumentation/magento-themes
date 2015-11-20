@@ -9,8 +9,8 @@ if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
 //$path = 111;
 
 // Variables
-$product_name = "Magento";
-$product_desc = "Documentation v2-0";
+$product_name = "Magento 2";
+$product_desc = "documentation";
 $doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';
