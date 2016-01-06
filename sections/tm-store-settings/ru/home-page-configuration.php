@@ -16,3 +16,6 @@
 
 <h4><center>Layout 4</center></h4>
 <a class="pretty_image" href="img/magento/ketty-clothing-4.jpg"><figure class="img-polaroid"><img src="img/magento/ketty-clothing-4.jpg" alt="" /></figure></a>
+
+<h4><center>Layout 5</center></h4>
+<a class="pretty_image" href="img/magento/ketty-clothing-5.jpg"><figure class="img-polaroid"><img src="img/magento/ketty-clothing-5.jpg" alt="" /></figure></a>

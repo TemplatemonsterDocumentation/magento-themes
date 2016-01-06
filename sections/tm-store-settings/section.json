@@ -118,6 +118,27 @@
 				"pl":"Ustawienia stopki",
 				"pt":"Definições de Rodapé"
 			}
+		},
+		{
+			"id":"sticky-header",
+			"translations":{
+				"ru":"Залипающий хедер",
+				"en":"Sticky header"
+			}
+		},	
+		{
+			"id":"product-list-gallery",
+			"translations":{
+				"en":"Grid/list image view",
+				"ru":"Grid/list image view",
+				"tr":"Grid/list image view",
+				"de":"Grid/list image view",
+				"es":"Grid/list image view",
+				"fr":"Grid/list image view",
+				"it":"Grid/list image view",
+				"pl":"Grid/list image view",
+				"pt":"Grid/list image view"
+			}
 		}		
 	]
 }

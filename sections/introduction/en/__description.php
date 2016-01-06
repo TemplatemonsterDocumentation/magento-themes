@@ -246,6 +246,14 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_5.sql.gz</strong></dt>
+                                        <dd>
+                                            database backup. Contains demo data only for the fifth template update.
+                                        </dd>
+                                    </dl>
+                                </li>
                             </ul>
                         </li>
                     </ul>

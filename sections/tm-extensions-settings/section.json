@@ -41,20 +41,6 @@
 				"pl":"Moduł Newsletter popup",
 				"pt":"Newsletter popup"
 			}
-		},	
-		{
-			"id":"product-list-gallery",
-			"translations":{
-				"en":"Product list gallery",
-				"ru":"Product list gallery",
-				"tr":"Product list gallery",
-				"de":"Product list gallery",
-				"es":"Product list gallery",
-				"fr":"Galerie de la liste de produits",
-				"it":"Product List Gallery",
-				"pl":"Galeria produktów",
-				"pt":"Product list gallery"
-			}
 		},		
 		{
 			"id":"special-price-countdown",
@@ -111,6 +97,34 @@
 				"pl":"Moduł Instagram",
 				"pt":"Módulo do Instagram"
 			}
-		}				
+		},
+		{
+			"id":"ajax-search",
+			"translations":{
+				"en":"Ajax search",
+				"ru":"Ajax search",
+				"tr":"Ajax search",
+				"de":"Ajax search",
+				"es":"Ajax search",
+				"fr":"Ajax search",
+				"it":"Ajax search",
+				"pl":"Ajax search",
+				"pt":"Ajax search"
+			}
+		},		
+		{
+			"id":"product-image-zoom",
+			"translations":{
+				"en":"Product image zoom",
+				"ru":"Product image zoom",
+				"tr":"Product image zoom",
+				"de":"Product image zoom",
+				"es":"Product image zoom",
+				"fr":"Product image zoom",
+				"it":"Product image zoom",
+				"pl":"Product image zoom",
+				"pt":"Product image zoom"
+			}
+		}	
 	]
 }

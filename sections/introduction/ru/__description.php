@@ -252,6 +252,14 @@
                                         </dd>
                                     </dl>
                                 </li>
+                                <li class="last-example">
+                                    <dl class="inline-term">
+                                        <dt><i class="fa fa-file"></i> <strong>dump_layout_5.sql.gz</strong></dt>
+                                        <dd>
+                                            резервная копия базы данных. Содержит демонстрационные данные только для пятого обновления шаблона.
+                                        </dd>
+                                    </dl>
+                                </li>
                             </ul>
                         </li>
                     </ul>
