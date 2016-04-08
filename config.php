@@ -1,16 +1,15 @@
-<?php 
+<?php
 
 if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
-	$path = dirname("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+    $dir    = str_replace('index.php', '', $_SERVER['REQUEST_URI']);
+	$path   = dirname("http://$_SERVER[HTTP_HOST]") . "$dir";
 } else {
-	$path = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+	$path   = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 }
 
-//$path = 111;
-
 // Variables
-$product_name = "Magento";
-$product_desc = "Documentation v2-0";
+$product_name = "Magento 2";
+$product_desc = "documentation v4-1";
 $doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';
