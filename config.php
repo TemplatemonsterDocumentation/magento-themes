@@ -1,11 +1,6 @@
 <?php
 
-$dir    = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
-if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
- $path   = dirname("http://$_SERVER[HTTP_HOST]") . "$dir";
-} else {
- $path   = "http://$_SERVER[HTTP_HOST]$dir";
-}
+$path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 // Variables
 $product_name = "Magento";
