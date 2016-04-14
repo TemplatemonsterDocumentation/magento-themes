@@ -1,16 +1,10 @@
-<?php 
+<?php
 
-if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
-	$path = dirname("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
-} else {
-	$path = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-}
-
-//$path = 111;
+$path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 // Variables
 $product_name = "Magento 2";
-$product_desc = "documentation";
+$product_desc = "documentation v4-0";
 $doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';
