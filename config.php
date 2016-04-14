@@ -3,8 +3,8 @@
 $path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 // Variables
-$product_name = "Magento 2";
-$product_desc = "documentation v4-1";
+$product_name = "Magento";
+$product_desc = "documentation v2-0";
 $doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';
