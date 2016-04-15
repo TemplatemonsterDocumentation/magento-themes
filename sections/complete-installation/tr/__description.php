@@ -1,9 +1,9 @@
-<h2 class="item5"><i class="icon-cogs"></i> Tam kurulum </h2>
-<p>EÄŸer Magento sanal maÄŸazayÄ± Ã¶rnek iÃ§erik kullanarak kurmak isterseniz, bu metodu kullanabilirsiniz. Ã–ncesinde tÃ¼m hazÄ±rlÄ±k aÅŸamasÄ± nÄ± bitirmiÅŸ olmalÄ±sÄ±nÄ±z.</p>
-<p>Kurulum Ã¼Ã§ adÄ±mdan oluÅŸur:</p>
+<h2> Tam kurulum </h2>
+<p>Eğer örnek içerik kullanarak bir Magento e-mağazasına sahip olmak isterseniz tam kurulum metodunu kullanabilirsiniz. Elbette öncesinde, tüm hazırlık aşamalarını tamamlamalısınız.</p>
+<p>Kurulumda 3 adım bulunmaktadır:</p>
 <ol class="index-list">
-    <li>VeritabanÄ± oluÅŸturmak.</li>
-		<li>Gerekli tÃ¼m dosyalarÄ± sunucuya yÃ¼klemek.</li>
-		<li>Magento Commerce'i satÄ±n almÄ±ÅŸ olduÄŸunuz ÅŸablonla birlikte kurmak.</li>
+    <li>Veritabanı oluşturmak.</li>
+    <li>Gerekli dosyaları sunucuya yüklemek.</li>
+    <li>Satın aldığınız şablonla birlikte Magento E-Mağaza altyapısını kurmak.</li>
 </ol>
-<p>BaÅŸlayalÄ±m!</p>
+<p>Haydi başlayalım!</p>

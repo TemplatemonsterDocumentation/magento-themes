@@ -1,30 +1,34 @@
-<h3>Wie stellt man die statischen Blöcke ein</h3>
-<p>Nachdem Sie die Seiten eingestellt haben, ist es nötig die statischen Blöcke einzustellen. Dieser Prozess ist sehr ähnlich. Sie sollen den Code aus den Quelldateien kopieren und in die entsprechenden Felder des Control Panels einfügen. Sie sollen ähnliche Tabelle verwenden, aber nur für die statischen Blöcke.</p>
+<h3>Statische Blöcke Konfiguration</h3>
+<p>Wenn Sie mit den Seiten fertig sind, müssen Sie die statischen Blöcke konfigurieren. Das Verfahren ist ähnlich: Sie müssen den Code aus den Quelldateien kopieren und sie in die entsprechenden Felder in der Magento Admin-Panel einfügen. Sie sollten eine ähnliche Tabelle wie für die statischen Blöcke verwenden.</p>
 <ol class="index-list"> 
-	<li>In dem oberen Menü wählen Sie <b>CMS > Static Blocks</b></li>
-	<li>Drücken Sie den Button "Add New block" in der rechten oberen Ecke, um einen neuen Block hinzuzufügen. <figure class="img-polaroid"><img src="img/magento/pages-setting-5.jpg" alt="" /></figure></li>
-	<li>Geben Sie den Namen des Blocks und die Kennzeichnung ein. Sie können die notwendigen Daten in der Einstellungentabelle der Vorlage (schauen Sie den Punkt der Seiteneinstellungen an) finden.</li>
-	<li>Öffnen Sie die Quelldateien der Blöcke und kopieren Sie den HTML Code in den Bereich content.</li>
+	<li>Im Hautmenü gehen Sie zu <strong>Content > Blocks</strong>. </li>
+	<li>Oben rechts klicken Sie die <strong>"Add New block"</strong> Taste um einen statischen Block hinzuzufügen. 
+		<figure class="img-polaroid"><img src="img/magento/blocks-1.jpg" alt="" /></figure>
+	</li>
+	<li>Geben Sie den Blocknamen und ID ein. Sie können die Block Details aus der Tabelle der Vorlage Konfigurationsseite (siehe Infoseiten Konfiguration Teil) erhalten.</li>
+	<li>Öffnen Sie die Block-Quelldatei und kopieren Sie den HTML-Code in den Inhaltsbereich.</li>
 </ol>
-<figure class="img-polaroid"><img src="img/magento/pages-setting-6.jpg" alt="" /></figure>
 
-<p class="alert alert-info"><span>Achtung: Einige Vorlage enthalten statische Blöcke nicht, deswegen kann die Tabelle leer sein.</span></p>
-<p class="alert alert-info"><span>Die Quelldateien für die statischen Blöcke befinden sich im Ordner "<b>sources\demo\static_blocks\</b>" des Archivs der Vorlage. </span></p>
+<figure class="img-polaroid"><img src="img/magento/blocks-2.jpg" alt="" /></figure>
 
-<h4>Wie zeigt man unsere Blöcke mit dem statischen Inhalt?</h4>
+<p class="alert alert-info"><span>Hinweis: einige Vorlagen enthalten keine statischen Blöcke, so kann die Tabelle leer sein. </span></p>
+<p class="alert alert-info"><span>Die Quelldateien mit dem Code der statischen Blöcke sind im "<strong>sources\demo\static_blocks\</strong>" Ordner des Template-Pakets zu finden. </span></p>
+
+<h4>Wie man Blöcke mit unseren statischen Inhalten angezeigen kann?</h4>
 
 <ol class="index-list"> 
-	<li>In dem oberen Menü wählen Sie <b>CMS > Widgets (CMS > Widgets)</b></li>
-	<li>Drücken Sie in der oberen rechten Ecke auf den Button <strong>Add New Widget Instance (Eine neue Widget-Instanz hinzufügen)</strong>, um das Widget hinzuzufügen.
+	<li>Im Hautmenü gehen Sie zu <strong>Content > Widgets</strong></li>
+	<li>Oben rechts klicken Sie die  <strong>"Add Widget"</strong> Taste um ein Widget hinzuzufügen.
 		<figure class="img-polaroid"><img src="img/magento/widget-1.jpg" alt="" /></figure>
-	<li>Legen Sie den Typ des Widgets <strong>CMS Static Block</strong> und ein Theme, auf die Sie das Widget verwenden möchten und drücken Sie auf den Button <strong>Continue (Weiter)</strong>.
-		<figure class="img-polaroid"><img src="img/magento/widget-2.jpg" alt="" /></figure></li>
-	<li>Auf der nächsten Seite, im Feld <strong>Widget Instance Title (Titel der Widget-Instanz)</strong>, geben Sie den Namen des Widgets ein, der im Control Panel angezeigt wird. Im Feld <strong>Assign to Store Views (Shop Ansichten zuweisen)</strong> wählen Sie Shop Ansichten aus, für die Ihr Widget angezeigt wird. Im Block <strong>Layout Updates (Layout aktualisieren)</strong> drücken Sie auf den Button <strong>Add Layout Update (Aktualisierung vom Layout hinzufügen)</strong>. Im Feld <strong>Display On (Anzeigen auf)</strong> können Sie Seiten auswählen, auf denen das Widget angezeigt wird. Abhängig von ausgewählten Seiten werden zusätzliche Felder, die Sie ausfüllen müssen, agezeigt.
+	</li>
+	<li>Geben Sie den Widget-Typ  <strong>CMS Static Block</strong> an und Thema, wo Sie das Widget anwenden möchten, dann klicken Sie auf die <strong>Continue</strong> Taste.
+		<figure class="img-polaroid"><img src="img/magento/widget-2.jpg" alt="" /></figure>
+	</li>
+	<li>Auf der nächsten Siete im  <strong>Widget Title</strong> Feld gebne Sie den Widgetnamen ein, welcher in der Admin Panel angezeigt wird. Im <strong>Assign to Store Views</strong> Feld müssen Sie die benötige Shop- Ansicht auswählen, die das Widget angezeigen soll. In dem <strong>Layout Updates</strong> Block klicken Sie den <strong>Add Layout Update</strong> Knopf. Im <strong>Display On</strong> Feld wählen Sie die Seiten, die das Widget anzeigen sollen. Abhängig von der ausgewählten Seiten werden Sie die Gelegenheit haben, zusätzlichen Felder auszufüllen. 
 		<figure class="img-polaroid"><img src="img/magento/widget-3.jpg" alt="" /></figure>
 	</li>
-	<li>In der linken Seitenleiste wählen Sie den Tab <strong>Widget Options (Widget Optionen) </strong> und wählen Sie den statischen Block, den Sie brauchen. Vergessen Sie nicht die Änderungen zu speichern.
+	<li>In der linken Seitenleiste klicken Sie das <strong>Widget Options</strong> Tab und wählen Sie den statischen Block,auf den Sie sich beziehen. Vergessen Sie nicht, die Änderungen zu speichern. 
 		<figure class="img-polaroid"><img src="img/magento/widget-4.jpg" alt="" /></figure>
 	</li>
 </ol>
-
-<p>Nachdem Sie alle Seiten und statischen Blöcke eingestellt haben, ist Ihr Online-Shop betriebsbereit.</p>
+<p>Wenn Sie fertig sind die Shop Seiten und Blöcke zu konfigurieren, ist Ihr Geschäft fertig.</p>

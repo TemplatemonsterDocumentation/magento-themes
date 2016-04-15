@@ -1,31 +1,34 @@
-<h3>Sabit blok ayarlarÄ±</h3>
-<p>Sayfa ayarlarÄ±nÄ±zÄ± yaptÄ±ktan sonra sabit bloklarÄ± dÃ¼zenlemelisiniz. ProsedÃ¼r benzer: kaynak dosyalardan kodu kopyalayÄ±p, yÃ¶netici panelinden gerekli alanlara yapÄ±ÅŸtÄ±rmalÄ±sÄ±nÄ±z. Sabit bloklar iÃ§in de benzer bir tablo kullanmalÄ±sÄ±nÄ±z.</p>
+<h3>Sabit kutucuk ayarları</h3>
+<p>Sayfa düzenlemesini bitirdikten sonra sabit kutucukları da ayarlamalısınız. İşlem hemen hemen aynı: kaynak dosyadan kopyalayacağınız kodları Magento yönetici panelindeki gerekli yere yapıştıracaksınız. Sabit kutucuklar için de kullanacağınız tablo benzer olacak.</p>
 <ol class="index-list"> 
-	<li>Ãœst menÃ¼den <b>CMS > Sabit Bloklar</b> Ä± seÃ§in. (Ä°Ã§erik YÃ¶neticisinden)</li>
-	<li>SaÄŸ kÃ¶ÅŸeden <strong>"Yeni Blok ekle"</strong> dÃ¼ÄŸmesine basÄ±n. <figure class="img-polaroid"><img src="img/magento/pages-setting-5.jpg" alt="" /></figure></li>
-	<li>Blok ismini ve Ã¶zelliÄŸini girin. Bu detaylarÄ± ÅŸablonun Demo sayfasÄ±ndan gÃ¶rÃ¼ntÃ¼leyebilirsiniz. (Sayfa AyarlarÄ± bÃ¶lÃ¼mÃ¼ne bakÄ±n).</li>
-	<li>Blok kaynak dosyasÄ±nÄ± aÃ§Ä±n ve iÃ§erik alanÄ±na HTML kodu koypalayÄ±n.</li>
+	<li>Üst menüden <strong>İçerik > Kutucuklar</strong> kısmına girin. </li>
+	<li>Sağ üst köşeden <strong>"Yeni Kutu Ekle"</strong> düğmesine basın. 
+		<figure class="img-polaroid"><img src="img/magento/blocks-1.jpg" alt="" /></figure>
+	</li>
+	<li>Kutunun ismini ve kimliğini girin. Kutu detaylarını şablon ayar sayfasından edinebilirsiniz (Sayfa Düzeleme kısmına bakınız).</li>
+	<li>Open the block source file and copy the HTML code into the content area.</li>
 </ol>
-<figure class="img-polaroid"><img src="img/magento/pages-setting-6.jpg" alt="" /></figure>
 
-<p class="alert alert-info"><span>Dikkat: bazÄ± ÅŸablonlarda sabit blok yoktur, bu yÃ¼zden tablo boÅŸ olabilir.</span></p>
-<p class="alert alert-info"><span>Sabit blok koduna sahip olan kaynak dosyalarÄ±, ÅŸablon paketinizdeki "<b>sources\demo\static_blocks\</b>" dizininde yer almaktadÄ±r. </span></p>
+<figure class="img-polaroid"><img src="img/magento/blocks-2.jpg" alt="" /></figure>
 
-<h4>KutularÃ½mÃ½zda nasÃ½l sabit iÃ§erik gÃ¶sterebiliriz?</h4>
+<p class="alert alert-info"><span>NOT: bazı şablonlar sabit kutucuk içermez, bu yüzden tablo boş olabilir. </span></p>
+<p class="alert alert-info"><span>Sabit kutucuk kodunun bulunduğu kaynak kodlar, şablon paketindeki "<strong>sources\demo\static_blocks\</strong>" klasöründe bulunmaktadır. </span></p>
+
+<h4>Sabit içerikli kutucuk nasıl gösterilir?</h4>
 
 <ol class="index-list"> 
-	<li>Ãœst menÃ¼den <b>YÃ¶netici Paneli > BileÃ¾enler</b> kÃ½smÃ½na girin.</li>
-	<li>SaÃ° Ã¼st kÃ½sÃ½mdan <strong>Yeni BileÃ¾en Ekle </strong> dÃ¼Ã°mesine basÃ½nÃ½z.
+	<li>Üst menüden <strong>İçerik > Bileşenler</strong> bölümüne girin.</li>
+	<li>Sağ üst köşeden <strong>"Bileşen Ekle"</strong> düğmesine basın.
 		<figure class="img-polaroid"><img src="img/magento/widget-1.jpg" alt="" /></figure>
 	</li>
-	<li>BileÃ¾en tÃ¼rÃ¼nÃ¼ <strong>YÃ¶netici Paneli > Sabit Kutular</strong> ve bileÃ¾enin hangi temaya uygulanacaÃ°Ã½nÃ½ seÃ§in. ArdÃ½ndan <strong>Devam</strong>'a tÃ½klayÃ½n.
-		<figure class="img-polaroid"><img src="img/magento/widget-2.jpg" alt="" /></figure></li>
-	<li>AÃ§Ã½lan sayfada, <strong>BileÃ¾en Ãsmi </strong> alanÃ½na, yÃ¶netici panelinde yer alacak olan ismi yazÃ½n. <strong>MaÃ°aza gÃ¶rÃ¼nÃ¼mÃ¼ne ata </strong> alanÃ½nda ise, bileÃ¾enin gÃ¶sterileceÃ°i maÃ°aza gÃ¶rÃ¼nÃ¼mÃ¼nÃ¼ seÃ§in. <strong>Layout Updates </strong> (GÃ¶rÃ¼ntÃ¼ gÃ¼ncelleme) kÃ½smÃ½ndan <strong>Add Layout Update</strong> (GÃ¼ncelleme ekle) dÃ¼Ã°mesine basÃ½n. <strong>GÃ¶ster</strong> kÃ½smÃ½ndan, bileÃ¾enin gÃ¶sterileceÃ°i sayfalarÃ½ seÃ§in. SeÃ§eceÃ°iniz sayfaya gÃ¶re, ek alanlar doldurmanÃ½z gerekebilir.
+	<li>Türü <strong>CMS Static Block</strong> olarak belirleyin ve bileşenin uygulanacağı temayı seçin. Ardından <strong>Devam</strong> düğmesine tıklayın.
+		<figure class="img-polaroid"><img src="img/magento/widget-2.jpg" alt="" /></figure>
+	</li>
+	<li>Bir sonraki sayfada <strong>Bileşen Başlığı</strong> alanını doldurun. Böylece bileşen, yönetici panelinizde bu isimle yer alır. <strong>Mağaza Görünümüne Ata</strong> kısmından, bileşenin görüntüleneceği mağaza görünümünü seçin. <strong>Tasarım Güncelleme</strong> kutucuğundan <strong>Tasarım Güncellemesi Ekle</strong> düğmesine tıklayın. <strong>Göster</strong> alanından, bileşenin gösterileceği sayfaları seçin. Seçeceğiniz sayfalara göre farklı alanları da doldurmanız gerekebilir.
 		<figure class="img-polaroid"><img src="img/magento/widget-3.jpg" alt="" /></figure>
 	</li>
-	<li>Sol taraftaki <strong>BileÃ¾en AyarlarÃ½ </strong> etiketine tÃ½klayÃ½n ve dÃ¼zenleme yaptÃ½Ã°Ã½nÃ½z sabit kutuyu seÃ§in. DeÃ°iÃ¾iklikleri kaydetmeyi unutmayÃ½n.
+	<li>Sol taraftan <strong>Bileşen Seçenekleri</strong> sekmesine tıklayıp, ilgili sabit kutucuğu seçin. Değişiklikleri kaydetmeyi unutmayın. 
 		<figure class="img-polaroid"><img src="img/magento/widget-4.jpg" alt="" /></figure>
 	</li>
 </ol>
-
-<p>SayfalarÄ±nÄ±zÄ±n ve bloklarÄ±nÄ±zÄ±n ayarlarÄ±nÄ± bitirdikten sonra, maÄŸazanÄ±z kullanÄ±ma hazÄ±r hale gelir.</p>
+<p>Mağaza sayfalarını ve kutucukları düzenledikten sonra, mağazanız artık kullanıma hazır hale gelir.</p>

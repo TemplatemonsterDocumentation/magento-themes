@@ -1,35 +1,35 @@
 <h2 class="item1">Einführung</h2>
 <p>
-    Vielen Dank, dass Sie die Vorlage von Magento gekauft haben. Dieses Dokument besteht aus einigen Teilen und stellt Ihnen nicht nur den ganzen Erstellungsprozess bei Null sondern auch Magento Shopverwaltung vor. Wir haben alles gemacht, um diese Anleitung verständlich und     einfach in der Handhabung zu machen. 
+    Vielen Dank , dass Sie das Magento Thema heruntergeladen haben. Diese Dokumentation besteht aus mehreren Teilen und umfasst den gesamten Prozess der Installation und Konfiguration vom Magento Thema.
 </p>
 
 <article id="whatismagento">
-    <h3>Was ist denn Magento Commerce?</h3>
-    <p>Magento ist eine multifunktionale Plattform für den Internethandel mit dem offenen Quellcode. Sie bietet flexible Möglichkeiten und die ganze Kontrolle über Aussehen, Inhalt, Funktionen der Online-Shops an. Das intuitive Control Panel von Magento gewährleistet wunderbare Möglichkeiten für Marketingmaßnahmen, Suchmaschinen und Katalogverwaltung, damit die Webseite den einzigartigen Business Prozessen jedes Shops entspricht. Magento wurde völlig skalierbar gestaltet und es wird mittels Varien unterstützt, deshalb bietet Magento eine gute Lösung für den Internethandel an. <a href="http://www.magentocommerce.com/download" target="_blank">Ausführlich</a></p>
+    <h3>Was ist Magento Commerce?</h3>
+    <p>Magento ist eine funktionsreiche eCommerce-Plattform mit Open-Source-Technologie. Es bietet Flexibilität und Kontrolle über das Aussehen, Inhalt und Funktionalität des E-Commerce-Geschäft an.Magentos intuitive Administrationsoberfläche zeichnet sich durch leistungsstarkes Marketing, Suchmaschinen-Optimierung und Katalog-Management-Tools aus, um Händlern die Möglichkeit zu geben, Websites zu erstellen, die auf ihre individuellen Geschäftsanforderungen angepasst sind.Entwickelt um vollständig skalierbar zu sein und durch Variens Support-Netzwerk unterstützt zu werden, bietet Magento Unternehmen die ultimative eCommerce-Lösung. <a href="http://www.magentocommerce.com/download" target="_blank">Mehr Informationen</a></p>
 </article>
 
 <article id="whatismagentotheme">
-    <h3>Was ist eine Magento Vorlage?</h3>
-    <p>Magento Vorlage ist fertiges Design für Ihren Online-Shop, der auf der Basis von Magento erstellt werden kann. Sie können leicht das Aussehen Ihres Online-Shops ändern, indem Sie nur neue Vorlage installieren. Alle Vorlagen von Magento enthalten alle notwendigen Quelldateien, die Sie nach Ihren Wünschen bearbeiten und hinzufügen können.</p>
+    <h3>Was ist ein Magento Thema?</h3>
+    <p>Magento Thema ist ein komplettes Design für Ihren Online-Shop auf Basis von Magento-Engine. Mit anderen Worten, können Sie einfach das Magento-Shop Aussehen ändern, indem Sie ein neues Thema in ein paar einfachen Schritten installieren.Mit all seiner Einfachheit ist ein Magento Thema mit allen notwendigen Quelldateien zur Verfügung gestellt, die Sie bearbeiten oder erweitern können, so wie Sie benötigen.</p>
 </article>
 
 <article id="file_structure">
-    <h4>Struktur der Dateien</h4>
+    <h4>Magento-Dateistruktur</h4>
 
-    <p>Das Archiv der Vorlage, das Sie heruntergeladen haben, besteht aus einigen Ordnern. Also, schauen wir mal, was sie enthalten:</p>
+    <p>Das Thema Paket, das Sie heruntergeladen haben, besteht aus mehreren Ordnern. Mal sehen, was jeder Ordner enthält:</p>
 
     <ul class="files_structure">
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder-open"></i> <strong>documentation</strong></dt>
-                <dd> enthält die Dokumentationsdateien.</dd>
+                <dd> enthält Dokumentationsdateien .</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
-                            Hauptdokumentationsdatei. Sie lesen sie jetzt :)
+                            die Hauptdokumentation Datei, die Sie im Moment lesen.
                         </dd>
                     </dl>
                 </li>
@@ -38,20 +38,20 @@
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
-                <dd> enthält das Bildschirmfoto der Vorlage. Es ist nicht für die Webseite.</dd>
+                <dd> enthält die Themen Screenshots. Nicht für die Produktion.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
-                <dd> enthält die Quelldateien der Vorlage.</dd>
+                <dd> enthält die Themenquelldateien .</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
                         <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
                         <dd>
-                            Quelldateien für Adobe Photoshop (.psd).
+                            enthält die Themen Adobe Photoshop-Quelldateien  (.psd).
                         </dd>
                     </dl>
                 </li>
@@ -59,7 +59,7 @@
                     <dl class="inline-term">
                         <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
                         <dd>
-                            enthält zusätzliche Seiten und benutzerdefinierte Blöcke, die zur Vorlage gehören.
+                            enthält zusätzliche Seiten und benutzerdefinierte Blöcke, die mit dem Thema zur Verfügung gestellt werden.
                         </dd>
                     </dl>
                 </li>
@@ -67,7 +67,7 @@
                     <dl class="inline-term">
                         <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
                         <dd>
-                            enthält die Demo-Daten für Magento Vorlage.
+                            enthält Magento Thema Beispieldaten .
                         </dd>
                     </dl>
                     <ul>
@@ -75,7 +75,7 @@
                             <dl class="inline-term">
                                 <dt><i class="fa fa-folder"></i> <strong>pub</strong></dt>
                                 <dd>
-                                    enthält Dateien und Ordner, die in den Stammordner der benutzten Magento Installation hochgeladen werden müssen.
+                                    enthält Dateien und Verzeichnisse, die in das Root-Verzeichnis Ihrer Magento-Installation hochgeladen werden sollten.
                                 </dd>
                             </dl>
                         </li>
@@ -83,7 +83,7 @@
                             <dl class="inline-term">
                                 <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
                                 <dd>
-                                    Sicherheitskopie der Datenbank. Sie enthält die Demo-Daten der Vorlage.
+                                    die Datenbank-Backup-Datei. Enthält Beispielinhalt des Themas .
                                 </dd>
                             </dl>
                         </li>
@@ -94,31 +94,31 @@
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
-                <dd> enthält die Dateien und Ordner der Magento Vorlage, die in den Stammordner der benutzten Magento Installation hochgeladen werden müssen.</dd>
+                <dd> enthält Magento Thema Dateien und Verzeichnisse, die in das Root-Verzeichnis Ihrer Magento-Installation hochgeladen werden soll.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
-                <dd> hier gibt es das komplette Magento Installationspaket mit  Dateien von Engine, Theme und Beispielinhalte.</dd>
+                <dd> enthält das komplette Magento-Installationspaket mit Engine-Dateien, Thema und Beispielinhalt (Beispielbilder ).</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> Datei zum Entpacken von Dateien aus fullpackage.zip, wenn man die auf dem Hosting Server hochladet.</dd>
+                <dd> die Datei verwendet, um Dateien aus dem fullpackage.zip zu extrahieren, wenn es zum Hosting-Server hochgeladen wird.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
-                <dd> enthält Links, mittels deren nicht Standardschriften hochgeladen werden können, die in der Vorlage benutzt werden.</dd>
+                <dd> enthält die Links, wo die benutzerdefinierte Schriftarten der Vorlage heruntergeladen werden können.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
-                <dd> enthält die Anleitungen zum Entpacken der Quelldateien.</dd>
+                <dd> enthält Anweisungen, wie man Quelldateien extrahiert.</dd>
             </dl>            
         </li>
     </ul>
@@ -126,33 +126,32 @@
 <article id="validation">
     <h3>Validation</h3>
     <div class="alert alert-warning">
-        <span>Both HTML markup and CSS styles used in our templates are semantically correct and valid. However some W3C errors still can take place. Making code 100% W3C valid eliminates the usage of modern website technologies as CSS3 features and HTML5 markup. Our goal is to deliver rich user experience with high quality templates and sometimes we have to break some rules.</span>
+        <span>HTML-Markup und CSS-Stile, die in unsere Vorlage verwendet werden, sind semantisch korrekt und gültig. Jedoch einige W3C Fehler können passieren. Einen 100% W3C gültigen Code zu erstellen, eliminiert die Nutzung der modernen Website-Technologien wie CSS3-Funktionen und HTML5-Markup. Unser Ziel ist es eine reiche Benutzererfahrung mit qualitativ hochwertigen Vorlagen zu liefern und manchmal müssen wir einige unserer Regeln brechen.</span>
     </div>
 </article>
 <article id="prepare">
     <h3>Vorbereitung</h3>
 
-    <p>Bebor Sie den Online-Shop von Magento installieren, sollen Sie alles fertig machen. Es wird empfohlen, die folgenden vorbereitenden Schritte auszuführen:</p>
+    <p>Bevor Sie fortfahren, Ihren Magento-Shop einzurichten, stellen Sie sicher, dass Sie voll und ganz vorbereitet sind. Bitte füllen Sie die folgenden Vorbereitungsschritte aus :</p>
 
-    <h4>Software</h4>
+    <h4>Bearbeitungs-Software</h4>
 
-    <p>Um mit der Magento Vorlage vollständig zu arbeiten, laden Sie alle notwendigen Erweiterungen herunter. Die Liste der notwendigen Software befindet sich auf der Vorschauseite der Vorlage. <br />
-    Anforderungen an verschiedene Vorlagen können sich unterscheiden, deswegen nennen wir die wichtigsten:</p>
+    <p>Um sich die Arbeit mit Magento Template leicht zu machen, empfehlen wir all die benötigten Anwendungen herunterzuladen. Sie können die Liste der erforderlichen Software auf der Vorlage Vorschau-Seite sehen.</br> Diese Anforderungen können sich für verschiedene Vorlagen unterscheiden , für die meisten Vorlagen sind es die folgenden:</p>
     <ol class="index-list">
-        <li>Zuerst brauchen Sie die richtigen Anwendungen, um passwortgeschütztes Archiv sources_#########.zip zu entpacken. Sie können WinZip 9+ (Windows) und Stuffit Expander 10+ (Mac)nutzen.</li>
-        <li>Möglicherweise müssen Sie auch Adobe Photoshop Programm haben. Es wird benutzt, um die Quelldateien .PSD zu bearbeiten und kann nötig sein, wenn Sie das grafischen Design und Bilder der Vorlage ändern möchten.</li>
-        <li>Um die Quellcode der Vorlagendateien zu bearbeiten, sollen Sie den Code-Editor wie Adobe Dreamweaver, Notepad++, Sublime Text usw. nutzen.</li>
-        <li>Um die Dateien auf den Hosting-Server hochzuladen, brauchen Sie  FTP Manager wie Total Commander, FileZilla, CuteFTP usw.</li>
+        <li>Zuerst müssen Sie WinZip 9+ (Windows) und Stuffit Expander 10+ (Mac) verwenden, um den Passwort geschützten sources_#########.zip zu extrahieren. </li>
+        <li>Sie können auch die Adobe Photoshop Anwendung benötigen. Es wird verwendet, um .PSD Quelldateien zu bearbeiten, und es ist notwendig, wenn Sie Template-Design Grafiken und Bilder bearbeiten möchten.</li>
+        <li>Um Template-Quellcode-Dateien zu bearbeiten, benötigen Sie einen Code-Editor wie Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>
+        <li>Zum Hochladen von Dateien auf den Hosting-Server können Sie einen FTP-Manager gebrauchen wie Total Commander, FileZilla, CuteFTP, etc.</li>
     </ol>
     
     <h4>Hosting</h4>
-    <p>Magento Commerce ist PHP/MySQL Anwendung, deswegen sollen Sie den Hosting-Server vorbereiten.</p>
-    <p>Wenn Sie einen aktiven Server haben, sollen Sie ihn dann prüfen, ob er <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> Magento Anforderungen entspricht </a> und den Online-Shop von Magento nutzen kann.</p>
-    <p>Auch kann man Magento auf den Computer mittels des lokalen Servers installieren. Um den lokalen Hosting-Server zu erstellen, sollen Sie die Software wie <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> usw. nutzen. Jede von ihnen wird wie ein Programm installiert und von Magento unterstützt. </p>
-    <p>Sie können die folgenden Tutorials nutzen, um den lokalen Server einzustellen:</p>
+    <p>Da Magento Commerce eine PHP / MySQL-basierte Anwendung ist, müssen Sie eine Hosting-Umgebung vorbereiten, um Magento zu führen.</p>
+    <p>Wenn Sie Live-Hosting haben, stellen Sie sicher, dass es den<a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> Magento Anforderungen </a> pastt und dass es bereit ist einen Magento Shop zu verwenden.</p>
+    <p>Ansonsten können Sie Magento lokal auf Ihrem Computer führen, mit einem lokalen Server .Um einen lokalen Hosting-Server zu erstellen, verwenden Sie bitte die localhost -Anwendungen , wie beispielsweise  <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> etc. Jeder davon kann leicht als jedes andere Programm installiert und eingesetzt werden ,um mit Magento zu arbeiten. </p>
+    <p>Bitte schauen Sie sich die folgenden Anleitungen an, wie man die lokale Entwicklungsumgebung konfiguriert:</p>
     <ul class="marked-list">
-        <li><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">Wie installiert man die Web-Entwicklungsumgebung AppServ</a></li>
-        <li><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">Wie installiert man die Web-Entwicklungsumgebung WAMP</a></li>
-        <li><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">Wie installiert man die Web-Entwicklungsumgebung XAMP</a></li>
+        <li><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">Wie man AppServ Web-Entwicklungsumgebung installiert</a></li>
+        <li><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">Wie man WAMP Web-Entwicklungsumgebung installiert</a></li>
+        <li><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">Wie man XAMP Web-Entwicklungsumgebung installiert</a></li>
     </ul>
 </article>

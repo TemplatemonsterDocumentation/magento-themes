@@ -1,10 +1,9 @@
-		
-<h3>Importation de données d'exemple</h3>
-<p>Le package de template Magento contient le fichier de données d'exemple (dump.sql ou dump.gz). Ce fichier est se trouve dans le dossier <strong>/sources/sample_data</strong>. Il permet de charger des données d'exemple pour que votre site soit semblable à notre template de démo.</p>
-<p class="alert alert-danger"><span>N'importez pas dump.sql.gz si vous avez déjà les données sur votre site. En important dump.sql.gz, tous les produits seront supprimés de votre boutique. Si vous ne voulez pas installer les données d'exemple, utilisez une base de données vide en installant Magento. Passez l'étape de l'installation des données.</span></p>	
+<h3>Importation de Sample data</h3>
+<p>Package  de modèle Magento contient le fichier de données d'échantillon (<strong>dump.sql</strong> ou <strong>dump.gz</strong>). Ce fichier se trouve dans le dossier <strong>/sources/sample_data</strong> de votre template. Il vous permet de charger des données d'échantillon, de sorte que votre site ressemble exactement à notre modèle de démonstration.</p>
+<p class="alert alert-danger"><span>N'importez pas <strong>dump.sql.gz</strong> si vous avez déjà les données sur votre site. Lors de l'importation de <strong>dump.sql.gz</strong> tous les produits seront effacées de votre magasin. Si vous ne souhaitez pas installer les données d'échantillonnage, utilisez la base de données vide lors de l'installation Magento. Sautez l'étape d'installation de données d'échantillons. </span></p>	
 <p>Pour installer le fichier dump, suivez les étapes ci-dessous:</p>
 <ol class="index-list">
-	<li>Connectez-vous sur PhpMyAdmin et sélectionnez la base de données que vous utiliserez pour Magento Commerce (elle a été créée par vous en suivant les étapes fournies plus haut). <figure class="img-polaroid"><img src="img/magento/import-dump-1.jpg" alt="" /></figure></li>
-	<li>Allez dans l'onglet <strong>"Import"</strong> et cliquez sur le bouton <strong>"Browse"</strong>.<figure class="img-polaroid"><img src="img/magento/import-dump-2.jpg" alt="" /></figure></li>
-	<li>Trouvez le dossier <i>"/sources/sample_data"</i> de votre template et sélectionnez le fichier <strong>dump.sql.gz</strong>. Cliquez sur <strong>"GO"</strong>.  <figure class="img-polaroid"><img src="img/magento/import-dump-3.jpg" alt="" /></figure> Le processus d'importation peut prendre quelques minutes.</li>
+	<li>Connectez-vous dans PhpMyAdmin et sélectionnez la base de données que vous allez utiliser pour Magento Commerce (Vous l'avez crée à l'aide des étapes fournies plus haut). <figure class="img-polaroid"><img src="img/magento/import-dump-1.jpg" alt="" /></figure></li>
+	<li>Allez dans l'onglet <strong>"Import"</strong> et cliquez le bouton <strong>"Browse"</strong>. <figure class="img-polaroid"><img src="img/magento/import-dump-2.jpg" alt="" /></figure></li>
+	<li>Trouvez le dossier <strong>"/sources/sample_data"</strong> de votre template et sélectionnez le fichier <strong>dump.sql.gz.</strong>. Cliquez <strong>"GO"</strong>. <figure class="img-polaroid"><img src="img/magento/import-dump-3.jpg" alt="" /></figure> Le processus d'importation peut prendre quelques minutes.</li>
 </ol>

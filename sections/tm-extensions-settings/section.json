@@ -18,28 +18,56 @@
 			"id":"ajax-whishlist",
 			"translations":{
 				"en":"Ajax Whishlist",
-				"ru":"Ajax Whishlist"
+				"ru":"Ajax Whishlist",
+				"tr":"Ajax Whishlist",
+				"de":"Ajax Whishlist",
+				"es":"Ajax Whishlist",
+				"fr":"Ajax Whishlist",
+				"it":"Ajax Whishlist",
+				"pl":"Ajax Whishlist",
+				"pt":"Ajax Whishlist"
 			}
 		},		
 		{
 			"id":"ajax-compare",
 			"translations":{
 				"en":"Ajax Compare",
-				"ru":"Ajax Compare"
+				"ru":"Ajax Compare",
+				"tr":"Ajax Compare",
+				"de":"Ajax Compare",
+				"es":"Ajax Compare",
+				"fr":"Ajax Compare",
+				"it":"Ajax Compare",
+				"pl":"Ajax Compare",
+				"pt":"Ajax Compare"
 			}
 		},		
 		{
 			"id":"ajax-catalog",
 			"translations":{
 				"en":"Ajax Catalog",
-				"ru":"Ajax Catalog"
+				"ru":"Ajax Catalog",
+				"tr":"Ajax Catalog",
+				"de":"Ajax Catalog",
+				"es":"Ajax Catalog",
+				"fr":"Ajax Catalog",
+				"it":"Ajax Catalog",
+				"pl":"Ajax Catalog",
+				"pt":"Ajax Catalog"
 			}
 		},		
 		{
 			"id":"megamenu",
 			"translations":{
 				"en":"Megamenu",
-				"ru":"Megamenu"
+				"ru":"Megamenu",
+				"tr":"Megamenu",
+				"de":"Megamenu",
+				"es":"Megamenu",
+				"fr":"Megamenu",
+				"it":"Megamenu",
+				"pl":"Megamenu",
+				"pt":"Megamenu"
 			}
 		}
 	]

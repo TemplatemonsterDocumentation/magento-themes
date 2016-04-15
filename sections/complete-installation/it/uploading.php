@@ -1,20 +1,19 @@
-		
 <h3>Caricamento e decompressione</h3>
 
-<p>Per iniziare a lavorare con Magento bisognerà prima caricare i file sul server di hosting. Per farlo potrete utilizzare il vostro hosting file manager o un FTP manager esterno.</p>
+<p>Per iniziare a lavorare con Magento è necessario caricare i file sul server di hosting. Questo può essere fatto utilizzando il tuo gestore di file hosting o qualche terza parte responsabile FTP.</p>
             
 <ol class="index-list">
-  <li>Selezionare i file <strong>'unzip.php'</strong> e <strong>'fullpackage.zip'</strong> e caricateli sul vostro server(
-   <a href="/help/how-upload-files-server-2.html" target="_blank">Come caricarei file sul server.</a>
-    )</li>
-  <li>Digitate il percorso del file <strong>'unzip.php'</strong> sul vostro server (http://your_domain_name/unzip.php) in your <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">nel browser.</abbr>.</li>
-  <li>Dovreste visualizzare la seguente schermata:<figure class="img-polaroid"><img src="img/magento/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure></li>
-  <li>Nella finestra <strong>'Choose your zip file'</strong> seleziona il file <strong>fullpackage.zip</strong> caricato.</li>
-  <li>Nella casella <strong>'Unzip to'</strong> specifica la directory in cui volete estrarre i file.</li>
-  <li>Clicca sul pulsante <strong>'Unzip'</strong> per proseguire.</li>
+  <li>Seleziona <strong>'unzip.php'</strong> e <strong>'fullpackage.zip'</strong> file e carica sul server (
+    <a href="/help/how-upload-files-server-2.html" target="_blank">Come caricare file sul server</a>).</li>
+  <li>Digitare il percorso <strong>'unzip.php'</strong> file sul server (http://your_domain_name/unzip.php) nel tuo <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">browser</abbr>.</li>
+  <li>
+  	Devi vedere la seguente schermata:
+  	<figure class="img-polaroid"><img src="img/magento/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
+  </li>
+  <li>In <strong>'Scegli il tuo file zip' ('Choose your zip file')</strong> seleziona la cartella di seguito e caricala <strong>fullpackage.zip file</strong>.</li>
+  <li>In <strong>'Unzippala in' ('Unzip to')</strong> campo specificare nella directory in cui si desidera estrarre i file.</li>
+  <li>Clicca su <strong>'Unzip' ('Unzip')</strong> pulsante per procedere.</li>
 </ol>
           
-
-          
-<p class="alert alert-warning"><span>Assicurarsi di avere impostato i permessi corretti per la directory in cui avete deciso di estrarre i file. I permessi dovrebbero essere CHMOD 755 o 777 a seconda della configurazione del vostro server.</span></p>
+<p class="alert alert-warning"><span>Si prega di assicurarsi di impostare le autorizzazioni corrette per la directory in cui si prevede di estrarre i file. Le autorizzazioni devono essere <strong>CHMOD 755 oppure 777 (CHMOD 755 or 777)</strong> a seconda della configurazione del server.</span></p>
 		
