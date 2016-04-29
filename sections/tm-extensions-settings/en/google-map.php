@@ -1,5 +1,5 @@
 <h3>Google Map</h3>
-<p>The given module allows you to embed the Google map to your Magento website. By default, module provides you with two maps: the map on contact page and the map in the footer of other pages.					
+<p>The given module allows you to embed the Google map to your Magento website. By default, module provides you with two maps: the map on the contact page and the map in the footer of other pages.					
 <br>Both maps can be configured via Magento Admin Panel in <strong>System > Configuration > Templatemonster > Google Map</strong> section.</p>
 
 <ol class="index-list">
@@ -69,7 +69,7 @@
 	<tr>
 		<td class="col-1"><strong>Draggable</strong></td>
 		<td>-</td>
-		<td>enables you to move the map using the left button of your mouse or using fingers for touch (sensor) devices.</td>
+		<td>enables you to move the map using the left button of the mouse or your fingers for touch (sensor) devices.</td>
 	</tr>
 	<tr>
 		<td class="col-1"><strong>Add marker</strong></td>

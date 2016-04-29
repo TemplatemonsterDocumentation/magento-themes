@@ -1,11 +1,11 @@
 		
 <h3>Uploading and unzipping</h3>
 
-<p>To start working with Magento you need to upload files to your hosting server. This can be done using your hosting file manager or some third party FTP manager.</p>
+<p>To start working with Magento you need to upload the files to your hosting server. This can be done using your hosting file manager or some third party FTP manager.</p>
             
 <ol class="index-list">
   <li>Select <strong>'unzip.php'</strong> and <strong>'fullpackage.zip'</strong> files and upload them to your server (
-    <a href="/help/how-upload-files-server-2.html" target="_blank">How to upload files to server</a>).</li>
+    <a href="/help/how-upload-files-server-2.html" target="_blank">How to upload the files to a server</a>).</li>
   <li>Type the path to the <strong>'unzip.php'</strong> file on your server (http://your_domain_name/unzip.php) in your <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">browser</abbr>.</li>
   <li>
   	You should see the following screen:

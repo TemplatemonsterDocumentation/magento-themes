@@ -1,5 +1,5 @@
 <h3>Logo configuration.</h3>
-<p>Please follow these steps when setting up logo image included into the theme package (you can view it on the Live Demo page).</p>
+<p>Please follow these steps when setting up the logo image included into the theme package (you can view it on the Live Demo page).</p>
 <ol class="index-list"> 
 	<li>Open the Magento admin panel and select <strong>System > Configuration</strong> in the top menu.<figure class="img-polaroid"><img src="img/magento/Theme-set-8.jpg" alt="" /></figure></li>
 	<li>Select the "<strong>Design</strong>" tab.<figure class="img-polaroid"><img src="img/magento/Theme-set-9.jpg" alt="" /></figure>		</li>

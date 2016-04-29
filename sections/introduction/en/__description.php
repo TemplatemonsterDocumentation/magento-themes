@@ -17,7 +17,7 @@
 <article id="file_structure">
     <h4>Magento files structure</h4>
 
-    <p>The theme package you have downloaded consists of several folders.  Let's see what each folder contains:</p>
+    <p>The theme package you have downloaded consists of several folders. Let's see what each folder contains:</p>
 
     <ul class="files_structure">
         <li>
@@ -142,12 +142,12 @@
         <li>First, you need to use WinZip 9+ (Windows) and Stuffit Expander 10+ (Mac) to extract the password protected sources_#########.zip archive. </li>
         <li>You may also need the Adobe Photoshop application. It is used to edit .PSD source files, and it is necessary if you want to edit template design graphics and images.</li>
         <li>To edit template source code files, you need some code editor like Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>
-        <li>To upload files to the hosting server you may need an FTP Manager like Total Commander, FileZilla, CuteFTP, etc.</li>
+        <li>To upload the files to the hosting server you may need an FTP Manager like Total Commander, FileZilla, CuteFTP, etc.</li>
     </ol>
     
     <h4>Hosting</h4>
     <p>As Magento Commerce is a PHP/MySQL based application, you need to prepare a hosting environment to run Magento.</p>
-    <p>If you have live hosting, please make sure it matches <a href="http://magento.com/resources/system-requirements" target="_blank"> Magento requirements </a> and is ready to be used for Magento store.</p>
+    <p>If you have a live hosting, please make sure it matches with <a href="http://magento.com/resources/system-requirements" target="_blank"> Magento requirements </a> and is ready to be used for Magento store.</p>
     <p>Otherwise, you can run Magento locally on your computer using the local server. To create a local hosting server please use the localhost applications such as <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> etc. Any of those can be easily installed as any other program and used to run Magento. </p>
     <p>Please check the following tutorials on how to configure the local development environment:</p>
     <ul class="marked-list">
