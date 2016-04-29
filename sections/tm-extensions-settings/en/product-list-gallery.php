@@ -1,9 +1,9 @@
 <h3>Product list gallery</h3>
-<p class="indent">The module allows you to display the thumbnail images of the product along with its main image. In the default theme, thumbnails are displayed below the main product image, but in our themes thumbnails are displayed according to PSD layout.</p>
+<p class="indent">The module allows you to display the thumbnail images of the product along with its main image. In the default theme, thumbnails are displayed below the main product image, but in our themes thumbnails are displayed in accordance with the PSD layout.</p>
 <p>This module can be enabled/disabled in Magento admin panel, in <strong>System > Configuration > Templatemonster > Product List Gallery</strong>.</p>
 <figure class="img-polaroid"><img src="img/magento/productgallery.jpg" alt="" /></figure>
 <p>Module includes 4 sections of settings: <strong>List View</strong>, <strong>Grid View</strong>, <strong>Homepage List View</strong>, and <strong>Homepage Grid View</strong>.<br>
-In <strong>Homepage List View</strong> and <strong>Homepage Grid View</strong> you can configure the display of gallery on the home page of the store. Two other sections help to configure the display of the gallery on categories pages.</p>
+In the<strong>Homepage List View</strong> and <strong>Homepage Grid View</strong> you can configure the display of the gallery on the home page of the store. Two other sections help to configure the display of the gallery on the categories pages.</p>
 <p>All sections include the same settings:</p>			
 <table class="options-table">
 	<tr>

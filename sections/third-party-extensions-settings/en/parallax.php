@@ -1,12 +1,12 @@
 <h3>Parallax</h3>
-Parallax block can be set by adding the part of code to <strong>*.phtml</strong> files of your template. 
-In order to add parallax-effect for certain content block you need:
+Parallax block can be set by adding the part of code to the <strong>*.phtml</strong> files of your template. 
+In order to add parallax-effect to a certain content block you need:
 <ol class="index-list">
 	<li>
-		To add any class for parallax-effect block (e.g., <strong>parallax</strong>) and add attribute <strong>data-source-url="{{skin url='images/your_images.jpg'}}"</strong>.
+		To add any class for parallax-effect block (e.g., <strong>parallax</strong>) and add the <strong>data-source-url="{{skin url='images/your_images.jpg'}}"</strong> attribute.
 	</li>
 	<li>
-		To add image into images folder <strong>skin\frontend\default\themeXXX\images\</strong>.
+		To add an image into the images folder <strong>skin\frontend\default\themeXXX\images\</strong>.
 	</li>
 	<li>
 		To add styles into the <strong>skin\frontend\default\themeXXX\css\style.css</strong> file:
@@ -23,7 +23,7 @@ In order to add parallax-effect for certain content block you need:
 </pre>
 	</li>
 	<li>
-		Add into <strong>skin\frontend\default\themeXXX\js\scripts.js</strong> file following code:
+		Add to the <strong>skin\frontend\default\themeXXX\js\scripts.js</strong> file the following code:
 <pre class="prettyprint linenums">
 jQuery(window).load(function(){
 	var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEmobile|Windows Phone|WPDesktop/i.test(navigator.userAgent);
@@ -38,5 +38,5 @@ jQuery(window).load(function(){
 	</li>
 </ol>
 <p>
-Variable <strong>invert: true</strong> chooses the direction of the parallax effect, and <strong>offset: 300</strong> its density.
+Variable <strong>invert: true</strong> indicates the direction of the parallax effect, and <strong>offset: 300</strong> indicates its density.
 </p>		
