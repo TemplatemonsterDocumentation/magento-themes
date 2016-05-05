@@ -1,5 +1,6 @@
 <h3>Static blocks configuration</h3>
 <p>When you are done configuring the pages, you need to configure the static blocks. The procedure is similar: you need to copy the code from the source files and paste it to the corresponding fields in the Magento admin panel. You need to use a similar table but for the static blocks.</p>
+<p class="alert alert-warning"><span>Block ID may vary in your Magento installation. You can get correct block id from Content-> Blocks section in Admin panel.</span></p>
 <ol class="index-list"> 
 	<li>In the top menu navigate to <strong>Content > Blocks</strong>. </li>
 	<li>In the top right corner click the <strong>"Add New block"</strong> button to add a new static block. 

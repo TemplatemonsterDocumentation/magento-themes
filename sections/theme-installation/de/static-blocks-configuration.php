@@ -1,5 +1,6 @@
 <h3>Statische Blöcke Konfiguration</h3>
 <p>Wenn Sie mit den Seiten fertig sind, müssen Sie die statischen Blöcke konfigurieren. Das Verfahren ist ähnlich: Sie müssen den Code aus den Quelldateien kopieren und sie in die entsprechenden Felder in der Magento Admin-Panel einfügen. Sie sollten eine ähnliche Tabelle wie für die statischen Blöcke verwenden.</p>
+<p class="alert alert-warning"><span>Block ID may vary in your Magento installation. You can get correct block id from Content-> Blocks section in Admin panel.</span></p>
 <ol class="index-list"> 
 	<li>Im Hautmenü gehen Sie zu <strong>Content > Blocks</strong>. </li>
 	<li>Oben rechts klicken Sie die <strong>"Add New block"</strong> Taste um einen statischen Block hinzuzufügen. 

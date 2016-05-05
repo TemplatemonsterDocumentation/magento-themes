@@ -1,5 +1,6 @@
 <h3>Konfiguracja bloków statycznych</h3>
 <p>Po zakończeniu konfiguracji stron, należy skonfigurować statyczne bloki. Procedura wygląda podobnie: trzeba skopiować kod z plików źródłowych i wpisać go do odpowiednich pól w panelu administracyjnym Magento. Należy zastosować podobną tabelę, lecz dla bloków statycznych.</p>
+<p class="alert alert-warning"><span>Block ID may vary in your Magento installation. You can get correct block id from Content-> Blocks section in Admin panel.</span></p>
 <ol class="index-list"> 
 	<li>W górnym menu przejdź do <strong>Zawartość > Bloki</strong>. </li>
 	<li>W prawym górnym rogu kliknij przycisk <strong>"Dodaj Nowy blok"</strong>, aby dodać nowy blok statyczny. 

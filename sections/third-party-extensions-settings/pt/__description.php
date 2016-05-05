@@ -1,1 +1,0 @@
-<h2 class="item1">Third-party Extensions Settings</h2>

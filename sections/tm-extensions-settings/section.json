@@ -69,6 +69,34 @@
 				"pl":"Megamenu",
 				"pt":"Megamenu"
 			}
+		},  
+		{
+			"id":"instagram-feed",
+			"translations":{
+				"en":"Instagram Feed",
+				"ru":"Instagram Feed",
+				"tr":"Instagram Feed",
+				"de":"Instagram Feed",
+				"es":"Instagram Feed",
+				"fr":"Instagram Feed",
+				"it":"Instagram Feed",
+				"pl":"Instagram Feed",
+				"pt":"Instagram Feed"
+			}
+		},		
+		{
+			"id":"theme-options",
+			"translations":{
+				"en":"Theme Options",
+				"ru":"Theme Options",
+				"tr":"Theme Options",
+				"de":"Theme Options",
+				"es":"Theme Options",
+				"fr":"Theme Options",
+				"it":"Theme Options",
+				"pl":"Theme Options",
+				"pt":"Theme Options"
+			}
 		}
 	]
 }

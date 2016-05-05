@@ -1,1 +1,0 @@
-<h2 class="item1">Üçüncü parti Eklenti Ayarları</h2>

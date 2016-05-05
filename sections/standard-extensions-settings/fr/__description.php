@@ -1,1 +1,0 @@
-<h2 class="item1">Paramètres des Extensions Standards</h2>

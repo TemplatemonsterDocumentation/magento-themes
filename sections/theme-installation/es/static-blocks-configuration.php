@@ -1,5 +1,6 @@
 <h3>Configuración de bloques estáticos</h3>
 <p>Cuando haya terminado de configurar las páginas, es necesario configurar los bloques estáticos. El procedimiento es similar: hay que copiar el código de los archivos de origen y pegarlo en los campos correspondientes en el panel de administración de Magento. Es necesario utilizar una tabla similar pero para los bloques estáticos.</p>
+<p class="alert alert-warning"><span>Block ID may vary in your Magento installation. You can get correct block id from Content-> Blocks section in Admin panel.</span></p>
 <ol class="index-list"> 
 	<li>En el menú superior, vaya a <strong>Content > Blocks</strong>. </li>
 	<li>En la esquina superior derecha haga clic en el botón <strong>"Add New block"</strong> para añadir un nuevo bloque estático. 

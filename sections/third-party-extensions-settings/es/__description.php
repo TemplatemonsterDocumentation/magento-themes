@@ -1,1 +1,0 @@
-<h2 class="item1">Ajustes de Extensiones de Terceros</h2>

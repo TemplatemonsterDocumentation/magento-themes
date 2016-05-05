@@ -1,5 +1,6 @@
 <h3>Sabit kutucuk ayarlarý</h3>
 <p>Sayfa düzenlemesini bitirdikten sonra sabit kutucuklarý da ayarlamalýsýnýz. Ýþlem hemen hemen ayný: kaynak dosyadan kopyalayacaðýnýz kodlarý Magento yönetici panelindeki gerekli yere yapýþtýracaksýnýz. Sabit kutucuklar için de kullanacaðýnýz tablo benzer olacak.</p>
+<p class="alert alert-warning"><span>Block ID may vary in your Magento installation. You can get correct block id from Content-> Blocks section in Admin panel.</span></p>
 <ol class="index-list"> 
 	<li>Üst menüden <strong>Ýçerik > Kutucuklar</strong> kýsmýna girin. </li>
 	<li>Sað üst köþeden <strong>"Yeni Kutu Ekle"</strong> düðmesine basýn. 
