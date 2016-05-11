@@ -1,113 +1,115 @@
 <h3>Film Slider</h3>
-<p>TemplateMonster FilmSlider module is an implementation of elegant and professional jQuery plugin ‘Slider Pro’. Allows you to add slider with multiple layers to your store home page. Rich collection of slider configuration options and user interface will help you to configure your slider fast and easily.</p>
-<p>In the main navigation menu you’ll see new menu option <strong>TemplateMonster</strong>. <br>To start working with the FilmSlider module, click <strong>Template Monster -> Sliders</strong> menu item.</p>
+<p>Модуль <strong>TemplateMonster FilmSlider</strong> является реализацией элегантного и профессионального jQuery плагина ‘Slider Pro’. С его помощью на домашнюю страницу магазина можно добавить слайдер с необходимым количеством слоев.  Богатая коллекция параметров настройки слайдера и удобный пользовательский интерфейс обеспечат быструю и легкую настройку слайдера.</p>
+<p>В главном меню появится новый пункт <strong>TemplateMonster</strong>. <br>Нажмите <strong>Template Monster -> Sliders</strong> для начала работы с модулем.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-1.png" alt="" /></figure>
-<p>Here you can see a list of available sliders where you can <strong>disable/enable</strong>, <strong>delete</strong> or <strong>edit</strong> sliders.</p>
+<p>Здесь вы увидите список доступных слайдеров, которые можно включать/отключать, удалять или же редактировать.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-2.png" alt="" /></figure>
-<p>To add new slider click <strong>Add New Slider</strong> button in the top right corner. <br>
-On the slider configuration screen in <strong>General Options</strong> section you can see all available slider settings. <strong>Slider Items</strong> section allows you to add slides to your slider.</p>
+<p>Нажмите кнопку <strong>Add New Slider</strong> в верхнем правом углу, чтобы создать новый слайдер. <br>
+В окне настройки слайдера в разделе <strong>“Общие параметры” (‘General Options’)</strong>  вы увидите все доступные настройки слайдера.  В разделе <strong>“Элементы слайдера” (‘Slider Items’)</strong> к вашему слайдеру можно добавить новые слайды.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-3.png" alt="" /></figure>
-<p>Let’s see what slider options are available. As you can see options are divided into several parts to make the configuration interface more user friendly. </p>
+<p>Давайте рассмотрим доступные параметры.  Как вы можете видеть, параметры разделены на несколько частей, чтобы сделать интерфейс настройки более удобным для пользователя.</p>
 
-<h4>General Options</h4>
-<h5>Main Settings</h5>
-<p>This section allows you to set slider title, select store view, enable/disable slider, set its width and height. Each option refers to <strong>Slider Pro jQuery plugin</strong> property. You can find more specific description of each property in <a target='blank_' href="https://github.com/bqworks/slider-pro/blob/master/docs/api.md#1-properties">official Slider Pro</a> documentation. Some jQuery plugin properties may not present in the <strong>FilmSlider</strong> configuration, we will add them in future releases.</p>
+<h4>Общие  параметры</h4>
+<h5>Главные настройки</h5>
+<p>В этом разделе можно указать заголовок слайдера, выбрать представление магазина (store view), включить/отключить слайдер, указать его ширину и высоту. Каждый параметр соответствует свойству плагина Slider Pro jQuery. За более подробным описанием каждого свойства вы можете обратиться к <a target='blank_' href="https://github.com/bqworks/slider-pro/blob/master/docs/api.md#1-properties">официальной документации Slider Pro</a>. Некоторые свойства плагина jQuery могут не быть представлены среди настроек FilmSlider, они будут добавлены в последующих версиях модуля.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-4.png" alt="" /></figure>
-Slider dimensions (width and height) can be set to a fixed value, like 900 (indicating 900 pixels), or to a percentage value, like '100%'.
+Размеры слайдера (ширина и высота) можно указать фиксированным значением, как, например, 900 (указывает 900 пикселей), или в процентном соотношении, к примеру, '100%'.
 <div class="alert alert-warning">
-	Please note: slide title, store view and status are required, you cannot save the slide without these values set.
+	Пожалуйста, обратите внимание: поля “заголовок слайда”, “витрина” (store view) и “статус” необходимо заполнить. Слайд нельзя будет сохранить, не указав этих значений.
 </div>
 
-<h5>Image Settings</h5>
-<p>In image section you can adjust slider image configuration settings. Each option has a brief description. Let’s describe some of them more specifically.</p>
+<h5>Настройки изображений</h5>
+<p>В разделе изображений можно настроить параметры конфигурации изображений слайдера. Для каждого параметра доступно краткое описание. Давайте рассмотрим некоторые из них более подробно.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-5.png" alt="" /></figure>
 <h6>aspectRatio</h6>
-Sets the aspect ratio of the slides. If set to a value different than -1, the height of the slides will be overridden in order to maintain the specified aspect ratio.
+Устанавливает пропорции слайдов. Если это значение отличается от -1, высота слайдов будет переопределена с целью сохранения заданного соотношения сторон.
 <h6>imageScaleMode</h6>
-Sets the scale mode of the main slide images (images added as background). 'cover' will scale and crop the image so that it fills the entire slide. 'contain' will keep the entire image visible inside the slide. 'exact' will match the size of the image to the size of the slide. 'none' will leave the image to its original size.
+Устанавливает режим масштабирования основных изображений слайдов (изображений фона). 'cover' масштабирует и обрежет изображение, чтобы оно заполняло область слайда. 'contain' сохранит изображение полностью видимым внутри области слайда. 'exact' изменит размер изображения до размера слайда, чтобы они совпадали. 'none' оставит изображение в исходном размере.
 <h6>forceSize</h6>
-Indicates if the size of the slider will be forced to full width or full window.
+Указывает тип размера слайдера - на всю ширину области или окна браузера.
+
 <div class="alert alert-warning">
-	Note: It's possible to make the slider full width or full window by giving it a width and/or height of '100%'. However, sometimes the slider might be inside other containers which are less than full width/window. The 'forceSize' property is useful in those situations because it will still enlarge the slider to fill the width or window by overflowing its parent elements.
+	Внимание: Растянуть слайдер на всю ширину области или окна можно, указав его ширину и/или высоту '100%'. Однако в некоторых случаях слайдер может помещаться внутри других контейнеров, ширина которых меньше полной ширины окна. Свойство 'forceSize' особенно полезно в таких ситуациях, потому что оно все равно увеличит ширину слайдера во всю ширину окна, игнорируя характеристики родительского элемента.
 </div>
 
-<h5>Slides settings</h5>
-Slides settings section allows to configure slides behaviour. Here you can configure slides animation, visible slider size, slides shuffle and loop.
+<h5>Настройки слайдов</h5>
+В разделе “Настройки слайдов” можно задать параметры поведения слайдов. Здесь вы можете настроить анимацию слайдов, их видимый размер, перемешивание и циклическое воспроизведение.
 <figure class="img-polaroid"><img src="img/magento/slide-6.png" alt="" /></figure>
 
-<h5>Fade animation settings</h5>
-This section contains settings for fade animation. Fade animation can be enabled on slide switch.
+<h5>Настройки fade анимации</h5>
+Этот раздел содержит настройки анимации постепенного исчезновения. Ее можно применить во время смены слайдов.
 <figure class="img-polaroid"><img src="img/magento/slide-7.png" alt="" /></figure>
-You can set if you want to fade out previous slide and fade animation duration in milliseconds. 
+По желанию вы можете установить постепенное исчезновение предыдущего слайда и длительность этой анимации в миллисекундах.  
 
-<h5>Auto play settings</h5>
-Autoplay feature in Film Slider allows to loop through the slides automatically. This configuration settings contain options to configure auto play delay, direction and pause with mouse cursor on hover. 
+<h5>Настройки автоматического воспроизведения</h5>
+Свойство autoplay в Film Slider позволяет автоматически воспроизводить слайды. Этот параметр настройки позволяет определить задержку автоматического воспроизведения, его направление и паузу при наведении курсора мыши.
 <figure class="img-polaroid"><img src="img/magento/slide-8.png" alt="" /></figure>
 
-<h5>Controls settings</h5>
-Slider controls are the navigation buttons that let you switch the slides. In <strong>FilmSlider</strong> there are several types of navigation controls: <strong>prev/next</strong> arrows,  <strong>pagination</strong> buttons. Enabled keyboard navigation allows you to switch between the slides using keyboard. Also, you can enable button that will switch slider to the full screen mode.
+<h5>Настройки адаптивности</h5>
+Кнопки управления слайдером - это кнопки навигации, с помощью которых можно переключать слайды. В модуле FilmSlider доступно несколько видов таких кнопок: стрелки вперед/назад,  нумерация слайдов. Включение навигации с помощью клавиатуры дает вам возможность переключать слайды, используя стрелки клавиатуры. Вы также можете включить отображение кнопки перехода слайдера в полноэкранный режим.
 <figure class="img-polaroid"><img src="img/magento/slide-9.png" alt="" /></figure>
 
 <h5>Responsive settings</h5>
-Responsive settings section configures slider behaviour on mobile devices. Here you can define screen width breakpoints (<strong>small, medium, large</strong>). Also, you can enable touch swipe behaviour to let user switch between the slides with swipe gestures. 
+Настройки адаптивности определяют отображение слайдера на мобильных устройствах. Здесь вы можете указать точки реагирования на изменение ширины экрана (определить разрешение устройств с небольшим, средним и широким экраном). Вы также можете включить здесь перелистывание слайдера касанием для сенсорных устройств, что даст возможность пользователю переключаться между слайдами посредством перелистывания.
 <figure class="img-polaroid"><img src="img/magento/slide-10.png" alt="" /></figure>
 
-<h5>Caption Settings</h5>
-Caption feature allows to add text to each slide. This section allows you to enable caption fade animation and set its duration.
+<h5>Настройки подписи</h5>
+Свойство подписи позволяет добавить текстовое описание к слайду. В этом разделе также можно включить анимацию постепенного исчезновения подписи и указать ее длительность.
 <figure class="img-polaroid"><img src="img/magento/slide-11.png" alt="" /></figure>
 
-<h5>Layers main settings</h5>
-Layers configuration settings contain slides layers behaviour. Each option has a brief description under the input fields.
+<h5>Главные настройки слоев</h5>
+Раздел настроек слоев содержит параметры отображения слоев слайдов. Под каждым полем ввода доступно краткое описание настройки.
 <figure class="img-polaroid"><img src="img/magento/slide-12.png" alt="" /></figure>
 
-<h4>Adding Slides</h4>
-You can add new slides only after saving the slider. Click <strong>Save and Continue Edit</strong> button in the top right corner. When the slider is saved, switch to <strong>Slider Items</strong> tab.
+<h4>Создание слайдов</h4>
+Добавлять слайды можно только после сохранения слайдера. Нажмите кнопку <strong>‘Save and Continue Edit’</strong> в правом верхнем углу. И затем, успешно сохранив слайдер, переключитесь во вкладку <strong>‘Slider Items’</strong>.
 <figure class="img-polaroid"><img src="img/magento/slide-13.png" alt="" /></figure>
-Click <strong>Add Slider Item</strong> to add a new slide. Let’s see what slide configuration options are available.
+Нажмите <strong>‘Add Slider Item’</strong> для создания нового слайда. Давайте рассмотрим доступные параметры его настройки.
 
-<h5>Slide Information</h5>
-Here you can input slide title and set its status (<strong>enabled/disabled</strong>).
+
+<h5>Данные слайда</h5>
+Здесь можно указать заголовок слайда и его статус (включен/отключен).
 <figure class="img-polaroid"><img src="img/magento/slide-14.png" alt="" /></figure>
 
-<h5>Slide Images</h5>
-This section allows you to add images to the slide. Click Insert Image button to open Image library where you can select available images.
+<h5>Изображения слайда</h5>
+В этом разделе к слайду можно добавить изображения. Нажмите кнопку <strong>“Вставить изображение” (Insert Image)</strong>, чтобы открыть библиотеку изображений (Image library) для выбора доступных изображений.
 <figure class="img-polaroid"><img src="img/magento/slide-15.png" alt="" /></figure>
-You can also upload images from your computer.
+Вы также можете загружать изображения с вашего компьютера.
 <figure class="img-polaroid"><img src="img/magento/slide-16.png" alt="" /></figure>
-Under the Image field you can see your slide preview. You are free to set preview size the way you like. We moved the next section of slide configuration to the separate section as it is fully related to slide layers. 
+Под полем <strong>“Изображение” (Image)</strong> вы можете увидеть изображение слайда в режиме предварительного просмотра. Его размер можно настроить по желанию. Остальные параметры настройки слайда мы вынесли в отдельный раздел, так как они имеют отношение только к работе со слоями слайда. 
 
-<h4>Working with layers</h4>
-<strong>FilmSlider</strong> is a multi-layer slider. This mean that your can add multiple independent layers to your slide. Layers can be added to the slide on the slide configuration screen described above. This screen contains several sections of layers settings.
+<h4>Работа со слоями</h4>
+FilmSlider является многослойным слайдером. Под этим подразумевается наличие множества независимых друг от друга слоев в рамках одного слайда. Добавлять эти слои к слайду можно в окне настроек слайда, описанном выше. Здесь содержится несколько разделов настроек слайдов.
 
-<h5>Layers list</h5>
-Layers list section allows to add layers to your slide. You can add image layers and text layers. Use corresponding buttons to add layers.
+<h5>Список слоев</h5>
+Раздел списка слоев позволяет создавать слои слайда. Вы можете добавлять слои изображений и текстовые слои с помощью соответствующих кнопок.
 <figure class="img-polaroid"><img src="img/magento/slide-17.png" alt="" /></figure>
-By clicking on <strong>Add layer image</strong> you’ll see an image library where you can select from available images or upload images from your computer. By clicking <strong>Add layer text</strong>, you’ll see new text layer added and layer settings became associated with your new particular layer.
+После нажатия на кнопку <strong>“Добавить слой изображения” (‘Add layer image’)</strong> откроется библиотека изображений, где вы сможете выбрать одно из доступных изображений или же загрузить новое с вашего компьютера. При нажатии кнопки <strong>“Добавить текстовый слой” (‘Add layer text’)</strong>, будет создан новый текстовый слой, а настройки слоя будут указывать на этот конкретный слой.
 <figure class="img-polaroid"><img src="img/magento/slide-18.png" alt="" /></figure>
 <figure class="img-polaroid"><img src="img/magento/slide-19.png" alt="" /></figure>
 
-<h5>Layer text settings</h5>
-Using <strong>Layer text settings</strong> section you can input layer text, layer size, colors, font styling, etc.
+<h5>Настройки текста слоя</h5>
+В разделе <strong>“Настройки текста слоя” (‘Layer text settings’)</strong> можно ввести текстовое содержимое слоя, указать размер слоя, цвета, оформление шрифтов, и т.п.
 <figure class="img-polaroid"><img src="img/magento/slide-20.png" alt="" /></figure>
-In the <strong>Layer text/html</strong> field you can input your layer content in both text and html format. 
+В поле <strong>“Текст/html слоя” (‘Layer text/html’)</strong> можно ввести содержимое слоя в формате текста или html кода.
 
-<h5>Layer text position settings</h5>
-In this section you can define text layer position.
+<h5>Настройки размещения текста слоя</h5>
+В этом разделе можно определить размещение текста слоя.
 <figure class="img-polaroid"><img src="img/magento/slide-21.png" alt="" /></figure>
 
-<h5>Layer animation settings</h5>
-This section allows you to define layer animation. You can set its position on the slide, set transition, offsets, delay, duration, etc.
+<h5>Настройки анимации слоя</h5>
+Этот раздел позволяет определить анимацию слоя. Вы можете указать его позицию на слайде, задать параметры перехода, отступы, задержку, длительность, и т.д.
 <figure class="img-polaroid"><img src="img/magento/slide-22.png" alt="" /></figure>
-When you add several layers, bottom configuration settings (position and animation) will show settings for the selected layer.
+После добавления нескольких слоев, разделы параметров настройки внизу (размещение и анимация) будут отображать параметры выбранного слоя.
 <figure class="img-polaroid"><img src="img/magento/slide-23.png" alt="" /></figure>
 
-<h4>Adding slider to page</h4>
-To add slider to your page please use Magento widgets. In the main admin panel menu click <strong>Content -> Pages</strong> item.
+<h4>Вывод слайдера на страницу</h4>
+Чтобы вывести слайдер на страницу, вам необходимо использовать виджеты мадженты. В админ панели нажмите на пункт меню и выберите <strong>Content -> Pages</strong>.
 <figure class="img-polaroid"><img src="img/magento/slide-24.png" alt="" /></figure>
-Select the page you want to add slider to and click <strong>Edit</strong>.
+Выберите страницу на которую вы хотите добавить слайдер и нажмите кнопку <strong>Edit</strong>.
 <figure class="img-polaroid"><img src="img/magento/slide-25.png" alt="" /></figure>
-At the page editing screen switch to <strong>Content</strong> section and click <strong>Insert Widget</strong> button.
+На открытой странице перейдите в секцию <strong>Content</strong> и нажмите на кнопку <strong>Insert Widget</strong>.
 <figure class="img-polaroid"><img src="img/magento/slide-27.png" alt="" /></figure>
-In the appeared window select widget type <strong>Template Monster FilmSlider</strong>, select the slider you want to insert and click <strong>Insert Widget</strong> button. 
+Во всплывающем окне выберите тип виджета <strong>Template Monster FilmSlider</strong>, выберите нужный вам слайдер из списка и нажмите кнопку <strong>Insert Widget</strong>. 
 <figure class="img-polaroid"><img src="img/magento/slide-28.png" alt="" /></figure>
-When you are done adding the widget click <strong>Save Page</strong> button and switch to store frontend to see the result.
+Как только вы всё выбрали, нажмите на кнопку <strong>Save Page</strong> и перейдите на страницу сайта, чтобы увидеть изменения.
