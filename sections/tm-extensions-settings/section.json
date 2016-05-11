@@ -97,6 +97,34 @@
 				"pl":"Theme Options",
 				"pt":"Theme Options"
 			}
+		},		
+		{
+			"id":"ajax-search",
+			"translations":{
+				"en":"Ajax Search",
+				"ru":"Ajax Search",
+				"tr":"Ajax Search",
+				"de":"Ajax Search",
+				"es":"Ajax Search",
+				"fr":"Ajax Search",
+				"it":"Ajax Search",
+				"pl":"Ajax Search",
+				"pt":"Ajax Search"
+			}
+		},		
+		{
+			"id":"film-slider",
+			"translations":{
+				"en":"Film Slider",
+				"ru":"Film Slider",
+				"tr":"Film Slider",
+				"de":"Film Slider",
+				"es":"Film Slider",
+				"fr":"Film Slider",
+				"it":"Film Slider",
+				"pl":"Film Slider",
+				"pt":"Film Slider"
+			}
 		}
 	]
 }
