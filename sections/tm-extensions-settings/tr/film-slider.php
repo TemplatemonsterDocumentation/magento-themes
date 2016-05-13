@@ -1,104 +1,105 @@
 <h3>Film Slider</h3>
-<p>TemplateMonster FilmSlider module is an implementation of elegant and professional jQuery plugin ‘Slider Pro’. Allows you to add slider with multiple layers to your store home page. Rich collection of slider configuration options and user interface will help you to configure your slider fast and easily.</p>
-<p>In the main navigation menu you’ll see new menu option <strong>TemplateMonster</strong>. <br>To start working with the FilmSlider module, click <strong>Template Monster -> Sliders</strong> menu item.</p>
+<p>TemplateMonster FilmSlider, bir zarif ve profesyonel JQuery eklentisi olan ‘Slider Pro’ uygulamasıdır. Mağazanızın ana sayfasına çoklu katmanlara sahip olan bir slider(kaydıraç) eklemenizi sağlar. Zengin düzenleme seçenekleri ve kullanıcı arayüzüyle kaydıraçınızı hızlı ve kolay şekilde düzenleyebilirsiniz.</p>
+<p>Ana menüde ‘TemplateMonster’ adında yeni bir menü göreceksiniz. <br>FilmSlider modülü üzerinde çalışmaya başlamak için ‘Template Monster -> Sliders’ menüsüne tıklayın.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-1.png" alt="" /></figure>
-<p>Here you can see a list of available sliders where you can <strong>disable/enable</strong>, <strong>delete</strong> or <strong>edit</strong> sliders.</p>
+<p>Burada açıp/kapatabileceğiniz, silip düzenleyebileceğiniz tüm sliderların listesini görebilirsiniz.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-2.png" alt="" /></figure>
-<p>To add new slider click <strong>Add New Slider</strong> button in the top right corner. <br>
-On the slider configuration screen in <strong>General Options</strong> section you can see all available slider settings. <strong>Slider Items</strong> section allows you to add slides to your slider.</p>
+<p>Yeni bir slider eklemek için, sağ üst köşedeki  ‘Add New Slider’ düğmesine basınız. <br>
+Kullanılabilir tüm kaydıraç ayarlarını görebilmek için, slider düzenleme ekranındaki ‘General Options’ (Genel Ayarlar) bölümüne giriniz. ‘Slider Items’ bölümünden, sliderınıza kaydıraçlar ekleyebilirsiniz.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-3.png" alt="" /></figure>
-<p>Let’s see what slider options are available. As you can see options are divided into several parts to make the configuration interface more user friendly. </p>
+<p>Bakalım hangi slider seçenekleri mevcut. Gördüğünüz gibi, seçenekler bir kaç parçaya ayrılmış durumda. Bunun sebebi, size daha kolay kullanım sağlayabilmek.</p>
 
-<h4>General Options</h4>
-<h5>Main Settings</h5>
-<p>This section allows you to set slider title, select store view, enable/disable slider, set its width and height. Each option refers to <strong>Slider Pro jQuery plugin</strong> property. You can find more specific description of each property in <a target='blank_' href="https://github.com/bqworks/slider-pro/blob/master/docs/api.md#1-properties">official Slider Pro</a> documentation. Some jQuery plugin properties may not present in the <strong>FilmSlider</strong> configuration, we will add them in future releases.</p>
+<h4>Genel Seçenekler</h4>
+<h5>Ana Ayarlar</h5>
+<p>Bu bölümden slider başlığı koyabilir, mağaza görünümü seçebilir sliderı açıp/kapatabilir ve enini boyunu ayarlayabilirsiniz. Her seçenek, Slider Pro JQuery eklentisine atıfta bulunur. Tüm özelliklerin açıklamasını <a target='_blank' href="https://github.com/bqworks/slider-pro/blob/master/docs/api.md#1-properties">resmi Slider Pro kılavuzu</a> adresinde bulabilirsiniz. Bazı jQuery eklenti özellikleri, FilmSlider düzenlemelerinde yer almayabilir. Onları ilerki sürümlerde ekleyeceğiz.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-4.png" alt="" /></figure>
-Slider dimensions (width and height) can be set to a fixed value, like 900 (indicating 900 pixels), or to a percentage value, like '100%'.
+Slider ebatlarına (en ve boy); 900 (piksel) gibi sabit değer veya yüzdelik değer (100% gibi) atanabilir.
 <div class="alert alert-warning">
-	Please note: slide title, store view and status are required, you cannot save the slide without these values set.
+	Dikkat: kaydıraç başlığı, mağaza görünümü ve durum gereklidir. Kaydıraçınızı, bu değerleri girmeden kaydedemezsiniz.
 </div>
 
-<h5>Image Settings</h5>
-<p>In image section you can adjust slider image configuration settings. Each option has a brief description. Let’s describe some of them more specifically.</p>
+<h5>Görsel Ayarları</h5>
+<p>Görsel bölümünden, kaydıraç görseli için gerekli olan ayarları yapabilirsiniz. Her seçeneğin kısa bir açıklaması bulunmaktadır. Bazılarını biraz daha detaylı inceleyelim.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-5.png" alt="" /></figure>
 <h6>aspectRatio</h6>
-Sets the aspect ratio of the slides. If set to a value different than -1, the height of the slides will be overridden in order to maintain the specified aspect ratio.
+Kaydıraçın en ve boy oranlarını ayarlar. Eğer -1’den farklı bir değer girilirse, belirlenmiş oranı korumak için kaydıraçın uzunluğu geçersiz kılınır.
 <h6>imageScaleMode</h6>
-Sets the scale mode of the main slide images (images added as background). 'cover' will scale and crop the image so that it fills the entire slide. 'contain' will keep the entire image visible inside the slide. 'exact' will match the size of the image to the size of the slide. 'none' will leave the image to its original size.
+Kaydıraçın ana görseli (arkaplan olarak eklenen görseller) için ölçü modunu ayarlar. 'Cover' seçeneği, görseli ölçülendirip keser ve böylece kaydıraçın içine tam olarak sığmasını sağlar. 'Contain' seçeneği, görselin kaydıraçın içinde tam olarak gösterilmesini sağlar. 'Exact' seçeneği, görsel boyutunu kaydıraç boyutuyla eşleştirir. 'None' seçeneği ise, görseli orijinal boyutunda bırakır.
 <h6>forceSize</h6>
-Indicates if the size of the slider will be forced to full width or full window.
+Kaydıraçın tam genişlikte veya tüm pencerenin içine yayılmış olarak boyutlandırılıp boyutlandırılmayacağını belirler.
 <div class="alert alert-warning">
-	Note: It's possible to make the slider full width or full window by giving it a width and/or height of '100%'. However, sometimes the slider might be inside other containers which are less than full width/window. The 'forceSize' property is useful in those situations because it will still enlarge the slider to fill the width or window by overflowing its parent elements.
+	Not: Kaydıraçı tam genişlik veya tam pencerede göstermek için genişlik ve/veya uzunluk değeri 100% olarak düzenlenebilir. Fakat bazen kaydıraç tam genişlik/pencereden daha küçük bir kutunun içinde yer alabilir. Bu tür durumlarda 'forceSize' özelliği oldukça kullanışlıdır. Çünkü kaydıraçı temel ögelerinden taşırarak, yine de tam genişlik veya pencere boyutunda büyütür.
 </div>
 
-<h5>Slides settings</h5>
-Slides settings section allows to configure slides behaviour. Here you can configure slides animation, visible slider size, slides shuffle and loop.
+<h5>Kaydıraç ayarları</h5>
+Kaydıraç ayarları bölümü, kaydıraçların davranışlarını belirler. Buradan kaydıraç animasyonlarını, görünen kaydıraç boyutunu, kaydıraç karıştırma ve tekrarlama (loop,döngü) ayarlarını yapabilirsiniz.
 <figure class="img-polaroid"><img src="img/magento/slide-6.png" alt="" /></figure>
 
-<h5>Fade animation settings</h5>
-This section contains settings for fade animation. Fade animation can be enabled on slide switch.
+<h5>Solan animasyon ayarları</h5>
+Bu bölümde solan (fade) animasyon ayarları yer alır. Bu özellik, tek dokunuşla açılabilir.
 <figure class="img-polaroid"><img src="img/magento/slide-7.png" alt="" /></figure>
-You can set if you want to fade out previous slide and fade animation duration in milliseconds. 
+Bir önceki kaydıraçın solarak kaybolmasını isteyip istemediğinizi ve solma süresini milisaniye olarak ayarlayabilirsiniz. 
 
-<h5>Auto play settings</h5>
-Autoplay feature in Film Slider allows to loop through the slides automatically. This configuration settings contain options to configure auto play delay, direction and pause with mouse cursor on hover. 
+<h5>Otomatik oynatma ayarları</h5>
+Film Slider’da yer alan otomatik oynatma özelliğiyle, kaydıraçlar arası döngü sağlayabilirsiniz. Bu düzenlemede; otomatik oynatma arasındaki süre, fareyle üzerine gelince yön verme ve duraklatma özellikleri  ayarlanır. 
 <figure class="img-polaroid"><img src="img/magento/slide-8.png" alt="" /></figure>
 
-<h5>Controls settings</h5>
-Slider controls are the navigation buttons that let you switch the slides. In <strong>FilmSlider</strong> there are several types of navigation controls: <strong>prev/next</strong> arrows,  <strong>pagination</strong> buttons. Enabled keyboard navigation allows you to switch between the slides using keyboard. Also, you can enable button that will switch slider to the full screen mode.
+<h5>Kontrol ayarları</h5>
+Slider kontrol düğmeleri, slidelar arasında geçiş yapabilmenizi sağlayan gezinme düğmeleridir. FilmSlider’da bir kaç değişik düğme bulunur: geri/ileri okları, sayfalama düğmeleri. Klavye yönergelerini aktif ettiğinizde, kaydıraçlar arasında klavye ile dolaşılabilir. Ayrıca, sliderı tam ekran moduna getirmeye yarayan düğmeyi de etkinleştirebilirsiniz.
 <figure class="img-polaroid"><img src="img/magento/slide-9.png" alt="" /></figure>
 
-<h5>Responsive settings</h5>
-Responsive settings section configures slider behaviour on mobile devices. Here you can define screen width breakpoints (<strong>small, medium, large</strong>). Also, you can enable touch swipe behaviour to let user switch between the slides with swipe gestures. 
+<h5>Esneklik ayarları</h5>
+Esneklik ayarları, sliderın mobil aygıtlardaki davranışını belirler. Buradan ekranın kırılma noktalarını (küçük, orta, büyük) ayarlayabilirsiniz. Ayrıca, kullanıcının sliderlar arası geçişinin sağlanması için ekrana dokunma özelliğini de aktifleştirebilirsiniz.
 <figure class="img-polaroid"><img src="img/magento/slide-10.png" alt="" /></figure>
 
-<h5>Caption Settings</h5>
-Caption feature allows to add text to each slide. This section allows you to enable caption fade animation and set its duration.
+<h5>Altyazı Ayarları</h5>
+Altyazı özelliğiyle, her slide’a yazı ekleyebilirsiniz. Bu bölümden, altyazı solma animasyonunu açabilir ve süresini ayarlayabilirsiniz.
+
 <figure class="img-polaroid"><img src="img/magento/slide-11.png" alt="" /></figure>
 
-<h5>Layers main settings</h5>
-Layers configuration settings contain slides layers behaviour. Each option has a brief description under the input fields.
+<h5>Katman ana ayarları</h5>
+Katman ayarları, slide katmanlarının davranışlarını belirler. Her seçeneğin altında kısa bir açıklama bulunmaktadır.
 <figure class="img-polaroid"><img src="img/magento/slide-12.png" alt="" /></figure>
 
-<h4>Adding Slides</h4>
-You can add new slides only after saving the slider. Click <strong>Save and Continue Edit</strong> button in the top right corner. When the slider is saved, switch to <strong>Slider Items</strong> tab.
+<h4>Slide Eklemek</h4>
+Yeni slide’ı sadece kaydıraçı kaydettikten sonra ekleyebilirsiniz. Sağ üst köşedeki ‘Save and Continue Edit’ (Kaydet ve Düzenlemeye Devam Et) düğmesine basın. Kaydıraç kaydedildiğinde, ‘Slider Items’ (Kaydıraç Ögeleri) sekmesini açın.
 <figure class="img-polaroid"><img src="img/magento/slide-13.png" alt="" /></figure>
-Click <strong>Add Slider Item</strong> to add a new slide. Let’s see what slide configuration options are available.
+Yeni slide eklemek için ‘Add Slider Item’ (Kaydıraç Ögesi Ekle) yazısına tıklayın. Şimdi, slide düzenleme seçeneklerine bakalım.
 
-<h5>Slide Information</h5>
-Here you can input slide title and set its status (<strong>enabled/disabled</strong>).
+<h5>Slide Bilgisi</h5>
+Buradan, slide başlığını ve açık/kapalı durumunu düzenleyebilirsiniz.
 <figure class="img-polaroid"><img src="img/magento/slide-14.png" alt="" /></figure>
 
-<h5>Slide Images</h5>
-This section allows you to add images to the slide. Click Insert Image button to open Image library where you can select available images.
+<h5>Slide Görselleri</h5>
+Bu bölümden slide görselleri ekleyebilirsiniz. Görsel kütüphanesini açmak için ‘Insert Image’ (Görsel Gir) düğmesine bastığınızda, kullanabileceğiniz tüm görseller karşınıza çıkar.
 <figure class="img-polaroid"><img src="img/magento/slide-15.png" alt="" /></figure>
-You can also upload images from your computer.
+İsterseniz bilgisayarınızdan da görsel yükleyebilirsiniz.
 <figure class="img-polaroid"><img src="img/magento/slide-16.png" alt="" /></figure>
-Under the Image field you can see your slide preview. You are free to set preview size the way you like. We moved the next section of slide configuration to the separate section as it is fully related to slide layers. 
+Görsel alanının altında slide’ınızın önizlemesini görebilirsiniz. Bu alanı istediğiniz gibi düzenleyebilirsiniz. Slide katmanlarıyla ilgili detaylı düzenlemeler yapabilmeniz için, bir sonraki düzenleme bölümününü ayrı bir yere koyduk.
 
-<h4>Working with layers</h4>
-<strong>FilmSlider</strong> is a multi-layer slider. This mean that your can add multiple independent layers to your slide. Layers can be added to the slide on the slide configuration screen described above. This screen contains several sections of layers settings.
+<h4>Katmanlarla çalışmak</h4>
+FilmSlider çok-katmanlı bir kaydıraçtır. Yani, slide’ınıza istediğiniz kadar bağımsız katman ekleyebilirsiniz. Katmanlar, yukarıdaki ekranda slide ayarları bölümünde anlatıldığı şekilde eklenir. Bu ekran çeşitli katman ayarlarını içermektedir.
 
-<h5>Layers list</h5>
-Layers list section allows to add layers to your slide. You can add image layers and text layers. Use corresponding buttons to add layers.
+<h5>Katman listesi</h5>
+Katman listesinden, slide’ınıza katmanlar ekleyebilirsiniz. Hem görsel katman hem de yazılı katman eklemeniz mümkün. Bunun için ilgili düğmelere basınız.
 <figure class="img-polaroid"><img src="img/magento/slide-17.png" alt="" /></figure>
-By clicking on <strong>Add layer image</strong> you’ll see an image library where you can select from available images or upload images from your computer. By clicking <strong>Add layer text</strong>, you’ll see new text layer added and layer settings became associated with your new particular layer.
+‘Add layer image’ (Katman görseli ekle) yazısına tıklayarak, katmanınıza ekleyebileceğiniz tüm görsellerin yer aldığı kütüphaneyi açabilir veya bilgisayarınızdan bir görsel ekleyebilirsiniz. ‘Add layer text’ (Katman yazısı ekle) kısmına tıklayıp yazı ekleyebilirsiniz. Böylece yeni katmanınızı istediğiniz şekilde düzenlemiş olursunuz.
 <figure class="img-polaroid"><img src="img/magento/slide-18.png" alt="" /></figure>
 <figure class="img-polaroid"><img src="img/magento/slide-19.png" alt="" /></figure>
 
-<h5>Layer text settings</h5>
-Using <strong>Layer text settings</strong> section you can input layer text, layer size, colors, font styling, etc.
+<h5>Katman yazı ayarları</h5>
+Bu alandan katman yazısı girebilir; katmanın boyutunu, rengini, yazının yazı stilini vs. ayarlayabilirsiniz.
 <figure class="img-polaroid"><img src="img/magento/slide-20.png" alt="" /></figure>
-In the <strong>Layer text/html</strong> field you can input your layer content in both text and html format. 
+‘Layer text/html’ (Katman yazı/html) alanına, katman içeriğini isterseniz yazı formatında isterseniz de html formatında ekleyebilirsiniz. 
 
-<h5>Layer text position settings</h5>
-In this section you can define text layer position.
+<h5>Katman yazı konumu ayarları</h5>
+Bu bölümden katman yazısının konumunu ayarlayabilirsiniz.
 <figure class="img-polaroid"><img src="img/magento/slide-21.png" alt="" /></figure>
 
-<h5>Layer animation settings</h5>
-This section allows you to define layer animation. You can set its position on the slide, set transition, offsets, delay, duration, etc.
+<h5>Katman animasyon ayarları</h5>
+Bu bölümden katman animasyonunu seçebilirsiniz. Slide içindeki konumunu, geçişini, kenar uzaklığını, gecikme süresini, devam süresini vs. ayarlayabilirsiniz.
 <figure class="img-polaroid"><img src="img/magento/slide-22.png" alt="" /></figure>
-When you add several layers, bottom configuration settings (position and animation) will show settings for the selected layer.
+Bir kaç katman eklediğinizde, alt kısımdaki ayarlar (konum ve animasyon) seçtiğiniz katman için gösterilir.
 <figure class="img-polaroid"><img src="img/magento/slide-23.png" alt="" /></figure>
 
 <h4>Adding slider to page</h4>

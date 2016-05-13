@@ -1,104 +1,106 @@
 <h3>Film Slider</h3>
-<p>TemplateMonster FilmSlider module is an implementation of elegant and professional jQuery plugin ‘Slider Pro’. Allows you to add slider with multiple layers to your store home page. Rich collection of slider configuration options and user interface will help you to configure your slider fast and easily.</p>
-<p>In the main navigation menu you’ll see new menu option <strong>TemplateMonster</strong>. <br>To start working with the FilmSlider module, click <strong>Template Monster -> Sliders</strong> menu item.</p>
+<p>Module TemplateMonster FilmSlider est une mise en œuvre de plugin jQuery élégant et professionnel ‘Slider Pro’. Ce module vous permet d’ajouter un diaporama avec de multiples couches à la page d'accueil de votre boutique. De nombreuses options de configuration de diaporama et l'interface utilisateur vous aideront à configurer votre diaporama rapidement et facilement.
+</p>
+<p>Dans le menu principal de navigation, vous verrez une nouvelle option de menu <strong>TemplateMonster</strong>. <br>Pour commencer à travailler avec le module FilmSlider, cliquez sur <strong>Template Monster -> Sliders</strong>.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-1.png" alt="" /></figure>
-<p>Here you can see a list of available sliders where you can <strong>disable/enable</strong>, <strong>delete</strong> or <strong>edit</strong> sliders.</p>
-<figure class="img-polaroid"><img src="img/magento/slide-2.png" alt="" /></figure>
-<p>To add new slider click <strong>Add New Slider</strong> button in the top right corner. <br>
-On the slider configuration screen in <strong>General Options</strong> section you can see all available slider settings. <strong>Slider Items</strong> section allows you to add slides to your slider.</p>
-<figure class="img-polaroid"><img src="img/magento/slide-3.png" alt="" /></figure>
-<p>Let’s see what slider options are available. As you can see options are divided into several parts to make the configuration interface more user friendly. </p>
 
-<h4>General Options</h4>
-<h5>Main Settings</h5>
-<p>This section allows you to set slider title, select store view, enable/disable slider, set its width and height. Each option refers to <strong>Slider Pro jQuery plugin</strong> property. You can find more specific description of each property in <a target='blank_' href="https://github.com/bqworks/slider-pro/blob/master/docs/api.md#1-properties">official Slider Pro</a> documentation. Some jQuery plugin properties may not present in the <strong>FilmSlider</strong> configuration, we will add them in future releases.</p>
+<p>Vous pouvez voir une liste des diaporamas disponibles où vous pouvez désactiver/activer, supprimer ou modifier les diaporamas.</p>
+<figure class="img-polaroid"><img src="img/magento/slide-2.png" alt="" /></figure>
+<p>Pour ajouter un nouveau diaporama cliquez sur le bouton <strong>Add New Slider</strong> dans le coin en haut à droite. <br>
+Sur l'écran de configuration de diaporama dans la section <strong>General Options</strong> vous pouvez voir tous les paramètres disponibles. La section <strong>Slider Items</strong> vous permet d'ajouter des diapositives à votre diaporama.</p>
+<figure class="img-polaroid"><img src="img/magento/slide-3.png" alt="" /></figure>
+<p>Voyons quelles options de diaporama sont disponibles. Comme vous pouvez le voir les options sont divisées en plusieurs parties pour rendre l'interface de configuration plus conviviale.</p>
+
+<h4>Options Générales</h4>
+<h5>Paramètres Principaux</h5>
+<p>Cette section vous permet de définir le titre de diaporama, sélectionner vue magasin, activer/désactiver le diaporama, définir sa largeur et sa hauteur. Chaque option fait référence à caractéristique de plugin Slider Pro jQuery. Vous pouvez trouver une description plus spécifique de chaque caractéristique sur <a target='_blank' href="https://github.com/bqworks/slider-pro/blob/master/docs/api.md#1-properties">official Slider Pro documentation</a>. Certaines caractéristiques du plugin jQuery ne sont pas présentées dans la configuration de FilmSlider, nous allons les ajouter dans les prochaines versions.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-4.png" alt="" /></figure>
-Slider dimensions (width and height) can be set to a fixed value, like 900 (indicating 900 pixels), or to a percentage value, like '100%'.
+Dimensions de diaporama (largeur et hauteur) peuvent être réglés à une valeur fixe, comme 900 (indiquant 900 pixels), ou à une valeur de pourcentage, comme '100%'.
 <div class="alert alert-warning">
-	Please note: slide title, store view and status are required, you cannot save the slide without these values set.
+	Veuillez noter: titre de la diapositive, vue magasin et le statut sont nécessaires, vous ne pouvez pas enregistrer la diapositive sans ces valeurs.
 </div>
 
-<h5>Image Settings</h5>
-<p>In image section you can adjust slider image configuration settings. Each option has a brief description. Let’s describe some of them more specifically.</p>
+<h5>Paramètres d'image</h5>
+<p>Dans la section d'image, vous pouvez régler les paramètres de configuration d'image de diaporama. Chaque option a une brève description. Décrivons certains d'entre eux plus précisément.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-5.png" alt="" /></figure>
 <h6>aspectRatio</h6>
-Sets the aspect ratio of the slides. If set to a value different than -1, the height of the slides will be overridden in order to maintain the specified aspect ratio.
+Définit le rapport d'aspect des diapositives. Si elle est définie à une valeur différente de -1, la hauteur des diapositives sera remplacée afin de maintenir le ratio d'aspect spécifié.
 <h6>imageScaleMode</h6>
-Sets the scale mode of the main slide images (images added as background). 'cover' will scale and crop the image so that it fills the entire slide. 'contain' will keep the entire image visible inside the slide. 'exact' will match the size of the image to the size of the slide. 'none' will leave the image to its original size.
+Définit le mode de l'échelle des principales images de diapositives (images ajoutées comme fond). 'cover' va écheller et recadrer l'image afin qu'elle remplisse la totalité de la diapositive. 'contain' gardera toute l'image visible à l'intérieur de la diapositive. 'exact'  la taille de l'image correspond à la taille de la diapositive. 'none' laissera l'image à sa taille originale.
 <h6>forceSize</h6>
-Indicates if the size of the slider will be forced to full width or full window.
+Indique si la taille de diaporama sera forcé à la pleine largeur ou pleine fenêtre.
 <div class="alert alert-warning">
-	Note: It's possible to make the slider full width or full window by giving it a width and/or height of '100%'. However, sometimes the slider might be inside other containers which are less than full width/window. The 'forceSize' property is useful in those situations because it will still enlarge the slider to fill the width or window by overflowing its parent elements.
+	Note: Il est possible de faire le diaporama pleine largeur ou pleine fenêtre en lui donnant une largeur et/ou la hauteur de '100%'. Cependant, parfois, le diaporama peut être à l'intérieur d'autres conteneurs qui sont inférieures à pleine largeur/fenêtre.Une option 'forceSize' est utile dans ces situations  parce qu'elle va agrandir le diaporama pour remplir la largeur ou de la fenêtre par débordement ses éléments parents.
 </div>
 
-<h5>Slides settings</h5>
-Slides settings section allows to configure slides behaviour. Here you can configure slides animation, visible slider size, slides shuffle and loop.
+<h5>Paramètres de Diapositives</h5>
+Section de paramètres de diapositives vous permet de configurer le comportement des diapositives. Vous pouvez configurer l'animation des diapositives, la taille de diaporama,mélanger des diapositives et la boucle des diapositives.
 <figure class="img-polaroid"><img src="img/magento/slide-6.png" alt="" /></figure>
 
-<h5>Fade animation settings</h5>
-This section contains settings for fade animation. Fade animation can be enabled on slide switch.
+<h5>Paramètres d'animation Fondu</h5>
+Cette section contient les paramètres d'animation de fondu. Animation de fondu peut être activé sur le changement de diapositive.
 <figure class="img-polaroid"><img src="img/magento/slide-7.png" alt="" /></figure>
-You can set if you want to fade out previous slide and fade animation duration in milliseconds. 
+Vous pouvez définir si vous voulez estomper la diapositive précédente et la durée de l'animation de fondu en millisecondes. 
 
-<h5>Auto play settings</h5>
-Autoplay feature in Film Slider allows to loop through the slides automatically. This configuration settings contain options to configure auto play delay, direction and pause with mouse cursor on hover. 
+<h5>Paramètres de lecture automatique</h5>
+Lecture automatique permet de boucler les diapositives automatiquement. Ce paramètre de configuration contiennent des options pour configurer retard de lecture automatique, direction et la pause avec le curseur de la souris sur hover.
 <figure class="img-polaroid"><img src="img/magento/slide-8.png" alt="" /></figure>
 
-<h5>Controls settings</h5>
-Slider controls are the navigation buttons that let you switch the slides. In <strong>FilmSlider</strong> there are several types of navigation controls: <strong>prev/next</strong> arrows,  <strong>pagination</strong> buttons. Enabled keyboard navigation allows you to switch between the slides using keyboard. Also, you can enable button that will switch slider to the full screen mode.
+<h5>Paramètres de contrôles</h5>
+Les contrôles sont les boutons de navigation qui vous permettent de passer les diapositives. Dans FilmSlider il y a plusieurs types de contrôles de navigation: flèches préc/suiv, boutons de pagination. Activation de la navigation au clavier vous permet de basculer entre les diapositives en utilisant le clavier. En outre, vous pouvez activer le bouton qui va passer le diaporama vers le mode plein écran.
 <figure class="img-polaroid"><img src="img/magento/slide-9.png" alt="" /></figure>
 
-<h5>Responsive settings</h5>
-Responsive settings section configures slider behaviour on mobile devices. Here you can define screen width breakpoints (<strong>small, medium, large</strong>). Also, you can enable touch swipe behaviour to let user switch between the slides with swipe gestures. 
+<h5>Paramètres responsive</h5>
+Section Paramètres Responsive configure le comportement de diaporama sur les appareils mobiles. Vous pouvez définir des points d'arrêt de la largeur d'écran (petit, moyen, grand). Vous pouvez activer la possibilité de basculer entre les diapositives en les touchant (pour les écrans tactiles). 
 <figure class="img-polaroid"><img src="img/magento/slide-10.png" alt="" /></figure>
 
-<h5>Caption Settings</h5>
-Caption feature allows to add text to each slide. This section allows you to enable caption fade animation and set its duration.
+<h5>Paramètres de Légende</h5>
+Légende permet d'ajouter du texte à chaque diapositive. Cette section vous permet d'activer l'animation de fondu de la légende  et de définir sa durée.
 <figure class="img-polaroid"><img src="img/magento/slide-11.png" alt="" /></figure>
 
-<h5>Layers main settings</h5>
-Layers configuration settings contain slides layers behaviour. Each option has a brief description under the input fields.
+<h5>Principaux paramètres de couches</h5>
+Paramètres de configuration de couches contiennent l’affichage de couches de diapositives. Chaque option a une brève description au-dessous des champs de saisie.
 <figure class="img-polaroid"><img src="img/magento/slide-12.png" alt="" /></figure>
 
-<h4>Adding Slides</h4>
-You can add new slides only after saving the slider. Click <strong>Save and Continue Edit</strong> button in the top right corner. When the slider is saved, switch to <strong>Slider Items</strong> tab.
+<h4>Ajout de Diapositives</h4>
+Vous pouvez ajouter de nouvelles diapositives seulement après avoir sauvegardé le diaporama. Cliquez sur le bouton ‘Save and Continue Edit’ dans le coin en haut à droite. Lorsque le diaporama est enregistré, passez à l'onglet ‘Slider Items’.
 <figure class="img-polaroid"><img src="img/magento/slide-13.png" alt="" /></figure>
-Click <strong>Add Slider Item</strong> to add a new slide. Let’s see what slide configuration options are available.
+Cliquez sur ‘Add Slider Item’ pour ajouter une nouvelle diapositive. Voyons quelles options de configuration sont disponibles.
 
-<h5>Slide Information</h5>
-Here you can input slide title and set its status (<strong>enabled/disabled</strong>).
+<h5>Informations sur diapositive</h5>
+Vous pouvez saisir le titre de diapositive et définir son état (activé/désactivé).
 <figure class="img-polaroid"><img src="img/magento/slide-14.png" alt="" /></figure>
 
-<h5>Slide Images</h5>
-This section allows you to add images to the slide. Click Insert Image button to open Image library where you can select available images.
+<h5>Images de diapositive</h5>
+Cette section vous permet d'ajouter des images à la diapositive. Cliquez sur le bouton Insert Image pour ouvrir la bibliothèque d'images où vous pouvez sélectionner les images disponibles.
 <figure class="img-polaroid"><img src="img/magento/slide-15.png" alt="" /></figure>
-You can also upload images from your computer.
+Vous pouvez également télécharger des images à partir de votre ordinateur.
 <figure class="img-polaroid"><img src="img/magento/slide-16.png" alt="" /></figure>
-Under the Image field you can see your slide preview. You are free to set preview size the way you like. We moved the next section of slide configuration to the separate section as it is fully related to slide layers. 
+Sous le champ Image vous pouvez voir votre aperçu de la diapositive. Vous êtes libre de définir la taille aperçu de la façon dont vous le souhaitez. Nous avons placé la prochaine section de configuration de diapositive à la section séparée car elle n'est liée qu'au travail avec les couches de diapositive. 
 
-<h4>Working with layers</h4>
-<strong>FilmSlider</strong> is a multi-layer slider. This mean that your can add multiple independent layers to your slide. Layers can be added to the slide on the slide configuration screen described above. This screen contains several sections of layers settings.
+<h4>Travail avec des couches</h4>
+FilmSlider est un diaporama multi-couche. Cela signifie que vous pouvez ajouter plusieurs couches indépendantes à votre diapositive. Les couches peuvent être ajoutées à la diapositive sur l’écran de configuration de diapositives décrit ci-dessus. Cet écran contient plusieurs sections de paramètres des couches.
 
-<h5>Layers list</h5>
-Layers list section allows to add layers to your slide. You can add image layers and text layers. Use corresponding buttons to add layers.
+<h5>Liste de couches</h5>
+Section de la liste des couches permet d'ajouter des couches à votre diapositive. Vous pouvez ajouter des couches d'image et des couches de texte. Utilisez les boutons correspondants pour ajouter des couches.
 <figure class="img-polaroid"><img src="img/magento/slide-17.png" alt="" /></figure>
-By clicking on <strong>Add layer image</strong> you’ll see an image library where you can select from available images or upload images from your computer. By clicking <strong>Add layer text</strong>, you’ll see new text layer added and layer settings became associated with your new particular layer.
+En cliquant sur ‘Add layer image’ vous verrez une bibliothèque d'images où vous pouvez choisir parmi les images disponibles ou télécharger des images à partir de votre ordinateur. En cliquant sur ‘Add layer text’, vous verrez une nouvelle couche de texte ajoutée et les paramètres de la couche.
 <figure class="img-polaroid"><img src="img/magento/slide-18.png" alt="" /></figure>
 <figure class="img-polaroid"><img src="img/magento/slide-19.png" alt="" /></figure>
 
-<h5>Layer text settings</h5>
-Using <strong>Layer text settings</strong> section you can input layer text, layer size, colors, font styling, etc.
+<h5>Paramètres de texte de couche</h5>
+En utilisant la section ‘Layer text settings’ vous pouvez saisir le texte de la couche, la taille de la couche, les couleurs, la police etc.
 <figure class="img-polaroid"><img src="img/magento/slide-20.png" alt="" /></figure>
-In the <strong>Layer text/html</strong> field you can input your layer content in both text and html format. 
+Dans le champ ‘Layer text/html’ vous pouvez entrer votre contenu de la couche dans deux formats - texte et html.
 
-<h5>Layer text position settings</h5>
-In this section you can define text layer position.
+<h5>Réglages de position de texte de couche</h5>
+Dans cette section, vous pouvez définir la position de texte de la couche.
 <figure class="img-polaroid"><img src="img/magento/slide-21.png" alt="" /></figure>
 
-<h5>Layer animation settings</h5>
-This section allows you to define layer animation. You can set its position on the slide, set transition, offsets, delay, duration, etc.
+<h5>Paramètres d'animation de la couche</h5>
+Cette section vous permet de définir l'animation de la couche. Vous pouvez définir sa position sur la diapositive, la transition, les offsets, le retard, la durée, etc.
 <figure class="img-polaroid"><img src="img/magento/slide-22.png" alt="" /></figure>
-When you add several layers, bottom configuration settings (position and animation) will show settings for the selected layer.
+Lorsque vous ajoutez plusieurs couches, les paramètres de configuration de bas (position et animation) affichent les paramètres de la couche sélectionnée.
 <figure class="img-polaroid"><img src="img/magento/slide-23.png" alt="" /></figure>
 
 <h4>Adding slider to page</h4>

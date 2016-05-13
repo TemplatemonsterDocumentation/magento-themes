@@ -1,104 +1,106 @@
 <h3>Film Slider</h3>
-<p>TemplateMonster FilmSlider module is an implementation of elegant and professional jQuery plugin ‘Slider Pro’. Allows you to add slider with multiple layers to your store home page. Rich collection of slider configuration options and user interface will help you to configure your slider fast and easily.</p>
-<p>In the main navigation menu you’ll see new menu option <strong>TemplateMonster</strong>. <br>To start working with the FilmSlider module, click <strong>Template Monster -> Sliders</strong> menu item.</p>
+<p>O módulo FilmSlider da TemplateMonster é uma implementação do elegante e profissional plugin de jQuery ‘Slider Pro’. Permite que você inclua um slider com diversas camadas na página principal da sua loja. Opções de configuração e interface de usuário ricas e detalhadas vão te ajudar a configurar seu slider de forma fácil e rápida.</p>
+<p>No menu de navegação principal você verá uma nova opção <strong>TemplateMonster</strong>. <br>Para começar a trabalhar com o módulo FilmSlider module, clique no item <strong>Template Monster -> Sliders</strong>.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-1.png" alt="" /></figure>
-<p>Here you can see a list of available sliders where you can <strong>disable/enable</strong>, <strong>delete</strong> or <strong>edit</strong> sliders.</p>
+<p>Aqui você pode ver uma lista de sliders disponíveis onde você pode ativar/desativar, apagar ou alterar sliders.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-2.png" alt="" /></figure>
-<p>To add new slider click <strong>Add New Slider</strong> button in the top right corner. <br>
-On the slider configuration screen in <strong>General Options</strong> section you can see all available slider settings. <strong>Slider Items</strong> section allows you to add slides to your slider.</p>
+<p>Para incluir um novo slider clique em ‘Add New Slider’ no canto superior direito. <br>
+Na tela de configuração do slider, na seção ‘General Options’ você pode ver todos as configurações do slider. A seção ‘Slider Items’ permite incluir slides ao seu slider.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-3.png" alt="" /></figure>
-<p>Let’s see what slider options are available. As you can see options are divided into several parts to make the configuration interface more user friendly. </p>
+<p>Vejamos que opções de slider estão disponíveis. Como pode ver, opções são divididas em diversas partes que fazem a interface de configuração mais amigável.</p>
 
-<h4>General Options</h4>
-<h5>Main Settings</h5>
-<p>This section allows you to set slider title, select store view, enable/disable slider, set its width and height. Each option refers to <strong>Slider Pro jQuery plugin</strong> property. You can find more specific description of each property in <a target='blank_' href="https://github.com/bqworks/slider-pro/blob/master/docs/api.md#1-properties">official Slider Pro</a> documentation. Some jQuery plugin properties may not present in the <strong>FilmSlider</strong> configuration, we will add them in future releases.</p>
+<h4>Opções Gerais</h4>
+<h5>Configurações principais</h5>
+<p>Esta seção permite definir um título de slider, escolher a view da loja, ativar/desativar slider, definir sua largura e altura. Cada opção faz referência às propriedades do plugin Slider Pro jQuery. Você pode encontrar descrições mais específicas de cada propriedade na <a target="_blank" href="https://github.com/bqworks/slider-pro/blob/master/docs/api.md#1-properties"></a>documentação oficial do Slider Pr. Algumas propriedades do plugin de jQuery podem não estar presentes na configuração do FilmSlider, nós vamos incluí-las em lançamentos futuros.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-4.png" alt="" /></figure>
-Slider dimensions (width and height) can be set to a fixed value, like 900 (indicating 900 pixels), or to a percentage value, like '100%'.
+As dimensões do slider (largura/width e altura/height) podem ser definidas como um valor fixo, como 900 (indicando 900 pixels), ou em valor de porcentagem, coomo '100%'.
 <div class="alert alert-warning">
-	Please note: slide title, store view and status are required, you cannot save the slide without these values set.
+	Perceba que: o título do slide, a view da loja e o estado são obrigatórios, você não pode salvar o slide sem esses valores.
 </div>
 
-<h5>Image Settings</h5>
-<p>In image section you can adjust slider image configuration settings. Each option has a brief description. Let’s describe some of them more specifically.</p>
+<h5>Configurações de imagem</h5>
+<p>Na seção imagem você pode ajustar a configuração das imagens do slider. Cada opção tem uma descrição breve. Vamos olhar algumas delas de forma específica.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-5.png" alt="" /></figure>
 <h6>aspectRatio</h6>
-Sets the aspect ratio of the slides. If set to a value different than -1, the height of the slides will be overridden in order to maintain the specified aspect ratio.
+Define a razão do aspecto dos slides. Se definido para um valor diferente de -1 , a altura dos slides será alterada para manter a razão especificada.
 <h6>imageScaleMode</h6>
-Sets the scale mode of the main slide images (images added as background). 'cover' will scale and crop the image so that it fills the entire slide. 'contain' will keep the entire image visible inside the slide. 'exact' will match the size of the image to the size of the slide. 'none' will leave the image to its original size.
+Define o tipo de cobertura das imagens principais do slide(imagens incluídas como fundo). 'cover' vai alterar e cortar a imagem de forma que ela cubra o slide inteiro. 'contain' vai manter a imagem inteira visível dentro do slide. 'exact' vai combinar o tamanho da image e o tamanho do slide. 'none' vai manter a imagem do tamanho original.
 <h6>forceSize</h6>
-Indicates if the size of the slider will be forced to full width or full window.
+Indica se o tamanho do slider será forçado à largura total ou janela à toda.
+
 <div class="alert alert-warning">
-	Note: It's possible to make the slider full width or full window by giving it a width and/or height of '100%'. However, sometimes the slider might be inside other containers which are less than full width/window. The 'forceSize' property is useful in those situations because it will still enlarge the slider to fill the width or window by overflowing its parent elements.
+	Nota: É possível fazer o slider com a largura total ou largura total da janela definindo sua largura e/ou altura para '100%'. No entanto, ás vezes o slider pode estar dentro de outra caixa com um tamanho menor do que  a largura total da janela. A propriedade 'forceSize' é útil nesta sotiação pois ela ainda vai aumentar o slider para cobrir toda a área de largura da janela atravessando os elementos pais.
 </div>
 
-<h5>Slides settings</h5>
-Slides settings section allows to configure slides behaviour. Here you can configure slides animation, visible slider size, slides shuffle and loop.
+<h5>Configuração dos Slides</h5>
+Esta seção permite configurar o comportamento dos slides. Aqui você pode configurar a animação dos slides, o tamanho visível, se será aleatório e se vai se repetir.
 <figure class="img-polaroid"><img src="img/magento/slide-6.png" alt="" /></figure>
 
-<h5>Fade animation settings</h5>
-This section contains settings for fade animation. Fade animation can be enabled on slide switch.
+<h5>Configurações da animação de fade</h5>
+Esta seção contém configuração para a animação de fade.A animação de fade pode ser ativada ao alterar o slide.
 <figure class="img-polaroid"><img src="img/magento/slide-7.png" alt="" /></figure>
-You can set if you want to fade out previous slide and fade animation duration in milliseconds. 
+Você pode liga-la se você quer uma transição para o slide anterior, sua duração em milisegundos. 
 
-<h5>Auto play settings</h5>
-Autoplay feature in Film Slider allows to loop through the slides automatically. This configuration settings contain options to configure auto play delay, direction and pause with mouse cursor on hover. 
+<h5>Configurações de reprodução automática</h5>
+Reprodução automática é uma funcionalidade que permite avançar pelos slides automáticamente. As configurações contém opções para alterar o intervalo entre cada passagem automática, direção e parar a reprodução automática quando o mouse estiver em cima do slider.
 <figure class="img-polaroid"><img src="img/magento/slide-8.png" alt="" /></figure>
 
-<h5>Controls settings</h5>
-Slider controls are the navigation buttons that let you switch the slides. In <strong>FilmSlider</strong> there are several types of navigation controls: <strong>prev/next</strong> arrows,  <strong>pagination</strong> buttons. Enabled keyboard navigation allows you to switch between the slides using keyboard. Also, you can enable button that will switch slider to the full screen mode.
+<h5>Configurações de controle</h5>
+Os controles do slider são os botões de navegação que você usa para mudar o slide. No FilmSlider existem diversos tipo de controle de navegação: setas de anterior/próximo, botões de paginação. Com a navegação de teclado ativada você pode mudar de slides usando o teclado. Você também pode ativar o botão que passa o slider para o modo tela cheia.
 <figure class="img-polaroid"><img src="img/magento/slide-9.png" alt="" /></figure>
 
-<h5>Responsive settings</h5>
-Responsive settings section configures slider behaviour on mobile devices. Here you can define screen width breakpoints (<strong>small, medium, large</strong>). Also, you can enable touch swipe behaviour to let user switch between the slides with swipe gestures. 
+<h5>Configurações responsivas</h5>
+A seção de configurações responsivas altera o comportamento do slider em dispositivos móveis. Aqui você pode definir os pontos de limite (pequena, média, grande). Também pode ativar o comportamento ao passar o dedo.
 <figure class="img-polaroid"><img src="img/magento/slide-10.png" alt="" /></figure>
 
-<h5>Caption Settings</h5>
-Caption feature allows to add text to each slide. This section allows you to enable caption fade animation and set its duration.
+<h5>Configurações de caption</h5>
+A funcionalidade caption permite incluir texto em cada slide. Esta seção permite ativar a animação de transparência da caption e definir sua duração.
 <figure class="img-polaroid"><img src="img/magento/slide-11.png" alt="" /></figure>
 
-<h5>Layers main settings</h5>
-Layers configuration settings contain slides layers behaviour. Each option has a brief description under the input fields.
+<h5>Configurações principais de camadas</h5>
+Configuração de camadas define o comportamento das camadas dos slides. Cada opção tem uma breve descrição nos campos de entrada.
 <figure class="img-polaroid"><img src="img/magento/slide-12.png" alt="" /></figure>
 
-<h4>Adding Slides</h4>
-You can add new slides only after saving the slider. Click <strong>Save and Continue Edit</strong> button in the top right corner. When the slider is saved, switch to <strong>Slider Items</strong> tab.
+<h4>Inclusão de slides</h4>
+Voce pode incluir novos slides apenas após salvar o slider. Clique em ‘Save and Continue Edit’ no canto superior direito. Quando o slider estiver salvo, mude para a aba ‘Slider Items’.
 <figure class="img-polaroid"><img src="img/magento/slide-13.png" alt="" /></figure>
-Click <strong>Add Slider Item</strong> to add a new slide. Let’s see what slide configuration options are available.
+Clique em ‘Add Slider Item’ para incluir um novo slide. Vejamos que as opções de configuração estão disponíveis.
 
-<h5>Slide Information</h5>
-Here you can input slide title and set its status (<strong>enabled/disabled</strong>).
+<h5>Informação do slide</h5>
+Aqui você pode incluir o título do slide e definir seu estado (ativado/desativado).
+
 <figure class="img-polaroid"><img src="img/magento/slide-14.png" alt="" /></figure>
 
-<h5>Slide Images</h5>
-This section allows you to add images to the slide. Click Insert Image button to open Image library where you can select available images.
+<h5>Imagens do slide</h5>
+Esta seção permite incluir imagens ao slide. Clique no botão Insert Image para abrir a biblioteca de imagens onde você pode escolher as imagens disponíveis.
 <figure class="img-polaroid"><img src="img/magento/slide-15.png" alt="" /></figure>
-You can also upload images from your computer.
+Você também pode enviar imagens do seu computador.
 <figure class="img-polaroid"><img src="img/magento/slide-16.png" alt="" /></figure>
-Under the Image field you can see your slide preview. You are free to set preview size the way you like. We moved the next section of slide configuration to the separate section as it is fully related to slide layers. 
+No campo “Image” você pode ver a visualização do seu slide. Você pode ver no tamanho que preferir. Nós movemos a próxima seção de configuração de slides para uma seção separada já que está relacionada à camadas do slide.
 
-<h4>Working with layers</h4>
-<strong>FilmSlider</strong> is a multi-layer slider. This mean that your can add multiple independent layers to your slide. Layers can be added to the slide on the slide configuration screen described above. This screen contains several sections of layers settings.
+<h4>Trabalhando com camadas</h4>
+FilmSlider é um slider multi-camadas. Isso significa que você pode incluir diversas camadas independentes ao seu slide. Camadas podem ser incluídas ao slide na tela de configurações de slide como descrito acima. Essa tela contém diversas seções de configurações de camada.
 
-<h5>Layers list</h5>
-Layers list section allows to add layers to your slide. You can add image layers and text layers. Use corresponding buttons to add layers.
+<h5>Lista de camadas</h5>
+A seção de lista de camadas permite incluir camadas ao seu slide. Você pode incluir camadas de imagem e camadas de texto. Utilize os botões correspondentes para incluir camadas.
 <figure class="img-polaroid"><img src="img/magento/slide-17.png" alt="" /></figure>
-By clicking on <strong>Add layer image</strong> you’ll see an image library where you can select from available images or upload images from your computer. By clicking <strong>Add layer text</strong>, you’ll see new text layer added and layer settings became associated with your new particular layer.
+Ao clicar em ‘Add layer image’ você verá uma biblioteca de imagens onde pode escolher entre as imagens disponíveis ou enviar uma imagem do seu computador. Ao clicar em ‘Add layer text’, você verá uma nova camada de texto e configurações de camada serão associadas à camada que você criou.
 <figure class="img-polaroid"><img src="img/magento/slide-18.png" alt="" /></figure>
 <figure class="img-polaroid"><img src="img/magento/slide-19.png" alt="" /></figure>
 
 <h5>Layer text settings</h5>
-Using <strong>Layer text settings</strong> section you can input layer text, layer size, colors, font styling, etc.
+Ao usar a seção ‘Layer text settings’ você pode incluir o texto da camada, o tamanho, cores, fontes, etc.
 <figure class="img-polaroid"><img src="img/magento/slide-20.png" alt="" /></figure>
-In the <strong>Layer text/html</strong> field you can input your layer content in both text and html format. 
+No campo ‘Layer text/html’ você pode incluir o conteúdo de sua camada com ambos texto e código html.
 
 <h5>Layer text position settings</h5>
-In this section you can define text layer position.
+Nesta seção você pode definir a posição do texto na camada.
 <figure class="img-polaroid"><img src="img/magento/slide-21.png" alt="" /></figure>
 
 <h5>Layer animation settings</h5>
-This section allows you to define layer animation. You can set its position on the slide, set transition, offsets, delay, duration, etc.
+Nesta seção você pode definir as animações da camada. Você pode definir sua posição no slide, transições, margens, atraso, duração, etc.
 <figure class="img-polaroid"><img src="img/magento/slide-22.png" alt="" /></figure>
-When you add several layers, bottom configuration settings (position and animation) will show settings for the selected layer.
+Quando você incluir diversas camadas, as configurações definidas embaixo (posição e animação) vão mostrar as configurações da camada escolhida.
 <figure class="img-polaroid"><img src="img/magento/slide-23.png" alt="" /></figure>
 
 <h4>Adding slider to page</h4>
