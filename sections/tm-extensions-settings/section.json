@@ -125,6 +125,20 @@
 				"pl":"Film Slider",
 				"pt":"Film Slider"
 			}
+		},		
+		{
+			"id":"newsletter",
+			"translations":{
+				"en":"Newsletter Pop-up",
+				"ru":"Newsletter Pop-up",
+				"tr":"Newsletter Pop-up",
+				"de":"Newsletter Pop-up",
+				"es":"Newsletter Pop-up",
+				"fr":"Newsletter Pop-up",
+				"it":"Newsletter Pop-up",
+				"pl":"Newsletter Pop-up",
+				"pt":"Newsletter Pop-up"
+			}
 		}
 	]
 }

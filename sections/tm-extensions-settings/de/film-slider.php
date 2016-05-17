@@ -89,7 +89,7 @@ Mit einem Klick auf <strong>Add layer image</strong> werden Sie eine Bildbibliot
 <h5>EbenenText-Einstellungen</h5>
 Mit der <strong>Ebenen Text-Einstellungen</strong> Sektion können Sie Ebenentext, Schicht Größe, Farben, Schriftart Styling etc. festlegen.
 <figure class="img-polaroid"><img src="img/magento/slide-20.png" alt="" /></figure>
-Im <strong>Layer text/html<strong> Feld ,können Sie Ihre Layer-Inhalt sowohl als Text und HTML-Format eingeben. 
+Im <strong>Layer text/html</strong> Feld ,können Sie Ihre Layer-Inhalt sowohl als Text und HTML-Format eingeben. 
 
 <h5>Textebene Positionseinstellungen</h5>
 In diesem Bereich können Sie Textebene Position definieren.
