@@ -13,7 +13,7 @@ if (!isset($sections)) {
     <title><?php echo $doc_title; ?></title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
-    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v4-2/"/>
+    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/socila-login/"/>
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
@@ -46,15 +46,6 @@ if (!isset($sections)) {
             <a href="<?php echo $path; ?>/"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
         </div>
         <div class="panel">
-            <div class="select select-version">
-                <select>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-2/">Version v4-2</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-1/">Version v4-1</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-0/">Version v4-0</option>
-                    <!-- <option data-href="/help/quick-start-guide/magento-themes/v1-2/index_en.html">Version v1-2</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v2-0/index_en.html" selected>Version v2-0</option> -->
-                </select>
-            </div>
             <div class="select select-lang">
                 <select>
                     <option data-href="<?php echo $path; ?>/index.php?lang=en&section=<?php echo $section_param; ?>" <?php echo $lang == "en"? "selected": ""; ?>>EN</option>

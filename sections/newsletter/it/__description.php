@@ -1,0 +1,2 @@
+<h2 class="item1">Introduction</h2>
+<p class="indent">Email newsletter has always been the important part of every marketing strategy. This method is used all over the world, so it will definitely help you to gain more orders and subscribers. That's why we proudly present you the <strong>Newsletter pop-up</strong> module. It displays the popup window with subscription form and social icons right after the client visits your site.</p>

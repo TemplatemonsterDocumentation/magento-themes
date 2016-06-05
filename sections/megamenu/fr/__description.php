@@ -1,0 +1,2 @@
+<h2 class="item1">Introduction</h2>
+<p class="indent">TemplateMonster <strong>Megamenu</strong> module extends standard Magento menu functionality and allows you to configure subcategories multi-column display, add static blocks and products to the dropdown menu, as well as the flexibly customize its appearance in site admin panel.</p>

@@ -1,0 +1,61 @@
+{
+	"id":"ajax-search",
+	"translations":
+	{
+		"en":"Ajax Search extension",
+		"ru":"Ajax Search extension",
+		"tr":"Ajax Search extension",
+		"de":"Ajax Search extension",
+		"it":"Ajax Search extension",
+		"fr":"Ajax Search extension",
+		"es":"Ajax Search extension",
+		"pt":"Ajax Search extension",
+		"pl":"Ajax Search extension"
+	},
+	"articles":
+	[
+		{
+			"id":"ajax-search-installation",
+			"translations":{
+				"en":"Installation",
+				"ru":"Installation",
+				"tr":"Installation",
+				"de":"Installation",
+				"es":"Installation",
+				"fr":"Installation",
+				"it":"Installation",
+				"pl":"Installation",
+				"pt":"Installation"
+			}
+		},
+		{
+			"id":"ajax-search-settings",
+			"translations":{
+				"en":"Extension settings",
+				"ru":"Extension settings",
+				"tr":"Extension settings",
+				"de":"Extension settings",
+				"es":"Extension settings",
+				"fr":"Extension settings",
+				"it":"Extension settings",
+				"pl":"Extension settings",
+				"pt":"Extension settings"
+			}
+		}
+		,
+		{
+			"id":"help-support",
+			"translations":{
+				"en":"Help and Support",
+				"ru":"Help and Support",
+				"tr":"Help and Support",
+				"de":"Help and Support",
+				"es":"Help and Support",
+				"fr":"Help and Support",
+				"it":"Help and Support",
+				"pl":"Help and Support",
+				"pt":"Help and Support"
+			}
+		}
+	]
+}

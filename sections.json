@@ -1,7 +1,8 @@
 [
-	"introduction",
-	"complete-installation",
-	"theme-installation",
-	"tm-extensions-settings",
-	"conclusion"
+	"social-login",
+	"ajax-catalog",
+	"megamenu",
+	"ajax-search",
+	"film-slider",
+	"newsletter"
 ]

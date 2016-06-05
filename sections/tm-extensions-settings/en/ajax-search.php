@@ -1,6 +1,5 @@
 <h3>Ajax Search</h3>
-<p>Quick and easy search among the variety of products contributes to making a positive decision on purchasing in your online shop. Search module is the popular module among the online shops based on various platforms. It allows you to find
-the products you need according to the selected parameters quickly and easily without reloading the page.</p>
+<p>Quick and easy search among the variety of products contributes to making a positive decision on purchasing in your online shop. Search module is the popular module among the online shops based on various platforms. It allows you to find the products you need according to the selected parameters quickly and easily without reloading the page.</p>
 <p>In order to configure this module, you should navigate to Magento admin panel and choose the <strong>Stores > Configuration</strong> section in the left side menu.</p>
 <figure class="img-polaroid"><img src="img/magento/search-1.png" alt="" /></figure>
 <p>Then choose the <strong> TemplateMonster > Catalog Search Ajax item </strong> in the left side menu to go to the module settings interface.</p>

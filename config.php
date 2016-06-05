@@ -3,8 +3,8 @@
 $path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 // Variables
-$product_name = "Magento 2";
-$product_desc = "documentation v4-2";
+$product_name = "Social Login documentation";
+$product_desc = "";
 $doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';
@@ -12,7 +12,7 @@ if (isset($_GET['lang'])) {
 	$lang = $_GET['lang'];
 }
 
-$section_param = 'introduction';
+$section_param = 'social-login';
 if (isset($_GET['section'])) {
 	$section_param = $_GET['section'];
 }

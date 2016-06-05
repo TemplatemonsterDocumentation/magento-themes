@@ -1,0 +1,3 @@
+<h5>Controls settings</h5>
+Slider controls are the navigation buttons that let you switch the slides. In <strong>FilmSlider</strong> there are several types of navigation controls: <strong>prev/next</strong> arrows,  <strong>pagination</strong> buttons. Enabled keyboard navigation allows you to switch between the slides using keyboard. Also, you can enable button that will switch slider to the full screen mode.
+<figure class="img-polaroid"><img src="img/magento/slide-9.png" alt="" /></figure>

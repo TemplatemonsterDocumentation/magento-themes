@@ -1,0 +1,61 @@
+{
+	"id":"newsletter",
+	"translations":
+	{
+		"en":"Newsletter Pop-up extension",
+		"ru":"Newsletter Pop-up extension",
+		"tr":"Newsletter Pop-up extension",
+		"de":"Newsletter Pop-up extension",
+		"it":"Newsletter Pop-up extension",
+		"fr":"Newsletter Pop-up extension",
+		"es":"Newsletter Pop-up extension",
+		"pt":"Newsletter Pop-up extension",
+		"pl":"Newsletter Pop-up extension"
+	},
+	"articles":
+	[
+		{
+			"id":"newsletter-installation",
+			"translations":{
+				"en":"Installation",
+				"ru":"Installation",
+				"tr":"Installation",
+				"de":"Installation",
+				"es":"Installation",
+				"fr":"Installation",
+				"it":"Installation",
+				"pl":"Installation",
+				"pt":"Installation"
+			}
+		},
+		{
+			"id":"newsletter-settings",
+			"translations":{
+				"en":"Extension settings",
+				"ru":"Extension settings",
+				"tr":"Extension settings",
+				"de":"Extension settings",
+				"es":"Extension settings",
+				"fr":"Extension settings",
+				"it":"Extension settings",
+				"pl":"Extension settings",
+				"pt":"Extension settings"
+			}
+		}
+		,
+		{
+			"id":"help-support",
+			"translations":{
+				"en":"Help and Support",
+				"ru":"Help and Support",
+				"tr":"Help and Support",
+				"de":"Help and Support",
+				"es":"Help and Support",
+				"fr":"Help and Support",
+				"it":"Help and Support",
+				"pl":"Help and Support",
+				"pt":"Help and Support"
+			}
+		}
+	]
+}

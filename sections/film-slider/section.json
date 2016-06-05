@@ -1,0 +1,298 @@
+{
+	"id":"film-slider",
+	"translations":
+	{
+		"en":"Film Slider extension",
+		"ru":"Film Slider extension",
+		"tr":"Film Slider extension",
+		"de":"Film Slider extension",
+		"it":"Film Slider extension",
+		"fr":"Film Slider extension",
+		"es":"Film Slider extension",
+		"pt":"Film Slider extension",
+		"pl":"Film Slider extension"
+	},
+	"articles":
+	[
+		{
+			"id":"film-slider-installation",
+			"translations":{
+				"en":"Installation",
+				"ru":"Installation",
+				"tr":"Installation",
+				"de":"Installation",
+				"es":"Installation",
+				"fr":"Installation",
+				"it":"Installation",
+				"pl":"Installation",
+				"pt":"Installation"
+			}
+		},
+		{
+			"id":"film-slider-settings",
+			"translations":{
+				"en":"General options",
+				"ru":"General options",
+				"tr":"General options",
+				"de":"General options",
+				"es":"General options",
+				"fr":"General options",
+				"it":"General options",
+				"pl":"General options",
+				"pt":"General options"
+			}
+		},
+		{
+			"id":"main-settings",
+			"translations":{
+				"en":"Main settings",
+				"ru":"Main settings",
+				"tr":"Main settings",
+				"de":"Main settings",
+				"es":"Main settings",
+				"fr":"Main settings",
+				"it":"Main settings",
+				"pl":"Main settings",
+				"pt":"Main settings"
+			}
+		},
+		{
+			"id":"image-settings",
+			"translations":{
+				"en":"Image settings",
+				"ru":"Image settings",
+				"tr":"Image settings",
+				"de":"Image settings",
+				"es":"Image settings",
+				"fr":"Image settings",
+				"it":"Image settings",
+				"pl":"Image settings",
+				"pt":"Image settings"
+			}
+		},
+		{
+			"id":"slides-settings",
+			"translations":{
+				"en":"Slides settings",
+				"ru":"Slides settings",
+				"tr":"Slides settings",
+				"de":"Slides settings",
+				"es":"Slides settings",
+				"fr":"Slides settings",
+				"it":"Slides settings",
+				"pl":"Slides settings",
+				"pt":"Slides settings"
+			}
+		},
+		{
+			"id":"fade-settings",
+			"translations":{
+				"en":"Fade settings",
+				"ru":"Fade settings",
+				"tr":"Fade settings",
+				"de":"Fade settings",
+				"es":"Fade settings",
+				"fr":"Fade settings",
+				"it":"Fade settings",
+				"pl":"Fade settings",
+				"pt":"Fade settings"
+			}
+		},
+		{
+			"id":"autoplay-settings",
+			"translations":{
+				"en":"Auto play settings",
+				"ru":"Auto play settings",
+				"tr":"Auto play settings",
+				"de":"Auto play settings",
+				"es":"Auto play settings",
+				"fr":"Auto play settings",
+				"it":"Auto play settings",
+				"pl":"Auto play settings",
+				"pt":"Auto play settings"
+			}
+		},
+		{
+			"id":"controls-settings",
+			"translations":{
+				"en":"Controls settings",
+				"ru":"Controls settings",
+				"tr":"Controls settings",
+				"de":"Controls settings",
+				"es":"Controls settings",
+				"fr":"Controls settings",
+				"it":"Controls settings",
+				"pl":"Controls settings",
+				"pt":"Controls settings"
+			}
+		},
+		{
+			"id":"responsive-settings",
+			"translations":{
+				"en":"Responsive settings",
+				"ru":"Responsive settings",
+				"tr":"Responsive settings",
+				"de":"Responsive settings",
+				"es":"Responsive settings",
+				"fr":"Responsive settings",
+				"it":"Responsive settings",
+				"pl":"Responsive settings",
+				"pt":"Responsive settings"
+			}
+		},
+		{
+			"id":"caption-settings",
+			"translations":{
+				"en":"Caption Settings",
+				"ru":"Caption Settings",
+				"tr":"Caption Settings",
+				"de":"Caption Settings",
+				"es":"Caption Settings",
+				"fr":"Caption Settings",
+				"it":"Caption Settings",
+				"pl":"Caption Settings",
+				"pt":"Caption Settings"
+			}
+		},
+		{
+			"id":"layers-settings",
+			"translations":{
+				"en":"Layers main settings",
+				"ru":"Layers main settings",
+				"tr":"Layers main settings",
+				"de":"Layers main settings",
+				"es":"Layers main settings",
+				"fr":"Layers main settings",
+				"it":"Layers main settings",
+				"pl":"Layers main settings",
+				"pt":"Layers main settings"
+			}
+		},
+		{
+			"id":"adding-slides-settings",
+			"translations":{
+				"en":"Adding slides",
+				"ru":"Adding slides",
+				"tr":"Adding slides",
+				"de":"Adding slides",
+				"es":"Adding slides",
+				"fr":"Adding slides",
+				"it":"Adding slides",
+				"pl":"Adding slides",
+				"pt":"Adding slides"
+			}
+		},
+		{
+			"id":"slide-information",
+			"translations":{
+				"en":"Slide Information",
+				"ru":"Slide Information",
+				"tr":"Slide Information",
+				"de":"Slide Information",
+				"es":"Slide Information",
+				"fr":"Slide Information",
+				"it":"Slide Information",
+				"pl":"Slide Information",
+				"pt":"Slide Information"
+			}
+		},
+		{
+			"id":"slide-images",
+			"translations":{
+				"en":"Slide Images",
+				"ru":"Slide Images",
+				"tr":"Slide Images",
+				"de":"Slide Images",
+				"es":"Slide Images",
+				"fr":"Slide Images",
+				"it":"Slide Images",
+				"pl":"Slide Images",
+				"pt":"Slide Images"
+			}
+		},
+		{
+			"id":"layers-list",
+			"translations":{
+				"en":"Working with layers",
+				"ru":"Working with layers",
+				"tr":"Working with layers",
+				"de":"Working with layers",
+				"es":"Working with layers",
+				"fr":"Working with layers",
+				"it":"Working with layers",
+				"pl":"Working with layers",
+				"pt":"Working with layers"
+			}
+		},
+		{
+			"id":"layers-text-settings",
+			"translations":{
+				"en":"Layer text settings",
+				"ru":"Layer text settings",
+				"tr":"Layer text settings",
+				"de":"Layer text settings",
+				"es":"Layer text settings",
+				"fr":"Layer text settings",
+				"it":"Layer text settings",
+				"pl":"Layer text settings",
+				"pt":"Layer text settings"
+			}
+		},
+		{
+			"id":"layers-text-position-settings",
+			"translations":{
+				"en":"Layer text position settings",
+				"ru":"Layer text position settings",
+				"tr":"Layer text position settings",
+				"de":"Layer text position settings",
+				"es":"Layer text position settings",
+				"fr":"Layer text position settings",
+				"it":"Layer text position settings",
+				"pl":"Layer text position settings",
+				"pt":"Layer text position settings"
+			}
+		},
+		{
+			"id":"layers-animation-settings",
+			"translations":{
+				"en":"Layer animation settings",
+				"ru":"Layer animation settings",
+				"tr":"Layer animation settings",
+				"de":"Layer animation settings",
+				"es":"Layer animation settings",
+				"fr":"Layer animation settings",
+				"it":"Layer animation settings",
+				"pl":"Layer animation settings",
+				"pt":"Layer animation settings"
+			}
+		},
+		{
+			"id":"slider-to-page",
+			"translations":{
+				"en":"Adding slider to page",
+				"ru":"Adding slider to page",
+				"tr":"Adding slider to page",
+				"de":"Adding slider to page",
+				"es":"Adding slider to page",
+				"fr":"Adding slider to page",
+				"it":"Adding slider to page",
+				"pl":"Adding slider to page",
+				"pt":"Adding slider to page"
+			}
+		},
+		{
+			"id":"help-support",
+			"translations":{
+				"en":"Help and Support",
+				"ru":"Help and Support",
+				"tr":"Help and Support",
+				"de":"Help and Support",
+				"es":"Help and Support",
+				"fr":"Help and Support",
+				"it":"Help and Support",
+				"pl":"Help and Support",
+				"pt":"Help and Support"
+			}
+		}
+	]
+}

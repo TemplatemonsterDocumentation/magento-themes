@@ -1,0 +1,61 @@
+{
+	"id":"ajax-catalog",
+	"translations":
+	{
+		"en":"Ajax Catalog extension",
+		"ru":"Ajax Catalog extension",
+		"tr":"Ajax Catalog extension",
+		"de":"Ajax Catalog extension",
+		"it":"Ajax Catalog extension",
+		"fr":"Ajax Catalog extension",
+		"es":"Ajax Catalog extension",
+		"pt":"Ajax Catalog extension",
+		"pl":"Ajax Catalog extension"
+	},
+	"articles":
+	[
+		{
+			"id":"ajax-catalog-installation",
+			"translations":{
+				"en":"Installation",
+				"ru":"Installation",
+				"tr":"Installation",
+				"de":"Installation",
+				"es":"Installation",
+				"fr":"Installation",
+				"it":"Installation",
+				"pl":"Installation",
+				"pt":"Installation"
+			}
+		},
+		{
+			"id":"ajax-catalog-settings",
+			"translations":{
+				"en":"Extension settings",
+				"ru":"Extension settings",
+				"tr":"Extension settings",
+				"de":"Extension settings",
+				"es":"Extension settings",
+				"fr":"Extension settings",
+				"it":"Extension settings",
+				"pl":"Extension settings",
+				"pt":"Extension settings"
+			}
+		}
+		,
+		{
+			"id":"help-support",
+			"translations":{
+				"en":"Help and Support",
+				"ru":"Help and Support",
+				"tr":"Help and Support",
+				"de":"Help and Support",
+				"es":"Help and Support",
+				"fr":"Help and Support",
+				"it":"Help and Support",
+				"pl":"Help and Support",
+				"pt":"Help and Support"
+			}
+		}
+	]
+}
