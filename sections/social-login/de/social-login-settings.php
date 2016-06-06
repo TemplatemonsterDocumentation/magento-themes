@@ -3,7 +3,7 @@
 The General section allows you to enable or disable the module whenever you need. Even after disabling the module, all the changes made previously will be preserved. <br>
 In order to configure the module, navigate to <strong>Stores -> Settings -> Configuration</strong> section. <br>
 Choose the <strong>TEMPLATEMONSTER -> Social login</strong> in the left side menu to go to the module settings interface.
-<figure class="img-polaroid"><img src="img/magento/instagram-feed-general.png" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/magento/social-1.jpg" alt="" /></figure>
 
 <table  class="options-table">
     <tr>
@@ -18,7 +18,7 @@ Here you can customize each social media platform separately. Just fill in sever
 
 <h4>Google+</h4> 
 This section allows you to enable the Google+ login button.   
-<figure class="img-polaroid"><img src="img/magento/instagram-feed-general.png" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/magento/social-2.jpg" alt="" /></figure>
 <table  class="options-table">
     <tr>
         <td class="col-1"><strong>Enabled </strong></td>
@@ -50,7 +50,7 @@ This section allows you to enable the Google+ login button.
 
 <h4>Facebook Options</h4>
 This section allows you to enable the Facebook login button.   
-<figure class="img-polaroid"><img src="img/magento/instagram-feed-general.png" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/magento/social-3.jpg" alt="" /></figure>
 <table  class="options-table">
     <tr>
         <td class="col-1"><strong>Enabled </strong></td>
@@ -77,7 +77,7 @@ This section allows you to enable the Facebook login button.
 
 <h4>Instagram Options</h4>
 This section allows you to enable the Instagram login button.   
-<figure class="img-polaroid"><img src="img/magento/instagram-feed-general.png" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/magento/social-4.jpg" alt="" /></figure>
 
 <table  class="options-table">
     <tr>
@@ -105,7 +105,7 @@ This section allows you to enable the Instagram login button.
 
 <h4>Twitter Options</h4>
 This section allows you to enable the Twitter login button.   
-<figure class="img-polaroid"><img src="img/magento/instagram-feed-general.png" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/magento/social-5.jpg" alt="" /></figure>
 <table  class="options-table">
     <tr>
         <td class="col-1"><strong>Enabled </strong></td>
