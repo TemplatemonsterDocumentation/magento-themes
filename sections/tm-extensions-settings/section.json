@@ -69,19 +69,33 @@
 				"pl":"Megamenu",
 				"pt":"Megamenu"
 			}
+		},
+		{
+			"id":"facebook-feed",
+			"translations":{
+				"en":"Facebook plugin",
+				"ru":"Facebook plugin",
+				"tr":"Facebook plugin",
+				"de":"Facebook plugin",
+				"es":"Facebook plugin",
+				"fr":"Facebook plugin",
+				"it":"Facebook plugin",
+				"pl":"Facebook plugin",
+				"pt":"Facebook plugin"
+			}
 		},  
 		{
-			"id":"instagram-feed",
+			"id":"twitter-feed",
 			"translations":{
-				"en":"Instagram Feed",
-				"ru":"Instagram Feed",
-				"tr":"Instagram Feed",
-				"de":"Instagram Feed",
-				"es":"Instagram Feed",
-				"fr":"Instagram Feed",
-				"it":"Instagram Feed",
-				"pl":"Instagram Feed",
-				"pt":"Instagram Feed"
+				"en":"Twitter Feed",
+				"ru":"Twitter Feed",
+				"tr":"Twitter Feed",
+				"de":"Twitter Feed",
+				"es":"Twitter Feed",
+				"fr":"Twitter Feed",
+				"it":"Twitter Feed",
+				"pl":"Twitter Feed",
+				"pt":"Twitter Feed"
 			}
 		},		
 		{
