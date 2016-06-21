@@ -13,7 +13,7 @@ if (!isset($sections)) {
     <title><?php echo $doc_title; ?></title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
-    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v2-0/"/>
+    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v4-1/"/>
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
