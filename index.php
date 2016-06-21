@@ -48,7 +48,7 @@ if (!isset($sections)) {
         <div class="panel">
             <div class="select select-version">
                 <select>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-1/">Version v4-1</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v4-1/" selected>Version v4-1</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v4-2/">Version v4-2</option>
                     <!-- <option data-href="/help/quick-start-guide/magento-themes/v1-2/index_en.html">Version v1-2</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v2-0/index_en.html" selected>Version v2-0</option> -->
