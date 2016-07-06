@@ -15,6 +15,20 @@
 	"articles":
 	[		
 		{
+			"id":"custom-logo",
+			"translations":{
+				"en":"Custom Logo",
+				"ru":"Custom Logo",
+				"tr":"Custom Logo",
+				"de":"Custom Logo",
+				"es":"Custom Logo",
+				"fr":"Custom Logo",
+				"it":"Custom Logo",
+				"pl":"Custom Logo",
+				"pt":"Custom Logo"
+			}
+		},
+		{
 			"id":"google-map",
 			"translations":{
 				"en":"Google Map",
@@ -43,20 +57,6 @@
 			}
 		},		
 		{
-			"id":"instagram-module",
-			"translations":{
-				"en":"Instagram module",
-				"ru":"Instagram module",
-				"tr":"Instagram modülü",
-				"de":"Instagram module",
-				"es":"M&oacute;dulo de Instagram",
-				"fr":"Module Instagram",
-				"it":"Modulo Instagram",
-				"pl":"Moduł Instagram",
-				"pt":"Módulo do Instagram"
-			}
-		},		
-		{
 			"id":"twitter-module",
 			"translations":{
 				"en":"Twitter module",
@@ -68,6 +68,48 @@
 				"it":"Modulo Twitter",
 				"pl":"Moduł Twitter",
 				"pt":"Módulo do Twitter"
+			}
+		},
+		{
+			"id":"megamenu",
+			"translations":{
+				"en":"MegaMenu",
+				"ru":"MegaMenu",
+				"tr":"MegaMenu",
+				"de":"MegaMenu",
+				"es":"MegaMenu",
+				"fr":"MegaMenu",
+				"it":"MegaMenu",
+				"pl":"MegaMenu",
+				"pt":"MegaMenu"
+			}
+		},
+		{
+			"id":"product-image-zoom",
+			"translations":{
+				"en":"Product Image Zoom",
+				"ru":"Product Image Zoom",
+				"tr":"Product Image Zoom",
+				"de":"Product Image Zoom",
+				"es":"Product Image Zoom",
+				"fr":"Product Image Zoom",
+				"it":"Product Image Zoom",
+				"pl":"Product Image Zoom",
+				"pt":"Product Image Zoom"
+			}
+		},		
+		{
+			"id":"live-search",
+			"translations":{
+				"en":"Live Search",
+				"ru":"Live Search",
+				"tr":"Live Search",
+				"de":"Live Search",
+				"es":"Live Search",
+				"fr":"Live Search",
+				"it":"Live Search",
+				"pl":"Live Search",
+				"pt":"Live Search"
 			}
 		},		
 		{
