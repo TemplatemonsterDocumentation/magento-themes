@@ -153,6 +153,34 @@
 				"pl":"Newsletter Pop-up",
 				"pt":"Newsletter Pop-up"
 			}
+		},		
+		{
+			"id":"timer",
+			"translations":{
+				"en":"Countdown timer",
+				"ru":"Countdown timer",
+				"tr":"Countdown timer",
+				"de":"Countdown timer",
+				"es":"Countdown timer",
+				"fr":"Countdown timer",
+				"it":"Countdown timer",
+				"pl":"Countdown timer",
+				"pt":"Countdown timer"
+			}
+		},		
+		{
+			"id":"googlemap",
+			"translations":{
+				"en":"Google map",
+				"ru":"Google map",
+				"tr":"Google map",
+				"de":"Google map",
+				"es":"Google map",
+				"fr":"Google map",
+				"it":"Google map",
+				"pl":"Google map",
+				"pt":"Google map"
+			}
 		}
 	]
 }
