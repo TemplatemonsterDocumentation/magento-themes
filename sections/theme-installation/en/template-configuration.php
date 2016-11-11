@@ -3,10 +3,13 @@
 
 <h4>Activate the new theme</h4>
 <ol class="index-list">
-	<li>Open Magento admin panel and navigate to <strong>Stores > Configuration</strong> menu.
+	<li>Open Magento admin panel and navigate to <strong>Content > Configuration</strong> menu.
 		<figure class="img-polaroid"><img src="img/magento/Theme-set-1.jpg" alt="" /></figure>
 	</li>
-	<li>In the <strong>General</strong> menu select <strong>Design</strong> tab. Click <strong>Design Theme</strong> tab and in the <strong>Design Theme</strong> drop-down list select the required theme, then click <strong>Save Config</strong> button.
+	<li>In the list of stores you need click <strong>edit</strong> at <strong>Global-Main Website</strong>. Also, you can click edit for a particular store view if you have them
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-1-1.jpg" alt="" /></figure>
+	</li>	
+	<li>In the <strong>Default Theme</strong> click <strong>Applied Theme</strong> drop-down list select the required theme, then click <strong>Save Configuration</strong> button.
 		<figure class="img-polaroid"><img src="img/magento/Theme-set-2.jpg" alt="" /></figure>
 	</li>	
 </ol>

@@ -1,8 +1,21 @@
 <h2 class="item1">Introduction</h2>
-<p>
-    Thank you for downloading Magento theme. This documentation consists of several parts and covers
-    the entire process of installing and setting up Magento theme starting from scratch.
-</p>
+<p>Thank you for purchasing Magetique from TemplateMonster. We worked hard to deliver some of the best functionality, performance and flexibility that can be found in a single Magento 2 theme. We hope that your experience with this product is going to let you build a more sustainable and successful business without having to worry about optimization, design and maintenance. </p>
+<p>We created a well-rounded suite of Magento 2 extensions, that come with the theme, in order to cover practically any aspect of running an eCommerce business. Our goal was to provide unprecedented value for growing businesses, because we understand that building a store requires a lot of resources.</p>
+<p>Our designers worked hard to provide the best visual layouts for your store. These were carefully crafted to shape a very satisfying customer journey for your clients. Navigation is simple. Search is snappy. Product details are rich. Everything that a person needs, in order to get to that checkout page, was accounted for in the design process.</p>
+<p>Why Magetique is the best Magento 2 theme?</p>
+
+<h4>Design</h4>
+<p>It includes 5 amazing layouts that work for practically any eCommerce niche. It also contains pre-made elements that you can easily add to your pages, if you feel like experimenting with the design. Every best practice for seamless user experience was accounted for. We took special care of the design’s responsiveness – the theme looks amazing on any mobile device (Retina displays included).</p>
+ 
+<h4>Functionality</h4>
+<p>Over 20 extensions that include maintenance, upsell, marketing and store management modules. Some aren’t even available anywhere else, even on TemplateMonster. This package, valued at $1600+, only comes with this Magetique.</p> 
+ 
+<h4>Customization and Flexibility</h4>
+<p>Edit design layouts, edit color patterns, edit page elements, change headers, mix footers, change layouts, play with product grids. These are just some of the customization features of this amazing theme.</p>
+ 
+<h4>Performance</h4>
+<p>Top scores in all of the most popular page analysis tools, like GTMetrix. Our code was carefully put together by some of the brightest Magento 2 developers and scanned for any errors, to make sure that your store doesn’t experience any downtime.</p>
+<p>Excited? Let’s go, onward to sales and overflowing order queues!</p>
 
 <article id="whatismagento">
     <h3>What is Magento Commerce?</h3>

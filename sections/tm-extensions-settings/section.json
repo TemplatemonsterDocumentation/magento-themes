@@ -29,103 +29,75 @@
 			}
 		},		
 		{
-			"id":"ajax-compare",
+			"id":"blog",
 			"translations":{
-				"en":"Ajax Compare",
-				"ru":"Ajax Compare",
-				"tr":"Ajax Compare",
-				"de":"Ajax Compare",
-				"es":"Ajax Compare",
-				"fr":"Ajax Compare",
-				"it":"Ajax Compare",
-				"pl":"Ajax Compare",
-				"pt":"Ajax Compare"
-			}
-		},		
-		{
-			"id":"ajax-catalog",
-			"translations":{
-				"en":"Ajax Catalog",
-				"ru":"Ajax Catalog",
-				"tr":"Ajax Catalog",
-				"de":"Ajax Catalog",
-				"es":"Ajax Catalog",
-				"fr":"Ajax Catalog",
-				"it":"Ajax Catalog",
-				"pl":"Ajax Catalog",
-				"pt":"Ajax Catalog"
-			}
-		},		
-		{
-			"id":"megamenu",
-			"translations":{
-				"en":"Megamenu",
-				"ru":"Megamenu",
-				"tr":"Megamenu",
-				"de":"Megamenu",
-				"es":"Megamenu",
-				"fr":"Megamenu",
-				"it":"Megamenu",
-				"pl":"Megamenu",
-				"pt":"Megamenu"
+				"en":"Blog",
+				"ru":"Blog",
+				"tr":"Blog",
+				"de":"Blog",
+				"es":"Blog",
+				"fr":"Blog",
+				"it":"Blog",
+				"pl":"Blog",
+				"pt":"Blog"
 			}
 		},
 		{
-			"id":"facebook-feed",
+			"id":"ajax-catalog",
 			"translations":{
-				"en":"Facebook plugin",
-				"ru":"Facebook plugin",
-				"tr":"Facebook plugin",
-				"de":"Facebook plugin",
-				"es":"Facebook plugin",
-				"fr":"Facebook plugin",
-				"it":"Facebook plugin",
-				"pl":"Facebook plugin",
-				"pt":"Facebook plugin"
+				"en":"Catalog Ajax",
+				"ru":"Catalog Ajax",
+				"tr":"Catalog Ajax",
+				"de":"Catalog Ajax",
+				"es":"Catalog Ajax",
+				"fr":"Catalog Ajax",
+				"it":"Catalog Ajax",
+				"pl":"Catalog Ajax",
+				"pt":"Catalog Ajax"
 			}
-		},  
+		},
 		{
-			"id":"twitter-feed",
+			"id":"catalog-images",
 			"translations":{
-				"en":"Twitter Feed",
-				"ru":"Twitter Feed",
-				"tr":"Twitter Feed",
-				"de":"Twitter Feed",
-				"es":"Twitter Feed",
-				"fr":"Twitter Feed",
-				"it":"Twitter Feed",
-				"pl":"Twitter Feed",
-				"pt":"Twitter Feed"
-			}
-		},		
-		{
-			"id":"theme-options",
-			"translations":{
-				"en":"Theme Options",
-				"ru":"Theme Options",
-				"tr":"Theme Options",
-				"de":"Theme Options",
-				"es":"Theme Options",
-				"fr":"Theme Options",
-				"it":"Theme Options",
-				"pl":"Theme Options",
-				"pt":"Theme Options"
+				"en":"Catalog Images Grid",
+				"ru":"Catalog Images Grid",
+				"tr":"Catalog Images Grid",
+				"de":"Catalog Images Grid",
+				"es":"Catalog Images Grid",
+				"fr":"Catalog Images Grid",
+				"it":"Catalog Images Grid",
+				"pl":"Catalog Images Grid",
+				"pt":"Catalog Images Grid"
 			}
 		},		
 		{
 			"id":"ajax-search",
 			"translations":{
-				"en":"Ajax Search",
-				"ru":"Ajax Search",
-				"tr":"Ajax Search",
-				"de":"Ajax Search",
-				"es":"Ajax Search",
-				"fr":"Ajax Search",
-				"it":"Ajax Search",
-				"pl":"Ajax Search",
-				"pt":"Ajax Search"
+				"en":"Catalog Search Ajax",
+				"ru":"Catalog Search Ajax",
+				"tr":"Catalog Search Ajax",
+				"de":"Catalog Search Ajax",
+				"es":"Catalog Search Ajax",
+				"fr":"Catalog Search Ajax",
+				"it":"Catalog Search Ajax",
+				"pl":"Catalog Search Ajax",
+				"pt":"Catalog Search Ajax"
 			}
-		},		
+		},
+		{
+			"id":"featured-products",
+			"translations":{
+				"en":"Featured Products",
+				"ru":"Featured Products",
+				"tr":"Featured Products",
+				"de":"Featured Products",
+				"es":"Featured Products",
+				"fr":"Featured Products",
+				"it":"Featured Products",
+				"pl":"Featured Products",
+				"pt":"Featured Products"
+			}
+		},	
 		{
 			"id":"film-slider",
 			"translations":{
@@ -138,6 +110,48 @@
 				"it":"Film Slider",
 				"pl":"Film Slider",
 				"pt":"Film Slider"
+			}
+		},
+		{
+			"id":"googlemap",
+			"translations":{
+				"en":"GoogleMap",
+				"ru":"GoogleMap",
+				"tr":"GoogleMap",
+				"de":"GoogleMap",
+				"es":"GoogleMap",
+				"fr":"GoogleMap",
+				"it":"GoogleMap",
+				"pl":"GoogleMap",
+				"pt":"GoogleMap"
+			}
+		},
+		{
+			"id":"layout-swicher",
+			"translations":{
+				"en":"Layout Swicher",
+				"ru":"Layout Swicher",
+				"tr":"Layout Swicher",
+				"de":"Layout Swicher",
+				"es":"Layout Swicher",
+				"fr":"Layout Swicher",
+				"it":"Layout Swicher",
+				"pl":"Layout Swicher",
+				"pt":"Layout Swicher"
+			}
+		},
+		{
+			"id":"megamenu",
+			"translations":{
+				"en":"Megamenu",
+				"ru":"Megamenu",
+				"tr":"Megamenu",
+				"de":"Megamenu",
+				"es":"Megamenu",
+				"fr":"Megamenu",
+				"it":"Megamenu",
+				"pl":"Megamenu",
+				"pt":"Megamenu"
 			}
 		},		
 		{
@@ -153,33 +167,75 @@
 				"pl":"Newsletter Pop-up",
 				"pt":"Newsletter Pop-up"
 			}
-		},		
+		},
+		{
+			"id":"parallax",
+			"translations":{
+				"en":"Parallax",
+				"ru":"Parallax",
+				"tr":"Parallax",
+				"de":"Parallax",
+				"es":"Parallax",
+				"fr":"Parallax",
+				"it":"Parallax",
+				"pl":"Parallax",
+				"pt":"Parallax"
+			}
+		},
+		{
+			"id":"ajax-compare",
+			"translations":{
+				"en":"Product Ajax Compare",
+				"ru":"Product Ajax Compare",
+				"tr":"Product Ajax Compare",
+				"de":"Product Ajax Compare",
+				"es":"Product Ajax Compare",
+				"fr":"Product Ajax Compare",
+				"it":"Product Ajax Compare",
+				"pl":"Product Ajax Compare",
+				"pt":"Product Ajax Compare"
+			}
+		},
+		{
+			"id":"social-login",
+			"translations":{
+				"en":"Social Login",
+				"ru":"Social Login",
+				"tr":"Social Login",
+				"de":"Social Login",
+				"es":"Social Login",
+				"fr":"Social Login",
+				"it":"Social Login",
+				"pl":"Social Login",
+				"pt":"Social Login"
+			}
+		},
 		{
 			"id":"timer",
 			"translations":{
-				"en":"Countdown timer",
-				"ru":"Countdown timer",
-				"tr":"Countdown timer",
-				"de":"Countdown timer",
-				"es":"Countdown timer",
-				"fr":"Countdown timer",
-				"it":"Countdown timer",
-				"pl":"Countdown timer",
-				"pt":"Countdown timer"
+				"en":"Special Price Timer",
+				"ru":"Special Price Timer",
+				"tr":"Special Price Timer",
+				"de":"Special Price Timer",
+				"es":"Special Price Timer",
+				"fr":"Special Price Timer",
+				"it":"Special Price Timer",
+				"pl":"Special Price Timer",
+				"pt":"Special Price Timer"
 			}
-		},		
+		},
 		{
-			"id":"googlemap",
+			"id":"theme-options",
 			"translations":{
-				"en":"Google map",
-				"ru":"Google map",
-				"tr":"Google map",
-				"de":"Google map",
-				"es":"Google map",
-				"fr":"Google map",
-				"it":"Google map",
-				"pl":"Google map",
-				"pt":"Google map"
+				"en":"Theme Options",
+				"ru":"Theme Options",
+				"tr":"Theme Options",
+				"de":"Theme Options",
+				"es":"Theme Options",
+				"fr":"Theme Options",
+				"it":"Theme Options",
+				"pl":"Theme Options",
+				"pt":"Theme Options"
 			}
 		}
 	]
