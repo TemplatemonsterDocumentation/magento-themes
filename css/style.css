@@ -3961,7 +3961,7 @@ blockquote {
     left: 0;
     right: 0;
     height: 112px;
-    background: #32d0b1;
+    background: #fd5397;
     padding: 20px 24px;
     text-align: left;
     -moz-box-sizing: border-box;
@@ -4085,7 +4085,7 @@ blockquote {
 }
 
 .rd-mobilemenu_ul ul a.focus {
-    color: #32d0b1
+    color: #fd5397
 }
 
 .rd-mobilemenu_ul ul ul a {
@@ -4118,7 +4118,7 @@ blockquote {
     left: 0;
     right: 0;
     height: 76px;
-    background: #32d0b1;
+    background: #fd5397;
     color: #FFF;
     z-index: 9997
 }
@@ -4341,7 +4341,7 @@ body.navbar-fixed {
     transition: transform 0.3s ease;
     padding-top: 123px;
     padding-bottom: 69px;
-    background: #32d0b1
+    background: #fd5397
 }
 
 .stuck .container {
@@ -4684,7 +4684,7 @@ body.navbar-fixed {
     font-size: 24px;
     line-height: 52px;
     color: #fff;
-    background: #32d0b1;
+    background: #fd5397;
     border-radius: 50%;
     -webkit-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15);
@@ -4709,7 +4709,7 @@ body.navbar-fixed {
 
 .toTop:hover {
     color: #fff;
-    background: #32d0b1;
+    background: #fd5397;
     text-decoration: none
 }
 
@@ -4988,7 +4988,7 @@ body.navbar-fixed {
 
 .owl-dots .owl-dot:hover,
 .owl-dots .owl-dot.active {
-    background: #32d0b1
+    background: #fd5397
 }
 
 .owl-dots .owl-dot+.owl-dot {
@@ -4996,7 +4996,7 @@ body.navbar-fixed {
 }
 
 header {
-    background: #32d0b1;
+    background: #fd5397;
     color: #ffffff
 }
 
