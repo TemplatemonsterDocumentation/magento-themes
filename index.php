@@ -105,7 +105,9 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
         <div class="rd-mobilepanel">
             <h1 class="rd-mobilepanel_title">
                 <span><?php echo $product_name; ?></span> <?php echo $product_desc; ?>
+
             </h1>
+            <img src="img/header-bg.png" alt="">
         </div>
         <div class="page">
             <!--========================================================

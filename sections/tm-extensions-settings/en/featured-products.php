@@ -33,14 +33,19 @@
         <td>enable/disable carousel (If carousel is enabled a new field will come up);.</td>
     </tr>
     <tr>
-        <td class="col-1"><strong>Number of products to Display </strong></td>
+        <td class="col-1"><strong>Number of products to Display/Products per row  </strong></td>
         <td>-</td>
-        <td>number of products to display in carousel.</td>
+        <td>number of products to display in carousel/pecify the number of products per row</td>
     </tr>
     <tr>
-        <td class="col-1"><strong>Products per row </strong></td>
+        <td class="col-1"><strong>Css class</strong></td>
         <td>-</td>
-        <td>specify the number of products per row.</td>
+        <td>Css class for widget instance. If you want align all elements in the center, you need add class "<strong>products-center</strong>"</td>
+    </tr>
+    <tr>
+        <td class="col-1"><strong>Product Name length</strong></td>
+        <td>-</td>
+        <td>Set the product name length in widget instance</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Cache Lifetime (Seconds) </strong></td>

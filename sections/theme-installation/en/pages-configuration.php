@@ -1,9 +1,9 @@
 <h3>Pages configuration</h3>
 <p>In order to make your template look exactly like our Live Demo, you need to set up store pages in a specific way. We provide all the files with the pages source code. You need to add them into Magento admin panel as per the instructions below using the settings table. Settings table is located on the <strong>Technical details</strong> page on the template preview page. The documentation file contains the link to this page:</p>
 <ul class="files_structure">
-	<li class="folder"><i class="fa fa-folder-open"></i> <strong>Documentation</strong>
+	<li class="folder last-example"><i class="fa fa-folder-open"></i> <strong>Documentation</strong>
 		<ul>
-			<li class="file"><i class="fa fa-file"></i> documentation.html</li>
+			<li class="file last-example"><i class="fa fa-file"></i> documentation.html</li>
 		</ul>
 	</li>
 </ul>			

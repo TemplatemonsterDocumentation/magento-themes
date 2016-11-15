@@ -17,16 +17,6 @@
 <p>Top scores in all of the most popular page analysis tools, like GTMetrix. Our code was carefully put together by some of the brightest Magento 2 developers and scanned for any errors, to make sure that your store doesn’t experience any downtime.</p>
 <p>Excited? Let’s go, onward to sales and overflowing order queues!</p>
 
-<article id="whatismagento">
-    <h3>What is Magento Commerce?</h3>
-    <p>Magento is a feature-rich eCommerce platform built with open-source technology. It provides flexibility and control over the look, content and functionality of the eCommerce store. Magento’s intuitive administration interface features powerful marketing, search engine optimization and catalog-management tools to give merchants the power to create sites that are tailored to their unique business needs. Designed to be completely scalable and backed by Varien's support network, Magento offers companies the ultimate eCommerce solution. <a href="http://www.magentocommerce.com/download" target="_blank">More information</a></p>
-</article>
-
-<article id="whatismagentotheme">
-    <h3>What is a Magento theme?</h3>
-    <p>Magento theme is a complete design for your online store based on Magento engine. In other words, you can easily change your Magento shop appearance by installing a new theme in a few easy steps. With all of its simplicity a Magento theme is provided with all the necessary source files that you can edit or extend the way you need.</p>
-</article>
-
 <article id="file_structure">
     <h4>Magento files structure</h4>
 
@@ -39,7 +29,7 @@
                 <dd> contains documentation files.</dd>
             </dl>
             <ul>
-                <li>
+                <li class="last-example">
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
@@ -77,7 +67,7 @@
                         </dd>
                     </dl>
                 </li>
-                <li>
+                <li class="last-example">
                     <dl class="inline-term">
                         <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
                         <dd>
@@ -93,7 +83,7 @@
                                 </dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="last-example">
                             <dl class="inline-term">
                                 <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
                                 <dd>
@@ -129,7 +119,7 @@
                 <dd> contains the links where the template custom fonts can be downloaded.</dd>
             </dl>            
         </li>
-        <li>
+        <li class="last-example">
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
                 <dd> contains instructions on how to extract source files.</dd>

@@ -69,6 +69,21 @@
 				"pl":"Konfiguracja bloków statycznych",
 				"pt":"Configurar bloco estático"
 			}
+		},
+		{
+			"id":"layout-configuration",
+			"translations":{
+				"en":"Layout Configuration",
+				"ru":"Layout Configuration",
+				"tr":"Layout Configuration",
+				"de":"Layout Configuration",
+				"es":"Layout Configuration",
+				"fr":"Layout Configuration",
+				"it":"Layout Configuration",
+				"pl":"Layout Configuration",
+				"pt":"Layout Configuration"
+			}
 		}			
 	]
 }
+
