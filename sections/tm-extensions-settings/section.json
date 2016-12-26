@@ -127,6 +127,20 @@
 			}
 		},
 		{
+			"id":"image-zoom",
+			"translations":{
+				"en":"Image Zoom",
+				"ru":"Image Zoom",
+				"tr":"Image Zoom",
+				"de":"Image Zoom",
+				"es":"Image Zoom",
+				"fr":"Image Zoom",
+				"it":"Image Zoom",
+				"pl":"Image Zoom",
+				"pt":"Image Zoom"
+			}
+		},
+		{
 			"id":"layout-swicher",
 			"translations":{
 				"en":"Layout Swicher",
@@ -197,6 +211,34 @@
 			}
 		},
 		{
+			"id":"site-maintenance",
+			"translations":{
+				"en":"Site Maintenance",
+				"ru":"Site Maintenance",
+				"tr":"Site Maintenance",
+				"de":"Site Maintenance",
+				"es":"Site Maintenance",
+				"fr":"Site Maintenance",
+				"it":"Site Maintenance",
+				"pl":"Site Maintenance",
+				"pt":"Site Maintenance"
+			}
+		},
+		{
+			"id":"smart-product-labels",
+			"translations":{
+				"en":"Smart Product Labels",
+				"ru":"Smart Product Labels",
+				"tr":"Smart Product Labels",
+				"de":"Smart Product Labels",
+				"es":"Smart Product Labels",
+				"fr":"Smart Product Labels",
+				"it":"Smart Product Labels",
+				"pl":"Smart Product Labels",
+				"pt":"Smart Product Labels"
+			}
+		},
+		{
 			"id":"social-login",
 			"translations":{
 				"en":"Social Login",
@@ -208,6 +250,20 @@
 				"it":"Social Login",
 				"pl":"Social Login",
 				"pt":"Social Login"
+			}
+		},
+		{
+			"id":"social-sharing",
+			"translations":{
+				"en":"Social Sharing",
+				"ru":"Social Sharing",
+				"tr":"Social Sharing",
+				"de":"Social Sharing",
+				"es":"Social Sharing",
+				"fr":"Social Sharing",
+				"it":"Social Sharing",
+				"pl":"Social Sharing",
+				"pt":"Social Sharing"
 			}
 		},
 		{
