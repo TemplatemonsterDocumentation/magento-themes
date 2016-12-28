@@ -1,5 +1,5 @@
  <h2 class="item1">Smart Product Labels</h2>
- <p class="indent">TemplateMonster <strong>Smart Product Labels</strong> module expands standard Magento menu functionalities and allows you to make labels appear automatically according to configured rules.</p>
+ <p class="indent">TemplateMonster <strong>Smart Product Labels</strong> module allows you to make labels appear automatically according to configured rules.</p>
 <p>In order to customize the module, click the <strong>Stores -> Settings -> Configuration</strong>.</p> 
 
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-1.png" alt="" /></figure>  
@@ -18,7 +18,7 @@ In Display Settings, specify containers for product and category pages — <stro
 </li>
 </ul>
 
-<p><strong>Product Page Label Container</strong> is responsible for displaying the lable on the PRODUCT PAGE by the certain container. You need to type the class of the chosen container in the <strong>Product Page Label Container</strong> field (e.g. product-item-info, product-item-photo or product-image-container). To find out what container class you ought to write open your store product page in the browser and right-click the the product image. Select <strong>Inspect</strong> in the context menu.</p>
+<p><strong>Product Page Label Container</strong> is responsible for displaying the label on the PRODUCT PAGE by the certain container. You need to type the class of the chosen container in the <strong>Product Page Label Container</strong> field (e.g. product-item-info, product-item-photo or product-image-container). To find out what container class you ought to write open your store product page in the browser and right-click the the product image. Select <strong>Inspect</strong> in the context menu.</p>
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-5.png" alt="" /></figure>
 
 
@@ -36,7 +36,7 @@ In Display Settings, specify containers for product and category pages — <stro
     <p>E.g. you have the html-code:<p> div class="gallery-placeholder" data-gallery-role="gallery-placeholder" </p>
 </div>
 
-<p>Copy the <strong>gallery-placeholder</strong> and that will be your certain container which you want the lable should be displayed by. Paste the <strong>gallery-placeholder</strong> in the <strong>Product Page Label Container</strong> field.</p>
+<p>Copy the <strong>gallery-placeholder</strong> and that will be your certain container which you want the label should be displayed by. Paste the <strong>gallery-placeholder</strong> in the <strong>Product Page Label Container</strong> field.</p>
 
 <p>Do the same with the <strong>Category Page Label Container</strong> if you want label be shown in your shop product CATALOG PAGE.</p> 
 
@@ -55,8 +55,8 @@ In the Admin panel, go to  <strong>Content -> Smart Product Labels</strong>. Thi
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-10.png" alt="" /></figure>
 <div class="alert alert-info">
 <p><strong>Advise</strong></p>
-    You can delete or edite multiple labels. In order to do this check all the labels you need to edit or delete. Then, click the <strong>Actions</strong> button and choose the action (edit or delete). 
-<figure class="img-polaroid"><img src="img/magento/smart-product-labels-11.png" alt="" /></figure>
+    You can delete or edit multiple labels. In order to do this check all the labels you need to edit or delete. Then, click the <strong>Actions</strong> button and choose the action (edit or delete). 
+    <figure class="img-polaroid"><img src="img/magento/smart-product-labels-11.png" alt="" /></figure>
 </div>
 
 

@@ -40,9 +40,8 @@ As stated above, this section includes main module settings. You can enable or d
 		<p><strong>Show in footer</strong> option allows you to display a link in the site footer, to display the newsletter pop-up after clicking on it. Footer link text field changes the label for the link displayed in the footer after activating the Show in footer option.</p>
 		<figure class="img-polaroid"><img src="img/magento/new-9.jpg" alt="" /></figure>
 	</li>
-	<li>
-		Используя <strong>Pop-Up width</strong> option allows you to define the newsletter pop-up window width. Its size can be set in pixels only.
-		<figure class="img-polaroid"><img src="img/magento/new-7.jpg" alt="" /></figure>
+	<li><strong>Pop-Up width</strong> option allows you to define the newsletter pop-up window width. Its size can be set in pixels only.
+	  <figure class="img-polaroid"><img src="img/magento/new-7.jpg" alt="" /></figure>
 	</li>
 	<li>
 		The pop-up may not be displayed immediately, but after some certain time period. This setting is controlled by <strong>Pop-Up timeout</strong> option. You can set a delay before the newsletter pop-up appearance and it will not show up right away, but only after the time you have specified passes since the client visits your site.

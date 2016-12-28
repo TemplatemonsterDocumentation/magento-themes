@@ -35,7 +35,7 @@
     <tr>
         <td class="col-1"><strong>Number of products to Display/Products per row  </strong></td>
         <td>-</td>
-        <td>number of products to display in carousel/pecify the number of products per row</td>
+        <td>number of products to display in carousel/specify the number of products per row</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Css class</strong></td>

@@ -25,7 +25,7 @@
 	<li>Specify the widget type <strong>CMS Static Block</strong> and theme that you want to apply the widget to, then click <strong>Continue</strong> button.
 		<figure class="img-polaroid"><img src="img/magento/widget-2.jpg" alt="" /></figure>
 	</li>
-	<li>On the next page in the <strong>Widget Title</strong> field enter the name of the widget which will be displayed in the admin panel. In the <strong>Assign to Store Views</strong> field you need to select store views which will display the widget. In the <strong>Layout Updates</strong> block clik <strong>Add Layout Update</strong> button. In the <strong>Display On</strong> field you can select pages where widget will be displayed on. Depending on selected pages you will have opportunity to fill in the additional fields. 
+	<li>On the next page in the <strong>Widget Title</strong> field enter the name of the widget which will be displayed in the admin panel. In the <strong>Assign to Store Views</strong> field you need to select store views which will display the widget. In the <strong>Layout Updates</strong> block click <strong>Add Layout Update</strong> button. In the <strong>Display On</strong> field you can select pages where widget will be displayed on. Depending on selected pages you will have opportunity to fill in the additional fields. 
 		<figure class="img-polaroid"><img src="img/magento/widget-3.jpg" alt="" /></figure>
 	</li>
 	<li>In the left sidebar click <strong>Widget Options</strong> tab and select the static block you are referring to. Don't forget to save changes. 

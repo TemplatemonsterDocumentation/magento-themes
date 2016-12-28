@@ -64,7 +64,7 @@
 <table class="options-table">
     <tr>
         <td class="col-1"><strong>Responsive</strong></td><td>-</td>
-        <td>Set to true to activate responsivenes.</td>
+        <td>Set to true to activate responsiveness.</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Scroll zoom</strong></td><td>-</td>

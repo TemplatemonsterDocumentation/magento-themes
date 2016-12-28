@@ -17,7 +17,7 @@
 		{
 			"id":"ajax-whishlist",
 			"translations":{
-				"en":"Ajax Whishlist",
+				"en":"Ajax Wishlist",
 				"ru":"Ajax Whishlist",
 				"tr":"Ajax Whishlist",
 				"de":"Ajax Whishlist",
@@ -143,7 +143,7 @@
 		{
 			"id":"layout-swicher",
 			"translations":{
-				"en":"Layout Swicher",
+				"en":"Layout Switcher",
 				"ru":"Layout Swicher",
 				"tr":"Layout Swicher",
 				"de":"Layout Swicher",

@@ -94,7 +94,7 @@
 		<td>custom image filename (with the extension specified), if you need to replace the default marker with your own one, e.g., marker.png. You should upload the image to the <strong>pub/media/googlemap/</strong> folder of your Magento installation.</td>
 	</tr>
 	<tr>
-		<td class="col-1"><strong>Сoordinates</strong></td>
+		<td class="col-1"><strong>Coordinates</strong></td>
 		<td>-</td>
 		<td>sets the marker coordinates.</td>
 	</tr>

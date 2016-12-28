@@ -121,7 +121,7 @@
     <tr>
         <td class="col-1"><strong>Background attachment</strong></td>
         <td>-</td>
-        <td>Body background image attachment: Scroll (scrol with content), Fixed (no scroll with content)</td>
+        <td>Body background image attachment: Scroll (scroll with content), Fixed (no scroll with content)</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Header background color</strong></td>
@@ -131,7 +131,7 @@
     <tr>
         <td class="col-1"><strong>Footer background color</strong></td>
         <td>-</td>
-        <td>hoose color for your footer</td>
+        <td>choose color for your footer</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Footer background image</strong></td>
@@ -176,7 +176,7 @@
     <tr>
         <td class="col-1"><strong>Background attachment</strong></td>
         <td>-</td>
-        <td>Body background image attachment: Scroll (scrol with content), Fixed (no scroll with content)</td>
+        <td>Body background image attachment: Scroll (scroll with content), Fixed (no scroll with content)</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Primary font color</strong></td>
@@ -433,7 +433,7 @@
 
 
 <h3>Header</h3>
-<p>In Header teb you have two sections: General, Social links</p>
+<p>In Header tab you have two sections: General, Social links</p>
 <figure class="img-polaroid"><img src="img/magento/to-12.jpg" alt="parallax" /></figure>
 <h4>General</h4>
 <figure class="img-polaroid"><img src="img/magento/to-13.jpg" alt="parallax" /></figure>
@@ -466,7 +466,7 @@
 <p>For adding URL with image, you need add social url, width of icon, alternative text to image and upload image</p>
 <figure class="img-polaroid"><img src="img/magento/to-15.jpg" alt="parallax" /></figure>
 <h5>Font Icon</h5>
-<p>For adding URL with FontIcon, you need add icon CSS Classs, social url, set font size and line height </p>
+<p>For adding URL with FontIcon, you need add icon CSS Class, social url, set font size and line height </p>
 <figure class="img-polaroid"><img src="img/magento/to-16.jpg" alt="parallax" /></figure>
 
 <h3>Footer</h3>
@@ -476,7 +476,7 @@
 <p>For adding URL with image, you need add social url, width of icon, alternative text to image and upload image</p>
 <figure class="img-polaroid"><img src="img/magento/to-18.jpg" alt="parallax" /></figure>
 <h5>Font Icon</h5>
-<p>For adding URL with FontIcon, you need add icon CSS Classs, social url, set font size and line height </p>
+<p>For adding URL with FontIcon, you need add icon CSS Class, social url, set font size and line height </p>
 <figure class="img-polaroid"><img src="img/magento/to-19.jpg" alt="parallax" /></figure>
 
 <h3>Sidebar</h3>
