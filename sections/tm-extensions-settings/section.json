@@ -1,0 +1,229 @@
+{
+	"id":"tm-extensions-settings",
+	"translations":
+	{
+		"en":"TM extensions settings",
+		"ru":"Настройка расширений TM",
+		"tr":"TM Eklenti Ayarları",
+		"de":"Einstellung der TM Erweiterungen",
+		"es":"TM Ajustes de Extensiones",
+		"fr":"Paramètres des Extensions TM",
+		"it":"Impostazioni delle estensioni TM",
+		"pl":"Ustawienia Rozszerzeń TM",
+		"pt":"TM Extensions Settings"
+	},
+	"articles":
+	[		
+		{
+			"id":"ajax-whishlist",
+			"translations":{
+				"en":"Ajax Wishlist",
+				"ru":"Ajax Wishlist",
+				"tr":"Ajax Wishlist",
+				"de":"Ajax Wishlist",
+				"es":"Ajax Wishlist",
+				"fr":"Ajax Wishlist",
+				"it":"Ajax Wishlist",
+				"pl":"Ajax Wishlist",
+				"pt":"Ajax Wishlist"
+			}
+		},		
+		{
+			"id":"ajax-compare",
+			"translations":{
+				"en":"Ajax Compare",
+				"ru":"Ajax Compare",
+				"tr":"Ajax Compare",
+				"de":"Ajax Compare",
+				"es":"Ajax Compare",
+				"fr":"Ajax Compare",
+				"it":"Ajax Compare",
+				"pl":"Ajax Compare",
+				"pt":"Ajax Compare"
+			}
+		},		
+		{
+			"id":"ajax-catalog",
+			"translations":{
+				"en":"Ajax Catalog",
+				"ru":"Ajax Catalog",
+				"tr":"Ajax Catalog",
+				"de":"Ajax Catalog",
+				"es":"Ajax Catalog",
+				"fr":"Ajax Catalog",
+				"it":"Ajax Catalog",
+				"pl":"Ajax Catalog",
+				"pt":"Ajax Catalog"
+			}
+		},		
+		{
+			"id":"megamenu",
+			"translations":{
+				"en":"Mega Menu",
+				"ru":"Mega Menu",
+				"tr":"Mega Menu",
+				"de":"Mega Menu",
+				"es":"Mega menu",
+				"fr":"Mega Menu",
+				"it":"Mega Menu",
+				"pl":"Mega Menu",
+				"pt":"Mega Menu"
+			}
+		},
+		{
+			"id":"facebook-feed",
+			"translations":{
+				"en":"Facebook plugin",
+				"ru":"Facebook plugin",
+				"tr":"Facebook plugin",
+				"de":"Facebook plugin",
+				"es":"Facebook plugin",
+				"fr":"Facebook plugin",
+				"it":"Facebook plugin",
+				"pl":"Facebook plugin",
+				"pt":"Facebook plugin"
+			}
+		},  
+		{
+			"id":"twitter-feed",
+			"translations":{
+				"en":"Twitter Feed",
+				"ru":"Twitter Feed",
+				"tr":"Twitter Feed",
+				"de":"Twitter Feed",
+				"es":"Twitter Feed",
+				"fr":"Twitter Feed",
+				"it":"Twitter Feed",
+				"pl":"Twitter Feed",
+				"pt":"Twitter Feed"
+			}
+		},		
+		{
+			"id":"theme-options",
+			"translations":{
+				"en":"Theme Options",
+				"ru":"Theme Options",
+				"tr":"Theme Options",
+				"de":"Theme Options",
+				"es":"Theme Options",
+				"fr":"Theme Options",
+				"it":"Theme Options",
+				"pl":"Theme Options",
+				"pt":"Theme Options"
+			}
+		},		
+		{
+			"id":"ajax-search",
+			"translations":{
+				"en":"Ajax Search",
+				"ru":"Ajax Search",
+				"tr":"Ajax Search",
+				"de":"Ajax Search",
+				"es":"Ajax Search",
+				"fr":"Ajax Search",
+				"it":"Ajax Search",
+				"pl":"Ajax Search",
+				"pt":"Ajax Search"
+			}
+		},		
+		{
+			"id":"film-slider",
+			"translations":{
+				"en":"Film Slider",
+				"ru":"Film Slider",
+				"tr":"Film Slider",
+				"de":"Film Slider",
+				"es":"Film Slider",
+				"fr":"Film Slider",
+				"it":"Film Slider",
+				"pl":"Film Slider",
+				"pt":"Film Slider"
+			}
+		},		
+		{
+			"id":"newsletter",
+			"translations":{
+				"en":"Newsletter Pop-up",
+				"ru":"Newsletter Pop-up",
+				"tr":"Newsletter Pop-up",
+				"de":"Newsletter Pop-up",
+				"es":"Newsletter Pop-up",
+				"fr":"Newsletter Pop-up",
+				"it":"Newsletter Pop-up",
+				"pl":"Newsletter Pop-up",
+				"pt":"Newsletter Pop-up"
+			}
+		},	
+		{
+			"id":"shop-by-brand",
+			"translations":{
+				"en":"Shop By Brand",
+				"ru":"Shop By Brand",
+				"tr":"Shop By Brand",
+				"de":"Shop By Brande,
+				"es":"Shop By Brand",
+				"fr":"Shop By Brand",
+				"it":"Shop By Brande",
+				"pl":"Shop By Brand",
+				"pt":"Shop By Brand"
+			}
+
+		},
+		{
+			"id":"parallax",
+			"translations":{
+				"en":"Parallax and Video Background",
+				"ru":"Parallax and Video Background",
+				"tr":"Parallax and Video Background",
+				"de":"Parallax and Video Background",
+				"es":"Parallax and Video Background",
+				"fr":"Parallax and Video Background",
+				"it":"Parallax and Video Background",
+				"pl":"Parallax and Video Background,
+				"pt":"Parallax and Video Background
+			}
+		},		
+		{
+			"id":"labels",
+			"translations":{
+				"en":"Smart Product Labels",
+				"ru":"Smart Product Labels",
+				"tr":"Smart Product Labels",
+				"de":"Smart Product Labels",
+				"es":"Smart Product Labels",
+				"fr":"Smart Product Labels",
+				"it":"Smart Product Labels",
+				"pl":"Smart Product Labels",
+				"pt":"Smart Product Labels"
+			}
+		},					
+		{
+			"id":"timer",
+			"translations":{
+				"en":"Countdown timer",
+				"ru":"Countdown timer",
+				"tr":"Countdown timer",
+				"de":"Countdown timer",
+				"es":"Countdown timer",
+				"fr":"Countdown timer",
+				"it":"Countdown timer",
+				"pl":"Countdown timer",
+				"pt":"Countdown timer"
+			}
+		},		
+		{
+			"id":"googlemap",
+			"translations":{
+				"en":"Google map",
+				"ru":"Google map",
+				"tr":"Google map",
+				"de":"Google map",
+				"es":"Google map",
+				"fr":"Google map",
+				"it":"Google map",
+				"pl":"Google map",
+				"pt":"Google map"
+			}
+		}
+	]
+}

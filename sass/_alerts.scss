@@ -1,0 +1,32 @@
+.alert {
+  position: relative;
+  border-left: transparent 8px solid;
+  margin: 50px 0;
+  padding: 30px;
+  background: #FFF;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  line-height: 34px;
+
+  &.alert-success {
+    border-color: #189479;
+    color: #189479;
+  }
+  &.alert-info {
+    border-color: #177196;
+    color: #177196;
+  }
+  &.alert-warning {
+    border-color: #FFB22D;
+    color: #FF9100;
+  }
+  &.alert-danger {
+    border-color: #ef3f23;
+    color: #ef3f23;
+  }
+
+  @media (max-width: 479px) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
