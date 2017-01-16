@@ -4,7 +4,7 @@ $path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 // Variables
 $product_name = "Magento";
-$product_desc = "documentation v2-0";
+$product_desc = "documentation v2-1";
 $doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';

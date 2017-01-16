@@ -1,6 +1,8 @@
 <h3>Product Image Zoom</h3>
 <p class="indent">This module allows changing standard Image zoom on product page.<br>
 You can enable/disable the module via Magento Admin Panel in <strong>System > Configuration > Templatemonster > Product Image Zoom</strong> section.</p>
+<div class="alert alert-warning"><span>Attention! The  PRODUCT IMAGE ZOOM module does not support the product image switching, when clicking a swatch. <br>
+If you want the option to function properly, you have to use a default  module only.</span></div>
 <figure class="img-polaroid"><img src="img/magento/product-image-zoom.png" alt="" /></figure>
 <p>The module has the following settings:</p>
 <table class="options-table">
