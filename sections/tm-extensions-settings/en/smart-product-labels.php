@@ -80,6 +80,7 @@ In <strong>GENERAL</strong>, you specify such core label information as <strong>
 
 
 <div class="alert alert-info">
+
     <p><strong>Advise</strong></p>
     You can utilize following variables in the label texts:
 <ul class="marked-list">
@@ -105,11 +106,13 @@ amount of days.
 </li>
 <li><strong>{BR}</strong> — new line. The extension automatically breaks messages into several lines if they are
 too long. If you need to display some word or phrase in a separate line, please use {BR}
-variable.</li>     
+variable.</li> 
+</ul>    
+
 </div>
    
 
-You are able to select background image for <strong>text</strong> label. Then, customize <strong>Front size</strong> (e.g. 12px, 15px, etc) and <strong>Front color</strong>, <strong>Text position</strong> (Right, Left, Center).
+You are able to select background image for <strong>text</strong> label. Then, customize <strong>Font size</strong> (e.g. 12pt, 15pt, etc) and <strong>Font color</strong>, <strong>Text position</strong> (Right, Left, Center).
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-15.png" alt="" /></figure>
 
 
