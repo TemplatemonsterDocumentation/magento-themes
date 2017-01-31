@@ -1,7 +1,7 @@
 <h2 class="item1">Layout Switcher</h2>
 <p>Using this module you can change the layout of: header, footer, layout product grid listing and product page listing</p>
 <h3>General</h3>
-<p>To activate the module, navigate to <strong>Store -> Configuration ->  Templatemonster-> Parallax tab</strong>. Here you’ll find option to enable module.</p>
+<p>To activate the module, navigate to <strong>Store -> Configuration ->  Templatemonster-> Layout switcher</strong>. Here you’ll find option to enable module.</p>
 <figure class="img-polaroid"><img src="img/magento/layout-swicher.jpg" alt="Layout Switcher" /></figure>
 <table  class="options-table">
     <tr>
