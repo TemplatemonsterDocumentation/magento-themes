@@ -29,20 +29,6 @@
 			}
 		},		
 		{
-			"id":"import-database",
-			"translations":{
-				"en":"Sample data import",
-				"ru":"Импортирование демонстрационных данных",
-				"tr":"İçeri Örnek Veri Aktarma",
-				"de":"Import der Demodaten",
-				"es":"Importar los datos de ejemplo",
-				"fr":"Importation de données d'exemple",
-				"it":"Importazione Dati Campione",
-				"pl":"Import przykładowych danych",
-				"pt":"Importar dados de amostra"
-			}
-		},
-		{
 			"id":"uploading",
 			"translations":{
 				"en":"Uploading and unzipping",
@@ -69,6 +55,6 @@
 				"pl":"Instalacja silnika Magento",
 				"pt":"Instalar o Magento"
 			}
-		}		
+		}			
 	]
 }

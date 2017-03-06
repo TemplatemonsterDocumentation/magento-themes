@@ -18,14 +18,14 @@
 			"id":"ajax-whishlist",
 			"translations":{
 				"en":"Ajax Wishlist",
-				"ru":"Ajax Whishlist",
-				"tr":"Ajax Whishlist",
-				"de":"Ajax Whishlist",
-				"es":"Ajax Whishlist",
-				"fr":"Ajax Whishlist",
-				"it":"Ajax Whishlist",
-				"pl":"Ajax Whishlist",
-				"pt":"Ajax Whishlist"
+				"ru":"Ajax Wishlist",
+				"tr":"Ajax Wishlist",
+				"de":"Ajax Wishlist",
+				"es":"Ajax Wishlist",
+				"fr":"Ajax Wishlist",
+				"it":"Ajax Wishlist",
+				"pl":"Ajax Wishlist",
+				"pt":"Ajax Wishlist"
 			}
 		},		
 		{
@@ -157,15 +157,15 @@
 		{
 			"id":"megamenu",
 			"translations":{
-				"en":"Megamenu",
-				"ru":"Megamenu",
-				"tr":"Megamenu",
-				"de":"Megamenu",
-				"es":"Megamenu",
-				"fr":"Megamenu",
-				"it":"Megamenu",
-				"pl":"Megamenu",
-				"pt":"Megamenu"
+				"en":"MegaMenu",
+				"ru":"MegaMenu",
+				"tr":"MegaMenu",
+				"de":"MegaMenu",
+				"es":"MegaMenu",
+				"fr":"MegaMenu",
+				"it":"MegaMenu",
+				"pl":"MegaMenu",
+				"pt":"MegaMenu"
 			}
 		},		
 		{

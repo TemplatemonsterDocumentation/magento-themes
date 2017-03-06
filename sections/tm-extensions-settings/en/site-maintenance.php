@@ -1,13 +1,14 @@
 <h2 class="item1">Site Maintenance</h2>
-<p>
+<p align="justify">
     The <strong>Site Maintenance</strong> module for Magento 2 allows you to display the “Site under maintenance” page and let your customers know that now there is some technical work going on and that the website will soon become available. <br>
         With the help of this plugin, you can change the appearance of this page. You can whitelist IPs, which allows users gain access to the frontend. You can specify the end time of the service work and display a timer to let your clients know the timing of this work. The module allows you display a subscription form for this page, and in the end of the work you can send e-mail notifications to your clients.
 </p>
 <h3>General</h3>
-To set up the module, navigate to <strong>Stores -> Configuration</strong> and in the section on the right select <strong>Templatemonster -> Site maintenance</strong>. <br>
-You’ll find three sections there:
+<div align="justify">To set up the module, navigate to <strong>Stores > Configuration</strong> and in the section on the right select <strong>Templatemonster > Site maintenance</strong>. <br>
+  You’ll find three sections there:
+</div>
 <ul class="marked-list">
-    <li>Page configuration;</li>
+<li>Page configuration;</li>
     <li>Timer section;</li>
     <li>Form settings.</li>
 </ul>
@@ -58,7 +59,7 @@ Let’s take a look at the available options:
         <td>the image that is displayed on the background of your page.</td>
     </tr>
     <tr>
-        <td class="col-2"><strong><a href="http://www.w3schools.com/cssref/pr_background-repeat.asp" target="_blank">Background Repeat</a></strong>, <strong><a href="http://www.w3schools.com/cssref/pr_background-position.asp" target="_blank">Background Position</a></strong>, <strong><a href="http://www.w3schools.com/cssref/css3_pr_background-size.asp" target="_blank">Background Size</a></strong>, <strong><a href="http://www.w3schools.com/cssref/pr_background-attachment.asp" target="_blank">Background Attachment</a></strong></td>
+        <td class="col-2"><div align="justify"><strong><a href="http://www.w3schools.com/cssref/pr_background-repeat.asp" target="_blank">Background Repeat</a></strong>, <strong><a href="http://www.w3schools.com/cssref/pr_background-position.asp" target="_blank">Background Position</a></strong>, <strong><a href="http://www.w3schools.com/cssref/css3_pr_background-size.asp" target="_blank">Background Size</a></strong>, <strong><a href="http://www.w3schools.com/cssref/pr_background-attachment.asp" target="_blank">Background Attachment</a></strong></div></td>
         <td>-</td>
         <td>css-properties for managing the background in the image form.</td>
     </tr>
@@ -71,7 +72,7 @@ Let’s take a look at the available options:
 
 <h3>Timer section</h3>
 This section is responsible for display and setup of the timer on the Maintenance page.
-<figure class="img-polaroid"><img src="img/magento/maintenance-3.jpg" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/magento/maintenance-10.jpg" alt="" /></figure>
 Let’s take a look at the options of this section.
 <table  class="options-table">
     <tr>
@@ -82,7 +83,7 @@ Let’s take a look at the options of this section.
     <tr>
         <td class="col-1"><strong>Timer Text</strong></td>
         <td>-</td>
-        <td>Allows to display text before the timer with the help of WYSIWYG-editor or html-code.</td>
+        <td>Allows you to display text before the timer with the help of WYSIWYG-editor or html-code.</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Date/Time</strong></td>
@@ -92,7 +93,7 @@ Let’s take a look at the options of this section.
     <tr>
         <td class="col-1"><strong>Timer Format</strong></td>
         <td>-</td>
-        <td>the field to format the timer output. The field takes html-code. You can find the more detailed information on formatting the timer output on the plugin <a href="http://hilios.github.io/jQuery.countdown/" target="_blank">official website</a>.</td>
+        <td><div align="justify">the field to format the timer output. The field takes html-code. You can find the more detailed information on formatting the timer output on the plugin <a href="http://hilios.github.io/jQuery.countdown/" target="_blank">official website</a>. 	%D days %H:%M:%S Y: years, J: months, n: days to month, w: weeks, d: days to week, D: total days, H: hours, M: minutes, S: seconds, h: total hours, m: total minutes, s: total seconds. HTML can be used here</div></td>
     </tr>           
 </table>
 

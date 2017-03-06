@@ -1,7 +1,7 @@
 <h2 class="item1">Social Sharing</h2>
-<p>This module allows you to display social icons that are set on the product page. In this way, it gives your site visitors an opportunity to share links to the products of your store in different social networks</p>
+<p align="justify">This module allows you to display social icons that are set on the product page. In this way, it gives your site visitors an opportunity to share links to the products of your store in different social networks</p>
 <h3>General</h3>
-<p>To set up the module, navigate to <strong>Store -> Configuration ->  Templatemonster-> Social Sharing tab</strong>. Here you’ll find all the settings that are necessary to set up the module.<br>There are 2 main options in this section.</p>
+<p align="justify">To set up the module, navigate to <strong>Store > Configuration >  Templatemonster > Social Sharing tab</strong>. Here you’ll find all the settings that are necessary to set up the module.<br>There are 2 main options in this section.</p>
 <figure class="img-polaroid"><img src="img/magento/sharing-2.jpg" alt="" /></figure>
 <table  class="options-table">
     <tr>
@@ -15,7 +15,7 @@
         <td>Addthis identifier.</td>
     </tr>    
 </table>
-<p>
+<p align="justify">
     To get the <strong>Profile Id</strong>, register at the <a target="_blank" href="https://www.addthis.com/">Addthis</a> website. After this, you need to create a project in your Dashboard. When creating a project, you’ll be redirected to the General settings, where you’ll see the ID field in General section. You should use this very identifier.
 </p>
 <figure class="img-polaroid"><img src="img/magento/sharing-3.jpg" alt="" /></figure>
@@ -28,7 +28,7 @@
 <figure class="img-polaroid"><img src="img/magento/sharing-5.jpg" alt="" /></figure>
 <p><strong>Custom button</strong> - select this option and specify the link to your image in the input field. When clicking the link, you’ll see a popup for selecting a sharing service.</p>
 <figure class="img-polaroid"><img src="img/magento/sharing-7.jpg" alt="" /></figure>
-<p>
+<p align="justify">
     <strong>Custom code</strong> - if you select this option, you can fully replace to display of the icons with a custom one. The field can take html and css code. If you need to add a custom Facebook, Twitter or other service’s icon, and want to make it work, you need to add a corresponding class to the link. For Facebook, this will be class="addthis_button_facebook", for Twitter - class="addthis_button_twitter", for a popup with selection of social networks - class="addthis_button_more".
 </p>
 <h3>Custom Metadata</h3>
@@ -77,12 +77,12 @@
     <tr>
         <td class="col-1"><strong>Compact Menu Services </strong></td>
         <td>-</td>
-        <td>services to use in the compact menu. For example, setting this to 'print,email,favorites' would result in only those three services appearing.</td>
+        <td>services to use in the compact menu. For example, setting this to 'print, email, favorites' would result in only those three services appearing.</td>
     </tr>  
     <tr>
         <td class="col-1"><strong>Expanded Menu Service </strong></td>
         <td>-</td>
-        <td>services to use in the expanded menu. Useful if very few services are desired - specifying a long list via services_exclude could be tiresome, and wouldn’t catch a new service added later. For example, setting this to 'bebo,misterwong,netvibes' would result in only those three services appearing in the expanded menu..</td>
+        <td><div align="justify">services to use in the expanded menu. Useful if very few services are desired - specifying a long list via services_exclude could be tiresome, and wouldn’t catch a new service added later. For example, setting this to 'bebo, misterwong, netvibes' would result in only those three services appearing in the expanded menu.</div></td>
     </tr>   
 
     <tr>
@@ -98,7 +98,7 @@
     <tr>
         <td class="col-1"><strong>Compact Menu Direction </strong></td>
         <td>-</td>
-        <td>normally, we show the compact menu in the direction of the user’s browser that has the most space. Change to customize the default behaviour.</td>
+        <td><div align="justify">normally, we show the compact menu in the direction of the user’s browser that has the most space. Change to customize the default behaviour.</div></td>
     </tr>
     <tr>
         <td class="col-1"><strong>New Window </strong></td>
@@ -128,7 +128,7 @@
     <tr>
         <td class="col-1"><strong>Track Clickbacks </strong></td>
         <td>-</td>
-        <td>turn on to allow us to append a variable to your URLs upon sharing. We’ll use this to track how many people come back to your content via links shared with AddThis.</td>
+        <td><div align="justify">turn on to allow us to append a variable to your URLs upon sharing. We’ll use this to track how many people come back to your content via links shared with AddThis.</div></td>
     </tr>
     <tr>
         <td class="col-1"><strong>Google Analytics Id </strong></td>

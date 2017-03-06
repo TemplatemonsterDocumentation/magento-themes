@@ -13,7 +13,7 @@
   <li>Disable all cache systems which you have in your Magento</li>
   <p class="alert alert-warning"><span>Important: when developing your Magento store, in order to be able to see changes immediately, you should completely disable the cache. You can enable it after you finish configuring your store.</span></p>
   <li>Disable Merge & Minify JavaScript Files in <strong>Stores > Configuration > Advanced > Developer > JavaScript Settings</strong> and Merge & Minify CSS Files in <strong>Stores > Configuration > Advanced > Developer > CSS Settings</strong>. You can enable this feature after installation.</strong>.</li>
-  <li>Copy the content of the archive (<strong>app</strong> folder) to the root folder of your online shop. After copying run the console and navigate to the root shop folder.</li>
+  <li>Copy the content of the archive [<strong>app</strong> folder] to the root folder of your online shop. After copying run the console and navigate to the root shop folder.</li>
 
 <div class="alert alert-danger">
     <p><strong>Attention!!!</strong></p>
