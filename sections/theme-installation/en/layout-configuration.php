@@ -666,7 +666,7 @@
 </table>
 <h4>Bike</h4>
 <h5><em>Layout 1</em></h5>
-<a class="pretty_image" href="img/magento/furn-lay-2.jpg"><figure class="img-polaroid"><img src="img/magento/bike-lay-2.jpg" alt=""></figure></a>
+<a class="pretty_image" href="img/magento/bike-lay-1.jpg.jpg"><figure class="img-polaroid"><img src="img/magento/bike-lay-1.jpg" alt=""></figure></a>
 <h5><em>Static blocks Bike layout 1</em></h5>
 
 <table class="data-table data-table-indent">

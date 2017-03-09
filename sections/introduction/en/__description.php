@@ -1,5 +1,5 @@
 <h2 class="item1">Introduction</h2>
-<h5 align="justify">Congratulations on your purchase of a  Magetique template! This documentation consists of several parts and describes the installating, creating and setting up a Joomla website process. </h5>
+<h5 align="justify">Congratulations on your purchase of a  Magetique template! This documentation consists of several parts and describes the installating, creating and setting up a Magento website process. </h5>
 <h5 align="justify">We did our best to make  this manual  information  to be  presented in a simple, straightforward manner.   For ease of reference, the text  the manual provides has been restructured in different  chapters, you can  see  in the leftside menu.  You are able to navigate to any part of the documentation, using the active content headers' links.</h5>
 <h5 align="justify">We recommend you start reading   the documentation at    the  first section. </h5>
 <p align="justify"> We worked hard to deliver some of the best functionality, performance and flexibility that can be found in a single Magento 2 theme. We hope that your experience with this product is going to let you build a more sustainable and successful business without having to worry about optimization, design and maintenance. </p>

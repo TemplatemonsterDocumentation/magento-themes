@@ -1,5 +1,5 @@
 <h2 class="item1">Magento theme installation</h2>
-<div class="alert alert-danger">This theme is not compatible with Magento 1.9 engine. It will work with the Magento 2.1.2 engine only.</div>
+<div class="alert alert-danger">This theme is not compatible with Magento 1.9 engine. It will work with the Magento 2.1.5 engine only.</div>
 
 <h3>Install theme on live store</h3>
 
