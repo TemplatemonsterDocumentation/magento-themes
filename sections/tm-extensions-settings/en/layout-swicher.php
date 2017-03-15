@@ -42,3 +42,7 @@
         <td>you can change layout of footer.</td>
     </tr>
 </table>
+<div class="alert alert-warning">
+  <p>You can change <span class="col-1"><strong>Default theme</strong></span> either via<span class="item1"> <strong>Layout Switcher</strong></span> module or in the Stores settings (<strong>Stores</strong> &gt; <strong>All Stores</strong>).</p>
+  <p>If you've changed <span class="col-1"><strong>Default theme</strong></span>  via<span class="item1"> <strong>Layout Switcher </strong>module you don't need to change it in the </span>Stores settings.</p>
+</div>

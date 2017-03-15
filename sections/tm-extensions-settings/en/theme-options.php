@@ -3,6 +3,16 @@
 <p>In order to customize the module, click the <strong>Stores &gt; Settings &gt; Configuration</strong>.</p>
 <figure class="img-polaroid"><img src="img/magento/to_21.png" alt="" /></figure>
 <p align="justify">Then choose the <strong>TEMPLATEMONSTER &gt; Theme Options</strong> in the left side menu and you'll move to the module settings interface. </p>
+<p align="justify">Click on the <strong>Store View: Default Config</strong>.</p>
+<p align="justify">Select a <strong>Stor View</strong> from the option dropdown.</p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/to_21.jpg" alt="" /></figure>
+</p>
+<p>Confirm the scope switching in the pop-up window. Press &quot;OK&quot; to confirm.</p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/to_23.jpg" alt="" /></figure>
+</p>
+<p align="justify">After that process, we can see a new tab called <strong>Theme color settings</strong> under the <strong>General</strong> one. </p>
 <p align="justify">The Tab structure is as follows: </p>
 <figure class="img-polaroid"><img src="img/magento/to_1.png" alt="" /></figure>
 <h3>General</h3>
@@ -60,6 +70,122 @@
     <td class="col-1"><strong>Copyright</strong></td>
     <td>-</td>
     <td>input your copyright.</td>
+  </tr>
+</table>
+<h3>Theme color settings</h3>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/to-24.jpg" alt="" /></figure>
+</p>
+<p>Let's review the options available: </p>
+<p>Uncheck<strong> Use Website</strong> to change the<strong> layout </strong>settings.</p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/to-26.png" alt="" /></figure>
+</p>
+<table  class="options-table">
+  <tr>
+    <td class="col-1"><strong>Color scheme</strong></td>
+    <td>-</td>
+    <td> choose color scheme for site.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Primary color</strong></td>
+    <td>-</td>
+    <td> primary color in hex format. You can select a color from the Color Palette. </td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Secondary color</strong></td>
+    <td>-</td>
+    <td> secondary color in hex format. You can select a color from the Color Palette. </td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Body background color</strong></td>
+    <td>-</td>
+    <td> body background color in hex format. You can select a color from the Color Palette. </td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Body background image</strong></td>
+    <td>-</td>
+    <td>Enable/Disable body background image.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background image</strong></td>
+    <td>-</td>
+    <td> <div align="justify">body background image file. Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats! Click on <strong>Browse </strong>to select an image.</div></td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background position</strong></td>
+    <td>-</td>
+    <td> body background image position.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background repeat</strong></td>
+    <td>-</td>
+    <td> body background image repeat.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background size</strong></td>
+    <td>-</td>
+    <td> body background image size.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background attachment</strong></td>
+    <td>-</td>
+    <td> body background image attachment.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Header background color</strong></td>
+    <td>-</td>
+    <td> header background color in hex format. You can select a color from the Color Palette. </td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Footer background color</strong></td>
+    <td>-</td>
+    <td> footer background color in hex format. You can select a color from the Color Palette. </td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Footer background image</strong></td>
+    <td>-</td>
+    <td> Enable/Disable footer background image.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background image</strong></td>
+    <td>-</td>
+    <td> <div align="justify">footer background image file. Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats! Click on <strong>Browse </strong>to select an image.</div></td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background position</strong></td>
+    <td>-</td>
+    <td> footer background image position.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background repeat</strong></td>
+    <td>-</td>
+    <td> footer background image repeat.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background size</strong></td>
+    <td>-</td>
+    <td> footer background image size.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Background attachment</strong></td>
+    <td>-</td>
+    <td>footer background image attachment.</td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Primary font color</strong></td>
+    <td>-</td>
+    <td> Set primary font color in hex format. You can select a color from the Color Palette. </td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Primary link color</strong></td>
+    <td>-</td>
+    <td> Set primary link color in hex format. You can select a color from the Color Palette. </td>
+  </tr>
+  <tr>
+    <td class="col-1"><strong>Primary title color</strong></td>
+    <td>-</td>
+    <td> Set primary title color in hex format. You can select a color from the Color Palette. </td>
   </tr>
 </table>
 <h3>Category Page</h3>
@@ -341,4 +467,21 @@
     <td>show/Hide My Orders block.</td>
   </tr>
 </table>
-<h3>&nbsp;</h3>
+<div class="alert alert-warning"></div>
+<div class="alert alert-warning">
+  <h5 align="justify">In case, you've changed the &quot;website code&quot; in <strong>Stores</strong> &gt; <strong>All stores</strong></h5>
+  <figure class="img-polaroid"><img src="img/magento/to-26.jpg" alt="parallax" /></figure>
+  <h5>you  must change it in the<strong> color_schemes.xml</strong> file, too.</h5>
+</div>
+<p align="justify">In order to change &quot;website code&quot; in the<strong> color_schemes.xml</strong> file go to app\code\TemplateMonster\ThemeOptions\etc. </p>
+<figure class="img-polaroid"><img src="img/magento/to-27.jpg" alt="parallax" /></figure>
+<p align="justify">Open the <strong>color_schemes.xml</strong> file  using any code editor. </p>
+<p align="justify">Find the <strong>&lt;website code=&quot;lingerie&quot;&gt;</strong> line (in our case) and replace &quot;<strong>lingerie</strong>&quot; (the  previous code) with the new one &lt;<strong>website code=&quot;your code&quot;&gt;</strong>. </p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/to-29.jpg" alt="parallax" /></figure>
+</p>
+<p align="justify">If you change the &quot;website code&quot; for <strong>another Web Site</strong>, you need to change its code in <strong>color_schemes.xml</strong> file. Find the  &lt;<strong>website code=&quot;previous code&quot;</strong>&gt; line and replace it with &lt;<strong>website code=&quot;new code&quot;</strong>&gt;.</p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/to-29.jpg" alt="parallax" /></figure>
+</p>
+<p class="alert alert-warning" align="justify">Before modifying the website code please make sure it is not used in <strong>index.php</strong>.</p>
