@@ -467,7 +467,7 @@
     <td>show/Hide My Orders block.</td>
   </tr>
 </table>
-<div class="alert alert-warning"></div>
+
 <div class="alert alert-warning">
   <h5 align="justify">In case, you've changed the &quot;website code&quot; in <strong>Stores</strong> &gt; <strong>All stores</strong></h5>
   <figure class="img-polaroid"><img src="img/magento/to-26.jpg" alt="parallax" /></figure>
