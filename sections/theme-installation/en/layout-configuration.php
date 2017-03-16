@@ -141,7 +141,7 @@
          <tr>
             <td>7.</td>
             <td>footer_block_3</td>
-            <td>footer_block_2</td>
+            <td>footer_block_3</td>
             <td>sources\demo\blocks\footer_block_3.phtml</td>
         </tr>
     </tbody>
