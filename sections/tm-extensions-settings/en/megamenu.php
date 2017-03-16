@@ -2,8 +2,8 @@
 <p class="indent">TemplateMonster Megamenu module extends standard Magento menu functionality and allows you to configure subcategories multi-column display, add static blocks and products to the dropdown menu, as well as the flexibly customize its appearance in site admin panel.</p>
 
 <h4>Global configuration</h4>
-<p>In order to configure the module, navigate to <strong>Stores -> Settings -> Configuration</strong> section.</p>
-Choose the <strong>TEMPLATEMONSTER -> Megamenu</strong> in the left side menu to go to the module settings interface. 
+<p>In order to configure the module, navigate to <strong>Stores &gt; Settings &gt; Configuration</strong> section.</p>
+Choose the <strong>TEMPLATEMONSTER &gt; Megamenu</strong> in the left side menu to go to the module settings interface. 
 <figure class="img-polaroid"><img src="img/magento/menu.png" alt="" /></figure>
 This module has 2 options:
 <table class="options-table">
@@ -36,7 +36,7 @@ Menu position option includes two values: <strong>Topnav</strong> and <strong>Si
 </div>
 
 <h4>Categories configuration</h4>
-Megamenu block display can be configured on the 1st level category configuration page, that can be found in the Megamenu tab, at <strong>Products -> Categories</strong> section. 
+Megamenu block display can be configured on the 1st level category configuration page, that can be found in the Megamenu tab, at <strong>Products &gt; Categories</strong> section. 
 <figure class="img-polaroid"><img src="img/magento/menu-1.png" alt="" /></figure>
 You will see the <strong>Turn on megamenu for this category</strong> option at the <strong>MegaMenu tab</strong>. This option enabled Megamenu block display for the selected category. After enabling this option, you will see the two fields and a widget with menu content settings.
 <figure class="img-polaroid"><img src="img/magento/menu-2.png" alt="" /></figure>

@@ -1,8 +1,8 @@
 <h3>Ajax Catalog</h3>
 <p>Quick and easy selection among the variety of products contributes to making a positive decision on purchasing in your online shop. Ajax Catalog module that provides this possibility is the most popular module among the online shops based on various platforms. It allows you to find and filter the products you need according to the selected parameters quickly and easily without reloading the page.</p>						
-<p>In order to configure this module, navigate to <strong>Stores -> Settings -> Configuration</strong> section.</p>
+<p>In order to configure this module, navigate to <strong>Stores &gt; Settings &gt; Configuration</strong> section.</p>
 <figure class="img-polaroid"><img src="img/magento/compare.jpg" alt="" /></figure>			
-<p>Then navigate to <strong>TemplateMonster -> Catalog Ajax</strong> in the left side menu to go to the module settings interface.</p>
+<p>Then navigate to <strong>TemplateMonster &gt; Catalog Ajax</strong> in the left side menu to go to the module settings interface.</p>
 <figure class="img-polaroid"><img src="img/magento/ajaxcatalog.jpg" alt="" /></figure>		
 <p>Let’s review module options:</p>			
 <table  class="options-table">

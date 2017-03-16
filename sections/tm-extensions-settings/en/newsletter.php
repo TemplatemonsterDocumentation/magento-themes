@@ -2,9 +2,9 @@
 <p class="indent">Email newsletter has always been the important part of every marketing strategy. This method is used all over the world, so it will definitely help you to gain more orders and subscribers. That's why we proudly present you the Newsletter pop-up module. It displays the popup window with subscription form and social icons right after the client visits your site.</p>
 
 <h4>Global configuration</h4>
-In order to configure the module, navigate to <strong>Stores -> Settings -> Configuration</strong> section.
+In order to configure the module, navigate to <strong>Stores &gt; Settings &gt; Configuration</strong> section.
 <figure class="img-polaroid"><img src="img/magento/new-0.png" alt="" /></figure>
-Choose the <strong>TEMPLATEMONSTER -> Newsletter Pop-up</strong> in the left side menu to go to the module settings interface.<br>
+Choose the <strong>TEMPLATEMONSTER &gt; Newsletter Pop-up</strong> in the left side menu to go to the module settings interface.<br>
 The module has 2 sections, and each one contains a specific set of options:
 <ul class="marked-list">
 	<li>
@@ -40,10 +40,9 @@ As stated above, this section includes main module settings. You can enable or d
 		<p><strong>Show in footer</strong> option allows you to display a link in the site footer, to display the newsletter pop-up after clicking on it. Footer link text field changes the label for the link displayed in the footer after activating the Show in footer option.</p>
 		<figure class="img-polaroid"><img src="img/magento/new-9.jpg" alt="" /></figure>
 	</li>
-	<li>
-		Используя <strong>Pop-Up width</strong> option allows you to define the newsletter pop-up window width. Its size can be set in pixels only.
-		<figure class="img-polaroid"><img src="img/magento/new-7.jpg" alt="" /></figure>
-	</li>
+	<li><strong>Pop-Up width</strong> option allows you to define the newsletter pop-up window width. Its size can be set in pixels only.
+	  <figure class="img-polaroid"><img src="img/magento/new-7.jpg" alt="" /></figure>
+</li>
 	<li>
 		The pop-up may not be displayed immediately, but after some certain time period. This setting is controlled by <strong>Pop-Up timeout</strong> option. You can set a delay before the newsletter pop-up appearance and it will not show up right away, but only after the time you have specified passes since the client visits your site.
 		<figure class="img-polaroid"><img src="img/magento/new-10.jpg" alt="" /></figure>

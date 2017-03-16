@@ -43,7 +43,7 @@ the products you need according to the selected parameters quickly and easily wi
 </table>
 
 <div class="alert alert-danger">Attention!!! <br>
-If you decide to enable Category Search Ajax and Product Search Ajax options, you’ll also need to enable <strong>Use Flat Catalog Category</strong> and <strong>Use Flat Catalog Product</strong> options respectively. You can enable these options  at the <strong>Catalog - > Catalog -> Storefront tab</strong>.
+If you decide to enable Category Search Ajax and Product Search Ajax options, you’ll also need to enable <strong>Use Flat Catalog Category</strong> and <strong>Use Flat Catalog Product</strong> options respectively. You can enable these options  at the <strong>Catalog - > Catalog &gt; Storefront tab</strong>.
 <figure class="img-polaroid"><img src="img/magento/search-2.png" alt="" /></figure></div>
 <p>Feel free to use all the options at once or just some of them, it’s up to you. In case there are any suggestions or errors detected, feel free to contact us using the link provided on the module page!</p>
 <p>Enjoy using!</p>

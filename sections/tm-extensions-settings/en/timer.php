@@ -4,7 +4,7 @@
 <br>
 	There are 3 locations available for this module to show up: <strong>products page</strong>, <strong>catalog page</strong> or home page <strong>products' widgets</strong>. 
 </p>
-Modules settings can be reached at the <strong>Store -> Configuration -> Templatemonster -> Special Price Timer</strong> section at site admin panel.
+Modules settings can be reached at the <strong>Store &gt; Configuration &gt; Templatemonster &gt; Special Price Timer</strong> section at site admin panel.
 <figure class="img-polaroid"><img src="img/magento/timer-1.jpg" alt="" /></figure>	
 <p>
 	You may also configure the certain module appearance for all the 3 locations individually.

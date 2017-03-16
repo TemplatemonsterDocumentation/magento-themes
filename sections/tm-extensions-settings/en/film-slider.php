@@ -1,6 +1,6 @@
 <h3>Film Slider</h3>
 <p>TemplateMonster FilmSlider module is an implementation of elegant and professional jQuery plugin ‘Slider Pro’. Allows you to add slider with multiple layers to your store home page. Rich collection of slider configuration options and user interface will help you to configure your slider fast and easily.</p>
-<p>In the main navigation menu you’ll see new menu option <strong>TemplateMonster</strong>. <br>To start working with the FilmSlider module, click <strong>Template Monster -> Sliders</strong> menu item.</p>
+<p>In the main navigation menu you’ll see new menu option <strong>TemplateMonster</strong>. <br>To start working with the FilmSlider module, click <strong>Template Monster &gt; Sliders</strong> menu item.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-1.png" alt="" /></figure>
 <p>Here you can see a list of available sliders where you can <strong>disable/enable</strong>, <strong>delete</strong> or <strong>edit</strong> sliders.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-2.png" alt="" /></figure>
@@ -77,7 +77,7 @@ You can also upload images from your computer.
 Under the Image field you can see your slide preview. You are free to set preview size the way you like. We moved the next section of slide configuration to the separate section as it is fully related to slide layers. 
 
 <h4>Working with layers</h4>
-<strong>FilmSlider</strong> is a multi-layer slider. This mean that your can add multiple independent layers to your slide. Layers can be added to the slide on the slide configuration screen described above. This screen contains several sections of layers settings.
+<strong>FilmSlider</strong> is a multi-layer slider. This mean that you can add multiple independent layers to your slide. Layers can be added to the slide on the slide configuration screen described above. This screen contains several sections of layers settings.
 
 <h5>Layers list</h5>
 Layers list section allows to add layers to your slide. You can add image layers and text layers. Use corresponding buttons to add layers.
@@ -102,7 +102,7 @@ When you add several layers, bottom configuration settings (position and animati
 <figure class="img-polaroid"><img src="img/magento/slide-23.png" alt="" /></figure>
 
 <h4>Adding slider to page</h4>
-To add slider to your page please use Magento widgets. In the main admin panel menu click <strong>Content -> Pages</strong> item.
+To add slider to your page please use Magento widgets. In the main admin panel menu click <strong>Content &gt; Pages</strong> item.
 <figure class="img-polaroid"><img src="img/magento/slide-24.png" alt="" /></figure>
 Select the page you want to add slider to and click <strong>Edit</strong>.
 <figure class="img-polaroid"><img src="img/magento/slide-25.png" alt="" /></figure>

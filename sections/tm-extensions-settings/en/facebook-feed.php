@@ -1,8 +1,8 @@
 <h3>Facebook plugin</h3>
 <p>Facebook Share is a professional module that allows you to display Facebook feed anywhere on the website. The module comes loaded with a wide assortment of features that allow webmasters to adjust it to any design and project.</p>						
-<p>In order to configure this module, navigate to <strong>Stores -> Settings -> Configuration</strong> section.</p>
+<p>In order to configure this module, navigate to <strong>Stores &gt; Settings &gt; Configuration</strong> section.</p>
 <figure class="img-polaroid"><img src="img/magento/compare.jpg" alt="" /></figure>			
-<p>Then navigate to <strong>TemplateMonster -> Facebook Share</strong> in the left side menu to go to the module settings interface.</p>
+<p>Then navigate to <strong>TemplateMonster &gt; Facebook Share</strong> in the left side menu to go to the module settings interface.</p>
 <figure class="img-polaroid"><img src="img/magento/facebook-1.jpg" alt="" /></figure>		
 <table  class="options-table">
 	<tr>
