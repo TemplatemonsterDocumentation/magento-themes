@@ -42,13 +42,10 @@
 
 <h4>Theme color settings</h4>
 <p>
-  <figure class="img-polaroid"><img src="img/magento/to-24.png" alt="" /></figure>
+  <figure class="img-polaroid"><img src="img/magento/to-24.jpg" alt="" /></figure>
 </p>
 <p>Let's review the options available: </p>
-<p>Uncheck<strong> Default Value</strong> to change the<strong> </strong>settings.</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/to-26.png" alt="" /></figure>
-</p>
+<p>Uncheck<strong>Use Default Value</strong> to change the<strong> </strong>settings.</p>
 <table  class="options-table">
   <tr>
     <td class="col-1"><strong>Color scheme</strong></td>
