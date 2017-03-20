@@ -266,5 +266,3 @@
 			<td>insert the Youtube link URL;</td>
 		</tr>
 	</table>
-<p>After all the above mentioned changes, your website will look like this: </p>
-<figure class="img-polaroid"><img src="img/magento/theme-options-front.png" alt="" /></figure>	
