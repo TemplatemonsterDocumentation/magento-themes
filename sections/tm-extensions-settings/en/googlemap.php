@@ -108,7 +108,7 @@
 	</tr>	
 </table>
 <div class="alert alert-info">
-             <p>Copy the  provided on the website <a href="https://snazzymaps.com/" target="_blank" rel="nofollow">snazzymaps</a> and paste it into the <strong>Styles</strong> option field:</p>
+             <p>Copy the code provided by <a href="https://snazzymaps.com/" target="_blank" rel="nofollow">snazzymaps</a> and paste it into the <strong>Styles</strong> option field:</p>
              <p>
                <figure class="img-polaroid">
                  <img src="img/magento/map.jpg" alt="">
