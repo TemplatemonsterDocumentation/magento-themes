@@ -87,55 +87,6 @@ To add a new product label press <strong>Add New Label</strong> button.
 <h5>IMAGE TAB</h5>
 <p align="justify">Next you can see the <strong>IMAGE</strong> tab. Effective immediately, you can choose the <strong>Label Type</strong>. Now you have the option to add text without images as a label. At the <strong>Image</strong> tab you also can indicate the <strong>text</strong> that should be displayed on the label.</p>
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-14.png" alt="" /></figure>
-
-
-<div class="alert alert-info">
-
-    <p><strong>Advise</strong></p>
-    You can utilize following variables in the label texts:
-<ul class="marked-list">
-<li>
-  <div align="justify"><strong>{ATTR:code}</strong> — with this variable you can display value of any attribute in the label text. 
-    Please replace 'code' with the code of the actual attribute. For example, {ATTR:manufacturer}
-    would display the product manufacturer.
-  </div>
-</li>
-<li>
-  <div align="justify"><strong>{SAVE_PERCENT}</strong>. Saving percentage, it's the percentage margin between regular price
-    and special price. If you specify in admin panel 'Sale! {SAVE_PERCENT} OFF!', on front end
-    it will be 'Sale! X% OFF!', X stands for the percent number.
-  </div>
-</li>
-<li>
-  <div align="justify"><strong>{SAVE_AMOUNT}</strong>. Flat savings amount, represents flat difference between regular price
-    and special price. So 'Save {SAVE_AMOUNT}!' results into 'Save $X!'. X is the amount, '$'
-    sign will be automatically replaced with the symbol of your currency.
-  </div>
-</li>
-<li>
-  <div align="justify"><strong>{PRICE}</strong> displays regular price.
-  </div>
-</li>
-<li>
-  <div align="justify"><strong>{SPECIAL_PRICE}</strong> displays special price.
-  </div>
-</li>
-<li>
-  <div align="justify"><strong>{NEW_FOR}</strong> shows how many days ago a product was added. 'NEW! Arrived just
-    {NEW_FOR} days ago!' will be shown as 'NEW! Arrived just X days ago!', where X is the
-    amount of days.
-  </div>
-</li>
-<li>
-  <div align="justify"><strong>{BR}</strong> — new line. The extension automatically breaks messages into several lines if they are
-    too long. If you need to display some word or phrase in a separate line, please use {BR}
-    variable.</div>
-</li> 
-</ul>    
-
-</div>
-   
-
 <p align="justify">You are able to select background image for <strong>text</strong> label. Then, customize <strong>Font size</strong> [e.g. 12pt, 15pt, etc] and <strong>Font color</strong>, <strong>Text position</strong> [Right, Left, Center].</p>
 <p>
   <figure class="img-polaroid"><img src="img/magento/smart-product-labels-15.png" alt="" /></figure>

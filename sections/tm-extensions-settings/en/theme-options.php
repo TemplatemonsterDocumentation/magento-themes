@@ -469,9 +469,9 @@
 </table>
 
 <div class="alert alert-warning">
-  <h5 align="justify">In case, you've changed the &quot;website code&quot; in <strong>Stores</strong> &gt; <strong>All stores</strong></h5>
+ 
   <figure class="img-polaroid"><img src="img/magento/to-26.jpg" alt="parallax" /></figure>
-  <h5>you  must change it in the<strong> color_schemes.xml</strong> file, too.</h5>
+  <h5>In case, you've changed the &quot;website code&quot; in <strong>Stores</strong> &gt; <strong>All stores, </strong>you  must change it in the<strong> color_schemes.xml</strong> file, too.</h5>
 </div>
 <p align="justify">In order to change &quot;website code&quot; in the<strong> color_schemes.xml</strong> file go to app\code\TemplateMonster\ThemeOptions\etc. </p>
 <figure class="img-polaroid"><img src="img/magento/to-27.jpg" alt="parallax" /></figure>
