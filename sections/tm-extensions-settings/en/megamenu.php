@@ -134,4 +134,4 @@ To add the subcategory image press on <strong>browse</strong> and choose an imag
 As to the label adding, fill in the <strong>Label</strong> field.
 <figure class="img-polaroid"><img src="img/magento/menu-12.png" alt="" /></figure>
 <h4>Styles configuration</h4>
-<div align="justify">You can edit css style files to configure custom megamenu appearance. These files are located at the <strong>app\code\TemplateMonster\Megamenu\view\frontend</strong>. Do not forget to clear the cache after changing the styles and compiling. </div>
+<p>You can edit css style files to configure custom megamenu appearance. These files are located at the <strong>app\code\TemplateMonster\Megamenu\view\frontend</strong>. Do not forget to clear the cache after changing the styles and compiling.</p> 
