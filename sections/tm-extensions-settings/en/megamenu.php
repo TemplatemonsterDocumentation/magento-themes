@@ -1,4 +1,4 @@
-<h3>MegaMenu</h3>
+<h3>Megamenu</h3>
 <p align="justify" class="indent">TemplateMonster Megamenu module extends standard Magento menu functionality and allows you to configure subcategories multi-column display, add static blocks and products to the dropdown menu, as well as the flexibly customize its appearance in site admin panel.</p>
 
 <h4>Global configuration</h4>
@@ -109,7 +109,7 @@ In order to add a new row you need to use <strong>Add row</strong> button. Then 
   <figure class="img-polaroid"><img src="img/magento/cplt.png" alt="" /></figure>
   <strong> — Orders and Returns</strong>
   <p>This will add a block to allow customers to search for their orders and view the status or request for a return.</p>
-  <figure class="img-polaroid"><img src="img/magento/o&amp;r.png" alt="" /></figure>
+  <figure class="img-polaroid"><img src="img/magento/or.png" alt="" /></figure>
   <strong> — Recently Compared Products</strong>
   <p>This will add a block that shows the products that are added to the compare products list.</p>
   <figure class="img-polaroid"><img src="img/magento/rcp.png" alt="" /></figure>
