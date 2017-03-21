@@ -59,7 +59,7 @@ Let’s take a look at the available options:
         <td>the image that is displayed on the background of your page.</td>
     </tr>
     <tr>
-        <td class="col-2"><div align="justify"><strong><a href="http://www.w3schools.com/cssref/pr_background-repeat.asp" target="_blank">Background Repeat</a></strong>, <strong><a href="http://www.w3schools.com/cssref/pr_background-position.asp" target="_blank">Background Position</a></strong>, <strong><a href="http://www.w3schools.com/cssref/css3_pr_background-size.asp" target="_blank">Background Size</a></strong>, <strong><a href="http://www.w3schools.com/cssref/pr_background-attachment.asp" target="_blank">Background Attachment</a></strong></div></td>
+        <td class="col-2"><a href="http://www.w3schools.com/cssref/pr_background-repeat.asp" target="_blank"><strong>Background Repeat</strong></a>, <strong><a href="http://www.w3schools.com/cssref/pr_background-position.asp" target="_blank">Background Position</a></strong>, <strong><a href="http://www.w3schools.com/cssref/css3_pr_background-size.asp" target="_blank">Background Size</a></strong>, <strong><a href="http://www.w3schools.com/cssref/pr_background-attachment.asp" target="_blank">Background Attachment</a></strong></td>
         <td>-</td>
         <td>css-properties for managing the background in the image form.</td>
     </tr>

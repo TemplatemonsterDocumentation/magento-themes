@@ -13,4 +13,9 @@
 	<li>Select the "<strong>Header</strong>" tab, and upload your logo.<figure class="img-polaroid"><img src="img/magento/Theme-set-10.jpg" alt="" /></figure></li>
 	<li>Click <strong>"Save Config"</strong> button.</li>
 </ol>
-<p align="justify">In order to install your company logo, you need to upload the logo image file into the <strong>/images</strong> folder of your Magento theme.</p>	
+<p align="justify">In order to install your company logo, you need to upload the logo image file into the <strong>/images</strong> folder of your Magento theme.</p>
+<p align="justify">You can change the Logo using the <strong>Theme Options </strong>module.</p>
+<p align="justify">In order to change the Logo, click the <strong>Stores</strong> &gt; <strong>Settings</strong> &gt; <strong>Configuration</strong>.</p>
+<p align="justify">Then choose the <strong>TEMPLATEMONSTER</strong> &gt; <strong>Theme Options</strong> in the left side menu and you'll move to the module settings interface. </p>
+<p align="justify">Navigate to <strong>General tab</strong> &gt; <strong>Logo Settings</strong>.</p>
+<p align="justify"> The <strong>Theme Options </strong>module features will be  described  later in the chapter <strong>TM Extensions Settings</strong>.</p>
