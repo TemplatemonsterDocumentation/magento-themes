@@ -157,15 +157,15 @@
 		{
 			"id":"megamenu",
 			"translations":{
-				"en":"MegaMenu",
-				"ru":"MegaMenu",
-				"tr":"MegaMenu",
-				"de":"MegaMenu",
-				"es":"MegaMenu",
-				"fr":"MegaMenu",
-				"it":"MegaMenu",
-				"pl":"MegaMenu",
-				"pt":"MegaMenu"
+				"en":"Megamenu",
+				"ru":"Megamenu",
+				"tr":"Megamenu",
+				"de":"Megamenu",
+				"es":"Megamenu",
+				"fr":"Megamenu",
+				"it":"Megamenu",
+				"pl":"Megamenu",
+				"pt":"Megamenu"
 			}
 		},		
 		{
