@@ -127,20 +127,6 @@
 			}
 		},
 		{
-			"id":"image-zoom",
-			"translations":{
-				"en":"Image Zoom",
-				"ru":"Image Zoom",
-				"tr":"Image Zoom",
-				"de":"Image Zoom",
-				"es":"Image Zoom",
-				"fr":"Image Zoom",
-				"it":"Image Zoom",
-				"pl":"Image Zoom",
-				"pt":"Image Zoom"
-			}
-		},
-		{
 			"id":"layout-swicher",
 			"translations":{
 				"en":"Layout Switcher",
