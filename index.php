@@ -107,7 +107,6 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
                 <span><?php echo $product_name; ?></span> <?php echo $product_desc; ?>
 
             </h1>
-            <img src="img/header-bg.png" alt="">
         </div>
         <div class="page">
             <!--========================================================
