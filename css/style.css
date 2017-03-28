@@ -4129,7 +4129,7 @@ blockquote {
 }
 @media (min-width: 1200px) {
 .rd-mobilepanel {
-    height: 600px;
+    height: 250px;
 }
 }
 @media (min-width: 1068px) and (max-width: 1301px) {
