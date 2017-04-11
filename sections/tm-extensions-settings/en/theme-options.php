@@ -147,7 +147,7 @@
   <figure class="img-polaroid"><img src="img/magento/to-24.jpg" alt="" /></figure>
 </p>
 <p>Let's review the options available: </p>
-<p>Uncheck<strong> Use Website</strong> to change the<strong> layout </strong>settings.</p>
+<p>Clear the the <strong> Use Website</strong> checkbox to change the<strong> layout </strong>settings.</p>
 <p>
   <figure class="img-polaroid"><img src="img/magento/to-26.png" alt="" /></figure>
 </p>
@@ -258,9 +258,22 @@
     <td> Set primary title color in hex format. You can select a color from the Color Palette. </td>
   </tr>
 </table>
-<h3>Topography</h3>
+<p align="justify">In order to change &quot;website code&quot; in the<strong> color_schemes.xml</strong> file go to app\code\TemplateMonster\ThemeOptions\etc. </p>
+<figure class="img-polaroid"><img src="img/magento/to-27.jpg" alt="parallax" /></figure>
+<p align="justify">Open the <strong>color_schemes.xml</strong> file  using any code editor. </p>
+<p align="justify">Find the <strong>&lt;website code=&quot;lingerie&quot;&gt;</strong> line [in our case] and replace &quot;<strong>lingerie</strong>&quot; [the  previous code] with the new one &lt;<strong>website code=&quot;your code&quot;&gt;</strong>. </p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/to-29.jpg" alt="parallax" /></figure>
+</p>
+<p align="justify">If you change the &quot;website code&quot; for <strong>another Web Site</strong>, you need to change its code in <strong>color_schemes.xml</strong> file. Find the  &lt;<strong>website code=&quot;previous code&quot;</strong>&gt; line and replace it with &lt;<strong>website code=&quot;new code&quot;</strong>&gt;.</p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/to-29.jpg" alt="parallax" /></figure>
+</p>
+<p class="alert alert-warning" align="justify">Before modifying the website code please make sure it is not used in <strong>index.php</strong>.</p>
+
+<h3>Typography</h3>
 <figure class="img-polaroid"><img src="img/magento/to3.png" alt="" /></figure>
-<p>Settings for the <strong>Topography</strong> tab are the following:</p>
+<p>Settings for the <strong>Typography</strong> tab are the following:</p>
 <table  class="options-table">
   <tr>
     <td class="col-1"><strong>Primary font family</strong></td>
@@ -495,7 +508,7 @@
   <tr>
     <td class="col-1"><strong>Additional tab title</strong></td>
     <td>-</td>
-    <td>snput tab title for additional tab. <strong>[12]</strong></td>
+    <td>set the  tab title for additional tab. <strong>[12]</strong></td>
   </tr>
   <tr>
     <td class="col-1"><strong>Show reviews</strong></td>
@@ -573,19 +586,7 @@
   </tr>
 </table>
 <div class="alert alert-warning">
-  
+  <h5 align="justify">In case, you've changed the &quot;website code&quot; in <strong>Stores</strong> &gt; <strong>All stores</strong></h5>
   <figure class="img-polaroid"><img src="img/magento/to-26.jpg" alt="parallax" /></figure>
-  <h5>In case, you've changed the &quot;website code&quot; in <strong>Stores</strong> &gt; <strong>All stores, </strong>you  must change it in the<strong> color_schemes.xml</strong> file, too.</h5>
+  <h5>you  must change it in the<strong> color_schemes.xml</strong> file, too.</h5>
 </div>
-<p align="justify">In order to change &quot;website code&quot; in the<strong> color_schemes.xml</strong> file go to app\code\TemplateMonster\ThemeOptions\etc. </p>
-<figure class="img-polaroid"><img src="img/magento/to-27.jpg" alt="parallax" /></figure>
-<p align="justify">Open the <strong>color_schemes.xml</strong> file  using any code editor. </p>
-<p align="justify">Find the <strong>&lt;website code=&quot;lingerie&quot;&gt;</strong> line [in our case] and replace &quot;<strong>lingerie</strong>&quot; [the  previous code] with the new one &lt;<strong>website code=&quot;your code&quot;&gt;</strong>. </p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/to-29.jpg" alt="parallax" /></figure>
-</p>
-<p align="justify">If you change the &quot;website code&quot; for <strong>another Web Site</strong>, you need to change its code in <strong>color_schemes.xml</strong> file. Find the  &lt;<strong>website code=&quot;previous code&quot;</strong>&gt; line and replace it with &lt;<strong>website code=&quot;new code&quot;</strong>&gt;.</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/to-29.jpg" alt="parallax" /></figure>
-</p>
-<p class="alert alert-warning" align="justify">Before modifying the website code please make sure it is not used in <strong>index.php</strong>.</p>
