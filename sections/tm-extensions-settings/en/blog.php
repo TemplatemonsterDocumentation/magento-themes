@@ -1,5 +1,6 @@
     <h3 class="item1">Blog</h3>
-    <h4>General</h4> 
+<p>Blog module for Magento2 enables the Customers to add their post in the blog form in the Magento2 Webstore. The Customer can also edit or delete the post. </p>
+<h4>General</h4> 
     <div align="justify">In this section, you’ll find all general options of the module. Here you can enable or disable the module, add keywords, description, etc. <br> In order to configure the module, navigate to <strong>Stores > Settings > Configuration</strong> section.
     </div>
     <figure class="img-polaroid">
@@ -30,7 +31,7 @@
         <tr>
             <td class="col-1"><strong>Title </strong></td>
             <td>-</td>
-            <td>specify the module title.</td>
+            <td>specify the link title.</td>
         </tr>
         <tr>
             <td class="col-1"><strong>Meta Keywords </strong></td>
@@ -73,8 +74,9 @@
             <td><div align="justify">you can change date format: Y - year, M - month, d - day. You can use any symbol between this letters like: M/d/Y, Y:M:d, etc</div></td>
         </tr>
     </table>
-    <h4>Post View</h4> In this section, you can customize the view type of related posts and products.
-    <figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
+    <h4>Post View</h4> 
+    In this section, you can customize the view type of related posts and products.
+<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
     <h5>Related posts</h5>
     <table class="options-table">
         <tr>
@@ -344,7 +346,7 @@
     <h5>General [Category Information]</h5> 
     In this section, you need to specify main information of category.
     <figure class="img-polaroid"><img src="img/magento/blog-2-3.jpg" alt="" /></figure>
-    <table class="options-table">
+<table class="options-table">
         <tr>
             <td class="col-1"><strong>Category Name</strong></td>
             <td>-</td>
@@ -371,10 +373,9 @@
             <td>show/hide the category.</td>
         </tr>
     </table>
-
-    <h5>SEO [Meta Data]</h5>
+<h5>SEO [Meta Data]</h5>
     In this section, you need to specify additional information.
-    <figure class="img-polaroid"><img src="img/magento/blog-2-4.jpg" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/magento/blog-2-4.jpg" alt="" /></figure>
     <table class="options-table">
         <tr>
             <td class="col-1"><strong>Title</strong></td>
@@ -393,9 +394,10 @@
         </tr>
     </table>
     <h5>Related Posts</h5>
-    In this section, you can add related post.
-    <figure class="img-polaroid"><img src="img/magento/blog-2-5.jpg" alt="" /></figure>
-    <p>Select posts and click <strong>"Save Category"</strong></p>
+    <p>In this section, you can add related post.
+      <figure class="img-polaroid"><img src="img/magento/blog-2-5.jpg" alt="" /></figure>
+    </p>
+<p>Select posts and click <strong>"Save Category"</strong></p>
 
     <h4>Adding post</h4>
     <p align="justify">Navigate to the <strong>TEMPLATEMONSTER</strong> section in the left sidebar. Find <strong>Blog</strong> and click <strong>Posts</strong>. Here you will see the list of all posts available on your website. You can either delete or edit the posts by clicking the <strong>Select</strong> button in the <strong>Action</strong> column.
@@ -516,8 +518,48 @@
             <td>change the comment publish date; Will be set to current date if empty.</td>
         </tr>
     </table>
+    <h4>Frontend:</h4>
+    <figure class="img-polaroid"><img src="img/magento/blog-50.jpg" alt="" /></figure>
+    <ol class="marked-list">
+      <li><strong>Show in Menu</strong> — 	enable;</li>
+      <li><strong>Title</strong> — Blog.</li>
+    </ol>
+    <p><strong>Post List Page: </strong></p>
+<figure class="img-polaroid"><img src="img/magento/blog-51.jpg" alt="" /></figure>
+<ol class="marked-list">
+  <li><strong>Title</strong> — Blog;</li>
+  <li><strong>Posts per view</strong> — 3/6/9;</li>
+  <li><strong>Post List Page Layout </strong>— 2 columns with left bar;</li>
+  <li><strong>Data Format</strong> — M d, Y;</li>
+  <li><strong>Show Categories</strong> — enable;</li>
+  <li><strong>Number of Categories</strong> — 3;</li>
+  <li><strong>Show Recent Posts</strong> — enable;</li>
+  <li><strong>Number of Posts</strong> — 3.</li>
+</ol>
+ <p><strong>Post  Page: </strong></p>
+<figure class="img-polaroid"><img src="img/magento/blog-52.jpg" alt="" /></figure>
+<ol class="marked-list">
+  <li><strong>Title</strong> — Blog;</li>
+  <li><strong>Post  Page Layout </strong>— 2 columns with left bar.</li>
+</ol>
+<p><strong>Related Posts</strong></p>
+<figure class="img-polaroid"><img src="img/magento/blog-53.jpg" alt="" /></figure>
+<ol class="marked-list">
+  <li><strong>Display Related Posts — </strong>enable;</li>
+  <li><strong>Number of Posts</strong> — 5;</li>
+  <li><strong>Post Layout View</strong> — grid with thumbnails;</li>
+  <li><strong>Number of Posts Per View</strong> — 4;</li>
+</ol>
+<p><strong>Related Products</strong></p>
+<figure class="img-polaroid"><img src="img/magento/blog-54.jpg" alt="" /></figure>
+<ol class="marked-list">
+  <li><strong>Display Related Products  — </strong>enable;</li>
+  <li><strong>Number of </strong>Products <strong> </strong>— 5;</li>
+  <li>Number of Products Per View — 3;</li>
+  <li><strong>Show Post Links at Product Page</strong> — yes.</li>
+</ol>
     <h4>Blog: Latest Posts Widget</h4>
-    <p align="justify">To add a Blog widget to the homepage, you need to navigate to <strong>Content > Widgets</strong> tab. You can change settings of any<strong> Blog</strong> Widget here.</p>
+   <p align="justify">To add a Blog widget to the homepage, you need to navigate to <strong>Content > Widgets</strong> tab. You can change settings of any<strong> Blog</strong> Widget here.</p>
  <div class="alert alert-info">
 <p align="justify"><strong>Tip:</strong></p>
     <div align="justify">
