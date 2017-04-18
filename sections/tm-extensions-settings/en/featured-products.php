@@ -284,7 +284,7 @@ In the <strong>Storefront Properties</strong> section in the <strong>Type</stron
   <li><strong>New Products label</strong> — New;</li>
   <li><strong>Banner </strong>— enabled (OUR BEST PRODUCTS!!!);</li>
   <li><strong>Choose hover type</strong> — Image carousel;</li>
-  <li><strong>Slides count </strong>— 20;</li>
+  <li><strong>Slides count </strong>— 20.</li>
 </ul>
   <p>Example 2:</p>
 <p>
@@ -292,7 +292,7 @@ In the <strong>Storefront Properties</strong> section in the <strong>Type</stron
 </p
   ><ul class="marked-list">
   <li><strong>Template</strong> — Products grid;</li>
-  <li><strong>Carousel </strong>— disabled;</li>
+  <li><strong>Carousel </strong>— disabled.</li>
   </ul>
 <p>The other settings are the same.</p>
 <p>Example 3:</p>
@@ -300,7 +300,7 @@ In the <strong>Storefront Properties</strong> section in the <strong>Type</stron
   <figure class="img-polaroid"><img src="img/magento/featured-43.jpg" alt="" /></figure>
 </p
   ><ul class="marked-list">
-  <li><strong>Template</strong> — Products Sidebar. </li>
+  <li><strong>Template</strong> — Products Sidebar; </li>
   <li><strong>Container</strong> — Sidebar Main;</li>
   <li><strong>Carousel </strong>— enabled;</li>
   <li><strong>Number of products per view</strong> — 1.</li>
