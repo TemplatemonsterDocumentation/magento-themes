@@ -169,7 +169,7 @@ Note that the same options are available for both PRODUCT and CATEGORY pages.
 <p>As for the <strong>CONDITIONS</strong> tab, it lets you make the selection of product to apply the label to more precise. 
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-17.png" alt="" /></figure>
 
-The dab is divided into several sections:
+The tab is divided into several sections:
 
 <ol class="marked-list"><li>
       <div align="justify"><strong>Conditions</strong><br>In the first one, you have to deal with the expression if ALL/ANY of these conditions are TRUE/FALSE. You also can add the condition.</div>
