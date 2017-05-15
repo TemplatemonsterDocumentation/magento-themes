@@ -1,35 +1,34 @@
-<h2 class="item1">TanÄ±tÄ±m</h2>
+<h2 class="item1">Giriş</h2>
 <p>
-    Magento ÅŸablonunu satÄ±n aldÄ±ÄŸÄ±nÄ±z iÃ§in teÅŸekkÃ¼r ederiz. Bu dÃ¶kÃ¼mantasyonda, tÃ¼m kurulum ve Magento satÄ±ÅŸ sisteminin yÃ¶netim sÃ¼reÃ§leri adÄ±m adÄ±m anlatÄ±lmaktadÄ±r. Her ÅŸeyi, mÃ¼mkÃ¼n olduÄŸunca aÃ§Ä±k ve kolay anlaÅŸÄ±lÄ±r ÅŸekilde anlatmaya Ã§alÄ±ÅŸtÄ±k.
-</p>
+    Magento'yu indirdiğiniz için teşekkür ederiz. Bu dokümantasyon Magento'nun sıfırdan kurulup kullanılması aşamalarını anlatmaktadır.</p>
 
 <article id="whatismagento">
-    <h3>Magento Commerce nedir?</h3>
-    <p>Magento, aÃ§Ä±k-kaynaklÄ± teknolojiye sahip ve Ã§ok Ã¶zellikli bir E-Ticaret platformudur. E-Ticaret maÄŸazanÄ±zÄ± esnek bir tasarÄ±m, iÃ§erik ve iÅŸlevsellikle kontrol edebilmenizi saÄŸlar. Magentoâ€™nun yÃ¶netici arayÃ¼zÃ¼, Ã¶zgÃ¼n mesleki ihtiyaÃ§larÄ±nÄ±zÄ± karÄ±ÅŸalamak amacÄ±yle size etkili bir ticaret sistemi, arama motoru optimizasyonu ve katalog-yÃ¶netim araÃ§larÄ± sunar. Tamamen Ã¶lÃ§eklenebilir tasarÄ±mÄ± ve Varien destek aÄŸÄ±yla Magento, ÅŸirketlere Ã¼st dÃ¼zey bir e-Ticaret Ã§Ã¶zÃ¼mÃ¼ sunmaktadÄ±r. <a href="http://www.magentocommerce.com/download" target="_blank">Daha fazlasÄ±.</a></p>
+    <h3>Magento E-Mağaza nedir?</h3>
+    <p>Magento açık kaynak teknolojisiyle kurulmuş zengin özellikleri olan bir E-Mağaza platformudur. Mağaza içerikleri ve işlevsellikleri için esneklik sağlar. Magento'nun yönetici arayüzü güçlü pazarlama, arama optimizasyonu ve katalog yönetimi araçlarıyla, kurumlara tüm ihtiyaçlarını karşılayabilen bir site sağlar. Tamamen ölçeklenebilen bir şekilde tasarlanmıştır ve Varien destek ağıyla sağlamlaştırılmıştır. Magento şirketlere üst düzey E-Mağaza çözümü sunmaktadır. <a href="http://www.magentocommerce.com/download" target="_blank">Daha fazlasını oku..</a></p>
 </article>
 
 <article id="whatismagentotheme">
-    <h3>Magento temasÄ± nedir?</h3>
-    <p>Magento temasÄ±, kendine Ã¶zgÃ¼ bir online maÄŸaza tasarÄ±mÄ± sunmaktadÄ±r. Dilerseniz Magento maÄŸazanÄ±zÄ±n gÃ¶rÃ¼nÃ¼ÅŸÃ¼nÃ¼, bir kaÃ§ kolay adÄ±mla, yeni bir tema kurarak tamamen deÄŸiÅŸtirebilirsiniz. Magento temasÄ±nda tÃ¼m gerekli kaynak kodlarÄ± bulunmaktadÄ±r. Yani bu temada kolaylÄ±kla, dilediÄŸiniz ÅŸekilde dÃ¼zenleme veya geliÅŸtirme yapabilirsiniz.</p>
+    <h3>Magento teması nedir?</h3>
+    <p>Magento altyapısına dayanan, mağazanız için tam bir tasarımdır. Magento mağazanızın görüntüsünü bir kaç kolay adımla yeni bir tema kurarak değiştirebilirsiniz. Magento temasının kaynak dosyalarını dilediğiniz gibi düzenleyip, genişletebilirsiniz.</p>
 </article>
 
 <article id="file_structure">
-    <h4>Dosya yapÄ±sÄ±</h4>
+    <h4>Magento dosya yapısı</h4>
 
-    <p>Ä°ndirmiÅŸ olduÄŸunuz tema dosyasÄ±nda bir kaÃ§ klasÃ¶r bulunmaktadÄ±r. Ä°Ã§lerinde neler olduÄŸuna ÅŸÃ¶yle bir bakalÄ±m:</p>
+    <p>İndirdiğiniz tema paketi pek çok klasörden oluşur. Bakalım içlerinde neler var:</p>
 
     <ul class="files_structure">
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder-open"></i> <strong>documentation</strong></dt>
-                <dd> dÃ¶kÃ¼mantasyon dosyalarÄ±nÄ± kapsar.</dd>
+                <dd> size rehberlik edecek dokümantasyonlar içerir.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
-                            ÅŸu anda okumakta olduÄŸunuz ana dÃ¶kÃ¼mantasyon dosyasÄ±.
+                            şu anda okumakta olduğunuz ana rehber dosyası.
                         </dd>
                     </dl>
                 </li>
@@ -38,20 +37,20 @@
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
-                <dd> temaya ait olan gÃ¶rselleri iÃ§erir.</dd>
+                <dd> temaya ait görseller içerir.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
-                <dd> temanÄ±n kaynak dosyalarÄ±nÄ± iÃ§erir.</dd>
+                <dd> temanın kaynak kodlarını içerir.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
                         <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
                         <dd>
-                            temanÄ±n (.psd) formatÄ±ndaki Adobe Photoshop kaynak dosyalarÄ±nÄ± iÃ§erir.
+                            temanın Adobe Photoshop kaynak dosyalarını içerir (.psd).
                         </dd>
                     </dl>
                 </li>
@@ -59,7 +58,7 @@
                     <dl class="inline-term">
                         <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
                         <dd>
-                            temayla gelen ek sayfalarÄ± ve Ã¶rnek kutularÄ± iÃ§erir.
+                            temanın içinde yer alan örnek sayfa ve kutucukları içerir.
                         </dd>
                     </dl>
                 </li>
@@ -67,15 +66,15 @@
                     <dl class="inline-term">
                         <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
                         <dd>
-                            Magento temasÄ±nÄ±n Ã¶rnek veri dosyalarÄ±nÄ± iÃ§erir.
+                           Magento teması için örnek veri dosyasını içerir.
                         </dd>
                     </dl>
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>pub</strong></dt>
                                 <dd>
-                                     Magento'yu kurduÄŸunuz ana dizine yÃ¼klemeniz gereken dosya ve dizinleri iÃ§erir.
+                                    Magento kurulumu sırasında ana dizine yüklenmesi gereken dosya ve klasörleri içerir.
                                 </dd>
                             </dl>
                         </li>
@@ -83,7 +82,7 @@
                             <dl class="inline-term">
                                 <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
                                 <dd>
-                                    veritabanÄ± yedek dosyasÄ±. Tema iÃ§in Ã¶rnek iÃ§erik iÃ§erir.
+                                    veritabanı yedekleme dosyası. Temanın örnek verilerini içerir.
                                 </dd>
                             </dl>
                         </li>
@@ -94,64 +93,64 @@
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
-                <dd> Magento'yu kurduÄŸunuz ana dizine yÃ¼klemeniz gereken tema dosyalarÄ± ve dizinleri iÃ§erir.</dd>
+                <dd> Magento kurulumu sırasında ana dizine yüklenmesi gereken tema dosyalarını ve dizinlerini içerir.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
-                <dd> iÃ§ermektedir Tam Magento kurulum paketi motor dosyalarÄ± ile, tema ve Ã¶rnek iÃ§eriÄŸi (Ã¶rnek fotoÄŸraflar).</dd>
+                <dd> dosyalar, tema ve örnke veriyle (örnek görseller) tam Magento kurulum paketini içerir.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> dosyalarÄ± ayÄ±klayabilmek iÃ§in kullanÄ±lan dosya fullpackage.zip hosting sunucusuna yÃ¼klendiÄŸi zaman.</dd>
+                <dd> sunucuya yüklendiğinde, fullpackage.zip dosyasının içeriğini açmak için kullanılır.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
-                <dd> ÅŸablonun Ã¶zel fontlarÄ±nÄ± (yazÄ± karakter tÃ¼rÃ¼) yÃ¼kleyebileceÄŸiniz baÄŸlantÄ± adreslerini iÃ§erir.</dd>
+                <dd> şablon için yazı türlerinin indirilebileceği adresleri içerir.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
-                <dd> kaynak dosyalarÄ± nasÄ±l Ã§Ä±karmanÄ±z gerektiÄŸini anlatan bilgiler iÃ§erir.</dd>
+                <dd> kaynak dosyaların nasıl açılacağını anlatan rehberi içerir.</dd>
             </dl>            
-        </li>        
+        </li>
     </ul>
 </article>
 <article id="validation">
-    <h3>Validation</h3>
+    <h3>Onaylama</h3>
     <div class="alert alert-warning">
-        <span>Both HTML markup and CSS styles used in our templates are semantically correct and valid. However some W3C errors still can take place. Making code 100% W3C valid eliminates the usage of modern website technologies as CSS3 features and HTML5 markup. Our goal is to deliver rich user experience with high quality templates and sometimes we have to break some rules.</span>
+        <span>Şablonlarımızda kullanılan HTML biçimlemesi ve CSS stilleri anlamsal olarak doğru ve geçerlidir. Yine de bazı W3C hataları ile karşılaşabilirsiniz. Kodu 100% W3C onaylı olarak hazırlamak, modern site teknolojilerinin kullanımını kötü şekilde etkileyebilmektedir. Bizim amacımız, yüksek kalitede şablonlar kullanarak tatmin edici bir kullanıcı deneyimi sağlamaktır. Bu yüzden bazı kuralları gözardı etmekten çekinmemekteyiz.</span>
     </div>
 </article>
 <article id="prepare">
-    <h3>HazÄ±rlÄ±klar</h3>
+    <h3>Hazırlık</h3>
 
-    <p>Magento maÄŸazanÄ±zÄ± kurmadan Ã¶nce, tÃ¼m hazÄ±rlÄ±klarÄ± yaptÄ±ÄŸÄ±nÄ±za emin olunuz. AÅŸaÄŸÄ±daki hazÄ±rlÄ±k aÅŸamalarÄ±nÄ± tamamlayÄ±nÄ±z:</p>
+    <p>Magento mağazanızı kurmadan önce tüm hazırlıkları yaptığınıza emin olunuz. Lütfen aşağıdaki hazırlık aşamalarını tamamlayınız:</p>
 
-    <h4>YazÄ±lÄ±mÄ± dÃ¼zenleme</h4>
+    <h4>Yazılımı düzenlemek</h4>
 
-    <p>Magento ÅŸablonunun Ã¼zerinde rahatÃ§a Ã§alÄ±ÅŸabilmek iÃ§in, tÃ¼m gerekli uygulamalarÄ± indirmenizi tavsiye ederiz. Gerekli yazÄ±lÄ±m listesini, ÅŸablon sayfasÄ±ndan gÃ¶rebilirsiniz.<br /> Her ÅŸablon farklÄ± gereksinimler iÃ§erebilir fakat Ã§oÄŸunlukla aÅŸaÄŸÄ±dakiler geÃ§erlidir:</p>
+    <p>Magento şablonu üzerinde rahatça çalışabilmek için, gerekli olan tüm uygulamaları indirmenizi öneririz. Bu uygulamaların listesini şablonun öngösterim sayfasında bulabilirsiniz. </br> Farklı şablonlar için farklı uygulamalar gerekebilir fakat çoğu için liste şu şekildedir:</p>
     <ol class="index-list">
-        <li>Ã–ncelikle WinZip 9+ (Windows) ve Stuffit Expander 10+ (Mac) kullanarak, ÅŸifreyle korunmakta olan sources_#########.zip arÅŸivini aÃ§malÄ±sÄ±nÄ±z.</li>
-        <li>AyrÄ±ca Adobe Photoshop uygulamasÄ±na da ihtiyacÄ±nÄ±z olabilir. Bu uygulama, .PSD kaynak dosyalarÄ±nÄ± dÃ¼zenlemek iÃ§indir. EÄŸer ÅŸablona ait olan grafik ve gÃ¶rselleri dÃ¼zenlememek isterseniz, bu programa ihtiyacÄ±nÄ±z vardÄ±r.</li>
-        <li>Åablonun kaynak dosyalarÄ±nÄ± dÃ¼zenlemek iÃ§in; Adobe Dreamweaver, Notepad++, Sublime Text gibi bir kod editÃ¶rÃ¼ne ihtiyacÄ±nÄ±z var.</li>
-        <li>DosyalarÄ± hosting sunucusuna yÃ¼klemek iÃ§in, Total Commander, FileZilla, CuteFTP gibi bir dosya aktarÄ±m programÄ±na ihtiyacÄ±nÄ±z var.</li>
+        <li>Öncelikle şifreyle korunmakta olan sources_#########.zip arşivini açmak için WinZip 9+ (Windows) ve Stuffit Expander 10+ (Mac) uygulamalarına ihtiyacınız var. </li>
+        <li>.PSD dosyalarını, şablon tasarım görsellerini ve genel görselleri düzenlemek için Adobe Photoshop uygulamasına ihtiyacınız var.</li>
+        <li>Şablonun kaynak kod dosyalarını düzenlemek için Adobe Dreamweaver, Notepad++, Sublime Text, vs. gibi bir kaynak düzenleyicisi gerekir.</li>
+        <li>Dosyaları sunucuya yüklemek için ise Total Commander, FileZilla, CuteFTP, vs. gibi bir dosya yöneticisi gerekir.</li>
     </ol>
     
-    <h4>Hosting (Site barÄ±ndÄ±rma)</h4>
-    <p>Magento Commerce, PHP/MySQL tabanlÄ± bir uygulama olduÄŸu iÃ§in Magento'nun Ã§alÄ±ÅŸabileceÄŸi bir barÄ±ndÄ±rma sistemi kullanmanÄ±z gerekir.</p>
-    <p>EÄŸer kullanmakta olduÄŸunuz bir hosting servisi varsa,<a href="http://magento.com/resources/system-requirements" target="_blank"> Magento gereksinimleri </a> ni karÅŸÄ±ladÄ±ÄŸÄ±na ve Magento maÄŸazasÄ± iÃ§in kullanÄ±ma hazÄ±r olduÄŸuna emin olunuz.</p>
-    <p>Veya dilerseniz Magento'yu, kendi bilgisayarÄ±nÄ±zda kurulu olan bir lokal sunucu Ã¼zerinden de kullanabilirsiniz. Bunun iÃ§in <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> gibi bir uygulamaya ihtiyacÄ±nÄ±z olacaktÄ±r. Bu uygulamalar kolaylÄ±kla kurulabilir ve Magento'yu Ã§alÄ±ÅŸtÄ±rmak iÃ§in kullanÄ±labilir.</p>
-    <p>Lokal bir barÄ±ndÄ±rma sunucusu kurmak iÃ§in, aÅŸaÄŸÄ±daki sayfalarÄ± inceleyebilirsiniz:</p>
+    <h4>Hosting</h4>
+    <p>Magento E-Mağaza PHP/MySQL tabanlı bir uygulama olduğu için servis sağlayıcınız bunu karşılayabilmeli.</p>
+    <p>Zaten bir hostinginiz varsa <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> Magento gereksinimleri </a>ni karşıladığına ve Magento mağazası için kullanılabilir olduğuna emin olun.</p>
+    <p>Aksi halde, Magento'yu bilgisayarınızdaki yerel sunucunuza da kurabilirsiniz. Yerel bir sunucu oluşturmak için <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> gibi bir uygulama kullanabilirsiniz. Bunlar da herhangi bir program gibi kolayca kurulabilir ve Magento'yu çalıştırabilir.</p>
+    <p>Yerel bir sunucu kurmak için aşağıdaki rehberleri inceleyebilirsiniz:</p>
     <ul class="marked-list">
-        <li><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">AppServ web geliÅŸtiricisi nasÄ±l kurulur?</a></li>
-        <li><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">WAMP web geliÅŸtiricisi nasÄ±l kurulur?</a></li>
-        <li><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">XAMP web geliÅŸtiricisi nasÄ±l kurulur?</a></li>
+        <li><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">AppServ nasıl kurulur</a></li>
+        <li><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">WAMP nasıl kurulur</a></li>
+        <li><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">XAMP nasıl kurulur</a></li>
     </ul>
 </article>

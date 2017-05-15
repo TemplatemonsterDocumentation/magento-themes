@@ -1,9 +1,9 @@
-<h3>Konfiguracja Loga</h3>
-<p>Proszę wykonać następujące kroki przy tworzeniu obrazka loga dołączonego do pakietu motywu (można go obejrzeć na stronie Live Demo).</p>
+<h3>Kofiguracja Logo.</h3>
+<p>Prosimy postępować zgodnie z poniższymi instrukcjami, aby zainstalować domyślne logo, uwzględnione w pakiecie motywu (pojawia się na stronie Live Demo).</p>
 <ol class="index-list"> 
-	<li>Otwórz panel administratora Magento i wybierz <strong>System > Configuration</strong> w górnym menu. <figure class="img-polaroid"><img src="img/magento/Theme-set-8.jpg" alt="" /></figure></li>
-	<li>Wybierz zakładkę "<strong>Design</strong>". <figure class="img-polaroid"><img src="img/magento/Theme-set-9.jpg" alt="" /></figure>	</li>
-	<li>W sekcji "<strong>Header</strong>", zmień wartość pola "<strong>Logo Image Src</strong>". Zmień go z "<strong>gif</strong>" na "<strong>png</strong>".</li>
-	<li>Kliknij przycisk <strong>"Save Config"</strong>.</li>
+	<li>Otwórz stronę panelu administracyjnego Magento i w menu bocznym wybierz <strong>Sklepy > Konfiguracja</strong>.<figure class="img-polaroid"><img src="img/magento/Theme-set-9.jpg" alt="" /></figure></li>
+	<li>Wybierz kartę "<strong>Ogólne</strong>".<figure class="img-polaroid"><img src="img/magento/Theme-set-10.jpg" alt="" /></figure>		</li>
+	<li>W sekcji <strong>Ogólne</strong> wybierz kartę <strong>Projektowanie</strong>. Wybierz <strong>Nagłówek</strong>, i prześlij swoje logo.
+	<li>Kliknij przycisk <strong>Zapisz Konfiguracje</strong>.</li>
 </ol>
-<p>Aby zainstalować logo firmy, musisz przesłać plik zdjęcia loga do folderu <strong>/images</strong> Twojego motywu Magento.</p>	
+<p>W celu zainstalowania logo firmy, należy przesłać plik obrazu logo do folderu <strong>/images</strong> motywu Magento.</p>	

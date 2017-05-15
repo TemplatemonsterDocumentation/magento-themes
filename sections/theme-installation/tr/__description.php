@@ -1,7 +1,8 @@
-<h2 class="item1">Magento ÅŸablon kurulumu</h2>
-<p>Ã–ncelikle, kurduÄŸunuz Magento versiyonunun ÅŸablon gereksinimlerine uygun olduÄŸuna emin olun. EÄŸer Magento'nun eski bir versiyonunu kullanÄ±yorsanÄ±z, gÃ¼ncelleme yapmanÄ±z gerekir. Bunu yapmadan Ã¶nce dosyalarÄ±n ve veritabanÄ±nÄ±n yedeÄŸini almayÄ± unutmayÄ±n. Magento gÃ¼ncellemesi hakkÄ±nda <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a> websitesinden bilgi alabilirsiniz.</p>
-<p>Magento'nuz ÅŸablon gereksinimlerine uygunsa, ÅŸablonu kurabilirsiniz.</p>
+<h2 class="item1">Magento tema kurulumu</h2>
+<div class="alert alert-danger">Bu tema Magento 1.9 ile uyumlu değildir. Sadece Magento 2.0.0 ile çalışır.</div>
+<p>Öncelikle elinizdeki versiyonun şablon gereksinimlerini karşıladığına emin olunuz. Eğer zaman aşımına uğramış bir versiyonunuz varsa, Magento'nuzu güncellemelisiniz. Bunu yapmadan önce mağaza dosyalarınızı ve veritabanınızı yedeklemeyi unutmayınız. Magento güncelleme rehberini <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a> sayfasında bulabilirsiniz.</p>
+<p>Eğer Magento'nuz şablon gereksinimlerine uygunsa, şablonu kurmaya başlayabilirsiniz.</p>
 <ol class="index-list">
-  <li>Åablon paketini aÃ§Ä±n ve <strong>theme###</strong> klasÃ¶rÃ¼ne gidin.</li>
-	<li>Åimdi <strong>theme###</strong> klasÃ¶rÃ¼nÃ¼n iÃ§eriÄŸini, Magento kurulum dizinine yÃ¼kleyin (buradaki "<strong>app</strong>", "<strong>skin</strong>" ve diÄŸer soyalarÄ± yÃ¼kleyin). Bu klasÃ¶rler tema dosyalarÄ±nÄ± iÃ§erir. Varolan dosyalarÄ±nÄ±zÄ± etkilemezler.</li>
+    <li>Şablon paketini açın ve <strong>theme###</strong> klasörüne gidin.</li>
+		<li><strong>app</strong> klasörünü, sunucunuzdaki Magento ana kurulum dizinine yükleyin. Bu klasörde şablon dosyaları bulunur ve varolan dosyalarınızı etkilemez. </li>
 </ol>

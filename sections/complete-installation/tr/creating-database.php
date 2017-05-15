@@ -1,25 +1,25 @@
-<h3>VeritabanÄ± oluÅŸturmak</h3>
-<p>Ã–ncelikle Magento sanal maÄŸazanÄ±z iÃ§in yeni bir veritabanÄ± hazÄ±rlamalÄ±sÄ±nÄ±z. VeritabanÄ±nÄ±, hosting hesabÄ±nÄ±zÄ±n kontrol panelinde bulunan (<strong>PhpMyAdmin</strong>) aracÄ±lÄ±ÄŸÄ±yla oluÅŸturabilirsiniz.</p>
-<p>VeritabanÄ±nÄ± oluÅŸtururken; veritabanÄ± adÄ±, veritabanÄ± kullanÄ±cÄ± adÄ±, ÅŸifre ve sunucu adÄ± bilgileri de oluÅŸturulacaktÄ±r. Bu bilgileri, ilerki aÅŸamalarda kullanmak Ã¼zere bir yere kaydetmelisiniz.</p>
+<h3>Veritabanı oluşturmak</h3>
+<p>Öncelikle Magento mağazanız için yeni bir veritabanı oluşturmalısınız. Sunucunuzun kontrol panelinden (<strong>genellikle PhpMyAdmin</strong>), yeni veritabanını oluşturabilirsiniz.</p>
+<p>Veritabanını oluştururken şu bilgiler edinilir: veritabanı adı, veritabanı kullanıcı adı, şifre ve sunucu ismi. Bu bilgileri, daha sonraki Magento kurulumları için kaydediniz.</p>
 
-<p>phpMyAdmin ile 3 kolay adÄ±mda yeni bir veritabanÄ± oluÅŸturacaksÄ±nÄ±z (aÅŸaÄŸÄ±daki listeye bakÄ±nÄ±z):</p>
+<p>phpMyAdmin aracıyla 3 kolay adımda yeni bir veritabanı oluşturabilirsiniz: </p>
 
 <ol class="index-list">
 	<li>
-		<strong>"VeritabanÄ±"</strong> sekmesini aÃ§Ä±n, veritabanÄ± listesini gÃ¶rÃ¼ntÃ¼leyin.
+		<p>Öncelikle <strong>"Veritabanı"</strong> sekmesini açın. Veritabanı listesini göreceksiniz.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		VeritabanÄ± ismini yazÄ±n. <strong>"OluÅŸtur"</strong> yazÄ±sÄ±na tÄ±klayÄ±n.
+		<p>Buraya <strong>veritabanı adı</strong>nı yazın. Sonra <strong>"Oluştur"</strong> düğmesine tıklayın.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-2.jpg" alt="" /></figure>
 	</li>
 	<li>
-		VeritabanÄ±nÄ±z artÄ±k listede yerini aldÄ±. VeritabanÄ± bilgilerinizi gÃ¶rmek iÃ§in, ismine tÄ±klayÄ±n.
+		<p>Veritabanınız artık listede yerini aldı. Veritabanına girmek için, listeden ismine tıklamanız yeterli.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-3.jpg" alt="" /></figure>
 	</li>
 </ol>
 
-<p>DetaylÄ± anlatÄ±m iÃ§in <i class="icon-film"> </i><a href="/help/how-to-create-a-database.html" target="_blank"> VeritabanÄ± nasÄ±l oluÅŸturulur</a> konulu videoyu izleyebilirsiniz.</p>
+<p>Detaylı video anlatım için <a href="/help/how-to-create-a-database.html" target="_blank">Veritabanı nasıl oluşturulur</a> a bakabilirsiniz.</p>
 
-<div class="alert alert-warning"><span>EÄŸer veritabanÄ±nÄ± oluÅŸtururken herhangi bir sorunla karÅŸÄ±laÅŸÄ±rsanÄ±z, lÃ¼tfen hosting saÄŸlayÄ±cÄ±nÄ±zla iletiÅŸime geÃ§iniz.</span></div>
+<div class="alert alert-warning"><span>Veritabanını oluştururken sorunlarla karşılaşırsanız, lütfen servis sağlayıcınızla iletişime geçiniz.</span></div>
 		

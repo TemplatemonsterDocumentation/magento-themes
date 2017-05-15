@@ -1,9 +1,9 @@
-<h3>Configurazione Logo</h3>
-<p>Segui questa procedura quando vuoi impostare l'immagine del logo inclusa nel pacchetto del tema (puoi vederlo sulla pagina Live Demo).</p>
+<h3>Configurazione logo.</h3>
+<p>Si prega di attenersi alla seguente procedura per la messa in immagine del logo incluso nel pacchetto tema (è possibile visualizzare sulla pagina Demo Live).</p>
 <ol class="index-list"> 
-	<li>Apri il pannello di amministrazione di Magento e vai su <strong>System > Configuration</strong> nel menù in alto.<figure class="img-polaroid"><img src="img/magento/Theme-set-8.jpg" alt="" /></figure></li>
-	<li>Seleziona la scheda "<strong>Design</strong>".<figure class="img-polaroid"><img src="img/magento/Theme-set-9.jpg" alt="" /></figure></li>
-	<li>Nella sezione "<strong>Header</strong>", modifica il valore nel campo "<strong>Logo Image Src</strong>", cambiandolo da "<strong>gif</strong>" a "<strong>png</strong>".</li>
-	<li>Clicca su <strong>"Save Config"</strong>.</li>
+	<li>Aprire il pannello di amministrazione di Magento e selezionare <strong>Negozi > Configurazione (Stores > Configuration)</strong> nel menu laterale.<figure class="img-polaroid"><img src="img/magento/Theme-set-9.jpg" alt="" /></figure></li>
+	<li>Seleziona "<strong>Generale (General)</strong>" linguetta.<figure class="img-polaroid"><img src="img/magento/Theme-set-10.jpg" alt="" /></figure>		</li>
+	<li>In "<strong>Generale (General)</strong>" sezione, selezionare la <strong>Design (Design)</strong> linguetta. Scegliere <strong>Intestazione (Header)</strong>, e carica il tuo logo.
+	<li>Clicca <strong>"Salva Configurazione" ("Save Config")</strong> pulsante.</li>
 </ol>
-<p>Per aggiungere il logo della tua compagnia, è necessario caricare l'immagine del logo sulla cartella <strong>/images</strong> del tuo tema Magento.</p>	
+<p>Per installare il logo della società, è necessario caricare il file immagine del logo nella <strong>/images</strong> cartella del vostro tema di Magento.</p>	

@@ -73,7 +73,7 @@
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>pub</strong></dt>
                                 <dd>
                                     содержит файлы и папки, которые необходимо загрузить в корневую папку используемой установки Magento.
                                 </dd>
@@ -147,7 +147,7 @@
     
     <h4>Хостинг</h4>
     <p>Поскольку Magento Commerce является приложением PHP/MySQL, необходимо подготовить  хостинг сервер.</p>
-    <p>При наличии активного сервера, нужно проверить его на соответствие <a href="http://magento.com/resources/system-requirements" target="_blank"> требованиям Magento </a> и на готовность использовать интернет-магазины Magento.</p>
+    <p>При наличии активного сервера, нужно проверить его на соответствие <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> требованиям Magento </a> и на готовность использовать интернет-магазины Magento.</p>
     <p>Также можно установить Magento на компьютер при помощи локального сервера. Для создания локального хостинг сервера необходимо использовать программное обеспечение <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> и т.п. Любое из них устанавливается как обычная программа и поддерживает Magento. </p>
     <p>Вы можете воспользоваться следующими туториалами для настройки локального сервера:</p>
     <ul class="marked-list">

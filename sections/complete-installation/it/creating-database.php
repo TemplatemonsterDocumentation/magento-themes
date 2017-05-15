@@ -1,25 +1,25 @@
-		
-<h3>Creare un database</h3>
-<p>Prima di tutto è necessario preparare un nuovo database per il tuo store Magento. Puoi creare il nuovo database utilizzando lo strumento di gestione database del pannello di controllo del tuo servizio hosting (<strong>solitamente PhpMyAdmin</strong>).</p>
-<p>Nella creazione del database saranno ricevuti i seguenti dati: nome database, nome utente database, password e nome del tuo server. Sarà necessario salvare tutte queste informazione, perché saranno poi necessarie nel prosieguo dell'installazione. </p>
+<h3>Creazione di un database</h3>
+<p>In primo luogo, è necessario preparare un nuovo database per il tuo negozio Magento. È possibile creare il nuovo database utilizzando lo strumento di gestione di database dal pannello di controllo di hosting (<strong>di solito PhpMyAdmin (usually PhpMyAdmin)</strong>).</p>
+<p>I seguenti dati saranno ricevuti durante la creazione di un database: nome del database, nome utente del database, la password e il nome del server. È necessario salvare questi dati in quanto sarà necessario per ulteriore installazione di Magento.</p>
 
-<p>Con lo strumento phpMyAdmin, sarai in grado di creare un nuovo database in 3 semplici passi (vedi le slide di seguito): </p>
+<p>Con lo strumento phpMyAdmin si sarà in grado di creare un nuovo database in 3 semplici passi (controllare le slide qui sotto): </p>
 
 <ol class="index-list">
 	<li>
-		Apri la scheda <strong>"Database"</strong>. Vedrai la lista dei databases.
+		<p>Aprire il <strong>"Database"</strong> tab, si vedranno nell'elenco dei database.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		Inserisci il nome del tuo database. Clicca sul pulsante <strong>"Create"</strong>.
+		<p>Inserisci il tuo <strong>nome database (database name)</strong>. Clicca <strong>"Crea" ("Create")</strong> pulsante.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-2.jpg" alt="" /></figure>
 	</li>
 	<li>
-		<p>Il tuo database è apparso sulla lista. Per entrare nel database, clicca sul suo nome nella lista.</p>
+		<p>Il database è apparso nella lista. Al fine di accedere al database, fare clic sul suo nome nella lista.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-3.jpg" alt="" /></figure>
 	</li>
 </ol>
 
-<p>Qui puoi anche vedere una guida video su <a href="/help/how-to-create-a-database.html" target="_blank"> Come creare un database</a>.</p>
+<p>È inoltre possibile controllare il video tutorial dettagliato su <a href="/help/how-to-create-a-database.html" target="_blank"> Come creare il database </a></p>
 
-<div class="alert alert-warning"><span>In caso di problemi con la creazione del database, prova a contattare il tuo provider per chiedere assistenza.</span></div>		
+<div class="alert alert-warning"><span>Se avete problemi con la creazione di un database, si prega di contattare il proprio fornitore di hosting per aiuto e l'assistenza.</span></div>
+		

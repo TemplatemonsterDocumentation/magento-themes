@@ -1,7 +1,8 @@
-<h2 class="item1">Instalacja szablonu Magento</h2>
-<p>Przede wszystkim upewnij się, że wersja instalacji Magento spełnia wymagania szablonów. Jeśli korzystasz z nieaktualnej wersji Magento, musisz ją uaktualnić. Nie zapomnij wykonać kopii zapasowej plików oraz bazy danych. Aktualne instrukcje do Magento są dostępne na stronie <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a>.</p>
-<p>Jeśli silnik Magento spełnia wymagania szablonu, można rozpocząć instalację szablonu.  </p>
+<h2 class="item1">Instalacja motywu Magento</h2>
+<div class="alert alert-danger">Ten motyw nie jest kompatybilny z platformą Magento 1.9. Będzie pracować tylko z platformą Magento 2.0.0.</div>
+<p>Po pierwsze, należy upewnić się, że używana wersja instalacji Magento odpowiada wymaganiom szablonu. Jeżeli korzystasz z przestarzałej wersji platformy Magento, należy ją zaktualizować. Nie zapomnij zrobić kopię zapasową plików i bazy danych sklepu. Szczegółowy przewodnik aktualizacji Magento można znaleźć na stronie internetowej <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a>.</p>
+<p>Jeżeli posiadana platforma Magento odpowiada wymaganiom szablonów, można uruchomić instalację szablonu.</p>
 <ol class="index-list">
-    <li>Otwórz pakiet szablonu i przejdź do folderu <strong>theme###</strong>.</li>
-		<li>Prześlij zawartość folderu <strong>theme###</strong> do katalogu instalacji Magento (prześlij  "<strong>app</strong>", "<strong>skin</strong>" oraz inne foldery). Te foldery zawierają pliki motywu. Nie będą miały wpływu na istniejące już pliki.</li>
+    <li>Otwórz opakowanie szablonu i przejdź do folderu <strong>theme###</strong>.</li>
+		<li>Prześlij folder <strong>aplikacje (app)</strong> do głównego katalogu instalacji Magento na serwerze. Ten folder zawiera pliki szablonów, które nie będą mieli wpływu na istniejące pliki. </li>
 </ol>

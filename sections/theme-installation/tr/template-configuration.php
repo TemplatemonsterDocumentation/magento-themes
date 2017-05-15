@@ -1,27 +1,42 @@
-<h3>Åablon ayarlarÄ±</h3>
-<p>Buradaki Ã¶rneÄŸe gÃ¶re ÅŸablon ayarlarÄ±nÄ± inceleyeceÄŸiz. TÄ±pkÄ± bizim Demo ÅŸablonumuzdaki gibi ayarlanmÄ±ÅŸtÄ±r ve Ã¼rÃ¼n verisini herhangi ÅŸekilde etkilemeyecektir.</p>
+<h3>Şablon ayarları</h3>
+<p>Örnek üzerinden, şablon düzenleme seçeneklerine bakacağız. Demo sayfamızdaki gibi olacak ve ürün verileri etkilenmeyecek.</p>
 
-<h4>Yeni ÅŸablonu etkinleÅŸtirmek</h4>
+<h4>Yeni temayı etkinleştirmek</h4>
 <ol class="index-list">
-	<li>Magento yÃ¶netici panelini aÃ§Ä±n ve Ã¼st menÃ¼den <strong>System > Design</strong> (Sistem/TasarÄ±m) bÃ¶lÃ¼mÃ¼ne girin.<figure class="img-polaroid"><img src="img/magento/Theme-set-1.jpg" alt="" /></figure></li>
-	<li>Buradan "<strong>TasarÄ±m Ekle</strong>" ye basÄ±n.<figure class="img-polaroid"><img src="img/magento/Theme-set-2.jpg" alt="" /></figure></li>
-	<li>Åimdi "<strong>Ã–zel TasarÄ±m</strong>" alanÄ±ndan tema ismini seÃ§in (mesela, theme###). ArdÄ±ndan "<strong>Kaydet</strong>" e basÄ±n ve deÄŸiÅŸiklikleri kaydedin. <figure class="img-polaroid"><img src="img/magento/Theme-set-3.jpg" alt="" /></figure></li>	
+	<li>Magento yönetici panelini açın ve <strong>Mağazalar > Ayarlar</strong> menüsüne girin.
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-1.jpg" alt="" /></figure>
+	</li>
+	<li><strong>Genel</strong> menüsünden <strong>Görünüm</strong> sekmesine geçin. <strong>Tema Tasarla</strong> sekmesine girin ve açılır listeden gerekli temayı seçip <strong>Ayarları Kaydet</strong> düğmesine basın.
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-2.jpg" alt="" /></figure>
+	</li>	
 </ol>
 
-<h4>Veri iÃ§eriÄŸini gÃ¼ncelle</h4>
+<h4>Veriyi tekrar dizinlemek</h4>
 <ol class="index-list">
-	<li>Magento yÃ¶netici panelini aÃ§Ä±n ve Ã¼st menÃ¼den <strong>System > Index Management</strong> (Sistem/Ä°Ã§erik YÃ¶neticisi) bÃ¶lÃ¼mÃ¼ne girin. <figure class="img-polaroid"><img src="img/magento/Theme-set-4.jpg" alt="" /></figure></li>
-	<li>Sol Ã¼st tarafta bulunan "<strong>Hepsini SeÃ§</strong>" kutusuna tÄ±klayÄ±n. <figure class="img-polaroid"><img src="img/magento/Theme-set-5.jpg" alt="" /></figure></li>
-	<li>Buradaki "<strong>Eylemler</strong>" bÃ¶lÃ¼mÃ¼nden "<strong>Reindex Data</strong>" (Veri iÃ§eriÄŸini gÃ¼ncelle) ye tÄ±klayÄ±n.</li>
-	<li>ArdÄ±ndan "<strong>Onayla</strong>" ya basÄ±n.</li>
-	<li>Bu iÅŸlem bir kaÃ§ dakika sÃ¼rebilir.</li>
+	<li>Magento yönetici panelinden <strong>Sistem > İçerik Yöneticisi</strong> menüsüne girin.
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-3.jpg" alt="" /></figure>
+	</li>
+	<li>İlk sütundaki açılır listeden "<strong>Hepsini Seç</strong>" seçeneğini işaretleyin. 
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-4.jpg" alt="" /></figure>
+	</li>
+	<li>Üst bölümdeki "<strong>Tercih</strong>" kısmından "<strong>Kayıtla Güncelle</strong>" seçeneğini seçin. Böylece yönetici panelde değişiklik yaptığınız zaman, ilgili veri yeniden otomatik olarak dizinlenir.  
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-5.jpg" alt="" /></figure>
+	</li>
+	<li>Son olarak "<strong>Onayla</strong>" düğmesine basın.</li>
+	<li>İşlem bir kaç dakika sürebilir.</li>
 </ol>
 
-<h4>KaÅŸeyi etkisizleÅŸtir</h4>
-<p>DeÄŸiÅŸikliklerin sitenizde anÄ±nda gÃ¶zÃ¼kmesini isterseniz, kaÅŸeyi etkisizleÅŸtirmeniz gerekir. Bu, her deÄŸiÅŸiklikten sonra kaÅŸeyi temizlemek iÃ§in kullanÄ±lan sÃ¼reyi Ã¶nler. DÃ¼zenlemeniz bittikten sonra yeniden aktifleÅŸtirebilirsiniz.</p>
+<h4>Kaşelemeyi kapat</h4>
+<p>Site üzerinde yaptığınız değişikliklerin, anında görülebilmesi için kaşelemeyi kapatmalısınız. Yoksa her değişiklikte kaşeyi farklı şekilde temizlemeniz gerekir. Sitenizde değişiklik yaptıktan sonra kaşelemeyi, isterseniz tekrar etkin hale getirebilirsiniz.</p>
 <ol class="index-list">
-	<li>Magento yÃ¶netici paneline girin ve Ã¼st menÃ¼den <strong>System > Cache Management</strong> (Sistem/KaÅŸe YÃ¶neticisi) ne tÄ±klayÄ±n.<figure class="img-polaroid"><img src="img/magento/Theme-set-6.jpg" alt="" /></figure></li>
-	<li>Sol Ã¼st kÃ¶ÅŸeden "<strong>Hepsini SeÃ§</strong>" e tÄ±klayÄ±n. <figure class="img-polaroid"><img src="img/magento/Theme-set-7.jpg" alt="" /></figure></li>
-	<li>SaÄŸ taraftaki "<strong>Eylemler</strong>" bÃ¶lÃ¼mÃ¼nden "<strong>EtkisizleÅŸtir</strong>" e tÄ±klayÄ±n. </li>
-	<li>Son olarak "<strong>Onayla</strong>" dÃ¼ÄŸmesine basÄ±n.</li>
+	<li>Magento yönetici panelinden <strong>Sistem > Kaşe Yönetimi</strong> menüsüne girin. 
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-6.jpg" alt="" /></figure>
+	</li>
+	<li>İlk sütundaki açılır listeden "<strong>Hepsini Seç</strong>" seçeneğini işaretleyin. 
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-7.jpg" alt="" /></figure>
+	</li>
+	<li>Üst kısımdaki "<strong>Yenileme</strong>" alanından "<strong>Kapalı</strong>" seçeneğini seçin.
+		<figure class="img-polaroid"><img src="img/magento/Theme-set-8.jpg" alt="" /></figure>
+	</li>
+	<li>Son olarak "<strong>Onayla</strong>" düğmesine basın.</li>
 </ol>

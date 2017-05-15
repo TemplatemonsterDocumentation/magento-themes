@@ -15,102 +15,354 @@
 	"articles":
 	[		
 		{
-			"id":"google-map",
+			"id":"ajax-whishlist",
 			"translations":{
-				"en":"Google Map",
-				"ru":"Google Map",
-				"tr":"Google Map",
-				"de":"Google Map",
-				"es":"Google Map",
-				"fr":"Carte Google",
-				"it":"Google Map",
-				"pl":"Mapy Google",
-				"pt":"Google Map"
+				"en":"Ajax Wishlist",
+				"ru":"Ajax Wishlist",
+				"tr":"Ajax Wishlist",
+				"de":"Ajax Wishlist",
+				"es":"Ajax Wishlist",
+				"fr":"Ajax Wishlist",
+				"it":"Ajax Wishlist",
+				"pl":"Ajax Wishlist",
+				"pt":"Ajax Wishlist"
 			}
 		},		
 		{
-			"id":"facebook-like-box",
+			"id":"blog",
 			"translations":{
-				"en":"Facebook like box",
-				"ru":"Facebook like box",
-				"tr":"Facebook like box",
-				"de":"Facebook like box",
-				"es":"Bot&oacute;n Me Gusta de Facebook",
-				"fr":"Like Box de Facebook",
-				"it":"Casella Facebook Mi Piace",
-				"pl":"Moduł Facebook like box",
-				"pt":"Caixa de Curtidas do Facebook"
+				"en":"Blog",
+				"ru":"Blog",
+				"tr":"Blog",
+				"de":"Blog",
+				"es":"Blog",
+				"fr":"Blog",
+				"it":"Blog",
+				"pl":"Blog",
+				"pt":"Blog"
+			}
+		},
+		{
+			"id":"ajax-catalog",
+			"translations":{
+				"en":"Catalog Ajax",
+				"ru":"Catalog Ajax",
+				"tr":"Catalog Ajax",
+				"de":"Catalog Ajax",
+				"es":"Catalog Ajax",
+				"fr":"Catalog Ajax",
+				"it":"Catalog Ajax",
+				"pl":"Catalog Ajax",
+				"pt":"Catalog Ajax"
+			}
+		},
+		{
+			"id":"catalog-images",
+			"translations":{
+				"en":"Catalog Images Grid",
+				"ru":"Catalog Images Grid",
+				"tr":"Catalog Images Grid",
+				"de":"Catalog Images Grid",
+				"es":"Catalog Images Grid",
+				"fr":"Catalog Images Grid",
+				"it":"Catalog Images Grid",
+				"pl":"Catalog Images Grid",
+				"pt":"Catalog Images Grid"
 			}
 		},		
 		{
-			"id":"instagram-module",
+			"id":"ajax-search",
 			"translations":{
-				"en":"Instagram module",
-				"ru":"Instagram module",
-				"tr":"Instagram modülü",
-				"de":"Instagram module",
-				"es":"M&oacute;dulo de Instagram",
-				"fr":"Module Instagram",
-				"it":"Modulo Instagram",
-				"pl":"Moduł Instagram",
-				"pt":"Módulo do Instagram"
+				"en":"Catalog Search Ajax",
+				"ru":"Catalog Search Ajax",
+				"tr":"Catalog Search Ajax",
+				"de":"Catalog Search Ajax",
+				"es":"Catalog Search Ajax",
+				"fr":"Catalog Search Ajax",
+				"it":"Catalog Search Ajax",
+				"pl":"Catalog Search Ajax",
+				"pt":"Catalog Search Ajax"
+			}
+		},
+		{
+			"id":"facebook-feed",
+			"translations":{
+				"en":"Facebook Share",
+				"ru":"Facebook Share",
+				"tr":"Facebook Share",
+				"de":"Facebook Share",
+				"es":"Facebook Share",
+				"fr":"Facebook Share",
+				"it":"Facebook Share",
+				"pl":"Facebook Share",
+				"pt":"Facebook Share"
 			}
 		},		
 		{
-			"id":"twitter-module",
+			"id":"featured-products",
 			"translations":{
-				"en":"Twitter module",
-				"ru":"Twitter module",
-				"tr":"Twitter modülü",
-				"de":"Twitter module",
-				"es":"M&oacute;dulo de Twitter",
-				"fr":"Module Twitter",
-				"it":"Modulo Twitter",
-				"pl":"Moduł Twitter",
-				"pt":"Módulo do Twitter"
+				"en":"Featured Products",
+				"ru":"Featured Products",
+				"tr":"Featured Products",
+				"de":"Featured Products",
+				"es":"Featured Products",
+				"fr":"Featured Products",
+				"it":"Featured Products",
+				"pl":"Featured Products",
+				"pt":"Featured Products"
+			}
+		},	
+		{
+			"id":"film-slider",
+			"translations":{
+				"en":"Film Slider",
+				"ru":"Film Slider",
+				"tr":"Film Slider",
+				"de":"Film Slider",
+				"es":"Film Slider",
+				"fr":"Film Slider",
+				"it":"Film Slider",
+				"pl":"Film Slider",
+				"pt":"Film Slider"
+			}
+		},
+		{
+			"id":"googlemap",
+			"translations":{
+				"en":"GoogleMap",
+				"ru":"GoogleMap",
+				"tr":"GoogleMap",
+				"de":"GoogleMap",
+				"es":"GoogleMap",
+				"fr":"GoogleMap",
+				"it":"GoogleMap",
+				"pl":"GoogleMap",
+				"pt":"GoogleMap"
+			}
+		},
+		{
+			"id":"image-zoom",
+			"translations":{
+				"en":"Image Zoom",
+				"ru":"Image Zoom",
+				"tr":"Image Zoom",
+				"de":"Image Zoom",
+				"es":"Image Zoom",
+				"fr":"Image Zoom",
+				"it":"Image Zoom",
+				"pl":"Image Zoom",
+				"pt":"Image Zoom"
+			}
+		},
+		{
+			"id":"instagram-feed",
+			"translations":{
+				"en":"Instagram Feed",
+				"ru":"Instagram Feed",
+				"tr":"Instagram Feed",
+				"de":"Instagram Feed",
+				"es":"Instagram Feed",
+				"fr":"Instagram Feed",
+				"it":"Instagram Feed",
+				"pl":"Instagram Feed",
+				"pt":"Instagram Feed"
 			}
 		},		
 		{
-			"id":"newsletter-popup",
+			"id":"megamenu",
 			"translations":{
-				"en":"Newsletter popup",
-				"ru":"Newsletter popup",
-				"tr":"Newsletter popup",
-				"de":"Newsletter popup",
-				"es":"Ventana emergente de noticias",
+				"en":"Megamenu",
+				"ru":"Megamenu",
+				"tr":"Megamenu",
+				"de":"Megamenu",
+				"es":"Megamenu",
+				"fr":"Megamenu",
+				"it":"Megamenu",
+				"pl":"Megamenu",
+				"pt":"Megamenu"
+			}
+		},		
+		{
+			"id":"newsletter",
+			"translations":{
+				"en":"Newsletter Pop-up",
+				"ru":"Newsletter Pop-up",
+				"tr":"Newsletter Pop-up",
+				"de":"Newsletter Pop-up",
+				"es":"Newsletter Pop-up",
 				"fr":"Newsletter Pop-up",
-				"it":"Pop-up Newsletter",
-				"pl":"Moduł Newsletter popup",
-				"pt":"Newsletter popup"
+				"it":"Newsletter Pop-up",
+				"pl":"Newsletter Pop-up",
+				"pt":"Newsletter Pop-up"
 			}
-		},		
+		},
 		{
-			"id":"special-price-countdown",
+			"id":"parallax",
 			"translations":{
-				"en":"Special price countdown",
-				"ru":"Special price countdown",
-				"tr":"Special price countdown",
-				"de":"Special price countdown",
-				"es":"Cuenta atr&aacute;s de precios especiales",
-				"fr":"Compte à Rebours du Prix Spécial",
-				"it":"Conto alla rovescia prezzo speciale",
-				"pl":"Motyw Special price countdown",
-				"pt":"Contador de descontos"
+				"en":"Parallax",
+				"ru":"Parallax",
+				"tr":"Parallax",
+				"de":"Parallax",
+				"es":"Parallax",
+				"fr":"Parallax",
+				"it":"Parallax",
+				"pl":"Parallax",
+				"pt":"Parallax"
 			}
-		},		
+		},
 		{
-			"id":"product-list-gallery",
+			"id":"ajax-compare",
 			"translations":{
-				"en":"Product list gallery",
-				"ru":"Product list gallery",
-				"tr":"Product list gallery",
-				"de":"Product list gallery",
-				"es":"Product list gallery",
-				"fr":"Galerie de la liste de produits",
-				"it":"Product List Gallery",
-				"pl":"Galeria produktów",
-				"pt":"Product list gallery"
+				"en":"Product Ajax Compare",
+				"ru":"Product Ajax Compare",
+				"tr":"Product Ajax Compare",
+				"de":"Product Ajax Compare",
+				"es":"Product Ajax Compare",
+				"fr":"Product Ajax Compare",
+				"it":"Product Ajax Compare",
+				"pl":"Product Ajax Compare",
+				"pt":"Product Ajax Compare"
 			}
-		}		
+		},
+		{
+			"id":"quick",
+			"translations":{
+				"en":"Quick View",
+				"ru":"Quick View",
+				"tr":"Quick View",
+				"de":"Quick View",
+				"es":"Quick View",
+				"fr":"Quick View",
+				"it":"Quick View",
+				"pl":"Quick View",
+				"pt":"Quick View"
+			}
+		},
+		{
+			"id":"site-maintenance",
+			"translations":{
+				"en":"Site Maintenance",
+				"ru":"Site Maintenance",
+				"tr":"Site Maintenance",
+				"de":"Site Maintenance",
+				"es":"Site Maintenance",
+				"fr":"Site Maintenance",
+				"it":"Site Maintenance",
+				"pl":"Site Maintenance",
+				"pt":"Site Maintenance"
+			}
+		},
+		{
+			"id":"smart-product-labels",
+			"translations":{
+				"en":"Smart Product Labels",
+				"ru":"Smart Product Labels",
+				"tr":"Smart Product Labels",
+				"de":"Smart Product Labels",
+				"es":"Smart Product Labels",
+				"fr":"Smart Product Labels",
+				"it":"Smart Product Labels",
+				"pl":"Smart Product Labels",
+				"pt":"Smart Product Labels"
+			}
+		},
+		{
+			"id":"social-login",
+			"translations":{
+				"en":"Social Login",
+				"ru":"Social Login",
+				"tr":"Social Login",
+				"de":"Social Login",
+				"es":"Social Login",
+				"fr":"Social Login",
+				"it":"Social Login",
+				"pl":"Social Login",
+				"pt":"Social Login"
+			}
+		},
+		{
+			"id":"social-sharing",
+			"translations":{
+				"en":"Social Sharing",
+				"ru":"Social Sharing",
+				"tr":"Social Sharing",
+				"de":"Social Sharing",
+				"es":"Social Sharing",
+				"fr":"Social Sharing",
+				"it":"Social Sharing",
+				"pl":"Social Sharing",
+				"pt":"Social Sharing"
+			}
+		},
+		{
+			"id":"timer",
+			"translations":{
+				"en":"Special Price Timer",
+				"ru":"Special Price Timer",
+				"tr":"Special Price Timer",
+				"de":"Special Price Timer",
+				"es":"Special Price Timer",
+				"fr":"Special Price Timer",
+				"it":"Special Price Timer",
+				"pl":"Special Price Timer",
+				"pt":"Special Price Timer"
+			}
+		},
+		{
+			"id":"shopbybrand",
+			"translations":{
+				"en":"Shop by Brand",
+				"ru":"Shop by Brand",
+				"tr":"Shop by Brand",
+				"de":"Shop by Brand",
+				"es":"Shop by Brand",
+				"fr":"Shop by Brand",
+				"it":"Shop by Brand",
+				"pl":"Shop by Brand",
+				"pt":"Shop by Brand"
+			}
+		},
+		{
+			"id":"theme-options",
+			"translations":{
+				"en":"Theme Options",
+				"ru":"Theme Options",
+				"tr":"Theme Options",
+				"de":"Theme Options",
+				"es":"Theme Options",
+				"fr":"Theme Options",
+				"it":"Theme Options",
+				"pl":"Theme Options",
+				"pt":"Theme Options"
+			}
+		},
+			{
+			"id":"theme-updater",
+			"translations":{
+				"en":"Theme Updater",
+				"ru":"Theme Updater",
+				"tr":"Theme Updater",
+				"de":"Theme Updater",
+				"es":"Theme Updater",
+				"fr":"Theme Updater",
+				"it":"Theme Updater",
+				"pl":"Theme Updater",
+				"pt":"Theme Updater"
+			}
+		},
+		{
+			"id":"twitter-feed",
+			"translations":{
+				"en":"Twitter Feed",
+				"ru":"Twitter Feed",
+				"tr":"Twitter Feed",
+				"de":"Twitter Feed",
+				"es":"Twitter Feed",
+				"fr":"Twitter Feed",
+				"it":"Twitter Feed",
+				"pl":"Twitter Feed",
+				"pt":"Twitter Feed"
+			}
+		}
 	]
 }

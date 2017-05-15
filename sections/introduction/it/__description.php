@@ -1,35 +1,36 @@
-<h2 class="item1">Introduction</h2>
+<h2 class="item1">Introduzione</h2>
 <p>
-    Grazie per aver acquistato un template Magento. Questa documentazione è suddivisa in diverse parti e illustra l'intera procedura per installare e gestire uno store Magento a partire da zero. Abbiamo fatto del nostro meglio per rendere questo manuale il più chiaro possibile.
+    Grazie per aver scaricato Magento tema. Questa documentazione è costituito da più parti e le coperture
+    l'intero processo di installazione e la configurazione di Magento tema partendo da zero.
 </p>
 
 <article id="whatismagento">
-    <h3>Cos'è Magento Commerce?</h3>
-    <p>Magento è una piattaforma eCommerce ricca di funzioni basata su tecnologia open-source. La piattaforma offre la possibilità di gestire contenuti, aspetto e funzionalità del vostro negozio eCommerce con grande flessibilità e pieno controllo. L'interfaccia di amministrazione di Magento è intuitiva ma offre potenti strumenti di marketing, ottimizzazione di motori di ricerca, e gestione catalogo, dando al commerciante la possibilità di creare un sito che sia fatto su misura per i propri specifici modelli di business. Sviluppato per essere completamente scalabile e sostenuto dalla rete di supporto Varien, Magento offre a ogni compagnia la soluzione eCommerce definitiva. <a href="http://www.magentocommerce.com/download" target="_blank">Altre informazioni</a></p>
+    <h3>Qual è Magento Commerce?</h3>
+    <p>Magento è una piattaforma di e-commerce ricco di funzionalità costruito con la tecnologia open-source. Esso fornisce flessibilità e controllo sul look, contenuti e funzionalità del negozio e-commerce. Interfaccia di amministrazione intuitiva di Magento dispone potente marketing, ottimizzazione dei motori di ricerca e strumenti di gestione catalogo per dare i commercianti il potere di creare siti che sono su misura per le loro esigenze di business. Progettato per essere completamente scalabile e sostenuta da rete di sostegno di varie network, Magento offre alle aziende la soluzione di eCommerce definitiva.<a href="http://www.magentocommerce.com/download" target="_blank">Maggiori informazioni</a></p>
 </article>
 
 <article id="whatismagentotheme">
-    <h3>Cos'è un tema Magento?</h3>
-    <p>Un tema Magento è un progetto completo per il tuo store online, basato sul motore Magento. In altre parole, installando un nuovo tema, potrai facilmente modificare l'aspetto del tuo negozio con una semplice procedura. A renderlo ancora più semplice c'è il fatto che un tema Magento include tutti i file sorgente necessari, che tu potrai modificare o estendere secondo i tuoi bisogni.</p>
+    <h3>Che cosa è un tema di Magento?</h3>
+    <p>Magento tema è un progetto completo per il tuo negozio online basato sul motore di Magento. In altre parole, si può facilmente cambiare il vostro Magento negozio aspetto con l'installazione di un nuovo tema in pochi semplici passi. Con tutta la sua semplicità, un tema di Magento è dotato di tutti i file di origine necessari che è possibile modificare o estendere in modo in cui si ha bisogno.</p>
 </article>
 
 <article id="file_structure">
-    <h4>Struttura dei Files</h4>
+    <h4>Struttura dei file di Magento</h4>
 
-    <p>Il pacchetto che hai scaricato si suddivide in diverse cartelle. Vediamo cosa ciascuna di esse contiene:</p>
+    <p>Il pacchetto di tema che avete scaricato è costituito da diverse cartelle. Vediamo cosa ogni cartella contiene:</p>
 
     <ul class="files_structure">
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder-open"></i> <strong>documentation</strong></dt>
-                <dd> contiene i file della documentazione.</dd>
+                <dt><i class="fa fa-folder-open"></i> <strong>'documentazione' (documentation)</strong></dt>
+                <dd> contiene file di documentazione.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
-                            il file principale della documentazione. È il file che stai leggendo adesso.
+                            un file di documentazione principale si sta leggendo in questo momento.
                         </dd>
                     </dl>
                 </li>
@@ -37,45 +38,45 @@
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
-                <dd> contiene alcune schermate del tema. Non da usare per la produzione.</dd>
+                <dt><i class="fa fa-folder"></i> <strong>'screenshots' (screenshots)</strong></dt>
+                <dd> contiene le schermate a tema. Non per production.a file di documentazione principale si sta leggendo in questo momento.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-folder-open"></i> <strong>sources</strong></dt>
-                <dd> contiene i file sorgente del template.</dd>
+                <dt><i class="fa fa-folder-open"></i> <strong>'sorgente' (sources)</strong></dt>
+                <dd> contiene i file di origine tema.</dd>
             </dl>
             <ul>
                 <li>
                     <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
+                        <dt><i class="fa fa-folder"></i> <strong>'psd' (psd)</strong></dt>
                         <dd>
-                            contiene i file sorgente del tema in formato Adobe Photoshop (.psd).
+                            contiene i file sorgente di Adobe Photoshop tema (.psd).
                         </dd>
                     </dl>
                 </li>
                 <li>
                     <dl class="inline-term">
-                        <dt><i class="fa fa-folder"></i> <strong>demo</strong></dt>
+                        <dt><i class="fa fa-folder"></i> <strong>'demo' (demo)</strong></dt>
                         <dd>
-                            contiene pagine aggiuntive e blocchi custom  inclusi nel tema.
+                            contiene pagine aggiuntive e blocchi personalizzati forniti con il tema.
                         </dd>
                     </dl>
                 </li>
                 <li>
                     <dl class="inline-term">
-                        <dt><i class="fa fa-folder-open"></i> <strong>sample_data</strong></dt>
+                        <dt><i class="fa fa-folder-open"></i> <strong>'sample_data' (sample_data)</strong></dt>
                         <dd>
-                            contiene file campione del tema Magento.
+                            contiene i file di dati campione Magento tema.
                         </dd>
                     </dl>
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>'pub' (pub)</strong></dt>
                                 <dd>
-                                    contiene file e directory da caricare sulla directory root della tua installazione Magento.
+                                    contiene i file e le cartelle che devono essere caricati nella directory principale della vostra installazione di Magento.
                                 </dd>
                             </dl>
                         </li>
@@ -83,7 +84,7 @@
                             <dl class="inline-term">
                                 <dt><i class="fa fa-file"></i> <strong>dump.sql.gz</strong></dt>
                                 <dd>
-                                    i file di backup del database. Contiene i contenuti campione.
+                                    il file di backup del database. Contiene il contenuto del campione tema.
                                 </dd>
                             </dl>
                         </li>
@@ -94,64 +95,64 @@
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-folder"></i> <strong>theme###</strong></dt>
-                <dd> contiene file e directory del tema da caricare sulla directory root della tua installazione Magento.</dd>
+                <dd> contiene file del tema di Magento e le cartelle che devono essere caricati nella directory principale della vostra installazione di Magento.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>fullpackage.zip</strong></dt>
-                <dd> contiene il pacchetto d’installazione completa Magento con i file engine, i temi ei esempi di contenuti (immagini campione).</dd>
+                <dd> contiene il pacchetto completo di installazione di Magento con i file del motore, il tema e il contenuto del campione (immagini campione).</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> estrae I file da fullpackage.zip quando caricati sul server di hosting.</dd>
+                <dd> il file utilizzato per estrarre i file dalla fullpackage.zip quando caricati sul server di hosting.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
-                <dd> contiene i link da cui scaricare i font custom del template.</dd>
+                <dd> contiene i link in cui i font personalizzati template possono essere scaricati.</dd>
             </dl>            
         </li>
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
-                <dd> contiene istruzioni su come estrarre i file sorgente.</dd>
+                <dd> contiene le istruzioni su come estrarre file di origine.</dd>
             </dl>            
         </li>
     </ul>
 </article>
 <article id="validation">
-    <h3>Validation</h3>
+    <h3>Validazione</h3>
     <div class="alert alert-warning">
-        <span>Both HTML markup and CSS styles used in our templates are semantically correct and valid. However some W3C errors still can take place. Making code 100% W3C valid eliminates the usage of modern website technologies as CSS3 features and HTML5 markup. Our goal is to deliver rich user experience with high quality templates and sometimes we have to break some rules.</span>
+        <span>Entrambi i markup e CSS stili HTML utilizzati nei nostri modelli sono semanticamente corretti e validi. Tuttavia alcuni errori W3C ancora in grado di prendere posto. Fare 100% del codice W3C valida elimina l'utilizzo di moderne tecnologie sito web come HTML5 e CSS3 caratteristiche markup. Il nostro obiettivo è quello di offrire una ricca esperienza utente con modelli di alta qualità ed a volte dobbiamo rompere alcune regole.</span>
     </div>
 </article>
 <article id="prepare">
     <h3>Preparazione</h3>
 
-    <p>Prima di procedere con l'installazione del tuo store Magento, assicurati di avere tutto il necessario. Completa tutte le seguenti operazioni:</p>
+    <p>Prima di procedere a configurare il vostro negozio Magento, si prega di assicurarsi che si sono pienamente preparati. Si prega di effettuare le seguenti operazioni di preparazione:</p>
 
-    <h4>Software per l'Editing</h4>
+    <h4>Software modifica</h4>
 
-    <p>Per lavorare in comodità sul template Magento, si consiglia di scaricare tutti i programmi necessari. Sulla pagina di anteprima del template è possibile trovare una lista di tutto il software necessario. </br> I requisiti possono variare da tema a tema, ma in genere sono i seguenti:</p>
+    <p>Per sentirsi a proprio agio a lavorare con template Magento, si consiglia di scaricare tutte le applicazioni richieste. È possibile visualizzare l'elenco dei software richiesto sulla pagina del modello di anteprima. </br> I requisiti possono variare a seconda dei modelli, per la maggior parte dei modelli sono i seguenti:</p>
     <ol class="index-list">
-        <li>Prima di tutto sarà necessario WinZip 9+ (per Windows) o Stuffit Expander 10+ (per Mac), per estrarre l' archivio sources_#########.zip protetto da password. </li>
-        <li>Potrebbe anche servirti l'applicazione Adobe Photoshop, da usare per modificare i file sorgente in formato .PSD source files, e se vuoi modificare grafica e immagini del template.</li>
-        <li>Per modificare i file sorgente del template, avrai bisogno di un editor di codice, come Adobe Dreamweaver, Notepad++, Sublime Text, ecc.</li>
-        <li>Per caricare i file sul server di hosting potrebbero essere necessari dei gestori FTP, come Total Commander, FileZilla, CuteFTP, ecc.</li>
+        <li>In primo luogo, è necessario utilizzare WinZip 9+ (Windows) e Stuffit Expander 10+ (Mac) per estrarre la protetto da password sources_#########.zip archivio. </li>
+        <li>Potrebbe anche essere necessario l'applicazione Adobe Photoshop. Viene utilizzato per modificare i file di origine PSD, ed è necessario se si desidera modificare il modello di disegno grafica e immagini.</li>
+        <li>Per modificare i file di codice sorgente di modello, avete bisogno di qualche editor di codice, come Adobe Dreamweaver, Notepad ++, Sublime Text, etc.</li>
+        <li>Per caricare i file sul server di hosting potrebbe essere necessario un Gestore FTP come Total Commander, FileZilla, CuteFTP, ecc.</li>
     </ol>
     
     <h4>Hosting</h4>
-    <p>Dal momento che Magento Commerce è un'applicazione basata su PHP/MySQL, sarà necessario preparare l'ambiente di hosting ad accogliere ed eseguire Magento.</p>
-    <p>Se hai un hosting live, assicurati che questo risponda ai <a href="http://magento.com/resources/system-requirements" target="_blank"> requisiti Magento </a> e che sia pronto all'uso per lo store Magento.</p>
-    <p>Altrimenti, è possibile eseguire Magento localmente sul tuo computer utilizzando il server locale. Per creare un server da hosting locale, si possono utilizzare applicazioni localhost come <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> ecc. Ognuna di queste applicazioni può essere facilmente installata ed essere utilizzata per eseguire Magento. </p>
-    <p>Guarda le seguenti guide su come configurare l'ambiente di sviluppo locale:</p>
+    <p>Come Magento Commerce è un / applicazione basata su MySQL PHP, è necessario preparare un ambiente di hosting per eseguire Magento.</p>
+    <p>Se si dispone di hosting dal vivo, si prega di accertarsi che corrisponda <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> Magento requisiti </a> ed è pronto per essere utilizzato per il negozio di Magento.</p>
+    <p>In caso contrario, è possibile eseguire Magento localmente sul proprio computer utilizzando il server locale. Per creare un server di hosting locale si prega di utilizzare le applicazioni come ad esempio localhost <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> ecc. Una di queste può essere facilmente installato come qualsiasi altro programma e utilizzati per l'esecuzione di Magento. </p>
+    <p>Si prega di verificare i seguenti tutorial su come configurare l'ambiente di sviluppo locale:</p>
     <ul class="marked-list">
-        <li><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">Come installare l'ambiente di sviluppo web con AppServ</a></li>
-        <li><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">Come installare l'ambiente di sviluppo web con WAMP</a></li>
-        <li><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">Come installare l'ambiente di sviluppo web con XAMP</a></li>
+        <li><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">Come installare l'ambiente di sviluppo web AppServ</a></li>
+        <li><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">Come installare l'ambiente di sviluppo web WAMP</a></li>
+        <li><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">Come installare l'ambiente di sviluppo web XAMPP</a></li>
     </ul>
 </article>

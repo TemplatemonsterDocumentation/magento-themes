@@ -1,6 +1,7 @@
 <h2 class="item1">Introduction</h2>
 <p>
-    Merci d'avoir acheté un template Magento. Cette documentation est faite de plusieurs parties et décrit le processus entier de mise en place et d'administration d'une boutique Magento en partant de zéro. Nous avons fait de notre mieux pour rendre ce manuel aussi clair et facile à suivre que possible.
+    Merci d'avoir téléchargé un thème Magento. Cette documentation se compose de plusieurs parties et couvre 
+	l'ensemble du processus d'installation et de mise en place de thème Magento à partir de zéro.
 </p>
 
 <article id="whatismagento">
@@ -14,9 +15,9 @@
 </article>
 
 <article id="file_structure">
-    <h4>Structure des fichiers</h4>
+    <h4>Structure des fichiers Magento</h4>
 
-    <p>Le package de thème que vous avez téléchargé comprend plusieurs dossiers. Voyons ce que chaque dossier contient:</p>
+    <p>Le package de thème que vous avez téléchargé comprend plusieurs dossiers.  Voyons ce que chaque dossier contient:</p>
 
     <ul class="files_structure">
         <li>
@@ -29,7 +30,7 @@
                     <dl class="inline-term">
                         <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
                         <dd>
-                           un fichier principal de documentation que vous lisez en ce moment.
+                            un fichier principal de documentation que vous lisez en ce moment.
                         </dd>
                     </dl>
                 </li>
@@ -73,7 +74,7 @@
                     <ul>
                         <li>
                             <dl class="inline-term">
-                                <dt><i class="fa fa-folder"></i> <strong>media</strong></dt>
+                                <dt><i class="fa fa-folder"></i> <strong>pub</strong></dt>
                                 <dd>
                                     contient les fichiers et répertoires devant être uploadés dans le dossier racine de votre installation Magento.
                                 </dd>
@@ -106,7 +107,7 @@
         <li>
             <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>unzip.php</strong></dt>
-                <dd> fichier utilisé pour estraire les fichiers de fullpackage.zip une fois envoyé sur le serveur d'hébergement.</dd>
+                <dd> fichier utilisé pour extraire les fichiers de fullpackage.zip une fois il est envoyé sur le serveur d'hébergement.</dd>
             </dl>            
         </li>
         <li>
@@ -126,7 +127,7 @@
 <article id="validation">
     <h3>Validation</h3>
     <div class="alert alert-warning">
-        <span>Both HTML markup and CSS styles used in our templates are semantically correct and valid. However some W3C errors still can take place. Making code 100% W3C valid eliminates the usage of modern website technologies as CSS3 features and HTML5 markup. Our goal is to deliver rich user experience with high quality templates and sometimes we have to break some rules.</span>
+        <span>Les deux codes, le balisage HTML (Langage hypertexte) et les styles CSS, utilisés dans nos modèles, sont sémantiquement corrects et valides. Néanmoins, certaines erreurs W3C peuvent toujours avoir lieu.  Rendre valide le code 100% W3C élimine l'utilisation des technologies modernes de site web comme les fonctions de CSS3 et des balises HTML5. Notre objectif est de fournir une riche expérience de l'utilisateur avec des modèles de haute qualité et parfois nous devons enfreindre certaines règles.</span>
     </div>
 </article>
 <article id="prepare">
@@ -136,9 +137,9 @@
 
     <h4>Logiciel d'édition</h4>
 
-    <p>Pour être à l'aise en travaillant avec un template Magento, nous recommandons de télécharger toutes les applications requises. Vous pouvez consulter la liste des logiciels requis sur la page de prévisualisation du template.<br /> Les besoins peuvent varier selon les templates, pour la plupart des templates ce sont les suivants:</p>
+    <p>Pour être à l'aise en travaillant avec un template Magento, nous recommandons de télécharger toutes les applications requises.  Vous pouvez consulter la liste des logiciels requis sur la page de prévisualisation du template. </br> Les besoins peuvent varier selon les templates, pour la plupart des templates ce sont les suivants:</p>
     <ol class="index-list">
-        <li>D'abord, vous devez utiliser WinZip 9 et + (Windows) et Stuffit Expander 10 et + (Mac) pour extraire les archives sources_#########.zip protégées par mot de passe. </li>
+        <li>D'abord, vous devez utiliser WinZip 9+ (Windows) et Stuffit Expander 10+ (Mac) pour extraire les archives sources_#########.zip protégées par mot de passe. </li>
         <li>Vous pouvez avoir également besoin de l'application Adobe Photoshop. Elle sert à modifier les fichiers source .PSD, ce qui est nécessaire si vous voulez modifier les images et graphiques du template.</li>
         <li>Pour modifier les fichiers de code source du template, il vous faut un éditeur de code comme Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>
         <li>Pour uploader des fichiers sur le serveur d'hébergement, vous pouvez avoir besoin d'un Gestionnaire FTP comme Total Commander, FileZilla, CuteFTP, etc.</li>
@@ -146,7 +147,7 @@
     
     <h4>Hébergement</h4>
     <p>Comme Magento Commerce est une application basée sur PHP/MySQL, vous devez préparer un environnement d'hébergement pour faire tourner Magento.</p>
-    <p>Si vous avez un hébergeur, assurez-vous qu'il est conforme aux <a href="http://magento.com/resources/system-requirements" target="_blank"> besoins de Magento </a> et qu'il est prêt à être utilisé pour la boutique Magento.</p>
+    <p>Si vous avez un hébergeur, assurez-vous qu'il est conforme aux <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html" target="_blank"> besoin de magento </a> et qu'il est prêt à être utilisé pour la boutique Magento.</p>
     <p>Sinon, vous pouvez faire tourner Magento localement sur votre ordinateur à l'aide d'un serveur local. Pour créer un serveur d'hébergement local, veuillez utiliser les applications localhost telles que <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> etc. Elles sont toutes facilement installables comme tout autre programme, et servent à faire tourner Magento. </p>
     <p>Veuillez consulter les tutoriels suivants sur la configuration d'un environnement de développement local:</p>
     <ul class="marked-list">

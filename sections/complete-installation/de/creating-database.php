@@ -1,27 +1,25 @@
-		
-<h3>Erstellung der Datenbank</h3>
-<p>Zuerst sollen Sie die neue Datenbank für den Online-Shop von Magento vorbereiten. Sie können sie über das Datenbank-Verwaltungswerkzeug im Control Panel des Hosting (<strong>normalerweise PhpMyAdmin</strong>) erstellen.</p>
-<p>Beim Erstellen der Datenbank erhalten Sie solche Daten: Namen der Datenbank, Benutzernamen, Passwort und Adresse des Datenbankservers. Speichern Sie diese Daten, weil Sie sie bei der Installation Magento brauchen. </p>
+<h3>Erstellen einer Datenbank</h3>
+<p>Zunächst müssen Sie eine neue Datenbank für Ihren Magento Shop vorbereiten. Sie können die neue Datenbank mit dem Datenbank-Management-Tool aus Ihrer Hosting Control Panel erstellen (<strong>normalerweise PhpMyAdmin</strong>).</p>
+<p>Sie werden die folgenden Daten, während der Erstellung einer Datenbank, erhalten: Datenbankname , Datenbank-Benutzername, Passwort und Servernamen . Sie müssen diese Daten speichern, da Sie diese für die weitere Magento-Installation benötigen. </p>
 
-<p>Anhand phpMyAdmin ist es möglich, die Datenbank in 3 einfachen Schritten zu erstellen: (schauen Sie die folgenden Dias an)</p>
-
+<p>Mit dem phpMyAdmin-Tool können Sie eine neue Datenbank in 3 einfachen Schritten erstellen (sehen Sie sich die weiteren Slides an): </p>
 
 <ol class="index-list">
 	<li>
-		<p>Öffnen Sie den Tab <strong>"Database (Datenbank)"</strong>, um zur Liste der Datenbanken zu gelangen.</p>
+		<p>Öffnen Sie das <strong>"Database"</strong> Tab, Sie werden eine Liste der Datenbanken sehen.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-1.jpg" alt="" /></figure>
 	</li>
 	<li>
-		<p>Geben Sie den Namen der <strong>Datenbank</strong> ein. Klicken Sie den Button <strong>"Erstellen"</strong>.</p>
+		<p>Geben Sie den <strong>Datenbanknamen</strong> ein. Klicken Sie den <strong>"Erstellen(Create)"</strong> Knopf.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-2.jpg" alt="" /></figure>
 	</li>
 	<li>
-		<p>Man kann jetzt die Datenbank in der Liste sehen.  Klicken Sie auf den Namen, um den Zugang zur Datenbank zu erhalten.</p>
+		<p>Ihre Datenbank erscheint nun in der Liste. Um die Datenbank zu öffnen, klicken Sie auf den entsprechenden Namen in der Liste.</p>
 		<figure class="img-polaroid"><img src="img/magento/database-create-3.jpg" alt="" /></figure>
 	</li>
 </ol>
 
-<p>Sie können auch das ausführliche Video-Tutorial nutzen <a href="/help/de/how-to-create-a-database.html" target="_blank">Wie erstellt man die Datenbank</a>.</p>
+<p>Sie können sich gerne das detailierte Video-Tutorial anschauen unter <a href="/help/how-to-create-a-database.html" target="_blank"> Wie man eine Datenbank erstellt</a></p>
 
-<div class="alert alert-warning"><span>Wenn Sie Schwierigkeiten beim Erstellen der Datenbank haben, sollen Sie sich den Kontakt mit dem Hosting-Anbieter aufnehmen.</span></div>
+<div class="alert alert-warning"><span>Wenn Sie irgendwelche Probleme mit der Erstellung einer Datenbank haben , bitte kontaktieren Sie Ihren Hosting-Provider für Hilfe und Unterstützung.</span></div>
 		
