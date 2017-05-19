@@ -425,7 +425,7 @@
 <h5>Layout 1</h5>
 <p><a class="pretty_image" href="img/magento/ling-lay-1.jpg"><figure class="img-polaroid"><img src="img/magento/ling-lay-1.jpg" alt=""></figure></a>
 </p>
-<h5><em>Sttic blocks  Lingerie layout 1</em></h5>
+<h5><em>Static blocks  Lingerie layout 1</em></h5>
   
 <table class="data-table data-table-indent">
     <thead>
