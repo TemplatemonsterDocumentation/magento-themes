@@ -1,0 +1,71 @@
+h1 {
+  font-family: "Roboto", serif;
+  color: #FFFFFF; }
+
+h2 {
+  color: #f1594b; }
+
+h3 {
+  color: #312f44; }
+
+h4 {
+  color: #f1594b; }
+
+.page-content.active .rd-mobilepanel {
+  background-position: 66% top; }
+  @media (max-width: 1440px) {
+    .page-content.active .rd-mobilepanel {
+      background-position: 100% top; } }
+.page-content.active .rd-mobilepanel img {
+  position: absolute;
+  height: 90%;
+  right: 320px;
+  bottom: 50px;
+}
+.rd-mobilepanel {
+  position: relative;
+  background-color: #f1594b;
+  background-position: right top;
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s; }
+  @media (max-width: 1440px) {
+    .rd-mobilepanel {
+      background-size: 60% auto;
+      background-position: 600px top; } }
+
+[data-section="introduction"] .rd-mobilepanel {
+//  background-image: url("../img/header-bg.png");
+  height: 600px; }
+  [data-section="introduction"] .rd-mobilepanel.fixed {
+    height: 56px;
+    background-image: none; }
+    .rd-mobilepanel.fixed img {
+      display: none;
+      }
+
+body:not([data-section="introduction"]) .tm-title-caption {
+  display: none; }
+
+.rd-mobilepanel_title {
+  font-size: 82px; }
+
+.tm-title-caption {
+  font-size: 32px;
+  font-weight: 700;
+  top: 200px;
+  font-family: "Roboto", serif;
+  color: #FFFFFF;
+  line-height: 36px;
+  width: 430px; }
+
+.rd-mobilemenu .logo {
+  background-color: #f1594b; }
+
+.toTop {
+  background-color: #f1594b; }
+  .toTop:hover {
+    background: #fe9c79; }
+
+/*# sourceMappingURL=project_styles.css.map */
