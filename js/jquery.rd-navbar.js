@@ -236,21 +236,21 @@
                     $('body').removeClass('navbar-stickup').removeClass('navbar-fixed');
                     if (st > st_before && !p.hasClass('fixed')) {
                         t.css({
-                            "transform": "translateY(" + (st / 1.1) + "px)",
-                            "font-size": fz - st / 10
+                            "transform": "translateY(" + (st / 1.6) + "px)",
+                            "font-size": fz - st / 5
                         });
                         tc.css({
-                            "transform": "translateY(" + (st / 8) + "px)",
+                            "transform": "translateY(" + (st / 18) + "px)",
                             "font-size": 32 /*- st / 25*/
                         });
                     } else {
                         t.css({
-                            "transform": "translateY(" + (st / 1.1) + "px)",
-                            "font-size": fz - st / 10
+                            "transform": "translateY(" + (st / 1.6) + "px)",
+                            "font-size": fz - st / 5
                         });
                         tc.css({
-                            "transform": "translateY(" + (st / 1.1) + "px)",
-                            "font-size": fz - st / 10
+                            "transform": "translateY(" + (st / 1.6) + "px)",
+                            "font-size": fz - st / 5
                         });
                     }
                 }
@@ -272,7 +272,7 @@
                 }
 
             if ($(window).width() > 1200) {
-                     if (st < 546 && 'introduction' === $('body').data('section')) {
+                     if (st < 210 && 'introduction' === $('body').data('section')) {
                          resize();
                      } else {
                          fix();
