@@ -1,1 +1,0 @@
-<h2 class="item1">Standardowe Ustawienia Rozszerzeń</h2>
