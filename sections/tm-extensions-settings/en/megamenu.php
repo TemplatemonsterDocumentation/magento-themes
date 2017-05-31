@@ -1,13 +1,17 @@
 <h3>Megamenu</h3>
 <p align="justify" class="indent">TemplateMonster Megamenu module extends standard Magento menu functionality and allows you to configure subcategories multi-column display, add static blocks and products to the dropdown menu, as well as the flexibly customize its appearance in site admin panel.</p>
-
+<figure class="img-polaroid"><img src="img/magento/menu-30.jpg" alt="" /></figure>
 <h4>Global configuration</h4>
-<p>In order to configure the module, navigate to <strong>Stores > Settings > Configuration</strong> section.</p>
- Choose the <strong>TEMPLATEMONSTER > Megamenu</strong> in the left side menu to go to the module settings interface.
-<figure class="img-polaroid"><img src="img/magento/menu.png" alt="" /></figure>
-This module has 2 options:
+<p align="justify">In order to configure this module, you should navigate to Magento admin panel and choose the <strong>Stores > Configuration</strong> section in the left side menu.</p>
+<p>
+   <figure class="img-polaroid"><img src="img/magento/stores.png" alt="" /></figure>
+</p>
+<p>Choose the <strong>TEMPLATEMONSTER > Megamenu</strong> in the left side menu to go to the module settings interface.
+  <figure class="img-polaroid"><img src="img/magento/menu.png" alt="" /></figure>
+  This module has 2 options:
+</p>
 <table class="options-table">
-	<tr>
+<tr>
 		<td class="col-1"><strong>Enable/Disable</strong></td>
 		<td>-</td>
 		<td>you can enable or disable the module if needed;</td>
@@ -39,22 +43,23 @@ Menu position option includes two values: <strong>Topnav</strong> and <strong>Si
 <p>Megamenu block display can be configured on the 1st level category configuration page, that can be found in the Megamenu tab, at <strong>Products > Categories</strong> section. 
   <figure class="img-polaroid"><img src="img/magento/menu-1.png" alt="" /></figure>
 </p>
-<p align="justify">You will see the <strong>Turn on megamenu for this category</strong> option at the <strong>MegaMenu tab</strong>. This option enabled Megamenu block display for the selected category. After enabling this option, you will see the two fields and a widget with menu content settings.</p>
+<p align="justify">You will see the <strong>Turn on Megamenu for this category</strong> option at the <strong>Megamenu tab</strong>. This option enabled Megamenu block display for the selected category. After enabling this option, you will see the two fields and a widget with menu content settings.</p>
 <div class="alert alert-danger">
-  <p align="justify">Attention!!! MegaMenu is available for sub-categories [second-level categories] only.</p>
+  <p align="justify">Attention!!! Megamenu is available for sub-categories [second-level categories] only.</p>
 </div>
 <p>
-  <figure class="img-polaroid"><img src="img/magento/menu-2.png" alt="" /></figure>
+  <figure class="img-polaroid"><img src="img/magento/menu-15.jpg" alt="" /></figure>
 </p>
-<p align="justify">Label option allows you to display the label [new, sale] for the top-level categories. This label has default styling, but its appearance can be changed by using <strong>Css class</strong>b option. This option sets the class for current menu item’s &lt;li&gt; и &lt;a&gt; tags, so you can easily create custom styling for your label by using the class.</p>
+<p align="justify">Label option allows you to display the label [new, sale] for the top-level categories. This label has default styling, but its appearance can be changed by using <strong>Css class</strong> option. This option sets the class for current menu item’s &lt;li&gt; и &lt;a&gt; tags, so you can easily create custom styling for your label by using the class.</p>
 <p align="justify">Megamenu block content settings' widget allows you to define number of rows, columns, specify their width and lot of other settings.<br>
 In order to add a new row you need to use <strong>Add row</strong> button. Then you will see the empty field with <strong>Add column[s]</strong> and <strong>Remove row</strong> buttons. </p>
 <p><strong>Remove row</strong> - removes the row [field].</p>
 <figure class="img-polaroid"><img src="img/magento/menu-3.png" alt="" /></figure>
 <p align="justify">After pressing the <strong>Add column[s]</strong> button you’ll see a pop-up window to select the width of the column you’re going to add. The maximum width of the column is <strong>col-12</strong> it stretches menu block to the full width of the container. So, if you need to display 4 columns in a row, you have to add 4 columns with the width parameter set to <strong>col-3</strong>.</p>
-<figure class="img-polaroid"><img src="img/magento/menu-4.png" alt="" /></figure>
-<p>Let’s consider columns' settings e.g. for <strong>col-3</strong>.</p>
-<figure class="img-polaroid"><img src="img/magento/menu-5.png" alt="" /></figure>
+
+<p>Let’s have a look at columns' settings e.g. for <strong>col-3</strong>.</p>
+
+
 <ul class="marked-list">
   <li> <strong>Set column width</strong> - column width. It can take values from col-1 to col-12.
     <figure class="img-polaroid"><img src="img/magento/menu-7.png" alt="" /></figure>
@@ -86,7 +91,7 @@ In order to add a new row you need to use <strong>Add row</strong> button. Then 
   <li> <strong>Add widget[s]</strong> - this tool can be used to add a variety of content elements to the page. </li>
   <figure class="img-polaroid"><img src="img/magento/addwidget.png" alt="" /></figure>
   <p> <strong>Available widgets</strong></p>
-  <p>By default, Magenta ships with the following widgets:</p>
+  <p>By default, Magento ships with the following widgets:</p>
   <figure class="img-polaroid"><img src="img/magento/availwid.png" alt="" /></figure>
   <strong> — CMS Page Link</strong>
   <p>The CMS Page Link widget will allow you to add a link to a page that you specify; this can be useful to add a link to the footer.</p>
@@ -133,5 +138,13 @@ In order to add a new row you need to use <strong>Add row</strong> button. Then 
 To add the subcategory image press on <strong>browse</strong> and choose an image from the clipart.<br />
 As to the label adding, fill in the <strong>Label</strong> field.
 <figure class="img-polaroid"><img src="img/magento/menu-12.png" alt="" /></figure>
-<h4>Styles configuration</h4>
-<p>You can edit css style files to configure custom megamenu appearance. These files are located at the <strong>app\code\TemplateMonster\Megamenu\view\frontend</strong>. Do not forget to clear the cache after changing the styles and compiling.</p> 
+ <h4>Frontend:</h4>
+<figure class="img-polaroid"><img src="img/magento/menu-30.jpg" alt="" /></figure>
+    <ol class="marked-list">
+  <li><strong>Category </strong>— Lingerie;</li>
+  <li><strong>Columns amount— </strong>4;</li>
+  <li>
+    <div align="justify"><strong>Static blocks</strong> — menu-block-2, menu-block-3;</div>
+  </li>
+  <li><strong>Subcategories </strong>— 2.</li>
+</ol>

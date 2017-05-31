@@ -3,8 +3,7 @@
 <h3>General</h3>
 <p align="justify">To activate the module, navigate to <strong>Store > Configuration >  Templatemonster > <span class="item1">Layout Switcher</span></strong>. Here you’ll find option to enable module.</p>
 <figure class="img-polaroid"><img src="img/magento/layout-swicher.jpg" alt="Layout Switcher" /></figure>
-<figure class="img-polaroid"><img src="img/magento/layout-swicher-1.jpg" alt="Layout Switcher" /></figure>
-<figure class="img-polaroid"><img src="img/magento/layout-swicher-2.jpg" alt="Layout Switcher" /></figure>
+
 <table  class="options-table">
     <tr>
         <td class="col-1"><strong>Enabled</strong></td>

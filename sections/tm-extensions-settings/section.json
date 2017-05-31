@@ -253,6 +253,20 @@
 			}
 		},
 		{
+			"id":"shopbybrand",
+			"translations":{
+				"en":"Shop by Brand",
+				"ru":"Shop by Brand",
+				"tr":"Shop by Brand",
+				"de":"Shop by Brand",
+				"es":"Shop by Brand",
+				"fr":"Shop by Brand",
+				"it":"Shop by Brand",
+				"pl":"Shop by Brand",
+				"pt":"Shop by Brand"
+			}
+		},
+		{
 			"id":"timer",
 			"translations":{
 				"en":"Special Price Timer",
@@ -264,6 +278,20 @@
 				"it":"Special Price Timer",
 				"pl":"Special Price Timer",
 				"pt":"Special Price Timer"
+			}
+		},
+		{
+			"id":"theme-updater",
+			"translations":{
+				"en":"Theme Updater",
+				"ru":"Theme Updater",
+				"tr":"Theme Updater",
+				"de":"Theme Updater",
+				"es":"Theme Updater",
+				"fr":"Theme Updater",
+				"it":"Theme Updater",
+				"pl":"Theme Updater",
+				"pt":"Theme Updater"
 			}
 		},
 		{
@@ -279,6 +307,7 @@
 				"pl":"Theme Options",
 				"pt":"Theme Options"
 			}
+
 		}
 	]
 }

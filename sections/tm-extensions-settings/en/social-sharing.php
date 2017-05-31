@@ -1,6 +1,7 @@
-<h2 class="item1">Social Sharing</h2>
-<p align="justify">This module allows you to display social icons that are set on the product page. In this way, it gives your site visitors an opportunity to share links to the products of your store in different social networks</p>
-<h3>General</h3>
+<h3 class="item1">Social Sharing</h3>
+<p align="justify">This module allows you to display social icons that are set on the product page. In this way, it gives your site visitors an opportunity to share links to the products of your store in different social networks.</p>
+<figure class="img-polaroid"><img src="img/magento/sharing.jpg" alt="" /></figure>
+<h4>General</h4>
 <p align="justify">To set up the module, navigate to <strong>Store > Configuration >  Templatemonster > Social Sharing tab</strong>. Here you’ll find all the settings that are necessary to set up the module.<br>There are 2 main options in this section.</p>
 <figure class="img-polaroid"><img src="img/magento/sharing-2.jpg" alt="" /></figure>
 <table  class="options-table">
@@ -18,8 +19,8 @@
 <p align="justify">
     To get the <strong>Profile Id</strong>, register at the <a target="_blank" href="https://www.addthis.com/">Addthis</a> website. After this, you need to create a project in your Dashboard. When creating a project, you’ll be redirected to the General settings, where you’ll see the ID field in General section. You should use this very identifier.
 </p>
-<figure class="img-polaroid"><img src="img/magento/sharing-3.jpg" alt="" /></figure>
-<h3>Look &amp; Feel</h3>
+
+<h4>Look &amp; Feel</h4>
 <p>In this section, you can set up the appearance of the icons. You can choose one of the predefined presets, or you can add your own icons.</p>
 <figure class="img-polaroid"><img src="img/magento/sharing-4.jpg" alt="" /></figure>
 <p>
@@ -31,14 +32,14 @@
 <p align="justify">
     <strong>Custom code</strong> - if you select this option, you can fully replace to display of the icons with a custom one. The field can take html and css code. If you need to add a custom Facebook, Twitter or other service’s icon, and want to make it work, you need to add a corresponding class to the link. For Facebook, this will be class="addthis_button_facebook", for Twitter - class="addthis_button_twitter", for a popup with selection of social networks - class="addthis_button_more".
 </p>
-<h3>Custom Metadata</h3>
+<h4>Custom Metadata</h4>
 <p>In this section, you can set up sharing for a custom page.</p>
 <figure class="img-polaroid"><img src="img/magento/sharing-8.jpg" alt="" /></figure>
 <p>
     Having specified all the data, you’ll see their output in the sharing dialogue window. You’ll see the specified data there.
 </p>
 <figure class="img-polaroid"><img src="img/magento/sharing-10.jpg" alt="" /></figure>
-<h3>Custom Sharing Service</h3>
+<h4>Custom Sharing Service</h4>
 <figure class="img-polaroid"><img src="img/magento/sharing-12.jpg" alt="" /></figure>
 <p>
     In this section, you can add an icon of your social network, and users will be able to share, using your service.
@@ -64,10 +65,10 @@
 <p>Your module will be changed accordingly.</p>
 <figure class="img-polaroid"><img src="img/magento/sharing-11.jpg" alt="" /></figure>
 
-<h3>Api Configuration Options</h3>
+<h4>Api Configuration Options</h4>
 <p>This section contains the API settings of the Addthis service.</p>
 <figure class="img-polaroid"><img src="img/magento/sharing-13.jpg" alt="" /></figure>
-<figure class="img-polaroid"><img src="img/magento/sharing-14.jpg" alt="" /></figure>
+
 <table  class="options-table">
     <tr>
         <td class="col-1"><strong>Exclude Services </strong></td>

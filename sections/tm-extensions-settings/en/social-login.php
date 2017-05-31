@@ -1,7 +1,14 @@
 <h3 class="item1">Social Login</h3>
+<figure class="img-polaroid">
+  <img src="img/magento/social.jpg" alt="" />
+</figure>
 <h4>General</h4>
 <div align="justify">The General section allows you to enable or disable the module whenever you need. Even after disabling the module, all the changes made previously will be preserved. <br>
   In order to configure the module, navigate to <strong>Stores > Settings > Configuration</strong> section. <br>
+  
+<p>
+  <figure class="img-polaroid"><img src="img/magento/stores.png" alt="" /></figure>  
+</p>
   Choose the <strong>TEMPLATEMONSTER > Social login</strong> in the left side menu to go to the module settings interface.
 </div>
 <figure class="img-polaroid">
@@ -135,51 +142,45 @@ This section allows you to enable the Facebook login button.
         <td>sort order of the Facebook icon on frontend.</td>
     </tr>           
 </table>
-<p>To obtain an <strong>Client secret</strong>  from Facebook  just follow the steps below.</p>
+<p>To obtain a <strong>Client secret</strong>  from Facebook  just follow the steps below.</p>
 <ol class="marked-list">
   <li>Go to <a href="https://developers.facebook.com" target="_blank">developers.facebook.com</a> and click on <strong>Log In</strong> in the top right.  Log in using your personal Facebook credentials.</li>
 <p align="justify"><em style="line-height: 1.714285714; font-size: 1rem;"><strong>Note:</strong> You cannot log in to the Developer site using a Facebook Page or   Business account. You must use the username and password from your   personal Facebook profile. Facebook doesn&rsquo;t allow businesses to register   as developers, only individuals.</em></p>
-<p> <figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/1-1.jpg"/></figure></p>
+
   <li>If this is your first time signing in to the Facebook Developer portal then click on <strong>Register</strong>.   Registering is a quick an easy process which will take less than a   couple of minutes.  If you&rsquo;re already registered then you can skip ahead   to step 7.</li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/2-1.jpg"/></figure></p>
+
 
 <li>  Accept the Facebook terms and click <strong>Next</strong>.</span></p>
   </li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/3-1.jpg" /></figure></p>
+
 
   <li>Enter your phone number to confirm your account.</li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/4-1.png"/></figure></p>
+
 
   <li>Facebook will send you an automated text message containing a confirmation code. Enter it in the box and click <strong>Register</strong>.</li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/5-1.png" /></figure></p>
 
   <li>You&rsquo;re now registered as a Facebook Developer. Click <strong>Done</strong>.</li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/6-1.jpg" /></figure></p>
+
 
   <li>Hover over <strong>My Apps</strong> and then click on <strong>Add a New App.</strong></li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/add-new-app.jpg" /></figure></p>
-
   <li>Click on <strong>basic setup.</strong></li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/7-1.png" /></figure></p>
+
 
   <li>Enter your <strong>App Name</strong>. This can be anything you like. Choose a <strong>Category</strong>. Click <strong>Continue</strong>.</li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/8-1.png" /></figure></p>
+
 
   <li>Complete the Security Check and click <strong>Submit</strong>.</li>
 
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/9-1.png" alt="Complete the Facebook security check"  /></figure></p>
 
-  <li>Your App should now be set up.<span style="font-size:1rem; "> <strong>C</strong></span><strong><span style="font-size:1rem; ">opy and paste your </span>App Secret<span style="font-size:1rem; "> into the required field.</span></strong></li></ol>
-
-<p><figure class="img-polaroid"><img src="https://smashballoon.com/wp-content/uploads/2013/05/10-1.png" /></figure></p><blockquote><p>This information was taken from the <a href="https://smashballoon.com/custom-facebook-feed/access-token/ ">official sources</a>.</p></blockquote>
+  <li>Your App should now be set up.<span style="font-size:1rem; "> <strong>C</strong></span><strong><span style="font-size:1rem; ">opy and paste your </span>App Secret<span style="font-size:1rem; "> into the required field.</span></strong></li></ol><blockquote><p>This information was taken from the <a href="https://smashballoon.com/custom-facebook-feed/access-token/ ">official sources</a>.</p></blockquote>
 <h5><strong>Instagram Options</strong></h5>
 This section allows you to enable the Instagram login button.   
 <figure class="img-polaroid"><img src="img/magento/social-4.jpg" alt="" /></figure>
@@ -214,52 +215,9 @@ This section allows you to enable the Instagram login button.
   <li>Visit the page <a href="http://instagram.com/developer/clients/register/" target="_blank" rel="nofollow">http://instagram.com/developer/clients/register/</a>;</li>
   <li>Log in Instagram;</li>
   <li>Fill in a developer signup;</li>
-  <li>Register an application and a new client;</li>
+  <li>Register an application and a new client.</li>
 </ul>
-<blockquote>To do all steps correctly we&rsquo;ve prepared the detailed instruction with attached photos of the process.</blockquote>
-<h5>1. Visit The Mentioned Webpage</h5>
-<p>While opening this link you see the next page [if you don&rsquo;t log in Instagram].</p>
-<figure class="img-polaroid"><img src="https://elfsight.com/wp-content/uploads/2016/05/instagram-welcome-window.jpg" /></figure>
-<p>The first thing you should do is to log in as an Instagram user.</p>
-<h5>2. Log in Instagram</h5>
-<p>To get a Client ID and Client Secret you need to be registered in Instagram. Create an account or log in to proceed the guide.</p>
-<figure class="img-polaroid"><img src="https://elfsight.com/wp-content/uploads/2016/05/instagram-log-in.jpg" /></figure>
-<h5>3. Fill in A Developer Signup</h5>
-<p align="justify">As   you are going to implement the special tool on your website, you have   to sign up as a developer. After login in Instagram, you will see the   next window.</p>
-<figure class="img-polaroid"><img src="https://elfsight.com/wp-content/uploads/2016/05/instagram-developer-signup.jpg"/></figure>
-<p>Check all the fields on the web page:</p>
-<ol class="marked-list">
-  <li>Your website – the URL where you are going to implement the Instagram feed</li>
-  <li>Phone number – any phone number</li>
-  <li>What do you want to build with API – any short description</li>
-</ol>
-<p>After this signup the Instagram Developer Documentation will appear where you will see greetings and the following overview.</p>
-<figure class="img-polaroid"><img src="https://elfsight.com/wp-content/uploads/2016/05/instagram-greetings.jpg"  /></figure>
-<p align="justify">Now   you can register your application as a developer. To do that click on   the link marked above. Instagram will notify you that at the moment you   don&rsquo;t have any apps and will offer you to create a new one.</p>
-<p>
-  <figure class="img-polaroid"><img src="https://elfsight.com/wp-content/uploads/2016/05/instagram-manage-clients.jpg" /></figure>
-</p>
-<p>The next step is to authorize your new application and new client.</p>
-<h5>4. Register A New Client ID</h5>
-<p>The next page has more fields for filling so be attentive!</p>
-<p>
-  <figure class="img-polaroid"><img src="https://elfsight.com/wp-content/uploads/2016/05/instagram-new-client-id.jpg"/></figure>
-</p>
-<p>Check all the fields on the web page:</p>
-<ol class="marked-list">
-  <li>Application name – choose any appropriate name, which fits Instagram requirements</li>
-  <li>Description – any short description</li>
-  <li>Website URL – has to be <a href="https://elfsight.com/service/generate-instagram-access-token/" target="_blank">https://elfsight.com/service/generate-instagram-access-token/</a></li>
-  <li>Valid redirect URIs – have to be <a href="https://elfsight.com/service/generate-instagram-access-token/" target="_blank">https://elfsight.com/service/generate-instagram-access-token/</a></li>
-  <li>Contact email – so that Instagram can stay in touch with you</li>
-</ol>
-<blockquote>Now confirm your data for the final result.</blockquote>
-<h5>5. Successful Result</h5>
-<p>The mission accomplished! You&rsquo;ve got your all-new Instagram Client ID and Client Secret!</p>
-<p><figure class="img-polaroid"><img src="https://elfsight.com/wp-content/uploads/2016/05/instagram-client-id.jpg" /></figure> </p>
-<p>Here is your Client ID and Client Secret </p>
-<p align="justify">Note that if you are going to work with square photos on your website then turn on the <strong>non-square media option</strong>. Just edit your client and find &ldquo;Migrations&rdquo; section. Don&rsquo;t forget to click &ldquo;Update Plugin&rdquo;.</p>
-<blockquote><p>This information was taken from the <a href="https://www.instagram.com/developer/authentication/ ">official sources</a>.</p></blockquote>
+
 <h5><strong>Twitter Options</strong></h5>
 This section allows you to enable the Twitter login button.   
 <figure class="img-polaroid"><img src="img/magento/social-5.jpg" alt="" /></figure>
@@ -293,7 +251,7 @@ This section allows you to enable the Twitter login button.
 <ol class="marked-list">
   <li><span class="wysiwyg-font-size-medium">Go to <a title="https://dev.twitter.com/apps/new" href="https://dev.twitter.com/apps/new">https://dev.twitter.com/apps/new</a> and log in, if necessary</span></li>
   <li><span class="wysiwyg-font-size-medium">Supply the necessary required fields, accept the Terms Of Service, and solve the CAPTCHA.</span></li>
-  <li><span class="wysiwyg-font-size-medium">Submit the form</span></li>
+  <li><span class="wysiwyg-font-size-medium">Submit the form</span>.</li>
   <li><span class="wysiwyg-font-size-medium">Go to the API Keys tab, there you will find your Consumer key and Consumer secret keys.</span></li>
   <li><span class="wysiwyg-font-size-medium">Copy the consumer key [API key] and consumer secret from the screen into your application.</span></li>
 </ol>

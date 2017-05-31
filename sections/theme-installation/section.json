@@ -43,6 +43,21 @@
 			}
 		},
 		{
+			"id":"import",
+			"translations":{
+				"en":"Pages, static blocks and widgets import",
+				"ru":"Pages, static blocks and widgets import",
+				"tr":"Pages, static blocks and widgets import",
+				"de":"Pages, static blocks and widgets import",
+				"es":"Pages, static blocks and widgets import",
+				"fr":"Pages, static blocks and widgets import",
+				"it":"Pages, static blocks and widgets import",
+				"pl":"Pages, static blocks and widgets import",
+				"pt":"Pages, static blocks and widgets import"
+			}
+		},
+		
+		{
 			"id":"pages-configuration",
 			"translations":{
 				"en":"Pages configuration",
@@ -56,20 +71,22 @@
 				"pt":"Configurar páginas"
 			}
 		},
+
 		{
-			"id":"static-blocks-configuration",
+			"id":"wigdets-configuration",
 			"translations":{
-				"en":"Static blocks configuration",
-				"ru":"Настройка статических блоков",
-				"tr":"Sabit kutu ayarları",
-				"de":"Einstellung der statischen Blöcke",
-				"es":"Configuraci&oacute;n de bloques est&aacute;ticos",
-				"fr":"Configuration des blocs statiques",
-				"it":"Configurazione Blocchi Statici",
-				"pl":"Konfiguracja bloków statycznych",
-				"pt":"Configurar bloco estático"
+				"en":"Widgets configuration",
+				"ru":"Widgets configuration",
+				"tr":"Widgets configuration",
+				"de":"Widgets configuration",
+				"es":"Widgets configuration",
+				"fr":"Widgets configuration",
+				"it":"Widgets configuration",
+				"pl":"Widgets configuration",
+				"pt":"Widgets configuration"
 			}
-		},
+
+			},
 		{
 			"id":"layout-configuration",
 			"translations":{
@@ -83,7 +100,9 @@
 				"pl":"Layout Configuration",
 				"pt":"Layout Configuration"
 			}
-		}			
+
+
+		}	
+
 	]
 }
-

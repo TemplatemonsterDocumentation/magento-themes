@@ -13,7 +13,7 @@ if (!isset($sections)) {
     <title><?php echo $doc_title; ?></title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
-    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/magetique/"/>
+    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/magetique-2/"/>
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
@@ -75,8 +75,8 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
         <div class="panel">
             <div class="select select-version">
                 <select>
-                    <option data-href="/help/quick-start-guide/magento-themes/magetique/"selected>Magetique 1.2.0</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/magetique-2/">Magetique 2.0.0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/magetique/">Magetique 1.2.0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/magetique-2/"selected>Magetique 2.0.0</option>
                     
                    
                 </select>

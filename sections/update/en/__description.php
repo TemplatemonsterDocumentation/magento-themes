@@ -10,7 +10,7 @@
 </div>
 
 <p align="justify">If you want to customize theme files and still be able to receive updates please create a child theme and perform
-    all modifications there. The process of creating child themes is described in the <a href="//devdocs.magento.com/guides/v2.0/frontend-dev-guide/themes/theme-inherit.html">official documentation</a> </p>
+    all modifications there. The process of creating child themes is described in the <a href="//devdocs.magento.com/guides/v2.0/frontend-dev-guide/themes/theme-inherit.html">official documentation</a>.</p>
 
 <article id="manual-update">
 <h3>Manual update</h3>

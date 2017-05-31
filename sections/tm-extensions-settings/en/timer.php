@@ -1,4 +1,5 @@
 <h3>Special Price Timer</h3>
+<figure class="img-polaroid"><img src="img/magento/timer.jpg" alt="" /></figure>	
 <p align="justify">
 	This module provides you with an option to display the countdown timer for the products with a special price. It shows up automatically after setting the products as special.
 <br>

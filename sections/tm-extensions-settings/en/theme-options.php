@@ -245,12 +245,12 @@
   <tr>
     <td class="col-1"><strong>Show reviews</strong></td>
     <td>-</td>
-    <td>select if you want to show a reviews section. <strong>[4]</strong></td>
+    <td>select if you want to show a reviews section.</td>
   </tr>
   <tr>
     <td class="col-1"><strong>Show product description</strong></td>
     <td>-</td>
-    <td>select if you want to show a product description section. <strong>[5]</strong></td>
+    <td>select if you want to show a product description section.</td>
   </tr>
 </table>
 <figure class="img-polaroid"><img src="img/magento/to-05.jpg" alt="parallax" /></figure>

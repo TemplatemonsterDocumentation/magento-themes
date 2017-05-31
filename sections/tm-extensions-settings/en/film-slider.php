@@ -1,5 +1,6 @@
 <h3>Film Slider</h3>
 <p align="justify">TemplateMonster FilmSlider module is an implementation of elegant and professional jQuery plugin ‘Slider Pro’. Allows you to add slider with multiple layers to your store home page. Rich collection of slider configuration options and user interface will help you to configure your slider fast and easily.</p>
+<figure class="img-polaroid"><img src="img/magento/slide.png" alt="" /></figure>
 <p>In the main navigation menu you’ll see new menu option <strong>TemplateMonster</strong>. <br>To start working with the FilmSlider module, click <strong>Template Monster > Sliders</strong> menu item.</p>
 <figure class="img-polaroid"><img src="img/magento/slide-1.png" alt="" /></figure>
 <p>Here you can see a list of available sliders where you can <strong>disable/enable</strong>, <strong>delete</strong> or <strong>edit</strong> sliders.</p>
@@ -27,10 +28,10 @@ Slider dimensions [width and height] can be set to a fixed value, like 900 [indi
 <div align="justify">
   <p>Sets the scale mode of the main slide images [images added as background]. </p>
   <ol class="marked-list">
-    <li>'<strong>cover</strong>' will scale and crop the image so that it fills the entire slide. </li>
-    <li>'<strong>contain</strong>' will keep the entire image visible inside the slide. </li>
-    <li>'<strong>exact</strong>' will match the size of the image to the size of the slide. </li>
-    <li>'<strong>none</strong>' will leave the image to its original size. </li>
+    <li><strong>cover</strong> — will scale and crop the image so that it fills the entire slide. </li>
+    <li><strong>contain</strong> — will keep the entire image visible inside the slide. </li>
+    <li><strong>exact</strong> — will match the size of the image to the size of the slide. </li>
+    <li><strong>none</strong> — will leave the image to its original size. </li>
   </ol>
 </div>
 <h5>Force Size</h5>
@@ -91,8 +92,7 @@ Here you can input slide title and set its status [<strong>enabled/disabled</str
 <figure class="img-polaroid"><img src="img/magento/slide-14.png" alt="" /></figure>
 
 <h5>Slide Images</h5>
-<p align="justify">This section allows you to add images to the slide. Click Insert Image button to open Image library where you can select available images.
-</p>
+<p align="justify">This section allows you to add images to the slide. Click<strong> Insert Image</strong> button to open Image library where you can select available images. </p>
 <p>
   <figure class="img-polaroid"><img src="img/magento/slide-15.png" alt="" /></figure>
 You can also upload images from your computer.</p>
@@ -136,7 +136,7 @@ To add slider to your page please use Magento widgets. In the main admin panel m
 <figure class="img-polaroid"><img src="img/magento/slide-24.png" alt="" /></figure>
 Select the page you want to add slider to and click <strong>Edit</strong>.
 <figure class="img-polaroid"><img src="img/magento/slide-25.png" alt="" /></figure>
-At the page editing screen switch to <strong>Content</strong> section and click <strong>Insert Widget</strong> button.
+At the page editing screen switch to <strong>Content</strong> section and click <strong>Insert Widget</strong> button. [You may need to press <strong>Show/Hide Editor</strong> button to make <strong>Insert Widget</strong> button visible.]
 <figure class="img-polaroid"><img src="img/magento/slide-27.png" alt="" /></figure>
 In the appeared window select widget type <strong>Template Monster FilmSlider</strong>, select the slider you want to insert and click <strong>Insert Widget</strong> button. 
 <figure class="img-polaroid"><img src="img/magento/slide-28.png" alt="" /></figure>

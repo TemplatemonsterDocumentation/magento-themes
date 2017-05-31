@@ -1,9 +1,10 @@
     <h3 class="item1">Blog</h3>
-    <h4>General</h4> 
+<p>Blog module for Magento2 enables the Customers to add their post in the blog form in the Magento2 Webstore. The Customer can also edit or delete the post. </p>
+<h4>General</h4> 
     <div align="justify">In this section, you’ll find all general options of the module. Here you can enable or disable the module, add keywords, description, etc. <br> In order to configure the module, navigate to <strong>Stores > Settings > Configuration</strong> section.
     </div>
     <figure class="img-polaroid">
-     <img src="img/magento/blog.jpg" alt="" />
+     <img src="img/magento/stores.png" alt="" />
     </figure>
     <div align="justify"><br> 
     Choose the <strong>TEMPLATEMONSTER > Blog</strong> in the left side menu to go to the module settings interface.
@@ -30,7 +31,7 @@
         <tr>
             <td class="col-1"><strong>Title </strong></td>
             <td>-</td>
-            <td>specify the module title.</td>
+            <td>specify the link title.</td>
         </tr>
         <tr>
             <td class="col-1"><strong>Meta Keywords </strong></td>
@@ -73,8 +74,9 @@
             <td><div align="justify">you can change date format: Y - year, M - month, d - day. You can use any symbol between this letters like: M/d/Y, Y:M:d, etc</div></td>
         </tr>
     </table>
-    <h4>Post View</h4> In this section, you can customize the view type of related posts and products.
-    <figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
+    <h4>Post View</h4> 
+    In this section, you can customize the view type of related posts and products.
+<figure class="img-polaroid"><img src="img/magento/blog-2.jpg" alt="" /></figure>
     <h5>Related posts</h5>
     <table class="options-table">
         <tr>
@@ -176,49 +178,10 @@
         <td>Addthis identifier.</td>
     </tr>    
 </table>
-<p align="justify">
-    To get the <strong>Profile Id</strong>, register at the <a target="_blank" href="https://www.addthis.com/">Addthis</a> website. After this, you need to create a project in your Dashboard. When creating a project, you’ll be redirected to the General settings, where you’ll see the ID field in General section. You should use this very identifier.
-</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/sharing-3.jpg" alt="" /></figure>
-</p>
 <p align="justify">In the field <strong>Profile ID</strong> please enter your Profile ID that you can get after registering and creating an account at the following page: <a
         href="https://www.addthis.com" target="_blank"
-        rel="nofollow">https://www.addthis.com</a>:</p>
+        rel="nofollow">https://www.addthis.com</a>.</p>
 
-<p>
-  <figure class="img-polaroid"><img src="img/magento/addthis-7.jpg" alt=""></figure>
-</p>
-<p>Basically, you should get a  <strong>Profile ID</strong> in order to change <strong>AddThis</strong> social share icons:</p>
-<p>After you've registered, you need to add <strong>share</strong> buttons. </p>
-<p>In order to do this press &quot;<strong>AddThis</strong>&quot; button on the  profile toolbar.</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/addthis-8.jpg" alt=""></figure>
-</p>
-<p>Then you need to press the &quot;<strong>Get Started</strong>&quot;   in Share Buttons section.</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/addthis-9.jpg" alt=""></figure>
-</p>
-<p>Activate <strong>Inline </strong>Share Buttons.</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/addthis-10.jpg" alt=""></figure>
-</p>
-<p align="justify">You can choose <strong>Share Counters</strong> type. You also able to select your own social networks and customize the order using the <strong>Select your own</strong> option.</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/addthis-11.jpg" alt=""></figure>
-</p>
-<p align="justify">Change the design of the icons in <strong>Design</strong> section. Customize <strong>Style</strong>, <strong>Button Size</strong> and <strong>Colors</strong> of the icons. Set <strong>Rounded Corners</strong> parameter and <strong>hide network names</strong> if needed.</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/addthis-12.jpg" alt=""></figure>
-</p>
-<p>Whenever you are done with  <strong>Share Buttons</strong> customization, press <strong>Save&amp;Continue</strong> to go to the next step.</p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/addthis-13.jpg" alt=""></figure>
-</p>
-<p>Copy your profile ID in the &quot;<strong>1</strong>&quot; section. </p>
-<p>
-  <figure class="img-polaroid"><img src="img/magento/addthis-14.jpg" alt=""></figure>
-</p>
 <p>You need to insert it to the <strong>Profile ID</strong> field in <strong>Blog</strong> module settings window to make   <strong>Share Buttons</strong> appear on your site.</p>
 <h5>Look &amp; Feel</h5>
 <p>In this section, you can set up the appearance of the icons. You can choose one of the predefined presets, or you can add your own icons.</p>
@@ -268,7 +231,7 @@
 <h5>Api Configuration Options</h5>
 <p>This section contains the API settings of the Addthis service.</p>
 <figure class="img-polaroid"><img src="img/magento/sharing-13.jpg" alt="" /></figure>
-<figure class="img-polaroid"><img src="img/magento/sharing-14.jpg" alt="" /></figure>
+
 <table  class="options-table">
     <tr>
         <td class="col-1"><strong>Exclude Services </strong></td>
@@ -344,7 +307,7 @@
     <h5>General [Category Information]</h5> 
     In this section, you need to specify main information of category.
     <figure class="img-polaroid"><img src="img/magento/blog-2-3.jpg" alt="" /></figure>
-    <table class="options-table">
+<table class="options-table">
         <tr>
             <td class="col-1"><strong>Category Name</strong></td>
             <td>-</td>
@@ -371,10 +334,9 @@
             <td>show/hide the category.</td>
         </tr>
     </table>
-
-    <h5>SEO [Meta Data]</h5>
+<h5>SEO [Meta Data]</h5>
     In this section, you need to specify additional information.
-    <figure class="img-polaroid"><img src="img/magento/blog-2-4.jpg" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/magento/blog-2-4.jpg" alt="" /></figure>
     <table class="options-table">
         <tr>
             <td class="col-1"><strong>Title</strong></td>
@@ -393,9 +355,10 @@
         </tr>
     </table>
     <h5>Related Posts</h5>
-    In this section, you can add related post.
-    <figure class="img-polaroid"><img src="img/magento/blog-2-5.jpg" alt="" /></figure>
-    <p>Select posts and click <strong>"Save Category"</strong></p>
+    <p>In this section, you can add related post.
+      <figure class="img-polaroid"><img src="img/magento/blog-2-5.jpg" alt="" /></figure>
+    </p>
+<p>Select posts and click <strong>"Save Category"</strong></p>
 
     <h4>Adding post</h4>
     <p align="justify">Navigate to the <strong>TEMPLATEMONSTER</strong> section in the left sidebar. Find <strong>Blog</strong> and click <strong>Posts</strong>. Here you will see the list of all posts available on your website. You can either delete or edit the posts by clicking the <strong>Select</strong> button in the <strong>Action</strong> column.
@@ -516,8 +479,39 @@
             <td>change the comment publish date; Will be set to current date if empty.</td>
         </tr>
     </table>
-    <h4>Blog: Latest Posts Widget</h4>
-    <p align="justify">To add a Blog widget to the homepage, you need to navigate to <strong>Content > Widgets</strong> tab. You can change settings of any<strong> Blog</strong> Widget here.</p>
+    <h4>Frontend (based on the default Magento store):</h4>
+<figure class="img-polaroid"><img src="img/magento/blog-50.jpg" alt="" /></figure>
+    <ol class="marked-list">
+      <li><strong>Show in Menu</strong> — 	enable;</li>
+      <li><strong>Title</strong> — Blog.</li>
+    </ol>
+    <p><strong>Post List Page: </strong></p>
+<figure class="img-polaroid"><img src="img/magento/blog-51.jpg" alt="" /></figure>
+<ol class="marked-list">
+  <li><strong>Title</strong> — Blog;</li>
+  <li><strong>Posts per view</strong> — 3/6/9.</li>
+</ol>
+ <p><strong>Post  Page: </strong></p>
+<figure class="img-polaroid"><img src="img/magento/blog-52.jpg" alt="" /></figure>
+<ol class="marked-list">
+  <li><strong>Title</strong> — Blog;</li>
+  <li><strong>Post  Page Layout </strong>— 2 columns with left bar.</li>
+</ol>
+<p><strong>Related Posts</strong></p>
+<figure class="img-polaroid"><img src="img/magento/blog-53.jpg" alt="" /></figure>
+<ol class="marked-list">
+  <li><strong>Display Related Posts — </strong>enable;</li>
+  <li><strong>Post Layout View</strong> — grid with thumbnails;</li>
+  <li><strong>Number of Posts Per View</strong> — 4;</li>
+</ol>
+<p><strong>Related Products</strong></p>
+<figure class="img-polaroid"><img src="img/magento/blog-54.jpg" alt="" /></figure>
+<ol class="marked-list">
+  <li><strong>Display Related Products  — </strong>enable;</li>
+  <li><strong>Number of Products Per View</strong> — 3.</li>
+</ol>
+<h4>Blog: Latest Posts Widget</h4>
+   <p align="justify">To add a Blog widget to the homepage, you need to navigate to <strong>Content > Widgets</strong> tab. You can change settings of any<strong> Blog</strong> Widget here.</p>
  <div class="alert alert-info">
 <p align="justify"><strong>Tip:</strong></p>
     <div align="justify">
