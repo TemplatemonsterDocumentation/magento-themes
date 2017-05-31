@@ -3,7 +3,7 @@
 $path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 // Variables
-$product_name = "Magetique";
+$product_name = "Magetique 1.2.0";
 $product_desc = "";
 $doc_title = $product_name . " " . $product_desc;
 

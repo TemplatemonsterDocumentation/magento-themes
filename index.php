@@ -13,7 +13,7 @@ if (!isset($sections)) {
     <title><?php echo $doc_title; ?></title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
-    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v4-2/"/>
+    <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/magetique/"/>
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
@@ -75,26 +75,13 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
         <div class="panel">
             <div class="select select-version">
                 <select>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-2/" selected>Version v4-2</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-1/">Version v4-1</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-0/">Version v4-0</option>
-                    <!-- <option data-href="/help/quick-start-guide/magento-themes/v1-2/index_en.html">Version v1-2</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v2-0/index_en.html" selected>Version v2-0</option> -->
+                    <option data-href="/help/quick-start-guide/magento-themes/magetique/"selected>Magetique 1.2.0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/magetique-2/">Magetique 2.0.0</option>
+                    
+                   
                 </select>
             </div>
-            <div class="select select-lang">
-                <select>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=en&section=<?php echo $section_param; ?>" <?php echo $lang == "en"? "selected": ""; ?>>EN</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=ru&section=<?php echo $section_param; ?>" <?php echo $lang == "ru"? "selected": ""; ?>>RU</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=de&section=<?php echo $section_param; ?>" <?php echo $lang == "de"? "selected": ""; ?>>DE</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=es&section=<?php echo $section_param; ?>" <?php echo $lang == "es"? "selected": ""; ?>>ES</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=fr&section=<?php echo $section_param; ?>" <?php echo $lang == "fr"? "selected": ""; ?>>FR</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=it&section=<?php echo $section_param; ?>" <?php echo $lang == "it"? "selected": ""; ?>>IT</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=pl&section=<?php echo $section_param; ?>" <?php echo $lang == "pl"? "selected": ""; ?>>PL</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=pt&section=<?php echo $section_param; ?>" <?php echo $lang == "pt"? "selected": ""; ?>>PT</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=tr&section=<?php echo $section_param; ?>" <?php echo $lang == "tr"? "selected": ""; ?>>TR</option>
-                </select>
-            </div>
+               
         </div>
         <p class="copyright">TemplateMonster ©
             <a href="http://www.templatemonster.com/privacy-policy.php">Privacy Policy</a>
@@ -105,7 +92,6 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
         <div class="rd-mobilepanel">
             <h1 class="rd-mobilepanel_title">
                 <span><?php echo $product_name; ?></span> <?php echo $product_desc; ?>
-
             </h1>
         </div>
         <div class="page">

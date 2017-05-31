@@ -3182,8 +3182,7 @@ body.navbar-fixed {
   font-size: 14px;
   line-height: 30px;
   text-align: left; }
-  .select select {
-    display: none; }
+  
   .select .pseudo-select {
     padding-left: 8px;
     padding-right: 20px;
@@ -3642,3 +3641,4 @@ footer:after {
   margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
+.select-version {display: block;}
