@@ -408,7 +408,7 @@
   <tr>
     <td class="col-1"><strong>Additional tab title</strong></td>
     <td>-</td>
-    <td>snput tab title for additional tab. <strong>[12]</strong></td>
+    <td>input tab title for additional tab. <strong>[12]</strong></td>
   </tr>
   <tr>
     <td class="col-1"><strong>Show reviews</strong></td>
