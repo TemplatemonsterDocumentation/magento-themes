@@ -34,9 +34,5 @@
                                         </tr>
                                     </table>
                                 </div>
-                                <p><strong><h5>Frontend
-                                </h5></strong>
-                                <figure class="img-polaroid">
-                                  <div align=""><img src="img/magento/wishlist-3.jpg" alt="" /></div>
-                                </figure>
+                               
   
