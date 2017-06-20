@@ -1,32 +1,31 @@
-<h3>Newsletter Pop-up</h3>
-<p align="justify" class="indent">Email newsletter has always been the important part of every marketing strategy. This method is used all over the world, so it will definitely help you to gain more orders and subscribers. That's why we proudly present you the Newsletter pop-up module. It displays the popup window with subscription form and social icons right after the client visits your site.</p>
+ <h3>Newsletter Pop-up </h3>
+                                <p align="justify" class="indent">Email newsletter has always been the important part of every marketing strategy. This method is used all over the world, so it will definitely help you to gain more orders and subscribers. That's why we proudly present you the Newsletter pop-up module. It displays the popup window with subscription form and social icons right after the client visits your site.</p>
 
 <h4>Global configuration</h4>
-<p>In order to configure the module, navigate to <strong>Stores > Settings > Configuration</strong> section.
-  <figure class="img-polaroid"><img src="img/magento/new-0.png" alt="" /></figure>
-</p>
+<p align="justify">In order to configure this module, you should navigate to Magento admin panel and choose the <strong>Stores > Configuration</strong> section in the left side menu.</p>
+<figure class="img-polaroid"><img src="img/magento/stores.png" alt="" /></figure>
 <p align="justify">Choose the <strong>TEMPLATEMONSTER > Newsletter Pop-up</strong> in the left side menu to go to the module settings interface.<br>
   The module has 2 sections, and each one contains a specific set of options:
 </p>
 <ul class="marked-list">
 <li>
-		<strong>General</strong>
+        <strong>General</strong>
   </li>
-	<li>
-		<strong>Social Settings</strong>
-	</li>
+    <li>
+        <strong>Social Settings</strong>
+    </li>
 </ul>
  <figure class="img-polaroid"><img src="img/magento/new-2.jpg" alt="" /></figure>
 
 <p align="justify"><strong>General</strong> section includes main module settings, and <strong>Social settings</strong> section serves for social icons display setup in the pop-up window.</p>
 
 <h4>General</h4>
-<p align="justify">As stated above, this section includes main module settings. You can enable or disable module here, specify buttons color, define the width of the window, etc. Let’s review each option separately.</p>
+<p align="justify">As stated above, this section includes main module settings. You can enable or disable module here, specify buttons color, define the width of the window, etc. Let's review each option separately.</p>
 <p align="justify"><strong>General</strong> section includes main module settings, and <strong>Social settings</strong> section serves for social icons display setup in the pop-up window.</p>
 <p>
   <figure class="img-polaroid"><img src="img/magento/new-4.jpg" alt="" /></figure>
 </p>
-<div align="justify">As stated above, this section includes main module settings. You can enable or disable module here, specify buttons color, define the width of the window, etc. Let’s review each option separately. </div>
+<div align="justify">As stated above, this section includes main module settings. You can enable or disable module here, specify buttons color, define the width of the window, etc. Let's review each option separately. </div>
 
 
   <ol class="index-list">
@@ -53,7 +52,7 @@
       <img src="img/magento/new-9.jpg" alt="" />
     </figure>
   </li>
-  <li></li>
+  
   <li>
     <div align="justify"><strong>Pop-Up width</strong> option allows you to define the newsletter pop-up window width. Its size can be set in pixels only. </div>
     <figure class="img-polaroid">
@@ -83,7 +82,7 @@
   </li>
 </ol>
 <h4 align="justify">Social Settings</h4>
-<p align="justify" class="indent">This section is responsible for social icons display and configuration in the newsletter pop-up. It consists of a few subsections that have similar options</p>
+<p align="justify" class="indent">This section is responsible for social icons display and configuration in the newsletter pop-up. It consists of a few subsections that have similar options.</p>
 <figure class="img-polaroid">
   <img src="img/magento/new-12.jpg" alt="" />
 </figure>
@@ -138,7 +137,7 @@
 </ol>
 <p align="justify">All of these options allow you to customize the icon appearance. They provide you with the option to set the icon background and color for the initial state and on hover [after hovering the icon with the mouse cursor]. <br />
   Please be sure to save your configuration! </p>
-<p align="justify">Just in case you'd like to return all the default settings, there is a <strong>Reset</strong> button available next to the <strong>Save</strong> one.</p>
+<p align="justify">Just in case, you'd like to return all the default settings, there is a <strong>Reset</strong> button available next to the <strong>Save</strong> one.</p>
 <figure class="img-polaroid">
   <img src="img/magento/new-17.jpg" alt="" />
 </figure>

@@ -1,11 +1,19 @@
- <h2 class="item1">Smart Product Labels</h2>
- <p class="indent">TemplateMonster <strong>Smart Product Labels</strong> module allows you to make labels appear automatically according to configured rules.</p>
+<h3>Smart Product Labels</h3>
+                           <p class="indent">TemplateMonster <strong>Smart Product Labels</strong> module allows you to make labels appear automatically according to configured rules.</p>
+ <p class="indent"><strong>Category Page  Label:</strong></p>
+<p>
+   <figure class="img-polaroid"><img src="img/magento/smart-product-labels-70.png" alt="" /></figure>
+</p>
+<p><strong>Product Page Label: </strong> </p>
+<p>
+   <figure class="img-polaroid"><img src="img/magento/product-71.png" alt="" /></figure>
+</p>
 <p>In order to customize the module, click the <strong>Stores > Settings > Configuration</strong>.</p> 
 
 <p>
-  <figure class="img-polaroid"><img src="img/magento/smart-product-labels-1.png" alt="" /></figure>  
+  <figure class="img-polaroid"><img src="img/magento/stores.png" alt="" /></figure>  
 </p>
-<p align="justify">Then choose the <strong>TEMPLATEMONSTER > Product Smart Label</strong> in the left side menu and you'll move to the module settings interface.</p>
+<p align="justify">Then choose <strong>TEMPLATEMONSTER > Product Smart Label</strong> in the left side menu and you'll move to the module settings interface.</p>
 <p>
   <figure class="img-polaroid"><img src="img/magento/smart-product-labels-2.png" alt="" /></figure>
   
@@ -31,25 +39,27 @@
 
 
 
-<p> A window with the html-code will appear on the right. The code which is related to your product image will be highlighted. </p>
+<p> A window with the html-code will appear. The code which is related to your product image will be highlighted. </p>
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-6.png" alt="" /></figure>
 
 <p> You can preview the container area by hovering over the html-code. </p> 
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-7.png" alt="" /></figure>
 
-<p>Then, copy the phrase in brackets which is always situated after the  <strong>div class=</strong> tag.
+<p>Then, copy the phrase in brackets which is always situated after the  <strong>div class=</strong>&quot;.
 
 
 <div class="alert alert-warning ">
-    <p>E.g. you have the html-code:<p> div class="gallery-placeholder" data-gallery-role="gallery-placeholder" </p>
+  <p>E.g. you have the html-code:
+  <p align="justify">&lt;div class=&quot;fotorama__stage__frame fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__active&quot; aria-hidden=&quot;false&quot; style=&quot;left: 0px;&quot; /.../ &lt;/div&gt;</p>
 </div>
 
-<p align="justify">Copy the <strong>gallery-placeholder</strong> and that will be your certain container which you want the label should be displayed by. Paste the <strong>gallery-placeholder</strong> in the <strong>Product Page Label Container</strong> field.</p>
-
-<p>Do the same with the <strong>Category Page Label Container</strong> if you want label be shown in your shop product CATALOG PAGE.</p> 
-
-
-    
+<p align="justify">Copy the <strong>fotorama__stage__frame fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__active</strong><strong> </strong>and that will be your certain container which you want the label should be displayed by. Enter the <strong>.fotorama__stage__frame fotorama_vertical_ratio fotorama__loaded fotorama__loaded--img magnify-wheel-loaded fotorama__active</strong> in the <strong>Product Page Label Container</strong> field. Note the dot (&quot;.&quot;) before the contaner class.</p>
+<p align="justify">The default <strong>Product Page Label Container</strong> class is .product-media.</p>
+<p>Do the same with the <strong>Category Page Label Container</strong> if you want label be shown by  the certain container in your shop product CATALOG PAGE.</p>
+<p>The default <strong>Category Page  Label Container</strong> class is .product-item.</p>
+<div class="alert alert-warning ">
+  <p>Note  the dot (&quot;.&quot;) before the contaner class. E.g.<strong> .product-media</strong>.</p>
+</div>
 <h3>Label Manager</h3>
 In the Admin panel, go to  <strong>TEMPLATEMONSTER > Smart Product Labels</strong>. This will bring you to the <strong>Label Manager</strong>.
 <p>Hire able to create, edit, and manage all labels in the easy-to-use <strong>Label Manager</strong>.</p> 
@@ -70,7 +80,7 @@ In the Admin panel, go to  <strong>TEMPLATEMONSTER > Smart Product Labels</stron
 
 
 
-<h3>Creation of product labels</h3>
+<h3>Add product label</h3>
 
 
 
@@ -79,7 +89,7 @@ To add a new product label press <strong>Add New Label</strong> button.
 
 </h5>
 <h5>GENERAL TAB</h5>
-<p align="justify">In <strong>GENERAL</strong>, you specify such core label information as <strong>Name</strong> and <strong>Priority</strong> [0 is for the highest priority and 99 is for the lowest]. Besides, you can enable the feature that hides the label if another one with higher priority is applied [<strong>Hide if label with higher priority is already applied</strong>]. Another interesting parameter — <strong>Use for Parent</strong> — displays a child’s label for the parent product [but it works for configurable and grouped products only]. Finally, you should decide what store view to apply the label to.</p>
+<p align="justify">In <strong>GENERAL</strong>, you specify such core label information as <strong>Name</strong> and <strong>Priority</strong> [0 is for the highest priority and 99 is for the lowest]. Besides, you can enable the feature that hides the label if another one with higher priority is applied [<strong>Hide if label with higher priority is already applied</strong>]. Another interesting parameter — <strong>Use for Parent</strong> — displays a child's label for the parent product [but it works for configurable and grouped products only]. Finally, you should decide what store view to apply the label to.</p>
 <p>
   <figure class="img-polaroid"><img src="img/magento/smart-product-labels-13.png" alt="" /></figure>
   
@@ -102,6 +112,59 @@ Note that the same options are available for both PRODUCT and CATEGORY pages.
     <p>You can use different labels for category and product pages [e.g. smaller image for category page and a bigger one for product page].</p>
 </div>
 
+<p>You can utilize following variables in the label text:</p>
+<ul class="marked-list">
+
+<li>
+  <div align="justify"><strong>{SAVE_PERCENT}</strong>. Saving percentage, it's the percentage margin between regular price
+        and special price. If you specify in admin panel 'Sale! {SAVE_PERCENT} OFF!', on front end
+        it will be 'Sale! X% OFF!', X stands for the percent number. [if special price is set] </div>
+</li>
+<li>
+  <div align="justify"><strong>{SAVE_AMOUNT}</strong>. Flat savings amount, represents flat difference between regular price
+        and special price. So 'Save {SAVE_AMOUNT}!' results into 'Save $X!'. X is the amount, '$'
+        sign will be automatically replaced with the symbol of your currency. [if special price is set]</div>
+</li>
+<li><strong>{ SKU}</strong>.  Displays product SKU. </li>
+<li>
+  <div align="justify"><strong>{PRICE}</strong>. Displays regular price.  </div>
+</li>
+<li>
+  <div align="justify"><strong>{SPECIAL_PRICE}</strong> displays special price. [if special price is set] </div>
+</li>
+<li>
+  <div align="justify"><strong>{NEW_FOR}</strong> shows how many days ago a product was added. 'NEW! Arrived just
+        {NEW_FOR} days ago!' will be shown as 'NEW! Arrived just X days ago!', where X is the
+        amount of days. [if assigned to the new product] </div>
+</li>
+<li>
+
+  <div align="justify"> <strong>{BR}</strong> — new line. The extension automatically breaks messages into several lines if they are
+        too long. If you need to display some word or phrase in a separate line, please use {BR}
+  variable. </div>
+</li>
+
+</ul> 
+<div class="alert alert-info">
+   The variables works for <strong>Simple </strong>and<strong> Downloadable</strong> products only.</div>
+<h5>How to set the Special Price</h5>
+<p>On the Admin sidebar, tap <strong>Products</strong>. Then under the Inventory, choose <strong>Catalog</strong>.</p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/smart-product-labels-50.jpg" alt="" /></figure>
+</p>
+<p>Find the product you want special price add to.       Open the product in Edit mode. </p>
+<figure class="img-polaroid"><img src="img/magento/smart-product-labels-51.jpg" alt="" /></figure>
+<p>Tab <strong>Advanced Pricing</strong> under the Price opton.</p>
+<p>
+  <figure class="img-polaroid"><img src="img/magento/smart-product-labels-52.jpg" alt="" /></figure>
+</p>
+<p>Enter the special price in the <strong>Special Price</strong> option field.</p>
+  <p>
+    <figure class="img-polaroid"><img src="img/magento/smart-product-labels-53.jpg" alt="" /></figure>
+  </p>
+  <p>When complete, tap <strong>Done</strong>. Then save the product settings.</p>
+<h5>Frontend:</h5>
+<figure class="img-polaroid"><img src="img/magento/smart-product-labels-30.jpg" alt="" /></figure>
 <h5>CONDITIONS TAB</h5>
 <p>As for the <strong>CONDITIONS</strong> tab, it lets you make the selection of product to apply the label to more precise. 
 <figure class="img-polaroid"><img src="img/magento/smart-product-labels-17.png" alt="" /></figure>
@@ -155,52 +218,3 @@ The dab is divided into several sections:
    Don't forget to click <strong>Save</strong> button after you finish the customization. 
    <figure class="img-polaroid"><img src="img/magento/smart-product-labels-24.png" alt="" /></figure>
 </div>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
- 
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-

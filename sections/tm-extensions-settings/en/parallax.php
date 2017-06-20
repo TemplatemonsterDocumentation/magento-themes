@@ -1,6 +1,6 @@
-<h2 class="item1">Parallax settings</h2>
+ <h3 class="item1">Parallax settings</h3>
 <h3>General</h3>
-<p align="justify">To activate the module, navigate to <strong>Store > Configuration >  Templatemonster > Parallax tab</strong>. Here you’ll find option to enable module.</p>
+<p align="justify">To activate the module, navigate to <strong>Store > Configuration >  Templatemonster > Parallax tab</strong>. Here you'll find option to enable module.</p>
 <figure class="img-polaroid"><img src="img/magento/parallax-2.jpg" alt="parallax" /></figure>
 <p>To add and configure parallax block, navigate to <strong>TEMPLATE MONSTER &gt; Parallax Block</strong>.</p>
 <figure class="img-polaroid"><img src="img/magento/parallax-3.jpg" alt="parallax" /></figure>
@@ -12,7 +12,7 @@
 <p>
   <figure class="img-polaroid"><img src="img/magento/parallax-5.png" alt="parallax" /></figure>
 </p>
-<p>Let’s review module options: </p>
+<p>Let's review module options: </p>
 <table  class="options-table">
   <tr>
     <td class="col-1"><strong>Block Name</strong></td>
