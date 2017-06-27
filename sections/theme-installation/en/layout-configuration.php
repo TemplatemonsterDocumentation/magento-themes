@@ -253,8 +253,8 @@
         </tr>
 		<tr>
             <td>7.</td>
-            <td>Parallax Block</td>
             <td>Parallax</td>
+            <td>Parallax Block</td>
             <td>Main Content Area</td>
 			<td>parallax_layout_1</td>
 			<td>6</td>
