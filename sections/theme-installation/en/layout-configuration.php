@@ -264,7 +264,7 @@
             <td>From the Blog</td>
             <td>Blog: Latest posts</td>
             <td>Main Content Area</td>
-			<td>N/A</td>
+			<td>Post grid</td>
 			<td>7</td>
         </tr>
 		<tr>
