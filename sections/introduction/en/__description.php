@@ -112,12 +112,6 @@
         </li>
         <li>
             <dl class="inline-term">
-                <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
-                <dd> contains the links where the template custom fonts can be downloaded.</dd>
-            </dl>            
-        </li>
-        <li>
-            <dl class="inline-term">
                 <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
                 <dd> contains instructions on how to extract source files.</dd>
             </dl>            
