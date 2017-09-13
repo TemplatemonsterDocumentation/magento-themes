@@ -336,20 +336,7 @@
 				"pt":"Theme Options"
 			}
 		},
-			{
-			"id":"theme-updater",
-			"translations":{
-				"en":"Theme Updater",
-				"ru":"Theme Updater",
-				"tr":"Theme Updater",
-				"de":"Theme Updater",
-				"es":"Theme Updater",
-				"fr":"Theme Updater",
-				"it":"Theme Updater",
-				"pl":"Theme Updater",
-				"pt":"Theme Updater"
-			}
-		},
+			
 		{
 			"id":"twitter-feed",
 			"translations":{
