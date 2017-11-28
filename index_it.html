@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" href="css/responsive.css" media="screen">
-	<link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" href="css/style.css?v=1" media="screen">
 	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
 	<link rel="stylesheet" href="css/prettify.css"  media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
@@ -16,7 +16,7 @@
 	<script src="js/prettify.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/bootstrap-affix.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script.js?v=1"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 	<link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
 	<script type="text/javascript" src="google-code-prettify/prettify.js"></script>
@@ -240,6 +240,14 @@
 	<!-- Complete Magento Installation -->
 	<section class="block-templates" id="complete_install">
 		<h2 class="item4"><i class="icon-dropbox"></i> Installazione Completa</h2>
+		<div class="zemez-chat-wrap">
+		<p class="box-info"><span>Se non vuoi spendere il tempo per l'installazione del modello, non esitare a contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione utilizzando il nostro live-chat.</span></p>
+		<form class="zemez-chat" id="zemez-chat" method="GET">
+				<input type="text" placeholder="Nome:" name="uname" id="uname">
+				<input type="email" placeholder="Indirizzo e-mail:" name="umail" id="umail">
+				<span onclick="startChat()">Avvia la Chat</span>
+			</form>
+		</div>
 		<p>Il metodo con installazione completa può essere utilizzato se si vuole installare uno store Magento utilizzando contenuti campione. Da qui in poi daremo per scontato che avrai già completato tutti i <a href="#preparations">preparativi</a>.</p>
 		<p>La procedura di installazione si suddivide in tre fasi:</p>
 		<ol class="list">
@@ -401,13 +409,14 @@
 	</section>
 	<section class="block-templates" id="theme_installation">
 		<h2 class="item5"><i class="icon-cog"></i> Installazione Template Magento</h2>
+		<p class="box-info"><span>Se non vuoi spendere il tempo per l'installazione del modello, non esitare a contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione utilizzando il nostro live-chat.</span></p>
 		<article id="themeinstaller">
 			<p>Prima di tutto assicurati che la versione di Magento che stai installando sia compatibile con i requisiti del template. Se stai usando una versione datata di Magento, dovrai aggiornarla. Non dimenticare di fare il back up dei file e del database. Le istruzioni per l'aggiornamento di Magento sono disponibili sul sito <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a>.</p>
 			<p>Se il tuo motore Magento è compatibile con i requisiti di template, puoi iniziare l'installazione del template.  </p>
 			<ol>
 				<li>Apri il pacchetto del template e vai sulla cartella <b>theme###</b>.</li>
 				<li>Carica i contenuti della cartella <b>theme###</b> sulla directory di installazione di Magento (carica "<b>app</b>", "<b>skin</b>" e altre cartella). Queste cartelle contengono i file del tema e non modificheranno i tuoi file pre-esistenti.</li>
-			</ol>
+				</ol>
 		</article>
 		<article id="template_settings">
 			<h4>1. Configurazione del Template</h4>

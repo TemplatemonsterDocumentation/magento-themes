@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" href="css/responsive.css" media="screen">
-	<link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" href="css/style.css?v=1" media="screen">
 	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
 	<link rel="stylesheet" href="css/prettify.css"  media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
@@ -16,7 +16,7 @@
 	<script src="js/prettify.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/bootstrap-affix.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script.js?v=1"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 	<link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
 	<script type="text/javascript" src="google-code-prettify/prettify.js"></script>
@@ -238,6 +238,16 @@
 	<!-- Complete Magento Installation -->
 	<section class="block-templates" id="complete_install">
 		<h2 class="item4"><i class="icon-dropbox"></i> Complete installation</h2>
+		
+	<div class="zemez-chat-wrap">
+	<p class="box-info"><span>If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</span></p>
+	<form class="zemez-chat" id="zemez-chat" method="GET">
+		<input type="text" placeholder="Name:" name="uname" id="uname">
+		<input type="email" placeholder="Email Address:" name="umail" id="umail">
+		<span onclick="startChat()">Start chat</span>
+	</form>
+	</div>
+		
 		<p>The complete installation method can be used if you want to set up a Magento store using a sample content. We assume that you have completed all the <a href="#preparations">preparation steps</a>.</p>
 		<p>The installation process consists of 3 stages:</p>
 		<ol class="list">
@@ -399,6 +409,7 @@
 	</section>
 	<section class="block-templates" id="theme_installation">
 		<h2 class="item5"><i class="icon-cog"></i> Magento template installation</h2>
+		<p class="box-info"><span>If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</span></p>
 		<article id="themeinstaller">
 			<p>First of all, please make sure your Magento installation version meets the template requirements. If you are using an outdated version of Magento, you need to upgrade it. Don't forget to back up the files and the database. Magento upgrade instructions are available at the <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a> website.</p>
 			<p>If your Magento engine meets the template requirements, you can start the template installation.  </p>

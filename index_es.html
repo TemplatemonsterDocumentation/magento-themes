@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" href="css/responsive.css" media="screen">
-	<link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" href="css/style.css?v=1" media="screen">
 	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
 	<link rel="stylesheet" href="css/prettify.css"  media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
@@ -16,7 +16,7 @@
 	<script src="js/prettify.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/bootstrap-affix.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script.js?v=1"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 	<link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
 	<script type="text/javascript" src="google-code-prettify/prettify.js"></script>
@@ -238,6 +238,14 @@
 	<!-- Complete Magento Installation -->
 	<section class="block-templates" id="complete_install">
 	<h2 class="item4"><i class="icon-dropbox"></i> Instalaci&oacute;n completa</h2>
+	<div class="zemez-chat-wrap">
+	<p class="box-info"><span>Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</span></p>
+	<form class="zemez-chat" id="zemez-chat" method="GET">
+			<input type="text" placeholder="Nombre:" name="uname" id="uname">
+			<input type="email" placeholder="Dirección de Email:" name="umail" id="umail">
+			<span onclick="startChat()">Comenzar Chat</span>
+		</form>
+	</div>
 		<p>El m&eacute;todo de instalaci&oacute;n completo se puede utiliza si desea configurar una tienda de Magento utilizando los datos de ejemplo. Suponemos que ha completado todos los <a href="#preparations">pasos de preparaci&oacute;n</a>.</p>
 		<p>El proceso de instalaci&oacute;n consta de 3 etapas:</p>
 		<ol class="list">
@@ -399,6 +407,7 @@
 	</section>
 	<section class="block-templates" id="theme_installation">
 		<h2 class="item5"><i class="icon-cog"></i> Instalaci&oacute;n de la plantilla Magento</h2>
+		<p class="box-info"><span>Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</span></p>
 		<article id="themeinstaller">
 		<p>En primer lugar, aseg&uacute;rese de que su versi&oacute;n de instalaci&oacute;n de Magento cumple con los requisitos de la plantilla. Si est&aacute; utilizando una versi&oacute;n antigua de Magento, es necesario actualizarlo. No se olvide de hacer una copia de seguridad de los archivos y de la base de datos. Las instucciones de actualizaci&oacute;n de Magento est&aacute;n disponibles en la p&aacute;gina <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a>.</p>
 			<p>Si su motor de Magento cumple con los requisitos de la plantilla, puede iniciar la instalaci&oacute;n de la plantilla.  </p>

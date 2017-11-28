@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" href="css/responsive.css" media="screen">
-	<link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" href="css/style.css?v=1" media="screen">
 	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
 	<link rel="stylesheet" href="css/prettify.css"  media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
@@ -16,7 +16,7 @@
 	<script src="js/prettify.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/bootstrap-affix.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script.js?v=1"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 	<link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
 	<script type="text/javascript" src="google-code-prettify/prettify.js"></script>
@@ -240,6 +240,14 @@
 	<!-- Complete Magento Installation -->
 	<section class="block-templates" id="complete_install">
 		<h2 class="item4"><i class="icon-dropbox"></i> Vollständige Installation</h2>
+		<div class="zemez-chat-wrap">
+		<p class="box-info"><span>Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</span></p>
+		<form class="zemez-chat" id="zemez-chat" method="GET">
+				<input type="text" placeholder="Name:" name="uname" id="uname">
+				<input type="email" placeholder="E-Mail-Addresse:" name="umail" id="umail">
+				<span onclick="startChat()">Chat starten</span>
+			</form>
+		</div>
 		<p>Die vollständige Installation wird in dem Fall benutzt, wenn Sie den Online-Shop von Magento mit dem Domainhalt installieren möchten. Am besten müssen vorher alle <a href="#preparations">vorbereitenden Schritte</a> ausgeführt und alle notwendigen Programme installiert werden.</p>
 		<p>Die Installation besteht aus drei Schritten:</p>
 		<ol class="list">
@@ -401,6 +409,7 @@
 	</section>
 	<section class="block-templates" id="theme_installation">
 		<h2 class="item5"><i class="icon-cog"></i> Installation des Magento Themas</h2>
+		<p class="box-info"><span>Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</span></p>
 		<article id="themeinstaller">
 			<p>Zuerst überzeugen Sie sich, dass die installierte Magento Version mit der ausgewählten Vorlage kompatibel ist. Wenn Sie eine veraltete Magento Version verwenden, dann müssen Sie sie aktualisieren. Vergessen Sie nicht die Sicherungskopie von den Dateien des Online-Shops und der Datenbank zu erstellen. Die Anleitungen zur Magento Aktualisierung sind auf der Webseite <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a> verfügbar.</p>
 			<p>Wenn Magento Engine den Anforderungen der Vorlage entspricht, dann können Sie mit der Installation anfangen. </p>

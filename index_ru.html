@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
 	<link rel="stylesheet" href="css/responsive.css" media="screen">
-	<link rel="stylesheet" href="css/style.css" media="screen">
+	<link rel="stylesheet" href="css/style.css?v=1" media="screen">
 	<link rel="stylesheet" href="css/flexslider.css"  media="screen">
 	<link rel="stylesheet" href="css/prettify.css"  media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
@@ -16,7 +16,7 @@
 	<script src="js/prettify.js"></script>
 	<script src="js/jquery.flexslider.js"></script>
 	<script src="js/bootstrap-affix.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script.js?v=1"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 	<link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
 	<script type="text/javascript" src="google-code-prettify/prettify.js"></script>
@@ -240,6 +240,14 @@
 	<!-- Complete Magento Installation -->
 	<section class="block-templates" id="complete_install">
 		<h2 class="item4"><i class="icon-dropbox"></i> Полная установка</h2>
+		<div class="zemez-chat-wrap">
+		<p class="box-info"><span>Если Вы не хотите тратить Ваше время на установку шаблона, вы всегда можете <span class="label label-warning opener" onclick="showChat()">заказать</span> услугу установки шаблона используя наш чат.</span></p>
+		<form class="zemez-chat" id="zemez-chat" method="GET">
+				<input type="text" placeholder="Имя:" name="uname" id="uname">
+				<input type="email" placeholder="Email:" name="umail" id="umail">
+				<span onclick="startChat()">Начать чат</span>
+			</form>
+		</div>
 		<p>Полная установка используется в том случае, если нужно установить интернет магазин Magento вместе с демонстрационным контентом. Предусматривается предварительное выполнение всех <a href="#preparations">подготовительных шагов</a> и наличие необходимых программ.</p>
 		<p>По большому счёту установка будет состоять из трёх условных этапов:</p>
 		<ol class="list">
@@ -401,6 +409,7 @@
 	</section>
 	<section class="block-templates" id="theme_installation">
 		<h2 class="item5"><i class="icon-cog"></i> Установка темы Magento</h2>
+		<p class="box-info"><span>Если Вы не хотите тратить Ваше время на установку шаблона, вы всегда можете <span class="label label-warning opener" onclick="showChat()">заказать</span> услугу установки шаблона используя наш чат.</span></p>
 		<article id="themeinstaller">
 			<p>В первую очередь убедитесь, что установленная версия Magento совместима с выбранным вами шаблоном. Если вы используете устаревшую версию Magento, то обновите ее. Не забудьте создать резервную копию файлов магазина и базы данных. Инструкции по обновлению Magento доступны на сайте <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a>.</p>
 			<p>Если движок Magento соответствует требованиям шаблона, то можно приступать к установке. </p>
