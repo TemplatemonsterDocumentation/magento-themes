@@ -53,7 +53,7 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
             '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-MS2BNB');</script>
     <!-- End Google Tag Manager -->
-<?php elseif(strpos($domain, 'info.template-help.com') !== false): ?>
+<?php elseif(strpos($domain, 'direct-quick-start-guide.templatemonster.com') !== false): ?>
     <!--TemplateHelp GTM-->
     <!-- Google Tag Manager -->
     <noscript><iframe src=""//www.googletagmanager.com/ns.html?id=GTM-WJX75J""
