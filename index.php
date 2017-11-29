@@ -31,7 +31,7 @@ if (!isset($sections)) {
     <![endif]-->
 
 </head>
-<body  data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
+<body  data-section="<?php echo $section_param; ?>" onload="prettyPrint()" class="<?php echo $_SERVER['HTTP_HOST']; ?>">
     <?php
 $domain = $_SERVER['HTTP_HOST'];
 if(strpos($domain, 'templatemonster.com') !== false): ?>
