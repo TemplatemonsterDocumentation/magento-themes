@@ -1,4 +1,7 @@
 <h2 class="item1">Instalaci&oacute;n de la plantilla Magento</h2>
+
+<p class="alert alert-info custom">Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</p>
+
 <p>En primer lugar, aseg&uacute;rese de que su versi&oacute;n de instalaci&oacute;n de Magento cumple con los requisitos de la plantilla. Si est&aacute; utilizando una versi&oacute;n antigua de Magento, es necesario actualizarlo. No se olvide de hacer una copia de seguridad de los archivos y de la base de datos. Las instucciones de actualizaci&oacute;n de Magento est&aacute;n disponibles en la p&aacute;gina <a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a>.</p>
 <p>Si su motor de Magento cumple con los requisitos de la plantilla, puede iniciar la instalaci&oacute;n de la plantilla.</p>
 <ol class="index-list">
