@@ -15,7 +15,7 @@
 		<meta name="format-detection" content="telephone=no"/>
 		<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v4-0/"/>
 		<link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" href="<?php echo $path; ?>/css/style.css?v=1">
+		<link rel="stylesheet" href="<?php echo $path; ?>/css/style.css?v=2">
 		<link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
 		<link rel="stylesheet" href="<?php echo $path; ?>/js/helpers/jquery.fancybox-buttons.css">
 		<link rel="stylesheet" href="<?php echo $path; ?>/js/helpers/jquery.fancybox-thumbs.css">
@@ -179,6 +179,6 @@
 					
 				</script>
 				
-				<script src="<?php echo $path; ?>/js/script.js?v=1" ></script>
+				<script src="<?php echo $path; ?>/js/script.js?v=2" ></script>
 			</body>
 		</html>		
