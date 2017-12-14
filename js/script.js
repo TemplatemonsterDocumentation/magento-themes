@@ -167,6 +167,12 @@ function showChat() {
 	zemezchat.classList.add("zemez-chat-shown");
 }
 
+function closeChat() {
+	
+	var zemezchat = document.getElementById("zemez-chat");
+	zemezchat.classList.remove("zemez-chat-shown");
+}
+
 function startChat() {
 	
 	var uname = document.getElementById("uname");
@@ -194,7 +200,7 @@ function startChat() {
 	
 	jQuery.ajax({
 		url:     'chat.php', 
-		type:     "POST", 
+		type:     "GET", 
 		dataType: "html", 
 		async:false,
 		data: jQuery('#zemez-chat').serialize(), 

@@ -4674,21 +4674,31 @@ footer:after {
 }
 
 
-/*CHAT*/
+/* Chat
+ ========================================================*/
 
 .zemez-chat-wrap * {
     box-sizing: border-box;
 }
 
+#zemez-chat-close:before {
+    font-family: FontAwesome;
+    content: "\f00d";
+    position: absolute;
+    right: 5px;
+    top: 0;
+	cursor:pointer;
+}
+
 .zemez-chat {
-	display:none;
     position: fixed;
 	max-width:260px;
-    display:none;
+    right:-260px;
     bottom: 110px;
     z-index: 99;
     padding: 12px;
 	background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
 }
 
 .zemez-chat-wrap {
@@ -4705,7 +4715,7 @@ footer:after {
 }
 
 #zemez-chat input {
-	margin-bottom: 20px;
+	margin-top: 15px;
     padding: 10px;
 	width: 100%;
     background-color: #f8f8f8;
@@ -4721,7 +4731,7 @@ footer:after {
     text-align: center;
 	cursor:pointer;
 	color:#fff;
-	margin: 0 auto;
+	margin: 15px auto 0 auto;
 }
 
 #zemez-chat input:focus {
@@ -4730,11 +4740,11 @@ footer:after {
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6) inset;
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6) inset;
 	-webkit-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	outline:none;
 }
 
 .zemez-chat-shown {
 	right: 20px;
-	display:block;
 	-webkit-animation: bounceInRight 700ms 1 linear alternate;
     animation: bounceInRight 700ms 1 linear alternate
 }
@@ -4746,7 +4756,7 @@ footer:after {
 }
 
 #zemez-chat .zemez-chat-error {
-	border:1px solid #f4511e;
+	outline:1px solid #f4511e;
 }
 
 .zemez-chat-wrap .alert-info, .alert.alert-info.custom{
