@@ -38,17 +38,7 @@
 		
 	</head>
 	<body  data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
-	
-		<!-- Chat ======================================================== -->
-		<div class="zemez-chat-wrap">
-			<form class="zemez-chat" id="zemez-chat" method="GET">
-				<i id="zemez-chat-close" onclick="closeChat()"></i>
-				<input type="text" placeholder="Name:" name="uname" id="uname">
-				<input type="email" placeholder="Email Address:" name="umail" id="umail">
-				<span onclick="startChat()">Start chat</span>
-			</form>
-		</div>
-		<?php
+	<?php
 			$domain = $_SERVER['HTTP_HOST'];
 		if(strpos($domain, 'templatemonster.com') !== false): ?>
 		<!--Templatemonster GTM -->
@@ -75,6 +65,15 @@
 				<?php else: ?>
 				<!-- Domain doesn't match. Google Tag Manager no added -->
 				<?php endif; ?>
+				<!-- Chat ======================================================== -->
+		<div class="zemez-chat-wrap">
+			<form class="zemez-chat" id="zemez-chat" method="GET">
+				<i id="zemez-chat-close" onclick="closeChat()"></i>
+				<input type="text" placeholder="Name:" name="uname" id="uname">
+				<input type="email" placeholder="Email Address:" name="umail" id="umail">
+				<span onclick="startChat()">Start chat</span>
+			</form>
+		</div>
 				<div class="page-wrap">
 					<div class="rd-mobilemenu active">
 						<div class="logo">
