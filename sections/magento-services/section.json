@@ -1,0 +1,46 @@
+{
+	"id":"magento-services",
+	"translations":
+	{
+		"en":"Magento Services",
+		"ru":"Magento Services",
+		"tr":"Magento Services",
+		"de":"Magento Services",
+		"es":"Magento Services",
+		"fr":"Magento Services",
+		"it":"Magento Services",
+		"pl":"Magento Services",
+		"pt":"Magento Services"
+	},
+	"articles":
+	[		
+		{
+			"id":"magento-1",
+			"translations":{
+				"en":"Magento 1 Services",
+				"ru":"Magento 1 Services",
+				"tr":"Magento 1 Services",
+				"de":"Magento 1 Services",
+				"es":"Magento 1 Services",
+				"fr":"Magento 1 Services",
+				"it":"Magento 1 Services",
+				"pl":"Magento 1 Services",
+				"pt":"Magento 1 Services"
+			}
+		},		
+		{
+			"id":"magento-2",
+			"translations":{
+				"en":"Magento 2 Services",
+				"ru":"Magento 2 Services",
+				"tr":"Magento 2 Services",
+				"de":"Magento 2 Services",
+				"es":"Magento 2 Services",
+				"fr":"Magento 2 Services",
+				"it":"Magento 2 Services",
+				"pl":"Magento 2 Services",
+				"pt":"Magento 2 Services"
+			}
+		}		
+	]
+}
