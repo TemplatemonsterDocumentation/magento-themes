@@ -71,7 +71,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <option data-href="/help/quick-start-guide/magento-themes/v1-0/index_en.html">Version v1-0</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v1-1/index_en.html">Version v1-1</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v1-2/index_en.html">Version v1-2</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v2-0/index_en.html" selected>Version v2-0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v2-0/index_en.html">Version v2-0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v2-0/index_en.html">Version v2-0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v2-1/index_en.html">Version v2-1</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v3-0/index_en.html">Version v3-0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v4-0/index_en.html">Version v4-0</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v4-1/index_en.html">Version v4-1</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v4-2/index_en.html">Version v4-2</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v4-3/index_en.html">Version v4-3</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v4-4/index_en.html">Version v4-4</option>
+                    <option data-href="/help/quick-start-guide/magento-themes/v4-5/index_en.html" selected>Version v4-5</option>
+
+
                 </select>
             </div>
             <div class="select select-lang">
