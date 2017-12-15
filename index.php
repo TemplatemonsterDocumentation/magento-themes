@@ -75,6 +75,7 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
         <div class="panel">
             <div class="select select-version">
                 <select>
+                    <option data-href="/help/quick-start-guide/magento-themes/v4-5/">Version v4-5</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v4-2/" selected>Version v4-4</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v4-2/">Version v4-2</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v4-1/">Version v4-1</option>
