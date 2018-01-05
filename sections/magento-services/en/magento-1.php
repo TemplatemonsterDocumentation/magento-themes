@@ -69,7 +69,7 @@
       </tr>
        <tr>
           <td>10.</td>
-          <td><strong>Design Impovement</strong></td>
+          <td><strong>Design Improvement</strong></td>
           <td><p>Custom Design Changes for <strong>Product </strong>&amp; <strong>Category Page</strong> (according to the provided .psd).</p>
 <p><strong>*only for Zemez themes</strong></p></td>
           <td><p><strong>≈ $399</strong></p>
