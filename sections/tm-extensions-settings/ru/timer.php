@@ -1,28 +1,29 @@
 <h3>Special Price Timer</h3>
-<p>
-	Модуль позволяет отображать таймер обратного отсчета для продуктов со специальной ценой. Он автоматически появляется на сайте после настройки специальной цены продукта.
+<p align="justify">
+	This module provides you with an option to display the countdown timer for the products with a special price. It shows up automatically after setting the products as special.
 <br>
-	Таймер можно отобразить в трёх местах: <strong>cтраница продукта</strong>, <strong>страница каталога</strong>, или же <strong>виджеты продуктов</strong> на главной странице сайта. 
+	There are 3 locations available for this module to show up: <strong>products page</strong>, <strong>catalog page</strong> or home page <strong>products' widgets</strong>. 
 </p>
-Основные настройки модуля находятся в разделе <strong>Store -> Configuration -> Templatemonster -> Special Price Timer</strong>.
+Modules settings can be reached at the <strong>Store > Configuration > Templatemonster > Special Price Timer</strong> section at site admin panel.
 <figure class="img-polaroid"><img src="img/magento/timer-1.jpg" alt="" /></figure>	
 <p>
-	Отображение  модуля можно настраивать по-разному для всех трёх секций.
-<br> Рассмотрим опции модуля:</p>	
+	You may also configure the certain module appearance for all the 3 locations individually.
+<br>
+Let's review the options available:</p>	
 	<table  class="options-table">
 		<tr>
 			<td class="col-1"><strong>Enabled </strong></td>
 			<td>-</td>
-			<td>включает/отключает отображение таймера на данной странице;</td>
+			<td>sets the timer ON/OFF for the selected page;</td>
 		</tr>
 		<tr>
 			<td class="col-1"><strong>Timer Format </strong></td>
 			<td>-</td>
-			<td>формат вывода таймера. Вы можете настроить желаемую структуру таймера, добавить теги и классы HTML. Более детальное описание настройки доступно на <a target="_blank" href="http://hilios.github.io/jQuery.countdown/examples.html"> официальном сайте</a> плагина.</td>
+			<td>defines timer display format. You can set the desired timer structure, add the HTML tags and classes. Feel free to check the plugin's <a target="_blank" href="http://hilios.github.io/jQuery.countdown/examples.html">official website</a> for the detailed information.</td>
 		</tr>
 		<tr>
-			<td class="col-1"><strong>Selector</strong></td>
+			<td class="col-1"><strong>Selector </strong></td>
 			<td>-</td>
-			<td>селектор, после которого будет выведен блок с таймером.</td>
+			<td>selector of the item that will show up right before your timer.</td>
 		</tr>
-	</table>			
+	</table>				

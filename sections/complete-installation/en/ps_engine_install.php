@@ -1,7 +1,7 @@
 <h3>Magento Installation</h3>
 <p align="justify">When you are done with uploading files, you can move on to Magento engine installation process. Open your browser and in the address bar type your <strong>'domain name/path to your Magento directory'</strong>. You should see the <strong>Sample Data Installer</strong> welcome screen. Please follow the instructions below to install Magento. </p>
 <div class="alert alert-warning">
-Before you begin, make sure that your system meets the requirements discussed in <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements.html">Magento System Requirements</a>.</div>
+Before you begin, make sure that your system meets the requirements discussed in <a href="http://devdocs.magento.com/guides/v2.0/install-gde/system-requirements2.html">Magento System Requirements</a>.</div>
 <p align="justify"><strong>Step 1: Sample Data Installer</strong></p>
 <p align="justify">Magento<strong> Sample Data Installer</strong> — is a module that allows you install quickly and easily the full version of a Magento template (with pictures of products, categories, settings, etc.) After installation, you'll get a fully-functioning and fully-configured store, the one you can see on any livedemo.</p>
 <p align="justify">Please <strong>DO NOT </strong>import sample data  if you have a live website as it will completely replace your database contents, and all your website data will be lost.</p>
@@ -81,3 +81,4 @@ Before you begin, make sure that your system meets the requirements discussed in
 <h4>Step 8: Success</h4>
 <p>This is the final installation step. Copy the generated encryption key and keep it safe. </p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-9.jpg" alt="" /></figure>
+<p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>

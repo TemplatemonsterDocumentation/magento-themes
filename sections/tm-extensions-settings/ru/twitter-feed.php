@@ -1,8 +1,8 @@
 <h3>Twitter Timeline</h3>
-<p>Display Twitter Feed Box quickly and easily with the help of this advanced Twitter Timeline module. Thanks to a variety of customization options, you can adapt the module according to the specifications of your project.</p>						
-<p>In order to configure this module, navigate to <strong>Stores -> Settings -> Configuration</strong> section.</p>
+<p align="justify">Display Twitter Feed Box quickly and easily with the help of this advanced Twitter Timeline module. Thanks to a variety of customization options, you can adapt the module according to the specifications of your project.</p>						
+<p>In order to configure this module, navigate to <strong>Stores > Settings > Configuration</strong> section.</p>
 <figure class="img-polaroid"><img src="img/magento/compare.jpg" alt="" /></figure>			
-<p>Then navigate to <strong>TemplateMonster -> Twitter Timeline</strong> in the left side menu to go to the module settings interface.</p>
+<p>Then navigate to <strong>TemplateMonster > Twitter Timeline</strong> in the left side menu to go to the module settings interface.</p>
 <figure class="img-polaroid"><img src="img/magento/twitter-1.png" alt="" /></figure>		
 <p>Let’s review module options:</p>			
 <table  class="options-table">
@@ -10,11 +10,6 @@
 		<td class="col-1"><strong>Enabled </strong></td>
 		<td>-</td>
 		<td>turn on to enable the module.</td>
-	</tr>
-	<tr>
-		<td class="col-1"><strong>Widget id</strong></td>
-		<td>-</td>
-		<td>twitter widget id.</td>
 	</tr>
 	<tr>
 		<td class="col-1"><strong>Account name</strong></td>

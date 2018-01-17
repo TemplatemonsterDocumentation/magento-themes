@@ -1,5 +1,6 @@
-<h3>Ajax Compare</h3>
-<p>Сравнение товаров является одной из стандартных возможностей e-commerce. Для удобства пользования данной возможностью мы создали модуль, который работает посредством аякса, и позволяет вам добавлять продукты для сравнения без перехода на другую страницу. </p>
- <p>У вас есть возможность включить и отключить данный модуль. Для этого вам необходимо зайти в дамин панель Мадженты и в левом меню выбрать:<strong>Stores > Configuration</strong>.</p><figure class="img-polaroid"><img src="img/magento/compare.jpg" alt="" /></figure>
- <p>На новой странице в левом меню выбирите пункт <strong> Templatemonster > Product Compare Ajax </strong></p>
+<h3>Product Ajax Compare</h3>
+<p align="justify">Products compare is one of the standard e-commerce features. We have created the special module for the convenient use of this feature, it is based on AJAX technology, and allows you to add products to compare without having to navigate to the separate page. </p>
+<p align="justify">You can either enable or disable this module. In order to do this, navigate to the Magento admin panel and choose <strong>Stores > Configuration</strong> section in the left side menu.</p>
+<figure class="img-polaroid"><img src="img/magento/stores.png" alt="" /></figure>
+ <p align="justify">Then choose the <strong> TemplateMonster > Ajax Product Compare  </strong> item on the new page on the left side. Hire you can enable the module for you site.</p>
  <figure class="img-polaroid"><img src="img/magento/compare-1.jpg" alt="" /></figure>

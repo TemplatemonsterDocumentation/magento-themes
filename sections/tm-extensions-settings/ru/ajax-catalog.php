@@ -1,41 +1,60 @@
 <h3>Ajax Catalog</h3>
-<p>Быстрая и простая выборка среди множества товаров способствует принятию положительного решения о покупке именно в вашем магазине. Модуль AJAX каталога является наиболее популярным среди магазинов на базе разных платформ. Ведь именно он позволяет быстро и удобно найти и отобрать необходимые вам товары согласно выбранным параметрам без перезагрузки страницы. </p>						
-<p>Для настройки модуля перейдите в секцию <strong>Stores -> Settings -> Configuration</strong>.</p>
-<figure class="img-polaroid"><img src="img/magento/compare.jpg" alt="" /></figure>			
-<p>В меню слева выберите пункт <strong>TEMPLATEMONSTER -> Catalog Ajax</strong> для перехода в интерфейс настроек модуля.</p>
-<figure class="img-polaroid"><img src="img/magento/ajaxcatalog.jpg" alt="" /></figure>		
-<p>Рассмотрим опции модуля:</p>			
+<p align="justify">Quick and easy selection among the variety of products contributes to making a positive decision on purchasing in your online shop. Ajax Catalog module that provides this possibility is the most popular module among the online shops based on various platforms. It allows you to find and filter the products you need according to the selected parameters quickly and easily without reloading the page.</p>						
+<p>In order to configure this module, navigate to <strong>Stores > Settings > Configuration</strong> section.</p>
+<figure class="img-polaroid"><img src="img/magento/stores.png" alt="" /></figure>			
+<p>Then navigate to <strong>TemplateMonster > Catalog Ajax</strong> in the left side menu to go to the module settings interface.</p>
+<figure class="img-polaroid"><img src="img/magento/ajaxcatalog.png" alt="" /></figure>		
+<p>Let’s review module options:</p>
 <table  class="options-table">
 	<tr>
-		<td class="col-1"><strong>Pagination </strong></td>
+		<td class="col-1">Ajax Filter</td>
 		<td>-</td>
-		<td>пагинация внутри листинга. Если в листинге больше одной страницы с продуктами, данная опция позволит вам переходить на  страницы без перезагрузки основной.</td>
+		<td><div align="justify"> Enable/Disable ajax filter</div></td>
+  </tr>
+	<tr>
+		<td class="col-1"><strong>View Mode[Grid/List]</strong></td>
+		<td>-</td>
+		<td><div align="justify">products display layout. This option allows you to specify products layout for listing pages without reloading them.Use ajax filter for view mode switcher.</div></td>
 	</tr>
 	<tr>
-		<td class="col-1"><strong>Show number items</strong></td>
+		<td class="col-1"><strong>Sort  Order </strong></td>
 		<td>-</td>
-		<td>количество отображаемых продуктов на странице. Опция позволяет менять количество отображаемых продуктов на странице листинга без её перезагрузки.</td>
+		<td>use ajax filter for order switcher.</td>
 	</tr>
 	<tr>
-		<td class="col-1"><strong>Sort by (desc/asc)</strong></td>
+		<td class="col-1"><strong>Sort By[DESC/ASC]</strong></td>
 		<td>-</td>
-		<td>сортировка товаров. Возможность сортировки товаров без перезагрузки страницы.</td>
+		<td>products ordering. 	 Use ajax filter for 'sort by' switcher.You can sort items without reloading the main page.</td>
+	</tr>		
+	<tr>
+		<td class="col-1"><strong>Pagination</strong></td>
+		<td>-</td>
+		<td><div align="justify">listing pagination. If your listing includes more than one page with products, this option allows you to switch between the inner pages without reloading the main page.</div></td>
+	</tr>		
+	<tr>
+		<td class="col-1"><strong>Items per page</strong></td>
+		<td>-</td>
+		<td><div align="justify"> use ajax filter for 'items per page' switcher.</div></td>
 	</tr>
-	<tr>
-		<td class="col-1"><strong>List order (price, position, name)</strong></td>
+    <tr>
+		<td class="col-1"><strong>Price slider</strong></td>
 		<td>-</td>
-		<td>параметры сортировки. Выбор параметра, относительно которого будет осуществляться сортировка товаров без перезагрузки страницы.</td>
+		<td> show price slider in place of default two fields price range</td>
 	</tr>		
 	<tr>
-		<td class="col-1"><strong>View mode (grid/list)</strong></td>
+		<td class="col-1"><strong>Infinite scroll</strong></td>
 		<td>-</td>
-		<td>выбор макета отображения товаров. Позволяет менять макет отображения товаров без перезагрузки страницы.</td>
+		<td><div align="justify"> enable infinite scroll in place of default pagination. Note: ajax filter for pagination should be enabled.</div></td>
 	</tr>		
 	<tr>
-		<td class="col-1"><strong>Layer filter</strong></td>
+		<td class="col-1"><strong>Pages to show</strong></td>
 		<td>-</td>
-		<td>выбор по атрибутам. Данная опция является основной в данном модуле. Именно она включает AJAX выборку товаров по атрибутам и параметрам, которые находятся в стандартной колонке фильтров магазина.</td>
+		<td><div align="justify"> choose the number of pages to show on infinite scroll load.</div></td>
+	</tr>	
+    <tr>
+		<td class="col-1"><strong>Product Attributes</strong></td>
+		<td>-</td>
+		<td>choose attributes for layer navigation multiselect.</td>
 	</tr>		
-</table>			
-<p>Вы можете использовать все опции сразу или каждую по отдельности, выбор за вами.</p>
-		
+</table>
+<p>Feel free to use all the options at once or just a few of them, it’s up to you.</p>	
