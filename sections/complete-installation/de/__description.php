@@ -1,5 +1,7 @@
 <h2>Vollständige Installation </h2>
 
+
+
 <p>Die vollständige Installation wird in dem Fall benutzt, wenn Sie den Online-Shop von Magento mit dem Domainhalt installieren möchten. Am besten müssen vorher alle vorbereitenden Schritte ausgeführt und alle notwendigen Programme installiert werden.</p>
 <p>Die Installation besteht aus drei Schritten:</p>
 <ol class="index-list">

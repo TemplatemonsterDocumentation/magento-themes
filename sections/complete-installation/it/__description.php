@@ -1,6 +1,7 @@
 <h2 class="item5"><i class="icon-cogs"></i> Installazione Completa </h2>
 
 
+
 <p>Il metodo con installazione completa può essere utilizzato se si vuole installare uno store Magento utilizzando contenuti campione. Da qui in poi daremo per scontato che avrai già completato tutti i <a href="#preparations">preparativi</a>.</p>
 <p>La procedura di installazione si suddivide in tre fasi:</p>
 <ol class="index-list">
