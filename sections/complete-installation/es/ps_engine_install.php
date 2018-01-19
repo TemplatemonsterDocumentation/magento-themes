@@ -1,42 +1,29 @@
-<h3>Instalación de Magento</h3>
-<p>Cuando haya terminado con la carga de archivos, puede iniciar el proceso de instalación del motor de Magento. Abra su navegador y en la barra de direcciones escriba su <strong>'nombre de dominio/ruta de acceso al directorio de Magento'</strong>. Debería ver la pantalla de bienvenida. Por favor, siga las instrucciones a continuación para instalar Magento. </p>
-<div class="alert alert-warning"><span>NOTE: the <strong>dump.sql.gz</strong> file should be imported into the clear database BEFORE you install Magento.</span></div>
-
-<h4>Paso 1: Asistente de Instalación</h4>
-<p>Por favor, lea el acuerdo de licencia y haga clic en la casilla "Aceptar e instalar Magento" ("Start Readiness Check") si está de acuerdo con los términos. </p>
+		
+<h3>Instalaci&oacute;n del motor Magento</h3>
+<p>Cuando haya terminado con la carga de archivos, usted puede comenzar con la instalaci&oacute;n del motor Magento. Abra su navegador y en la barra de direcciones escriba su <b>'nombre del dominio/ruta de acceso al directorio de Magento'</b>. Usted debe ver la pantalla de bienvenida. Por favor, siga las siguientes instrucciones para instalar Magento. </p>
+<div class="alert alert-danger"><span>Tenga en cuenta: el archivo <b>dump.sql.gz</b> debe ser importado a una base de datos vacia ANTES de instalar Magento.</span></div>
+<h4>Paso 1: Asistente de Instalaci&oacute;n</h4>
+<p>Por favor, lea el contrato de licencia y haga clic en la casilla "Estoy de acuerdo con los t&eacute;rminos y condiciones anteriores" si est&aacute; de acuerdo con los t&eacute;rminos.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-1.jpg" alt="" /></figure>
-<h5>Comprobación de disponibilidad del Servidor</h5>
-<p>Haga clic en el botón "Inicio Comprobación de disponibilidad" ("Start Readiness Check") para comprobar su compatibilidad con la configuración del servidor con los requisitos del motor Magento 2. </p>
+
+<h4>Paso 2: Asistente de Instalaci&oacute;n (Localizaci&oacute;n)</h4>
+<p>Seleccione la configuraci&oacute;n regional, la zona horaria y la moneda por defecto. La opci&oacute;n de configuraci&oacute;n regional define el idioma de su tienda de Magento. Si desea cambiar el idioma de la interfaz, es necesario descargar e instalar otras configuraciones regionales de Magento. Todas las opciones se pueden cambiar f&aacute;cilmente m&aacute;s tarde utilizando el panel de administraci&oacute;n de Magento. </p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-2.jpg" alt="" /></figure>
-<p>Cuando el procedimiento de comprobación se haya completado, haga clic en el botón '<strong>Siguiente (Next)</strong>'. </p>
+
+<h4>Paso 3: Configuraci&oacute;n</h4>
+<p>Aqu&iacute; es necesario introducir los detalles de la base de datos de la tienda y algunos ajustes iniciales.
+<b>Conexi&oacute;n con la base de datos</b> – introduzca el nombre del host de la base de datos, el nombre de usuario y la contrase&ntilde;a. P&oacute;ngase en contacto con su proveedor de alojamiento si usted no tiene los detalles necesarios. </p>
+<p>Aseg&uacute;rese de tener una base de datos creada para la instalaci&oacute;n de Magento. Y tambi&eacute;n asegurarse de que est&aacute; vacia, sin ninguna tabla.
+<b>Opciones de acceso Web</b> y <b>Opciones de almacenamiento de sesiones</b> – por favor deje las opciones sin ning&uacute;n cambio si no est&aacute; seguro. Los ajustes por defecto normalmente funcionan bien.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-3.jpg" alt="" /></figure>
+<p>Si todo es correcto, por favor haga clic en el bot&oacute;n '<b>Continue</b>'.</p>
 
-<h4>Paso 2: Conexión con la Base de Datos</h4>
-<p>Aquí es necesario introducir los datos de base de datos y algunos ajustes iniciales. 
-<strong>Añadir Base de Datos(Add a Database)</strong> - introduzca su nombre del host, el nombre de base de datos, usuario y contraseña de la base de datos. Póngase en contacto con su Hosting Proveedor, si usted no tiene los detalles necesarios.</p>
-<p>Asegúrese de que tiene una base de datos creada para la instalación de Magento. Y también asegurarse de que está limpia, sin ningún tipo de tablas. 
+<h4>Paso 4: Crear una cuenta de administrador</h4>
+<p>Aqu&iacute; es necesario introducir datos de car&aacute;cter personal para el due&ntilde;o de la tienda y el administrador.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-4.jpg" alt="" /></figure>
-<p>Si todo es correcto, haga clic en el botón '<strong>Siguiente (Next)</strong>'. </p>
+<p>Cuando haya terminado, haga clic en el bot&oacute;n <b>'Continue'</b>.</p>
 
-<h4>Paso 3: Configuración Web</h4>
-<p>Aquí puede cambiar el URL de Magento de su panel de administración y la dirección principal de la tienda. Otros parámetros puede dejar sin cambios. </p>
-<div class="alert alert-warning">Tome nota a la ruta de panel de administración. Tenga en cuenta que introducir su URL específica de panel de Administración para recordar el acceso panel de Administración .</span></div>
+<h4>Paso 5: Lo tiene todo configurado</h4>
+<p>Este es el paso final de la instalaci&oacute;n. Copie la clave cifrada generada y guardela en un lugar seguro. Puede utilizar los botones en la esquina inferior derecha para ver la interfaz final de la tienda y el panel de administraci&oacute;n.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-5.jpg" alt="" /></figure>
-<p>Cuando haya terminado, haga clic en el botón '<strong>(Next) Siguiente</strong>'. </p>
-
-<h4>Paso 4: Localización</h4>
-<p>Seleccione la zona de tiempo requerido, la moneda y el idioma predeterminado de la tienda. En la sección <strong>Configuración de Módulos Avanzados (Advanced Modules Configurations)</strong> también puede seleccionar módulos por defecto que debe/no debe ser instalado. Le recomendamos que no realice cambios en esta sección. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-6.jpg" alt="" /></figure>
-<p>Cuando haya terminado, haga clic en el botón '<strong>Siguiente (Next)</strong>'.</p>
-
-<h4>Paso 5: Crear Cuenta de Administrador</h4>
-<p>Aquí tiene que introducir datos personales para el dueño de la tienda y el administrador. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-7.jpg" alt="" /></figure>
-
-<h4>Paso 6: Instalar</h4>
-<p>La configuración de la tienda está realizada. Pulse el botón <strong>Instalar Ahora (Install Now)</strong>para iniciar el proceso de instalación de la tienda. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-8.jpg" alt="" /></figure>
-
-<h4>Paso 7: Éxito</h4>
-<p>Este es el paso final de instalación. Copie la clave generada y guardela en un lugar seguro. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-9.jpg" alt="" /></figure>
+		
