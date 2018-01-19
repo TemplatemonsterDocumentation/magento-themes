@@ -1,6 +1,6 @@
 <h3>Magento 1 Services
 </h3>
-<div class="alert alert-danger"> Note, the <strong>price</strong> depends on individual customers' needs.</div>
+<div class="data-table data-table-indent"> Note, the <strong>price</strong> depends on individual customers' needs.</div>
 <table class="data-table data-table-indent">
 <tbody>
       <tr>
@@ -33,16 +33,16 @@
       <tr>
           <td>5.</td>
           <td><strong>Magento 1.9.2.4 TEMPLATE Update</strong></td>
-          <td><p>Get your Magento <strong>1.7.</strong> TEMPLATE updated to Magento <strong>1.9.3.6.</strong></p>
-          <p><strong>*only for Zemez themes</strong></p></td>
+          <td><p>Get your Magento<strong> 1.9.2.4 </strong>TEMPLATE updated to Magento <strong>1.9.3.6.</strong></p>
+      <p><strong>*only for Zemez themes</strong></p></td>
           <td><p><strong>$299</strong></p>
           <p style="color:#F1594B">* price depends on individual customers' needs</p></td>
       </tr>
       <tr>
           <td>6.</td>
           <td><strong>Magento 1.9.2.4 TEMPLATE Update</strong></td>
-          <td>Get your existing Magento <strong>1.7.</strong> WEBSITE updated to Magento<strong> 1.9.3.6.</strong> engine version.</td>
-          <td><p><strong> $299</strong></p>
+          <td>Get your existing Magento <strong>1.9.2.4 </strong>WEBSITE updated to Magento<strong> 1.9.3.6.</strong> engine version.</td>
+          <td><p><strong> $459</strong></p>
           <p style="color:#F1594B">* price depends on individual customers' needs</p></td>
       </tr>
       <tr>
@@ -69,7 +69,7 @@
       </tr>
        <tr>
           <td>10.</td>
-          <td><strong>Design Impovement</strong></td>
+          <td><strong>Design Improvement</strong></td>
           <td><p>Custom Design Changes for <strong>Product </strong>&amp; <strong>Category Page</strong> (according to the provided .psd).</p>
 <p><strong>*only for Zemez themes</strong></p></td>
           <td><p><strong>≈ $399</strong></p>

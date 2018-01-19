@@ -2,58 +2,30 @@
 	"id":"complete-installation",
 	"translations":
 	{
-		"en":"Complete installation",
-		"ru":"Полная установка",
-		"tr":"Tam kurulum",
-		"de":"Vollständige Installation",
-		"es":"Instalaci&oacute;n completa",
-		"fr":"Installation complète",
-		"it":"Installazione Completa",
-		"pl":"Pełna instalacja",
-		"pt":"Instalação completa"
+		"en":"Complete installation"
+		
 	},
 	"articles":
 	[		
 		{
 			"id":"creating-database",
 			"translations":{
-				"en":"Creating a database",
-				"ru":"Создание базы данных",
-				"tr":"Veritabanı oluşturma",
-				"de":"Erstellen einer Datenbank",
-				"es":"Creaci&oacute;n de una base de datos",
-				"fr":"Création d'une base de données",
-				"it":"Creare un database",
-				"pl":"Tworzenie bazy danych",
-				"pt":"Criar um banco de dados"
+				"en":"Creating a database"
+				
 			}
 		},		
 		{
 			"id":"uploading",
 			"translations":{
-				"en":"Uploading and unzipping",
-				"ru":"Загрузка и разархивация",
-				"tr":"Yükleme ve unzipping",
-				"de":"Hochladen und entpacken",
-				"es":"Subir y descomprimir",
-				"fr":"Téléchargement et décompression",
-				"it":"Caricamento e decompressione",
-				"pl":"Przesyłanie i rozpakowanie",
-				"pt":"Fazendo upload e descompactando"
+				"en":"Uploading and unzipping"
+				
 			}
 		},
 		{
 			"id":"ps_engine_install",
 			"translations":{
-				"en":"Magento engine installation",
-				"ru":"Установка Magento",
-				"tr":"Magento kurulumu",
-				"de":"Installation Magento",
-				"es":"Instalaci&oacute;n del motor Magento",
-				"fr":"Installation de l'engine Magento",
-				"it":"Installazione motore Magento",
-				"pl":"Instalacja silnika Magento",
-				"pt":"Instalar o Magento"
+				"en":"Magento engine installation"
+				
 			}
 		}		
 	]

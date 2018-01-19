@@ -75,11 +75,11 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
         <div class="panel">
             <div class="select select-version">
                 <select>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-5/">Version v4-5</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-2/" selected>Version v4-4</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-2/">Version v4-2</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-1/">Version v4-1</option>
-                    <option data-href="/help/quick-start-guide/magento-themes/v4-0/">Version v4-0</option>
+                        <option data-href="/help/quick-start-guide/magento-themes/v4-5/">Version v4-5</option>
+                        <option data-href="/help/quick-start-guide/magento-themes/v4-4/" selected>Version v4-4</option>
+                        <option data-href="/help/quick-start-guide/magento-themes/v4-2/">Version v4-2</option>
+                        <option data-href="/help/quick-start-guide/magento-themes/v4-1/">Version v4-1</option>
+                        <option data-href="/help/quick-start-guide/magento-themes/v4-0/">Version v4-0</option>
                     <!-- <option data-href="/help/quick-start-guide/magento-themes/v1-2/index_en.html">Version v1-2</option>
                     <option data-href="/help/quick-start-guide/magento-themes/v2-0/index_en.html" selected>Version v2-0</option> -->
                 </select>
@@ -87,14 +87,6 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
             <div class="select select-lang">
                 <select>
                     <option data-href="<?php echo $path; ?>/index.php?lang=en&section=<?php echo $section_param; ?>" <?php echo $lang == "en"? "selected": ""; ?>>EN</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=ru&section=<?php echo $section_param; ?>" <?php echo $lang == "ru"? "selected": ""; ?>>RU</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=de&section=<?php echo $section_param; ?>" <?php echo $lang == "de"? "selected": ""; ?>>DE</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=es&section=<?php echo $section_param; ?>" <?php echo $lang == "es"? "selected": ""; ?>>ES</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=fr&section=<?php echo $section_param; ?>" <?php echo $lang == "fr"? "selected": ""; ?>>FR</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=it&section=<?php echo $section_param; ?>" <?php echo $lang == "it"? "selected": ""; ?>>IT</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=pl&section=<?php echo $section_param; ?>" <?php echo $lang == "pl"? "selected": ""; ?>>PL</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=pt&section=<?php echo $section_param; ?>" <?php echo $lang == "pt"? "selected": ""; ?>>PT</option>
-                    <option data-href="<?php echo $path; ?>/index.php?lang=tr&section=<?php echo $section_param; ?>" <?php echo $lang == "tr"? "selected": ""; ?>>TR</option>
                 </select>
             </div>
         </div>
@@ -176,5 +168,13 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
 </script>
 
 <script src="<?php echo $path; ?>/js/script.js" ></script>
+<div class="zemez-chat-wrap">
+    <form class="zemez-chat" id="zemez-chat" method="GET">
+        <i id="zemez-chat-close" onclick="closeChat()"></i>
+        <input type="text" placeholder="Name:" name="uname" id="uname">
+        <input type="email" placeholder="Email Address:" name="umail" id="umail">
+        <span onclick="startChat()">Start chat</span>
+    </form>
+</div>
 </body>
 </html>
