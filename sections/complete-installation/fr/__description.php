@@ -7,3 +7,4 @@
 		<li>Installation de l'engine Magento Commerce accompagné du template que vous avez acheté.</li>
 </ol>
 <p>C'est parti!</p>
+<p class="alert alert-info custom">Si vous ne voulez pas passer votre temps à installer le template, n'hésitez pas à <span class="label label-warning opener" onclick="showChat()">commander</span> le service d'installation via notre chat en direct.</p>

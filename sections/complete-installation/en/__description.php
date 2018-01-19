@@ -11,3 +11,4 @@
     <li>Installing a Magento Commerce engine together with the template you have purchased.</li>
 </ol>
 <p>Let's get started!</p>
+<p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>

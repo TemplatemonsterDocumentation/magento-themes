@@ -10,3 +10,4 @@
 		<li>Installare un motore Magento Commerce insieme al template acquistato.</li>
 </ol>
 <p>Let's get started!</p>
+<p class="alert alert-info custom">Se non vuoi spendere il tempo per l'installazione del modello, non esitare a contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione utilizzando il nostro live-chat.</p>
