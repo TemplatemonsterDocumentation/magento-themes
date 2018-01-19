@@ -177,5 +177,13 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
 </script>
 
 <script src="<?php echo $path; ?>/js/script.js" ></script>
+    <div class="zemez-chat-wrap">
+    <form class="zemez-chat" id="zemez-chat" method="GET">
+        <i id="zemez-chat-close" onclick="closeChat()"></i>
+        <input type="text" placeholder="Name:" name="uname" id="uname">
+        <input type="email" placeholder="Email Address:" name="umail" id="umail">
+        <span onclick="startChat()">Start chat</span>
+    </form>
+</div>
 </body>
 </html>

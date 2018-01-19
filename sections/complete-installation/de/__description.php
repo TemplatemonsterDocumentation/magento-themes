@@ -1,9 +1,13 @@
-<h2> Vollständige Installation </h2>
-<p>Die komplette Installations-Methode kann verwendet werden, wenn Sie einen Magento Shop mit den Beispieldaten einrichten möchten. Wir gehen davon aus, dass Sie alle Vorbereitungsschritte abgeschlossen haben.</p>
-<p>Der Installationsprozess besteht aus drei Phasen:</p>
+<h2>Vollständige Installation </h2>
+
+<p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</p>
+
+<p>Die vollständige Installation wird in dem Fall benutzt, wenn Sie den Online-Shop von Magento mit dem Domainhalt installieren möchten. Am besten müssen vorher alle vorbereitenden Schritte ausgeführt und alle notwendigen Programme installiert werden.</p>
+<p>Die Installation besteht aus drei Schritten:</p>
 <ol class="index-list">
-    <li>Erstellen einer Datenbank.</li>
-    <li>Das Hochladen aller benötigten Dateien auf den Server.</li>
-    <li>Installieren einer Magento Commerce Engine zusammen mit der Vorlage, die Sie gekauft haben.</li>
+	<li>Erstellung der Datenbank für Ihren Online-Shop.</li>
+	<li>Kopieren aller notwendigen Dateien auf der Server.</li>
+	<li>Installation der Magento Commerce Engine mit dem Thema, das Sie gekauft haben.</li>
 </ol>
-<p>Lassen Sie uns beginnen!</p>
+<p>Fangen wir an!</p>
+<p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</p>

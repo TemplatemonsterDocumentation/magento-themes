@@ -1,7 +1,7 @@
 		
 <h3>Sample data import</h3>
-<p align="justify">Magento template package contains the sample data file (<strong>dump.sql</strong> or <strong>dump.gz</strong>). This file is located under the <strong>/sources/sample_data</strong> folder of your template. It allows you to load sample data, so that your website looks exactly like our demo template.</p>
-<p align="justify" class="alert alert-danger"><span>Do not import <strong>dump.sql.gz</strong> if you already have the data on your site. By importing <strong>dump.sql.gz</strong> all the products will be erased from your store. If you do not want to install sample data, use clean database while installing Magento. Skip the sample data installation step. </span></p>	
+<p>Magento template package contains the sample data file (<strong>dump.sql</strong> or <strong>dump.gz</strong>). This file is located under the <strong>/sources/sample_data</strong> folder of your template. It allows you to load sample data, so that your website looks exactly like our demo template.</p>
+<p class="alert alert-danger"><span>Do not import <strong>dump.sql.gz</strong> if you already have the data on your site. By importing <strong>dump.sql.gz</strong> all the products will be erased from your store. If you do not want to install sample data, use clean database while installing Magento. Skip the sample data installation step. </span></p>	
 <p>In order to install the dump file, follow the steps below:</p>
 <ol class="index-list">
 	<li>Log into PhpMyAdmin and the select the database that you will use for Magento Commerce (It was created by you with the help of the steps provided earlier). <figure class="img-polaroid"><img src="img/magento/import-dump-1.jpg" alt="" /></figure></li>

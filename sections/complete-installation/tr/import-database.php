@@ -1,9 +1,10 @@
-<h3>Örnek verinin içe aktarımı</h3>
-<p>Magento şablonundaki örnek veri dosyaları (<strong>dump.sql</strong> veya <strong>dump.gz</strong>) şeklindedir. Dosya <strong>/sources/sample_data</strong> klasöründe bulunur. Örnek veriyle kurulum yaptığınızda, siteniz demodaki gibi gözükür.</p>
-<p class="alert alert-danger"><span>Sitenizde zaten bir içerik varsa <strong>dump.sql.gz</strong> dosyasını içe aktarmayın. Çünkü <strong>dump.sql.gz</strong>yi içe aktardığınızda, mağazanıza girmiş olduğunuz tüm ürünler silinir. Örnek ver kurmak istemiyorsanız, Magento'yu kurarken temiz bir veritabanı kullanın. Örnek veri kurulum adımını atlayın.</span></p>	
-<p>Örnek veri dosyasını yüklemek için aşağıdaki adımları izleyin:</p>
+		
+<h3>Ã–rnek veri aktarÄ±mÄ±</h3>
+<p>Magento ÅŸablon paketi package dump.sql veya dump.gz ÅŸeklinde bir Ã¶rnek veri dosyasÄ± iÃ§erir. Bu dosya, ÅŸablonunuzdaki <strong>/sources/sample_data</strong> klasÃ¶rÃ¼nÃ¼n altÄ±nda bulunur. Buradaki Ã¶rnek veriyi yÃ¼klediÄŸinizde, siteniz tÄ±pkÄ± bizim Ã¶rnek ÅŸablonumuzdaki gibi gÃ¶zÃ¼kÃ¼r.</p>
+<p class="alert alert-danger"><span>EÄŸer sitenizde zaten kayÄ±tlÄ± veriler varsa, <strong>dump.sql.gz</strong> yi iÃ§e aktarmayÄ±n. Ã‡Ã¼nkÃ¼ <strong>dump.sql.gz</strong> yi iÃ§e aktarÄ±rsanÄ±z (import) maÄŸazanÄ±zdaki tÃ¼m Ã¼rÃ¼nler silinir. EÄŸer Ã¶rnek veri yÃ¼klemek istemiyorsanÄ±z, Magento'yu kurarken boÅŸ bir veritabanÄ± kullanÄ±n. Bunun iÃ§in, Ã¶rnek veri yÃ¼kleme adÄ±mÄ±nÄ± geÃ§in. </span></p>	
+<p>EÄŸer dump dosyasÄ±nÄ± kurmak istiyorsanÄ±z, aÅŸaÄŸÄ±daki adÄ±mlarÄ± takip edin:</p>
 <ol class="index-list">
-	<li>PhpMyAdmin'e giriş yapın ve Magento E-Mağaza'yı kuracağınız veritabanını seçin. (Daha önceki adımlarda veritabanını kurmuştunuz). <figure class="img-polaroid"><img src="img/magento/import-dump-1.jpg" alt="" /></figure></li>
-	<li>Ardından <strong>"İçe Akatar"</strong> sekmesine girin ve <strong>"Araştır"</strong> düğmesine basın. <figure class="img-polaroid"><img src="img/magento/import-dump-2.jpg" alt="" /></figure></li>
-	<li>Şablonunuzun <strong>"/sources/sample_data"</strong> klasöründen <strong>dump.sql.gz.</strong> dosyasını seçin. Son olarak <strong>"GİT"</strong>e tıklayın. <figure class="img-polaroid"><img src="img/magento/import-dump-3.jpg" alt="" /></figure> İşlem bir kaç dakika sürebilir.</li>
+	<li>PhpMyAdmin e giriÅŸ yapÄ±n ve Ã–agento Commerce iÃ§in kullanacaÄŸÄ±nÄ±z veritabanÄ±nÄ± seÃ§in (Daha Ã¶nceki adÄ±mlarda tarafÄ±nÄ±zdan kurulmuÅŸtur).<figure class="img-polaroid"><img src="img/magento/import-dump-1.jpg" alt="" /></figure></li>
+	<li>Åimdi <strong>"Ä°Ã§e aktar"</strong> a basÄ±n ve <strong>"Ara"</strong> ya tÄ±klayÄ±n.<figure class="img-polaroid"><img src="img/magento/import-dump-2.jpg" alt="" /></figure></li>
+	<li>Åablonunuzdaki <strong>"/sources/sample_data"</strong> klasÃ¶rÃ¼nÃ¼ bulun ve <strong>dump.sql.gz</strong> dosyasÄ±nÄ± seÃ§in. ArdÄ±ndan <strong>"GÄ°T"</strong> e tÄ±klayÄ±n. <figure class="img-polaroid"><img src="img/magento/import-dump-3.jpg" alt="" /></figure> Ä°Ã§e aktarma iÅŸlemi bir kaÃ§ dakika sÃ¼rebilir.</li> 
 </ol>

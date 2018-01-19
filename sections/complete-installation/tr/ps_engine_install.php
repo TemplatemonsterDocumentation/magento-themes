@@ -1,42 +1,27 @@
-<h3>Magento Kurulumu</h3>
-<p>Dosyaları yükledikten sonra Magento kurulum aşamasına geçebilirsiniz. Tarayıcınıza <strong>'siteismi/Magento klasör yolu'</strong>nu yazın. Karşılama ekranını göreceksiniz. Magento'yu kurmak için aşağıdaki adımları takip edin.</p>
-<div class="alert alert-warning"><span>NOT: Magento'yu kurmadan önce <strong>dump.sql.gz</strong> dosyası, temiz bir veritabanına aktarılmış olmalı.</span></div>
+<h3>Magento kurulumu</h3>
+<p>TÃ¼m gerekli dosyalarÄ± yÃ¼kledikten sonra Magento'yu kurmak iÃ§in hazÄ±r hale gelirsiniz. TarayÄ±cÄ±nÄ±zÄ± aÃ§Ä±n ve adres Ã§ubuÄŸuna <strong>'site adresiniz/Magento'nun bulunduÄŸu dizin adÄ±'</strong> nÄ± yazÄ±n. Åimdi karÅŸÄ±lama ekranÄ±nÄ± gÃ¶receksiniz. Magento'yu kurmak iÃ§in gereken talimatlarÄ± takip edin.</p>
+<div class="alert alert-warning"><span>Dikkat: <strong>dump.sql.gz</strong> dosyasÄ±, Magento'yu kurmadan Ã–NCE boÅŸ bir veritabanÄ±nda iÃ§e aktarÄ±lmalÄ±dÄ±r.</span></div>
 
-<h4>Adım 1: Kurulum Asistanı</h4>
-<p>Lisans anlaşmasını okuyun ve "Agree and Setup Magento" kutusunu işaretleyin. </p>
+<h4>Step 1: Kurulum YardÄ±mcÄ±sÄ±</h4>
+<p>LÃ¼tfen lisans sÃ¶zleÅŸmesini okuyun ve eÄŸer kabul ediyorsanÄ±z, "AÅŸaÄŸÄ±daki ÅŸartlarÄ± ve koÅŸullarÄ± kabul ediyorum" kutusunu iÅŸaretleyin.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-1.jpg" alt="" /></figure>
-<h5>Sunucu Kontrolü</h5>
-<p>Sunucunuzun Magento 2 kurulumu için hazır olup olmadığını kontrol etmek için "Start Readiness Check" düğmesine basın.</p>
+
+<h4>Step 2: Kurulum YardÄ±mcÄ±sÄ± (YerelleÅŸtirme)</h4>
+<p>Konumunuzu, Saat Diliminizi ve Para Biriminizi seÃ§in. SeÃ§eceÄŸiniz konum, Magento maÄŸazanÄ±zÄ±n dilini belirler. EÄŸer baÅŸlangÄ±Ã§ dilini deÄŸiÅŸtirmek isterseniz, Magento'nun ek dosyalar yÃ¼klemeniz gerekebilir. TÃ¼m deÄŸiÅŸiklikler kurulum sonrasÄ±, yÃ¶netici panelinden ayarlanabilir.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-2.jpg" alt="" /></figure>
-<p>Kontrol aşaması bittikten sonra '<strong>Devam</strong>' düğmesine basın. </p>
+
+<h4>Step 3: Ayarlamalar</h4>
+<p>Burada maÄŸazanÄ±n veritabanÄ± detaylarÄ±nÄ± ve bazÄ± ayarlarÄ± girmeniz gerekir. <strong>VeritabanÄ± BaÄŸlantÄ±sÄ±</strong> â€“ veritabanÄ± host adÄ±, kullanÄ±cÄ± adÄ±, ÅŸifre ve veritabanÄ± adÄ±nÄ± girin. Gerekli bilgilere sahip deÄŸilseniz, hosting saÄŸlayacÄ±nÄ±zla iletiÅŸime geÃ§in.</p>
+<p>Magento kurulumu iÃ§in bir veritabanÄ± oluÅŸturmuÅŸ olduÄŸunuza emin olun. AyrÄ±ca bu veritabanÄ± boÅŸ olmalÄ± ve herhangi bir tablo iÃ§ermemelidir.<strong>Web eriÅŸim seÃ§enekleri</strong> ve <strong>Depo oturum seÃ§enekleri</strong> â€“ emin deÄŸilseniz bu iki seÃ§eneÄŸi boÅŸ bÄ±rakÄ±n. Varolan ayarlar sorunsuz Ã§alÄ±ÅŸacaktÄ±r.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-3.jpg" alt="" /></figure>
+<p>Bu aÅŸama bittikten sonra '<strong>Devam</strong>' butonuna tÄ±klayÄ±n.</p>
 
-<h4>Adım 2: Veritabanı Bağlantısı</h4>
-<p>Burada veritabanı bilgilerini yazmalısınız.  
-<strong>Veritabanı eklemek</strong> - sunucu adı, veritabanı adı, veritabanı kullanıcı adı ve şifre bilgilerini yazın. Bu bilgilere sahip değilseniz, hizmet sağlayıcınızla iletişime geçiniz.</p>
-<p>Magento kurulumu için bir veritabanı oluşturmuş olduğunuza emin olun. Ayrıca temiz ve tablosuz olmalı.</p> 
+<h4>Step 4: YÃ¶netici HesabÄ± OluÅŸturmak</h4>
+<p>MaÄŸaza sahibi ve yÃ¶neticisi iÃ§in kiÅŸisel detaylar yazmanÄ±z gereken alandÄ±r.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-4.jpg" alt="" /></figure>
-<p>Bu adımları tamamladıysanız '<strong>Devam</strong>' düğmesine basın. </p>
+<p>Bu aÅŸama bittikten sonra '<strong>Devam</strong>' butonuna tÄ±klayÄ±n.</p>
 
-<h4>Adım 3: Web Ayarları</h4>
-<p>Buradan Magento yönetici panel adresini ve mağaza adresini değiştirebilirsiniz. Diğer ayarları olduğu gibi bırakabilirsiniz.</p>
-<div class="alert alert-warning">Özel bir yönetici paneli adresi oluşturabilirsiniz. Bunu yaptıktan sonra unutmamak için lütfen kaydedin.</span></div>
+<h4>Step 5: HazÄ±rsÄ±nÄ±z</h4>
+<p>Bu, kurulumun son aÅŸamasÄ±dÄ±r. OluÅŸturulan ÅŸifreli anahtarÄ± kopyalayÄ±n ve kaydedin. Alt saÄŸ kÃ¶ÅŸede bulunan butonlarÄ± kullanarak artÄ±k maÄŸazanÄ±za ve yÃ¶netici panelinize eriÅŸebilirsiniz.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-5.jpg" alt="" /></figure>
-<p>İşlemi bitirdikten sonra '<strong>Devam</strong>' düğmesine basın. </p>
-
-<h4>Adım 4: Yerelleştirme</h4>
-<p>Sizin için uygun olan zaman birimini, para birimini ve mağaza dilini seçin. <strong>Gelişmiş Modül Ayarları</strong> kısmından, kurulup/kurulmaması gereken modülleri de seçebilirsiniz. Bu bölümde değişiklik yapmamanızı öneririz.</p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-6.jpg" alt="" /></figure>
-<p>İşlemi bitirdikten sonra '<strong>Devam</strong>' düğmesine basın.</p>
-
-<h4>Adım 5: Yönetici Hesabı Oluşturmak</h4>
-<p>Burada mağaza sahibi ve yönetici için kişisel bilgileri girmelisiniz. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-7.jpg" alt="" /></figure>
-
-<h4>Adım 6: Kur</h4>
-<p>Mağaza ayarlamaları bitti. Artık <strong>Şimdi Kur</strong> düğmesine basarak, kurulumu başlatabilirsiniz.</p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-8.jpg" alt="" /></figure>
-
-<h4>Adım 7: Başardınız</h4>
-<p>Kurulumun son aşamasına geldiniz. Oluşturulmuş olan özel şifreli anahtarı kopyalayıp, bir kenara kaydedin. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-9.jpg" alt="" /></figure>
+		

@@ -1,7 +1,7 @@
 		
 <h3>Creating a database</h3>
-<p align="justify">First, you need to prepare a new database for your Magento store. You can create the new database using the database management tool from your hosting control panel (<strong>usually PhpMyAdmin</strong>).</p>
-<p align="justify">The following data will be received while creating a database: database name, database username, password and you server name. You need to save this data as you will need it for further Magento installation. </p>
+<p>First, you need to prepare a new database for your Magento store. You can create the new database using the database management tool from your hosting control panel (<strong>usually PhpMyAdmin</strong>).</p>
+<p>The following data will be received while creating a database: database name, database username, password and you server name. You need to save this data as you will need it for further Magento installation. </p>
 
 <p>With the phpMyAdmin tool you will be able to create a new database in 3 simple steps(check the slides below): </p>
 
