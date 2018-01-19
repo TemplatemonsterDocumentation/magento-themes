@@ -3,13 +3,14 @@
         <p>The following resources will help you to become a true Magento professional:</p>
         <h4 id="useful_resources">Useful resources</h4>
         <ul class="marked-list">
+            <li><a href="https://zemez.io/magento/support/">ZEMEZ Support</a></li>
             <li><a target="_blank" href="http://www.magentocommerce.com/support/magento-user-guide-book">The Official Magento User Guide</a></li>
             <li><a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a></li>
             <li><a target="_blank" href="http://www.magentocommerce.com/knowledge-base">Knowledge Base</a></li>
             <li><a target="_blank" href="http://www.magentocommerce.com/boards/">Magento Forum</a></li>
             <li><a target="_blank" href="/help/ecommerce/magento/magento-tutorials/">Magento tutorials</a></li>
         </ul>
-        <h4>Help and Support</h4>
+<h4>Help and Support</h4>
         <ul class="marked-list">
             <li><a href="http://chat.template-help.com/" target="_blank">Live chat</a></li>
             <li><a href="http://support.template-help.com/index.php?/Tickets/Submit"  target="_blank">Help ticket system</a></li>
