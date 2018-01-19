@@ -1,9 +1,10 @@
-<h2> Installation complète </h2>
-<p>La méthode d'installation complète peut être utilisée si vous voulez mettre en place un magasin Magento en utilisant un échantillon de contenu. Nous supposons que vous avez terminé toutes les étapes de préparation.</p>
-<p>Le processus d'installation se compose de 3 étapes:</p>
+<h2 class="item5">Installation complète </h2>
+<p>Vous pouvez utiliser la méthode d'installation complète si vous voulez mettre en place une boutique Magento avec un contenu d'exemple. Nous considérons que vous avez suivi toutes les étapes de préparation.</p>
+<p>Le processus d'installation comporte 3 étapes:</p>
 <ol class="index-list">
-    <li>La création d'une base de données.</li>
-    <li>Chargement de tous les fichiers nécessaires au serveur.</li>
-    <li>Installation d'un moteur de commerce électronique Magento avec le modèle que vous avez acheté.</li>
+    <li>Création d'une base de données.</li>
+		<li>Mise en ligne de tous les fichiers requis sur le serveur.</li>
+		<li>Installation de l'engine Magento Commerce accompagné du template que vous avez acheté.</li>
 </ol>
-<p>Allons-y!</p>
+<p>C'est parti!</p>
+<p class="alert alert-info custom">Si vous ne voulez pas passer votre temps à installer le template, n'hésitez pas à <span class="label label-warning opener" onclick="showChat()">commander</span> le service d'installation via notre chat en direct.</p>

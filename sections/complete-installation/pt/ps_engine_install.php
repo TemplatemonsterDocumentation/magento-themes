@@ -1,42 +1,28 @@
-<h3>Instalar do Magento Commerce</h3>
-<p>Quando terminar de enviar os arquivos, você pode começar o processo de instalação do Magento. Abra seu navegador e escreva o <strong>'nome de domínio/caminho até o diretório do Magento'</strong>. Você deve ver uma tela de boas vindas. Siga as instruções abaixo para instalar o Magento.</p>
-<div class="alert alert-warning"><span>NOTA: o arquivo <strong>dump.sql.gz</strong> deve ser importado para o banco de dados ANTES de instalar o Magento.</span></div>
-
-<h4>Passo 1: Assistente de instalação</h4>
-<p>Please read the license agreement and click the "Agree and Setup Magento" checkbox if you agree with the terms. </p>
+		
+<h3>Instalar o Magento</h3>
+<p>Quando terminar de subir os arquivos, você pode começar a Instalar o Magento. Abra seu navegador e digite seu <strong>'domínio/caminho para o diretório do Magento'</strong>. Você deve ver a tela de Boas vindas. Siga as instruções abaixo para instalar o Magento. </p>
+<div class="alert alert-danger"><span>Perceba: o arquivo <strong>dump.sql.gz</strong> deve ser importado para o banco ANTES de instalar o Magento.</span></div>
+<h4>Step 1: Assistente de Instalação</h4>
+<p>Leia o acordo de linceção e marque a caixa "I agree to the above terms and conditions" se concordar com os termos.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-1.jpg" alt="" /></figure>
-<h5>Verificação de preparação do servidor</h5>
-<p>Clique em "Start Readiness Check" para verificar se as configurações do seu servidor estão compatíveis com o necessário para rodar o motor Magento 2. </p>
+
+<h4>Step 2: Assistente de instalação (Localização)</h4>
+<p>Escolha o Local geográfico, Fuso Horário e a moeda padrão. O Local geográfico define a língua usada pelo Magento na área administrativa. Se quiser mudar a língua do site, você vai precisar baixar o e instalar o Magento frontend locales.Todas essas opções podem ser facilmente alteradas no painel administrativo mais tarde. </p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-2.jpg" alt="" /></figure>
-<p>Quando terminar este procedimento, clique em '<strong>Next</strong>'. </p>
+
+<h4>Step 3: Configuração</h4>
+<p>Aqui você precisa incluir os detalhes do banco de dados da loja e as configurações iniciais.
+<strong>Database Connection</strong> – insira o nome de hospedagem, usuário, senha e nome do banco. Entre em contato com seu provedor de hospedagem se não tiver os detalhes necessários. </p>
+<p>Certifique-se de ter um banco de dados criado para a instalação do Magento. Tenha certeza de que ele está limpo também, sem tabelas dentro.
+<strong>Web access options</strong> e <strong>Session Storage Options</strong> – deixe essas opções sem mudanças se não tiver certeza. As configurações padrão costumam funcionar sem problemas.</p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-3.jpg" alt="" /></figure>
+<p>Se tudo estiver certo, clique no botão '<strong>Continue</strong>'.</p>
 
-<h4>Passo 2: Conexão com o banco de dados</h4>
-<p>Você precisa incluir os detalhes do banco de dados e algumas configurações iniciais.
-<strong>Add a Database</strong> - preenchar com o nome do host do banco de dados, o nome do banco de dados em si, usuário e senha. Entre em contato com seu provedor de hospedagem se você não tiver os detalhes necessários.</p>
-<p>Certifique-se de que você criou um banco de dados para a instalação do Magento. Também certifique-se de que está vazio, sem nenhuma tabela. 
+<h4>Step 4: Criar conta de administrador</h4>
+<p>Aqui você precisa inserir detalhes pessoais para o dono da loja e administrador.  </p>
 <figure class="img-polaroid"><img src="img/magento/how-to-install-4.jpg" alt="" /></figure>
-<p>Se tudo estiver correto, clique em '<strong>Next</strong>'. </p>
+<p>Quando terminar, clique em <strong>'Continue'</strong>.</p>
 
-<h4>Passo 3: Configuração Web</h4>
-<p>Aqui você pode alterar a URL do painel administrativo do Magento e o endereço da loja. Outras configurações você pode deixar sem alterações. </p>
-<div class="alert alert-warning">Tome nota do camninho pro painel administrativo, ou crie seu próprio caminho de acesso ao painel administrativo.</span></div>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-5.jpg" alt="" /></figure>
-<p>Quando terminar, clique em '<strong>Next</strong>'. </p>
-
-<h4>Passo 4: Localização</h4>
-<p>Escolha o fuso horário, moeda e língua padrão da loja. Na seção <strong>Advanced Modules Configurations</strong> você também pode escolhar os módulos que devem/não devem ser instalados. Recomendamos que você não altere essa seção. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-6.jpg" alt="" /></figure>
-<p>Quando acabar, clique em '<strong>Next</strong>'.</p>
-
-<h4>Passo 5: Criar conta administrativa</h4>
-<p>Aqui você precisa incluir detalhes pessoais do dono da loja e administrador.</p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-7.jpg" alt="" /></figure>
-
-<h4>Passo 6: Instalar</h4>
-<p>A configuração da loja está terminada. Clique no botão <strong>Install Now</strong> para iniciar o processo de instalação da loja. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-8.jpg" alt="" /></figure>
-
-<h4>Passo 7: Sucesso</h4>
-<p>Este é o último passo. Copie a chave de encriptação exibida e mantenha-a segura. </p>
-<figure class="img-polaroid"><img src="img/magento/how-to-install-9.jpg" alt="" /></figure>
+<h4>Step 5: Tá tudo certo</h4>
+<p>Esse é o passo final da instalação. Copie a chave de encriptação e mantenha-a em um local seguro. Você pode usar os botões nos cantos inferiores direito e esquerdo para ver sua loja e o painel administrativo.</p>
+<figure class="img-polaroid"><img src="img/magento/how-to-install-5.jpg" alt="" /></figure>		

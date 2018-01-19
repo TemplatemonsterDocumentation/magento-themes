@@ -1,19 +1,17 @@
-<h3>Yükleme ve zipten çıkarma</h3>
+<h3>YÃ¼kleme ve unzipping</h3>
 
-<p>Magento ile çalışmaya başlamak için, dosyaları sunucunuza yüklemeniz gerekir. Bu işlem, sunucunuzun dosya yöneticisiyle veya üçüncü parti bir FTP programıyla yapılabilir.</p>
+<p>Magento ile Ã§alÄ±ÅŸmaya baÅŸlayabilmek iÃ§in barÄ±ndÄ±rma sunucunuza (Hosting) dosyalarÄ± yÃ¼klemeniz gerekmektedir. Bu iÅŸlem hosting dosya yÃ¶neticisi veya bazÄ± Ã¼Ã§Ã¼ncÃ¼ parti FTP yÃ¶neticisi kullanÄ±larak yapÄ±labilir.</p>
             
 <ol class="index-list">
-  <li>Öncelikle <strong>'unzip.php'</strong> ve <strong>'fullpackage.zip'</strong> dosyalarını sunucunuza yükleyin  (
-    <a href="/help/how-upload-files-server-2.html" target="_blank">Sunucuya nasıl dosya yüklenir</a>).</li>
-  <li><abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">Tarayıcınızın</abbr> adres çubuğuna <strong>'unzip.php'</strong> dosyasının yerini yazın (http://sitenizin_ismi/unzip.php).</li>
-  <li>
-  	Bu ekranla karşılaşacaksınız:
-  	<figure class="img-polaroid"><img src="img/magento/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
+  <li><strong>'unzip.php'</strong> ve <strong>'fullpackage.zip'</strong> dosyalarÄ±nÄ± seÃ§in ve sunucunuza yÃ¼kleyin(<a href="/help/how-upload-files-server-2.html" target="_blank">Sunucuya dosya nasÄ±l yÃ¼klenir.</a>).</li>
+  <li>Sunucunuzda 'unzip.php' dosya yolunuzu yazÄ±n (http://sizin_domain_adÄ±nÄ±z/unzip.php) kendi <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari vb.">internet tarayÄ±cÄ±nÄ±za</abbr>.</li>
+  <li>AÅŸÅŸaÄŸÄ±da bulunan ekranÄ± gÃ¶rmelisiniz:<figure class="img-polaroid"><img src="img/magento/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
   </li>
-  <li><strong>'Zip dosyanızı seçin'</strong> kısmından, yüklemiş olduğunuz <strong>fullpackage.zip</strong> dosyasını seçin.</li>
-  <li><strong>'Buraya çıkart'</strong> alanından, dosyaları çıkartmak istediğiniz dizini seçin.</li>
-  <li>İşlemi başlatmak için<strong>'Çıkart'</strong> düğmesine basın.</li>
+  <li><strong>'Choose your zip file'</strong> kutusundan lÃ¼tfen <strong>fullpackage.zip</strong> dosyasÄ±nÄ± seÃ§in.</li>
+  <li><strong>'Unzip to'</strong> dosyalarÄ± ayÄ±klamak istediÄŸiniz dizini belirtin.</li>
+  <li><strong>'Unzip'</strong> butonuna tÄ±klayarak iÅŸlemi baÅŸlatÄ±n.</li>
 </ol>
+
           
-<p class="alert alert-warning"><span>Dosyaları çıkartmayı planladığınız dizin için doğru izinleri ayarladığınıza emin olun. Sunucunuza göre ayarlar <strong>CHMOD 755 veya 777</strong> olmalıdır. </span></p>
+<p class="alert alert-warning"><span>DosyalarÄ± ayÄ±klamayÄ± planladÄ±ÄŸÄ±nÄ±z dizin iÃ§in dogru izinleri ayarladÄ±ÄŸÄ±nÄ±zdan emin olun. Ä°zinler sunucu yapÄ±landÄ±rmasÄ±na baÄŸlÄ± olarak <strong>CHMOD 755 veya 777</strong> olmalÄ±dÄ±r. </span></p>
 		
