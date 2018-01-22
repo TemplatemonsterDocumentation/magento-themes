@@ -1,7 +1,5 @@
 <h2 class="item5">Instalaci&oacute;n completa </h2>
 
-<p class="alert alert-info custom">Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</p>
-
 <p>El m&eacute;todo de instalaci&oacute;n completo se puede utiliza si desea configurar una tienda de Magento utilizando los datos de ejemplo. Suponemos que ha completado todos los pasos de preparaci&oacute;n.</p>
 <p>El proceso de instalaci&oacute;n consta de 3 etapas:</p>
 <ol class="index-list">
