@@ -15,7 +15,7 @@ if (!isset($sections)) {
     <meta name="format-detection" content="telephone=no"/>
     <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/magetique/"/>
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
+    <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css?v=1">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/js/helpers/jquery.fancybox-buttons.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/js/helpers/jquery.fancybox-thumbs.css">
@@ -67,6 +67,15 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
 <?php else: ?>
     <!-- Domain doesn't match. Google Tag Manager no added -->
 <?php endif; ?>
+<!-- Chat ======================================================== -->
+		<div class="zemez-chat-wrap">
+			<form class="zemez-chat" id="zemez-chat" method="GET">
+				<i id="zemez-chat-close" onclick="closeChat()"></i>
+				<input type="text" placeholder="Name:" name="uname" id="uname">
+				<input type="email" placeholder="Email Address:" name="umail" id="umail">
+				<span onclick="startChat()">Start chat</span>
+			</form>
+		</div>
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo">
@@ -160,6 +169,6 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
    
 </script>
 
-<script src="<?php echo $path; ?>/js/script.js" ></script>
+<script src="<?php echo $path; ?>/js/script.js?v=1" ></script>
 </body>
 </html>

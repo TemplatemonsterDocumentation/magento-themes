@@ -1,6 +1,8 @@
 <h2 class="item1">Magento theme installation</h2>
 <div class="alert alert-danger">This theme is not compatible with Magento 1.9 engine. It will work with the Magento 2.1.5 engine only.</div>
 
+<p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>
+
 <h3>Install theme on live store</h3>
 
 <p>If you already have a Magento store and want to apply the theme, follow the instruction below. To install the theme you only need to upload all the theme files to your server and then enable the theme in the admin panel. But to avoid unexpected problems after installation, you should first prepare your Magento. Please strictly follow the steps described in this guide:</p>
