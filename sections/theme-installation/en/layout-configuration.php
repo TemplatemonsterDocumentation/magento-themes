@@ -444,20 +444,15 @@
             <td>block_2_layout_2</td>
             <td>sources\demo\static_blocks\layout_2\block_2_layout_2.phtml</td>
         </tr>
+		
 		<tr>
             <td>3.</td>
-            <td>block_3_layout_2</td>
-            <td>block_3_layout_2</td>
-            <td>sources\demo\static_blocks\layout_2\block_3_layout_2.phtml</td>
-        </tr>
-		<tr>
-            <td>5.</td>
             <td>menu_block_2</td>
             <td>menu_block_2</td>
             <td>sources\demo\static_blocks\layout_2\menu_block_2.phtml</td>
         </tr>
 		<tr>
-            <td>6.</td>
+            <td>4.</td>
             <td>menu_block_3</td>
             <td>menu_block_3</td>
             <td>sources\demo\static_blocks\layout_2\menu_block_3.phtml</td>
