@@ -174,14 +174,9 @@
             <td>block_2_layout_1</td>
             <td>sources\demo\static_blocks\layout_1\block_2_layout_1.phtml</td>
         </tr>
+		
 		<tr>
             <td>3.</td>
-            <td>block_3_layout_1</td>
-            <td>block_3_layout_1</td>
-            <td>sources\demo\static_blocks\layout_1\block_3_layout_1.phtml</td>
-        </tr>
-		<tr>
-            <td>4.</td>
             <td>menu_block_1</td>
             <td>menu_block_1</td>
             <td>sources\demo\static_blocks\layout_1\menu_block_1.phtml</td>
