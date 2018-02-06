@@ -147,14 +147,6 @@
     
     <h4>Hosting</h4>
 	
-	<h4 style="margin-top:0;">Need a solid hosting provider? We recommend SiteGround!</h4>
-	
-	<p style="text-align:center;">
-		<a class="leadlink" target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
-		</a>
-	</p>
-	<h5 style="text-align:center;"><strong>High performance platform suitable for projects of all sizes</strong></h5>
-	
     <p>As Magento Commerce is a PHP/MySQL based application, you need to prepare a hosting environment to run Magento.</p>
     <p>If you have a live hosting, please make sure it matches with <a href="http://magento.com/resources/system-requirements" target="_blank"> Magento requirements </a> and is ready to be used for Magento store.</p>
     <p>Otherwise, you can run Magento locally on your computer using the local server. To create a local hosting server please use the localhost applications such as <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> etc. Any of those can be easily installed as any other program and used to run Magento. </p>
