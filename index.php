@@ -11,6 +11,19 @@ if (!isset($sections)) {
 <html>
 <head>
     <title><?php echo $doc_title; ?></title>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=complete-installation"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento"/>
+    <link rel="canonical" href="https://zemez.io/magento"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=conclusion"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=conclusion"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=magento-services#magento-2"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=magento-services#magento-1"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=flash&lang=en&section=introduction"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/knowledge-base/magento-2-install-theme-live-store"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/knowledge-base/magento-2-install-theme-live-store"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-activate-new-magento-theme"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-change-logo"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=f2&lang=en&section=theme-installation#static-blocks-configuration"/>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
     <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/magento-themes/v4-2/"/>

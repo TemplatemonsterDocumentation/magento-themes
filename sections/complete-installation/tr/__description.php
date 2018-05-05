@@ -1,9 +1,31 @@
-<h2> Tam kurulum </h2>
-<p>Eğer örnek içerik kullanarak bir Magento e-mağazasına sahip olmak isterseniz tam kurulum metodunu kullanabilirsiniz. Elbette öncesinde, tüm hazırlık aşamalarını tamamlamalısınız.</p>
-<p>Kurulumda 3 adım bulunmaktadır:</p>
-<ol class="index-list">
-    <li>Veritabanı oluşturmak.</li>
-    <li>Gerekli dosyaları sunucuya yüklemek.</li>
-    <li>Satın aldığınız şablonla birlikte Magento E-Mağaza altyapısını kurmak.</li>
+<h2 class="item7">SonuÃ§</h2>
+<p>Magento, sanal maÄŸazanÄ±z iÃ§in mÃ¼kemmel bir Ã§Ã¶zÃ¼m aracÄ±dÄ±r. Paketin iÃ§inde, baÅŸarÄ±lÄ± bir satÄ±ÅŸ saÄŸlayabilmeniz iÃ§in gereken tÃ¼m modÃ¼ller bulunmaktadÄ±r. AÃ§Ä±k kaynak, mÃ¼ÅŸterilerinize muhteÅŸem seÃ§enekler sunmanÄ±zÄ± saÄŸlar. Yine de ileri dÃ¼zeyde bir kullanÄ±m iÃ§in, Magento'nun detaylÄ± yapÄ±sÄ± aÃ§Ä±sÄ±ndan, buradaki kÄ±lavuzdan daha fazlasÄ±na ihtiyacÄ±nÄ±z olabilir.</p>
+<p>AÅŸaÄŸÄ±daki kaynaklar tam bir Magento ustasÄ± olmanÄ±za yardÄ±mcÄ± olacaktÄ±r:</p>
+<h4 id="useful_resources">KullanÄ±ÅŸlÄ± kaynaklar</h4>
+<ul class="marked-list">
+<li><a href="https://zemez.io/magento/support/">ZEMEZ Support</a></li>
+    <li><a target="_blank" href="http://www.magentocommerce.com/support/magento-user-guide-book">Resmi Magento KullanÄ±cÄ± KÄ±lavuzu</a></li>
+    <li><a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a></li>
+    <li><a target="_blank" href="http://www.magentocommerce.com/knowledge-base">Bilgi TabanÄ±</a></li>
+    <li><a target="_blank" href="http://www.magentocommerce.com/boards/">Magento Forum</a></li>
+    <li><a target="_blank" href="/help/ecommerce/magento/magento-tutorials/">Magento rehberleri</a></li>
+</ul>
+
+<h4>Help and Support</h4>
+<ul class="marked-list">
+    <li><a href="http://chat.template-help.com/" target="_blank">Live chat</a></li>
+    <li><a href="http://support.template-help.com/index.php?/Tickets/Submit"  target="_blank">Help ticket system</a></li>
+</ul>
+
+
+<h4>Loading data from Google servers</h4> 
+Some countries have issues connecting to Google servers. This can cause issues loading Google Fonts from Google CDN. To resolve these issues please do the following:
+<ol class="index-list"> 
+    <li>Open <strong>app\design\frontend\default\theme***\template\page\html\head.phtml</strong></li> 
+    <li>Locate the line:
+<pre class="prettyprint">
+    &lt;link href='//fonts.googleapis.com/css?family=[---your_web_font_name_here---]' rel='stylesheet' type='text/css' /></pre></li> 
+    <li>Replace it with the following: <br> 
+<pre class="prettyprint">
+    &lt;link href='//fonts.useso.com/css?family=[---your_web_font_name_here---]' rel='stylesheet' type='text/css' /></pre></li> 
 </ol>
-<p>Haydi başlayalım!</p>
