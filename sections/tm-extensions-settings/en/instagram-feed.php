@@ -231,5 +231,9 @@
 			<td>specify the HTML selector for the left sidebar.</td>
 		</tr>	
 	</table>
-
-		
+	<h6>
+	  <p><strong>Useful Tutorial:</strong></p>
+</h6>
+<ul class="marked-list">
+      <li><a href="https://zemez.io/magento/support/how-to/magento-how-to-get-instagram-access-token/"> How to Get Instagram Access Token?</a></li>
+</ul>
