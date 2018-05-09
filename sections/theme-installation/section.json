@@ -2,7 +2,7 @@
 	"id":"theme-installation",
 	"translations":
 	{
-		"en":"Theme installation",
+		"en":"Theme Installation",
 		"ru":"Установка темы Magento",
 		"tr":"Tema kurulumu",
 		"de":"Installation des Magento Themas",
@@ -17,7 +17,7 @@
 		{
 			"id":"template-configuration",
 			"translations":{
-				"en":"Template configuration",
+				"en":"Template Configuration",
 				"ru":"Настройка шаблона",
 				"tr":"Şablon ayarları",
 				"de":"Einstellung der Vorlage",
@@ -31,7 +31,7 @@
 		{
 			"id":"logo-configuration",
 			"translations":{
-				"en":"Logo configuration",
+				"en":"Logo Configuration",
 				"ru":"Настройка логотипа",
 				"tr":"Logo ayarları",
 				"de":"Einstellung des Logos",
@@ -45,7 +45,7 @@
 		{
 			"id":"pages-configuration",
 			"translations":{
-				"en":"Pages configuration",
+				"en":"Pages Configuration",
 				"ru":"Настройка страниц",
 				"tr":"Sayfa ayarları",
 				"de":"Seiteneinstellungen",
@@ -59,7 +59,7 @@
 		{
 			"id":"static-blocks-configuration",
 			"translations":{
-				"en":"Static blocks configuration",
+				"en":"Static Blocks Configuration",
 				"ru":"Настройка статических блоков",
 				"tr":"Sabit kutu ayarları",
 				"de":"Einstellung der statischen Blöcke",

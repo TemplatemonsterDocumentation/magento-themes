@@ -33,5 +33,14 @@
 	<li>Don't forget to select the valid "<strong>Layout</strong>" option.</li>
 	<li>In case you need to add a new page, click the <strong>"Add New Page"</strong> button in the top right corner.</li>
 </ol>
+<h5>
+  <p><strong>Useful Tutorials:</strong></p>
+</h5>
+<ol class="index-list">
+  <li><a href="https://zemez.io/magento/support/how-to/magento-2-how-to-change-the-home-page/" target="_blank">How to Change the Home Page?</a></li>
+  <li><a href="https://zemez.io/magento/support/how-to/magento-2-add-new-page/" target="_blank">How to Add New Page?</a></li>
+  <li><a href="https://zemez.io/magento/support/how-to/magento-2-how-to-add-new-widget-to-page/" target="_blank">How to Add New Widget on the Page?</a></li>
+</ol>
+<p>&nbsp;</p>
 
 <!-- <p>In case you have any difficulties, please check the detailed tutorial on <a target="_blank" href="/help/magento-how-to-install-sample-content-pages-manually.html">How to configure pages manually</a>.</p> -->		

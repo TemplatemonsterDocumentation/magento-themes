@@ -99,7 +99,7 @@ Note, the <strong>price</strong> depends on individual customers' needs.</div>
        <tr>
           <td>12.</td>
           <td><strong>Sample Data Content Removing</strong></td>
-          <td><p>We will remove Sample Data Content, such as:</p>
+          <td><p>We will remove Samle Data Content, such as:</p>
             <ul class="marked-list">
               <li>website, stores, store views</li>
               <li>categories</li>

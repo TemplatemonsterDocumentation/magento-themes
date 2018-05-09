@@ -2,31 +2,11 @@
 	"id":"complete-installation",
 	"translations":
 	{
-		"en":"Complete installation"
+		"en":"Complete Installation"
 		
 	},
 	"articles":
-	[		
-		{
-			"id":"creating-database",
-			"translations":{
-				"en":"Creating a database"
-				
-			}
-		},		
-		{
-			"id":"uploading",
-			"translations":{
-				"en":"Uploading and unzipping"
-				
-			}
-		},
-		{
-			"id":"ps_engine_install",
-			"translations":{
-				"en":"Magento engine installation"
-				
-			}
-		}		
-	]
+	{
+		
+	}
 }

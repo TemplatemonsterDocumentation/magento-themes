@@ -1,4 +1,4 @@
-<h3>Static blocks configuration</h3>
+<h3>Static Blocks Configuration</h3>
 <p align="justify">When you are done with the  pages configuring, you need to configure the static blocks. The procedure is similar: you need to copy the code from the source files and paste it to the corresponding fields in the Magento admin panel. You need to use a similar table but for the static blocks.</p>
 <p align="justify" class="alert alert-warning"><span>Block ID may vary in your Magento installation. You can get correct block id from<strong> Content </strong>> <strong>Blocks</strong> section in Admin panel.</span></p>
 <ol class="index-list"> 
@@ -39,3 +39,14 @@
 	</li>
 </ol>
 <p>When you are done configuring store pages and blocks, your store is ready to go.</p>
+<h5><p><strong>Useful Tutorials:</strong></p>
+  
+</h5>
+<ol class="index-list">
+  <li><a href="https://zemez.io/magento/support/how-to/magento-2-1-x-add-cms-static-block/" target="_blank">Magento 2. How to Add CMS Static Block?</a></li>
+  <li><a href="https://zemez.io/magento/support/how-to/how-to-change-cms-static-block-widget-link-banner-link/" target="_blank">How to Change the CMS Static Block Widget Link (Banner Link)?</a></li>
+  <li><a href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-change-the-banner-image/" target="_blank">How to Change the Banner Image (CMS Static Block Widget)?</a></li>
+  <li><a href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-add-cms-block-and-widget-to-the-page/" target="_blank">How to Create CMS Block and Widget?</a></li>
+</ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
