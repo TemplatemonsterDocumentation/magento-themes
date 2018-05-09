@@ -1,9 +1,9 @@
-<h3>Logo ayarlarÄ±.</h3>
-<p>Bu adÄ±mlarÄ±, tema paketinde bulunan logo gÃ¶rselini ayarlarken uygulayÄ±n. (Demo sayfamÄ±zda gÃ¶rebilirsiniz).</p>
+<h3>Logo düzenlemesi</h3>
+<p>Tema paketindeki logo görselini (demo sayfasından görebilirsiniz) düzenlerken lütfen şu adımları izleyin.</p>
 <ol class="index-list"> 
-	<li>Magento yÃ¶netici paneline girin ve Ã¼st menÃ¼den <strong>System > Configuration</strong> (Sistem/Ayarlar) a tÄ±klayÄ±n. <figure class="img-polaroid"><img src="img/magento/Theme-set-8.jpg" alt="" /></figure></li>
-	<li>Buradan "<strong>TasarÄ±m</strong>" sekmesini seÃ§in. <figure class="img-polaroid"><img src="img/magento/Theme-set-9.jpg" alt="" /></figure>	</li>
-	<li>Buradaki "<strong>Ãœst kÄ±sÄ±m</strong>" bÃ¶lÃ¼mÃ¼nden, "<strong>Logo Image Src</strong>" deÄŸerini deÄŸiÅŸtirin. Bunu "<strong>gif</strong>" den "<strong>png</strong>" ye deÄŸiÅŸtirebilirsniz.</li>
-	<li>ArdÄ±ndan <strong>"AyarlarÄ± Kaydet"</strong> e tÄ±klayÄ±n.</li>
+	<li>Magento yönetici panelini açın ve yandaki menüden <strong>Mağazalar > Ayarlar</strong> kısmına girin.<figure class="img-polaroid"><img src="img/magento/Theme-set-9.jpg" alt="" /></figure></li>
+	<li>Buradan "<strong>Genel</strong>" sekmesini seçin.<figure class="img-polaroid"><img src="img/magento/Theme-set-10.jpg" alt="" /></figure>		</li>
+	<li>"<strong>Genel</strong>" bölümünden <strong>Tasarım</strong> sekmesine girin. <strong>Header</strong> kısmından logonuzu yükleyin.
+	<li>Kaydetmek için <strong>"Ayarları Kaydet"</strong> düğmesine basın.</li>
 </ol>
-<p>Åirket logonuzu yÃ¼klemek iÃ§in, logo gÃ¶rselinizi Magento temasÄ±nÄ±n <strong>/images</strong> dizinine yÃ¼klemeniz gerekmektedir.</p>	
+<p>Şirket logonuzu koymak için, logo görselinizi Magento temanızdaki <strong>/images</strong> klasörüne yükleyin.</p>	

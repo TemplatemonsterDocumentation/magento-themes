@@ -1,22 +1,22 @@
-<h3>Sayfa ayarlarÄ±</h3>
-<p>Åablonunuzun demomuzdaki gÃ¶rÃ¼nmesini istiyorsanÄ±z, maÄŸaza sayfalarÄ±nÄ±zÄ± Ã¶zelleÅŸtirmeniz gerekir. Sayfa kaynak kodlarÄ±yla birlikte tÃ¼m dosyalarÄ± saÄŸlamaktayÄ±z. AÅŸaÄŸÄ±daki bilgileri kullanarak Magento yÃ¶netici panelinizden tablo ayarlamasÄ±yla, bu iÅŸlemi yapabilirsiniz. Tablo ayarlamasÄ±, ÅŸablonun gÃ¶rÃ¼ntÃ¼lenme sayfasÄ±ndaki <strong>Teknik detaylar</strong> alanÄ±nda bulunmaktadÄ±r. Dosyada ÅŸu sayfaya baÄŸlantÄ± bulunmaktadÄ±r:</p>
+<h3>Sayfa ayarları</h3>
+<p>Şablonunuzun demomuzdaki gibi görünmesi için mağaza sayfalarını özel olarak ayarlamanız gerekir. Tüm dosyaları kaynak koduyla birlikte sağlamaktayız. Bunları aşağıdaki adımlarla, Magento yönetici panelinize eklemeniz gerekmektedir. Ayar tablosu, şablon önizleme sayfasındaki <strong>Teknik detaylar details</strong> sayfasında yer almaktadır. Rehber dosyası şu sayfaya bağlantılıdır:</p>
 <ul class="files_structure">
-	<li class="folder"><i class="fa fa-folder-open"></i> <strong>Documentation</strong>
+	<li class="folder"><i class="fa fa-folder-open"></i> <strong>Dokümantasyon</strong>
 		<ul>
 			<li class="file"><i class="fa fa-file"></i> documentation.html</li>
 		</ul>
 	</li>
 </ul>			
-<p>Bu ana ÅŸablon sayfasÄ± etkin olacaktÄ±r. Ä°Ã§eriÄŸinde: bannerlar, kayan yazÄ±lar, galeri, vs. bulunmaktadÄ±r.</p>
-<div class="alert alert-warning"><span>WYSIWYG editÃ¶rÃ¼ pasifleÅŸtirmenizi Ã¶neririz. Bunun iÃ§in, yÃ¶netici panelindeki Ã¼st menÃ¼den  <strong>System &gt; Configuration</strong> (Sistem/Ayarlar) bÃ¶lÃ¼mÃ¼ne girin. Buradan "<strong>Ä°Ã§erik YÃ¶neticisi</strong>" ni seÃ§in ve <strong>WYSIWYG AyarlarÄ±</strong> penceresinden "<strong>WYSIWYG EditÃ¶rÃ¼ EtkinleÅŸtir</strong>" seÃ§eneÄŸini "<strong>Tamamen PasifleÅŸtir </strong>" olarak deÄŸiÅŸtirin.</span></br>
-<figure class="img-polaroid"><img src="img/magento/pages-setting-1.jpg" alt="" /></figure></div>
-<p class="alert alert-warning"><span>Sayfa kodlarÄ±nÄ±zÄ± zaten deÄŸiÅŸtirdiyseniz ve herhangi bir deÄŸiÅŸiklik olmadan kodlarÄ±nÄ±zÄ± eklemek istiyorsanÄ±z, profesyonel teknisyenlerle iletiÅŸime geÃ§ip yapÄ±lacak olan deÄŸiÅŸikliklerden Ã¶nce bir yedekleme yapmanÄ±zÄ± tavsiye ederiz.</span></p>
+<p>En çok ana şablo sayfası etkilenecektir. Genel olarak şu ögeleri içerir: bannerlar, slider(kaydıraç), galleri vs.</p>
+<div class="alert alert-warning"><span>WYSIWYG editörünü kapatmanızı öneririz. Bunun için, yönetici sayfasının üstündeki menüden <strong>Mağazalar &gt; Ayarlar</strong> kısmına girin. Ardından "<strong>İçerik Yöneticisi</strong>" bölümüne geçin ve <strong>WYSIWYG Seçenekleri</strong> penceresinden "<strong>WYSIWYG Editörü Aç</strong>" seçeneğini "<strong>Tamamen Kapatıldı</strong>" olarak değiştirin.</span></br>
+<figure class="img-polaroid"><img src="img/magento/page-settings-1.jpg" alt="" /></figure></div>
+<p class="alert alert-warning"><span>Sayfa kodlarınızda değişiklik yapmışsanız ve bu değişiklikleri etkilemeden bizim kodlarımızı eklemek istiyorsanız, profesyonel teknisyenlerle iletişime geçmenizi veya herhangi bir değişiklik yapmadan önce mutlaka yedek almanızı öneririz.</span></p>
 <ol class="index-list">
-	<li>Ãœst menÃ¼den <strong>CMS > Pages</strong> (CMS/Sayfalar) kÄ±smÄ±na girin. Burada tÃ¼m maÄŸaza sayfalarÄ±nÄ±z bulunmaktadÄ±r. <strong>Anasayfa</strong>, <strong>HakkÄ±mÄ±zda</strong> ve <strong>MÃ¼ÅŸteri Hizmetleri</strong> zaten bulunmakta, o yÃ¼zden bunlarÄ± eklemenize gerek yok. Sadece HTML ve XML iÃ§eriklerini gÃ¼ncellemelisiniz. Ä°Ã§eriÄŸe eriÅŸebilmek iÃ§in herhangi birini aÃ§Ä±n. <figure class="img-polaroid"><img src="img/magento/pages-setting-2.jpg" alt="" /></figure></li>
-	<li>SayfayÄ± Ã§Ä±n <strong>Ä°Ã§erik</strong> sekmesine tÄ±klayÄ±n. Burada sayfanÄ±n HTML kodlarÄ± vardÄ±r. SayfanÄ±n HTML kodunu uygun bir kaynak dosyadan alabilirsiniz. Åablon gÃ¶rÃ¼ntÃ¼leme sayfanÄ±zÄ±n, "Åablon AyarlarÄ±" kÄ±smÄ±ndan, kaynak dosya listesini gÃ¶rebilirsiniz. Kodu kaynak dosyadan kopyalayÄ±p <strong>iÃ§erik</strong> alanÄ±na yapÄ±ÅŸtÄ±rÄ±n. <figure class="img-polaroid"><img src="img/magento/pages-setting-3.jpg" alt="" /></figure></li>
-	<li>HTML kodlamayla iÅŸiniz bittiÄŸinde, tekrar <strong>"TasarÄ±m"</strong> gÃ¶rÃ¼ntÃ¼lemeyi etkinleÅŸtirin. Burada XML kod bulunur. XML kod, sayfanÄ±za sabit bloklar ve bileÅŸenler eklemenizi saÄŸlar. XML kod da tÄ±pkÄ± HTML'de olduÄŸu gibi kaynak koddan kopyalanmalÄ±dÄ±r. XML kodunu "<strong>XML GÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ GÃ¼ncelle</strong>" alanÄ±na kopyalayÄ±n. <figure class="img-polaroid"><img src="img/magento/pages-setting-4.jpg" alt="" /></figure></li>
-	<li>GeÃ§erli olan "<strong>GÃ¶rÃ¼nÃ¼m</strong>" seÃ§eneÄŸini seÃ§meyi unutmayÄ±n.</li>
-	<li>Yeni bir sayfa eklemek isterseniz, saÄŸ Ã¼st kÃ¶ÅŸede bulunan <strong>"Yeni Sayfa Ekle"</strong> dÃ¼ÄŸmesine basÄ±n.</li>
+	<li>Üst menüden <strong>İçerik > Sayfalar</strong> kısmına girin. Tüm mağaza sayfaları burada yer alır. <strong>Anasayfa</strong>, <strong>Hakkımızda</strong> ve <strong>Müşteri Hizmetleri</strong> zaten eklenmiş durumdadır. Bunları tekrar eklemenize gerek yok. Sadece HTML ve XML sayfalarını güncellemeniz yeterli olacaktır. İçeriğine erişmek istediğiniz sayfayı açın.<figure class="img-polaroid"><img src="img/magento/page-settings-2.jpg" alt="" /></figure></li>
+	<li>Sayfayı açıp <strong>İçerik</strong> sekmesine girin. Burada sayfanın HTML kodları yer alır. HTML kodunu uygun bir kaynak dosyasından alabilirsiniz. Şablon öngösterim sayanızdaki "Şablon Ayarları" kısmından kaynak dosya listesini görüntüleyebilirsiniz. Kaynak dosyadan kodu kopyalayın ve <strong>içerik</strong> alanına yapıştırın.<figure class="img-polaroid"><img src="img/magento/page-settings-3.jpg" alt="" /></figure></li>
+	<li>HTML kod ile işiniz bittiğinde <strong>"Tasarım"</strong> sekmesine basın. Burada XML kodlar yer alır. XML kod sayesinde sayfanıza Magento sabit kutucukları ve bileşenleri ekleyebilirsiniz. XML kodu da tıpkı HTML gibi kopyalanmalıdır. XML kodu "<strong>Layout Update XML</strong>" (XML Tasarımını Güncelle) alanına kopyalayın.<figure class="img-polaroid"><img src="img/magento/page-settings-4.jpg" alt="" /></figure></li>
+	<li>Uygun olan "<strong>Tasarım</strong>" ı seçmeyi unutmayın.</li>
+	<li>Yeni bir sayfa eklemek için sağ üst köşeden <strong>"Yeni Sayfa Ekle"</strong> düğmesine basın.</li>
 </ol>
 
-<p>Herhangi aÅŸamada zorluk yaÅŸarsanÄ±z, <a target="_blank" href="/help/magento-how-to-install-sample-content-pages-manually.html">SayfalarÄ± manuel olarak ayarlamak</a> adresindeki detaylÄ± anlatÄ±mÄ± inceleyiniz.</p>		
+<!-- <p>In case you have any difficulties, please check the detailed tutorial on <a target="_blank" href="/help/magento-how-to-install-sample-content-pages-manually.html">How to configure pages manually</a>.</p> -->		

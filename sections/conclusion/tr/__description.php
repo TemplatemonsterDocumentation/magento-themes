@@ -3,6 +3,7 @@
 <p>Aşağıdaki kaynaklar tam bir Magento ustası olmanıza yardımcı olacaktır:</p>
 <h4 id="useful_resources">Kullanışlı kaynaklar</h4>
 <ul class="marked-list">
+<li><a href="https://zemez.io/magento/support/">ZEMEZ Support</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/support/magento-user-guide-book">Resmi Magento Kullanıcı Kılavuzu</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/knowledge-base">Bilgi Tabanı</a></li>

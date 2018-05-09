@@ -1,22 +1,22 @@
-<h3>Einstellung der Seiten</h3>
-<p>Damit das gekaufte von Ihnen Thema genauso wie Live Demo der Vorlage aussieht, sollen Sie die Seiten des Online-Shop entsprechend einstellen. Wir stellen alle notwendigen Quelldateien mit der Codeseite zur Verfügung. Sie sollen sie ins Control Panel des Online-Shops nach der Anleitung eingeben, indem Sie die Tabelle der Einstellungen nutzen. Die Tabelle der Einstellungen befindet sich auf der Seite <strong>Technical details</strong> auf Live Demo der gekauften von Ihnen Vorlage. Den Link zur ihr gibt es in der Dokumentationsdatei, die Sie mit der Vorlage erhalten haben:</p>
+<h3>Pages Konfiguration</h3>
+<p>Damit Ihre Vorlage genauso wie unsere Live-Demo aussieht, müssen Sie Store-Seiten in einer bestimmten Art und Weise einrichten. Wir liefern alle Dateien mit dem Seiten-Quellcode.Sie müssen sie zur Magento Admin-Panel hinzufügen, gemäß den nächsten Anweisungen mit der Einstellungen-Tabelle. Einstellungen-Tabelle können Sie auf der  <strong>Technical details</strong> auf der Vorlage Vorschau-Seite sehen. Die Dokumentationsdatei enthält den Link zu dieser Seite :</p>
 <ul class="files_structure">
-	<li class="folder"><i class="fa fa-folder-open"></i> <strong>Documentation</strong>
+	<li class="folder"><i class="fa fa-folder-open"></i> <strong>Dokumentation</strong>
 		<ul>
 			<li class="file"><i class="fa fa-file"></i> documentation.html</li>
 		</ul>
 	</li>
 </ul>			
-<p>Die meisten Änderungen werden die Hauptseite der Vorlage beeinflussen, die die folgenden Elemente enthalten kann: Banner, Slider, Galerie, flash Animation usw. Um diese Blöcke zum Online-Shop hinzuzufügen, folgen Sie der Anleitung.</p>
-<div class="alert alert-warning"><span>Wir empfehlen den WYSIWYG Editor zu deaktivieren. Um dies zu machen, wählen Sie in dem oberen Menü des Control Panels <strong>System &gt; Configuration</strong>. Öffnen Sie den Bereich "<strong>Content Management</strong>" und im Fenster <strong>WYSIWYG Options</strong> ersetzen Sie "<strong>Enable WYSIWYG Editor</strong>" durch "<strong>Disabled Completely</strong>".</span></br>
-<figure class="img-polaroid"><img src="img/magento/pages-setting-1.jpg" alt="" /></figure></div>
-<p class="alert alert-warning"><span>Wenn Sie schon die Änderungen in dem Code Ihrer Seiten vorgenommen haben und unseren Code zu ihnen hinzufügen, aber Ihre Änderungen nicht verletzen möchten, ist es am besten den Kontakt mit dem Spezialisten aufzunehmen oder die Sicherungskopie zu erstellen.</span></p>
+<p>Die Hauptvorlagen Seite wird am meisten betroffen sein. Es enthält in der Regel folgende Elemente: Banner, Slider, Galerie usw.</p>
+<div class="alert alert-warning"><span>Wir empfehlen, dass Sie den WYSIWYG-Editor deaktivieren. Um dies zu tun,wählen Sie aus dem Admin-Hauptmenü  <strong>Stores &gt; Configuration</strong>. Öffnen Sie die "<strong>Content Management</strong>" Sektion und im <strong>WYSIWYG Options</strong> Fenster, setzen Sie die "<strong>Enable WYSIWYG Editor</strong>" Option zu "<strong>Disabled Completely</strong>".</span></br>
+<figure class="img-polaroid"><img src="img/magento/page-settings-1.jpg" alt="" /></figure></div>
+<p class="alert alert-warning"><span>Falls Sie bereits die Änderungen an Ihren Seiten Code vorgenommen habe und unseren Code hinzufügen möchten , ohne die Änderungen zu beeinflussen, ist es empfehlenswert, professionelle Techniker zu kontaktieren oder einen Backup zu erstellen bevor Sie Änderungen vornehemen. </span></p>
 <ol class="index-list">
-	<li>In dem oberen Menü wählen Sie <strong>CMS > Pages</strong>. Hier befinden sich alle Seiten des Online-Shops. <strong>Home page</strong>, <strong>About Us</strong> und <strong>Customer Service</strong> müssen verfügbar sein, weil Sie sie hinzufügen sollen. Sie sollen nur HTML und XML Inhalt der Seiten aktualisieren. Öffnen Sie eine von ihnen, um den Zugang zum Inhalt zu erhalten. <figure class="img-polaroid"><img src="img/magento/pages-setting-2.jpg" alt="" /></figure></li>
-	<li>Öffnen Sie die Seite und wählen Sie den Tab <strong>Content</strong>. Sie enthält HTML Code der Seite. Sie können den notwendigen Code aus der entsprechenden Quelldatei nehmen. Die Liste der Quelldateien können Sie in der Tabelle unten finden. Kopieren Sie den Code aus der Quelldatei und fügen Sie ihn in den Bereich <strong>content</strong> ein.<figure class="img-polaroid"><img src="img/magento/pages-setting-3.jpg" alt="" /></figure></li>
-	<li>Wenn Sie mit dem Code fertig sind, gehen Sie zum Tab <strong>"Design"</strong>. Sie enthält XML Code der Seite. XML Code muss genauso wie HTML aus der Quelldatei kopiert werden. Fügen Sie den neuen Code in den Bereich "<strong>Layout Update XML</strong>" ein.<figure class="img-polaroid"><img src="img/magento/pages-setting-4.jpg" alt="" /></figure></li>
-	<li>Vergessen Sie nicht, die notwendige Einstellung "<strong>Layout</strong>" zu wählen.</li>
-	<li>Falls Sie eine neue Seite brauchen, drücken Sie auf den Button <strong>"Add New Page"</strong> in der oberen rechten Ecke.</li>
+	<li>Aus dem Hauptmenü wählen Sie <strong>Content > Pages</strong>. Hier können Sie alle Shop-Seiten finden. <strong>Home page</strong>, <strong>About Us</strong> und <strong>Customer Service</strong> sollten bereits vorhanden sein, damit man sie nicht hinzufügen muss. Sie müssen nur die HTML-Seiten und XML-Inhalte aktualisieren. Öffnen Sie eine von ihnen, um den Zugriff auf die Inhalte zu erhalten.<figure class="img-polaroid"><img src="img/magento/page-settings-2.jpg" alt="" /></figure></li>
+	<li>Öffnen Sie die Seite und wählen Sie das <strong>Content</strong> Tab. Es enthält den HTML-Code der Seite. Sie können den Seite HTML-Code aus der entsprechenden Quelldatei übernehmen . Sie können die Liste der Quelldateien in der "Template-Einstellungen" auf der Vorlagen Vorschauseite finden . Kopieren Sie den Code aus der Quelldatei und fügen Sie sie in den <strong>Inhalts</strong> Bereich.<figure class="img-polaroid"><img src="img/magento/page-settings-3.jpg" alt="" /></figure></li>
+	<li>Wenn Sie mit dem HTML-Code fertig sind, wechseln Sie zum  <strong>"Design"</strong> Tab. Es enthält den Seiten XML-Code. XML-Code erlaubt Ihnen Magento statische Blöcke und Widgets zur Seite hinzuzufügen. Der XML-Code sollte auf die gleiche Weise wie die HTML aus der Quelldatei kopiert werden. Kopieren Sie den XML-Code zum "<strong>Layout Update XML</strong>" Bereich.<figure class="img-polaroid"><img src="img/magento/page-settings-4.jpg" alt="" /></figure></li>
+	<li>Vergessen Sie nicht, die richtige  "<strong>Layout</strong>" Option zu wählen.</li>
+	<li>Wenn Sie eine neue Seite hinzufügen möchten, klicken Sie auf den <strong>"Add New Page"</strong> Knopf oben rechts.</li>
 </ol>
 
-<p>Wenn Sie Schwierigkeiten haben, nutzen Sie dann die ausführliche Anleitung <a target="_blank" href="/help/de/magento-how-to-install-sample-content-pages-manually.html">Wie installiert man die Seiten des Demoinhalts manuell</a>.</p>		
+<!-- <p>In case you have any difficulties, please check the detailed tutorial on <a target="_blank" href="/help/magento-how-to-install-sample-content-pages-manually.html">How to configure pages manually</a>.</p> -->		
