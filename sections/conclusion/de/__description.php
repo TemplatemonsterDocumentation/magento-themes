@@ -3,6 +3,7 @@
 <p>Um Magento Fachmann zu werden, benötigen Sie folgende Ressourcen:</p>
 <h4 id="useful_resources">Nützliche Ressourcen</h4>
 <ul class="marked-list">
+    <li><a href="https://zemez.io/magento/support/">ZEMEZ Support</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/support/magento-user-guide-book">Offizielle Anleitung des Magento Benutzers</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/wiki/">Magento Wiki</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/knowledge-base">Wissensdatenbank</a></li>

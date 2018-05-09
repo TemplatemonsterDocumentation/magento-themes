@@ -20,6 +20,49 @@ if (!isset($sections)) {
     <link rel="stylesheet" href="<?php echo $path; ?>/js/helpers/jquery.fancybox-buttons.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/js/helpers/jquery.fancybox-thumbs.css">
 
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=complete-installation"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento"/>
+    <link rel="canonical" href="https://zemez.io/magento"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=conclusion"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=conclusion"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=magento-services#magento-2"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=magetique&lang=en&section=magento-services#magento-1"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=flash&lang=en&section=introduction"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/knowledge-base/magento-2-install-theme-live-store"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/knowledge-base/magento-2-install-theme-live-store"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-activate-new-magento-theme"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-change-logo"/>
+    <link rel="canonical" href="http://documentation.zemez.io/magento/index.php?project=f2&lang=en&section=theme-installation#static-blocks-configuration"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magetique-how-to-manage-ajax-wishlist-extension/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-add-a-new-blog-post/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-how-to-add-new-blog-category/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magetique-how-to-manage-blog-extension/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-catalog-images-grid-module/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-add-catalog-image-grid-widget/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-manage-ajax-search-module/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/manage-featured-products-widget/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-add-slider-to-the-page-film-slider/"/>
+    <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-add-slides-film-slider/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-manage-film-slider/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-google-map-extension-2/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-x-manage-mega-menu/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-manage-newsletter-pop-up-extension/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-manage-newsletter-pop-up-extension/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-parallax-module/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-ajax-compare-module/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-site-maintenance-module/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-site-maintenance-module/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-smart-product-labels-extension-display-settings/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-add-new-product-label-smart-product-labels/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-social-login-module/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-set-countdown-price-timer/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-special-price-timer-extension/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-manage-shop-brand-module/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-add-new-brand/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-manage-theme-options-extension/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-change-product-image-width-height-category-page/"/>
+   <link rel="canonical" href="https://zemez.io/magento/support/how-to/magento-2-1-x-how-to-manage-category-page-product-page-theme-options/"/>
+
     <script src="<?php echo $path; ?>/js/jquery.js"></script>
     <script src="<?php echo $path; ?>/js/jquery-migrate-1.2.1.js" ></script>
     <script src="<?php echo $path; ?>/js/jquery.easing.1.3.js" ></script>

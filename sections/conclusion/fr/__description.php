@@ -3,6 +3,7 @@
 <p>Les ressources suivantes vous aideront à devenir un vrai professionnel Magento:</p>
 <h4 id="useful_resources">Ressources utiles</h4>
 <ul class="marked-list">
+<li><a href="https://zemez.io/magento/support/">ZEMEZ Support</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/support/magento-user-guide-book">Le Guide d'Utilisateur Officiel de Magento</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/wiki/">Wiki de Magento</a></li>
     <li><a target="_blank" href="http://www.magentocommerce.com/knowledge-base">Base de Connaissances</a></li>
